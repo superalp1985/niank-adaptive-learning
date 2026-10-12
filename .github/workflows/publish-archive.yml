@@ -1,0 +1,30 @@
+name: Publish verified research archive
+
+on:
+  push:
+    branches:
+      - "codex/archive-*"
+    paths:
+      - "upload/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    if: startsWith(github.ref_name, 'codex/archive-')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify staged parts
+        run: python3 upload/verify_parts.py
+      - name: Publish release assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          tag="$(python3 -c 'import json; print(json.load(open("upload/manifest.json"))["tag"])')"
+          gh release view "$tag" >/dev/null 2>&1 || \
+            gh release create "$tag" --target main --title "$tag" --notes-file upload/release-notes.md
+          gh release upload "$tag" upload/*.part* upload/manifest.json --clobber
