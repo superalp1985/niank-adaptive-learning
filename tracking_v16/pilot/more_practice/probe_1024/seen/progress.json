@@ -1,0 +1,11 @@
+{
+  "step": 1024,
+  "experiences": 18432,
+  "completed_episodes": 70,
+  "success": 0.8714285714285714,
+  "collision": 0.15364583333333334,
+  "impact": 0.1,
+  "reward": 0.2860676646232605,
+  "preupdate_mse": 0.0020048185251653194,
+  "prediction_loss": null
+}

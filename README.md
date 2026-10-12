@@ -8,7 +8,10 @@
 - [V10 研究报告](allocation_v10/REPORT_V10_ZH.md)
 - [V11 研究报告](allocation_v11/REPORT_V11_ZH.md)
 - [V12 研究报告](allocation_v12/REPORT_V12_ZH.md)
-- [最新继续入口](RESEARCH_STATUS_20261012_V12_ZH.md)
+- [最新继续入口：实体追踪](RESEARCH_STATUS_20261013_TRACKING_ZH.md)
+- [V14 多场景实体追踪](tracking_v14/REPORT_V14_ZH.md)
+- [V15 连续观察与事实风险](tracking_v15/REPORT_V15_ZH.md)
+- [V16 安全到达与学习量](tracking_v16/REPORT_V16_ZH.md)
 - [V13调研：多场景共同学习，尚未实验](adaptation_v13/RESEARCH_REVIEW_20261013_ZH.md)
 - [归档和清理记录](ARCHIVE_STATUS_20261012_ZH.md)
 - [研究原则](RESEARCH_PRINCIPLES_ZH.md)
@@ -34,8 +37,10 @@ V12 已完成三组，每组连续学习至1,048,576次新经历。
 全部3,468,288次转移的独立审计通过，学习曲线和限制见V12报告。
 
 2026-10-13：V13顺序反转训练草案已撤回，未实现或运行。
-当前只完成多场景共同学习的文献核查与方向修正，见上方调研文档；
-后续关注跨场景的学习过程和更优选择，不将最终得分作为唯一目标。
+随后V14-V16已完成六组多场景实体追踪实验。更多实践提高安全接触；
+固定风险扣分失败。安全回合反馈改善无碰撞接触，也增加了碰撞后的
+连续接触代价，保留这项取舍。下一步优先遇阻后的绕行和恢复。
+所有报告关注跨场景的学习过程和更优选择，不将最终得分作为唯一目标。
 
 ## 数据与恢复
 
@@ -55,7 +60,8 @@ python -B tools/archive_snapshot.py restore --tag <tag> --destination E:\researc
 
 ## 运行
 
-现有运行使用 Python、NumPy、PyTorch 2.3.1+cu118 和 CUDA GPU。
+V14-V16使用Python、NumPy、PyTorch 2.7.1+cu128、Pymunk 7.1.0和CUDA GPU；
+较早版本使用PyTorch 2.3.1+cu118。
 报告绘图使用 Matplotlib；早期连接组读取另外需要 pandas、pyarrow。
 运行实验前阅读对应目录的协议。已完成配置不自动重跑；新实验使用新输出目录。
 

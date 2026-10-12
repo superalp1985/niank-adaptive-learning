@@ -1,0 +1,16 @@
+{
+  "more_practice": {
+    "finished_episodes": 313,
+    "collided_failed_episodes": 16,
+    "mean_failed_collided_duration": 70.375,
+    "mean_failed_collided_contact_steps": 29.5,
+    "post_collision_stop_fraction": 0.0
+  },
+  "safe_contact": {
+    "finished_episodes": 367,
+    "collided_failed_episodes": 21,
+    "mean_failed_collided_duration": 54.666666666666664,
+    "mean_failed_collided_contact_steps": 43.42857142857143,
+    "post_collision_stop_fraction": 0.0
+  }
+}

@@ -57,12 +57,21 @@ def folder_audit(folder):
                           - 0.004 * (data["actions"].ravel() != 0)
                           - 0.4 * data["collision"].ravel()
                           - 2 * data["impact"].ravel() + 8 * data["success"].ravel())
-                np.testing.assert_allclose(data["reward"].ravel(), reward, atol=2e-6, rtol=2e-5)
+                physical = data["base_reward"] if "base_reward" in data.files else data["reward"]
+                np.testing.assert_allclose(physical.ravel(), reward, atol=2e-6, rtol=2e-5)
                 safe = np.zeros_like(data["success"])
                 for step in range(len(data["reward"])):
                     collided |= data["collision"][step]
                     safe[step] = data["success"][step] & ~collided
                     collided[data["done"][step]] = False
+                if "safe_success" in data.files:
+                    np.testing.assert_array_equal(data["safe_success"], safe)
+                    expected_reward = physical.copy()
+                    if str(data["reward_mode"]) == "safe_contact":
+                        expected_reward = expected_reward + 16 * safe - 8 * (
+                            data["success"] & ~safe)
+                    np.testing.assert_allclose(data["reward"], expected_reward,
+                                               atol=3e-6, rtol=2e-5)
                 stats["transitions"] += size
                 for key, source in (("episodes", "done"), ("success_count", "success"),
                                     ("impact_count", "impact"), ("collision_steps", "collision")):

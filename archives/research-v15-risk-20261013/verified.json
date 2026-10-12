@@ -1,0 +1,54 @@
+{
+  "repository": "superalp1985/niank-adaptive-learning",
+  "tag": "research-v15-risk-20261013",
+  "manifest_sha256": "8ee36fbef0ea50dbacf25608ce6a165f9c63198b8883a4474a4b9036735d7909",
+  "remote_manifest_sha256": "8ee36fbef0ea50dbacf25608ce6a165f9c63198b8883a4474a4b9036735d7909",
+  "verified_utc": "2026-10-12T17:49:11.488510+00:00",
+  "parts": [
+    {
+      "name": "research-v15-risk-20261013.zip.part001",
+      "bytes": 41943040,
+      "sha256": "44c6c0457175b6570c2e6bc5359ee842b1a885cd66ced543bd78a6b39d9ee069"
+    },
+    {
+      "name": "research-v15-risk-20261013.zip.part002",
+      "bytes": 41943040,
+      "sha256": "77014d9212b560b61ba176fd549c1cdb3827aa88632d057aeb662bbd65272ebc"
+    },
+    {
+      "name": "research-v15-risk-20261013.zip.part003",
+      "bytes": 41943040,
+      "sha256": "93d48ff763a2ec24f73c1277fda6435bdbb2df9832050baa6cab8f16e9bfa01a"
+    },
+    {
+      "name": "research-v15-risk-20261013.zip.part004",
+      "bytes": 41943040,
+      "sha256": "1d10ce223f32b6bd0ef603f81dbe38340852f6a299f3340237dfadef276a957d"
+    },
+    {
+      "name": "research-v15-risk-20261013.zip.part005",
+      "bytes": 41943040,
+      "sha256": "762e5ee18d925280f418fd0c4f78cbc50d33fbd85ac308e7108c2442d90fc80c"
+    },
+    {
+      "name": "research-v15-risk-20261013.zip.part006",
+      "bytes": 41943040,
+      "sha256": "be719a484e002a71325d64b11c76cfab42e8ffce13c9c66b6c721ea95edce822"
+    },
+    {
+      "name": "research-v15-risk-20261013.zip.part007",
+      "bytes": 41943040,
+      "sha256": "45adfb63a61c537079096d51aad93f14c2ae3c57553de81d84be932b0ab6f2f5"
+    },
+    {
+      "name": "research-v15-risk-20261013.zip.part008",
+      "bytes": 41943040,
+      "sha256": "10363a16ac204cc0a866be5b2cac41ccb9c2cf91354a4565faa6f9090c716c64"
+    },
+    {
+      "name": "research-v15-risk-20261013.zip.part009",
+      "bytes": 14917762,
+      "sha256": "2365c0e21ff419244bbb9d3ede9e6f6f3dbc68b957e0f4284cbe650a6ba2ef97"
+    }
+  ]
+}
