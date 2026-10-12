@@ -1,0 +1,61 @@
+{
+  "mode": "immediate",
+  "training": false,
+  "heldout": false,
+  "environment_seed": 1230100,
+  "steps": 128,
+  "worlds": 64,
+  "success": 0.9407958984375,
+  "last_success": 0.9407958984375,
+  "cost": 0.014702018350362778,
+  "regret": 0.004787336103618145,
+  "mse": 0.006033396348357201,
+  "last_mse": 0.006033396348357201,
+  "total_parameters": 128307,
+  "predictor_parameters": 125842,
+  "controller_parameters": 2465,
+  "mean_active_predictor_parameters": 31558.125,
+  "group_reserve": 9,
+  "final_accessible_groups": 2.0,
+  "operation_counts": {
+    "keep": 417,
+    "retrieve": 0,
+    "relearn": 0,
+    "compute": 872,
+    "admit": 22,
+    "fade": 715,
+    "retire": 22
+  },
+  "retrievals": 0,
+  "faded_references": 1896,
+  "restored_references": 0,
+  "unresolved_references": 1896,
+  "seconds": 0.4214210999198258,
+  "totals": {
+    "main_presentations": 0,
+    "replay_presentations": 0,
+    "forward_macs": 340656128,
+    "estimated_train_macs": 340656128,
+    "optimizer_elements": 0,
+    "controller_forward_macs": 13107200,
+    "controller_optimizer_elements": 0,
+    "selected_groups": 11680,
+    "controller_updates": 0
+  },
+  "curves": [
+    {
+      "step": 128,
+      "presentations": 8192,
+      "success": 0.9407958984375,
+      "regret": 0.004787336103618145,
+      "cost": 0.014702018350362778,
+      "mse": 0.006033396348357201,
+      "admitted": 2.0,
+      "reads": 0,
+      "replay": 0,
+      "estimated_macs": 379977728,
+      "seconds": 0.42
+    }
+  ],
+  "estimated_total_macs": 353763328
+}

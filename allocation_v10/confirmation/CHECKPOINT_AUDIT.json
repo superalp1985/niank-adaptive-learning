@@ -1,0 +1,12 @@
+[
+  {
+    "run": "g9_s23_w420100_delayed",
+    "replayed_predictions": 16384,
+    "max_abs_error": 3.5762786865234375e-07
+  },
+  {
+    "run": "g78_s23_w420100_delayed",
+    "replayed_predictions": 16384,
+    "max_abs_error": 5.364418029785156e-07
+  }
+]

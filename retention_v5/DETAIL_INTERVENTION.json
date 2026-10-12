@@ -1,0 +1,1586 @@
+[
+  {
+    "unique": 64,
+    "repeats": 64,
+    "seed": 11,
+    "mode": "full",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0043086279183626175,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 2.0852514353464358e-05,
+        "effect_gain": null,
+        "fine_retained": 1.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.004148328676819801,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.1266334056854248,
+        "effect_gain": 0.011523080049891292,
+        "fine_retained": 1.0
+      }
+    }
+  },
+  {
+    "unique": 64,
+    "repeats": 64,
+    "seed": 11,
+    "mode": "fifo",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  },
+  {
+    "unique": 64,
+    "repeats": 64,
+    "seed": 11,
+    "mode": "surprise",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.044762447476387024,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.01074168086051941,
+        "effect_gain": null,
+        "fine_retained": 0.21484375
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.04548990726470947,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.10810361057519913,
+        "effect_gain": 0.12636084232640837,
+        "fine_retained": 0.21484375
+      }
+    }
+  },
+  {
+    "unique": 64,
+    "repeats": 64,
+    "seed": 11,
+    "mode": "value",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0028763574082404375,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0001253709488082677,
+        "effect_gain": null,
+        "fine_retained": 0.21484375
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.002787647768855095,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12879525125026703,
+        "effect_gain": 0.003543303100292167,
+        "fine_retained": 0.224609375
+      }
+    }
+  },
+  {
+    "unique": 64,
+    "repeats": 64,
+    "seed": 11,
+    "mode": "anti_value",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0016872668638825417,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 3.769975955947302e-05,
+        "effect_gain": null,
+        "fine_retained": 0.046875
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0017862757667899132,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12846006453037262,
+        "effect_gain": 0.004550276705788089,
+        "fine_retained": 0.046875
+      }
+    }
+  },
+  {
+    "unique": 64,
+    "repeats": 64,
+    "seed": 11,
+    "mode": "none",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  },
+  {
+    "unique": 64,
+    "repeats": 64,
+    "seed": 23,
+    "mode": "full",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.044456642121076584,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.00390536873601377,
+        "effect_gain": null,
+        "fine_retained": 1.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.055521804839372635,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.09512970596551895,
+        "effect_gain": 0.15422090502472643,
+        "fine_retained": 1.0
+      }
+    }
+  },
+  {
+    "unique": 64,
+    "repeats": 64,
+    "seed": 23,
+    "mode": "fifo",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  },
+  {
+    "unique": 64,
+    "repeats": 64,
+    "seed": 23,
+    "mode": "surprise",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.01296477671712637,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.001738122315146029,
+        "effect_gain": null,
+        "fine_retained": 0.21484375
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.01288815587759018,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12486717849969864,
+        "effect_gain": 0.025191105080467797,
+        "fine_retained": 0.21484375
+      }
+    }
+  },
+  {
+    "unique": 64,
+    "repeats": 64,
+    "seed": 23,
+    "mode": "value",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.036928486078977585,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0022562374360859394,
+        "effect_gain": null,
+        "fine_retained": 0.58984375
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0411209836602211,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.10385166853666306,
+        "effect_gain": 0.10964267378018214,
+        "fine_retained": 0.59765625
+      }
+    }
+  },
+  {
+    "unique": 64,
+    "repeats": 64,
+    "seed": 23,
+    "mode": "anti_value",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0025370486546307802,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 5.34897881152574e-05,
+        "effect_gain": null,
+        "fine_retained": 0.109375
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.00223983614705503,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.1282406598329544,
+        "effect_gain": 0.005422970276477844,
+        "fine_retained": 0.10546875
+      }
+    }
+  },
+  {
+    "unique": 64,
+    "repeats": 64,
+    "seed": 23,
+    "mode": "none",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  },
+  {
+    "unique": 64,
+    "repeats": 64,
+    "seed": 37,
+    "mode": "full",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.06265325099229813,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.005653510335832834,
+        "effect_gain": null,
+        "fine_retained": 1.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.07068347930908203,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.08560273796319962,
+        "effect_gain": 0.1963427922995955,
+        "fine_retained": 1.0
+      }
+    }
+  },
+  {
+    "unique": 64,
+    "repeats": 64,
+    "seed": 37,
+    "mode": "fifo",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  },
+  {
+    "unique": 64,
+    "repeats": 64,
+    "seed": 37,
+    "mode": "surprise",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.013362434692680836,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.001125668059103191,
+        "effect_gain": null,
+        "fine_retained": 0.21484375
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.013509486801922321,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.1210511326789856,
+        "effect_gain": 0.037516703441769425,
+        "fine_retained": 0.21484375
+      }
+    }
+  },
+  {
+    "unique": 64,
+    "repeats": 64,
+    "seed": 37,
+    "mode": "value",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.004761595278978348,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 7.264372834470123e-05,
+        "effect_gain": null,
+        "fine_retained": 0.4609375
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.004445395432412624,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.1285795122385025,
+        "effect_gain": 0.004191322899269843,
+        "fine_retained": 0.45703125
+      }
+    }
+  },
+  {
+    "unique": 64,
+    "repeats": 64,
+    "seed": 37,
+    "mode": "anti_value",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0052843219600617886,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0005297766183502972,
+        "effect_gain": null,
+        "fine_retained": 0.04296875
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.006974464748054743,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.1253228634595871,
+        "effect_gain": 0.019373512039815532,
+        "fine_retained": 0.03515625
+      }
+    }
+  },
+  {
+    "unique": 64,
+    "repeats": 64,
+    "seed": 37,
+    "mode": "none",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 8,
+    "seed": 11,
+    "mode": "full",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0016891537234187126,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 6.099800430092728e-06,
+        "effect_gain": null,
+        "fine_retained": 1.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.001649940386414528,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12852169573307037,
+        "effect_gain": 0.004183300482815988,
+        "fine_retained": 1.0
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 8,
+    "seed": 11,
+    "mode": "fifo",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 8,
+    "seed": 11,
+    "mode": "surprise",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.004895785357803106,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.00016097427578642964,
+        "effect_gain": null,
+        "fine_retained": 0.21484375
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.004756690002977848,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.1263311356306076,
+        "effect_gain": 0.013207017990391512,
+        "fine_retained": 0.21484375
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 8,
+    "seed": 11,
+    "mode": "value",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.010742239654064178,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0002798386849462986,
+        "effect_gain": null,
+        "fine_retained": 0.58984375
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.010855291970074177,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12213826179504395,
+        "effect_gain": 0.029875741167919825,
+        "fine_retained": 0.62109375
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 8,
+    "seed": 11,
+    "mode": "anti_value",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 8,
+    "seed": 11,
+    "mode": "none",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 8,
+    "seed": 23,
+    "mode": "full",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0015725683188065886,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 4.389549303596141e-06,
+        "effect_gain": null,
+        "fine_retained": 1.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0014039896195754409,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12861613929271698,
+        "effect_gain": 0.003810368155335244,
+        "fine_retained": 1.0
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 8,
+    "seed": 23,
+    "mode": "fifo",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 8,
+    "seed": 23,
+    "mode": "surprise",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.004426674451678991,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.00014770425332244486,
+        "effect_gain": null,
+        "fine_retained": 0.21484375
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.004303816240280867,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12675100564956665,
+        "effect_gain": 0.011548690221358881,
+        "fine_retained": 0.21484375
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 8,
+    "seed": 23,
+    "mode": "value",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.043755386024713516,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0019892279524356127,
+        "effect_gain": null,
+        "fine_retained": 0.509765625
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.044564712792634964,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.09958907216787338,
+        "effect_gain": 0.12379087126102754,
+        "fine_retained": 0.51171875
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 8,
+    "seed": 23,
+    "mode": "anti_value",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0007123430841602385,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 5.504059572558617e-06,
+        "effect_gain": null,
+        "fine_retained": 0.0859375
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0007183121051639318,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.1291791945695877,
+        "effect_gain": 0.0016443920654311173,
+        "fine_retained": 0.08984375
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 8,
+    "seed": 23,
+    "mode": "none",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 8,
+    "seed": 37,
+    "mode": "full",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.00381448189727962,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 1.6071897334768437e-05,
+        "effect_gain": null,
+        "fine_retained": 1.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0036647312808781862,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12697820365428925,
+        "effect_gain": 0.010172947453327329,
+        "fine_retained": 1.0
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 8,
+    "seed": 37,
+    "mode": "fifo",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 8,
+    "seed": 37,
+    "mode": "surprise",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.004642201587557793,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0001277045375900343,
+        "effect_gain": null,
+        "fine_retained": 0.21484375
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.004548514727503061,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12646476924419403,
+        "effect_gain": 0.01258752802782531,
+        "fine_retained": 0.21484375
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 8,
+    "seed": 37,
+    "mode": "value",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0697217658162117,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.005160797853022814,
+        "effect_gain": null,
+        "fine_retained": 0.5
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.07038591057062149,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.08407948166131973,
+        "effect_gain": 0.1955164256163822,
+        "fine_retained": 0.5
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 8,
+    "seed": 37,
+    "mode": "anti_value",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.004601756110787392,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 9.845567547017708e-05,
+        "effect_gain": null,
+        "fine_retained": 0.154296875
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.003470438299700618,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12727884948253632,
+        "effect_gain": 0.009227628751696693,
+        "fine_retained": 0.125
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 8,
+    "seed": 37,
+    "mode": "none",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 32,
+    "seed": 11,
+    "mode": "full",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.05292525514960289,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.007775309029966593,
+        "effect_gain": null,
+        "fine_retained": 1.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0877004861831665,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.08357863873243332,
+        "effect_gain": 0.24361244979673408,
+        "fine_retained": 1.0
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 32,
+    "seed": 11,
+    "mode": "fifo",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 32,
+    "seed": 11,
+    "mode": "surprise",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.022295663133263588,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.00356662436388433,
+        "effect_gain": null,
+        "fine_retained": 0.21484375
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.022654160857200623,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.1178390383720398,
+        "effect_gain": 0.05961137674456253,
+        "fine_retained": 0.21484375
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 32,
+    "seed": 11,
+    "mode": "value",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.09656909853219986,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.015049354173243046,
+        "effect_gain": null,
+        "fine_retained": 0.6171875
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.19575558602809906,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.03628701716661453,
+        "effect_gain": 0.5437654894647878,
+        "fine_retained": 0.5234375
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 32,
+    "seed": 11,
+    "mode": "anti_value",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0014172192895784974,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 4.304355752537958e-05,
+        "effect_gain": null,
+        "fine_retained": 0.087890625
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.00167203473392874,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12881851196289062,
+        "effect_gain": 0.0032443109656365753,
+        "fine_retained": 0.09765625
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 32,
+    "seed": 11,
+    "mode": "none",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 32,
+    "seed": 23,
+    "mode": "full",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.038265619426965714,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0035156216472387314,
+        "effect_gain": null,
+        "fine_retained": 1.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.09710010141134262,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.07907368987798691,
+        "effect_gain": 0.2696350572483567,
+        "fine_retained": 1.0
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 32,
+    "seed": 23,
+    "mode": "fifo",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 32,
+    "seed": 23,
+    "mode": "surprise",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.017442183569073677,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0026605837047100067,
+        "effect_gain": null,
+        "fine_retained": 0.21484375
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.02439918927848339,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.1160428524017334,
+        "effect_gain": 0.06777536715569658,
+        "fine_retained": 0.21484375
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 32,
+    "seed": 23,
+    "mode": "value",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.04733036831021309,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0071249548345804214,
+        "effect_gain": null,
+        "fine_retained": 0.513671875
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.06889990717172623,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.09530986100435257,
+        "effect_gain": 0.1806605859099412,
+        "fine_retained": 0.513671875
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 32,
+    "seed": 23,
+    "mode": "anti_value",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 32,
+    "seed": 23,
+    "mode": "none",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 32,
+    "seed": 37,
+    "mode": "full",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.04881659150123596,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.002867533592507243,
+        "effect_gain": null,
+        "fine_retained": 1.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.28064557909965515,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.016199005767703056,
+        "effect_gain": 0.7787452119291453,
+        "fine_retained": 1.0
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 32,
+    "seed": 37,
+    "mode": "fifo",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 32,
+    "seed": 37,
+    "mode": "surprise",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.019540803506970406,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0033611434046179056,
+        "effect_gain": null,
+        "fine_retained": 0.21484375
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.019745051860809326,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.11872119456529617,
+        "effect_gain": 0.05484736984557063,
+        "fine_retained": 0.21484375
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 32,
+    "seed": 37,
+    "mode": "value",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.07102108746767044,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.010247671976685524,
+        "effect_gain": null,
+        "fine_retained": 1.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.2389538288116455,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.02614480070769787,
+        "effect_gain": 0.6637606849137404,
+        "fine_retained": 1.0
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 32,
+    "seed": 37,
+    "mode": "anti_value",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  },
+  {
+    "unique": 512,
+    "repeats": 32,
+    "seed": 37,
+    "mode": "none",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  },
+  {
+    "unique": 2048,
+    "repeats": 8,
+    "seed": 11,
+    "mode": "full",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.07585751265287399,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.010146989487111568,
+        "effect_gain": null,
+        "fine_retained": 1.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.07528609037399292,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.08533987402915955,
+        "effect_gain": 0.2091215720049511,
+        "fine_retained": 1.0
+      }
+    }
+  },
+  {
+    "unique": 2048,
+    "repeats": 8,
+    "seed": 11,
+    "mode": "fifo",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  },
+  {
+    "unique": 2048,
+    "repeats": 8,
+    "seed": 11,
+    "mode": "surprise",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.023926982656121254,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0038401696365326643,
+        "effect_gain": null,
+        "fine_retained": 0.21484375
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.023200130090117455,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.11647751182317734,
+        "effect_gain": 0.06444471543076465,
+        "fine_retained": 0.21484375
+      }
+    }
+  },
+  {
+    "unique": 2048,
+    "repeats": 8,
+    "seed": 11,
+    "mode": "value",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.05908213183283806,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.009045660495758057,
+        "effect_gain": null,
+        "fine_retained": 1.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.060463011264801025,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.0955057367682457,
+        "effect_gain": 0.1672393469735161,
+        "fine_retained": 1.0
+      }
+    }
+  },
+  {
+    "unique": 2048,
+    "repeats": 8,
+    "seed": 11,
+    "mode": "anti_value",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  },
+  {
+    "unique": 2048,
+    "repeats": 8,
+    "seed": 11,
+    "mode": "none",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  },
+  {
+    "unique": 2048,
+    "repeats": 8,
+    "seed": 23,
+    "mode": "full",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.027686357498168945,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0009750906028784811,
+        "effect_gain": null,
+        "fine_retained": 1.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.2844598591327667,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.01684175245463848,
+        "effect_gain": 0.7877375715585295,
+        "fine_retained": 1.0
+      }
+    }
+  },
+  {
+    "unique": 2048,
+    "repeats": 8,
+    "seed": 23,
+    "mode": "fifo",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  },
+  {
+    "unique": 2048,
+    "repeats": 8,
+    "seed": 23,
+    "mode": "surprise",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.020023923367261887,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.003159755142405629,
+        "effect_gain": null,
+        "fine_retained": 0.21484375
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.02340136282145977,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.11667891591787338,
+        "effect_gain": 0.06500377722182892,
+        "fine_retained": 0.21484375
+      }
+    }
+  },
+  {
+    "unique": 2048,
+    "repeats": 8,
+    "seed": 23,
+    "mode": "value",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.10660336166620255,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.02020295150578022,
+        "effect_gain": null,
+        "fine_retained": 1.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.1244550347328186,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.06735449284315109,
+        "effect_gain": 0.34569982716493775,
+        "fine_retained": 1.0
+      }
+    }
+  },
+  {
+    "unique": 2048,
+    "repeats": 8,
+    "seed": 23,
+    "mode": "anti_value",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  },
+  {
+    "unique": 2048,
+    "repeats": 8,
+    "seed": 23,
+    "mode": "none",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  },
+  {
+    "unique": 2048,
+    "repeats": 8,
+    "seed": 37,
+    "mode": "full",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.02713952027261257,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0010643232380971313,
+        "effect_gain": null,
+        "fine_retained": 1.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.25585445761680603,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.01922694407403469,
+        "effect_gain": 0.7107068515596088,
+        "fine_retained": 1.0
+      }
+    }
+  },
+  {
+    "unique": 2048,
+    "repeats": 8,
+    "seed": 37,
+    "mode": "fifo",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  },
+  {
+    "unique": 2048,
+    "repeats": 8,
+    "seed": 37,
+    "mode": "surprise",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.008913732133805752,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0007004811777733266,
+        "effect_gain": null,
+        "fine_retained": 0.21484375
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.009809919632971287,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12333112955093384,
+        "effect_gain": 0.027242110567682082,
+        "fine_retained": 0.21484375
+      }
+    }
+  },
+  {
+    "unique": 2048,
+    "repeats": 8,
+    "seed": 37,
+    "mode": "value",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.04617052152752876,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.007519666105508804,
+        "effect_gain": null,
+        "fine_retained": 0.794921875
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.261920690536499,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.028526797890663147,
+        "effect_gain": 0.7275575036080124,
+        "fine_retained": 0.5
+      }
+    }
+  },
+  {
+    "unique": 2048,
+    "repeats": 8,
+    "seed": 37,
+    "mode": "anti_value",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0038243643939495087,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.00010190378088736907,
+        "effect_gain": null,
+        "fine_retained": 0.265625
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0018962485482916236,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12902070581912994,
+        "effect_gain": 0.002351922007737412,
+        "fine_retained": 0.359375
+      }
+    }
+  },
+  {
+    "unique": 2048,
+    "repeats": 8,
+    "seed": 37,
+    "mode": "none",
+    "contexts": {
+      "0": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.0,
+        "effect_mse": 0.0,
+        "effect_gain": null,
+        "fine_retained": 0.0
+      },
+      "1": {
+        "predicted_velocity_effect_mae": 0.0,
+        "true_velocity_effect_mae": 0.36000004410743713,
+        "effect_mse": 0.12960000336170197,
+        "effect_gain": 0.0,
+        "fine_retained": 0.0
+      }
+    }
+  }
+]

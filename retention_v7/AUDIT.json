@@ -1,0 +1,10 @@
+{
+  "models": 24,
+  "prediction_files": 24,
+  "physical_scoring": "passed",
+  "source_hashes": "match",
+  "shared_ids": true,
+  "split_ids_disjoint": true,
+  "database_integrity": "ok",
+  "future_labels_in_database": false
+}

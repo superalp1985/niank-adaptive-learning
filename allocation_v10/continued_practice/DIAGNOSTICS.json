@@ -1,0 +1,254 @@
+[
+  {
+    "run": "g78_s23_w440100_delayed",
+    "groups": 78,
+    "mode": "delayed",
+    "probe": "seen",
+    "zero_action_rate": 0.627685546875,
+    "moving_fraction": 0.0660400390625,
+    "after_change_success": 0.99609375,
+    "late_cycle_success": 0.9423828125,
+    "no_exploration_operations": {
+      "keep": 1004,
+      "retrieve": 0,
+      "relearn": 0,
+      "compute": 1031,
+      "admit": 0,
+      "fade": 13,
+      "retire": 0
+    },
+    "active_parameters": 37009.546875,
+    "mean_capacity": 2.0
+  },
+  {
+    "run": "g78_s23_w440100_delayed",
+    "groups": 78,
+    "mode": "delayed",
+    "probe": "composition",
+    "zero_action_rate": 0.5352783203125,
+    "moving_fraction": 0.0772705078125,
+    "after_change_success": 0.98984375,
+    "late_cycle_success": 0.90966796875,
+    "no_exploration_operations": {
+      "keep": 994,
+      "retrieve": 0,
+      "relearn": 0,
+      "compute": 1041,
+      "admit": 0,
+      "fade": 13,
+      "retire": 0
+    },
+    "active_parameters": 37070.328125,
+    "mean_capacity": 2.0
+  },
+  {
+    "run": "g78_s23_w440100_immediate",
+    "groups": 78,
+    "mode": "immediate",
+    "probe": "seen",
+    "zero_action_rate": 0.6240234375,
+    "moving_fraction": 0.0692138671875,
+    "after_change_success": 0.99375,
+    "late_cycle_success": 0.947509765625,
+    "no_exploration_operations": {
+      "keep": 1701,
+      "retrieve": 0,
+      "relearn": 0,
+      "compute": 10,
+      "admit": 0,
+      "fade": 337,
+      "retire": 0
+    },
+    "active_parameters": 30803.78125,
+    "mean_capacity": 2.0
+  },
+  {
+    "run": "g78_s23_w440100_immediate",
+    "groups": 78,
+    "mode": "immediate",
+    "probe": "composition",
+    "zero_action_rate": 0.5379638671875,
+    "moving_fraction": 0.074462890625,
+    "after_change_success": 0.99296875,
+    "late_cycle_success": 0.913330078125,
+    "no_exploration_operations": {
+      "keep": 1657,
+      "retrieve": 0,
+      "relearn": 0,
+      "compute": 13,
+      "admit": 0,
+      "fade": 378,
+      "retire": 0
+    },
+    "active_parameters": 30822.015625,
+    "mean_capacity": 2.0
+  },
+  {
+    "run": "g78_s23_w440100_independent",
+    "groups": 78,
+    "mode": "independent",
+    "probe": "seen",
+    "zero_action_rate": 0.6173095703125,
+    "moving_fraction": 0.068359375,
+    "after_change_success": 0.99453125,
+    "late_cycle_success": 0.9541015625,
+    "no_exploration_operations": {
+      "keep": 2048,
+      "retrieve": 0,
+      "relearn": 0,
+      "compute": 0,
+      "admit": 0,
+      "fade": 0,
+      "retire": 0
+    },
+    "active_parameters": 30743.0,
+    "mean_capacity": 2.0
+  },
+  {
+    "run": "g78_s23_w440100_independent",
+    "groups": 78,
+    "mode": "independent",
+    "probe": "composition",
+    "zero_action_rate": 0.525146484375,
+    "moving_fraction": 0.083740234375,
+    "after_change_success": 0.9890625,
+    "late_cycle_success": 0.91650390625,
+    "no_exploration_operations": {
+      "keep": 2048,
+      "retrieve": 0,
+      "relearn": 0,
+      "compute": 0,
+      "admit": 0,
+      "fade": 0,
+      "retire": 0
+    },
+    "active_parameters": 30743.0,
+    "mean_capacity": 2.0
+  },
+  {
+    "run": "g9_s23_w440100_delayed",
+    "groups": 9,
+    "mode": "delayed",
+    "probe": "seen",
+    "zero_action_rate": 0.5880126953125,
+    "moving_fraction": 0.0789794921875,
+    "after_change_success": 0.990625,
+    "late_cycle_success": 0.948974609375,
+    "no_exploration_operations": {
+      "keep": 1187,
+      "retrieve": 0,
+      "relearn": 0,
+      "compute": 117,
+      "admit": 0,
+      "fade": 744,
+      "retire": 0
+    },
+    "active_parameters": 26969.140625,
+    "mean_capacity": 2.0
+  },
+  {
+    "run": "g9_s23_w440100_delayed",
+    "groups": 9,
+    "mode": "delayed",
+    "probe": "composition",
+    "zero_action_rate": 0.5096435546875,
+    "moving_fraction": 0.086181640625,
+    "after_change_success": 0.97578125,
+    "late_cycle_success": 0.9150390625,
+    "no_exploration_operations": {
+      "keep": 1190,
+      "retrieve": 0,
+      "relearn": 0,
+      "compute": 110,
+      "admit": 0,
+      "fade": 748,
+      "retire": 0
+    },
+    "active_parameters": 26926.59375,
+    "mean_capacity": 2.0
+  },
+  {
+    "run": "g9_s23_w440100_immediate",
+    "groups": 9,
+    "mode": "immediate",
+    "probe": "seen",
+    "zero_action_rate": 0.615966796875,
+    "moving_fraction": 0.07763671875,
+    "after_change_success": 0.99375,
+    "late_cycle_success": 0.950439453125,
+    "no_exploration_operations": {
+      "keep": 1465,
+      "retrieve": 0,
+      "relearn": 0,
+      "compute": 0,
+      "admit": 0,
+      "fade": 583,
+      "retire": 0
+    },
+    "active_parameters": 26258.0,
+    "mean_capacity": 2.0
+  },
+  {
+    "run": "g9_s23_w440100_immediate",
+    "groups": 9,
+    "mode": "immediate",
+    "probe": "composition",
+    "zero_action_rate": 0.539306640625,
+    "moving_fraction": 0.0767822265625,
+    "after_change_success": 0.99453125,
+    "late_cycle_success": 0.90625,
+    "no_exploration_operations": {
+      "keep": 1473,
+      "retrieve": 0,
+      "relearn": 0,
+      "compute": 0,
+      "admit": 0,
+      "fade": 575,
+      "retire": 0
+    },
+    "active_parameters": 26258.0,
+    "mean_capacity": 2.0
+  },
+  {
+    "run": "g9_s23_w440100_independent",
+    "groups": 9,
+    "mode": "independent",
+    "probe": "seen",
+    "zero_action_rate": 0.6141357421875,
+    "moving_fraction": 0.07568359375,
+    "after_change_success": 0.9921875,
+    "late_cycle_success": 0.934326171875,
+    "no_exploration_operations": {
+      "keep": 2048,
+      "retrieve": 0,
+      "relearn": 0,
+      "compute": 0,
+      "admit": 0,
+      "fade": 0,
+      "retire": 0
+    },
+    "active_parameters": 26258.0,
+    "mean_capacity": 2.0
+  },
+  {
+    "run": "g9_s23_w440100_independent",
+    "groups": 9,
+    "mode": "independent",
+    "probe": "composition",
+    "zero_action_rate": 0.5311279296875,
+    "moving_fraction": 0.0804443359375,
+    "after_change_success": 0.98984375,
+    "late_cycle_success": 0.90625,
+    "no_exploration_operations": {
+      "keep": 2048,
+      "retrieve": 0,
+      "relearn": 0,
+      "compute": 0,
+      "admit": 0,
+      "fade": 0,
+      "retire": 0
+    },
+    "active_parameters": 26258.0,
+    "mean_capacity": 2.0
+  }
+]

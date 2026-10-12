@@ -1,0 +1,13 @@
+{
+  "step": 128,
+  "presentations": 8192,
+  "success": 0.9183349609375,
+  "regret": 0.005135778337717056,
+  "cost": 0.02134883776307106,
+  "mse": 0.009718028828501701,
+  "admitted": 2.0,
+  "reads": 0,
+  "replay": 0,
+  "estimated_macs": 376930304,
+  "seconds": 0.43
+}

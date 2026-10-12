@@ -1,0 +1,14 @@
+{
+  "mode": "paired_event",
+  "seed": 37,
+  "unique": 512,
+  "cycles": 16,
+  "presentations": 16384,
+  "updates": 128,
+  "distinct_body_context_pairs": 1024,
+  "parameters": 15534,
+  "seconds": 6.627325899899006,
+  "train_fingerprint": "060d5b49e17f71cf073f1a1a9e44c976c037ae1f5c744479067a7585c97a413e",
+  "auxiliary_event_decoder_calls": 294912,
+  "archive_replay_event_encodings": 294912
+}

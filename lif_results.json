@@ -1,0 +1,220 @@
+{
+  "source_commit": "a3db62f9436074e485c0278290c2164ed6150808",
+  "neurons": 138639,
+  "input_connection_rows": 15091983,
+  "stored_sparse_connections": 15091983,
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "model": "unmodified upstream TorchModel LIF dynamics",
+  "dt_ms": 0.1,
+  "results": [
+    {
+      "seed": 811,
+      "rate_hz": 0,
+      "simulated_ms": 100,
+      "spikes": 0,
+      "active_neurons": 0,
+      "active_unstimulated_neurons": 0,
+      "cumulative_spikes_per_10ms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "batch_elapsed_seconds": 4.744114600121975
+    },
+    {
+      "seed": 811,
+      "rate_hz": 100,
+      "simulated_ms": 100,
+      "spikes": 827,
+      "active_neurons": 264,
+      "active_unstimulated_neurons": 243,
+      "cumulative_spikes_per_10ms": [
+        13.0,
+        39.0,
+        90.0,
+        150.0,
+        216.0,
+        276.0,
+        413.0,
+        571.0,
+        713.0,
+        827.0
+      ],
+      "batch_elapsed_seconds": 4.744114600121975
+    },
+    {
+      "seed": 811,
+      "rate_hz": 200,
+      "simulated_ms": 100,
+      "spikes": 1598,
+      "active_neurons": 326,
+      "active_unstimulated_neurons": 305,
+      "cumulative_spikes_per_10ms": [
+        35.0,
+        113.0,
+        261.0,
+        503.0,
+        716.0,
+        855.0,
+        993.0,
+        1214.0,
+        1400.0,
+        1598.0
+      ],
+      "batch_elapsed_seconds": 4.744114600121975
+    },
+    {
+      "seed": 812,
+      "rate_hz": 0,
+      "simulated_ms": 100,
+      "spikes": 0,
+      "active_neurons": 0,
+      "active_unstimulated_neurons": 0,
+      "cumulative_spikes_per_10ms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "batch_elapsed_seconds": 4.404034500010312
+    },
+    {
+      "seed": 812,
+      "rate_hz": 100,
+      "simulated_ms": 100,
+      "spikes": 821,
+      "active_neurons": 271,
+      "active_unstimulated_neurons": 250,
+      "cumulative_spikes_per_10ms": [
+        29.0,
+        61.0,
+        115.0,
+        174.0,
+        258.0,
+        348.0,
+        474.0,
+        617.0,
+        717.0,
+        821.0
+      ],
+      "batch_elapsed_seconds": 4.404034500010312
+    },
+    {
+      "seed": 812,
+      "rate_hz": 200,
+      "simulated_ms": 100,
+      "spikes": 1545,
+      "active_neurons": 327,
+      "active_unstimulated_neurons": 306,
+      "cumulative_spikes_per_10ms": [
+        55.0,
+        146.0,
+        285.0,
+        468.0,
+        682.0,
+        903.0,
+        1074.0,
+        1188.0,
+        1298.0,
+        1545.0
+      ],
+      "batch_elapsed_seconds": 4.404034500010312
+    },
+    {
+      "seed": 813,
+      "rate_hz": 0,
+      "simulated_ms": 100,
+      "spikes": 0,
+      "active_neurons": 0,
+      "active_unstimulated_neurons": 0,
+      "cumulative_spikes_per_10ms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "batch_elapsed_seconds": 4.4000528999604285
+    },
+    {
+      "seed": 813,
+      "rate_hz": 100,
+      "simulated_ms": 100,
+      "spikes": 983,
+      "active_neurons": 283,
+      "active_unstimulated_neurons": 262,
+      "cumulative_spikes_per_10ms": [
+        25.0,
+        78.0,
+        130.0,
+        193.0,
+        285.0,
+        420.0,
+        542.0,
+        632.0,
+        778.0,
+        983.0
+      ],
+      "batch_elapsed_seconds": 4.4000528999604285
+    },
+    {
+      "seed": 813,
+      "rate_hz": 200,
+      "simulated_ms": 100,
+      "spikes": 1589,
+      "active_neurons": 332,
+      "active_unstimulated_neurons": 311,
+      "cumulative_spikes_per_10ms": [
+        58.0,
+        146.0,
+        296.0,
+        501.0,
+        689.0,
+        853.0,
+        1028.0,
+        1208.0,
+        1395.0,
+        1589.0
+      ],
+      "batch_elapsed_seconds": 4.4000528999604285
+    }
+  ],
+  "reduced": {
+    "nodes": 256,
+    "nonzero_edges": 13098,
+    "positive_edges": 7743,
+    "negative_edges": 5355,
+    "accepted_double_edge_swaps": 75585,
+    "edge_overlap_fraction": 0.315162620247366,
+    "selection": "official sugar neurons then strongest outgoing mass, at most 64 per round",
+    "control": "signed degree-preserving double-edge swaps; weight multiset preserved",
+    "not_preserved": "individual weighted degrees and full-brain dynamics",
+    "scope": "induced structural prior, not a complete brain or trained model",
+    "source_commit": "a3db62f9436074e485c0278290c2164ed6150808"
+  },
+  "whole_run_seconds": 33.5233933001291,
+  "peak_cuda_bytes": 276079616,
+  "scope": "activity propagation only; no task training or accuracy claim",
+  "source_hashes": {
+    "code/run_pytorch.py": "699655db7a56045271ba467268be153d0a3318d4cc4cecc0a13f33e69ce79667",
+    "data/2025_Connectivity_783.parquet": "efeb23fb99098e9c390f6869969b2a121a2ee92c833cfc45ecb2c1d8e1af0347"
+  }
+}

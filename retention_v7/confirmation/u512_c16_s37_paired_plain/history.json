@@ -1,0 +1,138 @@
+[
+  {
+    "cycle": 1,
+    "presentations": 1024,
+    "updates": 8,
+    "development": {
+      "success": 0.40625,
+      "regret": 0.18756841123104095,
+      "state_mse": 0.11017042398452759,
+      "fine_retained": 0.5625,
+      "fine_read": 0.5546875,
+      "coarse_retained": 0.4296875,
+      "active_count": 4.0,
+      "read_count": 2.0,
+      "fine_gate": 1.0,
+      "risk_success": 0.42857142857142855,
+      "risk_fine_retained": 0.5595238095238095,
+      "risk_fine_read": 0.5595238095238095,
+      "risk_fine_gate": 1.0,
+      "risk_active_count": 4.0,
+      "safe_success": 0.3953488372093023,
+      "safe_fine_retained": 0.563953488372093,
+      "safe_fine_read": 0.5523255813953488,
+      "safe_fine_gate": 1.0,
+      "safe_active_count": 4.0,
+      "episodes": 256,
+      "event_records_scored": 18
+    },
+    "train": {
+      "loss": 3.4875748455524445,
+      "value_loss": 0.009799279028811725,
+      "state_mse": 0.1895031575113535,
+      "active_count": 3.1328125
+    }
+  },
+  {
+    "cycle": 4,
+    "presentations": 4096,
+    "updates": 32,
+    "development": {
+      "success": 0.56640625,
+      "regret": 0.065480537712574,
+      "state_mse": 0.0523487813770771,
+      "fine_retained": 0.2578125,
+      "fine_read": 0.24609375,
+      "coarse_retained": 0.12109375,
+      "active_count": 2.30078125,
+      "read_count": 1.16015625,
+      "fine_gate": 1.0,
+      "risk_success": 0.5238095238095238,
+      "risk_fine_retained": 0.2261904761904762,
+      "risk_fine_read": 0.2261904761904762,
+      "risk_fine_gate": 1.0,
+      "risk_active_count": 2.261904761904762,
+      "safe_success": 0.5872093023255814,
+      "safe_fine_retained": 0.27325581395348836,
+      "safe_fine_read": 0.2558139534883721,
+      "safe_fine_gate": 1.0,
+      "safe_active_count": 2.3197674418604652,
+      "episodes": 256,
+      "event_records_scored": 18
+    },
+    "train": {
+      "loss": 2.5783965587615967,
+      "value_loss": 0.020800974569283426,
+      "state_mse": 0.07112320372834802,
+      "active_count": 3.060546875
+    }
+  },
+  {
+    "cycle": 8,
+    "presentations": 8192,
+    "updates": 64,
+    "development": {
+      "success": 0.65234375,
+      "regret": 0.0436658076941967,
+      "state_mse": 0.041898638010025024,
+      "fine_retained": 0.5625,
+      "fine_read": 0.546875,
+      "coarse_retained": 0.703125,
+      "active_count": 4.0,
+      "read_count": 2.0,
+      "fine_gate": 1.0,
+      "risk_success": 0.6428571428571429,
+      "risk_fine_retained": 0.5595238095238095,
+      "risk_fine_read": 0.5595238095238095,
+      "risk_fine_gate": 1.0,
+      "risk_active_count": 4.0,
+      "safe_success": 0.6569767441860465,
+      "safe_fine_retained": 0.563953488372093,
+      "safe_fine_read": 0.5406976744186046,
+      "safe_fine_gate": 1.0,
+      "safe_active_count": 4.0,
+      "episodes": 256,
+      "event_records_scored": 18
+    },
+    "train": {
+      "loss": 2.05640509724617,
+      "value_loss": 0.009165932307951152,
+      "state_mse": 0.03937211586162448,
+      "active_count": 3.9775390625
+    }
+  },
+  {
+    "cycle": 16,
+    "presentations": 16384,
+    "updates": 128,
+    "development": {
+      "success": 0.83203125,
+      "regret": 0.03078226000070572,
+      "state_mse": 0.03192031756043434,
+      "fine_retained": 0.5625,
+      "fine_read": 0.53125,
+      "coarse_retained": 0.49609375,
+      "active_count": 3.8984375,
+      "read_count": 1.96875,
+      "fine_gate": 1.0,
+      "risk_success": 0.8690476190476191,
+      "risk_fine_retained": 0.5595238095238095,
+      "risk_fine_read": 0.5595238095238095,
+      "risk_fine_gate": 1.0,
+      "risk_active_count": 3.9047619047619047,
+      "safe_success": 0.813953488372093,
+      "safe_fine_retained": 0.563953488372093,
+      "safe_fine_read": 0.5174418604651163,
+      "safe_fine_gate": 1.0,
+      "safe_active_count": 3.895348837209302,
+      "episodes": 256,
+      "event_records_scored": 18
+    },
+    "train": {
+      "loss": 1.3630368411540985,
+      "value_loss": 0.05861133709549904,
+      "state_mse": 0.02905633533373475,
+      "active_count": 3.689453125
+    }
+  }
+]

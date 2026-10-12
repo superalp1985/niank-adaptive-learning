@@ -1,0 +1,12 @@
+{
+  "mode": "state_gate",
+  "seed": 11,
+  "unique": 512,
+  "repeats": 32,
+  "presentations": 16384,
+  "parameters": 14030,
+  "train_fingerprint": "a201948ba52f4a05c6fe6e75c76bef9d5209fb460e3dcfc6d537ca0b30cbcc81",
+  "seconds": 16.04256429988891,
+  "extra_training_event_replays": 294912,
+  "single_event_decoder_evaluations": 294912
+}

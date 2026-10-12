@@ -1,0 +1,242 @@
+[
+  {
+    "mode": "fixed",
+    "steps": 128,
+    "seed": 11,
+    "worlds_with_two_or_more_fine_returns": 0,
+    "max_fine_returns_in_one_world": 0,
+    "mean_fine_active_fraction": 0.4375,
+    "mean_evidence_strength": 0.0,
+    "mean_replay_loss_reduction": null
+  },
+  {
+    "mode": "periodic",
+    "steps": 128,
+    "seed": 11,
+    "worlds_with_two_or_more_fine_returns": 48,
+    "max_fine_returns_in_one_world": 16,
+    "mean_fine_active_fraction": 0.64013671875,
+    "mean_evidence_strength": 1.8533802032470703,
+    "mean_replay_loss_reduction": 0.00063906708965078
+  },
+  {
+    "mode": "recurrent",
+    "steps": 128,
+    "seed": 11,
+    "worlds_with_two_or_more_fine_returns": 46,
+    "max_fine_returns_in_one_world": 11,
+    "mean_fine_active_fraction": 0.6343994140625,
+    "mean_evidence_strength": 2.121840476989746,
+    "mean_replay_loss_reduction": 0.0020483096595853567
+  },
+  {
+    "mode": "consolidated",
+    "steps": 128,
+    "seed": 11,
+    "worlds_with_two_or_more_fine_returns": 29,
+    "max_fine_returns_in_one_world": 10,
+    "mean_fine_active_fraction": 0.645751953125,
+    "mean_evidence_strength": 2.1268744468688965,
+    "mean_replay_loss_reduction": 0.002188588958233595
+  },
+  {
+    "mode": "fixed",
+    "steps": 128,
+    "seed": 23,
+    "worlds_with_two_or_more_fine_returns": 0,
+    "max_fine_returns_in_one_world": 0,
+    "mean_fine_active_fraction": 0.28125,
+    "mean_evidence_strength": 0.0,
+    "mean_replay_loss_reduction": null
+  },
+  {
+    "mode": "periodic",
+    "steps": 128,
+    "seed": 23,
+    "worlds_with_two_or_more_fine_returns": 53,
+    "max_fine_returns_in_one_world": 15,
+    "mean_fine_active_fraction": 0.6468505859375,
+    "mean_evidence_strength": 1.582155704498291,
+    "mean_replay_loss_reduction": 0.0019182476680725813
+  },
+  {
+    "mode": "recurrent",
+    "steps": 128,
+    "seed": 23,
+    "worlds_with_two_or_more_fine_returns": 49,
+    "max_fine_returns_in_one_world": 9,
+    "mean_fine_active_fraction": 0.619140625,
+    "mean_evidence_strength": 2.583536148071289,
+    "mean_replay_loss_reduction": 0.02155584841966629
+  },
+  {
+    "mode": "consolidated",
+    "steps": 128,
+    "seed": 23,
+    "worlds_with_two_or_more_fine_returns": 27,
+    "max_fine_returns_in_one_world": 8,
+    "mean_fine_active_fraction": 0.6297607421875,
+    "mean_evidence_strength": 2.590791940689087,
+    "mean_replay_loss_reduction": 0.017033105716109276
+  },
+  {
+    "mode": "fixed",
+    "steps": 128,
+    "seed": 37,
+    "worlds_with_two_or_more_fine_returns": 0,
+    "max_fine_returns_in_one_world": 0,
+    "mean_fine_active_fraction": 0.546875,
+    "mean_evidence_strength": 0.0,
+    "mean_replay_loss_reduction": null
+  },
+  {
+    "mode": "periodic",
+    "steps": 128,
+    "seed": 37,
+    "worlds_with_two_or_more_fine_returns": 40,
+    "max_fine_returns_in_one_world": 11,
+    "mean_fine_active_fraction": 0.377197265625,
+    "mean_evidence_strength": 1.3543577194213867,
+    "mean_replay_loss_reduction": -0.07831767946481705
+  },
+  {
+    "mode": "recurrent",
+    "steps": 128,
+    "seed": 37,
+    "worlds_with_two_or_more_fine_returns": 50,
+    "max_fine_returns_in_one_world": 6,
+    "mean_fine_active_fraction": 0.3690185546875,
+    "mean_evidence_strength": 1.8269470930099487,
+    "mean_replay_loss_reduction": -0.08981156349182129
+  },
+  {
+    "mode": "consolidated",
+    "steps": 128,
+    "seed": 37,
+    "worlds_with_two_or_more_fine_returns": 40,
+    "max_fine_returns_in_one_world": 8,
+    "mean_fine_active_fraction": 0.3865966796875,
+    "mean_evidence_strength": 1.9286924600601196,
+    "mean_replay_loss_reduction": -0.08177401125431061
+  },
+  {
+    "mode": "fixed",
+    "steps": 512,
+    "seed": 11,
+    "worlds_with_two_or_more_fine_returns": 0,
+    "max_fine_returns_in_one_world": 0,
+    "mean_fine_active_fraction": 0.4375,
+    "mean_evidence_strength": 0.0,
+    "mean_replay_loss_reduction": null
+  },
+  {
+    "mode": "periodic",
+    "steps": 512,
+    "seed": 11,
+    "worlds_with_two_or_more_fine_returns": 64,
+    "max_fine_returns_in_one_world": 62,
+    "mean_fine_active_fraction": 0.67498779296875,
+    "mean_evidence_strength": 3.155613899230957,
+    "mean_replay_loss_reduction": 0.002130005741491914
+  },
+  {
+    "mode": "recurrent",
+    "steps": 512,
+    "seed": 11,
+    "worlds_with_two_or_more_fine_returns": 63,
+    "max_fine_returns_in_one_world": 34,
+    "mean_fine_active_fraction": 0.648712158203125,
+    "mean_evidence_strength": 3.5162649154663086,
+    "mean_replay_loss_reduction": 0.006313350982964039
+  },
+  {
+    "mode": "consolidated",
+    "steps": 512,
+    "seed": 11,
+    "worlds_with_two_or_more_fine_returns": 40,
+    "max_fine_returns_in_one_world": 31,
+    "mean_fine_active_fraction": 0.650482177734375,
+    "mean_evidence_strength": 3.5811567306518555,
+    "mean_replay_loss_reduction": 0.0033868325408548117
+  },
+  {
+    "mode": "fixed",
+    "steps": 512,
+    "seed": 23,
+    "worlds_with_two_or_more_fine_returns": 0,
+    "max_fine_returns_in_one_world": 0,
+    "mean_fine_active_fraction": 0.28125,
+    "mean_evidence_strength": 0.0,
+    "mean_replay_loss_reduction": null
+  },
+  {
+    "mode": "periodic",
+    "steps": 512,
+    "seed": 23,
+    "worlds_with_two_or_more_fine_returns": 64,
+    "max_fine_returns_in_one_world": 50,
+    "mean_fine_active_fraction": 0.69329833984375,
+    "mean_evidence_strength": 3.1153457164764404,
+    "mean_replay_loss_reduction": 0.0015366843435913324
+  },
+  {
+    "mode": "recurrent",
+    "steps": 512,
+    "seed": 23,
+    "worlds_with_two_or_more_fine_returns": 64,
+    "max_fine_returns_in_one_world": 27,
+    "mean_fine_active_fraction": 0.63330078125,
+    "mean_evidence_strength": 4.588563919067383,
+    "mean_replay_loss_reduction": 0.019066771492362022
+  },
+  {
+    "mode": "consolidated",
+    "steps": 512,
+    "seed": 23,
+    "worlds_with_two_or_more_fine_returns": 42,
+    "max_fine_returns_in_one_world": 29,
+    "mean_fine_active_fraction": 0.647857666015625,
+    "mean_evidence_strength": 4.66686487197876,
+    "mean_replay_loss_reduction": 0.00830466765910387
+  },
+  {
+    "mode": "fixed",
+    "steps": 512,
+    "seed": 37,
+    "worlds_with_two_or_more_fine_returns": 0,
+    "max_fine_returns_in_one_world": 0,
+    "mean_fine_active_fraction": 0.546875,
+    "mean_evidence_strength": 0.0,
+    "mean_replay_loss_reduction": null
+  },
+  {
+    "mode": "periodic",
+    "steps": 512,
+    "seed": 37,
+    "worlds_with_two_or_more_fine_returns": 64,
+    "max_fine_returns_in_one_world": 40,
+    "mean_fine_active_fraction": 0.507293701171875,
+    "mean_evidence_strength": 2.786379814147949,
+    "mean_replay_loss_reduction": -0.030102476477622986
+  },
+  {
+    "mode": "recurrent",
+    "steps": 512,
+    "seed": 37,
+    "worlds_with_two_or_more_fine_returns": 64,
+    "max_fine_returns_in_one_world": 27,
+    "mean_fine_active_fraction": 0.498748779296875,
+    "mean_evidence_strength": 4.50341796875,
+    "mean_replay_loss_reduction": -0.014810684137046337
+  },
+  {
+    "mode": "consolidated",
+    "steps": 512,
+    "seed": 37,
+    "worlds_with_two_or_more_fine_returns": 61,
+    "max_fine_returns_in_one_world": 27,
+    "mean_fine_active_fraction": 0.52374267578125,
+    "mean_evidence_strength": 4.57148551940918,
+    "mean_replay_loss_reduction": -0.017218133434653282
+  }
+]

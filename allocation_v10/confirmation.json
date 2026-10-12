@@ -1,0 +1,25 @@
+{
+  "stage": "confirmation",
+  "steps": 2048,
+  "worlds": 128,
+  "runs": [
+    {"mode":"independent","seed":23,"world_seed":420100,"groups":9},
+    {"mode":"immediate","seed":23,"world_seed":420100,"groups":9},
+    {"mode":"delayed","seed":23,"world_seed":420100,"groups":9},
+    {"mode":"independent","seed":37,"world_seed":420100,"groups":9},
+    {"mode":"immediate","seed":37,"world_seed":420100,"groups":9},
+    {"mode":"delayed","seed":37,"world_seed":420100,"groups":9},
+    {"mode":"independent","seed":23,"world_seed":430100,"groups":9},
+    {"mode":"immediate","seed":23,"world_seed":430100,"groups":9},
+    {"mode":"delayed","seed":23,"world_seed":430100,"groups":9},
+    {"mode":"independent","seed":23,"world_seed":420100,"groups":78},
+    {"mode":"immediate","seed":23,"world_seed":420100,"groups":78},
+    {"mode":"delayed","seed":23,"world_seed":420100,"groups":78},
+    {"mode":"independent","seed":37,"world_seed":420100,"groups":78},
+    {"mode":"immediate","seed":37,"world_seed":420100,"groups":78},
+    {"mode":"delayed","seed":37,"world_seed":420100,"groups":78},
+    {"mode":"independent","seed":23,"world_seed":430100,"groups":78},
+    {"mode":"immediate","seed":23,"world_seed":430100,"groups":78},
+    {"mode":"delayed","seed":23,"world_seed":430100,"groups":78}
+  ]
+}

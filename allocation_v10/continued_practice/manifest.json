@@ -1,0 +1,64 @@
+{
+  "config": {
+    "stage": "continued_practice",
+    "runs": [
+      {
+        "mode": "independent",
+        "seed": 23,
+        "world_seed": 440100,
+        "groups": 9
+      },
+      {
+        "mode": "immediate",
+        "seed": 23,
+        "world_seed": 440100,
+        "groups": 9
+      },
+      {
+        "mode": "delayed",
+        "seed": 23,
+        "world_seed": 440100,
+        "groups": 9
+      },
+      {
+        "mode": "independent",
+        "seed": 23,
+        "world_seed": 440100,
+        "groups": 78
+      },
+      {
+        "mode": "immediate",
+        "seed": 23,
+        "world_seed": 440100,
+        "groups": 78
+      },
+      {
+        "mode": "delayed",
+        "seed": 23,
+        "world_seed": 440100,
+        "groups": 78
+      }
+    ],
+    "steps": 6144,
+    "worlds": 128
+  },
+  "sha256": {
+    "core.py": "4e2bc109829d1e4d9097d3753a258b7b64d9ac37ac63edc126432503b5fdcff9",
+    "run.py": "1d4afa33f581dd1c4f1fba27c1d8d3a20cea84e3f1551d7c08e4a86cec949bab",
+    "test_contracts.py": "012cb44d32cd1977ba809153af42556357119e0fed6bee401eda3e7a7f664b75",
+    "PROTOCOL.md": "fa0ed8713643face47ed539ee6afe8d6edda1c65a69805dbeebf75e87ad06343",
+    "continue_learning.py": "2f63a7db16604bc393ba276987c78bc149f5307d6dc11ddd66b11b158c378eb0",
+    "physics_dependency": "3cc4877bf0b0998f6bae45d4e4c2be5f93e8e38207c1965e75832dc102b3432e"
+  },
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "torch": "2.3.1+cu118",
+  "source_stage": "confirmation",
+  "source_world_seed": 420100,
+  "source_model_seed": 23,
+  "previous_main_presentations": 262144,
+  "additional_main_presentations": 786432,
+  "cumulative_main_presentations": 1048576,
+  "optimizer_restart": true,
+  "directory_and_world_restart": true,
+  "limitation": "Further practice on new worlds, NOT an isolated training-volume-only comparison."
+}

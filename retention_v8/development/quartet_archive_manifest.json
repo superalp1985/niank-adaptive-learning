@@ -1,0 +1,9 @@
+{
+  "stage": "development",
+  "histories": 512,
+  "variants": 4,
+  "records": 36864,
+  "size_bytes": 17539072,
+  "quartet_fingerprint": "0f55f6924361bbf5d3a44a47803eb9fd4fe1d02847fdda43cd3562e4bcfe125a",
+  "labels_stored": false
+}

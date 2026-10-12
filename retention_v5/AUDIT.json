@@ -1,0 +1,39 @@
+{
+  "complete": true,
+  "cohorts": 12,
+  "models": 72,
+  "source_snapshot_hash_verified": true,
+  "root_bytes": 67623297,
+  "root_mib": 64.49060153961182,
+  "prediction_artifacts": 288,
+  "data_ids_disjoint": [
+    [
+      510000,
+      512047
+    ],
+    [
+      610000,
+      610255
+    ],
+    [
+      710000,
+      710511
+    ],
+    [
+      720000,
+      720511
+    ],
+    [
+      730000,
+      730511
+    ],
+    [
+      740000,
+      740511
+    ],
+    [
+      810000,
+      810255
+    ]
+  ]
+}

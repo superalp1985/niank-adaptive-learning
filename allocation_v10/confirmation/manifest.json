@@ -1,0 +1,127 @@
+{
+  "config": {
+    "stage": "confirmation",
+    "steps": 2048,
+    "worlds": 128,
+    "runs": [
+      {
+        "mode": "independent",
+        "seed": 23,
+        "world_seed": 420100,
+        "groups": 9
+      },
+      {
+        "mode": "immediate",
+        "seed": 23,
+        "world_seed": 420100,
+        "groups": 9
+      },
+      {
+        "mode": "delayed",
+        "seed": 23,
+        "world_seed": 420100,
+        "groups": 9
+      },
+      {
+        "mode": "independent",
+        "seed": 37,
+        "world_seed": 420100,
+        "groups": 9
+      },
+      {
+        "mode": "immediate",
+        "seed": 37,
+        "world_seed": 420100,
+        "groups": 9
+      },
+      {
+        "mode": "delayed",
+        "seed": 37,
+        "world_seed": 420100,
+        "groups": 9
+      },
+      {
+        "mode": "independent",
+        "seed": 23,
+        "world_seed": 430100,
+        "groups": 9
+      },
+      {
+        "mode": "immediate",
+        "seed": 23,
+        "world_seed": 430100,
+        "groups": 9
+      },
+      {
+        "mode": "delayed",
+        "seed": 23,
+        "world_seed": 430100,
+        "groups": 9
+      },
+      {
+        "mode": "independent",
+        "seed": 23,
+        "world_seed": 420100,
+        "groups": 78
+      },
+      {
+        "mode": "immediate",
+        "seed": 23,
+        "world_seed": 420100,
+        "groups": 78
+      },
+      {
+        "mode": "delayed",
+        "seed": 23,
+        "world_seed": 420100,
+        "groups": 78
+      },
+      {
+        "mode": "independent",
+        "seed": 37,
+        "world_seed": 420100,
+        "groups": 78
+      },
+      {
+        "mode": "immediate",
+        "seed": 37,
+        "world_seed": 420100,
+        "groups": 78
+      },
+      {
+        "mode": "delayed",
+        "seed": 37,
+        "world_seed": 420100,
+        "groups": 78
+      },
+      {
+        "mode": "independent",
+        "seed": 23,
+        "world_seed": 430100,
+        "groups": 78
+      },
+      {
+        "mode": "immediate",
+        "seed": 23,
+        "world_seed": 430100,
+        "groups": 78
+      },
+      {
+        "mode": "delayed",
+        "seed": 23,
+        "world_seed": 430100,
+        "groups": 78
+      }
+    ]
+  },
+  "sha256": {
+    "core.py": "4e2bc109829d1e4d9097d3753a258b7b64d9ac37ac63edc126432503b5fdcff9",
+    "run.py": "1d4afa33f581dd1c4f1fba27c1d8d3a20cea84e3f1551d7c08e4a86cec949bab",
+    "test_contracts.py": "012cb44d32cd1977ba809153af42556357119e0fed6bee401eda3e7a7f664b75",
+    "PROTOCOL.md": "fa0ed8713643face47ed539ee6afe8d6edda1c65a69805dbeebf75e87ad06343",
+    "physics_dependency": "3cc4877bf0b0998f6bae45d4e4c2be5f93e8e38207c1965e75832dc102b3432e"
+  },
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "torch": "2.3.1+cu118",
+  "device": "cuda"
+}

@@ -1,0 +1,53 @@
+{
+  "stage": "development",
+  "torch": "2.3.1+cu118",
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "source_sha256": "9f4e6116a57c41ac2cd5e027667e626c5663074b8f8b2712477735bdb78da822",
+  "dependency_sha256": "3cc4877bf0b0998f6bae45d4e4c2be5f93e8e38207c1965e75832dc102b3432e",
+  "modes": [
+    "state_nogate",
+    "state_gate"
+  ],
+  "volumes": [
+    [
+      512,
+      32
+    ]
+  ],
+  "seeds": [
+    11
+  ],
+  "data": {
+    "train": {
+      "sha256": "a201948ba52f4a05c6fe6e75c76bef9d5209fb460e3dcfc6d537ca0b30cbcc81",
+      "ids": [
+        1000000,
+        1000511
+      ]
+    },
+    "development": {
+      "sha256": "58105a22a39d1c6fa1c0afb90472130b0a8bb32d2b6efeafd223545c0acf6c25",
+      "ids": [
+        1010000,
+        1010255
+      ]
+    },
+    "detail": {
+      "sha256": "6b4ff66156348e8e825ce54afc30955eff463e6564e9d5c2ba9ef868082ea1d6",
+      "ids": [
+        1020000,
+        1020255
+      ]
+    },
+    "recovery": {
+      "sha256": "fc9ba1375f96a1772c998b9e8540d6fc118af997c3cb97299f9f9565811a0c1b",
+      "ids": [
+        1030000,
+        1030255
+      ]
+    }
+  },
+  "final_ids": null,
+  "truth": "Physical action cost; any near-optimal action passes.",
+  "selection": "Final IDs fixed across optimization seeds and never used during development."
+}

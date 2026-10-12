@@ -1,0 +1,14 @@
+{
+  "mode": "quartet_delta",
+  "seed": 23,
+  "unique": 2048,
+  "cycles": 32,
+  "presentations": 262144,
+  "updates": 2048,
+  "distinct_physical_experiences": 8192,
+  "parameters": 15534,
+  "seconds": 143.1349000001792,
+  "train_fingerprint": "2e9b5dc407f5ab0ac3cf0e81792f250f092b1789be42a405a98e99b8245e8390",
+  "counterfactual_decoder_evaluations": 4718592,
+  "duplicated_training_event_encodings": 4718592
+}

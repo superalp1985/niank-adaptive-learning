@@ -1,0 +1,1418 @@
+[
+  {
+    "stage": "development",
+    "unique": 512,
+    "cycles": 16,
+    "mode": "ordinary_plain",
+    "presentations": 16384,
+    "seeds": [
+      11
+    ],
+    "means": {
+      "success": 0.88671875,
+      "regret": 0.016563672572374344,
+      "state_mse": 0.029302462935447693,
+      "active_count": 0.890625,
+      "risk_gain": 0.048725880682468414,
+      "safe_spurious": 0.01758757419884205,
+      "risk_retention": 0.1875,
+      "safe_retention": 0.17578125,
+      "recovery_gain": -0.00390625,
+      "stale_success": 0.7734375,
+      "recovered_success": 0.76953125
+    },
+    "seed_ranges": {
+      "success": [
+        0.88671875,
+        0.88671875
+      ],
+      "regret": [
+        0.016563672572374344,
+        0.016563672572374344
+      ],
+      "state_mse": [
+        0.029302462935447693,
+        0.029302462935447693
+      ],
+      "active_count": [
+        0.890625,
+        0.890625
+      ],
+      "risk_gain": [
+        0.048725880682468414,
+        0.048725880682468414
+      ],
+      "safe_spurious": [
+        0.01758757419884205,
+        0.01758757419884205
+      ],
+      "risk_retention": [
+        0.1875,
+        0.1875
+      ],
+      "safe_retention": [
+        0.17578125,
+        0.17578125
+      ],
+      "recovery_gain": [
+        -0.00390625,
+        -0.00390625
+      ],
+      "stale_success": [
+        0.7734375,
+        0.7734375
+      ],
+      "recovered_success": [
+        0.76953125,
+        0.76953125
+      ]
+    },
+    "parameters": 14477
+  },
+  {
+    "stage": "development",
+    "unique": 512,
+    "cycles": 16,
+    "mode": "ordinary_event",
+    "presentations": 16384,
+    "seeds": [
+      11
+    ],
+    "means": {
+      "success": 0.84765625,
+      "regret": 0.02356790006160736,
+      "state_mse": 0.03314818814396858,
+      "active_count": 3.04296875,
+      "risk_gain": 0.0768895074725151,
+      "safe_spurious": 0.026100171729922295,
+      "risk_retention": 0.341796875,
+      "safe_retention": 0.33984375,
+      "recovery_gain": -0.00390625,
+      "stale_success": 0.77734375,
+      "recovered_success": 0.7734375
+    },
+    "seed_ranges": {
+      "success": [
+        0.84765625,
+        0.84765625
+      ],
+      "regret": [
+        0.02356790006160736,
+        0.02356790006160736
+      ],
+      "state_mse": [
+        0.03314818814396858,
+        0.03314818814396858
+      ],
+      "active_count": [
+        3.04296875,
+        3.04296875
+      ],
+      "risk_gain": [
+        0.0768895074725151,
+        0.0768895074725151
+      ],
+      "safe_spurious": [
+        0.026100171729922295,
+        0.026100171729922295
+      ],
+      "risk_retention": [
+        0.341796875,
+        0.341796875
+      ],
+      "safe_retention": [
+        0.33984375,
+        0.33984375
+      ],
+      "recovery_gain": [
+        -0.00390625,
+        -0.00390625
+      ],
+      "stale_success": [
+        0.77734375,
+        0.77734375
+      ],
+      "recovered_success": [
+        0.7734375,
+        0.7734375
+      ]
+    },
+    "parameters": 15534
+  },
+  {
+    "stage": "development",
+    "unique": 512,
+    "cycles": 16,
+    "mode": "paired_plain",
+    "presentations": 16384,
+    "seeds": [
+      11
+    ],
+    "means": {
+      "success": 0.8671875,
+      "regret": 0.01778138056397438,
+      "state_mse": 0.02567797526717186,
+      "active_count": 1.59375,
+      "risk_gain": 0.15536434948444366,
+      "safe_spurious": 0.05863146856427193,
+      "risk_retention": 0.3828125,
+      "safe_retention": 0.33984375,
+      "recovery_gain": 0.00390625,
+      "stale_success": 0.79296875,
+      "recovered_success": 0.796875
+    },
+    "seed_ranges": {
+      "success": [
+        0.8671875,
+        0.8671875
+      ],
+      "regret": [
+        0.01778138056397438,
+        0.01778138056397438
+      ],
+      "state_mse": [
+        0.02567797526717186,
+        0.02567797526717186
+      ],
+      "active_count": [
+        1.59375,
+        1.59375
+      ],
+      "risk_gain": [
+        0.15536434948444366,
+        0.15536434948444366
+      ],
+      "safe_spurious": [
+        0.05863146856427193,
+        0.05863146856427193
+      ],
+      "risk_retention": [
+        0.3828125,
+        0.3828125
+      ],
+      "safe_retention": [
+        0.33984375,
+        0.33984375
+      ],
+      "recovery_gain": [
+        0.00390625,
+        0.00390625
+      ],
+      "stale_success": [
+        0.79296875,
+        0.79296875
+      ],
+      "recovered_success": [
+        0.796875,
+        0.796875
+      ]
+    },
+    "parameters": 14477
+  },
+  {
+    "stage": "development",
+    "unique": 512,
+    "cycles": 16,
+    "mode": "paired_event",
+    "presentations": 16384,
+    "seeds": [
+      11
+    ],
+    "means": {
+      "success": 0.91796875,
+      "regret": 0.014663157984614372,
+      "state_mse": 0.02563571184873581,
+      "active_count": 1.828125,
+      "risk_gain": 0.035268258303403854,
+      "safe_spurious": 0.012297061271965504,
+      "risk_retention": 0.28515625,
+      "safe_retention": 0.255859375,
+      "recovery_gain": 0.00390625,
+      "stale_success": 0.80078125,
+      "recovered_success": 0.8046875
+    },
+    "seed_ranges": {
+      "success": [
+        0.91796875,
+        0.91796875
+      ],
+      "regret": [
+        0.014663157984614372,
+        0.014663157984614372
+      ],
+      "state_mse": [
+        0.02563571184873581,
+        0.02563571184873581
+      ],
+      "active_count": [
+        1.828125,
+        1.828125
+      ],
+      "risk_gain": [
+        0.035268258303403854,
+        0.035268258303403854
+      ],
+      "safe_spurious": [
+        0.012297061271965504,
+        0.012297061271965504
+      ],
+      "risk_retention": [
+        0.28515625,
+        0.28515625
+      ],
+      "safe_retention": [
+        0.255859375,
+        0.255859375
+      ],
+      "recovery_gain": [
+        0.00390625,
+        0.00390625
+      ],
+      "stale_success": [
+        0.80078125,
+        0.80078125
+      ],
+      "recovered_success": [
+        0.8046875,
+        0.8046875
+      ]
+    },
+    "parameters": 15534
+  },
+  {
+    "stage": "development_volume",
+    "unique": 512,
+    "cycles": 64,
+    "mode": "ordinary_plain",
+    "presentations": 65536,
+    "seeds": [
+      11
+    ],
+    "means": {
+      "success": 0.9296875,
+      "regret": 0.008870662190020084,
+      "state_mse": 0.015680789947509766,
+      "active_count": 2.91796875,
+      "risk_gain": 0.010530651547014713,
+      "safe_spurious": 0.005059096962213516,
+      "risk_retention": 0.423828125,
+      "safe_retention": 0.462890625,
+      "recovery_gain": 0.00390625,
+      "stale_success": 0.84765625,
+      "recovered_success": 0.8515625
+    },
+    "seed_ranges": {
+      "success": [
+        0.9296875,
+        0.9296875
+      ],
+      "regret": [
+        0.008870662190020084,
+        0.008870662190020084
+      ],
+      "state_mse": [
+        0.015680789947509766,
+        0.015680789947509766
+      ],
+      "active_count": [
+        2.91796875,
+        2.91796875
+      ],
+      "risk_gain": [
+        0.010530651547014713,
+        0.010530651547014713
+      ],
+      "safe_spurious": [
+        0.005059096962213516,
+        0.005059096962213516
+      ],
+      "risk_retention": [
+        0.423828125,
+        0.423828125
+      ],
+      "safe_retention": [
+        0.462890625,
+        0.462890625
+      ],
+      "recovery_gain": [
+        0.00390625,
+        0.00390625
+      ],
+      "stale_success": [
+        0.84765625,
+        0.84765625
+      ],
+      "recovered_success": [
+        0.8515625,
+        0.8515625
+      ]
+    },
+    "parameters": 14477
+  },
+  {
+    "stage": "development_volume",
+    "unique": 512,
+    "cycles": 64,
+    "mode": "ordinary_event",
+    "presentations": 65536,
+    "seeds": [
+      11
+    ],
+    "means": {
+      "success": 0.9375,
+      "regret": 0.006293822079896927,
+      "state_mse": 0.013727004639804363,
+      "active_count": 3.0390625,
+      "risk_gain": 0.0048993551172316074,
+      "safe_spurious": 0.0026882030069828033,
+      "risk_retention": 0.4375,
+      "safe_retention": 0.482421875,
+      "recovery_gain": 0.00390625,
+      "stale_success": 0.84375,
+      "recovered_success": 0.84765625
+    },
+    "seed_ranges": {
+      "success": [
+        0.9375,
+        0.9375
+      ],
+      "regret": [
+        0.006293822079896927,
+        0.006293822079896927
+      ],
+      "state_mse": [
+        0.013727004639804363,
+        0.013727004639804363
+      ],
+      "active_count": [
+        3.0390625,
+        3.0390625
+      ],
+      "risk_gain": [
+        0.0048993551172316074,
+        0.0048993551172316074
+      ],
+      "safe_spurious": [
+        0.0026882030069828033,
+        0.0026882030069828033
+      ],
+      "risk_retention": [
+        0.4375,
+        0.4375
+      ],
+      "safe_retention": [
+        0.482421875,
+        0.482421875
+      ],
+      "recovery_gain": [
+        0.00390625,
+        0.00390625
+      ],
+      "stale_success": [
+        0.84375,
+        0.84375
+      ],
+      "recovered_success": [
+        0.84765625,
+        0.84765625
+      ]
+    },
+    "parameters": 15534
+  },
+  {
+    "stage": "development_volume",
+    "unique": 512,
+    "cycles": 64,
+    "mode": "paired_plain",
+    "presentations": 65536,
+    "seeds": [
+      11
+    ],
+    "means": {
+      "success": 0.94140625,
+      "regret": 0.004034840501844883,
+      "state_mse": 0.014525430276989937,
+      "active_count": 3.9375,
+      "risk_gain": 0.7451251745223999,
+      "safe_spurious": 0.016478613018989563,
+      "risk_retention": 0.623046875,
+      "safe_retention": 0.21484375,
+      "recovery_gain": 0.08203125,
+      "stale_success": 0.8359375,
+      "recovered_success": 0.91796875
+    },
+    "seed_ranges": {
+      "success": [
+        0.94140625,
+        0.94140625
+      ],
+      "regret": [
+        0.004034840501844883,
+        0.004034840501844883
+      ],
+      "state_mse": [
+        0.014525430276989937,
+        0.014525430276989937
+      ],
+      "active_count": [
+        3.9375,
+        3.9375
+      ],
+      "risk_gain": [
+        0.7451251745223999,
+        0.7451251745223999
+      ],
+      "safe_spurious": [
+        0.016478613018989563,
+        0.016478613018989563
+      ],
+      "risk_retention": [
+        0.623046875,
+        0.623046875
+      ],
+      "safe_retention": [
+        0.21484375,
+        0.21484375
+      ],
+      "recovery_gain": [
+        0.08203125,
+        0.08203125
+      ],
+      "stale_success": [
+        0.8359375,
+        0.8359375
+      ],
+      "recovered_success": [
+        0.91796875,
+        0.91796875
+      ]
+    },
+    "parameters": 14477
+  },
+  {
+    "stage": "development_volume",
+    "unique": 512,
+    "cycles": 64,
+    "mode": "paired_event",
+    "presentations": 65536,
+    "seeds": [
+      11
+    ],
+    "means": {
+      "success": 0.97265625,
+      "regret": 0.0021439706906676292,
+      "state_mse": 0.007509582210332155,
+      "active_count": 3.16796875,
+      "risk_gain": 0.4555181562900543,
+      "safe_spurious": 0.004951192066073418,
+      "risk_retention": 0.5078125,
+      "safe_retention": 0.279296875,
+      "recovery_gain": 0.02734375,
+      "stale_success": 0.90234375,
+      "recovered_success": 0.9296875
+    },
+    "seed_ranges": {
+      "success": [
+        0.97265625,
+        0.97265625
+      ],
+      "regret": [
+        0.0021439706906676292,
+        0.0021439706906676292
+      ],
+      "state_mse": [
+        0.007509582210332155,
+        0.007509582210332155
+      ],
+      "active_count": [
+        3.16796875,
+        3.16796875
+      ],
+      "risk_gain": [
+        0.4555181562900543,
+        0.4555181562900543
+      ],
+      "safe_spurious": [
+        0.004951192066073418,
+        0.004951192066073418
+      ],
+      "risk_retention": [
+        0.5078125,
+        0.5078125
+      ],
+      "safe_retention": [
+        0.279296875,
+        0.279296875
+      ],
+      "recovery_gain": [
+        0.02734375,
+        0.02734375
+      ],
+      "stale_success": [
+        0.90234375,
+        0.90234375
+      ],
+      "recovered_success": [
+        0.9296875,
+        0.9296875
+      ]
+    },
+    "parameters": 15534
+  },
+  {
+    "stage": "development_volume",
+    "unique": 2048,
+    "cycles": 16,
+    "mode": "ordinary_plain",
+    "presentations": 65536,
+    "seeds": [
+      11
+    ],
+    "means": {
+      "success": 0.94140625,
+      "regret": 0.005303665064275265,
+      "state_mse": 0.009572142735123634,
+      "active_count": 3.8515625,
+      "risk_gain": 0.1573638767004013,
+      "safe_spurious": 0.03265644982457161,
+      "risk_retention": 0.5859375,
+      "safe_retention": 0.57421875,
+      "recovery_gain": -0.00390625,
+      "stale_success": 0.90234375,
+      "recovered_success": 0.8984375
+    },
+    "seed_ranges": {
+      "success": [
+        0.94140625,
+        0.94140625
+      ],
+      "regret": [
+        0.005303665064275265,
+        0.005303665064275265
+      ],
+      "state_mse": [
+        0.009572142735123634,
+        0.009572142735123634
+      ],
+      "active_count": [
+        3.8515625,
+        3.8515625
+      ],
+      "risk_gain": [
+        0.1573638767004013,
+        0.1573638767004013
+      ],
+      "safe_spurious": [
+        0.03265644982457161,
+        0.03265644982457161
+      ],
+      "risk_retention": [
+        0.5859375,
+        0.5859375
+      ],
+      "safe_retention": [
+        0.57421875,
+        0.57421875
+      ],
+      "recovery_gain": [
+        -0.00390625,
+        -0.00390625
+      ],
+      "stale_success": [
+        0.90234375,
+        0.90234375
+      ],
+      "recovered_success": [
+        0.8984375,
+        0.8984375
+      ]
+    },
+    "parameters": 14477
+  },
+  {
+    "stage": "development_volume",
+    "unique": 2048,
+    "cycles": 16,
+    "mode": "ordinary_event",
+    "presentations": 65536,
+    "seeds": [
+      11
+    ],
+    "means": {
+      "success": 0.9375,
+      "regret": 0.006065061781555414,
+      "state_mse": 0.0122635867446661,
+      "active_count": 3.80859375,
+      "risk_gain": 0.003999622538685799,
+      "safe_spurious": 0.0020214319229125977,
+      "risk_retention": 0.484375,
+      "safe_retention": 0.486328125,
+      "recovery_gain": 0.0,
+      "stale_success": 0.8515625,
+      "recovered_success": 0.8515625
+    },
+    "seed_ranges": {
+      "success": [
+        0.9375,
+        0.9375
+      ],
+      "regret": [
+        0.006065061781555414,
+        0.006065061781555414
+      ],
+      "state_mse": [
+        0.0122635867446661,
+        0.0122635867446661
+      ],
+      "active_count": [
+        3.80859375,
+        3.80859375
+      ],
+      "risk_gain": [
+        0.003999622538685799,
+        0.003999622538685799
+      ],
+      "safe_spurious": [
+        0.0020214319229125977,
+        0.0020214319229125977
+      ],
+      "risk_retention": [
+        0.484375,
+        0.484375
+      ],
+      "safe_retention": [
+        0.486328125,
+        0.486328125
+      ],
+      "recovery_gain": [
+        0.0,
+        0.0
+      ],
+      "stale_success": [
+        0.8515625,
+        0.8515625
+      ],
+      "recovered_success": [
+        0.8515625,
+        0.8515625
+      ]
+    },
+    "parameters": 15534
+  },
+  {
+    "stage": "development_volume",
+    "unique": 2048,
+    "cycles": 16,
+    "mode": "paired_plain",
+    "presentations": 65536,
+    "seeds": [
+      11
+    ],
+    "means": {
+      "success": 0.94140625,
+      "regret": 0.005810217931866646,
+      "state_mse": 0.006814139895141125,
+      "active_count": 3.6015625,
+      "risk_gain": 0.5414683818817139,
+      "safe_spurious": 0.005706135183572769,
+      "risk_retention": 0.556640625,
+      "safe_retention": 0.478515625,
+      "recovery_gain": 0.05078125,
+      "stale_success": 0.859375,
+      "recovered_success": 0.91015625
+    },
+    "seed_ranges": {
+      "success": [
+        0.94140625,
+        0.94140625
+      ],
+      "regret": [
+        0.005810217931866646,
+        0.005810217931866646
+      ],
+      "state_mse": [
+        0.006814139895141125,
+        0.006814139895141125
+      ],
+      "active_count": [
+        3.6015625,
+        3.6015625
+      ],
+      "risk_gain": [
+        0.5414683818817139,
+        0.5414683818817139
+      ],
+      "safe_spurious": [
+        0.005706135183572769,
+        0.005706135183572769
+      ],
+      "risk_retention": [
+        0.556640625,
+        0.556640625
+      ],
+      "safe_retention": [
+        0.478515625,
+        0.478515625
+      ],
+      "recovery_gain": [
+        0.05078125,
+        0.05078125
+      ],
+      "stale_success": [
+        0.859375,
+        0.859375
+      ],
+      "recovered_success": [
+        0.91015625,
+        0.91015625
+      ]
+    },
+    "parameters": 14477
+  },
+  {
+    "stage": "development_volume",
+    "unique": 2048,
+    "cycles": 16,
+    "mode": "paired_event",
+    "presentations": 65536,
+    "seeds": [
+      11
+    ],
+    "means": {
+      "success": 0.984375,
+      "regret": 0.001124679809436202,
+      "state_mse": 0.004827455617487431,
+      "active_count": 3.453125,
+      "risk_gain": 0.8349900245666504,
+      "safe_spurious": 0.010348889045417309,
+      "risk_retention": 0.943359375,
+      "safe_retention": 0.501953125,
+      "recovery_gain": 0.0625,
+      "stale_success": 0.8984375,
+      "recovered_success": 0.9609375
+    },
+    "seed_ranges": {
+      "success": [
+        0.984375,
+        0.984375
+      ],
+      "regret": [
+        0.001124679809436202,
+        0.001124679809436202
+      ],
+      "state_mse": [
+        0.004827455617487431,
+        0.004827455617487431
+      ],
+      "active_count": [
+        3.453125,
+        3.453125
+      ],
+      "risk_gain": [
+        0.8349900245666504,
+        0.8349900245666504
+      ],
+      "safe_spurious": [
+        0.010348889045417309,
+        0.010348889045417309
+      ],
+      "risk_retention": [
+        0.943359375,
+        0.943359375
+      ],
+      "safe_retention": [
+        0.501953125,
+        0.501953125
+      ],
+      "recovery_gain": [
+        0.0625,
+        0.0625
+      ],
+      "stale_success": [
+        0.8984375,
+        0.8984375
+      ],
+      "recovered_success": [
+        0.9609375,
+        0.9609375
+      ]
+    },
+    "parameters": 15534
+  },
+  {
+    "stage": "confirmation",
+    "unique": 512,
+    "cycles": 16,
+    "mode": "paired_plain",
+    "presentations": 16384,
+    "seeds": [
+      11,
+      23,
+      37
+    ],
+    "means": {
+      "success": 0.8860677083333334,
+      "regret": 0.012353961976865927,
+      "state_mse": 0.02699274756014347,
+      "active_count": 2.8997395833333335,
+      "risk_gain": 0.3726172347863515,
+      "safe_spurious": 0.11210419485966365,
+      "risk_retention": 0.3372395833333333,
+      "safe_retention": 0.3131510416666667,
+      "recovery_gain": 0.0013020833333333333,
+      "stale_success": 0.8268229166666666,
+      "recovered_success": 0.828125
+    },
+    "seed_ranges": {
+      "success": [
+        0.86328125,
+        0.92578125
+      ],
+      "regret": [
+        0.01161218248307705,
+        0.013832840137183666
+      ],
+      "state_mse": [
+        0.0204299446195364,
+        0.030294306576251984
+      ],
+      "active_count": [
+        0.8359375,
+        4.0
+      ],
+      "risk_gain": [
+        0.07934769988059998,
+        0.6158360838890076
+      ],
+      "safe_spurious": [
+        0.01875995844602585,
+        0.1799638718366623
+      ],
+      "risk_retention": [
+        0.154296875,
+        0.5
+      ],
+      "safe_retention": [
+        0.09765625,
+        0.5
+      ],
+      "recovery_gain": [
+        0.0,
+        0.00390625
+      ],
+      "stale_success": [
+        0.8046875,
+        0.85546875
+      ],
+      "recovered_success": [
+        0.80859375,
+        0.85546875
+      ]
+    },
+    "parameters": 14477
+  },
+  {
+    "stage": "confirmation",
+    "unique": 512,
+    "cycles": 16,
+    "mode": "paired_event",
+    "presentations": 16384,
+    "seeds": [
+      11,
+      23,
+      37
+    ],
+    "means": {
+      "success": 0.8717447916666666,
+      "regret": 0.013417096808552742,
+      "state_mse": 0.026243206734458607,
+      "active_count": 3.8509114583333335,
+      "risk_gain": 0.41716205949584645,
+      "safe_spurious": 0.12054273082564275,
+      "risk_retention": 0.5,
+      "safe_retention": 0.5,
+      "recovery_gain": 0.0,
+      "stale_success": 0.8346354166666666,
+      "recovered_success": 0.8346354166666666
+    },
+    "seed_ranges": {
+      "success": [
+        0.841796875,
+        0.890625
+      ],
+      "regret": [
+        0.010202160105109215,
+        0.015868987888097763
+      ],
+      "state_mse": [
+        0.020605621859431267,
+        0.034417979419231415
+      ],
+      "active_count": [
+        3.671875,
+        4.0
+      ],
+      "risk_gain": [
+        0.04137086495757103,
+        0.6356191039085388
+      ],
+      "safe_spurious": [
+        0.013520929031074047,
+        0.1988392323255539
+      ],
+      "risk_retention": [
+        0.5,
+        0.5
+      ],
+      "safe_retention": [
+        0.5,
+        0.5
+      ],
+      "recovery_gain": [
+        0.0,
+        0.0
+      ],
+      "stale_success": [
+        0.79296875,
+        0.88671875
+      ],
+      "recovered_success": [
+        0.79296875,
+        0.88671875
+      ]
+    },
+    "parameters": 15534
+  },
+  {
+    "stage": "confirmation",
+    "unique": 2048,
+    "cycles": 4,
+    "mode": "paired_plain",
+    "presentations": 16384,
+    "seeds": [
+      11,
+      23,
+      37
+    ],
+    "means": {
+      "success": 0.876953125,
+      "regret": 0.015450337746491035,
+      "state_mse": 0.026939101206759613,
+      "active_count": 2.845703125,
+      "risk_gain": 0.17277366667985916,
+      "safe_spurious": 0.06410008234282334,
+      "risk_retention": 0.5234375,
+      "safe_retention": 0.5286458333333334,
+      "recovery_gain": 0.0,
+      "stale_success": 0.80859375,
+      "recovered_success": 0.80859375
+    },
+    "seed_ranges": {
+      "success": [
+        0.84375,
+        0.92578125
+      ],
+      "regret": [
+        0.0070111616514623165,
+        0.024928655475378036
+      ],
+      "state_mse": [
+        0.01554353442043066,
+        0.03385169059038162
+      ],
+      "active_count": [
+        1.2578125,
+        3.970703125
+      ],
+      "risk_gain": [
+        0.07956261187791824,
+        0.24858999252319336
+      ],
+      "safe_spurious": [
+        0.03032301552593708,
+        0.09308741241693497
+      ],
+      "risk_retention": [
+        0.259765625,
+        0.810546875
+      ],
+      "safe_retention": [
+        0.220703125,
+        0.865234375
+      ],
+      "recovery_gain": [
+        0.0,
+        0.0
+      ],
+      "stale_success": [
+        0.7734375,
+        0.859375
+      ],
+      "recovered_success": [
+        0.7734375,
+        0.859375
+      ]
+    },
+    "parameters": 14477
+  },
+  {
+    "stage": "confirmation",
+    "unique": 2048,
+    "cycles": 4,
+    "mode": "paired_event",
+    "presentations": 16384,
+    "seeds": [
+      11,
+      23,
+      37
+    ],
+    "means": {
+      "success": 0.8984375,
+      "regret": 0.0076969522051513195,
+      "state_mse": 0.01944637857377529,
+      "active_count": 3.41796875,
+      "risk_gain": 0.1285406363507112,
+      "safe_spurious": 0.04670747245351473,
+      "risk_retention": 0.4954427083333333,
+      "safe_retention": 0.4986979166666667,
+      "recovery_gain": 0.0,
+      "stale_success": 0.8268229166666666,
+      "recovered_success": 0.8268229166666666
+    },
+    "seed_ranges": {
+      "success": [
+        0.86328125,
+        0.9296875
+      ],
+      "regret": [
+        0.006177111063152552,
+        0.008523792028427124
+      ],
+      "state_mse": [
+        0.015678605064749718,
+        0.025012560188770294
+      ],
+      "active_count": [
+        2.69140625,
+        4.0
+      ],
+      "risk_gain": [
+        0.028763998299837112,
+        0.1858104169368744
+      ],
+      "safe_spurious": [
+        0.01167217642068863,
+        0.06706242263317108
+      ],
+      "risk_retention": [
+        0.486328125,
+        0.5
+      ],
+      "safe_retention": [
+        0.49609375,
+        0.5
+      ],
+      "recovery_gain": [
+        -0.00390625,
+        0.00390625
+      ],
+      "stale_success": [
+        0.81640625,
+        0.83984375
+      ],
+      "recovered_success": [
+        0.8125,
+        0.84375
+      ]
+    },
+    "parameters": 15534
+  },
+  {
+    "stage": "confirmation",
+    "unique": 2048,
+    "cycles": 16,
+    "mode": "ordinary_plain",
+    "presentations": 65536,
+    "seeds": [
+      11,
+      23,
+      37
+    ],
+    "means": {
+      "success": 0.9407552083333334,
+      "regret": 0.005458495734880368,
+      "state_mse": 0.013497748101751009,
+      "active_count": 3.7233072916666665,
+      "risk_gain": 0.017302244474800926,
+      "safe_spurious": 0.008571478732240697,
+      "risk_retention": 0.5065104166666666,
+      "safe_retention": 0.5006510416666666,
+      "recovery_gain": -0.0013020833333333333,
+      "stale_success": 0.8307291666666666,
+      "recovered_success": 0.8294270833333334
+    },
+    "seed_ranges": {
+      "success": [
+        0.93359375,
+        0.955078125
+      ],
+      "regret": [
+        0.0035570133477449417,
+        0.006819718983024359
+      ],
+      "state_mse": [
+        0.011550536379218102,
+        0.016499437391757965
+      ],
+      "active_count": [
+        3.291015625,
+        3.94140625
+      ],
+      "risk_gain": [
+        -0.0012814843794330955,
+        0.02769482508301735
+      ],
+      "safe_spurious": [
+        0.001658989698626101,
+        0.012797031551599503
+      ],
+      "risk_retention": [
+        0.423828125,
+        0.59765625
+      ],
+      "safe_retention": [
+        0.416015625,
+        0.58984375
+      ],
+      "recovery_gain": [
+        -0.00390625,
+        0.0
+      ],
+      "stale_success": [
+        0.80078125,
+        0.859375
+      ],
+      "recovered_success": [
+        0.80078125,
+        0.85546875
+      ]
+    },
+    "parameters": 14477
+  },
+  {
+    "stage": "confirmation",
+    "unique": 2048,
+    "cycles": 16,
+    "mode": "ordinary_event",
+    "presentations": 65536,
+    "seeds": [
+      11,
+      23,
+      37
+    ],
+    "means": {
+      "success": 0.9440104166666666,
+      "regret": 0.004933791002258658,
+      "state_mse": 0.012183024237553278,
+      "active_count": 3.4635416666666665,
+      "risk_gain": 0.10356064202884833,
+      "safe_spurious": 0.007180792124321063,
+      "risk_retention": 0.5494791666666666,
+      "safe_retention": 0.5208333333333334,
+      "recovery_gain": 0.006510416666666667,
+      "stale_success": 0.83203125,
+      "recovered_success": 0.8385416666666666
+    },
+    "seed_ranges": {
+      "success": [
+        0.9375,
+        0.955078125
+      ],
+      "regret": [
+        0.0035423433873802423,
+        0.005728554911911488
+      ],
+      "state_mse": [
+        0.010793320834636688,
+        0.01491815596818924
+      ],
+      "active_count": [
+        3.017578125,
+        3.880859375
+      ],
+      "risk_gain": [
+        0.013525621965527534,
+        0.17060767114162445
+      ],
+      "safe_spurious": [
+        0.005239293444901705,
+        0.009219560772180557
+      ],
+      "risk_retention": [
+        0.525390625,
+        0.583984375
+      ],
+      "safe_retention": [
+        0.48828125,
+        0.576171875
+      ],
+      "recovery_gain": [
+        0.0,
+        0.01171875
+      ],
+      "stale_success": [
+        0.8046875,
+        0.85546875
+      ],
+      "recovered_success": [
+        0.81640625,
+        0.86328125
+      ]
+    },
+    "parameters": 15534
+  },
+  {
+    "stage": "confirmation",
+    "unique": 2048,
+    "cycles": 16,
+    "mode": "paired_plain",
+    "presentations": 65536,
+    "seeds": [
+      11,
+      23,
+      37
+    ],
+    "means": {
+      "success": 0.9602864583333334,
+      "regret": 0.005525888642296195,
+      "state_mse": 0.009306334579984346,
+      "active_count": 3.142578125,
+      "risk_gain": 0.43660173813501996,
+      "safe_spurious": 0.018586266203783453,
+      "risk_retention": 0.587890625,
+      "safe_retention": 0.5110677083333334,
+      "recovery_gain": 0.036458333333333336,
+      "stale_success": 0.84765625,
+      "recovered_success": 0.8841145833333334
+    },
+    "seed_ranges": {
+      "success": [
+        0.955078125,
+        0.96484375
+      ],
+      "regret": [
+        0.0036051555071026087,
+        0.006508574355393648
+      ],
+      "state_mse": [
+        0.00913827121257782,
+        0.009539112448692322
+      ],
+      "active_count": [
+        1.69140625,
+        3.93359375
+      ],
+      "risk_gain": [
+        0.25411245226860046,
+        0.6691992878913879
+      ],
+      "safe_spurious": [
+        0.0018296596826985478,
+        0.045503199100494385
+      ],
+      "risk_retention": [
+        0.50390625,
+        0.640625
+      ],
+      "safe_retention": [
+        0.404296875,
+        0.62890625
+      ],
+      "recovery_gain": [
+        0.00390625,
+        0.0703125
+      ],
+      "stale_success": [
+        0.8359375,
+        0.859375
+      ],
+      "recovered_success": [
+        0.83984375,
+        0.91796875
+      ]
+    },
+    "parameters": 14477
+  },
+  {
+    "stage": "confirmation",
+    "unique": 2048,
+    "cycles": 16,
+    "mode": "paired_event",
+    "presentations": 65536,
+    "seeds": [
+      11,
+      23,
+      37
+    ],
+    "means": {
+      "success": 0.9563802083333334,
+      "regret": 0.004656682567050059,
+      "state_mse": 0.010687320803602537,
+      "active_count": 3.560546875,
+      "risk_gain": 0.28800566572075087,
+      "safe_spurious": 0.01133749649549524,
+      "risk_retention": 0.5696614583333334,
+      "safe_retention": 0.4947916666666667,
+      "recovery_gain": 0.015625,
+      "stale_success": 0.8658854166666666,
+      "recovered_success": 0.8815104166666666
+    },
+    "seed_ranges": {
+      "success": [
+        0.9375,
+        0.970703125
+      ],
+      "regret": [
+        0.003304668702185154,
+        0.0067482590675354
+      ],
+      "state_mse": [
+        0.00967642292380333,
+        0.011899769306182861
+      ],
+      "active_count": [
+        3.494140625,
+        3.66015625
+      ],
+      "risk_gain": [
+        0.007681744638830423,
+        0.546431839466095
+      ],
+      "safe_spurious": [
+        0.004346488509327173,
+        0.020696021616458893
+      ],
+      "risk_retention": [
+        0.48046875,
+        0.62109375
+      ],
+      "safe_retention": [
+        0.48828125,
+        0.498046875
+      ],
+      "recovery_gain": [
+        0.0,
+        0.03125
+      ],
+      "stale_success": [
+        0.83203125,
+        0.90234375
+      ],
+      "recovered_success": [
+        0.83203125,
+        0.93359375
+      ]
+    },
+    "parameters": 15534
+  }
+]

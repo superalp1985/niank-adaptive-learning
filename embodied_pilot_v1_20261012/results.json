@@ -1,0 +1,1634 @@
+[
+  {
+    "architecture": "dense",
+    "objective": "task_only",
+    "seed": 11,
+    "parameters": 78124,
+    "history": [
+      {
+        "epoch": 1,
+        "train": {
+          "loss": 1.60932095348835,
+          "action_ce": 1.60932095348835,
+          "state": 0.05479408474639058,
+          "contact": 0.7029785513877869,
+          "alignment": 0.006569314398802817,
+          "activity": 0.07304328633472323,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.1640625,
+          "contact_accuracy": 0.10703125,
+          "action_ce": 1.6097834706306458,
+          "state_mse": 0.13396966829895973,
+          "alignment": 0.005838248645886779,
+          "activity": 0.06701333820819855,
+          "route_fraction": 1.0
+        }
+      },
+      {
+        "epoch": 2,
+        "train": {
+          "loss": 1.579925075173378,
+          "action_ce": 1.579925075173378,
+          "state": 0.05573847517371178,
+          "contact": 0.7039141058921814,
+          "alignment": 0.005428678938187659,
+          "activity": 0.06494556181132793,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.278125,
+          "contact_accuracy": 0.1484375,
+          "action_ce": 1.5684241652488708,
+          "state_mse": 0.13354019448161125,
+          "alignment": 0.005787123227491975,
+          "activity": 0.06699951738119125,
+          "route_fraction": 1.0
+        }
+      },
+      {
+        "epoch": 3,
+        "train": {
+          "loss": 1.524684876203537,
+          "action_ce": 1.524684876203537,
+          "state": 0.05488222045823932,
+          "contact": 0.6962061449885368,
+          "alignment": 0.006207250466104597,
+          "activity": 0.08414233010262251,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.34375,
+          "contact_accuracy": 0.38671875,
+          "action_ce": 1.4847741723060608,
+          "state_mse": 0.13079652190208435,
+          "alignment": 0.008493782952427864,
+          "activity": 0.12587230280041695,
+          "route_fraction": 1.0
+        }
+      },
+      {
+        "epoch": 4,
+        "train": {
+          "loss": 1.4217347204685211,
+          "action_ce": 1.4217347204685211,
+          "state": 0.05557739594951272,
+          "contact": 0.6888214349746704,
+          "alignment": 0.009512279997579753,
+          "activity": 0.17416528891772032,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.43359375,
+          "contact_accuracy": 0.4703125,
+          "action_ce": 1.3962752223014832,
+          "state_mse": 0.13803896307945251,
+          "alignment": 0.012346007861196995,
+          "activity": 0.18170947581529617,
+          "route_fraction": 1.0
+        }
+      },
+      {
+        "epoch": 5,
+        "train": {
+          "loss": 1.3127713352441788,
+          "action_ce": 1.3127713352441788,
+          "state": 0.058813448529690504,
+          "contact": 0.6854885891079903,
+          "alignment": 0.012585700256749988,
+          "activity": 0.23572301678359509,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.43515625,
+          "contact_accuracy": 0.45859375,
+          "action_ce": 1.355483889579773,
+          "state_mse": 0.15003110468387604,
+          "alignment": 0.01653469866141677,
+          "activity": 0.30664685368537903,
+          "route_fraction": 1.0
+        }
+      },
+      {
+        "epoch": 6,
+        "train": {
+          "loss": 1.1919846832752228,
+          "action_ce": 1.1919846832752228,
+          "state": 0.06768793007358909,
+          "contact": 0.6805672869086266,
+          "alignment": 0.01578091154806316,
+          "activity": 0.29994240775704384,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.45,
+          "contact_accuracy": 0.484375,
+          "action_ce": 1.3375213146209717,
+          "state_mse": 0.16503328830003738,
+          "alignment": 0.019745602272450924,
+          "activity": 0.3575364500284195,
+          "route_fraction": 1.0
+        }
+      },
+      {
+        "epoch": 7,
+        "train": {
+          "loss": 1.125971868634224,
+          "action_ce": 1.125971868634224,
+          "state": 0.0730564258992672,
+          "contact": 0.6812041252851486,
+          "alignment": 0.01841306872665882,
+          "activity": 0.3507189080119133,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.5234375,
+          "contact_accuracy": 0.62265625,
+          "action_ce": 1.2204758524894714,
+          "state_mse": 0.1730886548757553,
+          "alignment": 0.021385489962995052,
+          "activity": 0.3658739924430847,
+          "route_fraction": 1.0
+        }
+      },
+      {
+        "epoch": 8,
+        "train": {
+          "loss": 1.0490157902240753,
+          "action_ce": 1.0490157902240753,
+          "state": 0.07676194980740547,
+          "contact": 0.6599145457148552,
+          "alignment": 0.01968944678083062,
+          "activity": 0.3627830035984516,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.5578125,
+          "contact_accuracy": 0.5984375,
+          "action_ce": 1.1505435109138489,
+          "state_mse": 0.1912202313542366,
+          "alignment": 0.02324118185788393,
+          "activity": 0.36784662306308746,
+          "route_fraction": 1.0
+        }
+      }
+    ],
+    "test": {
+      "episodes": 96,
+      "steps": 1920,
+      "action_accuracy": 0.6359375,
+      "contact_accuracy": 0.5640625,
+      "action_ce": 0.9907682736714681,
+      "state_mse": 0.20140765607357025,
+      "alignment": 0.02475570949415366,
+      "activity": 0.371577928463618,
+      "route_fraction": 1.0
+    },
+    "seconds": 13.006532700033858
+  },
+  {
+    "architecture": "dense",
+    "objective": "task_only",
+    "seed": 23,
+    "parameters": 78124,
+    "history": [
+      {
+        "epoch": 1,
+        "train": {
+          "loss": 1.5989890843629837,
+          "action_ce": 1.5989890843629837,
+          "state": 0.061484006233513355,
+          "contact": 0.7022124081850052,
+          "alignment": 0.00630971958162263,
+          "activity": 0.06898382864892483,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.16875,
+          "contact_accuracy": 0.16640625,
+          "action_ce": 1.609382688999176,
+          "state_mse": 0.14381544291973114,
+          "alignment": 0.006895781960338354,
+          "activity": 0.08479452505707741,
+          "route_fraction": 1.0
+        }
+      },
+      {
+        "epoch": 2,
+        "train": {
+          "loss": 1.5599637925624847,
+          "action_ce": 1.5599637925624847,
+          "state": 0.059940213803201914,
+          "contact": 0.7137273624539375,
+          "alignment": 0.006322055589407682,
+          "activity": 0.07976252865046263,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.2953125,
+          "contact_accuracy": 0.17734375,
+          "action_ce": 1.5460624694824219,
+          "state_mse": 0.14368532598018646,
+          "alignment": 0.007059236289933324,
+          "activity": 0.10396356880664825,
+          "route_fraction": 1.0
+        }
+      },
+      {
+        "epoch": 3,
+        "train": {
+          "loss": 1.466355785727501,
+          "action_ce": 1.466355785727501,
+          "state": 0.061575564090162516,
+          "contact": 0.733786404132843,
+          "alignment": 0.007317706476897001,
+          "activity": 0.1406620852649212,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.3953125,
+          "contact_accuracy": 0.24609375,
+          "action_ce": 1.466347336769104,
+          "state_mse": 0.1484563648700714,
+          "alignment": 0.008940036408603191,
+          "activity": 0.16183800995349884,
+          "route_fraction": 1.0
+        }
+      },
+      {
+        "epoch": 4,
+        "train": {
+          "loss": 1.355862945318222,
+          "action_ce": 1.355862945318222,
+          "state": 0.06306572817265987,
+          "contact": 0.7526984363794327,
+          "alignment": 0.009601729572750628,
+          "activity": 0.19680576398968697,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.40859375,
+          "contact_accuracy": 0.2234375,
+          "action_ce": 1.4468499422073364,
+          "state_mse": 0.16090308874845505,
+          "alignment": 0.012074769474565983,
+          "activity": 0.24686173349618912,
+          "route_fraction": 1.0
+        }
+      },
+      {
+        "epoch": 5,
+        "train": {
+          "loss": 1.2562751322984695,
+          "action_ce": 1.2562751322984695,
+          "state": 0.06820720713585615,
+          "contact": 0.764687106013298,
+          "alignment": 0.013184332405216992,
+          "activity": 0.2443891502916813,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.46640625,
+          "contact_accuracy": 0.240625,
+          "action_ce": 1.325344741344452,
+          "state_mse": 0.1680353581905365,
+          "alignment": 0.016377934254705906,
+          "activity": 0.2975027710199356,
+          "route_fraction": 1.0
+        }
+      },
+      {
+        "epoch": 6,
+        "train": {
+          "loss": 1.1530137062072754,
+          "action_ce": 1.1530137062072754,
+          "state": 0.07292402070015669,
+          "contact": 0.7902369201183319,
+          "alignment": 0.016621928079985082,
+          "activity": 0.3260994181036949,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.5015625,
+          "contact_accuracy": 0.32265625,
+          "action_ce": 1.234967589378357,
+          "state_mse": 0.18688670545816422,
+          "alignment": 0.019348135218024254,
+          "activity": 0.323958620429039,
+          "route_fraction": 1.0
+        }
+      },
+      {
+        "epoch": 7,
+        "train": {
+          "loss": 1.0773808062076569,
+          "action_ce": 1.0773808062076569,
+          "state": 0.07684083003550768,
+          "contact": 0.8018213957548141,
+          "alignment": 0.019506375305354595,
+          "activity": 0.3588765971362591,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.54609375,
+          "contact_accuracy": 0.27265625,
+          "action_ce": 1.1627800464630127,
+          "state_mse": 0.1919165626168251,
+          "alignment": 0.022153143770992756,
+          "activity": 0.371727392077446,
+          "route_fraction": 1.0
+        }
+      },
+      {
+        "epoch": 8,
+        "train": {
+          "loss": 1.0070541948080063,
+          "action_ce": 1.0070541948080063,
+          "state": 0.07796104811131954,
+          "contact": 0.7958657741546631,
+          "alignment": 0.02071738289669156,
+          "activity": 0.36494244262576103,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.58125,
+          "contact_accuracy": 0.31640625,
+          "action_ce": 1.1092529296875,
+          "state_mse": 0.19474652409553528,
+          "alignment": 0.024677432142198086,
+          "activity": 0.3849163055419922,
+          "route_fraction": 1.0
+        }
+      }
+    ],
+    "test": {
+      "episodes": 96,
+      "steps": 1920,
+      "action_accuracy": 0.6380208333333334,
+      "contact_accuracy": 0.31197916666666664,
+      "action_ce": 0.9815583229064941,
+      "state_mse": 0.17035992443561554,
+      "alignment": 0.029485528046886127,
+      "activity": 0.39375612139701843,
+      "route_fraction": 1.0
+    },
+    "seconds": 10.767773399828002
+  },
+  {
+    "architecture": "dense",
+    "objective": "multi",
+    "seed": 11,
+    "parameters": 78124,
+    "history": [
+      {
+        "epoch": 1,
+        "train": {
+          "loss": 1.8078401237726212,
+          "action_ce": 1.6090492755174637,
+          "state": 0.0385520039126277,
+          "contact": 0.6048539504408836,
+          "alignment": 0.007992692291736603,
+          "activity": 0.0956743797287345,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.1640625,
+          "contact_accuracy": 0.89296875,
+          "action_ce": 1.61883544921875,
+          "state_mse": 0.07282987982034683,
+          "alignment": 0.010699404403567314,
+          "activity": 0.164183609187603,
+          "route_fraction": 1.0
+        }
+      },
+      {
+        "epoch": 2,
+        "train": {
+          "loss": 1.7282196134328842,
+          "action_ce": 1.58404640853405,
+          "state": 0.031928401440382004,
+          "contact": 0.4028410501778126,
+          "alignment": 0.013028104207478464,
+          "activity": 0.23082850128412247,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.2546875,
+          "contact_accuracy": 0.89296875,
+          "action_ce": 1.586100697517395,
+          "state_mse": 0.06973370537161827,
+          "alignment": 0.015194648876786232,
+          "activity": 0.26922233402729034,
+          "route_fraction": 1.0
+        }
+      },
+      {
+        "epoch": 3,
+        "train": {
+          "loss": 1.674186810851097,
+          "action_ce": 1.5475146919488907,
+          "state": 0.029746927553787827,
+          "contact": 0.33787428587675095,
+          "alignment": 0.015876621939241886,
+          "activity": 0.29343288019299507,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.28984375,
+          "contact_accuracy": 0.89296875,
+          "action_ce": 1.5496763586997986,
+          "state_mse": 0.06896745413541794,
+          "alignment": 0.01702812872827053,
+          "activity": 0.286996990442276,
+          "route_fraction": 1.0
+        }
+      },
+      {
+        "epoch": 4,
+        "train": {
+          "loss": 1.5821751952171326,
+          "action_ce": 1.4794412851333618,
+          "state": 0.027546832570806146,
+          "contact": 0.24801683984696865,
+          "alignment": 0.017203662544488907,
+          "activity": 0.2933751679956913,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.36484375,
+          "contact_accuracy": 0.953125,
+          "action_ce": 1.472446858882904,
+          "state_mse": 0.058325473219156265,
+          "alignment": 0.020840882323682308,
+          "activity": 0.27319931983947754,
+          "route_fraction": 1.0
+        }
+      },
+      {
+        "epoch": 5,
+        "train": {
+          "loss": 1.4868860840797424,
+          "action_ce": 1.4029524326324463,
+          "state": 0.023067683912813663,
+          "contact": 0.1837463080883026,
+          "alignment": 0.022914668079465628,
+          "activity": 0.3519795648753643,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.39921875,
+          "contact_accuracy": 0.9515625,
+          "action_ce": 1.4234431385993958,
+          "state_mse": 0.0507629718631506,
+          "alignment": 0.02783143799751997,
+          "activity": 0.3799920827150345,
+          "route_fraction": 1.0
+        }
+      },
+      {
+        "epoch": 6,
+        "train": {
+          "loss": 1.3811190724372864,
+          "action_ce": 1.306855171918869,
+          "state": 0.021847038995474577,
+          "contact": 0.14721727184951305,
+          "alignment": 0.027687346562743187,
+          "activity": 0.3911633975803852,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.3890625,
+          "contact_accuracy": 0.95546875,
+          "action_ce": 1.3688855171203613,
+          "state_mse": 0.05091257952153683,
+          "alignment": 0.029788866639137268,
+          "activity": 0.4207955598831177,
+          "route_fraction": 1.0
+        }
+      },
+      {
+        "epoch": 7,
+        "train": {
+          "loss": 1.2905543744564056,
+          "action_ce": 1.222020760178566,
+          "state": 0.02092608902603388,
+          "contact": 0.12625303771346807,
+          "alignment": 0.02951234276406467,
+          "activity": 0.42325085401535034,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.4453125,
+          "contact_accuracy": 0.95546875,
+          "action_ce": 1.2911766171455383,
+          "state_mse": 0.04489486292004585,
+          "alignment": 0.03387334942817688,
+          "activity": 0.4686218351125717,
+          "route_fraction": 1.0
+        }
+      },
+      {
+        "epoch": 8,
+        "train": {
+          "loss": 1.1815319508314133,
+          "action_ce": 1.1165608167648315,
+          "state": 0.018070012563839555,
+          "contact": 0.11911434307694435,
+          "alignment": 0.032556068152189255,
+          "activity": 0.4578867740929127,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.5140625,
+          "contact_accuracy": 0.95703125,
+          "action_ce": 1.2027353048324585,
+          "state_mse": 0.041401226073503494,
+          "alignment": 0.03775002807378769,
+          "activity": 0.4486289769411087,
+          "route_fraction": 1.0
+        }
+      }
+    ],
+    "test": {
+      "episodes": 96,
+      "steps": 1920,
+      "action_accuracy": 0.6270833333333333,
+      "contact_accuracy": 0.9651041666666667,
+      "action_ce": 1.0225237607955933,
+      "state_mse": 0.045641167710224785,
+      "alignment": 0.03955636794368426,
+      "activity": 0.4455391764640808,
+      "route_fraction": 1.0
+    },
+    "seconds": 13.046790299937129
+  },
+  {
+    "architecture": "dense",
+    "objective": "multi",
+    "seed": 23,
+    "parameters": 78124,
+    "history": [
+      {
+        "epoch": 1,
+        "train": {
+          "loss": 1.8000588864088058,
+          "action_ce": 1.6024646013975143,
+          "state": 0.044484845362603664,
+          "contact": 0.5835654400289059,
+          "alignment": 0.007720706926193088,
+          "activity": 0.08876889944076538,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.165625,
+          "contact_accuracy": 0.89296875,
+          "action_ce": 1.6208218336105347,
+          "state_mse": 0.07100768014788628,
+          "alignment": 0.011692388914525509,
+          "activity": 0.170098178088665,
+          "route_fraction": 1.0
+        }
+      },
+      {
+        "epoch": 2,
+        "train": {
+          "loss": 1.715966910123825,
+          "action_ce": 1.574892908334732,
+          "state": 0.031996635254472494,
+          "contact": 0.38993797823786736,
+          "alignment": 0.013885433785617352,
+          "activity": 0.24880741350352764,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.25859375,
+          "contact_accuracy": 0.89296875,
+          "action_ce": 1.5801640152931213,
+          "state_mse": 0.06850747764110565,
+          "alignment": 0.01674430724233389,
+          "activity": 0.3201106786727905,
+          "route_fraction": 1.0
+        }
+      },
+      {
+        "epoch": 3,
+        "train": {
+          "loss": 1.6327500641345978,
+          "action_ce": 1.505455195903778,
+          "state": 0.028571494854986668,
+          "contact": 0.3435678295791149,
+          "alignment": 0.015675520058721304,
+          "activity": 0.3095759116113186,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.375,
+          "contact_accuracy": 0.89296875,
+          "action_ce": 1.4974787831306458,
+          "state_mse": 0.07202454656362534,
+          "alignment": 0.0162888178601861,
+          "activity": 0.2756173312664032,
+          "route_fraction": 1.0
+        }
+      },
+      {
+        "epoch": 4,
+        "train": {
+          "loss": 1.5113073289394379,
+          "action_ce": 1.4028701484203339,
+          "state": 0.027458432130515575,
+          "contact": 0.2711673565208912,
+          "alignment": 0.01626520010177046,
+          "activity": 0.30559034273028374,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.3609375,
+          "contact_accuracy": 0.91953125,
+          "action_ce": 1.466578722000122,
+          "state_mse": 0.059489697217941284,
+          "alignment": 0.020063580945134163,
+          "activity": 0.3423593044281006,
+          "route_fraction": 1.0
+        }
+      },
+      {
+        "epoch": 5,
+        "train": {
+          "loss": 1.4225430339574814,
+          "action_ce": 1.3346525579690933,
+          "state": 0.025208271807059646,
+          "contact": 0.19362516701221466,
+          "alignment": 0.022266490617766976,
+          "activity": 0.36253494024276733,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.39453125,
+          "contact_accuracy": 0.9484375,
+          "action_ce": 1.4271283149719238,
+          "state_mse": 0.05812658555805683,
+          "alignment": 0.026049327105283737,
+          "activity": 0.41985271871089935,
+          "route_fraction": 1.0
+        }
+      },
+      {
+        "epoch": 6,
+        "train": {
+          "loss": 1.3396093398332596,
+          "action_ce": 1.2621222883462906,
+          "state": 0.023594560101628304,
+          "contact": 0.15530438255518675,
+          "alignment": 0.02519891387782991,
+          "activity": 0.4424017332494259,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.46328125,
+          "contact_accuracy": 0.95390625,
+          "action_ce": 1.340716540813446,
+          "state_mse": 0.04759148694574833,
+          "alignment": 0.02816394902765751,
+          "activity": 0.41318991780281067,
+          "route_fraction": 1.0
+        }
+      },
+      {
+        "epoch": 7,
+        "train": {
+          "loss": 1.2596465647220612,
+          "action_ce": 1.1897594332695007,
+          "state": 0.020395791390910745,
+          "contact": 0.13372775446623564,
+          "alignment": 0.02669042209163308,
+          "activity": 0.4218158945441246,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.47265625,
+          "contact_accuracy": 0.95546875,
+          "action_ce": 1.2829833626747131,
+          "state_mse": 0.04426877573132515,
+          "alignment": 0.030699853785336018,
+          "activity": 0.4462583065032959,
+          "route_fraction": 1.0
+        }
+      },
+      {
+        "epoch": 8,
+        "train": {
+          "loss": 1.1708882749080658,
+          "action_ce": 1.1050207763910294,
+          "state": 0.018716827733442187,
+          "contact": 0.12185671925544739,
+          "alignment": 0.02935030125081539,
+          "activity": 0.4170433394610882,
+          "route_fraction": 1.0
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.53515625,
+          "contact_accuracy": 0.95546875,
+          "action_ce": 1.1610655784606934,
+          "state_mse": 0.0385107584297657,
+          "alignment": 0.03554612770676613,
+          "activity": 0.4364479333162308,
+          "route_fraction": 1.0
+        }
+      }
+    ],
+    "test": {
+      "episodes": 96,
+      "steps": 1920,
+      "action_accuracy": 0.5703125,
+      "contact_accuracy": 0.9661458333333334,
+      "action_ce": 1.0830970605214436,
+      "state_mse": 0.04327876244982084,
+      "alignment": 0.041684565444787346,
+      "activity": 0.46578072508176166,
+      "route_fraction": 1.0
+    },
+    "seconds": 12.796423699939623
+  },
+  {
+    "architecture": "directory",
+    "objective": "task_only",
+    "seed": 11,
+    "parameters": 100813,
+    "history": [
+      {
+        "epoch": 1,
+        "train": {
+          "loss": 1.6122776716947556,
+          "action_ce": 1.6122776716947556,
+          "state": 0.05217661336064339,
+          "contact": 0.7034899592399597,
+          "alignment": 0.006566130672581494,
+          "activity": 0.08862271532416344,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.18984375,
+          "contact_accuracy": 0.10703125,
+          "action_ce": 1.6065617799758911,
+          "state_mse": 0.13211749494075775,
+          "alignment": 0.006428886670619249,
+          "activity": 0.06908472999930382,
+          "route_fraction": 0.0833333358168602
+        }
+      },
+      {
+        "epoch": 2,
+        "train": {
+          "loss": 1.5857729017734528,
+          "action_ce": 1.5857729017734528,
+          "state": 0.05382254580035806,
+          "contact": 0.7011020556092262,
+          "alignment": 0.006515319459140301,
+          "activity": 0.07130300998687744,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.3515625,
+          "contact_accuracy": 0.28125,
+          "action_ce": 1.5574731230735779,
+          "state_mse": 0.12408328056335449,
+          "alignment": 0.007174445083364844,
+          "activity": 0.0840674377977848,
+          "route_fraction": 0.0833333358168602
+        }
+      },
+      {
+        "epoch": 3,
+        "train": {
+          "loss": 1.4946795105934143,
+          "action_ce": 1.4946795105934143,
+          "state": 0.05106223514303565,
+          "contact": 0.6941515803337097,
+          "alignment": 0.006886513147037476,
+          "activity": 0.13103806599974632,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.34765625,
+          "contact_accuracy": 0.45625,
+          "action_ce": 1.4291554689407349,
+          "state_mse": 0.13351168110966682,
+          "alignment": 0.007508601527661085,
+          "activity": 0.221107117831707,
+          "route_fraction": 0.0833333358168602
+        }
+      },
+      {
+        "epoch": 4,
+        "train": {
+          "loss": 1.3637206554412842,
+          "action_ce": 1.3637206554412842,
+          "state": 0.056574273854494095,
+          "contact": 0.6870878636837006,
+          "alignment": 0.007258358993567526,
+          "activity": 0.26440519094467163,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.371875,
+          "contact_accuracy": 0.4625,
+          "action_ce": 1.4111587405204773,
+          "state_mse": 0.15005530416965485,
+          "alignment": 0.008078307146206498,
+          "activity": 0.30208542943000793,
+          "route_fraction": 0.0833333358168602
+        }
+      },
+      {
+        "epoch": 5,
+        "train": {
+          "loss": 1.2808115780353546,
+          "action_ce": 1.2808115780353546,
+          "state": 0.067461755592376,
+          "contact": 0.6963009014725685,
+          "alignment": 0.007631001994013786,
+          "activity": 0.33183469623327255,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.42578125,
+          "contact_accuracy": 0.4546875,
+          "action_ce": 1.3868597745895386,
+          "state_mse": 0.1701941266655922,
+          "alignment": 0.008457891875877976,
+          "activity": 0.3813331425189972,
+          "route_fraction": 0.0833333358168602
+        }
+      },
+      {
+        "epoch": 6,
+        "train": {
+          "loss": 1.191722184419632,
+          "action_ce": 1.191722184419632,
+          "state": 0.07343802507966757,
+          "contact": 0.7012973576784134,
+          "alignment": 0.007486955204512924,
+          "activity": 0.36756590008735657,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.4859375,
+          "contact_accuracy": 0.5328125,
+          "action_ce": 1.2968488335609436,
+          "state_mse": 0.1692778542637825,
+          "alignment": 0.008476159768179059,
+          "activity": 0.4004339724779129,
+          "route_fraction": 0.0833333358168602
+        }
+      },
+      {
+        "epoch": 7,
+        "train": {
+          "loss": 1.1295350715517998,
+          "action_ce": 1.1295350715517998,
+          "state": 0.07576466538012028,
+          "contact": 0.6755808293819427,
+          "alignment": 0.007667690340895206,
+          "activity": 0.38891036435961723,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.51796875,
+          "contact_accuracy": 0.6328125,
+          "action_ce": 1.242290198802948,
+          "state_mse": 0.19844671338796616,
+          "alignment": 0.008818540722131729,
+          "activity": 0.42140455543994904,
+          "route_fraction": 0.0833333358168602
+        }
+      },
+      {
+        "epoch": 8,
+        "train": {
+          "loss": 1.0708667263388634,
+          "action_ce": 1.0708667263388634,
+          "state": 0.08185290079563856,
+          "contact": 0.6520568206906319,
+          "alignment": 0.007827913155779243,
+          "activity": 0.4322107061743736,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.51875,
+          "contact_accuracy": 0.559375,
+          "action_ce": 1.1923103332519531,
+          "state_mse": 0.19846706092357635,
+          "alignment": 0.008865473326295614,
+          "activity": 0.4456567317247391,
+          "route_fraction": 0.0833333358168602
+        }
+      }
+    ],
+    "test": {
+      "episodes": 96,
+      "steps": 1920,
+      "action_accuracy": 0.6130208333333333,
+      "contact_accuracy": 0.5552083333333333,
+      "action_ce": 1.0409310261408489,
+      "state_mse": 0.20887423058350882,
+      "alignment": 0.008648808735112349,
+      "activity": 0.44426653782526654,
+      "route_fraction": 0.0833333358168602
+    },
+    "seconds": 20.65705220005475
+  },
+  {
+    "architecture": "directory",
+    "objective": "task_only",
+    "seed": 23,
+    "parameters": 100813,
+    "history": [
+      {
+        "epoch": 1,
+        "train": {
+          "loss": 1.599849209189415,
+          "action_ce": 1.599849209189415,
+          "state": 0.058812165167182684,
+          "contact": 0.718695379793644,
+          "alignment": 0.006104243453592062,
+          "activity": 0.07518883049488068,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.18828125,
+          "contact_accuracy": 0.10703125,
+          "action_ce": 1.6044812202453613,
+          "state_mse": 0.1315542533993721,
+          "alignment": 0.006317703751847148,
+          "activity": 0.09460799396038055,
+          "route_fraction": 0.0833333358168602
+        }
+      },
+      {
+        "epoch": 2,
+        "train": {
+          "loss": 1.5512353479862213,
+          "action_ce": 1.5512353479862213,
+          "state": 0.05859950091689825,
+          "contact": 0.7336317971348763,
+          "alignment": 0.00586050795391202,
+          "activity": 0.08953672554343939,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.33828125,
+          "contact_accuracy": 0.196875,
+          "action_ce": 1.515663981437683,
+          "state_mse": 0.15308474749326706,
+          "alignment": 0.006233990890905261,
+          "activity": 0.1479555144906044,
+          "route_fraction": 0.0833333358168602
+        }
+      },
+      {
+        "epoch": 3,
+        "train": {
+          "loss": 1.4310497641563416,
+          "action_ce": 1.4310497641563416,
+          "state": 0.068351358640939,
+          "contact": 0.7532418146729469,
+          "alignment": 0.006014645390678197,
+          "activity": 0.21260087937116623,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.353125,
+          "contact_accuracy": 0.49921875,
+          "action_ce": 1.5473693013191223,
+          "state_mse": 0.17359034717082977,
+          "alignment": 0.006648659938946366,
+          "activity": 0.27148135006427765,
+          "route_fraction": 0.0833333358168602
+        }
+      },
+      {
+        "epoch": 4,
+        "train": {
+          "loss": 1.318742960691452,
+          "action_ce": 1.318742960691452,
+          "state": 0.0673750820569694,
+          "contact": 0.7676495835185051,
+          "alignment": 0.006120313075371087,
+          "activity": 0.2822914905846119,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.44375,
+          "contact_accuracy": 0.42578125,
+          "action_ce": 1.3527748584747314,
+          "state_mse": 0.17526459693908691,
+          "alignment": 0.006486538797616959,
+          "activity": 0.2702956050634384,
+          "route_fraction": 0.0833333358168602
+        }
+      },
+      {
+        "epoch": 5,
+        "train": {
+          "loss": 1.214194044470787,
+          "action_ce": 1.214194044470787,
+          "state": 0.07350815925747156,
+          "contact": 0.7663877084851265,
+          "alignment": 0.006044842069968581,
+          "activity": 0.3053859509527683,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.51171875,
+          "contact_accuracy": 0.39140625,
+          "action_ce": 1.2509260773658752,
+          "state_mse": 0.16528014093637466,
+          "alignment": 0.006536484230309725,
+          "activity": 0.3246685713529587,
+          "route_fraction": 0.0833333358168602
+        }
+      },
+      {
+        "epoch": 6,
+        "train": {
+          "loss": 1.1197955906391144,
+          "action_ce": 1.1197955906391144,
+          "state": 0.07724781660363078,
+          "contact": 0.7924847155809402,
+          "alignment": 0.006090489565394819,
+          "activity": 0.3538758084177971,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.55859375,
+          "contact_accuracy": 0.34375,
+          "action_ce": 1.1477087140083313,
+          "state_mse": 0.2165638580918312,
+          "alignment": 0.006775478832423687,
+          "activity": 0.394231915473938,
+          "route_fraction": 0.0833333358168602
+        }
+      },
+      {
+        "epoch": 7,
+        "train": {
+          "loss": 0.9880525916814804,
+          "action_ce": 0.9880525916814804,
+          "state": 0.09349084552377462,
+          "contact": 0.7928863316774368,
+          "alignment": 0.006275502790231258,
+          "activity": 0.3943965844810009,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.5859375,
+          "contact_accuracy": 0.41953125,
+          "action_ce": 1.0664797723293304,
+          "state_mse": 0.23270470649003983,
+          "alignment": 0.007071637082844973,
+          "activity": 0.4388601779937744,
+          "route_fraction": 0.0833333358168602
+        }
+      },
+      {
+        "epoch": 8,
+        "train": {
+          "loss": 0.9147510156035423,
+          "action_ce": 0.9147510156035423,
+          "state": 0.10104222409427166,
+          "contact": 0.804616816341877,
+          "alignment": 0.006441340141464025,
+          "activity": 0.4409834034740925,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.609375,
+          "contact_accuracy": 0.38671875,
+          "action_ce": 1.0150822401046753,
+          "state_mse": 0.24874471127986908,
+          "alignment": 0.007204391527920961,
+          "activity": 0.4744100570678711,
+          "route_fraction": 0.0833333358168602
+        }
+      }
+    ],
+    "test": {
+      "episodes": 96,
+      "steps": 1920,
+      "action_accuracy": 0.6276041666666666,
+      "contact_accuracy": 0.3234375,
+      "action_ce": 0.8861564993858337,
+      "state_mse": 0.2114042341709137,
+      "alignment": 0.008136024543394646,
+      "activity": 0.47649959723154706,
+      "route_fraction": 0.0833333358168602
+    },
+    "seconds": 20.16092970012687
+  },
+  {
+    "architecture": "directory",
+    "objective": "multi",
+    "seed": 11,
+    "parameters": 100813,
+    "history": [
+      {
+        "epoch": 1,
+        "train": {
+          "loss": 1.7767963856458664,
+          "action_ce": 1.6128891557455063,
+          "state": 0.03496136958710849,
+          "contact": 0.548478290438652,
+          "alignment": 0.0073245681705884635,
+          "activity": 0.1408894658088684,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.2046875,
+          "contact_accuracy": 0.89296875,
+          "action_ce": 1.6128405928611755,
+          "state_mse": 0.07012521475553513,
+          "alignment": 0.008357079699635506,
+          "activity": 0.2079106718301773,
+          "route_fraction": 0.0833333358168602
+        }
+      },
+      {
+        "epoch": 2,
+        "train": {
+          "loss": 1.6958404779434204,
+          "action_ce": 1.5920941084623337,
+          "state": 0.02897405088879168,
+          "contact": 0.32323441095650196,
+          "alignment": 0.008740083780139685,
+          "activity": 0.2761234100908041,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.22578125,
+          "contact_accuracy": 0.89296875,
+          "action_ce": 1.6060786843299866,
+          "state_mse": 0.07276956737041473,
+          "alignment": 0.009168286807835102,
+          "activity": 0.34157051146030426,
+          "route_fraction": 0.0833333358168602
+        }
+      },
+      {
+        "epoch": 3,
+        "train": {
+          "loss": 1.613658383488655,
+          "action_ce": 1.552294448018074,
+          "state": 0.030412364983931184,
+          "contact": 0.1485840054228902,
+          "alignment": 0.008727951091714203,
+          "activity": 0.4131171219050884,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.22734375,
+          "contact_accuracy": 0.95546875,
+          "action_ce": 1.5972695350646973,
+          "state_mse": 0.07322141900658607,
+          "alignment": 0.009024003520607948,
+          "activity": 0.4689721465110779,
+          "route_fraction": 0.0833333358168602
+        }
+      },
+      {
+        "epoch": 4,
+        "train": {
+          "loss": 1.5614760965108871,
+          "action_ce": 1.5182757377624512,
+          "state": 0.031543980818241835,
+          "contact": 0.07223219983279705,
+          "alignment": 0.00888604938518256,
+          "activity": 0.4752773120999336,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.30234375,
+          "contact_accuracy": 0.934375,
+          "action_ce": 1.5339423418045044,
+          "state_mse": 0.064888134598732,
+          "alignment": 0.010449386667460203,
+          "activity": 0.40895944833755493,
+          "route_fraction": 0.0833333358168602
+        }
+      },
+      {
+        "epoch": 5,
+        "train": {
+          "loss": 1.524841621518135,
+          "action_ce": 1.4862415790557861,
+          "state": 0.030280234524980187,
+          "contact": 0.0568771967664361,
+          "alignment": 0.01073799398727715,
+          "activity": 0.4905235655605793,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.27265625,
+          "contact_accuracy": 0.9578125,
+          "action_ce": 1.530703365802765,
+          "state_mse": 0.07285399362444878,
+          "alignment": 0.013461390044540167,
+          "activity": 0.4979898929595947,
+          "route_fraction": 0.0833333358168602
+        }
+      },
+      {
+        "epoch": 6,
+        "train": {
+          "loss": 1.4477772265672684,
+          "action_ce": 1.4121568650007248,
+          "state": 0.030836830148473382,
+          "contact": 0.04279729397967458,
+          "alignment": 0.014001608709804714,
+          "activity": 0.4842543974518776,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.32890625,
+          "contact_accuracy": 0.96640625,
+          "action_ce": 1.4409593343734741,
+          "state_mse": 0.06786440312862396,
+          "alignment": 0.018100911751389503,
+          "activity": 0.47766628861427307,
+          "route_fraction": 0.0833333358168602
+        }
+      },
+      {
+        "epoch": 7,
+        "train": {
+          "loss": 1.3685458302497864,
+          "action_ce": 1.3269896507263184,
+          "state": 0.02673669275827706,
+          "contact": 0.07727445755153894,
+          "alignment": 0.01847854082006961,
+          "activity": 0.4656542018055916,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.39140625,
+          "contact_accuracy": 0.95546875,
+          "action_ce": 1.361208736896515,
+          "state_mse": 0.05011306144297123,
+          "alignment": 0.022859728895127773,
+          "activity": 0.49918629229068756,
+          "route_fraction": 0.0833333358168602
+        }
+      },
+      {
+        "epoch": 8,
+        "train": {
+          "loss": 1.2520750910043716,
+          "action_ce": 1.2159453779459,
+          "state": 0.019979726057499647,
+          "contact": 0.07381759071722627,
+          "alignment": 0.021260027075186372,
+          "activity": 0.4799073748290539,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.4703125,
+          "contact_accuracy": 0.98515625,
+          "action_ce": 1.2532445192337036,
+          "state_mse": 0.04684743471443653,
+          "alignment": 0.025673641823232174,
+          "activity": 0.4919421225786209,
+          "route_fraction": 0.0833333358168602
+        }
+      }
+    ],
+    "test": {
+      "episodes": 96,
+      "steps": 1920,
+      "action_accuracy": 0.5479166666666667,
+      "contact_accuracy": 0.9921875,
+      "action_ce": 1.1379245519638062,
+      "state_mse": 0.05546664694945017,
+      "alignment": 0.02490497815112273,
+      "activity": 0.49877432982126874,
+      "route_fraction": 0.0833333358168602
+    },
+    "seconds": 22.274515700060874
+  },
+  {
+    "architecture": "directory",
+    "objective": "multi",
+    "seed": 23,
+    "parameters": 100813,
+    "history": [
+      {
+        "epoch": 1,
+        "train": {
+          "loss": 1.7691843509674072,
+          "action_ce": 1.6069933474063873,
+          "state": 0.03901315224356949,
+          "contact": 0.5302436575293541,
+          "alignment": 0.0073315988993272185,
+          "activity": 0.14384271763265133,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.178125,
+          "contact_accuracy": 0.89296875,
+          "action_ce": 1.613905906677246,
+          "state_mse": 0.07413757964968681,
+          "alignment": 0.009472873993217945,
+          "activity": 0.2710669934749603,
+          "route_fraction": 0.0833333358168602
+        }
+      },
+      {
+        "epoch": 2,
+        "train": {
+          "loss": 1.7045037895441055,
+          "action_ce": 1.5924523919820786,
+          "state": 0.029917883686721325,
+          "contact": 0.35368125326931477,
+          "alignment": 0.009392456617206335,
+          "activity": 0.27616508305072784,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.24921875,
+          "contact_accuracy": 0.89296875,
+          "action_ce": 1.60370934009552,
+          "state_mse": 0.0729139931499958,
+          "alignment": 0.010159385856240988,
+          "activity": 0.2927747666835785,
+          "route_fraction": 0.0833333358168602
+        }
+      },
+      {
+        "epoch": 3,
+        "train": {
+          "loss": 1.6138491034507751,
+          "action_ce": 1.5388165563344955,
+          "state": 0.029606566298753023,
+          "contact": 0.20586980320513248,
+          "alignment": 0.009658653289079666,
+          "activity": 0.34544602409005165,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.29921875,
+          "contact_accuracy": 0.95546875,
+          "action_ce": 1.5454073548316956,
+          "state_mse": 0.07206710427999496,
+          "alignment": 0.010191010776907206,
+          "activity": 0.33646081387996674,
+          "route_fraction": 0.0833333358168602
+        }
+      },
+      {
+        "epoch": 4,
+        "train": {
+          "loss": 1.5164882093667984,
+          "action_ce": 1.4564602822065353,
+          "state": 0.030329536413773894,
+          "contact": 0.14385833498090506,
+          "alignment": 0.009933509165421128,
+          "activity": 0.3346567749977112,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.3640625,
+          "contact_accuracy": 0.95546875,
+          "action_ce": 1.468495786190033,
+          "state_mse": 0.06452741846442223,
+          "alignment": 0.012133375741541386,
+          "activity": 0.37903811037540436,
+          "route_fraction": 0.0833333358168602
+        }
+      },
+      {
+        "epoch": 5,
+        "train": {
+          "loss": 1.3921646177768707,
+          "action_ce": 1.3423298746347427,
+          "state": 0.02579797967337072,
+          "contact": 0.11494119372218847,
+          "alignment": 0.011954590794630349,
+          "activity": 0.3882176838815212,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.39609375,
+          "contact_accuracy": 0.95546875,
+          "action_ce": 1.3940995931625366,
+          "state_mse": 0.061616865918040276,
+          "alignment": 0.014010881073772907,
+          "activity": 0.4536479115486145,
+          "route_fraction": 0.0833333358168602
+        }
+      },
+      {
+        "epoch": 6,
+        "train": {
+          "loss": 1.2930421233177185,
+          "action_ce": 1.2472545504570007,
+          "state": 0.02515511494129896,
+          "contact": 0.09964557643979788,
+          "alignment": 0.013357839547097683,
+          "activity": 0.4665299318730831,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.4609375,
+          "contact_accuracy": 0.95546875,
+          "action_ce": 1.318617045879364,
+          "state_mse": 0.05599967576563358,
+          "alignment": 0.015068203210830688,
+          "activity": 0.47195205092430115,
+          "route_fraction": 0.0833333358168602
+        }
+      },
+      {
+        "epoch": 7,
+        "train": {
+          "loss": 1.2695193439722061,
+          "action_ce": 1.224456012248993,
+          "state": 0.0226287969853729,
+          "contact": 0.10378259140998125,
+          "alignment": 0.01432584470603615,
+          "activity": 0.4472878649830818,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.45078125,
+          "contact_accuracy": 0.953125,
+          "action_ce": 1.2855347990989685,
+          "state_mse": 0.05009019561111927,
+          "alignment": 0.016165183391422033,
+          "activity": 0.4718003571033478,
+          "route_fraction": 0.0833333358168602
+        }
+      },
+      {
+        "epoch": 8,
+        "train": {
+          "loss": 1.1610476225614548,
+          "action_ce": 1.11708565056324,
+          "state": 0.0213217509444803,
+          "contact": 0.10284169018268585,
+          "alignment": 0.014404891873709857,
+          "activity": 0.46967703104019165,
+          "route_fraction": 0.0833333358168602
+        },
+        "validation": {
+          "episodes": 64,
+          "steps": 1280,
+          "action_accuracy": 0.5375,
+          "contact_accuracy": 0.95234375,
+          "action_ce": 1.1898181438446045,
+          "state_mse": 0.0501343309879303,
+          "alignment": 0.016138985753059387,
+          "activity": 0.4640030860900879,
+          "route_fraction": 0.0833333358168602
+        }
+      }
+    ],
+    "test": {
+      "episodes": 96,
+      "steps": 1920,
+      "action_accuracy": 0.5380208333333333,
+      "contact_accuracy": 0.9640625,
+      "action_ce": 1.0762937863667805,
+      "state_mse": 0.05429558828473091,
+      "alignment": 0.01775700847307841,
+      "activity": 0.4951725999514262,
+      "route_fraction": 0.0833333358168602
+    },
+    "seconds": 22.424096199916676
+  }
+]

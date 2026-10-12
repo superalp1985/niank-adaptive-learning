@@ -1,0 +1,132 @@
+[
+  {
+    "stage": "development",
+    "unique": 512,
+    "cycles": 32,
+    "seed": 11,
+    "success_gain": 0.0078125,
+    "risk_gain_difference": 0.05144780874252319,
+    "safe_spurious_difference": -0.0050926359836012125,
+    "state_mse_difference": -0.00014578644186258316
+  },
+  {
+    "stage": "confirmation",
+    "unique": 512,
+    "cycles": 8,
+    "seed": 11,
+    "success_gain": -0.072265625,
+    "risk_gain_difference": 0.5936332046985626,
+    "safe_spurious_difference": -0.06420334242284298,
+    "state_mse_difference": 0.02627713605761528
+  },
+  {
+    "stage": "confirmation",
+    "unique": 512,
+    "cycles": 8,
+    "seed": 23,
+    "success_gain": -0.001953125,
+    "risk_gain_difference": 0.5887351930141449,
+    "safe_spurious_difference": -0.12090126611292362,
+    "state_mse_difference": -0.000309159979224205
+  },
+  {
+    "stage": "confirmation",
+    "unique": 512,
+    "cycles": 8,
+    "seed": 37,
+    "success_gain": -0.033203125,
+    "risk_gain_difference": 0.5445118248462677,
+    "safe_spurious_difference": -0.12240567058324814,
+    "state_mse_difference": 0.0093841552734375
+  },
+  {
+    "stage": "confirmation",
+    "unique": 2048,
+    "cycles": 2,
+    "seed": 11,
+    "success_gain": -0.060546875,
+    "risk_gain_difference": 0.7938975542783737,
+    "safe_spurious_difference": -0.051069967448711395,
+    "state_mse_difference": 0.020590927451848984
+  },
+  {
+    "stage": "confirmation",
+    "unique": 2048,
+    "cycles": 2,
+    "seed": 23,
+    "success_gain": -0.013671875,
+    "risk_gain_difference": 0.7576846480369568,
+    "safe_spurious_difference": -0.0896811606362462,
+    "state_mse_difference": 0.005583096295595169
+  },
+  {
+    "stage": "confirmation",
+    "unique": 2048,
+    "cycles": 2,
+    "seed": 37,
+    "success_gain": -0.078125,
+    "risk_gain_difference": 0.6229628324508667,
+    "safe_spurious_difference": -0.0967944897711277,
+    "state_mse_difference": 0.016579415649175644
+  },
+  {
+    "stage": "confirmation",
+    "unique": 2048,
+    "cycles": 8,
+    "seed": 11,
+    "success_gain": 0.0234375,
+    "risk_gain_difference": 0.34112077951431274,
+    "safe_spurious_difference": -0.0032852080184966326,
+    "state_mse_difference": -0.0019592978060245514
+  },
+  {
+    "stage": "confirmation",
+    "unique": 2048,
+    "cycles": 8,
+    "seed": 23,
+    "success_gain": 0.009765625,
+    "risk_gain_difference": 0.06832444667816162,
+    "safe_spurious_difference": -0.002780571114271879,
+    "state_mse_difference": 0.002940516918897629
+  },
+  {
+    "stage": "confirmation",
+    "unique": 2048,
+    "cycles": 8,
+    "seed": 37,
+    "success_gain": -0.0234375,
+    "risk_gain_difference": 0.06271880865097046,
+    "safe_spurious_difference": -0.003179240971803665,
+    "state_mse_difference": 0.004222746239975095
+  },
+  {
+    "stage": "confirmation",
+    "unique": 2048,
+    "cycles": 32,
+    "seed": 11,
+    "success_gain": -0.00390625,
+    "risk_gain_difference": 0.12378925085067749,
+    "safe_spurious_difference": -0.0028606096748262644,
+    "state_mse_difference": -0.0004321858286857605
+  },
+  {
+    "stage": "confirmation",
+    "unique": 2048,
+    "cycles": 32,
+    "seed": 23,
+    "success_gain": 0.001953125,
+    "risk_gain_difference": 0.027785956859588623,
+    "safe_spurious_difference": -0.002792386570945382,
+    "state_mse_difference": 0.0009938075672835112
+  },
+  {
+    "stage": "confirmation",
+    "unique": 2048,
+    "cycles": 32,
+    "seed": 37,
+    "success_gain": -0.00390625,
+    "risk_gain_difference": -0.0646737813949585,
+    "safe_spurious_difference": -0.0015289911534637213,
+    "state_mse_difference": 0.00012926035560667515
+  }
+]

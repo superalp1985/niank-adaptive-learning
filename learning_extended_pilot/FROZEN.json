@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "config": {
+    "matrix_path": "E:\\byte级模型\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\connectome_reduced.npz",
+    "output_dir": "E:/byte级模型/v6/niank_v9/experiments/fly_memory_v3_20261011/learning_extended_pilot",
+    "pilot": true,
+    "unique_counts": [
+      1024
+    ],
+    "repetitions": [
+      16,
+      64,
+      256
+    ],
+    "seeds": [
+      1103
+    ],
+    "architectures": [
+      "connectome",
+      "rewired",
+      "gru"
+    ],
+    "objectives": [
+      "task_only",
+      "task_predict"
+    ],
+    "data_seed": 801017,
+    "batch_size": 64,
+    "validation_per_scenario": 256,
+    "test_per_scenario": 512,
+    "learning_rate": 0.003,
+    "train_noise": 0.03,
+    "eval_noise": 0.03,
+    "prediction_weight": 0.5,
+    "consistency_weight": 1.0,
+    "variance_weight": 1.0,
+    "variance_floor": 0.1,
+    "activity_weight": 0.001,
+    "leak": 0.5,
+    "gru_hidden": 0,
+    "evaluation_batch_size": 256,
+    "save_predictions": true
+  },
+  "source_hashes": {
+    "learning_experiment.py": "7a6cd12e783883d00e1335c0c060a3340f729ce598eb7c007c3cb22dbc8d6c7b",
+    "test_learning.py": "ce85405d196610f888e4be80bac690a2cec0a849c09835f150842b4703b28224"
+  },
+  "matrix_sha256": "87202ab874ff0aad56e180d3658025895ebd259649922b43b01a8b8cffb9e0cd",
+  "matrix_metadata": {
+    "nodes": 256,
+    "edges": 13098,
+    "positive_edges": 7743,
+    "negative_edges": 5355,
+    "signed_degree_preserved": true,
+    "signed_weight_multiset_preserved_before_row_normalization": true,
+    "retained_topology_fraction": 0.315162620247366
+  },
+  "datasets": {
+    "training": {
+      "1024": {
+        "count": 1024,
+        "sha256": "6b8bb8af978abbdfb0c801837425dad71a6c2e67a2778b3b8d9f4deb753df254",
+        "length_counts": {
+          "3": 209,
+          "4": 815
+        }
+      }
+    },
+    "validation": {
+      "in_distribution": {
+        "count": 256,
+        "sha256": "1007d10013fe5413cf172a9252560767492c9dab924415e3c29ac1d0f6a57b95",
+        "length_counts": {
+          "3": 64,
+          "4": 192
+        }
+      },
+      "unseen_pair": {
+        "count": 256,
+        "sha256": "cd8b6fa0aa724919baab64a9fe1933cc7b338ccc169b8ffb813e3b302bbaef44",
+        "length_counts": {
+          "3": 43,
+          "4": 213
+        }
+      },
+      "long_chain": {
+        "count": 256,
+        "sha256": "de9211d0cffb0a16cd680a0b6c70eebd42e658e44bd208ee9a573397e7660ab1",
+        "length_counts": {
+          "5": 51,
+          "6": 205
+        }
+      },
+      "long_unseen_pair": {
+        "count": 256,
+        "sha256": "1b84c183dbc9e44d56fbcf01bc1f1b9184a2ccb1e6c5d2c752807a7890b832ce",
+        "length_counts": {
+          "5": 46,
+          "6": 210
+        }
+      }
+    },
+    "test": {
+      "in_distribution": {
+        "count": 512,
+        "sha256": "dc3d8a6fbd439491db265f916794c6292e9459fa9c84d9eb1358f95377444003",
+        "length_counts": {
+          "3": 111,
+          "4": 401
+        }
+      },
+      "unseen_pair": {
+        "count": 512,
+        "sha256": "bf68a0586ff1e690bb487cc3d8986dd1eff08d18030264be32918ddb6cefd7b8",
+        "length_counts": {
+          "3": 67,
+          "4": 445
+        }
+      },
+      "long_chain": {
+        "count": 512,
+        "sha256": "9a476fe77b514067fe99e5814a5405aab5dd075cdd35945bf5a9f82637ede573",
+        "length_counts": {
+          "5": 115,
+          "6": 397
+        }
+      },
+      "long_unseen_pair": {
+        "count": 512,
+        "sha256": "ec1e72291589d245b124a87b79a8ba9d644bc558bafaee0032f21307bc71b4b4",
+        "length_counts": {
+          "5": 77,
+          "6": 435
+        }
+      }
+    },
+    "identity_disjoint": true,
+    "fixed_split_shared_by_model_seeds": true,
+    "heldout_ordered_pair": [
+      0,
+      2
+    ]
+  },
+  "selection": "All prespecified conditions are reported; test feedback never selects or tunes a model.",
+  "device": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "pytorch": "2.7.1+cu128",
+  "limitations": [
+    "Connectome-derived differentiable rate model, not original LIF or whole-brain learning.",
+    "Learnable signed edges with fixed topology and row-L1 normalization at every forward.",
+    "Torus translation actions commute; heldout pairs do not prove temporal-order understanding.",
+    "Model seeds share a fixed split; seed variation is not independent task-world replication.",
+    "Intermediate-state supervision supplies extra labels and adds computation.",
+    "Two augmented views add forward/backward work; presentations alone do not equal training compute.",
+    "Activity L1 is not measured compute, sparsity, energy, or acceleration; kernels are dense.",
+    "No FAME, Qwen parameter routing, biological plasticity, or language generalization tested."
+  ]
+}

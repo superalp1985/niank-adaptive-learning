@@ -1,0 +1,277 @@
+{
+  "source_hashes": true,
+  "transitions": 5013504,
+  "decisions": 1253376,
+  "runs_and_probes": [
+    {
+      "path": "g78_s23_w420100_delayed\\composition",
+      "transitions": 8192,
+      "success": 0.908447265625
+    },
+    {
+      "path": "g78_s23_w420100_delayed\\seen",
+      "transitions": 8192,
+      "success": 0.9503173828125
+    },
+    {
+      "path": "g78_s23_w420100_delayed",
+      "transitions": 262144,
+      "success": 0.8696174621582031
+    },
+    {
+      "path": "g78_s23_w420100_immediate\\composition",
+      "transitions": 8192,
+      "success": 0.9156494140625
+    },
+    {
+      "path": "g78_s23_w420100_immediate\\seen",
+      "transitions": 8192,
+      "success": 0.95361328125
+    },
+    {
+      "path": "g78_s23_w420100_immediate",
+      "transitions": 262144,
+      "success": 0.872344970703125
+    },
+    {
+      "path": "g78_s23_w420100_independent\\composition",
+      "transitions": 8192,
+      "success": 0.9185791015625
+    },
+    {
+      "path": "g78_s23_w420100_independent\\seen",
+      "transitions": 8192,
+      "success": 0.9554443359375
+    },
+    {
+      "path": "g78_s23_w420100_independent",
+      "transitions": 262144,
+      "success": 0.8787651062011719
+    },
+    {
+      "path": "g78_s23_w430100_delayed\\composition",
+      "transitions": 8192,
+      "success": 0.920654296875
+    },
+    {
+      "path": "g78_s23_w430100_delayed\\seen",
+      "transitions": 8192,
+      "success": 0.94921875
+    },
+    {
+      "path": "g78_s23_w430100_delayed",
+      "transitions": 262144,
+      "success": 0.8789749145507812
+    },
+    {
+      "path": "g78_s23_w430100_immediate\\composition",
+      "transitions": 8192,
+      "success": 0.9288330078125
+    },
+    {
+      "path": "g78_s23_w430100_immediate\\seen",
+      "transitions": 8192,
+      "success": 0.9613037109375
+    },
+    {
+      "path": "g78_s23_w430100_immediate",
+      "transitions": 262144,
+      "success": 0.8788566589355469
+    },
+    {
+      "path": "g78_s23_w430100_independent\\composition",
+      "transitions": 8192,
+      "success": 0.925048828125
+    },
+    {
+      "path": "g78_s23_w430100_independent\\seen",
+      "transitions": 8192,
+      "success": 0.954833984375
+    },
+    {
+      "path": "g78_s23_w430100_independent",
+      "transitions": 262144,
+      "success": 0.8732681274414062
+    },
+    {
+      "path": "g78_s37_w420100_delayed\\composition",
+      "transitions": 8192,
+      "success": 0.8892822265625
+    },
+    {
+      "path": "g78_s37_w420100_delayed\\seen",
+      "transitions": 8192,
+      "success": 0.925048828125
+    },
+    {
+      "path": "g78_s37_w420100_delayed",
+      "transitions": 262144,
+      "success": 0.8248481750488281
+    },
+    {
+      "path": "g78_s37_w420100_immediate\\composition",
+      "transitions": 8192,
+      "success": 0.894287109375
+    },
+    {
+      "path": "g78_s37_w420100_immediate\\seen",
+      "transitions": 8192,
+      "success": 0.93896484375
+    },
+    {
+      "path": "g78_s37_w420100_immediate",
+      "transitions": 262144,
+      "success": 0.8266754150390625
+    },
+    {
+      "path": "g78_s37_w420100_independent\\composition",
+      "transitions": 8192,
+      "success": 0.912353515625
+    },
+    {
+      "path": "g78_s37_w420100_independent\\seen",
+      "transitions": 8192,
+      "success": 0.94921875
+    },
+    {
+      "path": "g78_s37_w420100_independent",
+      "transitions": 262144,
+      "success": 0.8126068115234375
+    },
+    {
+      "path": "g9_s23_w420100_delayed\\composition",
+      "transitions": 8192,
+      "success": 0.9232177734375
+    },
+    {
+      "path": "g9_s23_w420100_delayed\\seen",
+      "transitions": 8192,
+      "success": 0.955078125
+    },
+    {
+      "path": "g9_s23_w420100_delayed",
+      "transitions": 262144,
+      "success": 0.8644676208496094
+    },
+    {
+      "path": "g9_s23_w420100_immediate\\composition",
+      "transitions": 8192,
+      "success": 0.9078369140625
+    },
+    {
+      "path": "g9_s23_w420100_immediate\\seen",
+      "transitions": 8192,
+      "success": 0.934814453125
+    },
+    {
+      "path": "g9_s23_w420100_immediate",
+      "transitions": 262144,
+      "success": 0.8624191284179688
+    },
+    {
+      "path": "g9_s23_w420100_independent\\composition",
+      "transitions": 8192,
+      "success": 0.9097900390625
+    },
+    {
+      "path": "g9_s23_w420100_independent\\seen",
+      "transitions": 8192,
+      "success": 0.92822265625
+    },
+    {
+      "path": "g9_s23_w420100_independent",
+      "transitions": 262144,
+      "success": 0.8650588989257812
+    },
+    {
+      "path": "g9_s23_w430100_delayed\\composition",
+      "transitions": 8192,
+      "success": 0.9183349609375
+    },
+    {
+      "path": "g9_s23_w430100_delayed\\seen",
+      "transitions": 8192,
+      "success": 0.945068359375
+    },
+    {
+      "path": "g9_s23_w430100_delayed",
+      "transitions": 262144,
+      "success": 0.8616409301757812
+    },
+    {
+      "path": "g9_s23_w430100_immediate\\composition",
+      "transitions": 8192,
+      "success": 0.92138671875
+    },
+    {
+      "path": "g9_s23_w430100_immediate\\seen",
+      "transitions": 8192,
+      "success": 0.9407958984375
+    },
+    {
+      "path": "g9_s23_w430100_immediate",
+      "transitions": 262144,
+      "success": 0.8576850891113281
+    },
+    {
+      "path": "g9_s23_w430100_independent\\composition",
+      "transitions": 8192,
+      "success": 0.901123046875
+    },
+    {
+      "path": "g9_s23_w430100_independent\\seen",
+      "transitions": 8192,
+      "success": 0.9183349609375
+    },
+    {
+      "path": "g9_s23_w430100_independent",
+      "transitions": 262144,
+      "success": 0.8617973327636719
+    },
+    {
+      "path": "g9_s37_w420100_delayed\\composition",
+      "transitions": 8192,
+      "success": 0.902587890625
+    },
+    {
+      "path": "g9_s37_w420100_delayed\\seen",
+      "transitions": 8192,
+      "success": 0.947265625
+    },
+    {
+      "path": "g9_s37_w420100_delayed",
+      "transitions": 262144,
+      "success": 0.8763236999511719
+    },
+    {
+      "path": "g9_s37_w420100_immediate\\composition",
+      "transitions": 8192,
+      "success": 0.8929443359375
+    },
+    {
+      "path": "g9_s37_w420100_immediate\\seen",
+      "transitions": 8192,
+      "success": 0.94189453125
+    },
+    {
+      "path": "g9_s37_w420100_immediate",
+      "transitions": 262144,
+      "success": 0.8740997314453125
+    },
+    {
+      "path": "g9_s37_w420100_independent\\composition",
+      "transitions": 8192,
+      "success": 0.9176025390625
+    },
+    {
+      "path": "g9_s37_w420100_independent\\seen",
+      "transitions": 8192,
+      "success": 0.956787109375
+    },
+    {
+      "path": "g9_s37_w420100_independent",
+      "transitions": 262144,
+      "success": 0.8783073425292969
+    }
+  ]
+}

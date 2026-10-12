@@ -1,0 +1,79 @@
+{
+  "mode": "paired_event",
+  "seed": 11,
+  "unique": 512,
+  "cycles": 16,
+  "presentations": 16384,
+  "updates": 128,
+  "distinct_body_context_pairs": 1024,
+  "parameters": 15534,
+  "seconds": 9.043748299824074,
+  "train_fingerprint": "b990f44e8dfc8119f1f73d6b3388da06d10a73a5d883fb7c4c78270628c87c93",
+  "auxiliary_event_decoder_calls": 294912,
+  "archive_replay_event_encodings": 294912,
+  "development": {
+    "success": 0.91796875,
+    "regret": 0.014663157984614372,
+    "state_mse": 0.02563571184873581,
+    "fine_retained": 0.28125,
+    "fine_read": 0.26171875,
+    "coarse_retained": 0.48828125,
+    "active_count": 1.828125,
+    "read_count": 1.125,
+    "fine_gate": 0.4762001633644104,
+    "risk_success": 0.9130434782608695,
+    "risk_fine_retained": 0.2608695652173913,
+    "risk_fine_read": 0.22826086956521738,
+    "risk_fine_gate": 0.47668763995170593,
+    "risk_active_count": 1.891304347826087,
+    "safe_success": 0.9207317073170732,
+    "safe_fine_retained": 0.2926829268292683,
+    "safe_fine_read": 0.2804878048780488,
+    "safe_fine_gate": 0.4759266674518585,
+    "safe_active_count": 1.7926829268292683,
+    "episodes": 256,
+    "event_records_scored": 18
+  },
+  "detail": {
+    "0": {
+      "effect_gain": null,
+      "effect_mse": 0.0006453747046180069,
+      "predicted_effect_mae": 0.012297061271965504,
+      "truth_effect_mae": 0.0,
+      "fine_retained": 0.255859375,
+      "fine_read": 0.240234375,
+      "fine_gate": 0.4840593934059143
+    },
+    "1": {
+      "effect_gain": 0.035268258303403854,
+      "effect_mse": 0.12114892154932022,
+      "predicted_effect_mae": 0.013438352383673191,
+      "truth_effect_mae": 0.36000004410743713,
+      "fine_retained": 0.28515625,
+      "fine_read": 0.265625,
+      "fine_gate": 0.47917211055755615
+    }
+  },
+  "recovery": {
+    "stale_success": 0.80078125,
+    "recovered_success": 0.8046875,
+    "stale_regret": 0.02485063672065735,
+    "recovered_regret": 0.02466859482228756,
+    "stale_state_mse": 0.040010228753089905,
+    "recovered_state_mse": 0.0400284007191658,
+    "safe_fine_retained": 0.23828125,
+    "recovered_fine_retained": 0.26171875,
+    "forgotten_episodes": 195,
+    "forgotten_stale_success": 0.7846153846153846,
+    "forgotten_recovered_success": 0.7897435897435897,
+    "stale_database_reads": {
+      "records": 439,
+      "bytes": 189648
+    },
+    "recovery_database_reads": {
+      "records": 6656,
+      "bytes": 2875392
+    },
+    "full_slot_computations_per_episode": 26
+  }
+}

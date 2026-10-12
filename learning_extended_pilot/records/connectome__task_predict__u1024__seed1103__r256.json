@@ -1,0 +1,2697 @@
+{
+  "id": "connectome__task_predict__u1024__seed1103__r256",
+  "architecture": "connectome",
+  "objective": "task_predict",
+  "seed": 1103,
+  "unique_examples": 1024,
+  "repetitions": 256,
+  "presentations": 262144,
+  "optimizer_updates": 4096,
+  "final_target_labels": 262144,
+  "intermediate_target_labels": 732928,
+  "forward_views_per_presentation": 1,
+  "forward_sequence_steps": 995072,
+  "padded_forward_sequence_steps": 1048576,
+  "trainable_parameters": 22842,
+  "trainable_recurrent_edges": 13098,
+  "hidden_size": 256,
+  "training_seconds_cumulative": 22.62953699962236,
+  "cuda_peak_allocated_bytes": 21432832,
+  "mean_training_losses": {
+    "total": 3.146415319875814,
+    "task": 2.0935223136038985,
+    "prediction": 2.1057860150467604,
+    "consistency": 0.0,
+    "variance": 0.0,
+    "activity_l1_proxy": 0.22296106591602438
+  },
+  "history": [
+    {
+      "repeat": 1,
+      "updates": 16,
+      "total": 4.183533757925034,
+      "task": 2.79506479203701,
+      "prediction": 2.776937872171402,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.15091342758387327
+    },
+    {
+      "repeat": 2,
+      "updates": 32,
+      "total": 4.143433660268784,
+      "task": 2.768465533852577,
+      "prediction": 2.749936193227768,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.1469625737518072
+    },
+    {
+      "repeat": 3,
+      "updates": 48,
+      "total": 4.118082940578461,
+      "task": 2.7561711072921753,
+      "prediction": 2.7238237112760544,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.14484926592558622
+    },
+    {
+      "repeat": 4,
+      "updates": 64,
+      "total": 4.101851046085358,
+      "task": 2.7578969299793243,
+      "prediction": 2.687908411026001,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.14367889426648617
+    },
+    {
+      "repeat": 5,
+      "updates": 80,
+      "total": 4.0726819932460785,
+      "task": 2.7456215173006058,
+      "prediction": 2.654120981693268,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.14309629425406456
+    },
+    {
+      "repeat": 6,
+      "updates": 96,
+      "total": 4.035499632358551,
+      "task": 2.7287917733192444,
+      "prediction": 2.613415867090225,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.14348967280238867
+    },
+    {
+      "repeat": 7,
+      "updates": 112,
+      "total": 3.999519169330597,
+      "task": 2.710274040699005,
+      "prediction": 2.5784903168678284,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.144406964071095
+    },
+    {
+      "repeat": 8,
+      "updates": 128,
+      "total": 3.953194186091423,
+      "task": 2.6807836443185806,
+      "prediction": 2.54482102394104,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.14630823954939842
+    },
+    {
+      "repeat": 9,
+      "updates": 144,
+      "total": 3.909033551812172,
+      "task": 2.6468629837036133,
+      "prediction": 2.524341121315956,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.14871943648904562
+    },
+    {
+      "repeat": 10,
+      "updates": 160,
+      "total": 3.8652679920196533,
+      "task": 2.6117820739746094,
+      "prediction": 2.506971850991249,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.15079490095376968
+    },
+    {
+      "repeat": 11,
+      "updates": 176,
+      "total": 3.8130635917186737,
+      "task": 2.5686510652303696,
+      "prediction": 2.488824963569641,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.15325158461928368
+    },
+    {
+      "repeat": 12,
+      "updates": 192,
+      "total": 3.7684979885816574,
+      "task": 2.531565949320793,
+      "prediction": 2.4738640636205673,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.15507423225790262
+    },
+    {
+      "repeat": 13,
+      "updates": 208,
+      "total": 3.733239531517029,
+      "task": 2.4990944266319275,
+      "prediction": 2.4682901948690414,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.15738912392407656
+    },
+    {
+      "repeat": 14,
+      "updates": 224,
+      "total": 3.713868960738182,
+      "task": 2.4791745990514755,
+      "prediction": 2.469388708472252,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.15932584926486015
+    },
+    {
+      "repeat": 15,
+      "updates": 240,
+      "total": 3.6965748220682144,
+      "task": 2.458067938685417,
+      "prediction": 2.4770137667655945,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.1610318012535572
+    },
+    {
+      "repeat": 16,
+      "updates": 256,
+      "total": 3.680451288819313,
+      "task": 2.4408329874277115,
+      "prediction": 2.479236587882042,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.1621451275423169
+    },
+    {
+      "repeat": 17,
+      "updates": 272,
+      "total": 3.678370326757431,
+      "task": 2.4320497065782547,
+      "prediction": 2.4926412850618362,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.16329061798751354
+    },
+    {
+      "repeat": 18,
+      "updates": 288,
+      "total": 3.673622250556946,
+      "task": 2.422858878970146,
+      "prediction": 2.5015267431735992,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.16408278327435255
+    },
+    {
+      "repeat": 19,
+      "updates": 304,
+      "total": 3.665655568242073,
+      "task": 2.4128172546625137,
+      "prediction": 2.505676656961441,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.16468959022313356
+    },
+    {
+      "repeat": 20,
+      "updates": 320,
+      "total": 3.65583099424839,
+      "task": 2.4036701023578644,
+      "prediction": 2.5043217837810516,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.1651950953528285
+    },
+    {
+      "repeat": 21,
+      "updates": 336,
+      "total": 3.6547572165727615,
+      "task": 2.4022064059972763,
+      "prediction": 2.5051016360521317,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.16586445178836584
+    },
+    {
+      "repeat": 22,
+      "updates": 352,
+      "total": 3.6507192701101303,
+      "task": 2.3930782973766327,
+      "prediction": 2.5152819603681564,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.1667164135724306
+    },
+    {
+      "repeat": 23,
+      "updates": 368,
+      "total": 3.651857405900955,
+      "task": 2.395337477326393,
+      "prediction": 2.5130399018526077,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.16705216467380524
+    },
+    {
+      "repeat": 24,
+      "updates": 384,
+      "total": 3.6433856040239334,
+      "task": 2.388445943593979,
+      "prediction": 2.5098793506622314,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.1672212453559041
+    },
+    {
+      "repeat": 25,
+      "updates": 400,
+      "total": 3.6376533210277557,
+      "task": 2.381674900650978,
+      "prediction": 2.5119568556547165,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.1680921781808138
+    },
+    {
+      "repeat": 26,
+      "updates": 416,
+      "total": 3.64077290892601,
+      "task": 2.3826533257961273,
+      "prediction": 2.516239196062088,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.1686274278908968
+    },
+    {
+      "repeat": 27,
+      "updates": 432,
+      "total": 3.630454197525978,
+      "task": 2.3730715066194534,
+      "prediction": 2.5147654116153717,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.16865791752934456
+    },
+    {
+      "repeat": 28,
+      "updates": 448,
+      "total": 3.6390441954135895,
+      "task": 2.380150258541107,
+      "prediction": 2.517787888646126,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.1692747538909316
+    },
+    {
+      "repeat": 29,
+      "updates": 464,
+      "total": 3.633342742919922,
+      "task": 2.373342841863632,
+      "prediction": 2.5199997425079346,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.16958397068083286
+    },
+    {
+      "repeat": 30,
+      "updates": 480,
+      "total": 3.6288796812295914,
+      "task": 2.370508462190628,
+      "prediction": 2.516742393374443,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.17003211472183466
+    },
+    {
+      "repeat": 31,
+      "updates": 496,
+      "total": 3.626800447702408,
+      "task": 2.368519812822342,
+      "prediction": 2.516561210155487,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.17033967282623053
+    },
+    {
+      "repeat": 32,
+      "updates": 512,
+      "total": 3.621176227927208,
+      "task": 2.3633715212345123,
+      "prediction": 2.5156093686819077,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.1707376018166542
+    },
+    {
+      "repeat": 33,
+      "updates": 528,
+      "total": 3.6200579553842545,
+      "task": 2.3616796731948853,
+      "prediction": 2.516756519675255,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.1711171716451645
+    },
+    {
+      "repeat": 34,
+      "updates": 544,
+      "total": 3.6152789890766144,
+      "task": 2.356598883867264,
+      "prediction": 2.517360284924507,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.1712328838184476
+    },
+    {
+      "repeat": 35,
+      "updates": 560,
+      "total": 3.6171350926160812,
+      "task": 2.356725111603737,
+      "prediction": 2.52081997692585,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.17182121239602566
+    },
+    {
+      "repeat": 36,
+      "updates": 576,
+      "total": 3.610963389277458,
+      "task": 2.3534823656082153,
+      "prediction": 2.514961987733841,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.17216035816818476
+    },
+    {
+      "repeat": 37,
+      "updates": 592,
+      "total": 3.6048684120178223,
+      "task": 2.346749171614647,
+      "prediction": 2.5162384510040283,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.1724463850259781
+    },
+    {
+      "repeat": 38,
+      "updates": 608,
+      "total": 3.607591614127159,
+      "task": 2.346180737018585,
+      "prediction": 2.52282178401947,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.1729849660769105
+    },
+    {
+      "repeat": 39,
+      "updates": 624,
+      "total": 3.6063132733106613,
+      "task": 2.3455379605293274,
+      "prediction": 2.521550565958023,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.17364614456892014
+    },
+    {
+      "repeat": 40,
+      "updates": 640,
+      "total": 3.6010791659355164,
+      "task": 2.3410450369119644,
+      "prediction": 2.520068258047104,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.17377588246017694
+    },
+    {
+      "repeat": 41,
+      "updates": 656,
+      "total": 3.596864342689514,
+      "task": 2.3351746201515198,
+      "prediction": 2.52337945997715,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.17398001998662949
+    },
+    {
+      "repeat": 42,
+      "updates": 672,
+      "total": 3.5968929827213287,
+      "task": 2.3377556800842285,
+      "prediction": 2.5182745903730392,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.17484443075954914
+    },
+    {
+      "repeat": 43,
+      "updates": 688,
+      "total": 3.6016689985990524,
+      "task": 2.339335948228836,
+      "prediction": 2.5246661454439163,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.17496165353804827
+    },
+    {
+      "repeat": 44,
+      "updates": 704,
+      "total": 3.5939690470695496,
+      "task": 2.332772359251976,
+      "prediction": 2.5223933905363083,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.17520331963896751
+    },
+    {
+      "repeat": 45,
+      "updates": 720,
+      "total": 3.5900279879570007,
+      "task": 2.326725587248802,
+      "prediction": 2.5266047716140747,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.1757240267470479
+    },
+    {
+      "repeat": 46,
+      "updates": 736,
+      "total": 3.5917789936065674,
+      "task": 2.329181358218193,
+      "prediction": 2.5251952558755875,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.17597938422113657
+    },
+    {
+      "repeat": 47,
+      "updates": 752,
+      "total": 3.5937431901693344,
+      "task": 2.3292310535907745,
+      "prediction": 2.529024198651314,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.17648515570908785
+    },
+    {
+      "repeat": 48,
+      "updates": 768,
+      "total": 3.586872011423111,
+      "task": 2.324170246720314,
+      "prediction": 2.525403544306755,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.1769042517989874
+    },
+    {
+      "repeat": 49,
+      "updates": 784,
+      "total": 3.584457665681839,
+      "task": 2.3215168863534927,
+      "prediction": 2.52588152885437,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.17690082266926765
+    },
+    {
+      "repeat": 50,
+      "updates": 800,
+      "total": 3.579256385564804,
+      "task": 2.3184512704610825,
+      "prediction": 2.5216102451086044,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.17728367540985346
+    },
+    {
+      "repeat": 51,
+      "updates": 816,
+      "total": 3.5747870206832886,
+      "task": 2.314360097050667,
+      "prediction": 2.520853877067566,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.17807790357619524
+    },
+    {
+      "repeat": 52,
+      "updates": 832,
+      "total": 3.5696209520101547,
+      "task": 2.3094055205583572,
+      "prediction": 2.520430862903595,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.17817531805485487
+    },
+    {
+      "repeat": 53,
+      "updates": 848,
+      "total": 3.571806624531746,
+      "task": 2.3101435601711273,
+      "prediction": 2.523326098918915,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.17873224802315235
+    },
+    {
+      "repeat": 54,
+      "updates": 864,
+      "total": 3.575983017683029,
+      "task": 2.3131298571825027,
+      "prediction": 2.525706395506859,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.17915410175919533
+    },
+    {
+      "repeat": 55,
+      "updates": 880,
+      "total": 3.564714401960373,
+      "task": 2.303602173924446,
+      "prediction": 2.5222244560718536,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.17951741442084312
+    },
+    {
+      "repeat": 56,
+      "updates": 896,
+      "total": 3.5642268359661102,
+      "task": 2.3027175962924957,
+      "prediction": 2.523018479347229,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.17979015968739986
+    },
+    {
+      "repeat": 57,
+      "updates": 912,
+      "total": 3.571277216076851,
+      "task": 2.3075856268405914,
+      "prediction": 2.52738319337368,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.18051609117537737
+    },
+    {
+      "repeat": 58,
+      "updates": 928,
+      "total": 3.5605316311120987,
+      "task": 2.296528235077858,
+      "prediction": 2.528006747364998,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.18071783427149057
+    },
+    {
+      "repeat": 59,
+      "updates": 944,
+      "total": 3.560344025492668,
+      "task": 2.29792183637619,
+      "prediction": 2.524844393134117,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.18105442263185978
+    },
+    {
+      "repeat": 60,
+      "updates": 960,
+      "total": 3.5571024864912033,
+      "task": 2.2939146161079407,
+      "prediction": 2.526375785470009,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.18164928443729877
+    },
+    {
+      "repeat": 61,
+      "updates": 976,
+      "total": 3.5578177869319916,
+      "task": 2.2952088564634323,
+      "prediction": 2.525217831134796,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.1822368409484625
+    },
+    {
+      "repeat": 62,
+      "updates": 992,
+      "total": 3.551693230867386,
+      "task": 2.28731232881546,
+      "prediction": 2.528761863708496,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.18254042882472277
+    },
+    {
+      "repeat": 63,
+      "updates": 1008,
+      "total": 3.549710899591446,
+      "task": 2.2877147793769836,
+      "prediction": 2.5239922255277634,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.18312922958284616
+    },
+    {
+      "repeat": 64,
+      "updates": 1024,
+      "total": 3.5434338450431824,
+      "task": 2.282988026738167,
+      "prediction": 2.520891696214676,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.18328437767922878
+    },
+    {
+      "repeat": 65,
+      "updates": 1040,
+      "total": 3.5447893738746643,
+      "task": 2.2816784977912903,
+      "prediction": 2.5262217074632645,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.18412227742373943
+    },
+    {
+      "repeat": 66,
+      "updates": 1056,
+      "total": 3.5424827188253403,
+      "task": 2.277919963002205,
+      "prediction": 2.529125675559044,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.18466237466782331
+    },
+    {
+      "repeat": 67,
+      "updates": 1072,
+      "total": 3.5374509394168854,
+      "task": 2.2774391770362854,
+      "prediction": 2.520023539662361,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.18480981700122356
+    },
+    {
+      "repeat": 68,
+      "updates": 1088,
+      "total": 3.5374501794576645,
+      "task": 2.2769539058208466,
+      "prediction": 2.5209925025701523,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.18577814660966396
+    },
+    {
+      "repeat": 69,
+      "updates": 1104,
+      "total": 3.535290688276291,
+      "task": 2.2714745551347733,
+      "prediction": 2.5276322662830353,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.18559477850794792
+    },
+    {
+      "repeat": 70,
+      "updates": 1120,
+      "total": 3.5323403626680374,
+      "task": 2.2698042392730713,
+      "prediction": 2.5250722020864487,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.1865531550720334
+    },
+    {
+      "repeat": 71,
+      "updates": 1136,
+      "total": 3.529900684952736,
+      "task": 2.26730877161026,
+      "prediction": 2.525183841586113,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.186597703024745
+    },
+    {
+      "repeat": 72,
+      "updates": 1152,
+      "total": 3.5288881212472916,
+      "task": 2.2679306715726852,
+      "prediction": 2.5219148844480515,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.18734709918498993
+    },
+    {
+      "repeat": 73,
+      "updates": 1168,
+      "total": 3.5278054773807526,
+      "task": 2.263252928853035,
+      "prediction": 2.529105097055435,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.18784111738204956
+    },
+    {
+      "repeat": 74,
+      "updates": 1184,
+      "total": 3.5206872522830963,
+      "task": 2.25979645550251,
+      "prediction": 2.521781638264656,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.18827414885163307
+    },
+    {
+      "repeat": 75,
+      "updates": 1200,
+      "total": 3.5203817635774612,
+      "task": 2.2570164650678635,
+      "prediction": 2.526730567216873,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.18917836621403694
+    },
+    {
+      "repeat": 76,
+      "updates": 1216,
+      "total": 3.512770399451256,
+      "task": 2.2530301362276077,
+      "prediction": 2.519480526447296,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.18979011289775372
+    },
+    {
+      "repeat": 77,
+      "updates": 1232,
+      "total": 3.5169757455587387,
+      "task": 2.255019873380661,
+      "prediction": 2.5239117592573166,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.19023798406124115
+    },
+    {
+      "repeat": 78,
+      "updates": 1248,
+      "total": 3.518430769443512,
+      "task": 2.2554626166820526,
+      "prediction": 2.525936335325241,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.19069337844848633
+    },
+    {
+      "repeat": 79,
+      "updates": 1264,
+      "total": 3.507071778178215,
+      "task": 2.248266249895096,
+      "prediction": 2.517611041665077,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.19110882375389338
+    },
+    {
+      "repeat": 80,
+      "updates": 1280,
+      "total": 3.5044868737459183,
+      "task": 2.245572343468666,
+      "prediction": 2.5178290605545044,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.19173314236104488
+    },
+    {
+      "repeat": 81,
+      "updates": 1296,
+      "total": 3.502828538417816,
+      "task": 2.245176687836647,
+      "prediction": 2.5153037309646606,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.19230752810835838
+    },
+    {
+      "repeat": 82,
+      "updates": 1312,
+      "total": 3.5023399591445923,
+      "task": 2.2433473616838455,
+      "prediction": 2.5179851949214935,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.19299913942813873
+    },
+    {
+      "repeat": 83,
+      "updates": 1328,
+      "total": 3.498733326792717,
+      "task": 2.2421748489141464,
+      "prediction": 2.51311694085598,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.19340046867728233
+    },
+    {
+      "repeat": 84,
+      "updates": 1344,
+      "total": 3.4988804310560226,
+      "task": 2.2407637387514114,
+      "prediction": 2.516233369708061,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.19386024121195078
+    },
+    {
+      "repeat": 85,
+      "updates": 1360,
+      "total": 3.4946752935647964,
+      "task": 2.2372320145368576,
+      "prediction": 2.514886513352394,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.19490013364702463
+    },
+    {
+      "repeat": 86,
+      "updates": 1376,
+      "total": 3.4902115911245346,
+      "task": 2.2345184832811356,
+      "prediction": 2.5113861858844757,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.19504713267087936
+    },
+    {
+      "repeat": 87,
+      "updates": 1392,
+      "total": 3.497643008828163,
+      "task": 2.2406730204820633,
+      "prediction": 2.5139399766921997,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.19585987273603678
+    },
+    {
+      "repeat": 88,
+      "updates": 1408,
+      "total": 3.4913226664066315,
+      "task": 2.2333383560180664,
+      "prediction": 2.5159686654806137,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.19659707788378
+    },
+    {
+      "repeat": 89,
+      "updates": 1424,
+      "total": 3.478517323732376,
+      "task": 2.2287557423114777,
+      "prediction": 2.499523252248764,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.19689578469842672
+    },
+    {
+      "repeat": 90,
+      "updates": 1440,
+      "total": 3.4795674085617065,
+      "task": 2.2257777750492096,
+      "prediction": 2.5075793415308,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.19761476945132017
+    },
+    {
+      "repeat": 91,
+      "updates": 1456,
+      "total": 3.474006861448288,
+      "task": 2.221638932824135,
+      "prediction": 2.5047358721494675,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.1980218756943941
+    },
+    {
+      "repeat": 92,
+      "updates": 1472,
+      "total": 3.4690897464752197,
+      "task": 2.219461217522621,
+      "prediction": 2.499257043004036,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.19855977687984705
+    },
+    {
+      "repeat": 93,
+      "updates": 1488,
+      "total": 3.471741884946823,
+      "task": 2.224501207470894,
+      "prediction": 2.494481310248375,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.19923010654747486
+    },
+    {
+      "repeat": 94,
+      "updates": 1504,
+      "total": 3.467321813106537,
+      "task": 2.217499315738678,
+      "prediction": 2.4996449798345566,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.19990945234894753
+    },
+    {
+      "repeat": 95,
+      "updates": 1520,
+      "total": 3.4595069736242294,
+      "task": 2.2136716693639755,
+      "prediction": 2.491670697927475,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.20056568086147308
+    },
+    {
+      "repeat": 96,
+      "updates": 1536,
+      "total": 3.4616291522979736,
+      "task": 2.218140169978142,
+      "prediction": 2.486977994441986,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2010754020884633
+    },
+    {
+      "repeat": 97,
+      "updates": 1552,
+      "total": 3.4496253728866577,
+      "task": 2.209995523095131,
+      "prediction": 2.4792596995830536,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.20189157780259848
+    },
+    {
+      "repeat": 98,
+      "updates": 1568,
+      "total": 3.4475006610155106,
+      "task": 2.2079897969961166,
+      "prediction": 2.4790216982364655,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2021530531346798
+    },
+    {
+      "repeat": 99,
+      "updates": 1584,
+      "total": 3.4442166835069656,
+      "task": 2.205393448472023,
+      "prediction": 2.477646455168724,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.20326756220310926
+    },
+    {
+      "repeat": 100,
+      "updates": 1600,
+      "total": 3.439009428024292,
+      "task": 2.201125830411911,
+      "prediction": 2.475767135620117,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.20360013376921415
+    },
+    {
+      "repeat": 101,
+      "updates": 1616,
+      "total": 3.43526953458786,
+      "task": 2.202540159225464,
+      "prediction": 2.4654587358236313,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.20453561376780272
+    },
+    {
+      "repeat": 102,
+      "updates": 1632,
+      "total": 3.434771791100502,
+      "task": 2.202468156814575,
+      "prediction": 2.464607208967209,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.20538204908370972
+    },
+    {
+      "repeat": 103,
+      "updates": 1648,
+      "total": 3.430063709616661,
+      "task": 2.19794462621212,
+      "prediction": 2.464238151907921,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.20559871569275856
+    },
+    {
+      "repeat": 104,
+      "updates": 1664,
+      "total": 3.4228948056697845,
+      "task": 2.1923657059669495,
+      "prediction": 2.4610582441091537,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.20644095726311207
+    },
+    {
+      "repeat": 105,
+      "updates": 1680,
+      "total": 3.424510583281517,
+      "task": 2.1949886232614517,
+      "prediction": 2.4590439200401306,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.20751212816685438
+    },
+    {
+      "repeat": 106,
+      "updates": 1696,
+      "total": 3.416176125407219,
+      "task": 2.1898881793022156,
+      "prediction": 2.452575996518135,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.20793298073112965
+    },
+    {
+      "repeat": 107,
+      "updates": 1712,
+      "total": 3.413034290075302,
+      "task": 2.190561532974243,
+      "prediction": 2.444945439696312,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.20855637174099684
+    },
+    {
+      "repeat": 108,
+      "updates": 1728,
+      "total": 3.4116584807634354,
+      "task": 2.191240519285202,
+      "prediction": 2.440835878252983,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2091916799545288
+    },
+    {
+      "repeat": 109,
+      "updates": 1744,
+      "total": 3.4070159941911697,
+      "task": 2.1859632581472397,
+      "prediction": 2.4421054422855377,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.20979801286011934
+    },
+    {
+      "repeat": 110,
+      "updates": 1760,
+      "total": 3.4036615937948227,
+      "task": 2.1879416704177856,
+      "prediction": 2.431439831852913,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.21031834930181503
+    },
+    {
+      "repeat": 111,
+      "updates": 1776,
+      "total": 3.3898716419935226,
+      "task": 2.176638126373291,
+      "prediction": 2.4264670610427856,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.21140272822231054
+    },
+    {
+      "repeat": 112,
+      "updates": 1792,
+      "total": 3.387596309185028,
+      "task": 2.177104964852333,
+      "prediction": 2.42098268866539,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.21143181435763836
+    },
+    {
+      "repeat": 113,
+      "updates": 1808,
+      "total": 3.3823864459991455,
+      "task": 2.175878629088402,
+      "prediction": 2.413015589118004,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.21247025486081839
+    },
+    {
+      "repeat": 114,
+      "updates": 1824,
+      "total": 3.377309888601303,
+      "task": 2.1708208173513412,
+      "prediction": 2.412978157401085,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.21323790308088064
+    },
+    {
+      "repeat": 115,
+      "updates": 1840,
+      "total": 3.376212641596794,
+      "task": 2.1747941821813583,
+      "prediction": 2.402836889028549,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.21416492946445942
+    },
+    {
+      "repeat": 116,
+      "updates": 1856,
+      "total": 3.3599730730056763,
+      "task": 2.1659052670001984,
+      "prediction": 2.388135626912117,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.21454441361129284
+    },
+    {
+      "repeat": 117,
+      "updates": 1872,
+      "total": 3.354351043701172,
+      "task": 2.163336902856827,
+      "prediction": 2.382028251886368,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.21527946088463068
+    },
+    {
+      "repeat": 118,
+      "updates": 1888,
+      "total": 3.346322163939476,
+      "task": 2.1576027795672417,
+      "prediction": 2.3774388283491135,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.21613563690334558
+    },
+    {
+      "repeat": 119,
+      "updates": 1904,
+      "total": 3.3447092920541763,
+      "task": 2.158810243010521,
+      "prediction": 2.371798098087311,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2166232168674469
+    },
+    {
+      "repeat": 120,
+      "updates": 1920,
+      "total": 3.337566375732422,
+      "task": 2.153333306312561,
+      "prediction": 2.368466168642044,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2176851248368621
+    },
+    {
+      "repeat": 121,
+      "updates": 1936,
+      "total": 3.338064983487129,
+      "task": 2.155505806207657,
+      "prediction": 2.3651184141635895,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.21819091495126486
+    },
+    {
+      "repeat": 122,
+      "updates": 1952,
+      "total": 3.3327669501304626,
+      "task": 2.1556216776371,
+      "prediction": 2.354290544986725,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.21921971160918474
+    },
+    {
+      "repeat": 123,
+      "updates": 1968,
+      "total": 3.3211982548236847,
+      "task": 2.146718814969063,
+      "prediction": 2.3489588648080826,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.21969569567590952
+    },
+    {
+      "repeat": 124,
+      "updates": 1984,
+      "total": 3.3117550164461136,
+      "task": 2.14115858823061,
+      "prediction": 2.341192811727524,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.22051192726939917
+    },
+    {
+      "repeat": 125,
+      "updates": 2000,
+      "total": 3.313833385705948,
+      "task": 2.1456168442964554,
+      "prediction": 2.336433067917824,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.22111619543284178
+    },
+    {
+      "repeat": 126,
+      "updates": 2016,
+      "total": 3.304177537560463,
+      "task": 2.1399233788251877,
+      "prediction": 2.328508362174034,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.22222910914570093
+    },
+    {
+      "repeat": 127,
+      "updates": 2032,
+      "total": 3.289697542786598,
+      "task": 2.132641464471817,
+      "prediction": 2.3141121864318848,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.22280413284897804
+    },
+    {
+      "repeat": 128,
+      "updates": 2048,
+      "total": 3.2899914979934692,
+      "task": 2.133943445980549,
+      "prediction": 2.312096133828163,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.22348077967762947
+    },
+    {
+      "repeat": 129,
+      "updates": 2064,
+      "total": 3.2857788652181625,
+      "task": 2.133608840405941,
+      "prediction": 2.3043400645256042,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.22400331497192383
+    },
+    {
+      "repeat": 130,
+      "updates": 2080,
+      "total": 3.2718106657266617,
+      "task": 2.1252105087041855,
+      "prediction": 2.293200358748436,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.22508154902607203
+    },
+    {
+      "repeat": 131,
+      "updates": 2096,
+      "total": 3.2626777291297913,
+      "task": 2.1210509836673737,
+      "prediction": 2.283253476023674,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2259343657642603
+    },
+    {
+      "repeat": 132,
+      "updates": 2112,
+      "total": 3.2600756734609604,
+      "task": 2.1232704743742943,
+      "prediction": 2.273610383272171,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.22641770634800196
+    },
+    {
+      "repeat": 133,
+      "updates": 2128,
+      "total": 3.256137475371361,
+      "task": 2.121755823493004,
+      "prediction": 2.268763244152069,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.22728135716170073
+    },
+    {
+      "repeat": 134,
+      "updates": 2144,
+      "total": 3.2585364878177643,
+      "task": 2.122341275215149,
+      "prediction": 2.2723904699087143,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.22797697503119707
+    },
+    {
+      "repeat": 135,
+      "updates": 2160,
+      "total": 3.2513707280158997,
+      "task": 2.1242785304784775,
+      "prediction": 2.2541844248771667,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2285549072548747
+    },
+    {
+      "repeat": 136,
+      "updates": 2176,
+      "total": 3.2376005947589874,
+      "task": 2.1138384342193604,
+      "prediction": 2.2475243359804153,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.22950220294296741
+    },
+    {
+      "repeat": 137,
+      "updates": 2192,
+      "total": 3.229043170809746,
+      "task": 2.1071483120322227,
+      "prediction": 2.2437896728515625,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.22991644777357578
+    },
+    {
+      "repeat": 138,
+      "updates": 2208,
+      "total": 3.217514678835869,
+      "task": 2.1032500863075256,
+      "prediction": 2.228529155254364,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.23106443136930466
+    },
+    {
+      "repeat": 139,
+      "updates": 2224,
+      "total": 3.2131912857294083,
+      "task": 2.102738529443741,
+      "prediction": 2.2209055423736572,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.23187226336449385
+    },
+    {
+      "repeat": 140,
+      "updates": 2240,
+      "total": 3.213789686560631,
+      "task": 2.106580950319767,
+      "prediction": 2.214417487382889,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.23252424784004688
+    },
+    {
+      "repeat": 141,
+      "updates": 2256,
+      "total": 3.1993900686502457,
+      "task": 2.099628910422325,
+      "prediction": 2.199522316455841,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.23304920829832554
+    },
+    {
+      "repeat": 142,
+      "updates": 2272,
+      "total": 3.191280022263527,
+      "task": 2.0952194333076477,
+      "prediction": 2.192121207714081,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.23350126389414072
+    },
+    {
+      "repeat": 143,
+      "updates": 2288,
+      "total": 3.190586104989052,
+      "task": 2.097484603524208,
+      "prediction": 2.1862029880285263,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2341115353628993
+    },
+    {
+      "repeat": 144,
+      "updates": 2304,
+      "total": 3.1667099744081497,
+      "task": 2.0811936035752296,
+      "prediction": 2.171032726764679,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.23543038219213486
+    },
+    {
+      "repeat": 145,
+      "updates": 2320,
+      "total": 3.1701059490442276,
+      "task": 2.0865397974848747,
+      "prediction": 2.1671322882175446,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.23556173965334892
+    },
+    {
+      "repeat": 146,
+      "updates": 2336,
+      "total": 3.1580025255680084,
+      "task": 2.080240085721016,
+      "prediction": 2.155524879693985,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.23641263879835606
+    },
+    {
+      "repeat": 147,
+      "updates": 2352,
+      "total": 3.147046282887459,
+      "task": 2.0743487030267715,
+      "prediction": 2.1453952491283417,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.23708217684179544
+    },
+    {
+      "repeat": 148,
+      "updates": 2368,
+      "total": 3.1300399750471115,
+      "task": 2.0651960596442223,
+      "prediction": 2.129687786102295,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.23812625091522932
+    },
+    {
+      "repeat": 149,
+      "updates": 2384,
+      "total": 3.131415829062462,
+      "task": 2.0684997215867043,
+      "prediction": 2.125832185149193,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2383616790175438
+    },
+    {
+      "repeat": 150,
+      "updates": 2400,
+      "total": 3.1265457570552826,
+      "task": 2.0681061819195747,
+      "prediction": 2.1168791502714157,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.23910327535122633
+    },
+    {
+      "repeat": 151,
+      "updates": 2416,
+      "total": 3.1129735112190247,
+      "task": 2.0602049976587296,
+      "prediction": 2.1055369824171066,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.24007749371230602
+    },
+    {
+      "repeat": 152,
+      "updates": 2432,
+      "total": 3.1054005175828934,
+      "task": 2.0562404841184616,
+      "prediction": 2.098320096731186,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.24079260509461164
+    },
+    {
+      "repeat": 153,
+      "updates": 2448,
+      "total": 3.099637821316719,
+      "task": 2.0532878413796425,
+      "prediction": 2.0926999524235725,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.24103826005011797
+    },
+    {
+      "repeat": 154,
+      "updates": 2464,
+      "total": 3.0894034653902054,
+      "task": 2.0497069507837296,
+      "prediction": 2.079393044114113,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.24154515098780394
+    },
+    {
+      "repeat": 155,
+      "updates": 2480,
+      "total": 3.077289506793022,
+      "task": 2.044972501695156,
+      "prediction": 2.0646340027451515,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2423965074121952
+    },
+    {
+      "repeat": 156,
+      "updates": 2496,
+      "total": 3.0659170895814896,
+      "task": 2.0380539298057556,
+      "prediction": 2.0557263866066933,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2431937763467431
+    },
+    {
+      "repeat": 157,
+      "updates": 2512,
+      "total": 3.063082128763199,
+      "task": 2.0409980192780495,
+      "prediction": 2.0441682264208794,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.24400506634265184
+    },
+    {
+      "repeat": 158,
+      "updates": 2528,
+      "total": 3.0507893562316895,
+      "task": 2.0334139242768288,
+      "prediction": 2.034750811755657,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.24448522366583347
+    },
+    {
+      "repeat": 159,
+      "updates": 2544,
+      "total": 3.044398784637451,
+      "task": 2.02887399494648,
+      "prediction": 2.0310496389865875,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.24530869163572788
+    },
+    {
+      "repeat": 160,
+      "updates": 2560,
+      "total": 3.0432626754045486,
+      "task": 2.030912108719349,
+      "prediction": 2.0247011482715607,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.24544868431985378
+    },
+    {
+      "repeat": 161,
+      "updates": 2576,
+      "total": 3.0252403616905212,
+      "task": 2.0200824961066246,
+      "prediction": 2.0103157609701157,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.24646287504583597
+    },
+    {
+      "repeat": 162,
+      "updates": 2592,
+      "total": 3.018327623605728,
+      "task": 2.0206271559000015,
+      "prediction": 1.995400995016098,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.24715244956314564
+    },
+    {
+      "repeat": 163,
+      "updates": 2608,
+      "total": 3.0093164891004562,
+      "task": 2.0163913294672966,
+      "prediction": 1.9858503118157387,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.24774569552391768
+    },
+    {
+      "repeat": 164,
+      "updates": 2624,
+      "total": 3.00226129591465,
+      "task": 2.0145313292741776,
+      "prediction": 1.9754599407315254,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2481569116935134
+    },
+    {
+      "repeat": 165,
+      "updates": 2640,
+      "total": 2.9999573081731796,
+      "task": 2.0141910687088966,
+      "prediction": 1.9715324714779854,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.24872401356697083
+    },
+    {
+      "repeat": 166,
+      "updates": 2656,
+      "total": 2.9789320081472397,
+      "task": 1.9989428520202637,
+      "prediction": 1.9599782973527908,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.24931959342211485
+    },
+    {
+      "repeat": 167,
+      "updates": 2672,
+      "total": 2.9699280709028244,
+      "task": 1.9989534690976143,
+      "prediction": 1.9419491738080978,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.24976386595517397
+    },
+    {
+      "repeat": 168,
+      "updates": 2688,
+      "total": 2.9554603844881058,
+      "task": 1.990215390920639,
+      "prediction": 1.9304900616407394,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2509842151775956
+    },
+    {
+      "repeat": 169,
+      "updates": 2704,
+      "total": 2.9545591175556183,
+      "task": 1.9903620928525925,
+      "prediction": 1.9283939749002457,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2509009726345539
+    },
+    {
+      "repeat": 170,
+      "updates": 2720,
+      "total": 2.9444524347782135,
+      "task": 1.9840297251939774,
+      "prediction": 1.9208453968167305,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2517884988337755
+    },
+    {
+      "repeat": 171,
+      "updates": 2736,
+      "total": 2.9375051707029343,
+      "task": 1.9839364811778069,
+      "prediction": 1.9071373343467712,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.25246329698711634
+    },
+    {
+      "repeat": 172,
+      "updates": 2752,
+      "total": 2.9173902422189713,
+      "task": 1.9711545035243034,
+      "prediction": 1.8924714475870132,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2527267476543784
+    },
+    {
+      "repeat": 173,
+      "updates": 2768,
+      "total": 2.9111522883176804,
+      "task": 1.9681576266884804,
+      "prediction": 1.8859893530607224,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.25364921893924475
+    },
+    {
+      "repeat": 174,
+      "updates": 2784,
+      "total": 2.900547370314598,
+      "task": 1.9617692083120346,
+      "prediction": 1.8775563389062881,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2539952080696821
+    },
+    {
+      "repeat": 175,
+      "updates": 2800,
+      "total": 2.8935918360948563,
+      "task": 1.9606561809778214,
+      "prediction": 1.865871325135231,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.25479335710406303
+    },
+    {
+      "repeat": 176,
+      "updates": 2816,
+      "total": 2.88579785823822,
+      "task": 1.9575937986373901,
+      "prediction": 1.856408178806305,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2550623808056116
+    },
+    {
+      "repeat": 177,
+      "updates": 2832,
+      "total": 2.8750091046094894,
+      "task": 1.954851195216179,
+      "prediction": 1.8403158634901047,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2554302839562297
+    },
+    {
+      "repeat": 178,
+      "updates": 2848,
+      "total": 2.8629274368286133,
+      "task": 1.9450347945094109,
+      "prediction": 1.8357852399349213,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2562413867563009
+    },
+    {
+      "repeat": 179,
+      "updates": 2864,
+      "total": 2.8570344299077988,
+      "task": 1.9453854486346245,
+      "prediction": 1.8232979476451874,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2567961495369673
+    },
+    {
+      "repeat": 180,
+      "updates": 2880,
+      "total": 2.8529245406389236,
+      "task": 1.9444843977689743,
+      "prediction": 1.8168802708387375,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2577297892421484
+    },
+    {
+      "repeat": 181,
+      "updates": 2896,
+      "total": 2.845339447259903,
+      "task": 1.9452710896730423,
+      "prediction": 1.8001366779208183,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.25816035084426403
+    },
+    {
+      "repeat": 182,
+      "updates": 2912,
+      "total": 2.8352707475423813,
+      "task": 1.9341603517532349,
+      "prediction": 1.8022207841277122,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.25844654627144337
+    },
+    {
+      "repeat": 183,
+      "updates": 2928,
+      "total": 2.8258995413780212,
+      "task": 1.9333145543932915,
+      "prediction": 1.7851700261235237,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.259073406457901
+    },
+    {
+      "repeat": 184,
+      "updates": 2944,
+      "total": 2.816261798143387,
+      "task": 1.928382694721222,
+      "prediction": 1.7757582068443298,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.25963870249688625
+    },
+    {
+      "repeat": 185,
+      "updates": 2960,
+      "total": 2.7942183911800385,
+      "task": 1.9110251516103745,
+      "prediction": 1.7663864716887474,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.26009930297732353
+    },
+    {
+      "repeat": 186,
+      "updates": 2976,
+      "total": 2.7843524366617203,
+      "task": 1.9043537974357605,
+      "prediction": 1.7599972561001778,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.26061297953128815
+    },
+    {
+      "repeat": 187,
+      "updates": 2992,
+      "total": 2.7812162339687347,
+      "task": 1.9084121957421303,
+      "prediction": 1.745608113706112,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.26091141998767853
+    },
+    {
+      "repeat": 188,
+      "updates": 3008,
+      "total": 2.775862842798233,
+      "task": 1.9056540057063103,
+      "prediction": 1.7404177263379097,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.261985220015049
+    },
+    {
+      "repeat": 189,
+      "updates": 3024,
+      "total": 2.759053125977516,
+      "task": 1.8956923484802246,
+      "prediction": 1.726721614599228,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2620982863008976
+    },
+    {
+      "repeat": 190,
+      "updates": 3040,
+      "total": 2.755396068096161,
+      "task": 1.8947369679808617,
+      "prediction": 1.7213182002305984,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.26266770623624325
+    },
+    {
+      "repeat": 191,
+      "updates": 3056,
+      "total": 2.7441369891166687,
+      "task": 1.8889908716082573,
+      "prediction": 1.7102921977639198,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.26332096569240093
+    },
+    {
+      "repeat": 192,
+      "updates": 3072,
+      "total": 2.7393374294042587,
+      "task": 1.888436809182167,
+      "prediction": 1.7018012776970863,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.26372002996504307
+    },
+    {
+      "repeat": 193,
+      "updates": 3088,
+      "total": 2.723183289170265,
+      "task": 1.8804594650864601,
+      "prediction": 1.6854476109147072,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2641340307891369
+    },
+    {
+      "repeat": 194,
+      "updates": 3104,
+      "total": 2.726233348250389,
+      "task": 1.8834287524223328,
+      "prediction": 1.6856091916561127,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2650512158870697
+    },
+    {
+      "repeat": 195,
+      "updates": 3120,
+      "total": 2.7045114934444427,
+      "task": 1.8711985647678375,
+      "prediction": 1.6666258201003075,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.265125161036849
+    },
+    {
+      "repeat": 196,
+      "updates": 3136,
+      "total": 2.692947208881378,
+      "task": 1.8633491322398186,
+      "prediction": 1.6591961458325386,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2656037639826536
+    },
+    {
+      "repeat": 197,
+      "updates": 3152,
+      "total": 2.6891360580921173,
+      "task": 1.8613052070140839,
+      "prediction": 1.6556616947054863,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.26617693714797497
+    },
+    {
+      "repeat": 198,
+      "updates": 3168,
+      "total": 2.674626961350441,
+      "task": 1.8554889261722565,
+      "prediction": 1.6382760480046272,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2666296139359474
+    },
+    {
+      "repeat": 199,
+      "updates": 3184,
+      "total": 2.6665348559617996,
+      "task": 1.8495407551527023,
+      "prediction": 1.6339882165193558,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2669948413968086
+    },
+    {
+      "repeat": 200,
+      "updates": 3200,
+      "total": 2.6620882898569107,
+      "task": 1.8477582708001137,
+      "prediction": 1.6286600306630135,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2675586435943842
+    },
+    {
+      "repeat": 201,
+      "updates": 3216,
+      "total": 2.647300735116005,
+      "task": 1.8398809134960175,
+      "prediction": 1.6148397102952003,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.26791773550212383
+    },
+    {
+      "repeat": 202,
+      "updates": 3232,
+      "total": 2.635300114750862,
+      "task": 1.832511693239212,
+      "prediction": 1.6055768206715584,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2682653795927763
+    },
+    {
+      "repeat": 203,
+      "updates": 3248,
+      "total": 2.628305658698082,
+      "task": 1.8320659697055817,
+      "prediction": 1.5924793556332588,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2689337283372879
+    },
+    {
+      "repeat": 204,
+      "updates": 3264,
+      "total": 2.6188762187957764,
+      "task": 1.8255073204636574,
+      "prediction": 1.586737796664238,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.26939880661666393
+    },
+    {
+      "repeat": 205,
+      "updates": 3280,
+      "total": 2.616524577140808,
+      "task": 1.8284694850444794,
+      "prediction": 1.5761101841926575,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.269493892788887
+    },
+    {
+      "repeat": 206,
+      "updates": 3296,
+      "total": 2.5974287539720535,
+      "task": 1.811931535601616,
+      "prediction": 1.570994459092617,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.26975817792117596
+    },
+    {
+      "repeat": 207,
+      "updates": 3312,
+      "total": 2.582748755812645,
+      "task": 1.8029893413186073,
+      "prediction": 1.559518814086914,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2703402005136013
+    },
+    {
+      "repeat": 208,
+      "updates": 3328,
+      "total": 2.5870570689439774,
+      "task": 1.809638686478138,
+      "prediction": 1.5548367872834206,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2708854041993618
+    },
+    {
+      "repeat": 209,
+      "updates": 3344,
+      "total": 2.5838849395513535,
+      "task": 1.8114070296287537,
+      "prediction": 1.5449558049440384,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.27119227685034275
+    },
+    {
+      "repeat": 210,
+      "updates": 3360,
+      "total": 2.5632006973028183,
+      "task": 1.7950663343071938,
+      "prediction": 1.5362687483429909,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2718142531812191
+    },
+    {
+      "repeat": 211,
+      "updates": 3376,
+      "total": 2.5593408197164536,
+      "task": 1.7976473197340965,
+      "prediction": 1.5233870521187782,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.27205817587673664
+    },
+    {
+      "repeat": 212,
+      "updates": 3392,
+      "total": 2.5453554540872574,
+      "task": 1.7848872244358063,
+      "prediction": 1.520936481654644,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.27254190295934677
+    },
+    {
+      "repeat": 213,
+      "updates": 3408,
+      "total": 2.52945576608181,
+      "task": 1.775938332080841,
+      "prediction": 1.5070348232984543,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.27294129319489
+    },
+    {
+      "repeat": 214,
+      "updates": 3424,
+      "total": 2.522658556699753,
+      "task": 1.7717991545796394,
+      "prediction": 1.5017187744379044,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.27280172519385815
+    },
+    {
+      "repeat": 215,
+      "updates": 3440,
+      "total": 2.5097352266311646,
+      "task": 1.7633171454071999,
+      "prediction": 1.4928361997008324,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2738151289522648
+    },
+    {
+      "repeat": 216,
+      "updates": 3456,
+      "total": 2.4993012249469757,
+      "task": 1.7603492736816406,
+      "prediction": 1.4779039323329926,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.27431686595082283
+    },
+    {
+      "repeat": 217,
+      "updates": 3472,
+      "total": 2.497853383421898,
+      "task": 1.7655694410204887,
+      "prediction": 1.4645678624510765,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.27456508576869965
+    },
+    {
+      "repeat": 218,
+      "updates": 3488,
+      "total": 2.4891297072172165,
+      "task": 1.7585929334163666,
+      "prediction": 1.4610735327005386,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.27494053542613983
+    },
+    {
+      "repeat": 219,
+      "updates": 3504,
+      "total": 2.4693462252616882,
+      "task": 1.7424189448356628,
+      "prediction": 1.4538545683026314,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2751915939152241
+    },
+    {
+      "repeat": 220,
+      "updates": 3520,
+      "total": 2.468904599547386,
+      "task": 1.746709942817688,
+      "prediction": 1.4443892985582352,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2755536213517189
+    },
+    {
+      "repeat": 221,
+      "updates": 3536,
+      "total": 2.4621492326259613,
+      "task": 1.7412036955356598,
+      "prediction": 1.4418910369277,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.27571691013872623
+    },
+    {
+      "repeat": 222,
+      "updates": 3552,
+      "total": 2.4466726779937744,
+      "task": 1.733468845486641,
+      "prediction": 1.4264076873660088,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2761394828557968
+    },
+    {
+      "repeat": 223,
+      "updates": 3568,
+      "total": 2.4495403319597244,
+      "task": 1.7354586720466614,
+      "prediction": 1.4281632900238037,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2765117883682251
+    },
+    {
+      "repeat": 224,
+      "updates": 3584,
+      "total": 2.4350059777498245,
+      "task": 1.72752146422863,
+      "prediction": 1.4149689748883247,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2769777402281761
+    },
+    {
+      "repeat": 225,
+      "updates": 3600,
+      "total": 2.422419637441635,
+      "task": 1.7184906229376793,
+      "prediction": 1.407858058810234,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2771431263536215
+    },
+    {
+      "repeat": 226,
+      "updates": 3616,
+      "total": 2.417864069342613,
+      "task": 1.7199363932013512,
+      "prediction": 1.3958553671836853,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.27740972116589546
+    },
+    {
+      "repeat": 227,
+      "updates": 3632,
+      "total": 2.407030910253525,
+      "task": 1.7170534133911133,
+      "prediction": 1.3799550235271454,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.27812561951577663
+    },
+    {
+      "repeat": 228,
+      "updates": 3648,
+      "total": 2.3996513187885284,
+      "task": 1.7095114141702652,
+      "prediction": 1.3802798688411713,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.27816577069461346
+    },
+    {
+      "repeat": 229,
+      "updates": 3664,
+      "total": 2.3928320705890656,
+      "task": 1.7059998586773872,
+      "prediction": 1.3736644312739372,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.27841524221003056
+    },
+    {
+      "repeat": 230,
+      "updates": 3680,
+      "total": 2.3795781284570694,
+      "task": 1.6967012733221054,
+      "prediction": 1.3657536953687668,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2784960903227329
+    },
+    {
+      "repeat": 231,
+      "updates": 3696,
+      "total": 2.3733778595924377,
+      "task": 1.6879457384347916,
+      "prediction": 1.3708642274141312,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.27888408303260803
+    },
+    {
+      "repeat": 232,
+      "updates": 3712,
+      "total": 2.3630426824092865,
+      "task": 1.6851439252495766,
+      "prediction": 1.3557974696159363,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.27941422909498215
+    },
+    {
+      "repeat": 233,
+      "updates": 3728,
+      "total": 2.3598243445158005,
+      "task": 1.6859874799847603,
+      "prediction": 1.3476737514138222,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.279531367123127
+    },
+    {
+      "repeat": 234,
+      "updates": 3744,
+      "total": 2.3510007113218307,
+      "task": 1.6840855926275253,
+      "prediction": 1.3338303044438362,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2798801548779011
+    },
+    {
+      "repeat": 235,
+      "updates": 3760,
+      "total": 2.334208518266678,
+      "task": 1.6721476018428802,
+      "prediction": 1.324121855199337,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.279933650046587
+    },
+    {
+      "repeat": 236,
+      "updates": 3776,
+      "total": 2.3267518430948257,
+      "task": 1.6665706634521484,
+      "prediction": 1.3203623816370964,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.28038323670625687
+    },
+    {
+      "repeat": 237,
+      "updates": 3792,
+      "total": 2.3148909509181976,
+      "task": 1.6586859300732613,
+      "prediction": 1.3124100044369698,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2806160021573305
+    },
+    {
+      "repeat": 238,
+      "updates": 3808,
+      "total": 2.3168709576129913,
+      "task": 1.6628052070736885,
+      "prediction": 1.3081315085291862,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.28097507171332836
+    },
+    {
+      "repeat": 239,
+      "updates": 3824,
+      "total": 2.306773379445076,
+      "task": 1.6610806286334991,
+      "prediction": 1.2913854867219925,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2814380805939436
+    },
+    {
+      "repeat": 240,
+      "updates": 3840,
+      "total": 2.301223635673523,
+      "task": 1.6556259989738464,
+      "prediction": 1.291195273399353,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.28160118125379086
+    },
+    {
+      "repeat": 241,
+      "updates": 3856,
+      "total": 2.283607542514801,
+      "task": 1.6437864527106285,
+      "prediction": 1.2796421647071838,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2817111127078533
+    },
+    {
+      "repeat": 242,
+      "updates": 3872,
+      "total": 2.290404587984085,
+      "task": 1.6517205312848091,
+      "prediction": 1.2773680463433266,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.28198947198688984
+    },
+    {
+      "repeat": 243,
+      "updates": 3888,
+      "total": 2.2707259953022003,
+      "task": 1.6371673718094826,
+      "prediction": 1.2671171948313713,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.28215172700583935
+    },
+    {
+      "repeat": 244,
+      "updates": 3904,
+      "total": 2.265404835343361,
+      "task": 1.6341885030269623,
+      "prediction": 1.2624326571822166,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2821986060589552
+    },
+    {
+      "repeat": 245,
+      "updates": 3920,
+      "total": 2.253431960940361,
+      "task": 1.6272751316428185,
+      "prediction": 1.2523136734962463,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.28250743821263313
+    },
+    {
+      "repeat": 246,
+      "updates": 3936,
+      "total": 2.244799420237541,
+      "task": 1.620653323829174,
+      "prediction": 1.2482922449707985,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.28284313902258873
+    },
+    {
+      "repeat": 247,
+      "updates": 3952,
+      "total": 2.235868752002716,
+      "task": 1.6177378296852112,
+      "prediction": 1.2362619191408157,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.28323001600801945
+    },
+    {
+      "repeat": 248,
+      "updates": 3968,
+      "total": 2.2278067022562027,
+      "task": 1.6136074587702751,
+      "prediction": 1.2283984124660492,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.28324625827372074
+    },
+    {
+      "repeat": 249,
+      "updates": 3984,
+      "total": 2.22304804623127,
+      "task": 1.6103325635194778,
+      "prediction": 1.2254309877753258,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2837843485176563
+    },
+    {
+      "repeat": 250,
+      "updates": 4000,
+      "total": 2.2068311274051666,
+      "task": 1.5990013629198074,
+      "prediction": 1.2156595587730408,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2836782243102789
+    },
+    {
+      "repeat": 251,
+      "updates": 4016,
+      "total": 2.1986358016729355,
+      "task": 1.5934625640511513,
+      "prediction": 1.2103464901447296,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.28382478281855583
+    },
+    {
+      "repeat": 252,
+      "updates": 4032,
+      "total": 2.1911696195602417,
+      "task": 1.5876754373311996,
+      "prediction": 1.2069883570075035,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2840281445533037
+    },
+    {
+      "repeat": 253,
+      "updates": 4048,
+      "total": 2.1912283152341843,
+      "task": 1.5900975540280342,
+      "prediction": 1.2022614628076553,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2845484185963869
+    },
+    {
+      "repeat": 254,
+      "updates": 4064,
+      "total": 2.1873834431171417,
+      "task": 1.590143859386444,
+      "prediction": 1.194479152560234,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2846091613173485
+    },
+    {
+      "repeat": 255,
+      "updates": 4080,
+      "total": 2.177837699651718,
+      "task": 1.5851422101259232,
+      "prediction": 1.1853909865021706,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2845547143369913
+    },
+    {
+      "repeat": 256,
+      "updates": 4096,
+      "total": 2.168595850467682,
+      "task": 1.579027846455574,
+      "prediction": 1.1791359782218933,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.28509277291595936
+    }
+  ],
+  "metrics": {
+    "train": {
+      "questions": 1024,
+      "correct": 538,
+      "accuracy": 0.525390625,
+      "final_ce": 1.543900966644287,
+      "final_brier": 0.6954914331436157,
+      "all_steps_correct": 171,
+      "all_steps_accuracy": 0.1669921875,
+      "next_state_accuracy": 0.6058657062001543,
+      "next_state_ce": 1.2654534985910568,
+      "next_state_brier": 0.5567538391694269,
+      "intermediate_accuracy": 0.6346489696122948,
+      "activity_l1_proxy": 0.2850549774915785,
+      "evaluation_seconds": 0.011216999962925911,
+      "length_counts": {
+        "3": 209,
+        "4": 815
+      },
+      "predictions_file": null
+    },
+    "validation": {
+      "in_distribution": {
+        "questions": 256,
+        "correct": 86,
+        "accuracy": 0.3359375,
+        "final_ce": 2.1426515579223633,
+        "final_brier": 0.8558992147445679,
+        "all_steps_correct": 30,
+        "all_steps_accuracy": 0.1171875,
+        "next_state_accuracy": 0.5166666666666667,
+        "next_state_ce": 1.5101792653401693,
+        "next_state_brier": 0.624520746866862,
+        "intermediate_accuracy": 0.5823863636363636,
+        "activity_l1_proxy": 0.28574180603027344,
+        "evaluation_seconds": 0.003182500135153532,
+        "length_counts": {
+          "3": 64,
+          "4": 192
+        },
+        "predictions_file": "connectome__task_predict__u1024__seed1103__r256__validation__in_distribution.npz"
+      },
+      "unseen_pair": {
+        "questions": 256,
+        "correct": 59,
+        "accuracy": 0.23046875,
+        "final_ce": 2.347036600112915,
+        "final_brier": 0.9096119403839111,
+        "all_steps_correct": 12,
+        "all_steps_accuracy": 0.046875,
+        "next_state_accuracy": 0.43119266055045874,
+        "next_state_ce": 1.7612054574015672,
+        "next_state_brier": 0.6899531030995159,
+        "intermediate_accuracy": 0.5020689655172413,
+        "activity_l1_proxy": 0.2795670846672719,
+        "evaluation_seconds": 0.0027465999592095613,
+        "length_counts": {
+          "3": 43,
+          "4": 213
+        },
+        "predictions_file": "connectome__task_predict__u1024__seed1103__r256__validation__unseen_pair.npz"
+      },
+      "long_chain": {
+        "questions": 256,
+        "correct": 34,
+        "accuracy": 0.1328125,
+        "final_ce": 3.7558557987213135,
+        "final_brier": 0.9648367762565613,
+        "all_steps_correct": 0,
+        "all_steps_accuracy": 0.0,
+        "next_state_accuracy": 0.39326599326599326,
+        "next_state_ce": 3.0199304240319864,
+        "next_state_brier": 0.7559200402462121,
+        "intermediate_accuracy": 0.44751830756712774,
+        "activity_l1_proxy": 0.27941454749316075,
+        "evaluation_seconds": 0.004258100176230073,
+        "length_counts": {
+          "5": 51,
+          "6": 205
+        },
+        "predictions_file": "connectome__task_predict__u1024__seed1103__r256__validation__long_chain.npz"
+      },
+      "long_unseen_pair": {
+        "questions": 256,
+        "correct": 28,
+        "accuracy": 0.109375,
+        "final_ce": 3.740267753601074,
+        "final_brier": 0.9815905094146729,
+        "all_steps_correct": 0,
+        "all_steps_accuracy": 0.0,
+        "next_state_accuracy": 0.33758389261744964,
+        "next_state_ce": 3.2104715027265103,
+        "next_state_brier": 0.7909546717701342,
+        "intermediate_accuracy": 0.38492706645056723,
+        "activity_l1_proxy": 0.27749015244861575,
+        "evaluation_seconds": 0.0034533001016825438,
+        "length_counts": {
+          "5": 46,
+          "6": 210
+        },
+        "predictions_file": "connectome__task_predict__u1024__seed1103__r256__validation__long_unseen_pair.npz"
+      }
+    },
+    "test": {}
+  },
+  "dense_kernels": true,
+  "activity_proxy_is_paid_compute": false
+}

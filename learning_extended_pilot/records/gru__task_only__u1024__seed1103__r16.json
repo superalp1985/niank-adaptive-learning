@@ -1,0 +1,297 @@
+{
+  "id": "gru__task_only__u1024__seed1103__r16",
+  "architecture": "gru",
+  "objective": "task_only",
+  "seed": 1103,
+  "unique_examples": 1024,
+  "repetitions": 16,
+  "presentations": 16384,
+  "optimizer_updates": 256,
+  "final_target_labels": 16384,
+  "intermediate_target_labels": 0,
+  "forward_views_per_presentation": 1,
+  "forward_sequence_steps": 62192,
+  "padded_forward_sequence_steps": 65536,
+  "trainable_parameters": 22768,
+  "trainable_recurrent_edges": null,
+  "hidden_size": 79,
+  "training_seconds_cumulative": 1.0801247002091259,
+  "cuda_peak_allocated_bytes": 20203520,
+  "mean_training_losses": {
+    "total": 2.3409713711589575,
+    "task": 2.3409713711589575,
+    "prediction": 0.0,
+    "consistency": 0.0,
+    "variance": 0.0,
+    "activity_l1_proxy": 0.24229031894356012
+  },
+  "history": [
+    {
+      "repeat": 1,
+      "updates": 16,
+      "total": 2.779593765735626,
+      "task": 2.779593765735626,
+      "prediction": 0.0,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.07665610825642943
+    },
+    {
+      "repeat": 2,
+      "updates": 32,
+      "total": 2.761831507086754,
+      "task": 2.761831507086754,
+      "prediction": 0.0,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.07367704017087817
+    },
+    {
+      "repeat": 3,
+      "updates": 48,
+      "total": 2.695493906736374,
+      "task": 2.695493906736374,
+      "prediction": 0.0,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.09788154251873493
+    },
+    {
+      "repeat": 4,
+      "updates": 64,
+      "total": 2.521402820944786,
+      "task": 2.521402820944786,
+      "prediction": 0.0,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.20565855968743563
+    },
+    {
+      "repeat": 5,
+      "updates": 80,
+      "total": 2.470464766025543,
+      "task": 2.470464766025543,
+      "prediction": 0.0,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.18755666073411703
+    },
+    {
+      "repeat": 6,
+      "updates": 96,
+      "total": 2.4301203340291977,
+      "task": 2.4301203340291977,
+      "prediction": 0.0,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.20508375577628613
+    },
+    {
+      "repeat": 7,
+      "updates": 112,
+      "total": 2.388635978102684,
+      "task": 2.388635978102684,
+      "prediction": 0.0,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.21640165895223618
+    },
+    {
+      "repeat": 8,
+      "updates": 128,
+      "total": 2.3352710753679276,
+      "task": 2.3352710753679276,
+      "prediction": 0.0,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.24441120401024818
+    },
+    {
+      "repeat": 9,
+      "updates": 144,
+      "total": 2.2796448320150375,
+      "task": 2.2796448320150375,
+      "prediction": 0.0,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2597013162449002
+    },
+    {
+      "repeat": 10,
+      "updates": 160,
+      "total": 2.2353113889694214,
+      "task": 2.2353113889694214,
+      "prediction": 0.0,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.27292020805180073
+    },
+    {
+      "repeat": 11,
+      "updates": 176,
+      "total": 2.178049847483635,
+      "task": 2.178049847483635,
+      "prediction": 0.0,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.2972319480031729
+    },
+    {
+      "repeat": 12,
+      "updates": 192,
+      "total": 2.13111275434494,
+      "task": 2.13111275434494,
+      "prediction": 0.0,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.3161558173596859
+    },
+    {
+      "repeat": 13,
+      "updates": 208,
+      "total": 2.0909112244844437,
+      "task": 2.0909112244844437,
+      "prediction": 0.0,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.3381065595895052
+    },
+    {
+      "repeat": 14,
+      "updates": 224,
+      "total": 2.0695821195840836,
+      "task": 2.0695821195840836,
+      "prediction": 0.0,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.35280974209308624
+    },
+    {
+      "repeat": 15,
+      "updates": 240,
+      "total": 2.0533166602253914,
+      "task": 2.0533166602253914,
+      "prediction": 0.0,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.3675582818686962
+    },
+    {
+      "repeat": 16,
+      "updates": 256,
+      "total": 2.0347989574074745,
+      "task": 2.0347989574074745,
+      "prediction": 0.0,
+      "consistency": 0.0,
+      "variance": 0.0,
+      "activity_l1_proxy": 0.3648346997797489
+    }
+  ],
+  "metrics": {
+    "train": {
+      "questions": 1024,
+      "correct": 246,
+      "accuracy": 0.240234375,
+      "final_ce": 1.9966118335723877,
+      "final_brier": 0.8494629263877869,
+      "all_steps_correct": 0,
+      "all_steps_accuracy": 0.0,
+      "next_state_accuracy": 0.14226910213532287,
+      "next_state_ce": 2.9991948446946552,
+      "next_state_brier": 0.936543206798101,
+      "intermediate_accuracy": 0.1072301781348236,
+      "activity_l1_proxy": 0.3678910811720666,
+      "evaluation_seconds": 0.012951300013810396,
+      "length_counts": {
+        "3": 209,
+        "4": 815
+      },
+      "predictions_file": null
+    },
+    "validation": {
+      "in_distribution": {
+        "questions": 256,
+        "correct": 29,
+        "accuracy": 0.11328125,
+        "final_ce": 2.2014431953430176,
+        "final_brier": 0.8981629610061646,
+        "all_steps_correct": 0,
+        "all_steps_accuracy": 0.0,
+        "next_state_accuracy": 0.08854166666666667,
+        "next_state_ce": 3.058666483561198,
+        "next_state_brier": 0.9536002477010092,
+        "intermediate_accuracy": 0.07954545454545454,
+        "activity_l1_proxy": 0.3652713566389768,
+        "evaluation_seconds": 0.0031250000465661287,
+        "length_counts": {
+          "3": 64,
+          "4": 192
+        },
+        "predictions_file": "gru__task_only__u1024__seed1103__r16__validation__in_distribution.npz"
+      },
+      "unseen_pair": {
+        "questions": 256,
+        "correct": 23,
+        "accuracy": 0.08984375,
+        "final_ce": 2.2301926612854004,
+        "final_brier": 0.9083043336868286,
+        "all_steps_correct": 0,
+        "all_steps_accuracy": 0.0,
+        "next_state_accuracy": 0.06931702344546381,
+        "next_state_ce": 3.122137009429154,
+        "next_state_brier": 0.9612251305069763,
+        "intermediate_accuracy": 0.06206896551724138,
+        "activity_l1_proxy": 0.3608767834907547,
+        "evaluation_seconds": 0.0023123000282794237,
+        "length_counts": {
+          "3": 43,
+          "4": 213
+        },
+        "predictions_file": "gru__task_only__u1024__seed1103__r16__validation__unseen_pair.npz"
+      },
+      "long_chain": {
+        "questions": 256,
+        "correct": 28,
+        "accuracy": 0.109375,
+        "final_ce": 3.663731575012207,
+        "final_brier": 0.9348545074462891,
+        "all_steps_correct": 0,
+        "all_steps_accuracy": 0.0,
+        "next_state_accuracy": 0.0962962962962963,
+        "next_state_ce": 4.059599576494108,
+        "next_state_brier": 0.9679560908564815,
+        "intermediate_accuracy": 0.0935720097640358,
+        "activity_l1_proxy": 0.47581637844691643,
+        "evaluation_seconds": 0.003982300171628594,
+        "length_counts": {
+          "5": 51,
+          "6": 205
+        },
+        "predictions_file": "gru__task_only__u1024__seed1103__r16__validation__long_chain.npz"
+      },
+      "long_unseen_pair": {
+        "questions": 256,
+        "correct": 25,
+        "accuracy": 0.09765625,
+        "final_ce": 3.535615921020508,
+        "final_brier": 0.9362075924873352,
+        "all_steps_correct": 0,
+        "all_steps_accuracy": 0.0,
+        "next_state_accuracy": 0.08120805369127516,
+        "next_state_ce": 4.075032442848155,
+        "next_state_brier": 0.976643279414849,
+        "intermediate_accuracy": 0.07779578606158834,
+        "activity_l1_proxy": 0.47560400693441507,
+        "evaluation_seconds": 0.003010199870914221,
+        "length_counts": {
+          "5": 46,
+          "6": 210
+        },
+        "predictions_file": "gru__task_only__u1024__seed1103__r16__validation__long_unseen_pair.npz"
+      }
+    },
+    "test": {}
+  },
+  "dense_kernels": true,
+  "activity_proxy_is_paid_compute": false
+}

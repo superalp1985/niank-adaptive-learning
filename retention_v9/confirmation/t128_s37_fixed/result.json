@@ -1,0 +1,245 @@
+{
+  "mode": "fixed",
+  "seed": 37,
+  "steps": 128,
+  "worlds": 64,
+  "actual_transitions": 8192,
+  "parameters": 15534,
+  "trainable_parameters": 15387,
+  "seconds": 1.140943800099194,
+  "prequential": {
+    "success": 0.6396484375,
+    "regret": 0.11942803114652634,
+    "state_mse": 0.03848870098590851,
+    "actual_cost": 0.2868674099445343,
+    "retrieval_fraction": 0.0,
+    "archive_records_read": 0,
+    "reference_drops": 0,
+    "reference_returns": 0,
+    "fine_drop_events": 0,
+    "fine_return_events": 0,
+    "mean_active_references": 4.0
+  },
+  "first_32": {
+    "success": 0.60595703125,
+    "regret": 0.19354289770126343,
+    "state_mse": 0.07029019296169281,
+    "actual_cost": 0.37384557723999023,
+    "retrieval_fraction": 0.0,
+    "archive_records_read": 0,
+    "reference_drops": 0,
+    "reference_returns": 0,
+    "fine_drop_events": 0,
+    "fine_return_events": 0,
+    "mean_active_references": 4.0
+  },
+  "last_32": {
+    "success": 0.71240234375,
+    "regret": 0.07266053557395935,
+    "state_mse": 0.020535806193947792,
+    "actual_cost": 0.1346396654844284,
+    "retrieval_fraction": 0.0,
+    "archive_records_read": 0,
+    "reference_drops": 0,
+    "reference_returns": 0,
+    "fine_drop_events": 0,
+    "fine_return_events": 0,
+    "mean_active_references": 4.0
+  },
+  "initial_database_io": {
+    "records": 1152,
+    "bytes": 497664
+  },
+  "initial_probe": {
+    "contexts": [
+      {
+        "context": 0.0,
+        "success": 0.703125,
+        "regret": 0.07981867343187332,
+        "state_mse": 0.1576262265443802,
+        "left_success": 0.40625,
+        "right_success": 1.0
+      },
+      {
+        "context": 0.5,
+        "success": 0.6875,
+        "regret": 0.08239352703094482,
+        "state_mse": 0.14394325017929077,
+        "left_success": 0.390625,
+        "right_success": 0.984375
+      },
+      {
+        "context": 1.0,
+        "success": 0.68359375,
+        "regret": 0.08207650482654572,
+        "state_mse": 0.12193183600902557,
+        "left_success": 0.375,
+        "right_success": 0.9921875
+      }
+    ],
+    "success": 0.69140625,
+    "regret": 0.08142956842978795,
+    "state_mse": 0.14116710424423218,
+    "left_success": 0.390625,
+    "right_success": 0.9921875
+  },
+  "final_probe": {
+    "contexts": [
+      {
+        "context": 0.0,
+        "success": 0.75390625,
+        "regret": 0.040768373757600784,
+        "state_mse": 0.009062360040843487,
+        "left_success": 0.53125,
+        "right_success": 0.9765625
+      },
+      {
+        "context": 0.5,
+        "success": 0.76171875,
+        "regret": 0.03140319883823395,
+        "state_mse": 0.012246493250131607,
+        "left_success": 0.6171875,
+        "right_success": 0.90625
+      },
+      {
+        "context": 1.0,
+        "success": 0.75390625,
+        "regret": 0.028967024758458138,
+        "state_mse": 0.02637714147567749,
+        "left_success": 0.6796875,
+        "right_success": 0.828125
+      }
+    ],
+    "success": 0.7565104166666666,
+    "regret": 0.03371286578476429,
+    "state_mse": 0.015895331588884194,
+    "left_success": 0.609375,
+    "right_success": 0.9036458333333334
+  },
+  "phases": [
+    {
+      "start": 0,
+      "context": 0.0,
+      "success": 0.6484375,
+      "regret": 0.16875779628753662,
+      "state_mse": 0.08411712944507599,
+      "actual_cost": 0.35057806968688965,
+      "retrieval_fraction": 0.0,
+      "archive_records_read": 0,
+      "reference_drops": 0,
+      "reference_returns": 0,
+      "fine_drop_events": 0,
+      "fine_return_events": 0,
+      "mean_active_references": 4.0
+    },
+    {
+      "start": 16,
+      "context": 1.0,
+      "success": 0.5634765625,
+      "regret": 0.21832799911499023,
+      "state_mse": 0.05646326392889023,
+      "actual_cost": 0.3971130847930908,
+      "retrieval_fraction": 0.0,
+      "archive_records_read": 0,
+      "reference_drops": 0,
+      "reference_returns": 0,
+      "fine_drop_events": 0,
+      "fine_return_events": 0,
+      "mean_active_references": 4.0
+    },
+    {
+      "start": 32,
+      "context": 0.0,
+      "success": 0.623046875,
+      "regret": 0.15305814146995544,
+      "state_mse": 0.029660502448678017,
+      "actual_cost": 0.39857017993927,
+      "retrieval_fraction": 0.0,
+      "archive_records_read": 0,
+      "reference_drops": 0,
+      "reference_returns": 0,
+      "fine_drop_events": 0,
+      "fine_return_events": 0,
+      "mean_active_references": 4.0
+    },
+    {
+      "start": 48,
+      "context": 0.5,
+      "success": 0.5224609375,
+      "regret": 0.08947443217039108,
+      "state_mse": 0.05117771029472351,
+      "actual_cost": 0.42826414108276367,
+      "retrieval_fraction": 0.0,
+      "archive_records_read": 0,
+      "reference_drops": 0,
+      "reference_returns": 0,
+      "fine_drop_events": 0,
+      "fine_return_events": 0,
+      "mean_active_references": 4.0
+    },
+    {
+      "start": 64,
+      "context": 1.0,
+      "success": 0.7451171875,
+      "regret": 0.04587933421134949,
+      "state_mse": 0.026879196986556053,
+      "actual_cost": 0.1953573077917099,
+      "retrieval_fraction": 0.0,
+      "archive_records_read": 0,
+      "reference_drops": 0,
+      "reference_returns": 0,
+      "fine_drop_events": 0,
+      "fine_return_events": 0,
+      "mean_active_references": 4.0
+    },
+    {
+      "start": 80,
+      "context": 0.0,
+      "success": 0.58984375,
+      "regret": 0.13460545241832733,
+      "state_mse": 0.018540214747190475,
+      "actual_cost": 0.25577712059020996,
+      "retrieval_fraction": 0.0,
+      "archive_records_read": 0,
+      "reference_drops": 0,
+      "reference_returns": 0,
+      "fine_drop_events": 0,
+      "fine_return_events": 0,
+      "mean_active_references": 4.0
+    },
+    {
+      "start": 96,
+      "context": 1.0,
+      "success": 0.71875,
+      "regret": 0.08096623420715332,
+      "state_mse": 0.03079240396618843,
+      "actual_cost": 0.15649272501468658,
+      "retrieval_fraction": 0.0,
+      "archive_records_read": 0,
+      "reference_drops": 0,
+      "reference_returns": 0,
+      "fine_drop_events": 0,
+      "fine_return_events": 0,
+      "mean_active_references": 4.0
+    },
+    {
+      "start": 112,
+      "context": 0.5,
+      "success": 0.7060546875,
+      "regret": 0.06435483694076538,
+      "state_mse": 0.010279208421707153,
+      "actual_cost": 0.11278661340475082,
+      "retrieval_fraction": 0.0,
+      "archive_records_read": 0,
+      "reference_drops": 0,
+      "reference_returns": 0,
+      "fine_drop_events": 0,
+      "fine_return_events": 0,
+      "mean_active_references": 4.0
+    }
+  ],
+  "archive_bytes_read": 497664,
+  "cached_omission_decoder_rows": 32768,
+  "archive_omission_decoder_rows": 0,
+  "factual_feedback": "chosen action only, recorded and scored before updates"
+}

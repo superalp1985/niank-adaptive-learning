@@ -1,0 +1,1002 @@
+[
+  {
+    "stage": "development",
+    "unique": 512,
+    "cycles": 32,
+    "mode": "quartet_point",
+    "presentations": 65536,
+    "seeds": [
+      11
+    ],
+    "means": {
+      "success": 0.9765625,
+      "regret": 0.0077299498952925205,
+      "state_mse": 0.0025318872649222612,
+      "active_count": 3.2890625,
+      "risk_gain": 0.9144197106361389,
+      "safe_spurious": 0.008584476076066494,
+      "risk_retention": 0.5078125,
+      "safe_retention": 0.71875,
+      "stale_success": 0.96484375,
+      "recovered_success": 0.984375,
+      "recovery_gain": 0.01953125,
+      "forgotten_episodes": 60.0,
+      "forgotten_recovery_gain": 0.06666666666666665
+    },
+    "seed_values": {
+      "success": [
+        0.9765625
+      ],
+      "regret": [
+        0.0077299498952925205
+      ],
+      "state_mse": [
+        0.0025318872649222612
+      ],
+      "active_count": [
+        3.2890625
+      ],
+      "risk_gain": [
+        0.9144197106361389
+      ],
+      "safe_spurious": [
+        0.008584476076066494
+      ],
+      "risk_retention": [
+        0.5078125
+      ],
+      "safe_retention": [
+        0.71875
+      ],
+      "stale_success": [
+        0.96484375
+      ],
+      "recovered_success": [
+        0.984375
+      ],
+      "recovery_gain": [
+        0.01953125
+      ],
+      "forgotten_episodes": [
+        60
+      ],
+      "forgotten_recovery_gain": [
+        0.06666666666666665
+      ]
+    },
+    "parameters": 15534,
+    "mean_training_seconds": 24.939079799922183
+  },
+  {
+    "stage": "development",
+    "unique": 512,
+    "cycles": 32,
+    "mode": "quartet_delta",
+    "presentations": 65536,
+    "seeds": [
+      11
+    ],
+    "means": {
+      "success": 0.984375,
+      "regret": 0.005208304617553949,
+      "state_mse": 0.002386100823059678,
+      "active_count": 3.82421875,
+      "risk_gain": 0.9658675193786621,
+      "safe_spurious": 0.0034918400924652815,
+      "risk_retention": 0.673828125,
+      "safe_retention": 0.490234375,
+      "stale_success": 0.859375,
+      "recovered_success": 0.98046875,
+      "recovery_gain": 0.12109375,
+      "forgotten_episodes": 134.0,
+      "forgotten_recovery_gain": 0.23134328358208955
+    },
+    "seed_values": {
+      "success": [
+        0.984375
+      ],
+      "regret": [
+        0.005208304617553949
+      ],
+      "state_mse": [
+        0.002386100823059678
+      ],
+      "active_count": [
+        3.82421875
+      ],
+      "risk_gain": [
+        0.9658675193786621
+      ],
+      "safe_spurious": [
+        0.0034918400924652815
+      ],
+      "risk_retention": [
+        0.673828125
+      ],
+      "safe_retention": [
+        0.490234375
+      ],
+      "stale_success": [
+        0.859375
+      ],
+      "recovered_success": [
+        0.98046875
+      ],
+      "recovery_gain": [
+        0.12109375
+      ],
+      "forgotten_episodes": [
+        134
+      ],
+      "forgotten_recovery_gain": [
+        0.23134328358208955
+      ]
+    },
+    "parameters": 15534,
+    "mean_training_seconds": 28.377734400099143
+  },
+  {
+    "stage": "confirmation",
+    "unique": 512,
+    "cycles": 8,
+    "mode": "quartet_point",
+    "presentations": 16384,
+    "seeds": [
+      11,
+      23,
+      37
+    ],
+    "means": {
+      "success": 0.8984375,
+      "regret": 0.008529072006543478,
+      "state_mse": 0.026061369727055233,
+      "active_count": 2.6627604166666665,
+      "risk_gain": 0.3733200530211131,
+      "safe_spurious": 0.11980353544155757,
+      "risk_retention": 0.5227864583333334,
+      "safe_retention": 0.5279947916666666,
+      "stale_success": 0.8893229166666666,
+      "recovered_success": 0.8893229166666666,
+      "recovery_gain": 0.0,
+      "forgotten_episodes": 121.0,
+      "forgotten_recovery_gain": 0.00036044386086867924,
+      "left_layout_success": 0.798828125,
+      "texture_shift_success": 0.8567708333333334
+    },
+    "seed_values": {
+      "success": [
+        0.91015625,
+        0.875,
+        0.91015625
+      ],
+      "regret": [
+        0.00927096139639616,
+        0.009528739377856255,
+        0.006787515245378017
+      ],
+      "state_mse": [
+        0.024981863796710968,
+        0.02899760752916336,
+        0.024204637855291367
+      ],
+      "active_count": [
+        3.193359375,
+        2.736328125,
+        2.05859375
+      ],
+      "risk_gain": [
+        0.2204965054988861,
+        0.46433666348457336,
+        0.43512699007987976
+      ],
+      "safe_spurious": [
+        0.07991652935743332,
+        0.14639006555080414,
+        0.13310401141643524
+      ],
+      "risk_retention": [
+        0.5,
+        0.5,
+        0.568359375
+      ],
+      "safe_retention": [
+        0.5,
+        0.5,
+        0.583984375
+      ],
+      "stale_success": [
+        0.875,
+        0.89453125,
+        0.8984375
+      ],
+      "recovered_success": [
+        0.875,
+        0.890625,
+        0.90234375
+      ],
+      "recovery_gain": [
+        0.0,
+        -0.00390625,
+        0.00390625
+      ],
+      "forgotten_episodes": [
+        135,
+        121,
+        107
+      ],
+      "forgotten_recovery_gain": [
+        0.0,
+        -0.008264462809917328,
+        0.009345794392523366
+      ],
+      "left_layout_success": [
+        0.90234375,
+        0.81640625,
+        0.677734375
+      ],
+      "texture_shift_success": [
+        0.865234375,
+        0.82421875,
+        0.880859375
+      ]
+    },
+    "parameters": 15534,
+    "mean_training_seconds": 7.011740033359577
+  },
+  {
+    "stage": "confirmation",
+    "unique": 512,
+    "cycles": 8,
+    "mode": "quartet_delta",
+    "presentations": 16384,
+    "seeds": [
+      11,
+      23,
+      37
+    ],
+    "means": {
+      "success": 0.8626302083333334,
+      "regret": 0.012401359776655832,
+      "state_mse": 0.03784541351099809,
+      "active_count": 2.0071614583333335,
+      "risk_gain": 0.9489467938741049,
+      "safe_spurious": 0.017300109068552654,
+      "risk_retention": 0.5,
+      "safe_retention": 0.6653645833333334,
+      "stale_success": 0.84765625,
+      "recovered_success": 0.8463541666666666,
+      "recovery_gain": -0.0013020833333333333,
+      "forgotten_episodes": 85.66666666666667,
+      "forgotten_recovery_gain": -0.0049382716049382784,
+      "left_layout_success": 0.7571614583333334,
+      "texture_shift_success": 0.8333333333333334
+    },
+    "seed_values": {
+      "success": [
+        0.837890625,
+        0.873046875,
+        0.876953125
+      ],
+      "regret": [
+        0.012882571667432785,
+        0.01153863687068224,
+        0.012782870791852474
+      ],
+      "state_mse": [
+        0.05125899985432625,
+        0.028688447549939156,
+        0.03358879312872887
+      ],
+      "active_count": [
+        1.404296875,
+        2.037109375,
+        2.580078125
+      ],
+      "risk_gain": [
+        0.8141297101974487,
+        1.0530718564987183,
+        0.9796388149261475
+      ],
+      "safe_spurious": [
+        0.01571318693459034,
+        0.025488799437880516,
+        0.010698340833187103
+      ],
+      "risk_retention": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "safe_retention": [
+        0.5,
+        0.5,
+        0.99609375
+      ],
+      "stale_success": [
+        0.8359375,
+        0.86328125,
+        0.84375
+      ],
+      "recovered_success": [
+        0.828125,
+        0.86328125,
+        0.84765625
+      ],
+      "recovery_gain": [
+        -0.0078125,
+        0.0,
+        0.00390625
+      ],
+      "forgotten_episodes": [
+        135,
+        121,
+        1
+      ],
+      "forgotten_recovery_gain": [
+        -0.014814814814814836,
+        0.0,
+        0.0
+      ],
+      "left_layout_success": [
+        0.8671875,
+        0.830078125,
+        0.57421875
+      ],
+      "texture_shift_success": [
+        0.814453125,
+        0.853515625,
+        0.83203125
+      ]
+    },
+    "parameters": 15534,
+    "mean_training_seconds": 7.392333633343999
+  },
+  {
+    "stage": "confirmation",
+    "unique": 2048,
+    "cycles": 2,
+    "mode": "quartet_point",
+    "presentations": 16384,
+    "seeds": [
+      11,
+      23,
+      37
+    ],
+    "means": {
+      "success": 0.9010416666666666,
+      "regret": 0.008888431048641602,
+      "state_mse": 0.020992280294497807,
+      "active_count": 2.8795572916666665,
+      "risk_gain": 0.26221605638662976,
+      "safe_spurious": 0.09544012447198232,
+      "risk_retention": 0.6087239583333334,
+      "safe_retention": 0.6256510416666666,
+      "stale_success": 0.86328125,
+      "recovered_success": 0.86328125,
+      "recovery_gain": 0.0,
+      "forgotten_episodes": 93.33333333333333,
+      "forgotten_recovery_gain": 0.0,
+      "left_layout_success": 0.740234375,
+      "texture_shift_success": 0.86328125
+    },
+    "seed_values": {
+      "success": [
+        0.90234375,
+        0.90234375,
+        0.8984375
+      ],
+      "regret": [
+        0.007408101577311754,
+        0.012897093780338764,
+        0.006360097788274288
+      ],
+      "state_mse": [
+        0.02569473162293434,
+        0.017144378274679184,
+        0.020137730985879898
+      ],
+      "active_count": [
+        3.939453125,
+        2.568359375,
+        2.130859375
+      ],
+      "risk_gain": [
+        0.206026092171669,
+        0.2938815951347351,
+        0.2867404818534851
+      ],
+      "safe_spurious": [
+        0.07695318013429642,
+        0.10132215172052383,
+        0.10804504156112671
+      ],
+      "risk_retention": [
+        0.5,
+        0.5,
+        0.826171875
+      ],
+      "safe_retention": [
+        0.5,
+        0.5,
+        0.876953125
+      ],
+      "stale_success": [
+        0.85546875,
+        0.86328125,
+        0.87109375
+      ],
+      "recovered_success": [
+        0.85546875,
+        0.86328125,
+        0.87109375
+      ],
+      "recovery_gain": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forgotten_episodes": [
+        121,
+        121,
+        38
+      ],
+      "forgotten_recovery_gain": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "left_layout_success": [
+        0.841796875,
+        0.802734375,
+        0.576171875
+      ],
+      "texture_shift_success": [
+        0.849609375,
+        0.8671875,
+        0.873046875
+      ]
+    },
+    "parameters": 15534,
+    "mean_training_seconds": 6.7482188333912445
+  },
+  {
+    "stage": "confirmation",
+    "unique": 2048,
+    "cycles": 2,
+    "mode": "quartet_delta",
+    "presentations": 16384,
+    "seeds": [
+      11,
+      23,
+      37
+    ],
+    "means": {
+      "success": 0.8502604166666666,
+      "regret": 0.013077919060985247,
+      "state_mse": 0.03524342676003774,
+      "active_count": 2.2096354166666665,
+      "risk_gain": 0.9870644013086954,
+      "safe_spurious": 0.01625825185328722,
+      "risk_retention": 0.5,
+      "safe_retention": 0.6666666666666666,
+      "stale_success": 0.8346354166666666,
+      "recovered_success": 0.8268229166666666,
+      "recovery_gain": -0.0078125,
+      "forgotten_episodes": 85.33333333333333,
+      "forgotten_recovery_gain": -0.007407407407407418,
+      "left_layout_success": 0.7311197916666666,
+      "texture_shift_success": 0.8190104166666666
+    },
+    "seed_values": {
+      "success": [
+        0.841796875,
+        0.888671875,
+        0.8203125
+      ],
+      "regret": [
+        0.015135759487748146,
+        0.011225692927837372,
+        0.012872304767370224
+      ],
+      "state_mse": [
+        0.046285659074783325,
+        0.022727474570274353,
+        0.03671714663505554
+      ],
+      "active_count": [
+        1.74609375,
+        2.712890625,
+        2.169921875
+      ],
+      "risk_gain": [
+        0.9999236464500427,
+        1.051566243171692,
+        0.9097033143043518
+      ],
+      "safe_spurious": [
+        0.025883212685585022,
+        0.01164099108427763,
+        0.011250551789999008
+      ],
+      "risk_retention": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "safe_retention": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "stale_success": [
+        0.83984375,
+        0.86328125,
+        0.80078125
+      ],
+      "recovered_success": [
+        0.83203125,
+        0.86328125,
+        0.78515625
+      ],
+      "recovery_gain": [
+        -0.0078125,
+        0.0,
+        -0.015625
+      ],
+      "forgotten_episodes": [
+        135,
+        121,
+        0
+      ],
+      "forgotten_recovery_gain": [
+        -0.014814814814814836,
+        0.0,
+        null
+      ],
+      "left_layout_success": [
+        0.869140625,
+        0.826171875,
+        0.498046875
+      ],
+      "texture_shift_success": [
+        0.818359375,
+        0.841796875,
+        0.796875
+      ]
+    },
+    "parameters": 15534,
+    "mean_training_seconds": 7.268872566753998
+  },
+  {
+    "stage": "confirmation",
+    "unique": 2048,
+    "cycles": 8,
+    "mode": "quartet_point",
+    "presentations": 65536,
+    "seeds": [
+      11,
+      23,
+      37
+    ],
+    "means": {
+      "success": 0.98046875,
+      "regret": 0.001687369910844912,
+      "state_mse": 0.004773476393893361,
+      "active_count": 2.5188802083333335,
+      "risk_gain": 0.8443084359169006,
+      "safe_spurious": 0.006782675006737311,
+      "risk_retention": 0.6028645833333334,
+      "safe_retention": 0.583984375,
+      "stale_success": 0.9244791666666666,
+      "recovered_success": 0.9505208333333334,
+      "recovery_gain": 0.026041666666666668,
+      "forgotten_episodes": 104.66666666666667,
+      "forgotten_recovery_gain": 0.08689816628425388,
+      "left_layout_success": 0.7421875,
+      "texture_shift_success": 0.9680989583333334
+    },
+    "seed_values": {
+      "success": [
+        0.962890625,
+        0.982421875,
+        0.99609375
+      ],
+      "regret": [
+        0.0033004404976963997,
+        0.0012974832206964493,
+        0.0004641860141418874
+      ],
+      "state_mse": [
+        0.0067580388858914375,
+        0.004864263813942671,
+        0.002698126481845975
+      ],
+      "active_count": [
+        3.44921875,
+        1.9921875,
+        2.115234375
+      ],
+      "risk_gain": [
+        0.5925968289375305,
+        1.0399330854415894,
+        0.900395393371582
+      ],
+      "safe_spurious": [
+        0.005313795059919357,
+        0.0065911742858588696,
+        0.008443055674433708
+      ],
+      "risk_retention": [
+        0.72265625,
+        0.5078125,
+        0.578125
+      ],
+      "safe_retention": [
+        0.826171875,
+        0.337890625,
+        0.587890625
+      ],
+      "stale_success": [
+        0.8828125,
+        0.9375,
+        0.953125
+      ],
+      "recovered_success": [
+        0.90625,
+        0.9609375,
+        0.984375
+      ],
+      "recovery_gain": [
+        0.0234375,
+        0.0234375,
+        0.03125
+      ],
+      "forgotten_episodes": [
+        40,
+        167,
+        107
+      ],
+      "forgotten_recovery_gain": [
+        0.1499999999999999,
+        0.0359281437125748,
+        0.07476635514018692
+      ],
+      "left_layout_success": [
+        0.84765625,
+        0.759765625,
+        0.619140625
+      ],
+      "texture_shift_success": [
+        0.966796875,
+        0.951171875,
+        0.986328125
+      ]
+    },
+    "parameters": 15534,
+    "mean_training_seconds": 26.606552333338186
+  },
+  {
+    "stage": "confirmation",
+    "unique": 2048,
+    "cycles": 8,
+    "mode": "quartet_delta",
+    "presentations": 65536,
+    "seeds": [
+      11,
+      23,
+      37
+    ],
+    "means": {
+      "success": 0.9837239583333334,
+      "regret": 0.003029278479516506,
+      "state_mse": 0.0065081315115094185,
+      "active_count": 1.9895833333333333,
+      "risk_gain": 1.0016964475313823,
+      "safe_spurious": 0.003701001638546586,
+      "risk_retention": 0.4986979166666667,
+      "safe_retention": 0.4290364583333333,
+      "stale_success": 0.8893229166666666,
+      "recovered_success": 0.953125,
+      "recovery_gain": 0.06380208333333333,
+      "forgotten_episodes": 147.33333333333334,
+      "forgotten_recovery_gain": 0.10260420093357829,
+      "left_layout_success": 0.7747395833333334,
+      "texture_shift_success": 0.9700520833333334
+    },
+    "seed_values": {
+      "success": [
+        0.986328125,
+        0.9921875,
+        0.97265625
+      ],
+      "regret": [
+        0.002179264323785901,
+        0.002877836348488927,
+        0.004030734766274691
+      ],
+      "state_mse": [
+        0.004798741079866886,
+        0.0078047807328403,
+        0.00692087272182107
+      ],
+      "active_count": [
+        2.673828125,
+        1.421875,
+        1.873046875
+      ],
+      "risk_gain": [
+        0.9337176084518433,
+        1.108257532119751,
+        0.9631142020225525
+      ],
+      "safe_spurious": [
+        0.0020285870414227247,
+        0.0038106031715869904,
+        0.005263814702630043
+      ],
+      "risk_retention": [
+        0.505859375,
+        0.490234375,
+        0.5
+      ],
+      "safe_retention": [
+        0.705078125,
+        0.232421875,
+        0.349609375
+      ],
+      "stale_success": [
+        0.94140625,
+        0.8828125,
+        0.84375
+      ],
+      "recovered_success": [
+        0.95703125,
+        0.95703125,
+        0.9453125
+      ],
+      "recovery_gain": [
+        0.015625,
+        0.07421875,
+        0.1015625
+      ],
+      "forgotten_episodes": [
+        68,
+        197,
+        177
+      ],
+      "forgotten_recovery_gain": [
+        0.05882352941176472,
+        0.09644670050761428,
+        0.15254237288135586
+      ],
+      "left_layout_success": [
+        0.900390625,
+        0.751953125,
+        0.671875
+      ],
+      "texture_shift_success": [
+        0.98046875,
+        0.978515625,
+        0.951171875
+      ]
+    },
+    "parameters": 15534,
+    "mean_training_seconds": 28.357040433290724
+  },
+  {
+    "stage": "confirmation",
+    "unique": 2048,
+    "cycles": 32,
+    "mode": "quartet_point",
+    "presentations": 262144,
+    "seeds": [
+      11,
+      23,
+      37
+    ],
+    "means": {
+      "success": 0.998046875,
+      "regret": 0.00034557644782277447,
+      "state_mse": 0.002128449035808444,
+      "active_count": 3.021484375,
+      "risk_gain": 0.9631532430648804,
+      "safe_spurious": 0.004202482756227255,
+      "risk_retention": 0.5885416666666666,
+      "safe_retention": 0.439453125,
+      "stale_success": 0.921875,
+      "recovered_success": 0.9856770833333334,
+      "recovery_gain": 0.06380208333333333,
+      "forgotten_episodes": 139.0,
+      "forgotten_recovery_gain": 0.12500504133897963,
+      "left_layout_success": 0.6861979166666666,
+      "texture_shift_success": 0.9908854166666666
+    },
+    "seed_values": {
+      "success": [
+        0.998046875,
+        0.998046875,
+        0.998046875
+      ],
+      "regret": [
+        0.0003992981801275164,
+        0.0002514086663722992,
+        0.00038602249696850777
+      ],
+      "state_mse": [
+        0.0022113248705863953,
+        0.0021668504923582077,
+        0.002007171744480729
+      ],
+      "active_count": [
+        3.41015625,
+        2.3203125,
+        3.333984375
+      ],
+      "risk_gain": [
+        0.9103692173957825,
+        0.9405555129051208,
+        1.0385349988937378
+      ],
+      "safe_spurious": [
+        0.0037163530942052603,
+        0.005091734230518341,
+        0.0037993609439581633
+      ],
+      "risk_retention": [
+        0.580078125,
+        0.564453125,
+        0.62109375
+      ],
+      "safe_retention": [
+        0.373046875,
+        0.443359375,
+        0.501953125
+      ],
+      "stale_success": [
+        0.921875,
+        0.95703125,
+        0.88671875
+      ],
+      "recovered_success": [
+        0.9921875,
+        0.9921875,
+        0.97265625
+      ],
+      "recovery_gain": [
+        0.0703125,
+        0.03515625,
+        0.0859375
+      ],
+      "forgotten_episodes": [
+        145,
+        152,
+        120
+      ],
+      "forgotten_recovery_gain": [
+        0.12413793103448278,
+        0.05921052631578949,
+        0.19166666666666665
+      ],
+      "left_layout_success": [
+        0.716796875,
+        0.802734375,
+        0.5390625
+      ],
+      "texture_shift_success": [
+        0.9921875,
+        0.9921875,
+        0.98828125
+      ]
+    },
+    "parameters": 15534,
+    "mean_training_seconds": 134.66217770000608
+  },
+  {
+    "stage": "confirmation",
+    "unique": 2048,
+    "cycles": 32,
+    "mode": "quartet_delta",
+    "presentations": 262144,
+    "seeds": [
+      11,
+      23,
+      37
+    ],
+    "means": {
+      "success": 0.99609375,
+      "regret": 0.0003895011032000184,
+      "state_mse": 0.0023587430672099194,
+      "active_count": 2.6673177083333335,
+      "risk_gain": 0.9921203851699829,
+      "safe_spurious": 0.0018084869564821322,
+      "risk_retention": 0.5397135416666666,
+      "safe_retention": 0.4264322916666667,
+      "stale_success": 0.8984375,
+      "recovered_success": 0.9856770833333334,
+      "recovery_gain": 0.08723958333333333,
+      "forgotten_episodes": 143.66666666666666,
+      "forgotten_recovery_gain": 0.15097556061803585,
+      "left_layout_success": 0.6393229166666666,
+      "texture_shift_success": 0.9915364583333334
+    },
+    "seed_values": {
+      "success": [
+        0.994140625,
+        1.0,
+        0.994140625
+      ],
+      "regret": [
+        0.00043419995927251875,
+        0.00015898732817731798,
+        0.0005753160221502185
+      ],
+      "state_mse": [
+        0.0017791390419006348,
+        0.003160658059641719,
+        0.0021364321000874043
+      ],
+      "active_count": [
+        2.537109375,
+        2.830078125,
+        2.634765625
+      ],
+      "risk_gain": [
+        1.03415846824646,
+        0.9683414697647095,
+        0.9738612174987793
+      ],
+      "safe_spurious": [
+        0.0008557434193789959,
+        0.002299347659572959,
+        0.002270369790494442
+      ],
+      "risk_retention": [
+        0.494140625,
+        0.564453125,
+        0.560546875
+      ],
+      "safe_retention": [
+        0.35546875,
+        0.42578125,
+        0.498046875
+      ],
+      "stale_success": [
+        0.86328125,
+        0.9609375,
+        0.87109375
+      ],
+      "recovered_success": [
+        0.984375,
+        0.99609375,
+        0.9765625
+      ],
+      "recovery_gain": [
+        0.12109375,
+        0.03515625,
+        0.10546875
+      ],
+      "forgotten_episodes": [
+        157,
+        137,
+        137
+      ],
+      "forgotten_recovery_gain": [
+        0.197452229299363,
+        0.06569343065693434,
+        0.1897810218978102
+      ],
+      "left_layout_success": [
+        0.6328125,
+        0.796875,
+        0.48828125
+      ],
+      "texture_shift_success": [
+        0.990234375,
+        0.994140625,
+        0.990234375
+      ]
+    },
+    "parameters": 15534,
+    "mean_training_seconds": 141.72096216670857
+  }
+]

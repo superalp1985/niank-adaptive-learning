@@ -1,0 +1,634 @@
+[
+  {
+    "mode": "ordinary_plain",
+    "seed": 11,
+    "unique": 512,
+    "cycles": 64,
+    "presentations": 65536,
+    "updates": 512,
+    "distinct_body_context_pairs": 512,
+    "parameters": 14477,
+    "seconds": 31.31502990005538,
+    "train_fingerprint": "805bcee93bc80837892ac84e4281a4469f25f3b58d88d91d4ff373e565535743",
+    "auxiliary_event_decoder_calls": 1179648,
+    "archive_replay_event_encodings": 1179648,
+    "development": {
+      "success": 0.9296875,
+      "regret": 0.008870662190020084,
+      "state_mse": 0.015680789947509766,
+      "fine_retained": 0.453125,
+      "fine_read": 0.1328125,
+      "coarse_retained": 0.6015625,
+      "active_count": 2.91796875,
+      "read_count": 1.60546875,
+      "fine_gate": 1.0,
+      "risk_success": 0.8478260869565217,
+      "risk_fine_retained": 0.4782608695652174,
+      "risk_fine_read": 0.09782608695652174,
+      "risk_fine_gate": 1.0,
+      "risk_active_count": 2.8369565217391304,
+      "safe_success": 0.975609756097561,
+      "safe_fine_retained": 0.43902439024390244,
+      "safe_fine_read": 0.1524390243902439,
+      "safe_fine_gate": 1.0,
+      "safe_active_count": 2.9634146341463414,
+      "episodes": 256,
+      "event_records_scored": 18
+    },
+    "detail": {
+      "0": {
+        "effect_gain": null,
+        "effect_mse": 0.00014927190204616636,
+        "predicted_effect_mae": 0.005059096962213516,
+        "truth_effect_mae": 0.0,
+        "fine_retained": 0.462890625,
+        "fine_read": 0.15625,
+        "fine_gate": 1.0
+      },
+      "1": {
+        "effect_gain": 0.010530651547014713,
+        "effect_mse": 0.1270201951265335,
+        "predicted_effect_mae": 0.004822659771889448,
+        "truth_effect_mae": 0.36000004410743713,
+        "fine_retained": 0.423828125,
+        "fine_read": 0.109375,
+        "fine_gate": 1.0
+      }
+    },
+    "recovery": {
+      "stale_success": 0.84765625,
+      "recovered_success": 0.8515625,
+      "stale_regret": 0.016336914151906967,
+      "recovered_regret": 0.018011249601840973,
+      "stale_state_mse": 0.03163658827543259,
+      "recovered_state_mse": 0.03139515966176987,
+      "safe_fine_retained": 0.41796875,
+      "recovered_fine_retained": 0.40234375,
+      "forgotten_episodes": 149,
+      "forgotten_stale_success": 0.825503355704698,
+      "forgotten_recovered_success": 0.8322147651006712,
+      "stale_database_reads": {
+        "records": 795,
+        "bytes": 343440
+      },
+      "recovery_database_reads": {
+        "records": 6656,
+        "bytes": 2875392
+      },
+      "full_slot_computations_per_episode": 26
+    }
+  },
+  {
+    "mode": "ordinary_event",
+    "seed": 11,
+    "unique": 512,
+    "cycles": 64,
+    "presentations": 65536,
+    "updates": 512,
+    "distinct_body_context_pairs": 512,
+    "parameters": 15534,
+    "seconds": 34.06661930005066,
+    "train_fingerprint": "805bcee93bc80837892ac84e4281a4469f25f3b58d88d91d4ff373e565535743",
+    "auxiliary_event_decoder_calls": 1179648,
+    "archive_replay_event_encodings": 1179648,
+    "development": {
+      "success": 0.9375,
+      "regret": 0.006293822079896927,
+      "state_mse": 0.013727004639804363,
+      "fine_retained": 0.45703125,
+      "fine_read": 0.109375,
+      "coarse_retained": 0.61328125,
+      "active_count": 3.0390625,
+      "read_count": 1.66015625,
+      "fine_gate": 0.34743523597717285,
+      "risk_success": 0.8478260869565217,
+      "risk_fine_retained": 0.44565217391304346,
+      "risk_fine_read": 0.07608695652173914,
+      "risk_fine_gate": 0.33910223841667175,
+      "risk_active_count": 2.847826086956522,
+      "safe_success": 0.9878048780487805,
+      "safe_fine_retained": 0.4634146341463415,
+      "safe_fine_read": 0.12804878048780488,
+      "safe_fine_gate": 0.3521098494529724,
+      "safe_active_count": 3.1463414634146343,
+      "episodes": 256,
+      "event_records_scored": 18
+    },
+    "detail": {
+      "0": {
+        "effect_gain": null,
+        "effect_mse": 6.207101978361607e-05,
+        "predicted_effect_mae": 0.0026882030069828033,
+        "truth_effect_mae": 0.0,
+        "fine_retained": 0.482421875,
+        "fine_read": 0.1015625,
+        "fine_gate": 0.3612494468688965
+      },
+      "1": {
+        "effect_gain": 0.0048993551172316074,
+        "effect_mse": 0.12838192284107208,
+        "predicted_effect_mae": 0.0020840673241764307,
+        "truth_effect_mae": 0.36000004410743713,
+        "fine_retained": 0.4375,
+        "fine_read": 0.103515625,
+        "fine_gate": 0.3417014479637146
+      }
+    },
+    "recovery": {
+      "stale_success": 0.84375,
+      "recovered_success": 0.84765625,
+      "stale_regret": 0.017882607877254486,
+      "recovered_regret": 0.017954818904399872,
+      "stale_state_mse": 0.029926860705018044,
+      "recovered_state_mse": 0.029900245368480682,
+      "safe_fine_retained": 0.4453125,
+      "recovered_fine_retained": 0.4140625,
+      "forgotten_episodes": 142,
+      "forgotten_stale_success": 0.8450704225352113,
+      "forgotten_recovered_success": 0.8450704225352113,
+      "stale_database_reads": {
+        "records": 877,
+        "bytes": 378864
+      },
+      "recovery_database_reads": {
+        "records": 6656,
+        "bytes": 2875392
+      },
+      "full_slot_computations_per_episode": 26
+    }
+  },
+  {
+    "mode": "paired_plain",
+    "seed": 11,
+    "unique": 512,
+    "cycles": 64,
+    "presentations": 65536,
+    "updates": 512,
+    "distinct_body_context_pairs": 1024,
+    "parameters": 14477,
+    "seconds": 34.62129759998061,
+    "train_fingerprint": "b990f44e8dfc8119f1f73d6b3388da06d10a73a5d883fb7c4c78270628c87c93",
+    "auxiliary_event_decoder_calls": 1179648,
+    "archive_replay_event_encodings": 1179648,
+    "development": {
+      "success": 0.94140625,
+      "regret": 0.004034840501844883,
+      "state_mse": 0.014525430276989937,
+      "fine_retained": 0.33203125,
+      "fine_read": 0.26171875,
+      "coarse_retained": 0.48828125,
+      "active_count": 3.9375,
+      "read_count": 1.9765625,
+      "fine_gate": 1.0,
+      "risk_success": 0.9130434782608695,
+      "risk_fine_retained": 0.6195652173913043,
+      "risk_fine_read": 0.6195652173913043,
+      "risk_fine_gate": 1.0,
+      "risk_active_count": 4.0,
+      "safe_success": 0.9573170731707317,
+      "safe_fine_retained": 0.17073170731707318,
+      "safe_fine_read": 0.06097560975609756,
+      "safe_fine_gate": 1.0,
+      "safe_active_count": 3.902439024390244,
+      "episodes": 256,
+      "event_records_scored": 18
+    },
+    "detail": {
+      "0": {
+        "effect_gain": null,
+        "effect_mse": 0.0029957431834191084,
+        "predicted_effect_mae": 0.016478613018989563,
+        "truth_effect_mae": 0.0,
+        "fine_retained": 0.21484375,
+        "fine_read": 0.060546875,
+        "fine_gate": 1.0
+      },
+      "1": {
+        "effect_gain": 0.7451251745223999,
+        "effect_mse": 0.01533260103315115,
+        "predicted_effect_mae": 0.2692468464374542,
+        "truth_effect_mae": 0.36000004410743713,
+        "fine_retained": 0.623046875,
+        "fine_read": 0.623046875,
+        "fine_gate": 1.0
+      }
+    },
+    "recovery": {
+      "stale_success": 0.8359375,
+      "recovered_success": 0.91796875,
+      "stale_regret": 0.021964991465210915,
+      "recovered_regret": 0.011909643188118935,
+      "stale_state_mse": 0.03340364992618561,
+      "recovered_state_mse": 0.01708916574716568,
+      "safe_fine_retained": 0.21484375,
+      "recovered_fine_retained": 0.66796875,
+      "forgotten_episodes": 201,
+      "forgotten_stale_success": 0.7910447761194029,
+      "forgotten_recovered_success": 0.8955223880597015,
+      "stale_database_reads": {
+        "records": 995,
+        "bytes": 429840
+      },
+      "recovery_database_reads": {
+        "records": 6656,
+        "bytes": 2875392
+      },
+      "full_slot_computations_per_episode": 26
+    }
+  },
+  {
+    "mode": "paired_event",
+    "seed": 11,
+    "unique": 512,
+    "cycles": 64,
+    "presentations": 65536,
+    "updates": 512,
+    "distinct_body_context_pairs": 1024,
+    "parameters": 15534,
+    "seconds": 36.407109200023115,
+    "train_fingerprint": "b990f44e8dfc8119f1f73d6b3388da06d10a73a5d883fb7c4c78270628c87c93",
+    "auxiliary_event_decoder_calls": 1179648,
+    "archive_replay_event_encodings": 1179648,
+    "development": {
+      "success": 0.97265625,
+      "regret": 0.0021439706906676292,
+      "state_mse": 0.007509582210332155,
+      "fine_retained": 0.36328125,
+      "fine_read": 0.2109375,
+      "coarse_retained": 0.609375,
+      "active_count": 3.16796875,
+      "read_count": 1.69140625,
+      "fine_gate": 0.3585076928138733,
+      "risk_success": 0.9565217391304348,
+      "risk_fine_retained": 0.5217391304347826,
+      "risk_fine_read": 0.5217391304347826,
+      "risk_fine_gate": 0.5041908025741577,
+      "risk_active_count": 3.217391304347826,
+      "safe_success": 0.9817073170731707,
+      "safe_fine_retained": 0.27439024390243905,
+      "safe_fine_read": 0.036585365853658534,
+      "safe_fine_gate": 0.2767830193042755,
+      "safe_active_count": 3.1402439024390243,
+      "episodes": 256,
+      "event_records_scored": 18
+    },
+    "detail": {
+      "0": {
+        "effect_gain": null,
+        "effect_mse": 0.0002911327173933387,
+        "predicted_effect_mae": 0.004951192066073418,
+        "truth_effect_mae": 0.0,
+        "fine_retained": 0.279296875,
+        "fine_read": 0.048828125,
+        "fine_gate": 0.2776695489883423
+      },
+      "1": {
+        "effect_gain": 0.4555181562900543,
+        "effect_mse": 0.05228021740913391,
+        "predicted_effect_mae": 0.16405121982097626,
+        "truth_effect_mae": 0.36000004410743713,
+        "fine_retained": 0.5078125,
+        "fine_read": 0.5078125,
+        "fine_gate": 0.49289143085479736
+      }
+    },
+    "recovery": {
+      "stale_success": 0.90234375,
+      "recovered_success": 0.9296875,
+      "stale_regret": 0.007811140734702349,
+      "recovered_regret": 0.0063210539519786835,
+      "stale_state_mse": 0.01792595349252224,
+      "recovered_state_mse": 0.015606754459440708,
+      "safe_fine_retained": 0.23828125,
+      "recovered_fine_retained": 0.47265625,
+      "forgotten_episodes": 195,
+      "forgotten_stale_success": 0.8871794871794871,
+      "forgotten_recovered_success": 0.9230769230769231,
+      "stale_database_reads": {
+        "records": 878,
+        "bytes": 379296
+      },
+      "recovery_database_reads": {
+        "records": 6656,
+        "bytes": 2875392
+      },
+      "full_slot_computations_per_episode": 26
+    }
+  },
+  {
+    "mode": "ordinary_plain",
+    "seed": 11,
+    "unique": 2048,
+    "cycles": 16,
+    "presentations": 65536,
+    "updates": 512,
+    "distinct_body_context_pairs": 2048,
+    "parameters": 14477,
+    "seconds": 33.928855899954215,
+    "train_fingerprint": "26189f14c16146b03e3a277a6a5204bc54748761316da50cdbf901f439f903ef",
+    "auxiliary_event_decoder_calls": 1179648,
+    "archive_replay_event_encodings": 1179648,
+    "development": {
+      "success": 0.94140625,
+      "regret": 0.005303665064275265,
+      "state_mse": 0.009572142735123634,
+      "fine_retained": 0.5859375,
+      "fine_read": 0.46484375,
+      "coarse_retained": 0.66015625,
+      "active_count": 3.8515625,
+      "read_count": 1.984375,
+      "fine_gate": 1.0,
+      "risk_success": 0.8695652173913043,
+      "risk_fine_retained": 0.5652173913043478,
+      "risk_fine_read": 0.4891304347826087,
+      "risk_fine_gate": 1.0,
+      "risk_active_count": 3.9456521739130435,
+      "safe_success": 0.9817073170731707,
+      "safe_fine_retained": 0.5975609756097561,
+      "safe_fine_read": 0.45121951219512196,
+      "safe_fine_gate": 1.0,
+      "safe_active_count": 3.798780487804878,
+      "episodes": 256,
+      "event_records_scored": 18
+    },
+    "detail": {
+      "0": {
+        "effect_gain": null,
+        "effect_mse": 0.0026377409230917692,
+        "predicted_effect_mae": 0.03265644982457161,
+        "truth_effect_mae": 0.0,
+        "fine_retained": 0.57421875,
+        "fine_read": 0.419921875,
+        "fine_gate": 1.0
+      },
+      "1": {
+        "effect_gain": 0.1573638767004013,
+        "effect_mse": 0.09463301301002502,
+        "predicted_effect_mae": 0.05666166543960571,
+        "truth_effect_mae": 0.36000004410743713,
+        "fine_retained": 0.5859375,
+        "fine_read": 0.498046875,
+        "fine_gate": 1.0
+      }
+    },
+    "recovery": {
+      "stale_success": 0.90234375,
+      "recovered_success": 0.8984375,
+      "stale_regret": 0.010000897571444511,
+      "recovered_regret": 0.010234488174319267,
+      "stale_state_mse": 0.019669316709041595,
+      "recovered_state_mse": 0.01970514841377735,
+      "safe_fine_retained": 0.59765625,
+      "recovered_fine_retained": 0.61328125,
+      "forgotten_episodes": 103,
+      "forgotten_stale_success": 0.912621359223301,
+      "forgotten_recovered_success": 0.9029126213592233,
+      "stale_database_reads": {
+        "records": 983,
+        "bytes": 424656
+      },
+      "recovery_database_reads": {
+        "records": 6656,
+        "bytes": 2875392
+      },
+      "full_slot_computations_per_episode": 26
+    }
+  },
+  {
+    "mode": "ordinary_event",
+    "seed": 11,
+    "unique": 2048,
+    "cycles": 16,
+    "presentations": 65536,
+    "updates": 512,
+    "distinct_body_context_pairs": 2048,
+    "parameters": 15534,
+    "seconds": 33.28960710018873,
+    "train_fingerprint": "26189f14c16146b03e3a277a6a5204bc54748761316da50cdbf901f439f903ef",
+    "auxiliary_event_decoder_calls": 1179648,
+    "archive_replay_event_encodings": 1179648,
+    "development": {
+      "success": 0.9375,
+      "regret": 0.006065061781555414,
+      "state_mse": 0.0122635867446661,
+      "fine_retained": 0.47265625,
+      "fine_read": 0.14453125,
+      "coarse_retained": 0.64453125,
+      "active_count": 3.80859375,
+      "read_count": 1.9453125,
+      "fine_gate": 0.29442062973976135,
+      "risk_success": 0.8586956521739131,
+      "risk_fine_retained": 0.4891304347826087,
+      "risk_fine_read": 0.03260869565217391,
+      "risk_fine_gate": 0.3908507823944092,
+      "risk_active_count": 3.782608695652174,
+      "safe_success": 0.9817073170731707,
+      "safe_fine_retained": 0.4634146341463415,
+      "safe_fine_read": 0.2073170731707317,
+      "safe_fine_gate": 0.2403256744146347,
+      "safe_active_count": 3.823170731707317,
+      "episodes": 256,
+      "event_records_scored": 18
+    },
+    "detail": {
+      "0": {
+        "effect_gain": null,
+        "effect_mse": 1.6838539522723295e-05,
+        "predicted_effect_mae": 0.0020214319229125977,
+        "truth_effect_mae": 0.0,
+        "fine_retained": 0.486328125,
+        "fine_read": 0.2109375,
+        "fine_gate": 0.2523389756679535
+      },
+      "1": {
+        "effect_gain": 0.003999622538685799,
+        "effect_mse": 0.12861445546150208,
+        "predicted_effect_mae": 0.0015658177435398102,
+        "truth_effect_mae": 0.36000004410743713,
+        "fine_retained": 0.484375,
+        "fine_read": 0.029296875,
+        "fine_gate": 0.3917810320854187
+      }
+    },
+    "recovery": {
+      "stale_success": 0.8515625,
+      "recovered_success": 0.8515625,
+      "stale_regret": 0.019870257005095482,
+      "recovered_regret": 0.019870257005095482,
+      "stale_state_mse": 0.0276008490473032,
+      "recovered_state_mse": 0.02753574028611183,
+      "safe_fine_retained": 0.453125,
+      "recovered_fine_retained": 0.453125,
+      "forgotten_episodes": 140,
+      "forgotten_stale_success": 0.7928571428571428,
+      "forgotten_recovered_success": 0.7928571428571428,
+      "stale_database_reads": {
+        "records": 987,
+        "bytes": 426384
+      },
+      "recovery_database_reads": {
+        "records": 6656,
+        "bytes": 2875392
+      },
+      "full_slot_computations_per_episode": 26
+    }
+  },
+  {
+    "mode": "paired_plain",
+    "seed": 11,
+    "unique": 2048,
+    "cycles": 16,
+    "presentations": 65536,
+    "updates": 512,
+    "distinct_body_context_pairs": 4096,
+    "parameters": 14477,
+    "seconds": 28.222736599855125,
+    "train_fingerprint": "5bd4c20cddd56954579f198d0cdae90a34cbd256c0fbfb81d5e782dddef1db98",
+    "auxiliary_event_decoder_calls": 1179648,
+    "archive_replay_event_encodings": 1179648,
+    "development": {
+      "success": 0.94140625,
+      "regret": 0.005810217931866646,
+      "state_mse": 0.006814139895141125,
+      "fine_retained": 0.4921875,
+      "fine_read": 0.21875,
+      "coarse_retained": 0.7734375,
+      "active_count": 3.6015625,
+      "read_count": 1.90625,
+      "fine_gate": 1.0,
+      "risk_success": 0.8913043478260869,
+      "risk_fine_retained": 0.5108695652173914,
+      "risk_fine_read": 0.3695652173913043,
+      "risk_fine_gate": 1.0,
+      "risk_active_count": 3.5869565217391304,
+      "safe_success": 0.9695121951219512,
+      "safe_fine_retained": 0.4817073170731707,
+      "safe_fine_read": 0.13414634146341464,
+      "safe_fine_gate": 1.0,
+      "safe_active_count": 3.6097560975609757,
+      "episodes": 256,
+      "event_records_scored": 18
+    },
+    "detail": {
+      "0": {
+        "effect_gain": null,
+        "effect_mse": 0.00033060030546039343,
+        "predicted_effect_mae": 0.005706135183572769,
+        "truth_effect_mae": 0.0,
+        "fine_retained": 0.478515625,
+        "fine_read": 0.1484375,
+        "fine_gate": 1.0
+      },
+      "1": {
+        "effect_gain": 0.5414683818817139,
+        "effect_mse": 0.03828493133187294,
+        "predicted_effect_mae": 0.19506080448627472,
+        "truth_effect_mae": 0.36000004410743713,
+        "fine_retained": 0.556640625,
+        "fine_read": 0.423828125,
+        "fine_gate": 1.0
+      }
+    },
+    "recovery": {
+      "stale_success": 0.859375,
+      "recovered_success": 0.91015625,
+      "stale_regret": 0.015128804370760918,
+      "recovered_regret": 0.007946737110614777,
+      "stale_state_mse": 0.02952934056520462,
+      "recovered_state_mse": 0.01275737676769495,
+      "safe_fine_retained": 0.45703125,
+      "recovered_fine_retained": 0.57421875,
+      "forgotten_episodes": 139,
+      "forgotten_stale_success": 0.8273381294964028,
+      "forgotten_recovered_success": 0.9424460431654677,
+      "stale_database_reads": {
+        "records": 895,
+        "bytes": 386640
+      },
+      "recovery_database_reads": {
+        "records": 6656,
+        "bytes": 2875392
+      },
+      "full_slot_computations_per_episode": 26
+    }
+  },
+  {
+    "mode": "paired_event",
+    "seed": 11,
+    "unique": 2048,
+    "cycles": 16,
+    "presentations": 65536,
+    "updates": 512,
+    "distinct_body_context_pairs": 4096,
+    "parameters": 15534,
+    "seconds": 26.75252699991688,
+    "train_fingerprint": "5bd4c20cddd56954579f198d0cdae90a34cbd256c0fbfb81d5e782dddef1db98",
+    "auxiliary_event_decoder_calls": 1179648,
+    "archive_replay_event_encodings": 1179648,
+    "development": {
+      "success": 0.984375,
+      "regret": 0.001124679809436202,
+      "state_mse": 0.004827455617487431,
+      "fine_retained": 0.6796875,
+      "fine_read": 0.37109375,
+      "coarse_retained": 0.69921875,
+      "active_count": 3.453125,
+      "read_count": 1.88671875,
+      "fine_gate": 0.3122910261154175,
+      "risk_success": 0.9565217391304348,
+      "risk_fine_retained": 0.9239130434782609,
+      "risk_fine_read": 0.5760869565217391,
+      "risk_fine_gate": 0.4659004211425781,
+      "risk_active_count": 3.217391304347826,
+      "safe_success": 1.0,
+      "safe_fine_retained": 0.5426829268292683,
+      "safe_fine_read": 0.25609756097560976,
+      "safe_fine_gate": 0.22611995041370392,
+      "safe_active_count": 3.5853658536585367,
+      "episodes": 256,
+      "event_records_scored": 18
+    },
+    "detail": {
+      "0": {
+        "effect_gain": null,
+        "effect_mse": 0.00041744697955437005,
+        "predicted_effect_mae": 0.010348889045417309,
+        "truth_effect_mae": 0.0,
+        "fine_retained": 0.501953125,
+        "fine_read": 0.2421875,
+        "fine_gate": 0.23433980345726013
+      },
+      "1": {
+        "effect_gain": 0.8349900245666504,
+        "effect_mse": 0.017309337854385376,
+        "predicted_effect_mae": 0.30061081051826477,
+        "truth_effect_mae": 0.36000004410743713,
+        "fine_retained": 0.943359375,
+        "fine_read": 0.56640625,
+        "fine_gate": 0.4629504084587097
+      }
+    },
+    "recovery": {
+      "stale_success": 0.8984375,
+      "recovered_success": 0.9609375,
+      "stale_regret": 0.0065397541038692,
+      "recovered_regret": 0.002699708566069603,
+      "stale_state_mse": 0.02172865904867649,
+      "recovered_state_mse": 0.00870122853666544,
+      "safe_fine_retained": 0.5,
+      "recovered_fine_retained": 0.953125,
+      "forgotten_episodes": 128,
+      "forgotten_stale_success": 0.828125,
+      "forgotten_recovered_success": 0.953125,
+      "stale_database_reads": {
+        "records": 918,
+        "bytes": 396576
+      },
+      "recovery_database_reads": {
+        "records": 6656,
+        "bytes": 2875392
+      },
+      "full_slot_computations_per_episode": 26
+    }
+  }
+]

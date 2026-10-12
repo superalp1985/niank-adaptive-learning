@@ -1,0 +1,782 @@
+{
+  "full": [
+    {
+      "repeat": 1,
+      "presentations": 512,
+      "updates": 8,
+      "train": {
+        "loss": 3.7200038731098175,
+        "state_mse": 0.18235161155462265,
+        "action_loss": 1.1002236604690552,
+        "contact_bce": 0.6543719246983528,
+        "value_loss": 2.8900102972984314,
+        "counterfactual_spread": 0.006072571675758809
+      },
+      "development": {
+        "episodes": 256,
+        "success": 0.40234375,
+        "regret": 0.11724892258644104,
+        "state_mse": 0.0967465490102768,
+        "collision": 0.015625,
+        "risk_success": 0.4148936170212766,
+        "fine_retained_risk": 1.0,
+        "fine_retained_safe": 1.0,
+        "coarse_retained": 1.0,
+        "nuisance_records": 16.0,
+        "contact_positive_fraction": 0.08463541666666667,
+        "contact_tpr": 0.0,
+        "contact_tnr": 1.0,
+        "contact_balanced_accuracy": 0.5,
+        "event_records_scored": 18,
+        "active_records": 18,
+        "read_records": 18
+      }
+    },
+    {
+      "repeat": 2,
+      "presentations": 1024,
+      "updates": 16,
+      "train": {
+        "loss": 3.180180013179779,
+        "state_mse": 0.11026152782142162,
+        "action_loss": 1.1025954633951187,
+        "contact_bce": 0.5398562103509903,
+        "value_loss": 2.8934062719345093,
+        "counterfactual_spread": 0.018493869458325207
+      },
+      "development": {
+        "episodes": 256,
+        "success": 0.41796875,
+        "regret": 0.09180060029029846,
+        "state_mse": 0.09072966873645782,
+        "collision": 0.046875,
+        "risk_success": 0.3617021276595745,
+        "fine_retained_risk": 1.0,
+        "fine_retained_safe": 1.0,
+        "coarse_retained": 1.0,
+        "nuisance_records": 16.0,
+        "contact_positive_fraction": 0.08463541666666667,
+        "contact_tpr": 0.0,
+        "contact_tnr": 1.0,
+        "contact_balanced_accuracy": 0.5,
+        "event_records_scored": 18,
+        "active_records": 18,
+        "read_records": 18
+      }
+    },
+    {
+      "repeat": 4,
+      "presentations": 2048,
+      "updates": 32,
+      "train": {
+        "loss": 2.8329944610595703,
+        "state_mse": 0.07015492208302021,
+        "action_loss": 1.0870521813631058,
+        "contact_bce": 0.429041787981987,
+        "value_loss": 2.8904427587985992,
+        "counterfactual_spread": 0.006953100673854351
+      },
+      "development": {
+        "episodes": 256,
+        "success": 0.58203125,
+        "regret": 0.06754308938980103,
+        "state_mse": 0.043905168771743774,
+        "collision": 0.015625,
+        "risk_success": 0.6914893617021277,
+        "fine_retained_risk": 1.0,
+        "fine_retained_safe": 1.0,
+        "coarse_retained": 1.0,
+        "nuisance_records": 16.0,
+        "contact_positive_fraction": 0.08463541666666667,
+        "contact_tpr": 0.0,
+        "contact_tnr": 1.0,
+        "contact_balanced_accuracy": 0.5,
+        "event_records_scored": 18,
+        "active_records": 18,
+        "read_records": 18
+      }
+    },
+    {
+      "repeat": 8,
+      "presentations": 4096,
+      "updates": 64,
+      "train": {
+        "loss": 2.3128006756305695,
+        "state_mse": 0.04158365447074175,
+        "action_loss": 0.9295197650790215,
+        "contact_bce": 0.31965125165879726,
+        "value_loss": 2.824521988630295,
+        "counterfactual_spread": 0.01969572145026177
+      },
+      "development": {
+        "episodes": 256,
+        "success": 0.6875,
+        "regret": 0.034937333315610886,
+        "state_mse": 0.039735738188028336,
+        "collision": 0.015625,
+        "risk_success": 0.7553191489361702,
+        "fine_retained_risk": 1.0,
+        "fine_retained_safe": 1.0,
+        "coarse_retained": 1.0,
+        "nuisance_records": 16.0,
+        "contact_positive_fraction": 0.08463541666666667,
+        "contact_tpr": 0.0,
+        "contact_tnr": 1.0,
+        "contact_balanced_accuracy": 0.5,
+        "event_records_scored": 18,
+        "active_records": 18,
+        "read_records": 18
+      }
+    }
+  ],
+  "fifo": [
+    {
+      "repeat": 1,
+      "presentations": 512,
+      "updates": 8,
+      "train": {
+        "loss": 3.719711720943451,
+        "state_mse": 0.18227452598512173,
+        "action_loss": 1.1003254503011703,
+        "contact_bce": 0.6540419086813927,
+        "value_loss": 2.890096753835678,
+        "counterfactual_spread": 0.005859374476131052
+      },
+      "development": {
+        "episodes": 256,
+        "success": 0.40234375,
+        "regret": 0.11724892258644104,
+        "state_mse": 0.09708260744810104,
+        "collision": 0.015625,
+        "risk_success": 0.4148936170212766,
+        "fine_retained_risk": 0.0,
+        "fine_retained_safe": 0.0,
+        "coarse_retained": 0.0,
+        "nuisance_records": 4.0,
+        "contact_positive_fraction": 0.08463541666666667,
+        "contact_tpr": 0.0,
+        "contact_tnr": 1.0,
+        "contact_balanced_accuracy": 0.5,
+        "event_records_scored": 18,
+        "active_records": 4,
+        "read_records": 2
+      }
+    },
+    {
+      "repeat": 2,
+      "presentations": 1024,
+      "updates": 16,
+      "train": {
+        "loss": 3.1797933280467987,
+        "state_mse": 0.1103612557053566,
+        "action_loss": 1.1028034836053848,
+        "contact_bce": 0.5391644015908241,
+        "value_loss": 2.8931745886802673,
+        "counterfactual_spread": 0.01799076981842518
+      },
+      "development": {
+        "episodes": 256,
+        "success": 0.41796875,
+        "regret": 0.09180060029029846,
+        "state_mse": 0.0908086746931076,
+        "collision": 0.046875,
+        "risk_success": 0.3617021276595745,
+        "fine_retained_risk": 0.0,
+        "fine_retained_safe": 0.0,
+        "coarse_retained": 0.0,
+        "nuisance_records": 4.0,
+        "contact_positive_fraction": 0.08463541666666667,
+        "contact_tpr": 0.0,
+        "contact_tnr": 1.0,
+        "contact_balanced_accuracy": 0.5,
+        "event_records_scored": 18,
+        "active_records": 4,
+        "read_records": 2
+      }
+    },
+    {
+      "repeat": 4,
+      "presentations": 2048,
+      "updates": 32,
+      "train": {
+        "loss": 2.8346117436885834,
+        "state_mse": 0.07031454239040613,
+        "action_loss": 1.087198555469513,
+        "contact_bce": 0.4281850941479206,
+        "value_loss": 2.8905856609344482,
+        "counterfactual_spread": 0.007420802547130734
+      },
+      "development": {
+        "episodes": 256,
+        "success": 0.58203125,
+        "regret": 0.06754308938980103,
+        "state_mse": 0.04405079782009125,
+        "collision": 0.015625,
+        "risk_success": 0.6914893617021277,
+        "fine_retained_risk": 0.0,
+        "fine_retained_safe": 0.0,
+        "coarse_retained": 0.0,
+        "nuisance_records": 4.0,
+        "contact_positive_fraction": 0.08463541666666667,
+        "contact_tpr": 0.0,
+        "contact_tnr": 1.0,
+        "contact_balanced_accuracy": 0.5,
+        "event_records_scored": 18,
+        "active_records": 4,
+        "read_records": 2
+      }
+    },
+    {
+      "repeat": 8,
+      "presentations": 4096,
+      "updates": 64,
+      "train": {
+        "loss": 2.322650909423828,
+        "state_mse": 0.042086228262633085,
+        "action_loss": 0.9300449341535568,
+        "contact_bce": 0.31932731717824936,
+        "value_loss": 2.8889414370059967,
+        "counterfactual_spread": 0.009301997954025865
+      },
+      "development": {
+        "episodes": 256,
+        "success": 0.6875,
+        "regret": 0.034937333315610886,
+        "state_mse": 0.040697939693927765,
+        "collision": 0.015625,
+        "risk_success": 0.7553191489361702,
+        "fine_retained_risk": 0.0,
+        "fine_retained_safe": 0.0,
+        "coarse_retained": 0.0,
+        "nuisance_records": 4.0,
+        "contact_positive_fraction": 0.08463541666666667,
+        "contact_tpr": 0.0,
+        "contact_tnr": 1.0,
+        "contact_balanced_accuracy": 0.5,
+        "event_records_scored": 18,
+        "active_records": 4,
+        "read_records": 2
+      }
+    }
+  ],
+  "surprise": [
+    {
+      "repeat": 1,
+      "presentations": 512,
+      "updates": 8,
+      "train": {
+        "loss": 3.718932807445526,
+        "state_mse": 0.1820627637207508,
+        "action_loss": 1.1002878844738007,
+        "contact_bce": 0.6538836136460304,
+        "value_loss": 2.890089601278305,
+        "counterfactual_spread": 0.006006823939969763
+      },
+      "development": {
+        "episodes": 256,
+        "success": 0.40234375,
+        "regret": 0.11724892258644104,
+        "state_mse": 0.09742319583892822,
+        "collision": 0.015625,
+        "risk_success": 0.4148936170212766,
+        "fine_retained_risk": 0.24468085106382978,
+        "fine_retained_safe": 0.22839506172839505,
+        "coarse_retained": 0.6640625,
+        "nuisance_records": 3.1015625,
+        "contact_positive_fraction": 0.08463541666666667,
+        "contact_tpr": 0.0,
+        "contact_tnr": 1.0,
+        "contact_balanced_accuracy": 0.5,
+        "event_records_scored": 18,
+        "active_records": 4,
+        "read_records": 2
+      }
+    },
+    {
+      "repeat": 2,
+      "presentations": 1024,
+      "updates": 16,
+      "train": {
+        "loss": 3.1758445501327515,
+        "state_mse": 0.1104492163285613,
+        "action_loss": 1.1026390492916107,
+        "contact_bce": 0.539288803935051,
+        "value_loss": 2.892715811729431,
+        "counterfactual_spread": 0.017373548937030137
+      },
+      "development": {
+        "episodes": 256,
+        "success": 0.41796875,
+        "regret": 0.09180060029029846,
+        "state_mse": 0.09089981019496918,
+        "collision": 0.046875,
+        "risk_success": 0.3617021276595745,
+        "fine_retained_risk": 0.24468085106382978,
+        "fine_retained_safe": 0.22839506172839505,
+        "coarse_retained": 0.6640625,
+        "nuisance_records": 3.1015625,
+        "contact_positive_fraction": 0.08463541666666667,
+        "contact_tpr": 0.0,
+        "contact_tnr": 1.0,
+        "contact_balanced_accuracy": 0.5,
+        "event_records_scored": 18,
+        "active_records": 4,
+        "read_records": 2
+      }
+    },
+    {
+      "repeat": 4,
+      "presentations": 2048,
+      "updates": 32,
+      "train": {
+        "loss": 2.831331789493561,
+        "state_mse": 0.06997948791831732,
+        "action_loss": 1.0868425965309143,
+        "contact_bce": 0.42790094017982483,
+        "value_loss": 2.8906333446502686,
+        "counterfactual_spread": 0.007104138261638582
+      },
+      "development": {
+        "episodes": 256,
+        "success": 0.58984375,
+        "regret": 0.06434161216020584,
+        "state_mse": 0.0437154620885849,
+        "collision": 0.015625,
+        "risk_success": 0.7021276595744681,
+        "fine_retained_risk": 0.24468085106382978,
+        "fine_retained_safe": 0.22839506172839505,
+        "coarse_retained": 0.6640625,
+        "nuisance_records": 3.1015625,
+        "contact_positive_fraction": 0.08463541666666667,
+        "contact_tpr": 0.0,
+        "contact_tnr": 1.0,
+        "contact_balanced_accuracy": 0.5,
+        "event_records_scored": 18,
+        "active_records": 4,
+        "read_records": 2
+      }
+    },
+    {
+      "repeat": 8,
+      "presentations": 4096,
+      "updates": 64,
+      "train": {
+        "loss": 2.2997230291366577,
+        "state_mse": 0.0393258947879076,
+        "action_loss": 0.9249145016074181,
+        "contact_bce": 0.32750697433948517,
+        "value_loss": 2.8430956602096558,
+        "counterfactual_spread": 0.029601036570966244
+      },
+      "development": {
+        "episodes": 256,
+        "success": 0.71484375,
+        "regret": 0.03304266557097435,
+        "state_mse": 0.037128008902072906,
+        "collision": 0.015625,
+        "risk_success": 0.7872340425531915,
+        "fine_retained_risk": 0.24468085106382978,
+        "fine_retained_safe": 0.22839506172839505,
+        "coarse_retained": 0.6640625,
+        "nuisance_records": 3.1015625,
+        "contact_positive_fraction": 0.08463541666666667,
+        "contact_tpr": 0.0,
+        "contact_tnr": 1.0,
+        "contact_balanced_accuracy": 0.5,
+        "event_records_scored": 18,
+        "active_records": 4,
+        "read_records": 2
+      }
+    }
+  ],
+  "value": [
+    {
+      "repeat": 1,
+      "presentations": 512,
+      "updates": 8,
+      "train": {
+        "loss": 3.7212896645069122,
+        "state_mse": 0.1822147611528635,
+        "action_loss": 1.1002123355865479,
+        "contact_bce": 0.6541003212332726,
+        "value_loss": 2.889745056629181,
+        "counterfactual_spread": 0.005742374312831089
+      },
+      "development": {
+        "episodes": 256,
+        "success": 0.40234375,
+        "regret": 0.11724892258644104,
+        "state_mse": 0.09788467735052109,
+        "collision": 0.015625,
+        "risk_success": 0.4148936170212766,
+        "fine_retained_risk": 0.32978723404255317,
+        "fine_retained_safe": 0.35802469135802467,
+        "coarse_retained": 0.53515625,
+        "nuisance_records": 3.1171875,
+        "contact_positive_fraction": 0.08463541666666667,
+        "contact_tpr": 0.0,
+        "contact_tnr": 1.0,
+        "contact_balanced_accuracy": 0.5,
+        "event_records_scored": 18,
+        "active_records": 4,
+        "read_records": 2
+      }
+    },
+    {
+      "repeat": 2,
+      "presentations": 1024,
+      "updates": 16,
+      "train": {
+        "loss": 3.1806807219982147,
+        "state_mse": 0.11183660477399826,
+        "action_loss": 1.102822169661522,
+        "contact_bce": 0.53763497620821,
+        "value_loss": 2.8934519290924072,
+        "counterfactual_spread": 0.0162477697012946
+      },
+      "development": {
+        "episodes": 256,
+        "success": 0.41796875,
+        "regret": 0.09180060029029846,
+        "state_mse": 0.09073678404092789,
+        "collision": 0.046875,
+        "risk_success": 0.3617021276595745,
+        "fine_retained_risk": 0.48936170212765956,
+        "fine_retained_safe": 0.5061728395061729,
+        "coarse_retained": 0.53125,
+        "nuisance_records": 2.96875,
+        "contact_positive_fraction": 0.08463541666666667,
+        "contact_tpr": 0.0,
+        "contact_tnr": 1.0,
+        "contact_balanced_accuracy": 0.5,
+        "event_records_scored": 18,
+        "active_records": 4,
+        "read_records": 2
+      }
+    },
+    {
+      "repeat": 4,
+      "presentations": 2048,
+      "updates": 32,
+      "train": {
+        "loss": 2.8344326615333557,
+        "state_mse": 0.07045041164383292,
+        "action_loss": 1.0873290300369263,
+        "contact_bce": 0.42642775923013687,
+        "value_loss": 2.8901626765727997,
+        "counterfactual_spread": 0.00766762305283919
+      },
+      "development": {
+        "episodes": 256,
+        "success": 0.58203125,
+        "regret": 0.0668870210647583,
+        "state_mse": 0.04378857463598251,
+        "collision": 0.015625,
+        "risk_success": 0.7021276595744681,
+        "fine_retained_risk": 0.4574468085106383,
+        "fine_retained_safe": 0.4876543209876543,
+        "coarse_retained": 0.52734375,
+        "nuisance_records": 2.99609375,
+        "contact_positive_fraction": 0.08463541666666667,
+        "contact_tpr": 0.0,
+        "contact_tnr": 1.0,
+        "contact_balanced_accuracy": 0.5,
+        "event_records_scored": 18,
+        "active_records": 4,
+        "read_records": 2
+      }
+    },
+    {
+      "repeat": 8,
+      "presentations": 4096,
+      "updates": 64,
+      "train": {
+        "loss": 2.2972716093063354,
+        "state_mse": 0.040739803574979305,
+        "action_loss": 0.9301046878099442,
+        "contact_bce": 0.3185282237827778,
+        "value_loss": 2.6696560084819794,
+        "counterfactual_spread": 0.027829265454784036
+      },
+      "development": {
+        "episodes": 256,
+        "success": 0.68359375,
+        "regret": 0.03682505339384079,
+        "state_mse": 0.03810940310359001,
+        "collision": 0.015625,
+        "risk_success": 0.776595744680851,
+        "fine_retained_risk": 0.4574468085106383,
+        "fine_retained_safe": 0.4876543209876543,
+        "coarse_retained": 0.49609375,
+        "nuisance_records": 3.02734375,
+        "contact_positive_fraction": 0.08463541666666667,
+        "contact_tpr": 0.0,
+        "contact_tnr": 1.0,
+        "contact_balanced_accuracy": 0.5,
+        "event_records_scored": 18,
+        "active_records": 4,
+        "read_records": 2
+      }
+    }
+  ],
+  "anti_value": [
+    {
+      "repeat": 1,
+      "presentations": 512,
+      "updates": 8,
+      "train": {
+        "loss": 3.71746689081192,
+        "state_mse": 0.18209195602685213,
+        "action_loss": 1.1003026813268661,
+        "contact_bce": 0.6543218493461609,
+        "value_loss": 2.890081763267517,
+        "counterfactual_spread": 0.0064594310242682695
+      },
+      "development": {
+        "episodes": 256,
+        "success": 0.40234375,
+        "regret": 0.11724892258644104,
+        "state_mse": 0.09650327265262604,
+        "collision": 0.015625,
+        "risk_success": 0.4148936170212766,
+        "fine_retained_risk": 0.4574468085106383,
+        "fine_retained_safe": 0.41975308641975306,
+        "coarse_retained": 0.2421875,
+        "nuisance_records": 3.32421875,
+        "contact_positive_fraction": 0.08463541666666667,
+        "contact_tpr": 0.0,
+        "contact_tnr": 1.0,
+        "contact_balanced_accuracy": 0.5,
+        "event_records_scored": 18,
+        "active_records": 4,
+        "read_records": 2
+      }
+    },
+    {
+      "repeat": 2,
+      "presentations": 1024,
+      "updates": 16,
+      "train": {
+        "loss": 3.181699752807617,
+        "state_mse": 0.10952342487871647,
+        "action_loss": 1.1023784577846527,
+        "contact_bce": 0.5404857248067856,
+        "value_loss": 2.8920510709285736,
+        "counterfactual_spread": 0.021996763767674565
+      },
+      "development": {
+        "episodes": 256,
+        "success": 0.41796875,
+        "regret": 0.09180060029029846,
+        "state_mse": 0.09083602577447891,
+        "collision": 0.046875,
+        "risk_success": 0.3617021276595745,
+        "fine_retained_risk": 0.43617021276595747,
+        "fine_retained_safe": 0.35185185185185186,
+        "coarse_retained": 0.49609375,
+        "nuisance_records": 3.12109375,
+        "contact_positive_fraction": 0.08463541666666667,
+        "contact_tpr": 0.0,
+        "contact_tnr": 1.0,
+        "contact_balanced_accuracy": 0.5,
+        "event_records_scored": 18,
+        "active_records": 4,
+        "read_records": 2
+      }
+    },
+    {
+      "repeat": 4,
+      "presentations": 2048,
+      "updates": 32,
+      "train": {
+        "loss": 2.8343027532100677,
+        "state_mse": 0.07025386020541191,
+        "action_loss": 1.0870548784732819,
+        "contact_bce": 0.4282401613891125,
+        "value_loss": 2.8889214396476746,
+        "counterfactual_spread": 0.009119205991737545
+      },
+      "development": {
+        "episodes": 256,
+        "success": 0.5859375,
+        "regret": 0.06561373174190521,
+        "state_mse": 0.04376659542322159,
+        "collision": 0.015625,
+        "risk_success": 0.6914893617021277,
+        "fine_retained_risk": 0.3829787234042553,
+        "fine_retained_safe": 0.30864197530864196,
+        "coarse_retained": 0.53125,
+        "nuisance_records": 3.1328125,
+        "contact_positive_fraction": 0.08463541666666667,
+        "contact_tpr": 0.0,
+        "contact_tnr": 1.0,
+        "contact_balanced_accuracy": 0.5,
+        "event_records_scored": 18,
+        "active_records": 4,
+        "read_records": 2
+      }
+    },
+    {
+      "repeat": 8,
+      "presentations": 4096,
+      "updates": 64,
+      "train": {
+        "loss": 2.3042677640914917,
+        "state_mse": 0.04217319516465068,
+        "action_loss": 0.9286270588636398,
+        "contact_bce": 0.31777900643646717,
+        "value_loss": 2.8166635930538177,
+        "counterfactual_spread": 0.04192421352490783
+      },
+      "development": {
+        "episodes": 256,
+        "success": 0.68359375,
+        "regret": 0.036243513226509094,
+        "state_mse": 0.042662471532821655,
+        "collision": 0.015625,
+        "risk_success": 0.7553191489361702,
+        "fine_retained_risk": 0.20212765957446807,
+        "fine_retained_safe": 0.22839506172839505,
+        "coarse_retained": 0.0,
+        "nuisance_records": 3.78125,
+        "contact_positive_fraction": 0.08463541666666667,
+        "contact_tpr": 0.0,
+        "contact_tnr": 1.0,
+        "contact_balanced_accuracy": 0.5,
+        "event_records_scored": 18,
+        "active_records": 4,
+        "read_records": 2
+      }
+    }
+  ],
+  "none": [
+    {
+      "repeat": 1,
+      "presentations": 512,
+      "updates": 8,
+      "train": {
+        "loss": 3.805188000202179,
+        "state_mse": 0.2016477957367897,
+        "action_loss": 1.1001037806272507,
+        "contact_bce": 0.659533903002739,
+        "value_loss": 2.8899969160556793,
+        "counterfactual_spread": 0.005681909940904006
+      },
+      "development": {
+        "episodes": 256,
+        "success": 0.40234375,
+        "regret": 0.21253858506679535,
+        "state_mse": 0.12280596792697906,
+        "collision": 0.19140625,
+        "risk_success": 0.44680851063829785,
+        "fine_retained_risk": 0.0,
+        "fine_retained_safe": 0.0,
+        "coarse_retained": 0.0,
+        "nuisance_records": 0.0,
+        "contact_positive_fraction": 0.08463541666666667,
+        "contact_tpr": 0.0,
+        "contact_tnr": 1.0,
+        "contact_balanced_accuracy": 0.5,
+        "event_records_scored": 18,
+        "active_records": 0,
+        "read_records": 0
+      }
+    },
+    {
+      "repeat": 2,
+      "presentations": 1024,
+      "updates": 16,
+      "train": {
+        "loss": 3.202286571264267,
+        "state_mse": 0.10466682817786932,
+        "action_loss": 1.0989431291818619,
+        "contact_bce": 0.5787496268749237,
+        "value_loss": 2.894123136997223,
+        "counterfactual_spread": 0.01958775974344462
+      },
+      "development": {
+        "episodes": 256,
+        "success": 0.40625,
+        "regret": 0.11647233366966248,
+        "state_mse": 0.08293693512678146,
+        "collision": 0.015625,
+        "risk_success": 0.4148936170212766,
+        "fine_retained_risk": 0.0,
+        "fine_retained_safe": 0.0,
+        "coarse_retained": 0.0,
+        "nuisance_records": 0.0,
+        "contact_positive_fraction": 0.08463541666666667,
+        "contact_tpr": 0.0,
+        "contact_tnr": 1.0,
+        "contact_balanced_accuracy": 0.5,
+        "event_records_scored": 18,
+        "active_records": 0,
+        "read_records": 0
+      }
+    },
+    {
+      "repeat": 4,
+      "presentations": 2048,
+      "updates": 32,
+      "train": {
+        "loss": 2.80552276968956,
+        "state_mse": 0.06614427966997027,
+        "action_loss": 1.0838201195001602,
+        "contact_bce": 0.4436540901660919,
+        "value_loss": 2.890384763479233,
+        "counterfactual_spread": 0.004166445811279118
+      },
+      "development": {
+        "episodes": 256,
+        "success": 0.54296875,
+        "regret": 0.0780627653002739,
+        "state_mse": 0.043440647423267365,
+        "collision": 0.015625,
+        "risk_success": 0.6170212765957447,
+        "fine_retained_risk": 0.0,
+        "fine_retained_safe": 0.0,
+        "coarse_retained": 0.0,
+        "nuisance_records": 0.0,
+        "contact_positive_fraction": 0.08463541666666667,
+        "contact_tpr": 0.0,
+        "contact_tnr": 1.0,
+        "contact_balanced_accuracy": 0.5,
+        "event_records_scored": 18,
+        "active_records": 0,
+        "read_records": 0
+      }
+    },
+    {
+      "repeat": 8,
+      "presentations": 4096,
+      "updates": 64,
+      "train": {
+        "loss": 2.3217900693416595,
+        "state_mse": 0.04114128742367029,
+        "action_loss": 0.9331253245472908,
+        "contact_bce": 0.3272675611078739,
+        "value_loss": 2.8721118569374084,
+        "counterfactual_spread": 0.014503269805572927
+      },
+      "development": {
+        "episodes": 256,
+        "success": 0.68359375,
+        "regret": 0.03681790828704834,
+        "state_mse": 0.040621913969516754,
+        "collision": 0.015625,
+        "risk_success": 0.7553191489361702,
+        "fine_retained_risk": 0.0,
+        "fine_retained_safe": 0.0,
+        "coarse_retained": 0.0,
+        "nuisance_records": 0.0,
+        "contact_positive_fraction": 0.08463541666666667,
+        "contact_tpr": 0.0,
+        "contact_tnr": 1.0,
+        "contact_balanced_accuracy": 0.5,
+        "event_records_scored": 18,
+        "active_records": 0,
+        "read_records": 0
+      }
+    }
+  ]
+}

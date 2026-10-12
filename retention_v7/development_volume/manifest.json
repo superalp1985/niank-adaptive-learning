@@ -1,0 +1,61 @@
+{
+  "stage": "development_volume",
+  "torch": "2.3.1+cu118",
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "sha256": "c655781a5f58458d5bbb9003ffdac9a33de9b3650d393b99248094abe31cdba1",
+  "dependencies": {
+    "retention_v5": "3cc4877bf0b0998f6bae45d4e4c2be5f93e8e38207c1965e75832dc102b3432e",
+    "retention_v6": "9f4e6116a57c41ac2cd5e027667e626c5663074b8f8b2712477735bdb78da822"
+  },
+  "modes": [
+    "ordinary_plain",
+    "ordinary_event",
+    "paired_plain",
+    "paired_event"
+  ],
+  "volumes": [
+    [
+      512,
+      64
+    ],
+    [
+      2048,
+      16
+    ]
+  ],
+  "seeds": [
+    11
+  ],
+  "use_cost": 0.005,
+  "data": {
+    "train": {
+      "sha256": "b055b435eab7dc7d7bc1b7a233b83723f7e610cae06aa99a73e89cde0f3a292b",
+      "ids": [
+        1400000,
+        1402047
+      ]
+    },
+    "development": {
+      "sha256": "b14e722f724d43eb77364534728eb35d8e93faa9e14f631222f498fedb92c97f",
+      "ids": [
+        1410000,
+        1410255
+      ]
+    },
+    "detail": {
+      "sha256": "506398e0311291d3555f3cfe0c67506ff0da3676fb812704f1748f7747d84ab6",
+      "ids": [
+        1420000,
+        1420255
+      ]
+    },
+    "recovery": {
+      "sha256": "4830f327ae2f5a8c8e3cee7e8f1a7a3ff7b8c86fc13073808e6f78f61321edd6",
+      "ids": [
+        1430000,
+        1430255
+      ]
+    }
+  },
+  "final_ids": null
+}

@@ -1,0 +1,77 @@
+{
+  "stage": "confirmation",
+  "torch": "2.3.1+cu118",
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "sha256": "caf63ff4c1bd7098ef32d150322f198b4370a988d4925ccd2c233dcea7e67730",
+  "dependencies": {
+    "retention_v5": "3cc4877bf0b0998f6bae45d4e4c2be5f93e8e38207c1965e75832dc102b3432e",
+    "retention_v6": "9f4e6116a57c41ac2cd5e027667e626c5663074b8f8b2712477735bdb78da822",
+    "retention_v7": "98281da81603b6ad57797228e9ba90302d33799a92f7d2b3e4462b61395368d6",
+    "retention_v8": "d7c53f370982815e080b830e319b3d5768c5ed66ff3e6a050cfe7b9fdc7acda2"
+  },
+  "modes": [
+    "fixed",
+    "periodic",
+    "recurrent",
+    "consolidated"
+  ],
+  "worlds": 64,
+  "budgets": [
+    128,
+    512
+  ],
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "checkpoints": {
+    "11": "b5c05e5085f46a33a75ab25205afac655e88bb8186057451e2d7d0dfa394c248",
+    "23": "a79c650931b8106aa08e5b5d2cee91a23e34082731f1796bc20cba319df125dd",
+    "37": "93455a775b3023a974b21dcc7e98f67e48c15ed848a1cd8364c243699c7f8e85"
+  },
+  "base_lifetime": 6,
+  "practice_decay": 0.985,
+  "gain_trace_rate": 0.25,
+  "retrieval_error_multiplier": 1.5,
+  "retrieval_floor": 0.005,
+  "curiosity_gap": 16,
+  "data": {
+    "11": {
+      "world_ids": [
+        3300000,
+        3300063
+      ],
+      "world_sha256": "06f3e23db928006675a18b9ffdeff674403918e6c7ef55a32d856691f086986c",
+      "probe_ids": [
+        3400000,
+        3400255
+      ],
+      "probe_sha256": "db93e7b6315da28ad336f2607ee6f11060d919b3cd4146a09ee680b014df6d94"
+    },
+    "23": {
+      "world_ids": [
+        3310000,
+        3310063
+      ],
+      "world_sha256": "309449877e7b2bf4bdef94a6dbc90536bb131877a9b0d52d7b68f1e7957e491e",
+      "probe_ids": [
+        3410000,
+        3410255
+      ],
+      "probe_sha256": "131b8d93109e1ccc00507758e8b62e0320436cc777df10aee8ce86ac94fcc432"
+    },
+    "37": {
+      "world_ids": [
+        3320000,
+        3320063
+      ],
+      "world_sha256": "e219611eb723cad31a5c7581d632f75b3768bcc7d237ac958bda2484a8b32487",
+      "probe_ids": [
+        3420000,
+        3420255
+      ],
+      "probe_sha256": "86348aada382c033dd2c805ca51cb8a824bacd51beb1270b8b783876d43e91c9"
+    }
+  }
+}

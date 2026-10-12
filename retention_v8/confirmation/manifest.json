@@ -1,0 +1,95 @@
+{
+  "stage": "confirmation",
+  "torch": "2.3.1+cu118",
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "sha256": "d7c53f370982815e080b830e319b3d5768c5ed66ff3e6a050cfe7b9fdc7acda2",
+  "dependencies": {
+    "retention_v5": "3cc4877bf0b0998f6bae45d4e4c2be5f93e8e38207c1965e75832dc102b3432e",
+    "retention_v6": "9f4e6116a57c41ac2cd5e027667e626c5663074b8f8b2712477735bdb78da822",
+    "retention_v7": "98281da81603b6ad57797228e9ba90302d33799a92f7d2b3e4462b61395368d6"
+  },
+  "modes": [
+    "quartet_point",
+    "quartet_delta"
+  ],
+  "volumes": [
+    [
+      512,
+      8
+    ],
+    [
+      2048,
+      2
+    ],
+    [
+      2048,
+      8
+    ],
+    [
+      2048,
+      32
+    ]
+  ],
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "value_target": "omitted physical loss minus archive physical loss, stop-gradient",
+  "difference_coefficient": 8.0,
+  "data": {
+    "train": {
+      "sha256": "084e65ed53de1a3d6e7d42f7fb9ce52575645a81bcd0e75b0e599f9687e4bce9",
+      "ids": [
+        2100000,
+        2102047
+      ]
+    },
+    "development": {
+      "sha256": "57f26fb16a48dd84360d7ac4dd1108d02002ff0139a4eb7fb3d27855e247aa43",
+      "ids": [
+        2110000,
+        2110255
+      ]
+    },
+    "detail": {
+      "sha256": "0e8a80cc4cba5ed3111e559017eb50b642d599582a10934092ab38dd45d6bcd9",
+      "ids": [
+        2120000,
+        2120255
+      ]
+    },
+    "recovery": {
+      "sha256": "a9a695366c547a3ae7ff16a72d2812b0d3f60414f0bec30fdeb9372f3d026871",
+      "ids": [
+        2130000,
+        2130255
+      ]
+    },
+    "final": {
+      "sha256": "70ca3564211e88b11c12bc14c6015d538f7def35d16ffd811378cf41e462267a",
+      "ids": [
+        2140000,
+        2140511
+      ]
+    },
+    "left_layout": {
+      "sha256": "edb16a14181ee842e92c79ff9857a21b27adb907b6e6a22fa27c74f7e832f778",
+      "ids": [
+        2150000,
+        2150511
+      ]
+    },
+    "texture_shift": {
+      "sha256": "d5dc5525551e05b07cdba52849698f0ba29dbc5208eed99472f31e43be6d5cfe",
+      "ids": [
+        2160000,
+        2160511
+      ]
+    }
+  },
+  "final_ids": [
+    2140000,
+    2140511
+  ]
+}

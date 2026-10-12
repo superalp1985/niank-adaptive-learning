@@ -1,0 +1,746 @@
+[
+  {
+    "mode": "quartet_point",
+    "seed": 11,
+    "cycles": 8,
+    "context": 0.0,
+    "active_directory_change_fraction": 0.30859375,
+    "adaptive_response_gain": null,
+    "fixed_directory_response_gain": null,
+    "fixed_directory_spurious_effect": 0.005466070491820574,
+    "fine_in_original_directory": 0.83203125,
+    "subsets": {
+      "both_fine_active": {
+        "episodes": 172,
+        "predicted_effect_mae": 0.006489321123808622,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.006489321123808622
+      },
+      "only_one_fine_active": {
+        "episodes": 79,
+        "predicted_effect_mae": 0.003090738318860531,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.0035841872449964285
+      },
+      "neither_fine_active": {
+        "episodes": 5,
+        "predicted_effect_mae": 0.0,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.0
+      }
+    }
+  },
+  {
+    "mode": "quartet_point",
+    "seed": 11,
+    "cycles": 8,
+    "context": 1.0,
+    "active_directory_change_fraction": 0.5546875,
+    "adaptive_response_gain": 0.5925968289375305,
+    "fixed_directory_response_gain": 0.42955344915390015,
+    "fixed_directory_spurious_effect": null,
+    "fine_in_original_directory": 0.72265625,
+    "subsets": {
+      "both_fine_active": {
+        "episodes": 114,
+        "predicted_effect_mae": 0.22537212073802948,
+        "effect_gain": 0.6260336637496948,
+        "fixed_directory_effect_mae": 0.22537212073802948
+      },
+      "only_one_fine_active": {
+        "episodes": 142,
+        "predicted_effect_mae": 0.2036711573600769,
+        "effect_gain": 0.5657532811164856,
+        "fixed_directory_effect_mae": 0.09785372018814087
+      },
+      "neither_fine_active": {
+        "episodes": 0,
+        "predicted_effect_mae": null,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": null
+      }
+    }
+  },
+  {
+    "mode": "quartet_delta",
+    "seed": 11,
+    "cycles": 8,
+    "context": 0.0,
+    "active_directory_change_fraction": 0.40234375,
+    "adaptive_response_gain": null,
+    "fixed_directory_response_gain": null,
+    "fixed_directory_spurious_effect": 0.0023716732393950224,
+    "fine_in_original_directory": 0.73828125,
+    "subsets": {
+      "both_fine_active": {
+        "episodes": 129,
+        "predicted_effect_mae": 0.0028575847391039133,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.0028575847391039133
+      },
+      "only_one_fine_active": {
+        "episodes": 103,
+        "predicted_effect_mae": 0.0014630083460360765,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.0023157272953540087
+      },
+      "neither_fine_active": {
+        "episodes": 24,
+        "predicted_effect_mae": 0.0,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.0
+      }
+    }
+  },
+  {
+    "mode": "quartet_delta",
+    "seed": 11,
+    "cycles": 8,
+    "context": 1.0,
+    "active_directory_change_fraction": 0.98828125,
+    "adaptive_response_gain": 0.9337176084518433,
+    "fixed_directory_response_gain": 0.45529061555862427,
+    "fixed_directory_spurious_effect": null,
+    "fine_in_original_directory": 0.48046875,
+    "subsets": {
+      "both_fine_active": {
+        "episodes": 3,
+        "predicted_effect_mae": 0.37615442276000977,
+        "effect_gain": 1.0448733568191528,
+        "fixed_directory_effect_mae": 0.37615442276000977
+      },
+      "only_one_fine_active": {
+        "episodes": 253,
+        "predicted_effect_mae": 0.3356638550758362,
+        "effect_gain": 0.9323996305465698,
+        "fixed_directory_effect_mae": 0.1613878309726715
+      },
+      "neither_fine_active": {
+        "episodes": 0,
+        "predicted_effect_mae": null,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": null
+      }
+    }
+  },
+  {
+    "mode": "quartet_point",
+    "seed": 23,
+    "cycles": 8,
+    "context": 0.0,
+    "active_directory_change_fraction": 0.56640625,
+    "adaptive_response_gain": null,
+    "fixed_directory_response_gain": null,
+    "fixed_directory_spurious_effect": 0.005612439010292292,
+    "fine_in_original_directory": 0.328125,
+    "subsets": {
+      "both_fine_active": {
+        "episodes": 14,
+        "predicted_effect_mae": 0.012148827314376831,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.012148827314376831
+      },
+      "only_one_fine_active": {
+        "episodes": 145,
+        "predicted_effect_mae": 0.010463842190802097,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.008735868148505688
+      },
+      "neither_fine_active": {
+        "episodes": 97,
+        "predicted_effect_mae": 0.0,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.0
+      }
+    }
+  },
+  {
+    "mode": "quartet_point",
+    "seed": 23,
+    "cycles": 8,
+    "context": 1.0,
+    "active_directory_change_fraction": 0.9765625,
+    "adaptive_response_gain": 1.0399330854415894,
+    "fixed_directory_response_gain": 0.5718597173690796,
+    "fixed_directory_spurious_effect": null,
+    "fine_in_original_directory": 0.53515625,
+    "subsets": {
+      "both_fine_active": {
+        "episodes": 5,
+        "predicted_effect_mae": 0.41496360301971436,
+        "effect_gain": 1.1526765823364258,
+        "fixed_directory_effect_mae": 0.41496360301971436
+      },
+      "only_one_fine_active": {
+        "episodes": 250,
+        "predicted_effect_mae": 0.37506169080734253,
+        "effect_gain": 1.0418379306793213,
+        "fixed_directory_effect_mae": 0.20251108705997467
+      },
+      "neither_fine_active": {
+        "episodes": 1,
+        "predicted_effect_mae": 0.0,
+        "effect_gain": 0.0,
+        "fixed_directory_effect_mae": 0.0
+      }
+    }
+  },
+  {
+    "mode": "quartet_delta",
+    "seed": 23,
+    "cycles": 8,
+    "context": 0.0,
+    "active_directory_change_fraction": 0.41015625,
+    "adaptive_response_gain": null,
+    "fixed_directory_response_gain": null,
+    "fixed_directory_spurious_effect": 0.0023337772581726313,
+    "fine_in_original_directory": 0.23828125,
+    "subsets": {
+      "both_fine_active": {
+        "episodes": 7,
+        "predicted_effect_mae": 0.003223810810595751,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.003223810810595751
+      },
+      "only_one_fine_active": {
+        "episodes": 105,
+        "predicted_effect_mae": 0.009075692854821682,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.005475051235407591
+      },
+      "neither_fine_active": {
+        "episodes": 144,
+        "predicted_effect_mae": 0.0,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.0
+      }
+    }
+  },
+  {
+    "mode": "quartet_delta",
+    "seed": 23,
+    "cycles": 8,
+    "context": 1.0,
+    "active_directory_change_fraction": 0.98046875,
+    "adaptive_response_gain": 1.108257532119751,
+    "fixed_directory_response_gain": 0.6499086022377014,
+    "fixed_directory_spurious_effect": null,
+    "fine_in_original_directory": 0.51953125,
+    "subsets": {
+      "both_fine_active": {
+        "episodes": 0,
+        "predicted_effect_mae": null,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": null
+      },
+      "only_one_fine_active": {
+        "episodes": 251,
+        "predicted_effect_mae": 0.4069204032421112,
+        "effect_gain": 1.1303343772888184,
+        "fixed_directory_effect_mae": 0.23862776160240173
+      },
+      "neither_fine_active": {
+        "episodes": 5,
+        "predicted_effect_mae": 0.0,
+        "effect_gain": 0.0,
+        "fixed_directory_effect_mae": 0.0
+      }
+    }
+  },
+  {
+    "mode": "quartet_point",
+    "seed": 37,
+    "cycles": 8,
+    "context": 0.0,
+    "active_directory_change_fraction": 0.56640625,
+    "adaptive_response_gain": null,
+    "fixed_directory_response_gain": null,
+    "fixed_directory_spurious_effect": 0.007108686957508326,
+    "fine_in_original_directory": 0.6015625,
+    "subsets": {
+      "both_fine_active": {
+        "episodes": 78,
+        "predicted_effect_mae": 0.011069996282458305,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.011069996282458305
+      },
+      "only_one_fine_active": {
+        "episodes": 145,
+        "predicted_effect_mae": 0.008951466530561447,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.0065956139005720615
+      },
+      "neither_fine_active": {
+        "episodes": 33,
+        "predicted_effect_mae": 0.0,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.0
+      }
+    }
+  },
+  {
+    "mode": "quartet_point",
+    "seed": 37,
+    "cycles": 8,
+    "context": 1.0,
+    "active_directory_change_fraction": 0.84375,
+    "adaptive_response_gain": 0.900395393371582,
+    "fixed_directory_response_gain": 0.5224614143371582,
+    "fixed_directory_spurious_effect": null,
+    "fine_in_original_directory": 0.59765625,
+    "subsets": {
+      "both_fine_active": {
+        "episodes": 40,
+        "predicted_effect_mae": 0.3077564239501953,
+        "effect_gain": 0.8548789620399475,
+        "fixed_directory_effect_mae": 0.3077564239501953
+      },
+      "only_one_fine_active": {
+        "episodes": 216,
+        "predicted_effect_mae": 0.3271767795085907,
+        "effect_gain": 0.9088244438171387,
+        "fixed_directory_effect_mae": 0.16592493653297424
+      },
+      "neither_fine_active": {
+        "episodes": 0,
+        "predicted_effect_mae": null,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": null
+      }
+    }
+  },
+  {
+    "mode": "quartet_delta",
+    "seed": 37,
+    "cycles": 8,
+    "context": 0.0,
+    "active_directory_change_fraction": 0.44140625,
+    "adaptive_response_gain": null,
+    "fixed_directory_response_gain": null,
+    "fixed_directory_spurious_effect": 0.0029184911400079727,
+    "fine_in_original_directory": 0.33984375,
+    "subsets": {
+      "both_fine_active": {
+        "episodes": 33,
+        "predicted_effect_mae": 0.006616960745304823,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.006616960745304823
+      },
+      "only_one_fine_active": {
+        "episodes": 113,
+        "predicted_effect_mae": 0.00999271497130394,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.004679415374994278
+      },
+      "neither_fine_active": {
+        "episodes": 110,
+        "predicted_effect_mae": 0.0,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.0
+      }
+    }
+  },
+  {
+    "mode": "quartet_delta",
+    "seed": 37,
+    "cycles": 8,
+    "context": 1.0,
+    "active_directory_change_fraction": 1.0,
+    "adaptive_response_gain": 0.9631142020225525,
+    "fixed_directory_response_gain": 0.5371248722076416,
+    "fixed_directory_spurious_effect": null,
+    "fine_in_original_directory": 0.53125,
+    "subsets": {
+      "both_fine_active": {
+        "episodes": 0,
+        "predicted_effect_mae": null,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": null
+      },
+      "only_one_fine_active": {
+        "episodes": 256,
+        "predicted_effect_mae": 0.3467210829257965,
+        "effect_gain": 0.9631142020225525,
+        "fixed_directory_effect_mae": 0.1933649629354477
+      },
+      "neither_fine_active": {
+        "episodes": 0,
+        "predicted_effect_mae": null,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": null
+      }
+    }
+  },
+  {
+    "mode": "quartet_point",
+    "seed": 11,
+    "cycles": 32,
+    "context": 0.0,
+    "active_directory_change_fraction": 0.62109375,
+    "adaptive_response_gain": null,
+    "fixed_directory_response_gain": null,
+    "fixed_directory_spurious_effect": 0.0028710735496133566,
+    "fine_in_original_directory": 0.3984375,
+    "subsets": {
+      "both_fine_active": {
+        "episodes": 16,
+        "predicted_effect_mae": 0.007670732215046883,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.007670732215046883
+      },
+      "only_one_fine_active": {
+        "episodes": 159,
+        "predicted_effect_mae": 0.005211664363741875,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.0038507115095853806
+      },
+      "neither_fine_active": {
+        "episodes": 81,
+        "predicted_effect_mae": 0.0,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.0
+      }
+    }
+  },
+  {
+    "mode": "quartet_point",
+    "seed": 11,
+    "cycles": 32,
+    "context": 1.0,
+    "active_directory_change_fraction": 0.76953125,
+    "adaptive_response_gain": 0.9103692173957825,
+    "fixed_directory_response_gain": 0.5625128149986267,
+    "fixed_directory_spurious_effect": null,
+    "fine_in_original_directory": 0.59375,
+    "subsets": {
+      "both_fine_active": {
+        "episodes": 50,
+        "predicted_effect_mae": 0.337042897939682,
+        "effect_gain": 0.936230480670929,
+        "fixed_directory_effect_mae": 0.337042897939682
+      },
+      "only_one_fine_active": {
+        "episodes": 197,
+        "predicted_effect_mae": 0.34034255146980286,
+        "effect_gain": 0.9453960657119751,
+        "fixed_directory_effect_mae": 0.17760932445526123
+      },
+      "neither_fine_active": {
+        "episodes": 9,
+        "predicted_effect_mae": 0.0,
+        "effect_gain": 0.0,
+        "fixed_directory_effect_mae": 0.0
+      }
+    }
+  },
+  {
+    "mode": "quartet_delta",
+    "seed": 11,
+    "cycles": 32,
+    "context": 0.0,
+    "active_directory_change_fraction": 0.5234375,
+    "adaptive_response_gain": null,
+    "fixed_directory_response_gain": null,
+    "fixed_directory_spurious_effect": 0.0007316634873859584,
+    "fine_in_original_directory": 0.3515625,
+    "subsets": {
+      "both_fine_active": {
+        "episodes": 24,
+        "predicted_effect_mae": 0.002344499807804823,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.002344499807804823
+      },
+      "only_one_fine_active": {
+        "episodes": 134,
+        "predicted_effect_mae": 0.0012149426620453596,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.0009778945241123438
+      },
+      "neither_fine_active": {
+        "episodes": 98,
+        "predicted_effect_mae": 0.0,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.0
+      }
+    }
+  },
+  {
+    "mode": "quartet_delta",
+    "seed": 11,
+    "cycles": 32,
+    "context": 1.0,
+    "active_directory_change_fraction": 0.98828125,
+    "adaptive_response_gain": 1.03415846824646,
+    "fixed_directory_response_gain": 0.498216837644577,
+    "fixed_directory_spurious_effect": null,
+    "fine_in_original_directory": 0.46484375,
+    "subsets": {
+      "both_fine_active": {
+        "episodes": 0,
+        "predicted_effect_mae": null,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": null
+      },
+      "only_one_fine_active": {
+        "episodes": 253,
+        "predicted_effect_mae": 0.3767116367816925,
+        "effect_gain": 1.0464211702346802,
+        "fixed_directory_effect_mae": 0.18148483335971832
+      },
+      "neither_fine_active": {
+        "episodes": 3,
+        "predicted_effect_mae": 0.0,
+        "effect_gain": 0.0,
+        "fixed_directory_effect_mae": 0.0
+      }
+    }
+  },
+  {
+    "mode": "quartet_point",
+    "seed": 23,
+    "cycles": 32,
+    "context": 0.0,
+    "active_directory_change_fraction": 0.68359375,
+    "adaptive_response_gain": null,
+    "fixed_directory_response_gain": null,
+    "fixed_directory_spurious_effect": 0.003648029640316963,
+    "fine_in_original_directory": 0.44140625,
+    "subsets": {
+      "both_fine_active": {
+        "episodes": 26,
+        "predicted_effect_mae": 0.00959800649434328,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.00959800649434328
+      },
+      "only_one_fine_active": {
+        "episodes": 175,
+        "predicted_effect_mae": 0.006022490095347166,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.003910556901246309
+      },
+      "neither_fine_active": {
+        "episodes": 55,
+        "predicted_effect_mae": 0.0,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.0
+      }
+    }
+  },
+  {
+    "mode": "quartet_point",
+    "seed": 23,
+    "cycles": 32,
+    "context": 1.0,
+    "active_directory_change_fraction": 0.83203125,
+    "adaptive_response_gain": 0.9405555129051208,
+    "fixed_directory_response_gain": 0.5638443231582642,
+    "fixed_directory_spurious_effect": null,
+    "fine_in_original_directory": 0.57421875,
+    "subsets": {
+      "both_fine_active": {
+        "episodes": 38,
+        "predicted_effect_mae": 0.3506605923175812,
+        "effect_gain": 0.9740571975708008,
+        "fixed_directory_effect_mae": 0.3506605923175812
+      },
+      "only_one_fine_active": {
+        "episodes": 213,
+        "predicted_effect_mae": 0.3444534242153168,
+        "effect_gain": 0.9566575288772583,
+        "fixed_directory_effect_mae": 0.181402787566185
+      },
+      "neither_fine_active": {
+        "episodes": 5,
+        "predicted_effect_mae": 0.0,
+        "effect_gain": 0.0,
+        "fixed_directory_effect_mae": 0.0
+      }
+    }
+  },
+  {
+    "mode": "quartet_delta",
+    "seed": 23,
+    "cycles": 32,
+    "context": 0.0,
+    "active_directory_change_fraction": 0.6640625,
+    "adaptive_response_gain": null,
+    "fixed_directory_response_gain": null,
+    "fixed_directory_spurious_effect": 0.0019395011477172375,
+    "fine_in_original_directory": 0.4296875,
+    "subsets": {
+      "both_fine_active": {
+        "episodes": 24,
+        "predicted_effect_mae": 0.004737367387861013,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.004737367387861013
+      },
+      "only_one_fine_active": {
+        "episodes": 170,
+        "predicted_effect_mae": 0.0027937423437833786,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.0022518555633723736
+      },
+      "neither_fine_active": {
+        "episodes": 62,
+        "predicted_effect_mae": 0.0,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.0
+      }
+    }
+  },
+  {
+    "mode": "quartet_delta",
+    "seed": 23,
+    "cycles": 32,
+    "context": 1.0,
+    "active_directory_change_fraction": 0.80078125,
+    "adaptive_response_gain": 0.9683414697647095,
+    "fixed_directory_response_gain": 0.5959806442260742,
+    "fixed_directory_spurious_effect": null,
+    "fine_in_original_directory": 0.58203125,
+    "subsets": {
+      "both_fine_active": {
+        "episodes": 42,
+        "predicted_effect_mae": 0.36055102944374084,
+        "effect_gain": 1.0015305280685425,
+        "fixed_directory_effect_mae": 0.36055102944374084
+      },
+      "only_one_fine_active": {
+        "episodes": 205,
+        "predicted_effect_mae": 0.36148548126220703,
+        "effect_gain": 1.0040545463562012,
+        "fixed_directory_effect_mae": 0.19406065344810486
+      },
+      "neither_fine_active": {
+        "episodes": 9,
+        "predicted_effect_mae": 0.0,
+        "effect_gain": 0.0,
+        "fixed_directory_effect_mae": 0.0
+      }
+    }
+  },
+  {
+    "mode": "quartet_point",
+    "seed": 37,
+    "cycles": 32,
+    "context": 0.0,
+    "active_directory_change_fraction": 0.42578125,
+    "adaptive_response_gain": null,
+    "fixed_directory_response_gain": null,
+    "fixed_directory_spurious_effect": 0.004060397390276194,
+    "fine_in_original_directory": 0.5390625,
+    "subsets": {
+      "both_fine_active": {
+        "episodes": 74,
+        "predicted_effect_mae": 0.00784579198807478,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.00784579198807478
+      },
+      "only_one_fine_active": {
+        "episodes": 109,
+        "predicted_effect_mae": 0.0035967696458101273,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.0042098467238247395
+      },
+      "neither_fine_active": {
+        "episodes": 73,
+        "predicted_effect_mae": 0.0,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.0
+      }
+    }
+  },
+  {
+    "mode": "quartet_point",
+    "seed": 37,
+    "cycles": 32,
+    "context": 1.0,
+    "active_directory_change_fraction": 0.734375,
+    "adaptive_response_gain": 1.0385349988937378,
+    "fixed_directory_response_gain": 0.6587787866592407,
+    "fixed_directory_spurious_effect": null,
+    "fine_in_original_directory": 0.62890625,
+    "subsets": {
+      "both_fine_active": {
+        "episodes": 65,
+        "predicted_effect_mae": 0.3758273422718048,
+        "effect_gain": 1.0439648628234863,
+        "fixed_directory_effect_mae": 0.3758273422718048
+      },
+      "only_one_fine_active": {
+        "episodes": 188,
+        "predicted_effect_mae": 0.37916284799575806,
+        "effect_gain": 1.0532302856445312,
+        "fixed_directory_effect_mae": 0.19300149381160736
+      },
+      "neither_fine_active": {
+        "episodes": 3,
+        "predicted_effect_mae": 0.0,
+        "effect_gain": 0.0,
+        "fixed_directory_effect_mae": 0.0
+      }
+    }
+  },
+  {
+    "mode": "quartet_delta",
+    "seed": 37,
+    "cycles": 32,
+    "context": 0.0,
+    "active_directory_change_fraction": 0.53515625,
+    "adaptive_response_gain": null,
+    "fixed_directory_response_gain": null,
+    "fixed_directory_spurious_effect": 0.002475687302649021,
+    "fine_in_original_directory": 0.4921875,
+    "subsets": {
+      "both_fine_active": {
+        "episodes": 59,
+        "predicted_effect_mae": 0.005443920381367207,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.005443920381367207
+      },
+      "only_one_fine_active": {
+        "episodes": 137,
+        "predicted_effect_mae": 0.0018979808082804084,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.0022816399578005075
+      },
+      "neither_fine_active": {
+        "episodes": 60,
+        "predicted_effect_mae": 0.0,
+        "effect_gain": null,
+        "fixed_directory_effect_mae": 0.0
+      }
+    }
+  },
+  {
+    "mode": "quartet_delta",
+    "seed": 37,
+    "cycles": 32,
+    "context": 1.0,
+    "active_directory_change_fraction": 0.81640625,
+    "adaptive_response_gain": 0.9738612174987793,
+    "fixed_directory_response_gain": 0.5998997092247009,
+    "fixed_directory_spurious_effect": null,
+    "fine_in_original_directory": 0.57421875,
+    "subsets": {
+      "both_fine_active": {
+        "episodes": 39,
+        "predicted_effect_mae": 0.37230947613716125,
+        "effect_gain": 1.0341929197311401,
+        "fixed_directory_effect_mae": 0.37230947613716125
+      },
+      "only_one_fine_active": {
+        "episodes": 209,
+        "predicted_effect_mae": 0.3599603474140167,
+        "effect_gain": 0.9998801946640015,
+        "fixed_directory_effect_mae": 0.19505593180656433
+      },
+      "neither_fine_active": {
+        "episodes": 8,
+        "predicted_effect_mae": 0.0,
+        "effect_gain": 0.0,
+        "fixed_directory_effect_mae": 0.0
+      }
+    }
+  }
+]

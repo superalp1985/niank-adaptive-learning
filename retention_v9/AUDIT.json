@@ -1,0 +1,15 @@
+{
+  "runs": 24,
+  "verified_physical_transitions": 491520,
+  "directory_transitions_checked": 7656,
+  "source_and_dependency_hashes": "match",
+  "data_ids_disjoint": true,
+  "closed_loop_continuity": "passed",
+  "short_long_prefixes": "identical",
+  "practice_sqlite": "integrity_and_observed_outcomes_passed",
+  "frozen_replay_modes": [
+    "fixed",
+    "consolidated"
+  ],
+  "replay_weight_updates": 0
+}

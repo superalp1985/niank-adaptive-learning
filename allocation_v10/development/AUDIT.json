@@ -1,0 +1,52 @@
+{
+  "source_hashes": true,
+  "transitions": 147456,
+  "decisions": 36864,
+  "runs_and_probes": [
+    {
+      "path": "g9_s11_w410100_delayed\\composition",
+      "transitions": 8192,
+      "success": 0.5162353515625
+    },
+    {
+      "path": "g9_s11_w410100_delayed\\seen",
+      "transitions": 8192,
+      "success": 0.545166015625
+    },
+    {
+      "path": "g9_s11_w410100_delayed",
+      "transitions": 32768,
+      "success": 0.501617431640625
+    },
+    {
+      "path": "g9_s11_w410100_immediate\\composition",
+      "transitions": 8192,
+      "success": 0.4842529296875
+    },
+    {
+      "path": "g9_s11_w410100_immediate\\seen",
+      "transitions": 8192,
+      "success": 0.482421875
+    },
+    {
+      "path": "g9_s11_w410100_immediate",
+      "transitions": 32768,
+      "success": 0.502532958984375
+    },
+    {
+      "path": "g9_s11_w410100_independent\\composition",
+      "transitions": 8192,
+      "success": 0.5477294921875
+    },
+    {
+      "path": "g9_s11_w410100_independent\\seen",
+      "transitions": 8192,
+      "success": 0.5692138671875
+    },
+    {
+      "path": "g9_s11_w410100_independent",
+      "transitions": 32768,
+      "success": 0.496307373046875
+    }
+  ]
+}

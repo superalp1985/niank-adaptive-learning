@@ -1,0 +1,138 @@
+[
+  {
+    "cycle": 1,
+    "presentations": 1024,
+    "updates": 8,
+    "development": {
+      "success": 0.36328125,
+      "regret": 0.22276794910430908,
+      "state_mse": 0.14355188608169556,
+      "fine_retained": 0.3125,
+      "fine_read": 0.1875,
+      "coarse_retained": 0.75,
+      "active_count": 4.0,
+      "read_count": 2.0,
+      "fine_gate": 0.6368528604507446,
+      "risk_success": 0.3333333333333333,
+      "risk_fine_retained": 0.3333333333333333,
+      "risk_fine_read": 0.19047619047619047,
+      "risk_fine_gate": 0.6451012492179871,
+      "risk_active_count": 4.0,
+      "safe_success": 0.37790697674418605,
+      "safe_fine_retained": 0.3023255813953488,
+      "safe_fine_read": 0.18604651162790697,
+      "safe_fine_gate": 0.6328245401382446,
+      "safe_active_count": 4.0,
+      "episodes": 256,
+      "event_records_scored": 18
+    },
+    "train": {
+      "loss": 3.909496545791626,
+      "value_loss": 0.012277551999432035,
+      "state_mse": 0.24672747030854225,
+      "active_count": 2.0087890625
+    }
+  },
+  {
+    "cycle": 4,
+    "presentations": 4096,
+    "updates": 32,
+    "development": {
+      "success": 0.57421875,
+      "regret": 0.0801573321223259,
+      "state_mse": 0.052881546318531036,
+      "fine_retained": 0.140625,
+      "fine_read": 0.05859375,
+      "coarse_retained": 0.1875,
+      "active_count": 1.58984375,
+      "read_count": 0.8046875,
+      "fine_gate": 0.5524593591690063,
+      "risk_success": 0.5595238095238095,
+      "risk_fine_retained": 0.11904761904761904,
+      "risk_fine_read": 0.03571428571428571,
+      "risk_fine_gate": 0.5526116490364075,
+      "risk_active_count": 1.4285714285714286,
+      "safe_success": 0.5813953488372093,
+      "safe_fine_retained": 0.1511627906976744,
+      "safe_fine_read": 0.06976744186046512,
+      "safe_fine_gate": 0.5523850321769714,
+      "safe_active_count": 1.6686046511627908,
+      "episodes": 256,
+      "event_records_scored": 18
+    },
+    "train": {
+      "loss": 2.452326774597168,
+      "value_loss": 0.005933711770921946,
+      "state_mse": 0.06069751689210534,
+      "active_count": 2.73046875
+    }
+  },
+  {
+    "cycle": 8,
+    "presentations": 8192,
+    "updates": 64,
+    "development": {
+      "success": 0.6953125,
+      "regret": 0.02960404008626938,
+      "state_mse": 0.04789053648710251,
+      "fine_retained": 0.05078125,
+      "fine_read": 0.04296875,
+      "coarse_retained": 0.28515625,
+      "active_count": 1.56640625,
+      "read_count": 0.85546875,
+      "fine_gate": 0.5322985053062439,
+      "risk_success": 0.6904761904761905,
+      "risk_fine_retained": 0.03571428571428571,
+      "risk_fine_read": 0.03571428571428571,
+      "risk_fine_gate": 0.5324882864952087,
+      "risk_active_count": 0.8690476190476191,
+      "safe_success": 0.6976744186046512,
+      "safe_fine_retained": 0.05813953488372093,
+      "safe_fine_read": 0.046511627906976744,
+      "safe_fine_gate": 0.5322058796882629,
+      "safe_active_count": 1.9069767441860466,
+      "episodes": 256,
+      "event_records_scored": 18
+    },
+    "train": {
+      "loss": 2.008249208331108,
+      "value_loss": 0.0036723419034387916,
+      "state_mse": 0.049611715599894524,
+      "active_count": 1.333984375
+    }
+  },
+  {
+    "cycle": 16,
+    "presentations": 16384,
+    "updates": 128,
+    "development": {
+      "success": 0.83203125,
+      "regret": 0.02442815527319908,
+      "state_mse": 0.03641612455248833,
+      "fine_retained": 0.5625,
+      "fine_read": 0.5625,
+      "coarse_retained": 0.5,
+      "active_count": 4.0,
+      "read_count": 2.0,
+      "fine_gate": 0.4927395284175873,
+      "risk_success": 0.8690476190476191,
+      "risk_fine_retained": 0.5595238095238095,
+      "risk_fine_read": 0.5595238095238095,
+      "risk_fine_gate": 0.506506085395813,
+      "risk_active_count": 4.0,
+      "safe_success": 0.813953488372093,
+      "safe_fine_retained": 0.563953488372093,
+      "safe_fine_read": 0.563953488372093,
+      "safe_fine_gate": 0.48601630330085754,
+      "safe_active_count": 4.0,
+      "episodes": 256,
+      "event_records_scored": 18
+    },
+    "train": {
+      "loss": 1.3413445353507996,
+      "value_loss": 0.02393965795636177,
+      "state_mse": 0.03353380039334297,
+      "active_count": 3.923828125
+    }
+  }
+]

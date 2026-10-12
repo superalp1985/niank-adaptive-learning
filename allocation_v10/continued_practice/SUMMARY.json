@@ -1,0 +1,555 @@
+{
+  "stage": "continued_practice",
+  "completed_runs": 6,
+  "expected_runs": 6,
+  "groups": [
+    {
+      "groups": 9,
+      "mode": "independent",
+      "runs": 1,
+      "total_parameters": 128085,
+      "online": {
+        "mean": 0.9129409790039062,
+        "min": 0.9129409790039062,
+        "max": 0.9129409790039062,
+        "std": null
+      },
+      "online_last": {
+        "mean": 0.915802001953125,
+        "min": 0.915802001953125,
+        "max": 0.915802001953125,
+        "std": null
+      },
+      "seen": {
+        "mean": 0.95751953125,
+        "min": 0.95751953125,
+        "max": 0.95751953125,
+        "std": null
+      },
+      "composition": {
+        "mean": 0.93896484375,
+        "min": 0.93896484375,
+        "max": 0.93896484375,
+        "std": null
+      },
+      "state_mse": {
+        "mean": 0.005072403699159622,
+        "min": 0.005072403699159622,
+        "max": 0.005072403699159622,
+        "std": null
+      },
+      "estimated_macs": {
+        "mean": 96682306560.0,
+        "min": 96682306560.0,
+        "max": 96682306560.0,
+        "std": null
+      },
+      "active_parameters": {
+        "mean": 27973.9306640625,
+        "min": 27973.9306640625,
+        "max": 27973.9306640625,
+        "std": null
+      },
+      "retrieved": {
+        "mean": 26763.0,
+        "min": 26763.0,
+        "max": 26763.0,
+        "std": null
+      },
+      "replayed": {
+        "mean": 26078.0,
+        "min": 26078.0,
+        "max": 26078.0,
+        "std": null
+      },
+      "accessible": {
+        "mean": 3.6484375,
+        "min": 3.6484375,
+        "max": 3.6484375,
+        "std": null
+      },
+      "late_operations": {
+        "keep": 0.24627685546875,
+        "retrieve": 0.13385009765625,
+        "relearn": 0.137451171875,
+        "compute": 0.130615234375,
+        "admit": 0.10198974609375,
+        "fade": 0.14666748046875,
+        "retire": 0.1031494140625
+      },
+      "entropy_last": {
+        "mean": 2.236510992050171,
+        "min": 2.236510992050171,
+        "max": 2.236510992050171,
+        "std": null
+      }
+    },
+    {
+      "groups": 9,
+      "mode": "immediate",
+      "runs": 1,
+      "total_parameters": 128307,
+      "online": {
+        "mean": 0.9140345255533854,
+        "min": 0.9140345255533854,
+        "max": 0.9140345255533854,
+        "std": null
+      },
+      "online_last": {
+        "mean": 0.91473388671875,
+        "min": 0.91473388671875,
+        "max": 0.91473388671875,
+        "std": null
+      },
+      "seen": {
+        "mean": 0.9609375,
+        "min": 0.9609375,
+        "max": 0.9609375,
+        "std": null
+      },
+      "composition": {
+        "mean": 0.933837890625,
+        "min": 0.933837890625,
+        "max": 0.933837890625,
+        "std": null
+      },
+      "state_mse": {
+        "mean": 0.0050848862156271935,
+        "min": 0.0050848862156271935,
+        "max": 0.0050848862156271935,
+        "std": null
+      },
+      "estimated_macs": {
+        "mean": 97666360320.0,
+        "min": 97666360320.0,
+        "max": 97666360320.0,
+        "std": null
+      },
+      "active_parameters": {
+        "mean": 28146.144205729168,
+        "min": 28146.144205729168,
+        "max": 28146.144205729168,
+        "std": null
+      },
+      "retrieved": {
+        "mean": 26964.0,
+        "min": 26964.0,
+        "max": 26964.0,
+        "std": null
+      },
+      "replayed": {
+        "mean": 29866.0,
+        "min": 29866.0,
+        "max": 29866.0,
+        "std": null
+      },
+      "accessible": {
+        "mean": 3.046875,
+        "min": 3.046875,
+        "max": 3.046875,
+        "std": null
+      },
+      "late_operations": {
+        "keep": 0.1883544921875,
+        "retrieve": 0.1456298828125,
+        "relearn": 0.14288330078125,
+        "compute": 0.148193359375,
+        "admit": 0.09808349609375,
+        "fade": 0.1800537109375,
+        "retire": 0.0968017578125
+      },
+      "entropy_last": {
+        "mean": 2.2844009399414062,
+        "min": 2.2844009399414062,
+        "max": 2.2844009399414062,
+        "std": null
+      }
+    },
+    {
+      "groups": 9,
+      "mode": "delayed",
+      "runs": 1,
+      "total_parameters": 128307,
+      "online": {
+        "mean": 0.9136466979980469,
+        "min": 0.9136466979980469,
+        "max": 0.9136466979980469,
+        "std": null
+      },
+      "online_last": {
+        "mean": 0.916168212890625,
+        "min": 0.916168212890625,
+        "max": 0.916168212890625,
+        "std": null
+      },
+      "seen": {
+        "mean": 0.958984375,
+        "min": 0.958984375,
+        "max": 0.958984375,
+        "std": null
+      },
+      "composition": {
+        "mean": 0.9337158203125,
+        "min": 0.9337158203125,
+        "max": 0.9337158203125,
+        "std": null
+      },
+      "state_mse": {
+        "mean": 0.0050720772705972195,
+        "min": 0.0050720772705972195,
+        "max": 0.0050720772705972195,
+        "std": null
+      },
+      "estimated_macs": {
+        "mean": 97697723904.0,
+        "min": 97697723904.0,
+        "max": 97697723904.0,
+        "std": null
+      },
+      "active_parameters": {
+        "mean": 28038.004231770832,
+        "min": 28038.004231770832,
+        "max": 28038.004231770832,
+        "std": null
+      },
+      "retrieved": {
+        "mean": 26114.0,
+        "min": 26114.0,
+        "max": 26114.0,
+        "std": null
+      },
+      "replayed": {
+        "mean": 32463.0,
+        "min": 32463.0,
+        "max": 32463.0,
+        "std": null
+      },
+      "accessible": {
+        "mean": 2.6328125,
+        "min": 2.6328125,
+        "max": 2.6328125,
+        "std": null
+      },
+      "late_operations": {
+        "keep": 0.184326171875,
+        "retrieve": 0.1317138671875,
+        "relearn": 0.17523193359375,
+        "compute": 0.14263916015625,
+        "admit": 0.09088134765625,
+        "fade": 0.18499755859375,
+        "retire": 0.0902099609375
+      },
+      "entropy_last": {
+        "mean": 2.2325246334075928,
+        "min": 2.2325246334075928,
+        "max": 2.2325246334075928,
+        "std": null
+      }
+    },
+    {
+      "groups": 78,
+      "mode": "independent",
+      "runs": 1,
+      "total_parameters": 991482,
+      "online": {
+        "mean": 0.9128710428873698,
+        "min": 0.9128710428873698,
+        "max": 0.9128710428873698,
+        "std": null
+      },
+      "online_last": {
+        "mean": 0.91534423828125,
+        "min": 0.91534423828125,
+        "max": 0.91534423828125,
+        "std": null
+      },
+      "seen": {
+        "mean": 0.9669189453125,
+        "min": 0.9669189453125,
+        "max": 0.9669189453125,
+        "std": null
+      },
+      "composition": {
+        "mean": 0.94189453125,
+        "min": 0.94189453125,
+        "max": 0.94189453125,
+        "std": null
+      },
+      "state_mse": {
+        "mean": 0.004955375101417303,
+        "min": 0.004955375101417303,
+        "max": 0.004955375101417303,
+        "std": null
+      },
+      "estimated_macs": {
+        "mean": 107397375552.0,
+        "min": 107397375552.0,
+        "max": 107397375552.0,
+        "std": null
+      },
+      "active_parameters": {
+        "mean": 32470.580403645832,
+        "min": 32470.580403645832,
+        "max": 32470.580403645832,
+        "std": null
+      },
+      "retrieved": {
+        "mean": 27532.0,
+        "min": 27532.0,
+        "max": 27532.0,
+        "std": null
+      },
+      "replayed": {
+        "mean": 25455.0,
+        "min": 25455.0,
+        "max": 25455.0,
+        "std": null
+      },
+      "accessible": {
+        "mean": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "std": null
+      },
+      "late_operations": {
+        "keep": 0.241455078125,
+        "retrieve": 0.14617919921875,
+        "relearn": 0.136474609375,
+        "compute": 0.13885498046875,
+        "admit": 0.10418701171875,
+        "fade": 0.12432861328125,
+        "retire": 0.1085205078125
+      },
+      "entropy_last": {
+        "mean": 2.243079662322998,
+        "min": 2.243079662322998,
+        "max": 2.243079662322998,
+        "std": null
+      }
+    },
+    {
+      "groups": 78,
+      "mode": "immediate",
+      "runs": 1,
+      "total_parameters": 991704,
+      "online": {
+        "mean": 0.9136772155761719,
+        "min": 0.9136772155761719,
+        "max": 0.9136772155761719,
+        "std": null
+      },
+      "online_last": {
+        "mean": 0.915069580078125,
+        "min": 0.915069580078125,
+        "max": 0.915069580078125,
+        "std": null
+      },
+      "seen": {
+        "mean": 0.9598388671875,
+        "min": 0.9598388671875,
+        "max": 0.9598388671875,
+        "std": null
+      },
+      "composition": {
+        "mean": 0.9373779296875,
+        "min": 0.9373779296875,
+        "max": 0.9373779296875,
+        "std": null
+      },
+      "state_mse": {
+        "mean": 0.00501180300489068,
+        "min": 0.00501180300489068,
+        "max": 0.00501180300489068,
+        "std": null
+      },
+      "estimated_macs": {
+        "mean": 109165858752.0,
+        "min": 109165858752.0,
+        "max": 109165858752.0,
+        "std": null
+      },
+      "active_parameters": {
+        "mean": 32874.142578125,
+        "min": 32874.142578125,
+        "max": 32874.142578125,
+        "std": null
+      },
+      "retrieved": {
+        "mean": 25939.0,
+        "min": 25939.0,
+        "max": 25939.0,
+        "std": null
+      },
+      "replayed": {
+        "mean": 30841.0,
+        "min": 30841.0,
+        "max": 30841.0,
+        "std": null
+      },
+      "accessible": {
+        "mean": 2.953125,
+        "min": 2.953125,
+        "max": 2.953125,
+        "std": null
+      },
+      "late_operations": {
+        "keep": 0.18121337890625,
+        "retrieve": 0.148193359375,
+        "relearn": 0.14532470703125,
+        "compute": 0.1602783203125,
+        "admit": 0.09808349609375,
+        "fade": 0.1697998046875,
+        "retire": 0.09710693359375
+      },
+      "entropy_last": {
+        "mean": 2.2769577503204346,
+        "min": 2.2769577503204346,
+        "max": 2.2769577503204346,
+        "std": null
+      }
+    },
+    {
+      "groups": 78,
+      "mode": "delayed",
+      "runs": 1,
+      "total_parameters": 991704,
+      "online": {
+        "mean": 0.91424560546875,
+        "min": 0.91424560546875,
+        "max": 0.91424560546875,
+        "std": null
+      },
+      "online_last": {
+        "mean": 0.912841796875,
+        "min": 0.912841796875,
+        "max": 0.912841796875,
+        "std": null
+      },
+      "seen": {
+        "mean": 0.963623046875,
+        "min": 0.963623046875,
+        "max": 0.963623046875,
+        "std": null
+      },
+      "composition": {
+        "mean": 0.93994140625,
+        "min": 0.93994140625,
+        "max": 0.93994140625,
+        "std": null
+      },
+      "state_mse": {
+        "mean": 0.005100353620946407,
+        "min": 0.005100353620946407,
+        "max": 0.005100353620946407,
+        "std": null
+      },
+      "estimated_macs": {
+        "mean": 110605820160.0,
+        "min": 110605820160.0,
+        "max": 110605820160.0,
+        "std": null
+      },
+      "active_parameters": {
+        "mean": 33073.834309895836,
+        "min": 33073.834309895836,
+        "max": 33073.834309895836,
+        "std": null
+      },
+      "retrieved": {
+        "mean": 21660.0,
+        "min": 21660.0,
+        "max": 21660.0,
+        "std": null
+      },
+      "replayed": {
+        "mean": 38812.0,
+        "min": 38812.0,
+        "max": 38812.0,
+        "std": null
+      },
+      "accessible": {
+        "mean": 3.3359375,
+        "min": 3.3359375,
+        "max": 3.3359375,
+        "std": null
+      },
+      "late_operations": {
+        "keep": 0.2027587890625,
+        "retrieve": 0.115966796875,
+        "relearn": 0.18798828125,
+        "compute": 0.16973876953125,
+        "admit": 0.092529296875,
+        "fade": 0.1363525390625,
+        "retire": 0.09466552734375
+      },
+      "entropy_last": {
+        "mean": 2.1895930767059326,
+        "min": 2.1895930767059326,
+        "max": 2.1895930767059326,
+        "std": null
+      }
+    }
+  ],
+  "matched_estimated_mac_prefixes": [
+    {
+      "groups": 9,
+      "seed": 23,
+      "world_seed": 440100,
+      "mode": "independent",
+      "common_estimated_mac_cap": 96679947264,
+      "end_step": 6144,
+      "success": 0.915802001953125,
+      "actual_estimated_macs": 96679947264
+    },
+    {
+      "groups": 9,
+      "seed": 23,
+      "world_seed": 440100,
+      "mode": "immediate",
+      "common_estimated_mac_cap": 96679947264,
+      "end_step": 6081,
+      "success": 0.9154052734375,
+      "actual_estimated_macs": 96670319616
+    },
+    {
+      "groups": 9,
+      "seed": 23,
+      "world_seed": 440100,
+      "mode": "delayed",
+      "common_estimated_mac_cap": 96679947264,
+      "end_step": 6080,
+      "success": 0.916412353515625,
+      "actual_estimated_macs": 96671310336
+    },
+    {
+      "groups": 78,
+      "seed": 23,
+      "world_seed": 440100,
+      "mode": "independent",
+      "common_estimated_mac_cap": 107395016256,
+      "end_step": 6144,
+      "success": 0.91534423828125,
+      "actual_estimated_macs": 107395016256
+    },
+    {
+      "groups": 78,
+      "seed": 23,
+      "world_seed": 440100,
+      "mode": "immediate",
+      "common_estimated_mac_cap": 107395016256,
+      "end_step": 6043,
+      "success": 0.913787841796875,
+      "actual_estimated_macs": 107379247104
+    },
+    {
+      "groups": 78,
+      "seed": 23,
+      "world_seed": 440100,
+      "mode": "delayed",
+      "common_estimated_mac_cap": 107395016256,
+      "end_step": 5964,
+      "success": 0.91510009765625,
+      "actual_estimated_macs": 107382466752
+    }
+  ]
+}

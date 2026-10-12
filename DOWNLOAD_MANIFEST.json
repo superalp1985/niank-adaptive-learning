@@ -1,0 +1,49 @@
+{
+  "repository": "eonsystemspbc/fly-brain",
+  "commit": "a3db62f9436074e485c0278290c2164ed6150808",
+  "downloaded_on": "2026-10-11",
+  "total_bytes": 104361482,
+  "git_blob_verification": "all downloads matched the pinned repository tree",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 17409,
+      "sha256": "ff087abb20b98a4ad11716277f7b55cef3ebccadccb07c7c9c883cad3a0f07b3"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 18092,
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    {
+      "path": "code/run_pytorch.py",
+      "bytes": 22859,
+      "sha256": "699655db7a56045271ba467268be153d0a3318d4cc4cecc0a13f33e69ce79667"
+    },
+    {
+      "path": "code/benchmark.py",
+      "bytes": 19369,
+      "sha256": "e18dae9072baf9ee0f0581282641c58864fdc138c6e75b718a542eb27d272874"
+    },
+    {
+      "path": "code/paper-phil-drosophila/model.py",
+      "bytes": 12039,
+      "sha256": "6e2cb5aab4ddf08cde2ca05cc49e87dd252c0358afe0dad17314211837b1f539"
+    },
+    {
+      "path": "code/paper-phil-drosophila/LICENSE",
+      "bytes": 1085,
+      "sha256": "3621f6d6476189190e2960fa43f11b275ba4eca848fdac50a1ba2925de6223e8"
+    },
+    {
+      "path": "data/2025_Completeness_783.csv",
+      "bytes": 3465987,
+      "sha256": "52b0ac6094cd32c546f8d4c341e094376f48f4e791f8db9b166de5dff8199ea4"
+    },
+    {
+      "path": "data/2025_Connectivity_783.parquet",
+      "bytes": 100804642,
+      "sha256": "efeb23fb99098e9c390f6869969b2a121a2ee92c833cfc45ecb2c1d8e1af0347"
+    }
+  ]
+}

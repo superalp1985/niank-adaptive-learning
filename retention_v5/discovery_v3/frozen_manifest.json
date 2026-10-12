@@ -1,0 +1,40 @@
+{
+  "stage": "discovery_v3",
+  "torch": "2.3.1+cu118",
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "source_sha256": "3cc4877bf0b0998f6bae45d4e4c2be5f93e8e38207c1965e75832dc102b3432e",
+  "modes": [
+    "full",
+    "fifo",
+    "surprise",
+    "value",
+    "anti_value",
+    "none"
+  ],
+  "volumes": [
+    [
+      64,
+      64
+    ],
+    [
+      512,
+      8
+    ],
+    [
+      512,
+      32
+    ],
+    [
+      2048,
+      8
+    ]
+  ],
+  "seeds": [
+    11
+  ],
+  "capacity": 4,
+  "reads": 2,
+  "truth": "Independent physical outcome cost; all near-optimal actions pass.",
+  "retention": "Evaluation priority never sees outcome or cue-time metadata.",
+  "feedback": "Evaluation scores precede learning; frozen tests do not update."
+}

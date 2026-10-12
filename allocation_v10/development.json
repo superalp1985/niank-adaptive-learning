@@ -1,0 +1,10 @@
+{
+  "stage": "development",
+  "steps": 256,
+  "worlds": 128,
+  "runs": [
+    {"mode": "independent", "seed": 11, "world_seed": 410100, "groups": 9},
+    {"mode": "immediate", "seed": 11, "world_seed": 410100, "groups": 9},
+    {"mode": "delayed", "seed": 11, "world_seed": 410100, "groups": 9}
+  ]
+}

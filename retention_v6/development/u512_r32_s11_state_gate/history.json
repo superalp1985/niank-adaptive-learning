@@ -1,0 +1,134 @@
+[
+  {
+    "repeat": 1,
+    "presentations": 512,
+    "updates": 8,
+    "development": {
+      "success": 0.41796875,
+      "regret": 0.10352028906345367,
+      "state_mse": 0.10702931880950928,
+      "fine_retained": 0.296875,
+      "fine_read": 0.08984375,
+      "coarse_retained": 0.375,
+      "gate": 0.5904086828231812,
+      "risk_success": 0.3924050632911392,
+      "risk_fine_retained": 0.4050632911392405,
+      "risk_fine_read": 0.12658227848101267,
+      "risk_gate": 0.5935695767402649,
+      "safe_success": 0.4293785310734463,
+      "safe_fine_retained": 0.24858757062146894,
+      "safe_fine_read": 0.07344632768361582,
+      "safe_gate": 0.5889979004859924,
+      "episodes": 256,
+      "event_records_scored": 18,
+      "active_records": 4,
+      "read_records": 2
+    },
+    "train": {
+      "loss": 4.043276935815811,
+      "action_loss": 1.1018352955579758,
+      "state_mse": 0.22702926211059093,
+      "value_loss": 2.8892795145511627,
+      "gate_mean": 0.5568110942840576
+    }
+  },
+  {
+    "repeat": 8,
+    "presentations": 4096,
+    "updates": 64,
+    "development": {
+      "success": 0.68359375,
+      "regret": 0.04699636995792389,
+      "state_mse": 0.02943595126271248,
+      "fine_retained": 0.6171875,
+      "fine_read": 0.359375,
+      "coarse_retained": 0.515625,
+      "gate": 0.5481593608856201,
+      "risk_success": 0.620253164556962,
+      "risk_fine_retained": 0.5822784810126582,
+      "risk_fine_read": 0.34177215189873417,
+      "risk_gate": 0.5541719794273376,
+      "safe_success": 0.711864406779661,
+      "safe_fine_retained": 0.632768361581921,
+      "safe_fine_read": 0.3672316384180791,
+      "safe_gate": 0.5454757809638977,
+      "episodes": 256,
+      "event_records_scored": 18,
+      "active_records": 4,
+      "read_records": 2
+    },
+    "train": {
+      "loss": 2.264907121658325,
+      "action_loss": 0.9251465424895287,
+      "state_mse": 0.03525250358507037,
+      "value_loss": 2.6723009645938873,
+      "gate_mean": 0.5438770428299904
+    }
+  },
+  {
+    "repeat": 16,
+    "presentations": 8192,
+    "updates": 128,
+    "development": {
+      "success": 0.9296875,
+      "regret": 0.006933141499757767,
+      "state_mse": 0.013577274978160858,
+      "fine_retained": 0.48046875,
+      "fine_read": 0.48046875,
+      "coarse_retained": 1.0,
+      "gate": 0.5422649383544922,
+      "risk_success": 0.8607594936708861,
+      "risk_fine_retained": 0.4936708860759494,
+      "risk_fine_read": 0.4936708860759494,
+      "risk_gate": 0.546892523765564,
+      "safe_success": 0.96045197740113,
+      "safe_fine_retained": 0.4745762711864407,
+      "safe_fine_read": 0.4745762711864407,
+      "safe_gate": 0.5401996374130249,
+      "episodes": 256,
+      "event_records_scored": 18,
+      "active_records": 4,
+      "read_records": 2
+    },
+    "train": {
+      "loss": 1.1692339181900024,
+      "action_loss": 0.3977849446237087,
+      "state_mse": 0.017506932839751244,
+      "value_loss": 2.21612149477005,
+      "gate_mean": 0.5498402714729309
+    }
+  },
+  {
+    "repeat": 32,
+    "presentations": 16384,
+    "updates": 256,
+    "development": {
+      "success": 0.953125,
+      "regret": 0.004685224965214729,
+      "state_mse": 0.010582994669675827,
+      "fine_retained": 1.0,
+      "fine_read": 0.48046875,
+      "coarse_retained": 1.0,
+      "gate": 0.5287728309631348,
+      "risk_success": 0.8860759493670886,
+      "risk_fine_retained": 1.0,
+      "risk_fine_read": 0.4936708860759494,
+      "risk_gate": 0.5377677083015442,
+      "safe_success": 0.9830508474576272,
+      "safe_fine_retained": 1.0,
+      "safe_fine_read": 0.4745762711864407,
+      "safe_gate": 0.5247581601142883,
+      "episodes": 256,
+      "event_records_scored": 18,
+      "active_records": 4,
+      "read_records": 2
+    },
+    "train": {
+      "loss": 0.9679535999894142,
+      "action_loss": 0.3233850374817848,
+      "state_mse": 0.010209803760517389,
+      "value_loss": 2.189611703157425,
+      "gate_mean": 0.5299983844161034
+    }
+  }
+]

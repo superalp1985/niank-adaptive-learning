@@ -1,0 +1,30 @@
+[
+  {
+    "nodes": 512,
+    "nonzero_edges": 46465,
+    "positive_edges": 24228,
+    "negative_edges": 22237,
+    "accepted_double_edge_swaps": 286796,
+    "edge_overlap_fraction": 0.28772194124609923,
+    "selection": "official sugar neurons then strongest outgoing mass, at most 64 per round",
+    "control": "signed degree-preserving double-edge swaps; weight multiset preserved",
+    "not_preserved": "individual weighted degrees and full-brain dynamics",
+    "scope": "induced structural prior, not a complete brain or trained model",
+    "source_commit": "a3db62f9436074e485c0278290c2164ed6150808",
+    "sha256": "0e9be9398076848b075716479a908740fee219ef567a5386f47bdcac3d0c8946"
+  },
+  {
+    "nodes": 1024,
+    "nonzero_edges": 103219,
+    "positive_edges": 52914,
+    "negative_edges": 50305,
+    "accepted_double_edge_swaps": 878863,
+    "edge_overlap_fraction": 0.16246039973260737,
+    "selection": "official sugar neurons then strongest outgoing mass, at most 64 per round",
+    "control": "signed degree-preserving double-edge swaps; weight multiset preserved",
+    "not_preserved": "individual weighted degrees and full-brain dynamics",
+    "scope": "induced structural prior, not a complete brain or trained model",
+    "source_commit": "a3db62f9436074e485c0278290c2164ed6150808",
+    "sha256": "325723ece7e896e51d1792d856423b14a52bea19643182163c9ed4017ff95322"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "nodes": 256,
+  "nonzero_edges": 13098,
+  "positive_edges": 7743,
+  "negative_edges": 5355,
+  "accepted_double_edge_swaps": 75585,
+  "edge_overlap_fraction": 0.315162620247366,
+  "selection": "official sugar neurons then strongest outgoing mass, at most 64 per round",
+  "control": "signed degree-preserving double-edge swaps; weight multiset preserved",
+  "not_preserved": "individual weighted degrees and full-brain dynamics",
+  "scope": "induced structural prior, not a complete brain or trained model",
+  "source_commit": "a3db62f9436074e485c0278290c2164ed6150808"
+}

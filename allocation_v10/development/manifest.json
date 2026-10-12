@@ -1,0 +1,37 @@
+{
+  "config": {
+    "stage": "development",
+    "steps": 256,
+    "worlds": 128,
+    "runs": [
+      {
+        "mode": "independent",
+        "seed": 11,
+        "world_seed": 410100,
+        "groups": 9
+      },
+      {
+        "mode": "immediate",
+        "seed": 11,
+        "world_seed": 410100,
+        "groups": 9
+      },
+      {
+        "mode": "delayed",
+        "seed": 11,
+        "world_seed": 410100,
+        "groups": 9
+      }
+    ]
+  },
+  "sha256": {
+    "core.py": "4e2bc109829d1e4d9097d3753a258b7b64d9ac37ac63edc126432503b5fdcff9",
+    "run.py": "51af2ad916d1bbca17578af73c218b782d910e5c7f4a3f720ff06ac20d5191f8",
+    "test_contracts.py": "012cb44d32cd1977ba809153af42556357119e0fed6bee401eda3e7a7f664b75",
+    "PROTOCOL.md": "fa0ed8713643face47ed539ee6afe8d6edda1c65a69805dbeebf75e87ad06343",
+    "physics_dependency": "3cc4877bf0b0998f6bae45d4e4c2be5f93e8e38207c1965e75832dc102b3432e"
+  },
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "torch": "2.3.1+cu118",
+  "device": "cuda"
+}

@@ -1,0 +1,97 @@
+{
+  "source_hashes": true,
+  "transitions": 4816896,
+  "decisions": 1204224,
+  "runs_and_probes": [
+    {
+      "path": "g78_s23_w440100_delayed\\composition",
+      "transitions": 8192,
+      "success": 0.93994140625
+    },
+    {
+      "path": "g78_s23_w440100_delayed\\seen",
+      "transitions": 8192,
+      "success": 0.963623046875
+    },
+    {
+      "path": "g78_s23_w440100_delayed",
+      "transitions": 786432,
+      "success": 0.91424560546875
+    },
+    {
+      "path": "g78_s23_w440100_immediate\\composition",
+      "transitions": 8192,
+      "success": 0.9373779296875
+    },
+    {
+      "path": "g78_s23_w440100_immediate\\seen",
+      "transitions": 8192,
+      "success": 0.9598388671875
+    },
+    {
+      "path": "g78_s23_w440100_immediate",
+      "transitions": 786432,
+      "success": 0.9136772155761719
+    },
+    {
+      "path": "g78_s23_w440100_independent\\composition",
+      "transitions": 8192,
+      "success": 0.94189453125
+    },
+    {
+      "path": "g78_s23_w440100_independent\\seen",
+      "transitions": 8192,
+      "success": 0.9669189453125
+    },
+    {
+      "path": "g78_s23_w440100_independent",
+      "transitions": 786432,
+      "success": 0.9128710428873698
+    },
+    {
+      "path": "g9_s23_w440100_delayed\\composition",
+      "transitions": 8192,
+      "success": 0.9337158203125
+    },
+    {
+      "path": "g9_s23_w440100_delayed\\seen",
+      "transitions": 8192,
+      "success": 0.958984375
+    },
+    {
+      "path": "g9_s23_w440100_delayed",
+      "transitions": 786432,
+      "success": 0.9136466979980469
+    },
+    {
+      "path": "g9_s23_w440100_immediate\\composition",
+      "transitions": 8192,
+      "success": 0.933837890625
+    },
+    {
+      "path": "g9_s23_w440100_immediate\\seen",
+      "transitions": 8192,
+      "success": 0.9609375
+    },
+    {
+      "path": "g9_s23_w440100_immediate",
+      "transitions": 786432,
+      "success": 0.9140345255533854
+    },
+    {
+      "path": "g9_s23_w440100_independent\\composition",
+      "transitions": 8192,
+      "success": 0.93896484375
+    },
+    {
+      "path": "g9_s23_w440100_independent\\seen",
+      "transitions": 8192,
+      "success": 0.95751953125
+    },
+    {
+      "path": "g9_s23_w440100_independent",
+      "transitions": 786432,
+      "success": 0.9129409790039062
+    }
+  ]
+}

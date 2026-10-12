@@ -1,0 +1,77 @@
+{
+  "mode": "state_gate",
+  "seed": 11,
+  "unique": 512,
+  "repeats": 32,
+  "presentations": 16384,
+  "parameters": 14030,
+  "train_fingerprint": "a201948ba52f4a05c6fe6e75c76bef9d5209fb460e3dcfc6d537ca0b30cbcc81",
+  "seconds": 16.04256429988891,
+  "extra_training_event_replays": 294912,
+  "single_event_decoder_evaluations": 294912,
+  "development": {
+    "success": 0.953125,
+    "regret": 0.004685224965214729,
+    "state_mse": 0.010582994669675827,
+    "fine_retained": 1.0,
+    "fine_read": 0.48046875,
+    "coarse_retained": 1.0,
+    "gate": 0.5287728309631348,
+    "risk_success": 0.8860759493670886,
+    "risk_fine_retained": 1.0,
+    "risk_fine_read": 0.4936708860759494,
+    "risk_gate": 0.5377677083015442,
+    "safe_success": 0.9830508474576272,
+    "safe_fine_retained": 1.0,
+    "safe_fine_read": 0.4745762711864407,
+    "safe_gate": 0.5247581601142883,
+    "episodes": 256,
+    "event_records_scored": 18,
+    "active_records": 4,
+    "read_records": 2
+  },
+  "detail": {
+    "0": {
+      "effect_gain": null,
+      "effect_mse": 0.008021046407520771,
+      "predicted_effect_mae": 0.06318075209856033,
+      "truth_effect_mae": 0.0,
+      "fine_retained": 1.0,
+      "fine_read": 0.5
+    },
+    "1": {
+      "effect_gain": 0.18361854553222656,
+      "effect_mse": 0.09049848467111588,
+      "predicted_effect_mae": 0.06613685935735703,
+      "truth_effect_mae": 0.36000004410743713,
+      "fine_retained": 1.0,
+      "fine_read": 0.5
+    }
+  },
+  "recovery": {
+    "stale_success": 0.859375,
+    "recovered_success": 0.859375,
+    "stale_regret": 0.012557704001665115,
+    "recovered_regret": 0.012557704001665115,
+    "stale_state_mse": 0.019860316067934036,
+    "recovered_state_mse": 0.019860606640577316,
+    "stale_fine_retained": 1.0,
+    "recovered_fine_retained": 1.0,
+    "safe_gate": 0.52415931224823,
+    "risk_gate": 0.536368191242218,
+    "forgotten_episodes": 0,
+    "forgotten_stale_success": null,
+    "forgotten_recovered_success": null,
+    "stale_database_reads": {
+      "records": 1024,
+      "bytes": 442368
+    },
+    "recovery_database_reads": {
+      "records": 6656,
+      "bytes": 2875392
+    },
+    "stale_real_observation_records": 4,
+    "recovery_real_observation_records": 26,
+    "stale_slot_computations_including_blanks": 26
+  }
+}
