@@ -122,7 +122,8 @@ MT-Opt和XLand与“跨场景共享经历、逐步发展更广能力”最直接
 没有依据二手宣传推断某条路线已经被彻底淘汰。
 
 1. Cobbe et al., Leveraging Procedural Generation to Benchmark Reinforcement
-   Learning, ICML 2020。核对正文第2.2、3.1、3.2节。
+   Learning, ICML 2020。核对论文集摘要及正文关于训练关卡多样性、
+   固定关卡序列和测试分布的相关段落。
    https://proceedings.mlr.press/v119/cobbe20a/cobbe20a.pdf
 2. Open Ended Learning Team et al., Open-Ended Learning Leads to Generally
    Capable Agents, 2021。核对引言、第5节训练构成、第6.2.2节消融。
@@ -137,8 +138,8 @@ MT-Opt和XLand与“跨场景共享经历、逐步发展更广能力”最直接
    https://proceedings.mlr.press/v100/yu20a.html
    https://proceedings.mlr.press/v100/yu20a/yu20a.pdf
 5. Peng et al., Sim-to-Real Transfer of Robotic Control with Dynamics
-   Randomization, ICRA 2018；预印本2017。核对摘要、随机化与训练算法，
-   特别是critic可访问真实动力学参数的边界。
+   Randomization, ICRA 2018；预印本2017。核对摘要及训练中的随机化、
+   历史输入和critic可访问真实动力学参数的相关段落。
    https://arxiv.org/html/1710.06537v3
 6. Yu et al., Gradient Surgery for Multi-Task Learning, NeurIPS 2020。
    核对第2.2、2.3节；不将其局部条件下分析外推为通用全局保证。
@@ -152,7 +153,7 @@ MT-Opt和XLand与“跨场景共享经历、逐步发展更广能力”最直接
    https://proceedings.neurips.cc/paper_files/paper/2019/hash/fa7cdfad1a5aaf8370ebeda47a1ff1c3-Abstract.html
 9. Forestier et al., Intrinsically Motivated Goal Exploration Processes with
    Automatic Curriculum Learning, JMLR 2022。核对期刊摘要，不声称逐式审读。
-   https://www.jmlr.org/beta/papers/v23/21-0808.html
+   https://www.jmlr.org/papers/v23/21-0808.html
 10. Open X-Embodiment Collaboration, Open X-Embodiment: Robotic Learning
     Datasets and RT-X Models, 2023/ICRA 2024。只核对作者项目页的
     摘要、数据概述和模型概述；PDF正文及混合消融未审读。
