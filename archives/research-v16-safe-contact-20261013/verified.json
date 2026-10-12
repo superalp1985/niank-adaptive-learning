@@ -1,0 +1,54 @@
+{
+  "repository": "superalp1985/niank-adaptive-learning",
+  "tag": "research-v16-safe-contact-20261013",
+  "manifest_sha256": "f7256dc4a85d10401cbb8cf217038fb16760572ee2b9ed55c7ce7aac05ffc33a",
+  "remote_manifest_sha256": "f7256dc4a85d10401cbb8cf217038fb16760572ee2b9ed55c7ce7aac05ffc33a",
+  "verified_utc": "2026-10-12T18:10:03.418043+00:00",
+  "parts": [
+    {
+      "name": "research-v16-safe-contact-20261013.zip.part001",
+      "bytes": 41943040,
+      "sha256": "fd068c09abcd9e208710defc01ed1f37fd9883363000d5614ab5778f516b5719"
+    },
+    {
+      "name": "research-v16-safe-contact-20261013.zip.part002",
+      "bytes": 41943040,
+      "sha256": "9c963ba76af14a4bfdea16fd03a59084cc5500d1d0ba05cca69c87d00793664c"
+    },
+    {
+      "name": "research-v16-safe-contact-20261013.zip.part003",
+      "bytes": 41943040,
+      "sha256": "18148aa5910b1d91c2f9b1998f4500503c708a77ae38d8dda0cf517bc33756b4"
+    },
+    {
+      "name": "research-v16-safe-contact-20261013.zip.part004",
+      "bytes": 41943040,
+      "sha256": "f087155d6336b9044aae0f6095668588fc752b213d0d51175701e0a77622f599"
+    },
+    {
+      "name": "research-v16-safe-contact-20261013.zip.part005",
+      "bytes": 41943040,
+      "sha256": "d08aaad9e4b6ef0ed6e7ebca86701475ab1ae8b38fbe4c7f6f2c32a396a5fb01"
+    },
+    {
+      "name": "research-v16-safe-contact-20261013.zip.part006",
+      "bytes": 41943040,
+      "sha256": "fe3ce71399054084f7bf4ff2bc7a4dc082af1abb4f23c1a40700c9818a2fefd6"
+    },
+    {
+      "name": "research-v16-safe-contact-20261013.zip.part007",
+      "bytes": 41943040,
+      "sha256": "a17385b661969c3501e4a9bf95b55b0a8f8e5343dab923469d8902f9e7b4c30d"
+    },
+    {
+      "name": "research-v16-safe-contact-20261013.zip.part008",
+      "bytes": 41943040,
+      "sha256": "97f96824f4b5b9ffe310033349dd92d976e775edd22399539ee1fd76f3fd585e"
+    },
+    {
+      "name": "research-v16-safe-contact-20261013.zip.part009",
+      "bytes": 184037,
+      "sha256": "f716948c1c034165cc20b3908adeebe7bf7fbc3907ca01506aec37db154634a0"
+    }
+  ]
+}

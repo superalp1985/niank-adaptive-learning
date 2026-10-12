@@ -35,11 +35,15 @@ def main():
             ax.set_ylim(bottom=0)
             ax.grid(alpha=0.2)
             ax.legend(frameon=False)
-    for ax, title in zip(axes, ("Target contact", "Contact without collision",
-                               "Impacts / episodes", "Collision steps / steps")):
+    for ax, title, metric in zip(axes, ("Target contact", "Contact without collision",
+                               "Impacts / episodes", "Collision steps / steps"),
+                                ("success", "safe_success", "impact", "collision_step_rate")):
         ax.set_title(title, fontsize=10)
+        maximum = max(payload[str(step)]["heldout"][metric]
+                      for payload in results.values() for step in (0, 1024, 4096, 8192))
+        ax.set_ylim(0, max(maximum * 1.08, 0.01))
     fig.tight_layout()
-    fig.savefig(ROOT / "PROCESS_CURVES.png", dpi=150)
+    fig.savefig(ROOT / "PROCESS_CURVES_CORRECTED.png", dpi=150)
     plt.close(fig)
     lines += ["", "## 最终逐场景", "",
               "| 模式 | 布局,运动,攻击 | 接触/结束 | 无碰撞接触/结束 | 受击/结束 |",
