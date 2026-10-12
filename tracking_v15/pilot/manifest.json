@@ -1,0 +1,33 @@
+{
+  "config": {
+    "stage": "pilot",
+    "model_seed": 151,
+    "world_seed": 651000,
+    "worlds": 48,
+    "rollout": 64,
+    "epochs": 4,
+    "milestones": [
+      1024,
+      4096,
+      8192
+    ],
+    "probe_windows": 8,
+    "modes": [
+      "temporal",
+      "risk_alloc"
+    ]
+  },
+  "source": {
+    "tracking_v15\\PROTOCOL.md": "20b2b770c194b56c9412cd1046cfdc2f2977684574f420357e64a6bd6f08debf",
+    "tracking_v15\\pilot.json": "5f3290c90d6ae08304c735fb69d49033e147172f0c9fc336a380a3c3d26ea6fa",
+    "tracking_v15\\learner.py": "f9ccc989fb3338ed7160bd497fa98abd6f7d033777c37b375299dd9e88fc4289",
+    "tracking_v15\\run.py": "44d15cc28ed51fd9341ba7cd081acab5324f19d610b94104930fcbae1d81c0c8",
+    "tracking_v15\\test_contracts.py": "c3c43b8c6aceb591a92208a9ce1e3c0e0f8d31b83877de00729ee4b0cf0cccf4",
+    "tracking_v14\\world.py": "adeaa46fe3e409084a5e24d6242e738f2b5ed96fc089bae9245962136aa47087",
+    "tracking_v14\\memory.py": "da135c6754c9573a1b18de6ec3fecbbc2b240dac518425c03b5ae786588231ef",
+    "tracking_v14\\learner.py": "fee109d39e7dcc9f7442066810d5e8513a02a3aa027cddfe64425023989337fd",
+    "tracking_v14\\run.py": "09ec7ebc479e0c1fbe19ca1af772c6f6267caff43e6d53cdec8b273518403e42"
+  },
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "torch": "2.7.1+cu128"
+}

@@ -49,8 +49,10 @@ def folder_audit(folder):
                 np.testing.assert_array_equal(data["success"], data["contact"] & ~data["impact"])
                 np.testing.assert_array_equal(
                     data["done"], data["success"] | data["impact"] | (data["duration"] >= 128))
-                distance_before = np.linalg.norm(raw_before[:, 2:4], axis=1) * 6
-                distance_after = np.linalg.norm(raw_after[:, 2:4], axis=1) * 6
+                distance_before = np.linalg.norm(raw_before[:, 2:4].astype(np.float64),
+                                                axis=1) * 6
+                distance_after = np.linalg.norm(raw_after[:, 2:4].astype(np.float64),
+                                               axis=1) * 6
                 reward = (2 * (distance_before - distance_after) - 0.015
                           - 0.004 * (data["actions"].ravel() != 0)
                           - 0.4 * data["collision"].ravel()
@@ -108,6 +110,9 @@ def main():
         for step in [0] + manifest["config"]["milestones"]:
             results[mode][str(step)] = {name: folder_audit(output / mode / f"probe_{step}" / name)
                                        for name in ("seen", "heldout")}
+            extra = output / mode / f"probe_{step}" / "heldout_no_risk"
+            if extra.exists():
+                results[mode][str(step)]["heldout_no_risk"] = folder_audit(extra)
         print(json.dumps(dict(audited=mode, transitions=results[mode]["training"]["transitions"])),
               flush=True)
     (output / "AUDIT.json").write_text(json.dumps(dict(results=results,

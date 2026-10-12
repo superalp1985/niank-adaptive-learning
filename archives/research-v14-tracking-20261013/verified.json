@@ -1,0 +1,44 @@
+{
+  "repository": "superalp1985/niank-adaptive-learning",
+  "tag": "research-v14-tracking-20261013",
+  "manifest_sha256": "d418a065ec5bf42b1c564dffe9663bce3911d57535ee9cf39f9a36c04eb9ee63",
+  "remote_manifest_sha256": "d418a065ec5bf42b1c564dffe9663bce3911d57535ee9cf39f9a36c04eb9ee63",
+  "verified_utc": "2026-10-12T17:29:30.184990+00:00",
+  "parts": [
+    {
+      "name": "research-v14-tracking-20261013.zip.part001",
+      "bytes": 41943040,
+      "sha256": "179b3fc7aedc429e20ff491cc3e256f9df80ab7ac602368ca219e9ec09bde8ab"
+    },
+    {
+      "name": "research-v14-tracking-20261013.zip.part002",
+      "bytes": 41943040,
+      "sha256": "a448fb2e406a77f63ff27b5ab3497469abff05c7056d3de621650d83c8338d6a"
+    },
+    {
+      "name": "research-v14-tracking-20261013.zip.part003",
+      "bytes": 41943040,
+      "sha256": "6e0048d8a8a0a5d8c0fff592ab6ce92bef7aebc0404f13f1499b6d2a21a62465"
+    },
+    {
+      "name": "research-v14-tracking-20261013.zip.part004",
+      "bytes": 41943040,
+      "sha256": "f8fc667bfff9a0fd799f2ee879bb07af3ef2263587555e553260a3e58f5ebe23"
+    },
+    {
+      "name": "research-v14-tracking-20261013.zip.part005",
+      "bytes": 41943040,
+      "sha256": "9120f567112a9a242c173c625718202016a8c0b8c6ccc464f8d82096e5350562"
+    },
+    {
+      "name": "research-v14-tracking-20261013.zip.part006",
+      "bytes": 41943040,
+      "sha256": "19b8201a8555fa26f86e6713647d1dfbc2e51f83155812fc27b707a3a44bd7bf"
+    },
+    {
+      "name": "research-v14-tracking-20261013.zip.part007",
+      "bytes": 21746194,
+      "sha256": "fac51cf4ab35adf61839f61d32b0f0a7b6262fb2bfbf9fbbde9a96e586d36485"
+    }
+  ]
+}

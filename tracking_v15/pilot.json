@@ -1,0 +1,11 @@
+{
+  "stage": "pilot",
+  "model_seed": 151,
+  "world_seed": 651000,
+  "worlds": 48,
+  "rollout": 64,
+  "epochs": 4,
+  "milestones": [1024, 4096, 8192],
+  "probe_windows": 8,
+  "modes": ["temporal", "risk_alloc"]
+}
