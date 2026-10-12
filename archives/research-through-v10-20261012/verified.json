@@ -1,0 +1,93 @@
+{
+  "repository": "superalp1985/niank-adaptive-learning",
+  "tag": "research-through-v10-20261012",
+  "manifest_sha256": "9c0e1c01ec393b29c82dd466bdcfd0d5b9543b87f7b39a88af55e6abc4569a93",
+  "verified_utc": "2026-10-12T13:48:11.465678+00:00",
+  "parts": [
+    {
+      "name": "research-through-v10-20261012.zip.part001",
+      "bytes": 41943040,
+      "sha256": "31025174ff6cb735f074a4f5f3c22797189669f5d7b2e72262733d9f868fdb8b"
+    },
+    {
+      "name": "research-through-v10-20261012.zip.part002",
+      "bytes": 41943040,
+      "sha256": "aad9decea09ba39187dc3b899083de4a0866162ae2ee3d0fb723f18424e7a417"
+    },
+    {
+      "name": "research-through-v10-20261012.zip.part003",
+      "bytes": 41943040,
+      "sha256": "fa3ce31a80c4d9b7e12dbdee8f13c748bac58a87308af824cc5facd5aa4d5b06"
+    },
+    {
+      "name": "research-through-v10-20261012.zip.part004",
+      "bytes": 41943040,
+      "sha256": "a44a387eff68916ca59471f4394ce870cb675392ceb4b540782c179699a4a5c9"
+    },
+    {
+      "name": "research-through-v10-20261012.zip.part005",
+      "bytes": 41943040,
+      "sha256": "11e20e381c0a8a11917b6a18c76bbd2fde93b19bce51b2fc42d2939446a94094"
+    },
+    {
+      "name": "research-through-v10-20261012.zip.part006",
+      "bytes": 41943040,
+      "sha256": "1cbf40a0ec164352ae665efad7d1e2d03ff80a954f18fc4471634c085bef82a4"
+    },
+    {
+      "name": "research-through-v10-20261012.zip.part007",
+      "bytes": 41943040,
+      "sha256": "b73eba50192ef9253f48aa681ed111ee701250d658771be5d50f4dfc356b690d"
+    },
+    {
+      "name": "research-through-v10-20261012.zip.part008",
+      "bytes": 41943040,
+      "sha256": "1ec784c28a6300a8ec60049214358f6ba29257dd99bcf387616bcd2a64992e79"
+    },
+    {
+      "name": "research-through-v10-20261012.zip.part009",
+      "bytes": 41943040,
+      "sha256": "dc24c9ab1bd684c2575af513d117ea2427a1832b839ac16b794c22599cd939a0"
+    },
+    {
+      "name": "research-through-v10-20261012.zip.part010",
+      "bytes": 41943040,
+      "sha256": "f5678f64f9705f04c3c689ab909449d2c0039845f6f3fe98be0a4dcad39aa172"
+    },
+    {
+      "name": "research-through-v10-20261012.zip.part011",
+      "bytes": 41943040,
+      "sha256": "9aa0ca1ae289ff6ddd7cb5a9d885e3808eff2e61e45942a0e8f43db1bd2d472a"
+    },
+    {
+      "name": "research-through-v10-20261012.zip.part012",
+      "bytes": 41943040,
+      "sha256": "9e4a965bf215b66fdf7f905875cd454b46a2202da2cbf2423270feb7401b9fc1"
+    },
+    {
+      "name": "research-through-v10-20261012.zip.part013",
+      "bytes": 41943040,
+      "sha256": "52262006d256d6073edb144ca429634bea8a52c016f8acd7f032b5e455ea501e"
+    },
+    {
+      "name": "research-through-v10-20261012.zip.part014",
+      "bytes": 41943040,
+      "sha256": "08bc62f39fbe58802eb5bee5d4b10d66f2b485a035754dc54579c8da57adeb0e"
+    },
+    {
+      "name": "research-through-v10-20261012.zip.part015",
+      "bytes": 41943040,
+      "sha256": "a2a5d2290d6adb0206d61c8393b8050e7e8b25c23da451d501d743faf29d0b2d"
+    },
+    {
+      "name": "research-through-v10-20261012.zip.part016",
+      "bytes": 41943040,
+      "sha256": "5f70c9488dc19773d8d2adc0705a655ba4762a4161d749924d2e446b1045b9cd"
+    },
+    {
+      "name": "research-through-v10-20261012.zip.part017",
+      "bytes": 37619735,
+      "sha256": "1bf133e1a7763ecd7936b9b5aa883f04940e924a5627fe5ae7cf7ad39ff00330"
+    }
+  ]
+}

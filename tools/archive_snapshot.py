@@ -76,6 +76,7 @@ def prepare(tag, scope):
     stage.mkdir(parents=True)
     upload = stage / "upload-repo" / "upload"
     upload.mkdir(parents=True)
+    (upload.parent / ".gitattributes").write_text("* -text\n", encoding="utf-8")
     paths = sorted(
         p for p in scope_path.rglob("*") if p.is_file()
         and not any(part in EXCLUDED or part.startswith(".venv") for part in p.relative_to(ROOT).parts)
@@ -153,6 +154,10 @@ def remote_part(tag, name):
 
 def verify(tag):
     manifest = read_manifest(tag)
+    with remote_part(tag, "manifest.json") as source:
+        remote_manifest = source.read()
+    if json.loads(remote_manifest) != manifest:
+        raise RuntimeError("Remote manifest content differs from local manifest")
     verified = []
     for part in manifest["parts"]:
         sha, size = hashlib.sha256(), 0
@@ -166,6 +171,7 @@ def verify(tag):
         print(json.dumps({"verified_part": part["name"], "bytes": size}), flush=True)
     dump(location(tag) / "verified.json", dict(
         repository=REPOSITORY, tag=tag, manifest_sha256=digest(location(tag) / "manifest.json"),
+        remote_manifest_sha256=hashlib.sha256(remote_manifest).hexdigest(),
         verified_utc=dt.datetime.now(dt.timezone.utc).isoformat(), parts=verified,
     ))
 

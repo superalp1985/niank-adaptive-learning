@@ -1,0 +1,10 @@
+{
+  "stage": "pilot",
+  "model_seed": 61,
+  "world_seed": 510100,
+  "worlds": 64,
+  "groups": 9,
+  "delays": [8, 20],
+  "modes": ["pooled", "addressed"],
+  "milestones": [1024, 4096]
+}
