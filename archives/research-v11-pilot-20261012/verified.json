@@ -1,0 +1,19 @@
+{
+  "repository": "superalp1985/niank-adaptive-learning",
+  "tag": "research-v11-pilot-20261012",
+  "manifest_sha256": "9b359e1b936c73a383ed448fe499ef6873b4de8c991964e583196684c600d78f",
+  "remote_manifest_sha256": "9b359e1b936c73a383ed448fe499ef6873b4de8c991964e583196684c600d78f",
+  "verified_utc": "2026-10-12T14:14:46.308430+00:00",
+  "parts": [
+    {
+      "name": "research-v11-pilot-20261012.zip.part001",
+      "bytes": 41943040,
+      "sha256": "f89d0350c6c8fb8a38c2da01594d16b03090c7db2143c367dd1bf6a8276c6ee1"
+    },
+    {
+      "name": "research-v11-pilot-20261012.zip.part002",
+      "bytes": 27196167,
+      "sha256": "36eb1d2ac1523468aa1f66b4a66b00d45161459b3c4aaf9154464c5ea19017e4"
+    }
+  ]
+}
