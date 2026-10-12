@@ -1,0 +1,13 @@
+{
+  "status": "withdrawn_before_implementation",
+  "execution_allowed": false,
+  "reason": "User requested multi-scenario literature review before experiments on 2026-10-13.",
+  "stage": "pilot",
+  "model_seed": 83,
+  "world_seed": 631300,
+  "worlds": 64,
+  "groups": 4,
+  "phase_steps": 3072,
+  "phases": 4,
+  "modes": ["flat_short", "class_short", "class_span"]
+}
