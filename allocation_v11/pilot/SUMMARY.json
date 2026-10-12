@@ -1,0 +1,344 @@
+{
+  "rows": [
+    {
+      "mode": "pooled",
+      "delay": 8,
+      "steps": 1024,
+      "new_experiences": 65536,
+      "parameters": 129572,
+      "used_groups": 8,
+      "changed_groups": 8,
+      "estimated_total_macs": 10464609360,
+      "replay_presentations": 1779,
+      "seen": {
+        "success": 0.8849609375,
+        "critical_success": 0.9296875,
+        "mse": 0.0062644644640386105,
+        "critical_mse": 0.0020100120455026627,
+        "regret": 0.017432518303394318,
+        "behavior": {
+          "retrievals": 0,
+          "retrievals_age_at_least_12": 0,
+          "both_cues_available_at_change": 256,
+          "change_events": 256,
+          "both_cues_fraction": 1.0
+        }
+      },
+      "composition": {
+        "success": 0.8544270833333333,
+        "critical_success": 0.9501953125,
+        "mse": 0.01104679610580206,
+        "critical_mse": 0.0029493365436792374,
+        "regret": 0.016655659303069115,
+        "behavior": {
+          "retrievals": 0,
+          "retrievals_age_at_least_12": 0,
+          "both_cues_available_at_change": 256,
+          "change_events": 256,
+          "both_cues_fraction": 1.0
+        }
+      }
+    },
+    {
+      "mode": "pooled",
+      "delay": 8,
+      "steps": 4096,
+      "new_experiences": 262144,
+      "parameters": 129572,
+      "used_groups": 9,
+      "changed_groups": 9,
+      "estimated_total_macs": 42144038208,
+      "replay_presentations": 8972,
+      "seen": {
+        "success": 0.9436848958333334,
+        "critical_success": 0.990234375,
+        "mse": 0.0052837408147752285,
+        "critical_mse": 0.0013562606181949377,
+        "regret": 0.003919933922588825,
+        "behavior": {
+          "retrievals": 0,
+          "retrievals_age_at_least_12": 0,
+          "both_cues_available_at_change": 256,
+          "change_events": 256,
+          "both_cues_fraction": 1.0
+        }
+      },
+      "composition": {
+        "success": 0.9089192708333333,
+        "critical_success": 0.9853515625,
+        "mse": 0.009061279706656933,
+        "critical_mse": 0.0027021383866667747,
+        "regret": 0.006986954715102911,
+        "behavior": {
+          "retrievals": 0,
+          "retrievals_age_at_least_12": 0,
+          "both_cues_available_at_change": 256,
+          "change_events": 256,
+          "both_cues_fraction": 1.0
+        }
+      }
+    },
+    {
+      "mode": "addressed",
+      "delay": 8,
+      "steps": 1024,
+      "new_experiences": 65536,
+      "parameters": 129572,
+      "used_groups": 6,
+      "changed_groups": 6,
+      "estimated_total_macs": 10463877888,
+      "replay_presentations": 1744,
+      "seen": {
+        "success": 0.9377604166666667,
+        "critical_success": 0.96875,
+        "mse": 0.0066991643980145454,
+        "critical_mse": 0.0019437521696090698,
+        "regret": 0.008140549063682556,
+        "behavior": {
+          "retrievals": 0,
+          "retrievals_age_at_least_12": 0,
+          "both_cues_available_at_change": 256,
+          "change_events": 256,
+          "both_cues_fraction": 1.0
+        }
+      },
+      "composition": {
+        "success": 0.895703125,
+        "critical_success": 0.978515625,
+        "mse": 0.012685432098805904,
+        "critical_mse": 0.0028487909585237503,
+        "regret": 0.011617446318268776,
+        "behavior": {
+          "retrievals": 0,
+          "retrievals_age_at_least_12": 0,
+          "both_cues_available_at_change": 256,
+          "change_events": 256,
+          "both_cues_fraction": 1.0
+        }
+      }
+    },
+    {
+      "mode": "addressed",
+      "delay": 8,
+      "steps": 4096,
+      "new_experiences": 262144,
+      "parameters": 129572,
+      "used_groups": 8,
+      "changed_groups": 8,
+      "estimated_total_macs": 42110137968,
+      "replay_presentations": 8833,
+      "seen": {
+        "success": 0.9388671875,
+        "critical_success": 0.990234375,
+        "mse": 0.005847887136042118,
+        "critical_mse": 0.001855532405897975,
+        "regret": 0.0036514655221253633,
+        "behavior": {
+          "retrievals": 0,
+          "retrievals_age_at_least_12": 0,
+          "both_cues_available_at_change": 256,
+          "change_events": 256,
+          "both_cues_fraction": 1.0
+        }
+      },
+      "composition": {
+        "success": 0.9029296875,
+        "critical_success": 0.974609375,
+        "mse": 0.009023310616612434,
+        "critical_mse": 0.003111487254500389,
+        "regret": 0.006323552690446377,
+        "behavior": {
+          "retrievals": 0,
+          "retrievals_age_at_least_12": 0,
+          "both_cues_available_at_change": 256,
+          "change_events": 256,
+          "both_cues_fraction": 1.0
+        }
+      }
+    },
+    {
+      "mode": "pooled",
+      "delay": 20,
+      "steps": 1024,
+      "new_experiences": 65536,
+      "parameters": 129572,
+      "used_groups": 7,
+      "changed_groups": 7,
+      "estimated_total_macs": 10465086096,
+      "replay_presentations": 1775,
+      "seen": {
+        "success": 0.878125,
+        "critical_success": 0.884765625,
+        "mse": 0.005924691911786795,
+        "critical_mse": 0.006831741891801357,
+        "regret": 0.015795564278960228,
+        "behavior": {
+          "retrievals": 0,
+          "retrievals_age_at_least_12": 0,
+          "both_cues_available_at_change": 0,
+          "change_events": 256,
+          "both_cues_fraction": 0.0
+        }
+      },
+      "composition": {
+        "success": 0.8330078125,
+        "critical_success": 0.8173828125,
+        "mse": 0.011522983200848103,
+        "critical_mse": 0.015001192688941956,
+        "regret": 0.017068007960915565,
+        "behavior": {
+          "retrievals": 0,
+          "retrievals_age_at_least_12": 0,
+          "both_cues_available_at_change": 0,
+          "change_events": 256,
+          "both_cues_fraction": 0.0
+        }
+      }
+    },
+    {
+      "mode": "pooled",
+      "delay": 20,
+      "steps": 4096,
+      "new_experiences": 262144,
+      "parameters": 129572,
+      "used_groups": 9,
+      "changed_groups": 9,
+      "estimated_total_macs": 42092500608,
+      "replay_presentations": 8792,
+      "seen": {
+        "success": 0.9470052083333333,
+        "critical_success": 0.9365234375,
+        "mse": 0.005627806764096022,
+        "critical_mse": 0.0061479052528738976,
+        "regret": 0.0030342217069119215,
+        "behavior": {
+          "retrievals": 0,
+          "retrievals_age_at_least_12": 0,
+          "both_cues_available_at_change": 0,
+          "change_events": 256,
+          "both_cues_fraction": 0.0
+        }
+      },
+      "composition": {
+        "success": 0.9013020833333333,
+        "critical_success": 0.8916015625,
+        "mse": 0.010068162344396114,
+        "critical_mse": 0.012553880922496319,
+        "regret": 0.005775768775492907,
+        "behavior": {
+          "retrievals": 0,
+          "retrievals_age_at_least_12": 0,
+          "both_cues_available_at_change": 0,
+          "change_events": 256,
+          "both_cues_fraction": 0.0
+        }
+      }
+    },
+    {
+      "mode": "addressed",
+      "delay": 20,
+      "steps": 1024,
+      "new_experiences": 65536,
+      "parameters": 129572,
+      "used_groups": 5,
+      "changed_groups": 5,
+      "estimated_total_macs": 10464868512,
+      "replay_presentations": 1766,
+      "seen": {
+        "success": 0.9158203125,
+        "critical_success": 0.91796875,
+        "mse": 0.00617692805826664,
+        "critical_mse": 0.006818224675953388,
+        "regret": 0.01177639327943325,
+        "behavior": {
+          "retrievals": 0,
+          "retrievals_age_at_least_12": 0,
+          "both_cues_available_at_change": 0,
+          "change_events": 256,
+          "both_cues_fraction": 0.0
+        }
+      },
+      "composition": {
+        "success": 0.8697916666666666,
+        "critical_success": 0.880859375,
+        "mse": 0.011703943833708763,
+        "critical_mse": 0.014138216152787209,
+        "regret": 0.013558795675635338,
+        "behavior": {
+          "retrievals": 0,
+          "retrievals_age_at_least_12": 0,
+          "both_cues_available_at_change": 0,
+          "change_events": 256,
+          "both_cues_fraction": 0.0
+        }
+      }
+    },
+    {
+      "mode": "addressed",
+      "delay": 20,
+      "steps": 4096,
+      "new_experiences": 262144,
+      "parameters": 129572,
+      "used_groups": 7,
+      "changed_groups": 7,
+      "estimated_total_macs": 42170650416,
+      "replay_presentations": 8981,
+      "seen": {
+        "success": 0.9364583333333333,
+        "critical_success": 0.9052734375,
+        "mse": 0.0058067189529538155,
+        "critical_mse": 0.007672592997550964,
+        "regret": 0.00363499135710299,
+        "behavior": {
+          "retrievals": 0,
+          "retrievals_age_at_least_12": 0,
+          "both_cues_available_at_change": 0,
+          "change_events": 256,
+          "both_cues_fraction": 0.0
+        }
+      },
+      "composition": {
+        "success": 0.8865885416666667,
+        "critical_success": 0.8388671875,
+        "mse": 0.009839268401265144,
+        "critical_mse": 0.012732191942632198,
+        "regret": 0.006139419507235289,
+        "behavior": {
+          "retrievals": 0,
+          "retrievals_age_at_least_12": 0,
+          "both_cues_available_at_change": 0,
+          "change_events": 256,
+          "both_cues_fraction": 0.0
+        }
+      }
+    }
+  ],
+  "contrasts": [
+    {
+      "delay": 8,
+      "steps": 1024,
+      "composition_delta_pp": 4.127604166666677,
+      "critical_delta_pp": 2.83203125
+    },
+    {
+      "delay": 8,
+      "steps": 4096,
+      "composition_delta_pp": -0.5989583333333326,
+      "critical_delta_pp": -1.07421875
+    },
+    {
+      "delay": 20,
+      "steps": 1024,
+      "composition_delta_pp": 3.678385416666663,
+      "critical_delta_pp": 6.34765625
+    },
+    {
+      "delay": 20,
+      "steps": 4096,
+      "composition_delta_pp": -1.4713541666666607,
+      "critical_delta_pp": -5.2734375
+    }
+  ],
+  "interpretation": "One seed per condition; descriptive exploration, not independent-sample significance.",
+  "within_delay_only": "Physical risk varies with phase; cross-delay differences are not a pure delay intervention."
+}

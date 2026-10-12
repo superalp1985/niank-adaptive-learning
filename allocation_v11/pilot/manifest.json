@@ -1,0 +1,30 @@
+{
+  "config": {
+    "stage": "pilot",
+    "model_seed": 61,
+    "world_seed": 510100,
+    "worlds": 64,
+    "groups": 9,
+    "delays": [
+      8,
+      20
+    ],
+    "modes": [
+      "pooled",
+      "addressed"
+    ],
+    "milestones": [
+      1024,
+      4096
+    ]
+  },
+  "sha256": {
+    "allocation_v11\\core.py": "7c7502c2ae6970acfabd9dfadb20f4f0b5139392733df1d1d0cfc515eac6727d",
+    "allocation_v11\\run.py": "e943475e5a3ae78fa256cb9b0e21abcc2803babb32670c545c695cc123b7b37a",
+    "allocation_v11\\PROTOCOL.md": "d956701c159364e84e1960d2b7dfc1a41c55eee45098653288b9fa7e01b2af8c",
+    "allocation_v10\\core.py": "4e2bc109829d1e4d9097d3753a258b7b64d9ac37ac63edc126432503b5fdcff9",
+    "retention_v5\\experiment.py": "3cc4877bf0b0998f6bae45d4e4c2be5f93e8e38207c1965e75832dc102b3432e"
+  },
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "torch": "2.3.1+cu118"
+}

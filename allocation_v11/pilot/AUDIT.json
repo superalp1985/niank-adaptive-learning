@@ -1,0 +1,148 @@
+{
+  "directories": 20,
+  "transitions": 1294336,
+  "matured_decisions": 314624,
+  "checks": [
+    {
+      "path": "pilot\\delay20_addressed\\probe_1024\\composition",
+      "transitions": 15360,
+      "raw_events": 3840,
+      "matured_decisions": 3392,
+      "success": 0.8697916666666666
+    },
+    {
+      "path": "pilot\\delay20_addressed\\probe_1024\\seen",
+      "transitions": 15360,
+      "raw_events": 3840,
+      "matured_decisions": 3392,
+      "success": 0.9158203125
+    },
+    {
+      "path": "pilot\\delay20_addressed\\probe_4096\\composition",
+      "transitions": 15360,
+      "raw_events": 3840,
+      "matured_decisions": 3392,
+      "success": 0.8865885416666667
+    },
+    {
+      "path": "pilot\\delay20_addressed\\probe_4096\\seen",
+      "transitions": 15360,
+      "raw_events": 3840,
+      "matured_decisions": 3392,
+      "success": 0.9364583333333333
+    },
+    {
+      "path": "pilot\\delay20_addressed",
+      "transitions": 262144,
+      "raw_events": 65536,
+      "matured_decisions": 65088,
+      "success": 0.8626556396484375
+    },
+    {
+      "path": "pilot\\delay20_pooled\\probe_1024\\composition",
+      "transitions": 15360,
+      "raw_events": 3840,
+      "matured_decisions": 3392,
+      "success": 0.8330078125
+    },
+    {
+      "path": "pilot\\delay20_pooled\\probe_1024\\seen",
+      "transitions": 15360,
+      "raw_events": 3840,
+      "matured_decisions": 3392,
+      "success": 0.878125
+    },
+    {
+      "path": "pilot\\delay20_pooled\\probe_4096\\composition",
+      "transitions": 15360,
+      "raw_events": 3840,
+      "matured_decisions": 3392,
+      "success": 0.9013020833333333
+    },
+    {
+      "path": "pilot\\delay20_pooled\\probe_4096\\seen",
+      "transitions": 15360,
+      "raw_events": 3840,
+      "matured_decisions": 3392,
+      "success": 0.9470052083333333
+    },
+    {
+      "path": "pilot\\delay20_pooled",
+      "transitions": 262144,
+      "raw_events": 65536,
+      "matured_decisions": 65088,
+      "success": 0.8681068420410156
+    },
+    {
+      "path": "pilot\\delay8_addressed\\probe_1024\\composition",
+      "transitions": 15360,
+      "raw_events": 3840,
+      "matured_decisions": 3392,
+      "success": 0.895703125
+    },
+    {
+      "path": "pilot\\delay8_addressed\\probe_1024\\seen",
+      "transitions": 15360,
+      "raw_events": 3840,
+      "matured_decisions": 3392,
+      "success": 0.9377604166666667
+    },
+    {
+      "path": "pilot\\delay8_addressed\\probe_4096\\composition",
+      "transitions": 15360,
+      "raw_events": 3840,
+      "matured_decisions": 3392,
+      "success": 0.9029296875
+    },
+    {
+      "path": "pilot\\delay8_addressed\\probe_4096\\seen",
+      "transitions": 15360,
+      "raw_events": 3840,
+      "matured_decisions": 3392,
+      "success": 0.9388671875
+    },
+    {
+      "path": "pilot\\delay8_addressed",
+      "transitions": 262144,
+      "raw_events": 65536,
+      "matured_decisions": 65088,
+      "success": 0.8595046997070312
+    },
+    {
+      "path": "pilot\\delay8_pooled\\probe_1024\\composition",
+      "transitions": 15360,
+      "raw_events": 3840,
+      "matured_decisions": 3392,
+      "success": 0.8544270833333333
+    },
+    {
+      "path": "pilot\\delay8_pooled\\probe_1024\\seen",
+      "transitions": 15360,
+      "raw_events": 3840,
+      "matured_decisions": 3392,
+      "success": 0.8849609375
+    },
+    {
+      "path": "pilot\\delay8_pooled\\probe_4096\\composition",
+      "transitions": 15360,
+      "raw_events": 3840,
+      "matured_decisions": 3392,
+      "success": 0.9089192708333333
+    },
+    {
+      "path": "pilot\\delay8_pooled\\probe_4096\\seen",
+      "transitions": 15360,
+      "raw_events": 3840,
+      "matured_decisions": 3392,
+      "success": 0.9436848958333334
+    },
+    {
+      "path": "pilot\\delay8_pooled",
+      "transitions": 262144,
+      "raw_events": 65536,
+      "matured_decisions": 65088,
+      "success": 0.8732490539550781
+    }
+  ],
+  "source_hashes_match": true
+}

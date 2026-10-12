@@ -6,7 +6,9 @@
 ## 当前状态
 
 - [V10 研究报告](allocation_v10/REPORT_V10_ZH.md)
-- [最新继续入口](RESEARCH_STATUS_20261012_V10_ZH.md)
+- [V11 研究报告](allocation_v11/REPORT_V11_ZH.md)
+- [最新继续入口](RESEARCH_STATUS_20261012_V11_ZH.md)
+- [归档和清理记录](ARCHIVE_STATUS_20261012_ZH.md)
 - [研究原则](RESEARCH_PRINCIPLES_ZH.md)
 - [已有工作与候选算法](NOVEL_ALGORITHM_PLAN_20261012_ZH.md)
 - [遗忘与反复分级原则](RETENTION_PRINCIPLE_20261012_ZH.md)
@@ -14,6 +16,10 @@
 V10 已完成 27 个运行。延迟共同决策没有稳定优于独立决策。
 约128K与992K为总参数储备，尚非真实动态创建/销毁参数。
 实验只检验软件可实现的机制，不声称复现生物脑动力学。
+
+V11 已完成 4 个配置，反馈随具体经历和矩阵组保存。
+早期优势未持续，最终未见组合分数低于平均反馈对照；
+冻结策略未学会查回旧线索。保留全部负结果，不宣称已获得有效新算法。
 
 ## 数据与恢复
 

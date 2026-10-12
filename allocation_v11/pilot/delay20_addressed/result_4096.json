@@ -1,0 +1,289 @@
+{
+  "mode": "addressed",
+  "training": true,
+  "delay": 20,
+  "step": 4096,
+  "worlds": 64,
+  "segment": 1,
+  "success": 0.8945515950520834,
+  "critical_success": 0.888916015625,
+  "cost": 0.03606877103447914,
+  "regret": 0.013206128031015396,
+  "mse": 0.006275024730712175,
+  "critical_mse": 0.007303017191588879,
+  "operation_counts": {
+    "keep": 8341,
+    "retrieve": 6410,
+    "relearn": 7215,
+    "compute": 8096,
+    "admit": 6052,
+    "fade": 6917,
+    "retire": 6121
+  },
+  "retrievals": 9064,
+  "returns": 9064,
+  "expired_record_credits": 4862,
+  "unresolved_credit_windows": 448,
+  "total_parameters": 129572,
+  "predictor_parameters": 126963,
+  "controller_parameters": 2609,
+  "used_groups": 7,
+  "group_execution_counts": [
+    93920,
+    12719,
+    197918,
+    10,
+    0,
+    10,
+    266,
+    73,
+    0
+  ],
+  "changed_input_groups": 7,
+  "mean_active_predictor_parameters": 29429.354166666668,
+  "estimated_total_macs": 42170650416,
+  "totals": {
+    "new_experiences": 262144,
+    "replay_presentations": 8981,
+    "predictor_macs": 13075416336,
+    "estimated_learning_macs": 39226249008,
+    "controller_macs": 981467136,
+    "predictor_optimizer_elements": 649796634,
+    "controller_optimizer_elements": 333952,
+    "matured_decisions": 65088,
+    "expired_record_credits": 0
+  },
+  "curves": [
+    {
+      "step": 256,
+      "success": 0.57257080078125,
+      "mse": 0.13524174690246582,
+      "reads": 635,
+      "admitted": 5.546875
+    },
+    {
+      "step": 512,
+      "success": 0.75274658203125,
+      "mse": 0.011668415740132332,
+      "reads": 1349,
+      "admitted": 5.1875
+    },
+    {
+      "step": 768,
+      "success": 0.8524169921875,
+      "mse": 0.008177930489182472,
+      "reads": 2003,
+      "admitted": 5.234375
+    },
+    {
+      "step": 1024,
+      "success": 0.89013671875,
+      "mse": 0.006445903796702623,
+      "reads": 2654,
+      "admitted": 4.765625
+    },
+    {
+      "step": 1280,
+      "success": 0.87579345703125,
+      "mse": 0.006145519204437733,
+      "reads": 3256,
+      "admitted": 4.53125
+    },
+    {
+      "step": 1536,
+      "success": 0.8760986328125,
+      "mse": 0.006232677027583122,
+      "reads": 3872,
+      "admitted": 4.390625
+    },
+    {
+      "step": 1792,
+      "success": 0.896728515625,
+      "mse": 0.006034669931977987,
+      "reads": 4487,
+      "admitted": 4.015625
+    },
+    {
+      "step": 2048,
+      "success": 0.8841552734375,
+      "mse": 0.006438416428864002,
+      "reads": 5009,
+      "admitted": 3.96875
+    },
+    {
+      "step": 2304,
+      "success": 0.89532470703125,
+      "mse": 0.006103540770709515,
+      "reads": 5573,
+      "admitted": 3.78125
+    },
+    {
+      "step": 2560,
+      "success": 0.90216064453125,
+      "mse": 0.006087440997362137,
+      "reads": 6127,
+      "admitted": 4.390625
+    },
+    {
+      "step": 2816,
+      "success": 0.8941650390625,
+      "mse": 0.006348154973238707,
+      "reads": 6638,
+      "admitted": 4.328125
+    },
+    {
+      "step": 3072,
+      "success": 0.9031982421875,
+      "mse": 0.0066719925962388515,
+      "reads": 7162,
+      "admitted": 4.140625
+    },
+    {
+      "step": 3328,
+      "success": 0.90179443359375,
+      "mse": 0.00621539494022727,
+      "reads": 7668,
+      "admitted": 3.671875
+    },
+    {
+      "step": 3584,
+      "success": 0.89984130859375,
+      "mse": 0.006409126333892345,
+      "reads": 8170,
+      "admitted": 3.671875
+    },
+    {
+      "step": 3840,
+      "success": 0.89935302734375,
+      "mse": 0.006217526271939278,
+      "reads": 8611,
+      "admitted": 3.921875
+    },
+    {
+      "step": 4096,
+      "success": 0.906005859375,
+      "mse": 0.006395833101123571,
+      "reads": 9064,
+      "admitted": 3.6875
+    }
+  ],
+  "seconds": 80.85404899995774,
+  "probes": {
+    "seen": {
+      "mode": "addressed",
+      "training": false,
+      "delay": 20,
+      "step": 240,
+      "worlds": 64,
+      "segment": 0,
+      "success": 0.9364583333333333,
+      "critical_success": 0.9052734375,
+      "cost": 0.012935932725667953,
+      "regret": 0.00363499135710299,
+      "mse": 0.0058067189529538155,
+      "critical_mse": 0.007672592997550964,
+      "operation_counts": {
+        "keep": 2532,
+        "retrieve": 0,
+        "relearn": 0,
+        "compute": 1308,
+        "admit": 0,
+        "fade": 0,
+        "retire": 0
+      },
+      "retrievals": 0,
+      "returns": 0,
+      "expired_record_credits": 0,
+      "unresolved_credit_windows": 448,
+      "total_parameters": 129572,
+      "predictor_parameters": 126963,
+      "controller_parameters": 2609,
+      "used_groups": 2,
+      "group_execution_counts": [
+        15353,
+        5239,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "changed_input_groups": 0,
+      "mean_active_predictor_parameters": 31619.1,
+      "estimated_total_macs": 826392576,
+      "totals": {
+        "new_experiences": 15360,
+        "replay_presentations": 0,
+        "predictor_macs": 775274496,
+        "estimated_learning_macs": 775274496,
+        "controller_macs": 51118080,
+        "predictor_optimizer_elements": 0,
+        "controller_optimizer_elements": 0,
+        "matured_decisions": 3392,
+        "expired_record_credits": 0
+      },
+      "curves": [],
+      "seconds": 0.8747992001008242
+    },
+    "composition": {
+      "mode": "addressed",
+      "training": false,
+      "delay": 20,
+      "step": 240,
+      "worlds": 64,
+      "segment": 0,
+      "success": 0.8865885416666667,
+      "critical_success": 0.8388671875,
+      "cost": 0.02032605931162834,
+      "regret": 0.006139419507235289,
+      "mse": 0.009839268401265144,
+      "critical_mse": 0.012732191942632198,
+      "operation_counts": {
+        "keep": 2530,
+        "retrieve": 0,
+        "relearn": 0,
+        "compute": 1310,
+        "admit": 0,
+        "fade": 0,
+        "retire": 0
+      },
+      "retrievals": 0,
+      "returns": 0,
+      "expired_record_credits": 0,
+      "unresolved_credit_windows": 448,
+      "total_parameters": 129572,
+      "predictor_parameters": 126963,
+      "controller_parameters": 2609,
+      "used_groups": 2,
+      "group_execution_counts": [
+        15354,
+        5246,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "changed_input_groups": 0,
+      "mean_active_predictor_parameters": 31625.583333333332,
+      "estimated_total_macs": 826490880,
+      "totals": {
+        "new_experiences": 15360,
+        "replay_presentations": 0,
+        "predictor_macs": 775372800,
+        "estimated_learning_macs": 775372800,
+        "controller_macs": 51118080,
+        "predictor_optimizer_elements": 0,
+        "controller_optimizer_elements": 0,
+        "matured_decisions": 3392,
+        "expired_record_credits": 0
+      },
+      "curves": [],
+      "seconds": 0.8632128001190722
+    }
+  }
+}
