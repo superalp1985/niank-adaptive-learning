@@ -1,0 +1,34 @@
+{
+  "repository": "superalp1985/niank-adaptive-learning",
+  "tag": "research-v12-pilot-20261012",
+  "manifest_sha256": "278a8b96df437573ecfcd2f5484a23ab3b70bd3edcdc6d391bbbb47f1966b8cf",
+  "remote_manifest_sha256": "278a8b96df437573ecfcd2f5484a23ab3b70bd3edcdc6d391bbbb47f1966b8cf",
+  "verified_utc": "2026-10-12T15:46:20.475711+00:00",
+  "parts": [
+    {
+      "name": "research-v12-pilot-20261012.zip.part001",
+      "bytes": 41943040,
+      "sha256": "6d63359dd18e49d510f1cee5d115f19e9f25a1c72297e60b602fa724cc700ff7"
+    },
+    {
+      "name": "research-v12-pilot-20261012.zip.part002",
+      "bytes": 41943040,
+      "sha256": "721116fbeb7f2691fec333ec6fb8972855e39bfa9b19da7a25379ce216b23e22"
+    },
+    {
+      "name": "research-v12-pilot-20261012.zip.part003",
+      "bytes": 41943040,
+      "sha256": "594c4cba5430781e93f625baa67d5b3210cf70ad82bfe6857a30577ea8e438e1"
+    },
+    {
+      "name": "research-v12-pilot-20261012.zip.part004",
+      "bytes": 41943040,
+      "sha256": "04942f8b5d4018c14cd3963616dc61054557292bf9e9857662138cb1b82b39a9"
+    },
+    {
+      "name": "research-v12-pilot-20261012.zip.part005",
+      "bytes": 16657319,
+      "sha256": "56f9ea2c6a332137ea6484d511af6a0b6baebc8af6329c82e36cb0db8b4c8f4d"
+    }
+  ]
+}
