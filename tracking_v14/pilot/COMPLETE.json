@@ -1,0 +1,14 @@
+{
+  "configurations": 2,
+  "milestones": 6,
+  "source": {
+    "tracking_v14\\PROTOCOL.md": "086017cd73f1459c87b8e86ff3925034dc5e0dac294b3cb55253d3b646dc636e",
+    "tracking_v14\\PLAN.md": "9956b5ab8259dcaa2f8794954985183e35f2c67c5921e9bd01bcbddd16cbb167",
+    "tracking_v14\\pilot.json": "a691f8e185f5f82fb7a410762fe417f56ffa3fcc4edc04b2a0ab2b5f93507c9c",
+    "tracking_v14\\world.py": "adeaa46fe3e409084a5e24d6242e738f2b5ed96fc089bae9245962136aa47087",
+    "tracking_v14\\memory.py": "da135c6754c9573a1b18de6ec3fecbbc2b240dac518425c03b5ae786588231ef",
+    "tracking_v14\\learner.py": "fee109d39e7dcc9f7442066810d5e8513a02a3aa027cddfe64425023989337fd",
+    "tracking_v14\\run.py": "09ec7ebc479e0c1fbe19ca1af772c6f6267caff43e6d53cdec8b273518403e42",
+    "tracking_v14\\test_contracts.py": "fbc0e8922a648b90e3f5f14fdd06dc193d3e328567b621b576310daf994df046"
+  }
+}

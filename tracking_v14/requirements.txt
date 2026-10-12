@@ -1,0 +1,4 @@
+pymunk==7.1.0
+numpy
+torch
+matplotlib

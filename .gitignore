@@ -1,6 +1,7 @@
 __pycache__/
 cache/
 .venv*/
+tracking_runtime/
 .archive-staging/
 *.pyc
 *.pt

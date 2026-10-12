@@ -1,0 +1,841 @@
+{
+  "mode": "recent",
+  "heldout": false,
+  "worlds": 48,
+  "actions": 9,
+  "steps": 1024,
+  "new_experiences": 49152,
+  "episodes": 509,
+  "parameters": 81993,
+  "memory_reads": 0,
+  "memory_reuses": 49872,
+  "memory_fades": 0,
+  "total_reward": -1330.2540628015995,
+  "updates": 256,
+  "predictor_updates": 256,
+  "update_presentations": 196608,
+  "elapsed_seconds": 28.240081700030714,
+  "curves": [
+    {
+      "step": 64,
+      "experiences": 3072,
+      "completed_episodes": 15,
+      "success": 0.13333333333333333,
+      "collision": 0.0283203125,
+      "impact": 0.8666666666666667,
+      "reward": -0.033007342368364334,
+      "preupdate_mse": 0.01608557440340519,
+      "prediction_loss": 0.008330422948347405
+    },
+    {
+      "step": 128,
+      "experiences": 6144,
+      "completed_episodes": 40,
+      "success": 0.025,
+      "collision": 0.060872395833333336,
+      "impact": 0.25,
+      "reward": -0.050617765635252,
+      "preupdate_mse": 0.006090525537729263,
+      "prediction_loss": 0.005201978055993095
+    },
+    {
+      "step": 192,
+      "experiences": 9216,
+      "completed_episodes": 22,
+      "success": 0.045454545454545456,
+      "collision": 0.025390625,
+      "impact": 0.5909090909090909,
+      "reward": -0.025873685255646706,
+      "preupdate_mse": 0.003365209326148033,
+      "prediction_loss": 0.002721293902141042
+    },
+    {
+      "step": 256,
+      "experiences": 12288,
+      "completed_episodes": 33,
+      "success": 0.0,
+      "collision": 0.032877604166666664,
+      "impact": 0.36363636363636365,
+      "reward": -0.041777100414037704,
+      "preupdate_mse": 0.002740071155130863,
+      "prediction_loss": 0.0024362989788642153
+    },
+    {
+      "step": 320,
+      "experiences": 15360,
+      "completed_episodes": 38,
+      "success": 0.02631578947368421,
+      "collision": 0.025716145833333332,
+      "impact": 0.6578947368421053,
+      "reward": -0.03470365330576897,
+      "preupdate_mse": 0.0018035555258393288,
+      "prediction_loss": 0.0017522010748507455
+    },
+    {
+      "step": 384,
+      "experiences": 18432,
+      "completed_episodes": 22,
+      "success": 0.0,
+      "collision": 0.050130208333333336,
+      "impact": 0.5,
+      "reward": -0.04373292252421379,
+      "preupdate_mse": 0.0019700631964951754,
+      "prediction_loss": 0.0019337958583491854
+    },
+    {
+      "step": 448,
+      "experiences": 21504,
+      "completed_episodes": 40,
+      "success": 0.05,
+      "collision": 0.039713541666666664,
+      "impact": 0.425,
+      "reward": -0.02533525973558426,
+      "preupdate_mse": 0.0018595861038193107,
+      "prediction_loss": 0.0018390761979389936
+    },
+    {
+      "step": 512,
+      "experiences": 24576,
+      "completed_episodes": 27,
+      "success": 0.0,
+      "collision": 0.029622395833333332,
+      "impact": 0.5555555555555556,
+      "reward": -0.02752627246081829,
+      "preupdate_mse": 0.0017462302930653095,
+      "prediction_loss": 0.0017317163656116463
+    },
+    {
+      "step": 576,
+      "experiences": 27648,
+      "completed_episodes": 36,
+      "success": 0.05555555555555555,
+      "collision": 0.045572916666666664,
+      "impact": 0.3888888888888889,
+      "reward": -0.028032684698700905,
+      "preupdate_mse": 0.0016558608040213585,
+      "prediction_loss": 0.001640483140363358
+    },
+    {
+      "step": 640,
+      "experiences": 30720,
+      "completed_episodes": 39,
+      "success": 0.15384615384615385,
+      "collision": 0.05078125,
+      "impact": 0.46153846153846156,
+      "reward": -0.014226420782506466,
+      "preupdate_mse": 0.002035511890426278,
+      "prediction_loss": 0.0020196965560899116
+    },
+    {
+      "step": 704,
+      "experiences": 33792,
+      "completed_episodes": 32,
+      "success": 0.0625,
+      "collision": 0.052408854166666664,
+      "impact": 0.59375,
+      "reward": -0.01668410934507847,
+      "preupdate_mse": 0.002085980726405978,
+      "prediction_loss": 0.0020721580513054505
+    },
+    {
+      "step": 768,
+      "experiences": 36864,
+      "completed_episodes": 33,
+      "success": 0.21212121212121213,
+      "collision": 0.040364583333333336,
+      "impact": 0.36363636363636365,
+      "reward": -0.009921722114086151,
+      "preupdate_mse": 0.0015455918619409204,
+      "prediction_loss": 0.001535786643216852
+    },
+    {
+      "step": 832,
+      "experiences": 39936,
+      "completed_episodes": 29,
+      "success": 0.034482758620689655,
+      "collision": 0.033203125,
+      "impact": 0.3793103448275862,
+      "reward": -0.009219258092343807,
+      "preupdate_mse": 0.0017185114556923509,
+      "prediction_loss": 0.0017083247366826981
+    },
+    {
+      "step": 896,
+      "experiences": 43008,
+      "completed_episodes": 39,
+      "success": 0.07692307692307693,
+      "collision": 0.035481770833333336,
+      "impact": 0.5641025641025641,
+      "reward": -0.023502886295318604,
+      "preupdate_mse": 0.0018721612868830562,
+      "prediction_loss": 0.001862097553384956
+    },
+    {
+      "step": 960,
+      "experiences": 46080,
+      "completed_episodes": 29,
+      "success": 0.034482758620689655,
+      "collision": 0.057291666666666664,
+      "impact": 0.5172413793103449,
+      "reward": -0.02784099243581295,
+      "preupdate_mse": 0.002079723170027137,
+      "prediction_loss": 0.0020577442046487704
+    },
+    {
+      "step": 1024,
+      "experiences": 49152,
+      "completed_episodes": 35,
+      "success": 0.05714285714285714,
+      "collision": 0.041666666666666664,
+      "impact": 0.4857142857142857,
+      "reward": -0.0210233386605978,
+      "preupdate_mse": 0.0019604985136538744,
+      "prediction_loss": 0.0019508027180563658
+    }
+  ],
+  "combo_stats": {
+    "(1, 1, 0)": {
+      "steps": 4318,
+      "contacts": 7,
+      "impacts": 0,
+      "collisions": 222,
+      "reward": -65.96724198957236,
+      "episodes": 35,
+      "prediction_error": 16.659280315778233
+    },
+    "(1, 2, 2)": {
+      "steps": 2663,
+      "contacts": 0,
+      "impacts": 15,
+      "collisions": 161,
+      "reward": -134.7068584663357,
+      "episodes": 25,
+      "prediction_error": 13.46304599893756
+    },
+    "(0, 0, 2)": {
+      "steps": 3078,
+      "contacts": 3,
+      "impacts": 15,
+      "collisions": 8,
+      "reward": -21.4926218855544,
+      "episodes": 30,
+      "prediction_error": 8.228597196492501
+    },
+    "(2, 2, 0)": {
+      "steps": 4235,
+      "contacts": 3,
+      "impacts": 0,
+      "collisions": 321,
+      "reward": -133.78351699969062,
+      "episodes": 34,
+      "prediction_error": 13.652251467295173
+    },
+    "(0, 0, 1)": {
+      "steps": 1931,
+      "contacts": 0,
+      "impacts": 28,
+      "collisions": 0,
+      "reward": -62.15007146806238,
+      "episodes": 30,
+      "prediction_error": 6.2142212740773175
+    },
+    "(0, 1, 1)": {
+      "steps": 1647,
+      "contacts": 0,
+      "impacts": 24,
+      "collisions": 22,
+      "reward": -54.59747651433554,
+      "episodes": 26,
+      "prediction_error": 6.25078890324221
+    },
+    "(2, 1, 1)": {
+      "steps": 1468,
+      "contacts": 1,
+      "impacts": 26,
+      "collisions": 15,
+      "reward": -56.535041627321334,
+      "episodes": 28,
+      "prediction_error": 5.184293513656485
+    },
+    "(0, 2, 2)": {
+      "steps": 2884,
+      "contacts": 3,
+      "impacts": 11,
+      "collisions": 31,
+      "reward": -14.2644227976445,
+      "episodes": 27,
+      "prediction_error": 8.753139824579193
+    },
+    "(2, 0, 0)": {
+      "steps": 3785,
+      "contacts": 0,
+      "impacts": 0,
+      "collisions": 265,
+      "reward": -145.75451093293282,
+      "episodes": 28,
+      "prediction_error": 12.15858462315191
+    },
+    "(0, 1, 0)": {
+      "steps": 3378,
+      "contacts": 2,
+      "impacts": 0,
+      "collisions": 21,
+      "reward": -19.330993109518886,
+      "episodes": 26,
+      "prediction_error": 4.30987495311183
+    },
+    "(1, 0, 0)": {
+      "steps": 3917,
+      "contacts": 3,
+      "impacts": 0,
+      "collisions": 216,
+      "reward": -74.75485410997862,
+      "episodes": 30,
+      "prediction_error": 8.983516525669984
+    },
+    "(2, 1, 2)": {
+      "steps": 1828,
+      "contacts": 2,
+      "impacts": 10,
+      "collisions": 112,
+      "reward": -56.0804130091783,
+      "episodes": 20,
+      "prediction_error": 7.065218549747442
+    },
+    "(0, 2, 0)": {
+      "steps": 2898,
+      "contacts": 4,
+      "impacts": 0,
+      "collisions": 42,
+      "reward": -2.360671947533774,
+      "episodes": 23,
+      "prediction_error": 3.968366451467773
+    },
+    "(1, 1, 2)": {
+      "steps": 2668,
+      "contacts": 2,
+      "impacts": 15,
+      "collisions": 182,
+      "reward": -90.98199862209731,
+      "episodes": 28,
+      "prediction_error": 11.959495808481279
+    },
+    "(2, 2, 1)": {
+      "steps": 1794,
+      "contacts": 0,
+      "impacts": 31,
+      "collisions": 113,
+      "reward": -132.30282817264742,
+      "episodes": 32,
+      "prediction_error": 7.822233702869198
+    },
+    "(2, 0, 2)": {
+      "steps": 3249,
+      "contacts": 0,
+      "impacts": 14,
+      "collisions": 137,
+      "reward": -88.07694925730175,
+      "episodes": 29,
+      "prediction_error": 10.312786082099592
+    },
+    "(1, 2, 1)": {
+      "steps": 1690,
+      "contacts": 1,
+      "impacts": 26,
+      "collisions": 88,
+      "reward": -97.74299230424367,
+      "episodes": 29,
+      "prediction_error": 6.31375490159553
+    },
+    "(1, 0, 1)": {
+      "steps": 1721,
+      "contacts": 0,
+      "impacts": 29,
+      "collisions": 39,
+      "reward": -79.37059253135521,
+      "episodes": 29,
+      "prediction_error": 4.188772049208637
+    }
+  },
+  "started_episodes": 557,
+  "interrupted_episodes": 48,
+  "success": 0.060903732809430254,
+  "impact": 0.4793713163064833,
+  "collision_step_rate": 0.04058837890625,
+  "milestone": 1024,
+  "probes": {
+    "seen": {
+      "mode": "recent",
+      "heldout": false,
+      "worlds": 18,
+      "actions": 9,
+      "steps": 1024,
+      "new_experiences": 18432,
+      "episodes": 245,
+      "parameters": 81993,
+      "memory_reads": 0,
+      "memory_reuses": 18414,
+      "memory_fades": 0,
+      "total_reward": -476.5325196031481,
+      "updates": 0,
+      "predictor_updates": 0,
+      "update_presentations": 0,
+      "elapsed_seconds": 6.3191534001380205,
+      "curves": [
+        {
+          "step": 128,
+          "experiences": 2304,
+          "completed_episodes": 29,
+          "success": 0.13793103448275862,
+          "collision": 0.1840277777777778,
+          "impact": 0.6551724137931034,
+          "reward": -0.054007638245821,
+          "preupdate_mse": 0.0028513239230960608,
+          "prediction_loss": null
+        },
+        {
+          "step": 256,
+          "experiences": 4608,
+          "completed_episodes": 35,
+          "success": 0.4,
+          "collision": 0.15928819444444445,
+          "impact": 0.42857142857142855,
+          "reward": -0.00121581694111228,
+          "preupdate_mse": 0.0023553960490971804,
+          "prediction_loss": null
+        },
+        {
+          "step": 384,
+          "experiences": 6912,
+          "completed_episodes": 30,
+          "success": 0.13333333333333333,
+          "collision": 0.15494791666666666,
+          "impact": 0.5666666666666667,
+          "reward": -0.045503001660108566,
+          "preupdate_mse": 0.002737042959779501,
+          "prediction_loss": null
+        },
+        {
+          "step": 512,
+          "experiences": 9216,
+          "completed_episodes": 28,
+          "success": 0.10714285714285714,
+          "collision": 0.050347222222222224,
+          "impact": 0.6785714285714286,
+          "reward": -0.0218046884983778,
+          "preupdate_mse": 0.0021146212238818407,
+          "prediction_loss": null
+        },
+        {
+          "step": 640,
+          "experiences": 11520,
+          "completed_episodes": 29,
+          "success": 0.10344827586206896,
+          "collision": 0.0642361111111111,
+          "impact": 0.5517241379310345,
+          "reward": -0.014013354666531086,
+          "preupdate_mse": 0.0022646503057330847,
+          "prediction_loss": null
+        },
+        {
+          "step": 768,
+          "experiences": 13824,
+          "completed_episodes": 32,
+          "success": 0.125,
+          "collision": 0.09809027777777778,
+          "impact": 0.625,
+          "reward": -0.023039354011416435,
+          "preupdate_mse": 0.002146530896425247,
+          "prediction_loss": null
+        },
+        {
+          "step": 896,
+          "experiences": 16128,
+          "completed_episodes": 31,
+          "success": 0.1935483870967742,
+          "collision": 0.09114583333333333,
+          "impact": 0.5806451612903226,
+          "reward": -0.017322029918432236,
+          "preupdate_mse": 0.0024484640453010798,
+          "prediction_loss": null
+        },
+        {
+          "step": 1024,
+          "experiences": 18432,
+          "completed_episodes": 31,
+          "success": 0.1935483870967742,
+          "collision": 0.1345486111111111,
+          "impact": 0.5483870967741935,
+          "reward": -0.02992245927453041,
+          "preupdate_mse": 0.002690281718969345,
+          "prediction_loss": null
+        }
+      ],
+      "combo_stats": {
+        "(0, 0, 1)": {
+          "steps": 1024,
+          "contacts": 2,
+          "impacts": 17,
+          "collisions": 0,
+          "reward": 26.7605255448143,
+          "episodes": 19,
+          "prediction_error": 1.250687374275003
+        },
+        "(0, 0, 2)": {
+          "steps": 1024,
+          "contacts": 3,
+          "impacts": 6,
+          "collisions": 0,
+          "reward": 26.557897552032955,
+          "episodes": 13,
+          "prediction_error": 1.3914024735368002
+        },
+        "(0, 1, 0)": {
+          "steps": 1024,
+          "contacts": 3,
+          "impacts": 0,
+          "collisions": 0,
+          "reward": 35.78932311333483,
+          "episodes": 9,
+          "prediction_error": 0.03448009482235648
+        },
+        "(0, 1, 1)": {
+          "steps": 1024,
+          "contacts": 4,
+          "impacts": 16,
+          "collisions": 0,
+          "reward": 29.377994593582116,
+          "episodes": 20,
+          "prediction_error": 1.1173908983619185
+        },
+        "(0, 2, 0)": {
+          "steps": 1024,
+          "contacts": 2,
+          "impacts": 0,
+          "collisions": 0,
+          "reward": 15.70998862394481,
+          "episodes": 8,
+          "prediction_error": 0.032408045542069885
+        },
+        "(0, 2, 2)": {
+          "steps": 1024,
+          "contacts": 2,
+          "impacts": 5,
+          "collisions": 0,
+          "reward": 8.446782345075917,
+          "episodes": 12,
+          "prediction_error": 1.4420969022849022
+        },
+        "(1, 0, 0)": {
+          "steps": 1024,
+          "contacts": 0,
+          "impacts": 0,
+          "collisions": 151,
+          "reward": -70.47077386420278,
+          "episodes": 8,
+          "prediction_error": 2.2698480053404637
+        },
+        "(1, 0, 1)": {
+          "steps": 1024,
+          "contacts": 3,
+          "impacts": 20,
+          "collisions": 139,
+          "reward": -22.181219896650873,
+          "episodes": 23,
+          "prediction_error": 3.42870851277803
+        },
+        "(1, 1, 0)": {
+          "steps": 1024,
+          "contacts": 3,
+          "impacts": 0,
+          "collisions": 92,
+          "reward": -12.060439470536949,
+          "episodes": 8,
+          "prediction_error": 1.8515371233861515
+        },
+        "(1, 1, 2)": {
+          "steps": 1024,
+          "contacts": 2,
+          "impacts": 4,
+          "collisions": 180,
+          "reward": -50.786402083516805,
+          "episodes": 10,
+          "prediction_error": 4.008229845465394
+        },
+        "(1, 2, 1)": {
+          "steps": 1024,
+          "contacts": 1,
+          "impacts": 19,
+          "collisions": 94,
+          "reward": -22.875446960897534,
+          "episodes": 20,
+          "prediction_error": 3.435229219363464
+        },
+        "(1, 2, 2)": {
+          "steps": 1024,
+          "contacts": 5,
+          "impacts": 9,
+          "collisions": 185,
+          "reward": -30.50242659820651,
+          "episodes": 14,
+          "prediction_error": 4.503983143857113
+        },
+        "(2, 0, 0)": {
+          "steps": 1024,
+          "contacts": 3,
+          "impacts": 0,
+          "collisions": 392,
+          "reward": -126.10985424654791,
+          "episodes": 10,
+          "prediction_error": 3.394155524461894
+        },
+        "(2, 0, 2)": {
+          "steps": 1024,
+          "contacts": 1,
+          "impacts": 2,
+          "collisions": 433,
+          "reward": -171.09008463245846,
+          "episodes": 8,
+          "prediction_error": 4.666105021580734
+        },
+        "(2, 1, 1)": {
+          "steps": 1024,
+          "contacts": 6,
+          "impacts": 16,
+          "collisions": 123,
+          "reward": 6.323694412101759,
+          "episodes": 22,
+          "prediction_error": 3.5826054092995037
+        },
+        "(2, 1, 2)": {
+          "steps": 1024,
+          "contacts": 1,
+          "impacts": 7,
+          "collisions": 114,
+          "reward": -37.03492440046102,
+          "episodes": 12,
+          "prediction_error": 3.102638619053323
+        },
+        "(2, 2, 0)": {
+          "steps": 1024,
+          "contacts": 2,
+          "impacts": 0,
+          "collisions": 134,
+          "reward": -38.48859092969906,
+          "episodes": 8,
+          "prediction_error": 2.253001948733072
+        },
+        "(2, 2, 1)": {
+          "steps": 1024,
+          "contacts": 1,
+          "impacts": 20,
+          "collisions": 121,
+          "reward": -43.89855913655629,
+          "episodes": 21,
+          "prediction_error": 3.413041600408178
+        }
+      },
+      "started_episodes": 263,
+      "interrupted_episodes": 18,
+      "success": 0.17959183673469387,
+      "impact": 0.5755102040816327,
+      "collision_step_rate": 0.11707899305555555
+    },
+    "heldout": {
+      "mode": "recent",
+      "heldout": true,
+      "worlds": 9,
+      "actions": 9,
+      "steps": 1024,
+      "new_experiences": 9216,
+      "episodes": 123,
+      "parameters": 81993,
+      "memory_reads": 0,
+      "memory_reuses": 9207,
+      "memory_fades": 0,
+      "total_reward": -313.41631650179625,
+      "updates": 0,
+      "predictor_updates": 0,
+      "update_presentations": 0,
+      "elapsed_seconds": 4.822459200164303,
+      "curves": [
+        {
+          "step": 128,
+          "experiences": 1152,
+          "completed_episodes": 14,
+          "success": 0.2857142857142857,
+          "collision": 0.017361111111111112,
+          "impact": 0.5,
+          "reward": 0.03855432942509651,
+          "preupdate_mse": 0.0019270367920398712,
+          "prediction_loss": null
+        },
+        {
+          "step": 256,
+          "experiences": 2304,
+          "completed_episodes": 14,
+          "success": 0.21428571428571427,
+          "collision": 0.06163194444444445,
+          "impact": 0.5,
+          "reward": -0.006731648463755846,
+          "preupdate_mse": 0.001845847349613905,
+          "prediction_loss": null
+        },
+        {
+          "step": 384,
+          "experiences": 3456,
+          "completed_episodes": 18,
+          "success": 0.1111111111111111,
+          "collision": 0.13802083333333334,
+          "impact": 0.7222222222222222,
+          "reward": -0.05705896392464638,
+          "preupdate_mse": 0.0021783362608402967,
+          "prediction_loss": null
+        },
+        {
+          "step": 512,
+          "experiences": 4608,
+          "completed_episodes": 17,
+          "success": 0.23529411764705882,
+          "collision": 0.20399305555555555,
+          "impact": 0.5882352941176471,
+          "reward": -0.05791499838232994,
+          "preupdate_mse": 0.0029879817739129066,
+          "prediction_loss": null
+        },
+        {
+          "step": 640,
+          "experiences": 5760,
+          "completed_episodes": 15,
+          "success": 0.13333333333333333,
+          "collision": 0.07378472222222222,
+          "impact": 0.4666666666666667,
+          "reward": -0.00015038748097140342,
+          "preupdate_mse": 0.0020180358551442623,
+          "prediction_loss": null
+        },
+        {
+          "step": 768,
+          "experiences": 6912,
+          "completed_episodes": 16,
+          "success": 0.1875,
+          "collision": 0.07465277777777778,
+          "impact": 0.6875,
+          "reward": -0.002377902390435338,
+          "preupdate_mse": 0.002438274212181568,
+          "prediction_loss": null
+        },
+        {
+          "step": 896,
+          "experiences": 8064,
+          "completed_episodes": 16,
+          "success": 0.0625,
+          "collision": 0.1675347222222222,
+          "impact": 0.625,
+          "reward": -0.06589776277542114,
+          "preupdate_mse": 0.0028051473200321198,
+          "prediction_loss": null
+        },
+        {
+          "step": 1024,
+          "experiences": 9216,
+          "completed_episodes": 13,
+          "success": 0.0,
+          "collision": 0.2942708333333333,
+          "impact": 0.5384615384615384,
+          "reward": -0.12048543989658356,
+          "preupdate_mse": 0.0030854137148708105,
+          "prediction_loss": null
+        }
+      ],
+      "combo_stats": {
+        "(0, 0, 0)": {
+          "steps": 1024,
+          "contacts": 1,
+          "impacts": 0,
+          "collisions": 0,
+          "reward": 10.46053219217174,
+          "episodes": 8,
+          "prediction_error": 0.03148393574065267
+        },
+        "(0, 1, 2)": {
+          "steps": 1024,
+          "contacts": 1,
+          "impacts": 3,
+          "collisions": 0,
+          "reward": -3.4851289560460827,
+          "episodes": 9,
+          "prediction_error": 1.527810541128929
+        },
+        "(0, 2, 1)": {
+          "steps": 1024,
+          "contacts": 4,
+          "impacts": 17,
+          "collisions": 0,
+          "reward": 49.52441931029898,
+          "episodes": 21,
+          "prediction_error": 1.141024312589252
+        },
+        "(1, 0, 2)": {
+          "steps": 1024,
+          "contacts": 1,
+          "impacts": 7,
+          "collisions": 178,
+          "reward": -59.4963858090905,
+          "episodes": 12,
+          "prediction_error": 3.753381545553566
+        },
+        "(1, 1, 1)": {
+          "steps": 1024,
+          "contacts": 4,
+          "impacts": 19,
+          "collisions": 159,
+          "reward": -32.373891700188324,
+          "episodes": 23,
+          "prediction_error": 3.410585746059951
+        },
+        "(1, 2, 0)": {
+          "steps": 1024,
+          "contacts": 5,
+          "impacts": 0,
+          "collisions": 199,
+          "reward": -24.757036302904453,
+          "episodes": 10,
+          "prediction_error": 2.1214913899493695
+        },
+        "(2, 0, 1)": {
+          "steps": 1024,
+          "contacts": 1,
+          "impacts": 22,
+          "collisions": 205,
+          "reward": -95.88858537138731,
+          "episodes": 23,
+          "prediction_error": 3.8896477994858287
+        },
+        "(2, 1, 0)": {
+          "steps": 1024,
+          "contacts": 1,
+          "impacts": 0,
+          "collisions": 138,
+          "reward": -39.14414042647695,
+          "episodes": 8,
+          "prediction_error": 1.8939831143361516
+        },
+        "(2, 2, 2)": {
+          "steps": 1024,
+          "contacts": 1,
+          "impacts": 4,
+          "collisions": 309,
+          "reward": -118.25609791275929,
+          "episodes": 9,
+          "prediction_error": 4.448149030700733
+        }
+      },
+      "started_episodes": 132,
+      "interrupted_episodes": 9,
+      "success": 0.15447154471544716,
+      "impact": 0.5853658536585366,
+      "collision_step_rate": 0.12890625
+    }
+  }
+}

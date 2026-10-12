@@ -1,0 +1,2839 @@
+{
+  "results": {
+    "recent": {
+      "training": {
+        "transitions": 393216,
+        "episodes": 7012,
+        "success_count": 4635,
+        "safe_success_count": 3025,
+        "impact_count": 1526,
+        "collision_steps": 39918,
+        "reward_sum": 41321.21216129274,
+        "mse_sum": 991.7354056578215,
+        "risk_error_sum": 0.0,
+        "scenes": {
+          "(0, 0, 1)": {
+            "steps": 15688,
+            "episodes": 358,
+            "success": 214,
+            "safe_success": 208,
+            "impact": 136,
+            "collision": 18
+          },
+          "(0, 0, 2)": {
+            "steps": 20487,
+            "episodes": 390,
+            "success": 280,
+            "safe_success": 273,
+            "impact": 74,
+            "collision": 44
+          },
+          "(0, 1, 0)": {
+            "steps": 23813,
+            "episodes": 382,
+            "success": 308,
+            "safe_success": 283,
+            "impact": 0,
+            "collision": 120
+          },
+          "(0, 1, 1)": {
+            "steps": 17257,
+            "episodes": 391,
+            "success": 248,
+            "safe_success": 228,
+            "impact": 135,
+            "collision": 101
+          },
+          "(0, 2, 0)": {
+            "steps": 23640,
+            "episodes": 388,
+            "success": 321,
+            "safe_success": 301,
+            "impact": 0,
+            "collision": 94
+          },
+          "(0, 2, 2)": {
+            "steps": 21179,
+            "episodes": 403,
+            "success": 282,
+            "safe_success": 270,
+            "impact": 86,
+            "collision": 101
+          },
+          "(1, 0, 0)": {
+            "steps": 24624,
+            "episodes": 371,
+            "success": 278,
+            "safe_success": 146,
+            "impact": 0,
+            "collision": 3000
+          },
+          "(1, 1, 0)": {
+            "steps": 27954,
+            "episodes": 417,
+            "success": 323,
+            "safe_success": 138,
+            "impact": 0,
+            "collision": 2453
+          },
+          "(1, 1, 2)": {
+            "steps": 20287,
+            "episodes": 359,
+            "success": 226,
+            "safe_success": 105,
+            "impact": 95,
+            "collision": 2076
+          },
+          "(1, 2, 1)": {
+            "steps": 18797,
+            "episodes": 406,
+            "success": 237,
+            "safe_success": 123,
+            "impact": 162,
+            "collision": 1997
+          },
+          "(1, 2, 2)": {
+            "steps": 22036,
+            "episodes": 384,
+            "success": 256,
+            "safe_success": 117,
+            "impact": 88,
+            "collision": 2230
+          },
+          "(2, 0, 0)": {
+            "steps": 26880,
+            "episodes": 387,
+            "success": 268,
+            "safe_success": 143,
+            "impact": 0,
+            "collision": 5952
+          },
+          "(2, 0, 2)": {
+            "steps": 22311,
+            "episodes": 371,
+            "success": 216,
+            "safe_success": 121,
+            "impact": 97,
+            "collision": 4332
+          },
+          "(2, 1, 1)": {
+            "steps": 19806,
+            "episodes": 412,
+            "success": 207,
+            "safe_success": 104,
+            "impact": 197,
+            "collision": 2964
+          },
+          "(2, 1, 2)": {
+            "steps": 24263,
+            "episodes": 404,
+            "success": 245,
+            "safe_success": 111,
+            "impact": 107,
+            "collision": 4864
+          },
+          "(2, 2, 0)": {
+            "steps": 28126,
+            "episodes": 395,
+            "success": 293,
+            "safe_success": 125,
+            "impact": 0,
+            "collision": 5162
+          },
+          "(2, 2, 1)": {
+            "steps": 17291,
+            "episodes": 374,
+            "success": 178,
+            "safe_success": 105,
+            "impact": 190,
+            "collision": 2710
+          },
+          "(1, 0, 1)": {
+            "steps": 18777,
+            "episodes": 420,
+            "success": 255,
+            "safe_success": 124,
+            "impact": 159,
+            "collision": 1700
+          }
+        },
+        "success": 0.6610096976611524,
+        "safe_success": 0.4314033086138049,
+        "impact": 0.21762692527096406,
+        "collision_step_rate": 0.1015167236328125,
+        "reward": 0.10508527669599593,
+        "mse": 0.002522113560124261,
+        "risk_brier": 0.0,
+        "sha256": {
+          "transitions_00000.npz": "6bbac0f4c3ece053986a3edc5d2215e2043a146cfd9df021dd37533e96439b99",
+          "transitions_00001.npz": "1d13505a3a6e4eab212ee9e86937643ff93f76c66a2c3d4f9c9eecf0215e5b4b",
+          "transitions_00002.npz": "a7a7112c2f7b2d34be39487de59b638c95a373c010f365f014c2254721e530e4",
+          "transitions_00003.npz": "082a1e34c0f4641a12f71e7c87a49b1b2e8b01a89242f1afab729a23a8114325",
+          "transitions_00004.npz": "2fb63a343b79db95c0dfb562889b5816ca881a978030355249590d930af62996",
+          "transitions_00005.npz": "65ce823e69cf040cdd49e23dc8f937d2c2e45c0de444ef31b61d7cc031374152",
+          "transitions_00006.npz": "87b613e892d80db7b4367981ec3d7ab18475166771f1447d3981c0a844d787ac",
+          "transitions_00007.npz": "b00684a9c022c41ea7b3e57cdc9657fd2e1f03ca7cc5e4edb87ba3e0db19d1e7",
+          "transitions_00008.npz": "29741b79c2fd91eb18d561ce1a9076891060a1a4257b7a0eaed580c3d249847c",
+          "transitions_00009.npz": "f83365c96f633c3346be916a71e874d17db440e3e3ae654c984e3fcecb832d47",
+          "transitions_00010.npz": "bf26cf223cd31b48c4cd69a422fdf3ed11a3f75084a789f6a3a8bad93a7c419d",
+          "transitions_00011.npz": "9784f85397450842f907cbc06b40feafc2356f9f6a514a1d6de1e8ef81d9bbd4",
+          "transitions_00012.npz": "fb87dcd10dbe92f2119f94aa3fa93b4944f373d5473a86d895b12a79fc29624e",
+          "transitions_00013.npz": "958e4dc9809e523678012d8e72274746d5a04d60d78bc65c3823045ce8cd95e9",
+          "transitions_00014.npz": "433a0fcdc9a61f9e0638cda4209f7a99a75f6e6b429978cee72fd2fa92a6ee73",
+          "transitions_00015.npz": "6139f1ef109213708e33f03dfcfba5bae2196138c62f7ff815bf6bd75e1ca747",
+          "transitions_00016.npz": "7192d37ca96239d371389d391144f9a98b3b9abb3454f8f8646abccc752496f1",
+          "transitions_00017.npz": "a0bf9812916de5ce768d1ba430c0f0b555045a1c17e6ee1c8a0b5864f4585a6f",
+          "transitions_00018.npz": "b874ea1b7ca2a159d37d673ae0d32bcf8aca62835e5f20064843a2ea493bca9b",
+          "transitions_00019.npz": "5d8a6c05ed59d50bada0dc97aad3b28cb0aef3b23a53d69f4db2e95c1bf0e936",
+          "transitions_00020.npz": "c5a8b75cf664af8e8933648241cfa72b19deb64ecb2277544a7fcd9748950874",
+          "transitions_00021.npz": "257bc62fdf726cdc697b24bc4659b30920516b7d251f155f58abd277e9db38d9",
+          "transitions_00022.npz": "eb0a8ea75479f887df466ddc9ca3ca868a5e05b86139b6b48ce69352be0e0bd1",
+          "transitions_00023.npz": "365b92ac0bb50edb61e7d750bbf465812fb83d86764087953fd0b3ef4b61a1fd",
+          "transitions_00024.npz": "e1bee09b031ed827f057d3189dbf8d4875a5beeb7285db7af8e36dc574c880e5",
+          "transitions_00025.npz": "e49620b048d1f66d5326acfb174b00b34d8949137e2273cfbd749f24100bc247",
+          "transitions_00026.npz": "254f062e30d130a8f5ba05efb4bedbd0f5149a2b2be3a4a483f8d8599a84aa72",
+          "transitions_00027.npz": "36f5a2b6cd8ce1e7e8e8ec2b401060aabbf961469045f06670e0a35170854149",
+          "transitions_00028.npz": "9631b6551b1d4215f142c661db71d3c073c028a53d252d417e5ef154e85e2381",
+          "transitions_00029.npz": "d33c7e4f55be7d422d3639d2ea02bb3c60783a878edd45e58e43926f56f96c4b",
+          "transitions_00030.npz": "e7fc708c22dffd21088d606003f0661ccf7e09062f5e905f62175e2b24d4e60a",
+          "transitions_00031.npz": "8a90cc05b122830f46c488af203aab0ac4b8b66c992f90959e1e75682e1e3634",
+          "transitions_00032.npz": "802d4ef2e6b2e4b2ad93a2610b55df94705864bf1dd0bf3ebbcfdd4cb741510b",
+          "transitions_00033.npz": "8a3d63caaf7f65d76b19b29873de1ed0b98f8df3dda7b7af111b337c3ea368c8",
+          "transitions_00034.npz": "dad4bbc8a241607a362488f30aab0d7b5e08d2dbf8477bcbb57fed310dad369d",
+          "transitions_00035.npz": "14fd3e4b291d9aa48ddce1ba0f535cb2efa0367bacdb016e5fd837761809fdcf",
+          "transitions_00036.npz": "2ff40b3421533f7afe1d80b439da530b8f8b7785740da75dae5a7fe45a47ad94",
+          "transitions_00037.npz": "d54426d6e8b2a61b550a7731d8ca8fa02f1eb36803f09c2d51b2d307f5cd5c31",
+          "transitions_00038.npz": "8f957b52876e8952f033bcc09df700a9e6907d20ce432b44e952f225e61a96c8",
+          "transitions_00039.npz": "0b2d0ca290b4d53e2bc594e305176ec5c65208a3d851d39c39bbac4223ba82b3",
+          "transitions_00040.npz": "0ee91d36259dec1994f437ae5a31287b54bca719d592cec25fe2057c5a6682e4",
+          "transitions_00041.npz": "4a683883e1c7afc315a9a7e52ab20cbf9aa130f6cfe8dd51deb211c7ab03f3cc",
+          "transitions_00042.npz": "87371f9cb7cb0ae18a51760927b6b78896eae827831e1b6fa45ddd07dcb1f890",
+          "transitions_00043.npz": "b8294d0d73d411cba4ce04ec8c75249dd19e707872ba4f80bac10e96116faa58",
+          "transitions_00044.npz": "719c3c77da86c230b1806280690eb775af538c41cd1bd96a4c719b110503e44e",
+          "transitions_00045.npz": "16882914498cc824efbc688368e49ad2381dfe567878688b556ad2e2f80d4347",
+          "transitions_00046.npz": "391753e6b907d8fec11a54d2f6ad7925b1e65767fd9c644f9926cbd8c766b8db",
+          "transitions_00047.npz": "efd3198085dec371c1851fa7d0016310111bedc54d88d72572f2b6d6be702d25",
+          "transitions_00048.npz": "4e024858a5cfdfa89c483152b0912ca59f6a23249d36ab77550095062155dd6e",
+          "transitions_00049.npz": "dc14fb8f952d9f066794050d4d4cecef5646e8f069b90f0bfb889bc270057dc6",
+          "transitions_00050.npz": "2f7837e64eb9089ec8174c481e4e4bc25d70112ababaa0ca44a1f3b8ab607421",
+          "transitions_00051.npz": "25ef16fe83e8ed7bedb7b5ebc23f22fe460ce4eec4782843e67488e20874f776",
+          "transitions_00052.npz": "fd11d291f244c0f446393a8fe849d5bbeb8e44cc9efd222fceaa355fa2c20766",
+          "transitions_00053.npz": "78f8781c6bb918fc3c4de79370768c0c8b325a4c7580d192b74f2939677f3bc8",
+          "transitions_00054.npz": "7ce1a2c8c3144173435b3985b4814f2c19fc67257bf63aeefab37a65c05aca70",
+          "transitions_00055.npz": "dcbfe9d8a18fb81ac14f365b699354009a2bf802e146e59f04485aa798ce6191",
+          "transitions_00056.npz": "992fd21195a0e3a7ae93b5b3da12c4f44a3ff673d1b87ef0e3674548fc24283e",
+          "transitions_00057.npz": "561d560fb4209aacda0fc89daa3102f6c9fec9f2799417b017827956727f30c2",
+          "transitions_00058.npz": "3a3448bd8220e7d2ae12d2dc784e6bacaec7f4ab03367fceb7e06ec6c9ce3f04",
+          "transitions_00059.npz": "02859dbe320e838d66801bb99400e25acaeebfbdbf20bf9cba76a67681d18082",
+          "transitions_00060.npz": "b7907eea5614873749455bba556a8af3924e18a119117dd16ab19f8b0f2172c7",
+          "transitions_00061.npz": "f0d6ce7aeeb37b030e859e67408f2660c59f5b9ef4a913bd8243821611b9a392",
+          "transitions_00062.npz": "feb863d62494fcc3b3f0a0107ec7bb6396835628f5bac0dc329f3331b21b1614",
+          "transitions_00063.npz": "c1b1fb4681daad21c069008e4fe0431b56cdec5f8c42f36253f5fdbbd2668958",
+          "transitions_00064.npz": "8a0fc6de2b33caaf1200e78f34ed2b0eb3191f24aab0cd30828a77f71542a372",
+          "transitions_00065.npz": "bbf523de79ae53d9817c114a0f4a72f5c69c5a274365655e007d79c1202d8925",
+          "transitions_00066.npz": "9f418fc448dc95fd2009620ee9314d6b7d6c4b829344e31b4e1de966bca4e2b9",
+          "transitions_00067.npz": "dc18a7dbf58a71675011468afdc1b1b78697a6c8a5873f18cb012ee713d41e0b",
+          "transitions_00068.npz": "fa25e1c0213888e27907d0f55ac26e8866c5ed7da716b3f790b2ed8bc586cede",
+          "transitions_00069.npz": "fb0d7d20fcef8bbf3e748a933fd4107a9e9c41c365ad22f11b181efb57b22884",
+          "transitions_00070.npz": "689eb69d6145fa9dfae62d3f041f2765dea1aa464c14bf1de639c7ac4e8b4bfa",
+          "transitions_00071.npz": "69fea5ec85a462984ad6de4350391818bb14ed78647e2f3dd82f784a4c043a84",
+          "transitions_00072.npz": "843d3a740a6b3513c57a08f28e6a9e2b99b24e0ae5d4ea77b9813cb38bbc2082",
+          "transitions_00073.npz": "1c6fa3afda994f22b6aa44d852a9f56d2e4358653c8d8a887d71617121363525",
+          "transitions_00074.npz": "702358cc6033398a551f062973f9c89d68395c06100333d5d2955832e40f0a7d",
+          "transitions_00075.npz": "b77488518c03724fcb89f1d8a3dd42316040920b556481d23c0ed5b37e336da6",
+          "transitions_00076.npz": "345034837e6b3de3e6593dca65bded0b1935563f85883ffdd79a4609c22e0e18",
+          "transitions_00077.npz": "3e489fdae67cd7111251cc039657a1465a62fdeb2574f5a31ccf123800d9dc86",
+          "transitions_00078.npz": "03d96d917ea50dd2bb1f53bef92747eab909896cde4bf4e081ed2e3ae9abb1b0",
+          "transitions_00079.npz": "20f04af78b0fc6c3ed9bdc54f9f0b7231188e5a878233260d8255dec8f38188b",
+          "transitions_00080.npz": "fe76490ee1b7c9677d5a6feaf34b5f456d13680e81f802f74d73ecc482828f5a",
+          "transitions_00081.npz": "223eb8966dbc67fcd24f4ccfd2574b63b7cffc3e9ef52cd464983717754b27ce",
+          "transitions_00082.npz": "af2faae04eca5fe1fe5d99c784e0693de2f4e1a492d1aaeeb22d33f70c7477e2",
+          "transitions_00083.npz": "f5b44d662a8b09d6f5f931b7310b684bb584caf9d9cfb52d27f8ca5f29bc9f37",
+          "transitions_00084.npz": "f462f89c5951160e43ecd6d67d28277f896abcaa287e461e37674b8c6fada61a",
+          "transitions_00085.npz": "7a0bfab18168abc705fb6cfdc964e99f3b421d753007db3f938c83e39d031635",
+          "transitions_00086.npz": "ce517aee7374c961719418ce4cbc22714798ddb2c950eeb8b51cad3eaf5a080e",
+          "transitions_00087.npz": "fe1bd9c033e18bd128d480157b67868309205a6b2b67c3c74ab85ae2dfbedc84",
+          "transitions_00088.npz": "bd0255b5b448adcd725e0e85c3a1728f3bd8a4d1a96f4ee208006a9987a9949a",
+          "transitions_00089.npz": "b7ebeb79c22612327f33e2afbac84a021a9f0977739ae4420f7c20409a89d156",
+          "transitions_00090.npz": "f9bbab410b3577676efaff884db52e78f174ec00dca4507a3a480b1318f80969",
+          "transitions_00091.npz": "3aed2555af618263dc65b8b7fb70052d17a4acf4e47bad0a9785a028cce6691d",
+          "transitions_00092.npz": "99510f00a4948670298168ada4f03eec2752e91dc3d02da1ee800a40ee11b0a7",
+          "transitions_00093.npz": "a7c3a6a907e3a43d65fafb497c8c20d65b41eb79fa6de5fe98cd62a3cc3c2ce4",
+          "transitions_00094.npz": "0c6a588d1933eca878bf5a1a232f430b57dbc8d95204bbbdb51ca25af7afc19b",
+          "transitions_00095.npz": "adc5db72b83261588e986575e52a0ec5af9328c64239704bfd9557ae3f668db7",
+          "transitions_00096.npz": "dafe6a2a664d4b2881ac7023d64f58dcc327d8d8442755e78757f035052d0683",
+          "transitions_00097.npz": "466b4d9259909f67bd141175b77d3289094baa2d8a467d4199501157dbf11ebd",
+          "transitions_00098.npz": "9933bf4779e2fea5eb61c8bcb5e5774b248b41ce91c609877cc777e491a2cc25",
+          "transitions_00099.npz": "efa71de2bb12a0e2c54c509559b378eaa6f9286f5d935215898b4dd3f305900b",
+          "transitions_00100.npz": "fc346fb25b08827eb379bc550929baa6a847373c787efefa6e38a929e98817c1",
+          "transitions_00101.npz": "abcb076a14c3e33835c28273b1fbf4a0b265102bcee5916c011d3ef275a0a61c",
+          "transitions_00102.npz": "fa0c74266f21b9fda225f8778406b05e9a84a58c22f86ae22446d350142eaa15",
+          "transitions_00103.npz": "0b64fab23b80720aef6592e72cb2e064c34d0189e3a3b2c672b96f5760617c4d",
+          "transitions_00104.npz": "77d15a49f1315ddb07f4911117d4489b730e92c8421c886e42fdcbf7101d91d4",
+          "transitions_00105.npz": "cbed84a45007f4ba01b1113590a1b4e3c5eead7b1054917571b1a2ee396d89a9",
+          "transitions_00106.npz": "731651df1e54967e3a3682382e9204354fb3cbe83a89c7281610944cb4cf0a3d",
+          "transitions_00107.npz": "0a369e9f152b36b3737cfc329257ff5bde97d27b061e17a063353c3c53d018cf",
+          "transitions_00108.npz": "c3673158d00b8eedceaac08975fe044aba713202fd23bc9fe7b2f6d781e7e761",
+          "transitions_00109.npz": "52c27bfab001f141ec370ea955ec3d78a76836028174de595f2009750470276c",
+          "transitions_00110.npz": "03ca2115c8e9b1536d56a650397eb72100a3436d0440e67a9ab6a3b0b7524cd6",
+          "transitions_00111.npz": "388ee28a2913df51f106a84dd7ff852ade40c68b4fa427facf9111da60eabb2a",
+          "transitions_00112.npz": "0c4e66cb58457f5189ba5356810729d288f73193e901ff9484849f7873526771",
+          "transitions_00113.npz": "b0c8f0b29ab5b57099367ebdc3980c7a6e145eab681b626067d5e2b6fdf47a5f",
+          "transitions_00114.npz": "4a6efd2f816cd2194f61e8b9d7274280e1dc7ac093a3335eb25888da28c3c2c7",
+          "transitions_00115.npz": "122a4136dcfb24b026fd36b2062f32b90de99fcea123019b918dd06bf0771eb8",
+          "transitions_00116.npz": "48e7bf61f6bee0fa653b9c382fd8a89ccc477f44799756b0c4d28bd0715bde2d",
+          "transitions_00117.npz": "77510c074611960e5913ea4f582f33deac829e17f57139632d542501f58a39f2",
+          "transitions_00118.npz": "ee737333f78d48b2c43631aa1f571f201fc4a34342b8fe7ce123c969705da34e",
+          "transitions_00119.npz": "d36fe185136def39cad37f16ed3d4d478fc3df9ec7c1f0219cc27ee5204420c7",
+          "transitions_00120.npz": "fa71c257a92db18abbcdc6da5d3a0ec100d2819ff4a26de866c79b327de6ac36",
+          "transitions_00121.npz": "ce0a39c3090c00a4e1df96b24bb31d17715a04b500903a57c7f7e500fba312ae",
+          "transitions_00122.npz": "8d631a0baaa1036bf13ea3bdd59ba3bef29a779526c5e5917249ba23a3ab12b0",
+          "transitions_00123.npz": "1a4d0f80692b03ea5d58e3b3493579e2b3557342426b7d01e64482b419cfecca",
+          "transitions_00124.npz": "9d2e4438cbcf7f8a35d59a8056e131f774259f48734186b0568385b489028660",
+          "transitions_00125.npz": "a3fd90d36de7c7165e2e7dfa7cf9781a5de6d0055e69b9433bfa6ec42f863c93",
+          "transitions_00126.npz": "a78fccbc7af970452baa928a97e00ba93247ad4090c2ea00d4894f68c268818a",
+          "transitions_00127.npz": "f60b233fca2d65287d1392cebac2950be201078ac0a683594ed9e7ba12d006bb",
+          "events.sqlite": "0d85d8ce2a25c73052ea4a5e3c72eb4e4c768ceb7ea12c186db223d62d9d6cd9"
+        }
+      },
+      "0": {
+        "seen": {
+          "transitions": 18432,
+          "episodes": 206,
+          "success_count": 16,
+          "safe_success_count": 9,
+          "impact_count": 104,
+          "collision_steps": 14170,
+          "reward_sum": -6566.130897509676,
+          "mse_sum": 296.11299430020154,
+          "risk_error_sum": 0.0,
+          "scenes": {
+            "(0, 0, 1)": {
+              "steps": 1024,
+              "episodes": 18,
+              "success": 2,
+              "safe_success": 2,
+              "impact": 16,
+              "collision": 628
+            },
+            "(0, 0, 2)": {
+              "steps": 1024,
+              "episodes": 10,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 4,
+              "collision": 805
+            },
+            "(0, 1, 0)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 0,
+              "collision": 908
+            },
+            "(0, 1, 1)": {
+              "steps": 1024,
+              "episodes": 18,
+              "success": 2,
+              "safe_success": 2,
+              "impact": 16,
+              "collision": 712
+            },
+            "(0, 2, 0)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 0,
+              "collision": 859
+            },
+            "(0, 2, 2)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 0,
+              "collision": 832
+            },
+            "(1, 0, 0)": {
+              "steps": 1024,
+              "episodes": 9,
+              "success": 2,
+              "safe_success": 1,
+              "impact": 0,
+              "collision": 862
+            },
+            "(1, 0, 1)": {
+              "steps": 1024,
+              "episodes": 19,
+              "success": 2,
+              "safe_success": 1,
+              "impact": 17,
+              "collision": 561
+            },
+            "(1, 1, 0)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 1,
+              "safe_success": 1,
+              "impact": 0,
+              "collision": 854
+            },
+            "(1, 1, 2)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 1,
+              "collision": 798
+            },
+            "(1, 2, 1)": {
+              "steps": 1024,
+              "episodes": 16,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 16,
+              "collision": 648
+            },
+            "(1, 2, 2)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 1,
+              "safe_success": 1,
+              "impact": 0,
+              "collision": 879
+            },
+            "(2, 0, 0)": {
+              "steps": 1024,
+              "episodes": 9,
+              "success": 2,
+              "safe_success": 0,
+              "impact": 0,
+              "collision": 834
+            },
+            "(2, 0, 2)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 1,
+              "collision": 877
+            },
+            "(2, 1, 1)": {
+              "steps": 1024,
+              "episodes": 17,
+              "success": 3,
+              "safe_success": 0,
+              "impact": 14,
+              "collision": 686
+            },
+            "(2, 1, 2)": {
+              "steps": 1024,
+              "episodes": 10,
+              "success": 1,
+              "safe_success": 1,
+              "impact": 3,
+              "collision": 832
+            },
+            "(2, 2, 0)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 0,
+              "collision": 916
+            },
+            "(2, 2, 1)": {
+              "steps": 1024,
+              "episodes": 16,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 16,
+              "collision": 679
+            }
+          },
+          "success": 0.07766990291262135,
+          "safe_success": 0.043689320388349516,
+          "impact": 0.5048543689320388,
+          "collision_step_rate": 0.7687717013888888,
+          "reward": -0.3562354002555163,
+          "mse": 0.01606515811090503,
+          "risk_brier": 0.0,
+          "sha256": {
+            "transitions_00000.npz": "3fc49448b29f0b7a260a1333f02f570c53dd0d22fe7ff5f97c981c2b96b4efe5",
+            "transitions_00001.npz": "cf56075f655b2ceabf08f604010311e5de312e99ea72c07a7264fae89b2cc267",
+            "transitions_00002.npz": "1fa8c3a01e13f93cb3b974e54394ebc06ac3ff75e587f3497f251b4f54322d7e",
+            "transitions_00003.npz": "50ea29c4546c2b6147019dcbd8cc1de5ac373d5a19f2ccf3e2da956b8bd544c6",
+            "transitions_00004.npz": "d29346627d849d81ed7396981867bb32cbce1d42cb047a91545c346bedb542fe",
+            "transitions_00005.npz": "819f015d2c168ec4fef725c737ea43a95a66e1c31474a622e2a215cb067216c7",
+            "transitions_00006.npz": "826f6b5ad957cdb78d88d87e6ee0edb9535c25a8d1da9981cab18aee1ed56a25",
+            "transitions_00007.npz": "7143fed7612e35ae7505e0f2f28865567753978aaa1c4b764d0f641d727ace05",
+            "events.sqlite": "decf028da53c45f0ffc6aa174fc06085064c17c5a7c59dfaf2f8c7284a054790"
+          }
+        },
+        "heldout": {
+          "transitions": 9216,
+          "episodes": 106,
+          "success_count": 8,
+          "safe_success_count": 5,
+          "impact_count": 53,
+          "collision_steps": 6995,
+          "reward_sum": -3247.0274086528225,
+          "mse_sum": 147.10551287420094,
+          "risk_error_sum": 0.0,
+          "scenes": {
+            "(0, 0, 0)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 0,
+              "collision": 873
+            },
+            "(0, 1, 2)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 0,
+              "collision": 836
+            },
+            "(0, 2, 1)": {
+              "steps": 1024,
+              "episodes": 19,
+              "success": 4,
+              "safe_success": 4,
+              "impact": 15,
+              "collision": 630
+            },
+            "(1, 0, 2)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 1,
+              "collision": 895
+            },
+            "(1, 1, 1)": {
+              "steps": 1024,
+              "episodes": 22,
+              "success": 4,
+              "safe_success": 1,
+              "impact": 18,
+              "collision": 538
+            },
+            "(1, 2, 0)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 0,
+              "collision": 863
+            },
+            "(2, 0, 1)": {
+              "steps": 1024,
+              "episodes": 16,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 16,
+              "collision": 726
+            },
+            "(2, 1, 0)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 0,
+              "collision": 876
+            },
+            "(2, 2, 2)": {
+              "steps": 1024,
+              "episodes": 9,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 3,
+              "collision": 758
+            }
+          },
+          "success": 0.07547169811320754,
+          "safe_success": 0.04716981132075472,
+          "impact": 0.5,
+          "collision_step_rate": 0.7590060763888888,
+          "reward": -0.3523250226402802,
+          "mse": 0.01596196971291243,
+          "risk_brier": 0.0,
+          "sha256": {
+            "transitions_00000.npz": "9555c07711eb69ac11be7adbf136e6fe1094ccc028ae8675377b3dfcfd5228b6",
+            "transitions_00001.npz": "c943dfae70cde8118e546f94842ff4af506a4cc197bc90cb9de05c0455ce38fd",
+            "transitions_00002.npz": "e153737d3bf34b58b713ccd5940114b44d8b18ff64beca0a8437a525504fa873",
+            "transitions_00003.npz": "f486b8436a94af902d9010fc6e7629daed83cc5da5f7c999a818da72b1762852",
+            "transitions_00004.npz": "90b560b19f6b724faab2971c6057f0a301d223837b17082bccc77656e20199a0",
+            "transitions_00005.npz": "d5010d7341f027fe0029ce531c753eb2a1a921037b414ce826cab0cb5b79736c",
+            "transitions_00006.npz": "ecbf2bf0fcc0ba4917c449b4e9032ade3c07c699fe6db510fbdbfe526269652e",
+            "transitions_00007.npz": "f196a61433451aecf3246253a83f418c53642a318b0a24bafafdaea8ad0ae8ba",
+            "events.sqlite": "49c5f419631d72b1c545fc672f1a8dac37cfd39162430b5df4589ec9058bc86d"
+          }
+        }
+      },
+      "1024": {
+        "seen": {
+          "transitions": 18432,
+          "episodes": 245,
+          "success_count": 44,
+          "safe_success_count": 31,
+          "impact_count": 141,
+          "collision_steps": 2158,
+          "reward_sum": -476.5325160348475,
+          "mse_sum": 45.17754976255037,
+          "risk_error_sum": 0.0,
+          "scenes": {
+            "(0, 0, 1)": {
+              "steps": 1024,
+              "episodes": 19,
+              "success": 2,
+              "safe_success": 2,
+              "impact": 17,
+              "collision": 0
+            },
+            "(0, 0, 2)": {
+              "steps": 1024,
+              "episodes": 13,
+              "success": 3,
+              "safe_success": 3,
+              "impact": 6,
+              "collision": 0
+            },
+            "(0, 1, 0)": {
+              "steps": 1024,
+              "episodes": 9,
+              "success": 3,
+              "safe_success": 3,
+              "impact": 0,
+              "collision": 0
+            },
+            "(0, 1, 1)": {
+              "steps": 1024,
+              "episodes": 20,
+              "success": 4,
+              "safe_success": 4,
+              "impact": 16,
+              "collision": 0
+            },
+            "(0, 2, 0)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 2,
+              "safe_success": 2,
+              "impact": 0,
+              "collision": 0
+            },
+            "(0, 2, 2)": {
+              "steps": 1024,
+              "episodes": 12,
+              "success": 2,
+              "safe_success": 2,
+              "impact": 5,
+              "collision": 0
+            },
+            "(1, 0, 0)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 0,
+              "collision": 151
+            },
+            "(1, 0, 1)": {
+              "steps": 1024,
+              "episodes": 23,
+              "success": 3,
+              "safe_success": 3,
+              "impact": 20,
+              "collision": 139
+            },
+            "(1, 1, 0)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 3,
+              "safe_success": 1,
+              "impact": 0,
+              "collision": 92
+            },
+            "(1, 1, 2)": {
+              "steps": 1024,
+              "episodes": 10,
+              "success": 2,
+              "safe_success": 0,
+              "impact": 4,
+              "collision": 180
+            },
+            "(1, 2, 1)": {
+              "steps": 1024,
+              "episodes": 20,
+              "success": 1,
+              "safe_success": 0,
+              "impact": 19,
+              "collision": 94
+            },
+            "(1, 2, 2)": {
+              "steps": 1024,
+              "episodes": 14,
+              "success": 5,
+              "safe_success": 3,
+              "impact": 9,
+              "collision": 185
+            },
+            "(2, 0, 0)": {
+              "steps": 1024,
+              "episodes": 10,
+              "success": 3,
+              "safe_success": 2,
+              "impact": 0,
+              "collision": 392
+            },
+            "(2, 0, 2)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 1,
+              "safe_success": 0,
+              "impact": 2,
+              "collision": 433
+            },
+            "(2, 1, 1)": {
+              "steps": 1024,
+              "episodes": 22,
+              "success": 6,
+              "safe_success": 3,
+              "impact": 16,
+              "collision": 123
+            },
+            "(2, 1, 2)": {
+              "steps": 1024,
+              "episodes": 12,
+              "success": 1,
+              "safe_success": 0,
+              "impact": 7,
+              "collision": 114
+            },
+            "(2, 2, 0)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 2,
+              "safe_success": 2,
+              "impact": 0,
+              "collision": 134
+            },
+            "(2, 2, 1)": {
+              "steps": 1024,
+              "episodes": 21,
+              "success": 1,
+              "safe_success": 1,
+              "impact": 20,
+              "collision": 121
+            }
+          },
+          "success": 0.17959183673469387,
+          "safe_success": 0.12653061224489795,
+          "impact": 0.5755102040816327,
+          "collision_step_rate": 0.11707899305555555,
+          "reward": -0.025853543621682264,
+          "mse": 0.0024510389411105888,
+          "risk_brier": 0.0,
+          "sha256": {
+            "transitions_00000.npz": "1f555422d08ec130da78ab1c6dcdb29fd3bd936ce24e1840365a3767241397d4",
+            "transitions_00001.npz": "c2006dd83e06cdae18b7fd00d7dc84f8bfa0aecce031ed45286ea8615929b891",
+            "transitions_00002.npz": "484aaaa39baa74609d26f79aaf38a70ca6397f52d6a3b14e06e960e287139eef",
+            "transitions_00003.npz": "272b1d13341c38e6817871d817979f825daaffd010341c6c613540df45b0ef4f",
+            "transitions_00004.npz": "e84dd7d5415ed50193545049a8a09c36f8043d83c33b7782d65f5986b7c2446f",
+            "transitions_00005.npz": "cd55904a5eae310937a5a1d01338fcaf8a8d0a67bb082bfd4547cd8a36529d3c",
+            "transitions_00006.npz": "f319a35cb3edc790c4a92e548269f3e26cf6bd88b665c01f26b1a6ff5e879b2c",
+            "transitions_00007.npz": "4f17f9140f2e7cfccf42a4ebaa0e39ebede3f53d0b02dcab6315d4df7d763bb4",
+            "events.sqlite": "5c4f46dce5d6ac8afe07b80f229ea204f81cb99bcf4d05737d47772b9818be86"
+          }
+        },
+        "heldout": {
+          "transitions": 9216,
+          "episodes": 123,
+          "success_count": 19,
+          "safe_success_count": 14,
+          "impact_count": 72,
+          "collision_steps": 1188,
+          "reward_sum": -313.4163149763822,
+          "mse_sum": 22.217557415544434,
+          "risk_error_sum": 0.0,
+          "scenes": {
+            "(0, 0, 0)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 1,
+              "safe_success": 1,
+              "impact": 0,
+              "collision": 0
+            },
+            "(0, 1, 2)": {
+              "steps": 1024,
+              "episodes": 9,
+              "success": 1,
+              "safe_success": 1,
+              "impact": 3,
+              "collision": 0
+            },
+            "(0, 2, 1)": {
+              "steps": 1024,
+              "episodes": 21,
+              "success": 4,
+              "safe_success": 4,
+              "impact": 17,
+              "collision": 0
+            },
+            "(1, 0, 2)": {
+              "steps": 1024,
+              "episodes": 12,
+              "success": 1,
+              "safe_success": 0,
+              "impact": 7,
+              "collision": 178
+            },
+            "(1, 1, 1)": {
+              "steps": 1024,
+              "episodes": 23,
+              "success": 4,
+              "safe_success": 3,
+              "impact": 19,
+              "collision": 159
+            },
+            "(1, 2, 0)": {
+              "steps": 1024,
+              "episodes": 10,
+              "success": 5,
+              "safe_success": 2,
+              "impact": 0,
+              "collision": 199
+            },
+            "(2, 0, 1)": {
+              "steps": 1024,
+              "episodes": 23,
+              "success": 1,
+              "safe_success": 1,
+              "impact": 22,
+              "collision": 205
+            },
+            "(2, 1, 0)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 1,
+              "safe_success": 1,
+              "impact": 0,
+              "collision": 138
+            },
+            "(2, 2, 2)": {
+              "steps": 1024,
+              "episodes": 9,
+              "success": 1,
+              "safe_success": 1,
+              "impact": 4,
+              "collision": 309
+            }
+          },
+          "success": 0.15447154471544716,
+          "safe_success": 0.11382113821138211,
+          "impact": 0.5853658536585366,
+          "collision_step_rate": 0.12890625,
+          "reward": -0.0340078466771248,
+          "mse": 0.0024107592681797347,
+          "risk_brier": 0.0,
+          "sha256": {
+            "transitions_00000.npz": "c0818a86e7005d3e98e75215f8ce2039745d6b68b3c27bedac37f1cf6560f933",
+            "transitions_00001.npz": "f19725505f750c880feba6073755b146e4991abd730f4ddf794d2b8d1fe8bd2b",
+            "transitions_00002.npz": "abde71fdfe1e456faacc7d295c09b1f2b6dd779cdde11116b602fe421fe323c2",
+            "transitions_00003.npz": "eb2e21d7e223e8ec4fa26fa47d1bce7348e11487eb9346339ed9bbc26523b221",
+            "transitions_00004.npz": "93844cf3169d1550479d88e5dc41b28664636bcb85f810e93e5307b62e5d11a9",
+            "transitions_00005.npz": "bbf683db5d2156ab2ac93ae8c24ef420c46726c2906d485eed9142a4a4bd67a4",
+            "transitions_00006.npz": "4f33a21c1e0b081f2d7aaf9d7c229f768a88b18956a05955185e5824d371acb1",
+            "transitions_00007.npz": "866f9fd6ecb8c1eb9bb89d9499fdb594e373b9dfbfc8960c060bb1bc3966c5c1",
+            "events.sqlite": "8b0502fec10ce493b337e4e69513c3a68e34eabf56e3296ae9bf2c1cc9997005"
+          }
+        }
+      },
+      "4096": {
+        "seen": {
+          "transitions": 18432,
+          "episodes": 374,
+          "success_count": 297,
+          "safe_success_count": 157,
+          "impact_count": 44,
+          "collision_steps": 3609,
+          "reward_sum": 2304.5201865949384,
+          "mse_sum": 59.60783946632728,
+          "risk_error_sum": 0.0,
+          "scenes": {
+            "(0, 0, 1)": {
+              "steps": 1024,
+              "episodes": 23,
+              "success": 20,
+              "safe_success": 14,
+              "impact": 2,
+              "collision": 14
+            },
+            "(0, 0, 2)": {
+              "steps": 1024,
+              "episodes": 27,
+              "success": 21,
+              "safe_success": 17,
+              "impact": 6,
+              "collision": 13
+            },
+            "(0, 1, 0)": {
+              "steps": 1024,
+              "episodes": 25,
+              "success": 24,
+              "safe_success": 17,
+              "impact": 0,
+              "collision": 64
+            },
+            "(0, 1, 1)": {
+              "steps": 1024,
+              "episodes": 27,
+              "success": 23,
+              "safe_success": 18,
+              "impact": 3,
+              "collision": 42
+            },
+            "(0, 2, 0)": {
+              "steps": 1024,
+              "episodes": 25,
+              "success": 24,
+              "safe_success": 17,
+              "impact": 0,
+              "collision": 38
+            },
+            "(0, 2, 2)": {
+              "steps": 1024,
+              "episodes": 26,
+              "success": 24,
+              "safe_success": 14,
+              "impact": 1,
+              "collision": 50
+            },
+            "(1, 0, 0)": {
+              "steps": 1024,
+              "episodes": 23,
+              "success": 21,
+              "safe_success": 12,
+              "impact": 0,
+              "collision": 178
+            },
+            "(1, 0, 1)": {
+              "steps": 1024,
+              "episodes": 16,
+              "success": 8,
+              "safe_success": 1,
+              "impact": 5,
+              "collision": 157
+            },
+            "(1, 1, 0)": {
+              "steps": 1024,
+              "episodes": 19,
+              "success": 18,
+              "safe_success": 8,
+              "impact": 0,
+              "collision": 158
+            },
+            "(1, 1, 2)": {
+              "steps": 1024,
+              "episodes": 16,
+              "success": 12,
+              "safe_success": 2,
+              "impact": 3,
+              "collision": 342
+            },
+            "(1, 2, 1)": {
+              "steps": 1024,
+              "episodes": 23,
+              "success": 14,
+              "safe_success": 4,
+              "impact": 8,
+              "collision": 240
+            },
+            "(1, 2, 2)": {
+              "steps": 1024,
+              "episodes": 20,
+              "success": 15,
+              "safe_success": 8,
+              "impact": 3,
+              "collision": 228
+            },
+            "(2, 0, 0)": {
+              "steps": 1024,
+              "episodes": 17,
+              "success": 14,
+              "safe_success": 3,
+              "impact": 0,
+              "collision": 388
+            },
+            "(2, 0, 2)": {
+              "steps": 1024,
+              "episodes": 12,
+              "success": 5,
+              "safe_success": 2,
+              "impact": 1,
+              "collision": 565
+            },
+            "(2, 1, 1)": {
+              "steps": 1024,
+              "episodes": 20,
+              "success": 12,
+              "safe_success": 5,
+              "impact": 7,
+              "collision": 342
+            },
+            "(2, 1, 2)": {
+              "steps": 1024,
+              "episodes": 14,
+              "success": 8,
+              "safe_success": 3,
+              "impact": 2,
+              "collision": 369
+            },
+            "(2, 2, 0)": {
+              "steps": 1024,
+              "episodes": 20,
+              "success": 17,
+              "safe_success": 7,
+              "impact": 0,
+              "collision": 228
+            },
+            "(2, 2, 1)": {
+              "steps": 1024,
+              "episodes": 21,
+              "success": 17,
+              "safe_success": 5,
+              "impact": 3,
+              "collision": 193
+            }
+          },
+          "success": 0.7941176470588235,
+          "safe_success": 0.4197860962566845,
+          "impact": 0.11764705882352941,
+          "collision_step_rate": 0.19580078125,
+          "reward": 0.12502822192897886,
+          "mse": 0.0032339322627130684,
+          "risk_brier": 0.0,
+          "sha256": {
+            "transitions_00000.npz": "f76d8b6f0801f6b3f6ed0f5abfc25bc662e54a95c9423cf7b7eb42f10dbe2705",
+            "transitions_00001.npz": "5b75a9413b02d98d98cd93f8a0f39d1214b5b3a55725c1ce1330ea11cd3bf6f3",
+            "transitions_00002.npz": "aa9280d6e6f6eabe003c2a3b79bf7ac44e7e81b45aaf6d9a840da0cb24f1fda9",
+            "transitions_00003.npz": "999d3517c3fde4f672f58bc07cd85a05ac9cb67656a40427105ca1ad2931affe",
+            "transitions_00004.npz": "4968b822bccd002e2db1b558a138e3390cb235a393298aef16697a995f544ae7",
+            "transitions_00005.npz": "c6e53edad57c12db7c77f9a44372c2843dececa37355ea9623b0cbad5447f3fe",
+            "transitions_00006.npz": "4df45f13afa90acd845d0bcdf2b3a6c7887f79460449dc41e0ec2e05f8e0d297",
+            "transitions_00007.npz": "88e10b47e8da8ae263b2318000832baeb80b6227d650401f6c09efca7c328bc9",
+            "events.sqlite": "66b2c22b08832a4959c4f897c6a2efaf6a7f1465d0e64e60ed979ebcd5d159cb"
+          }
+        },
+        "heldout": {
+          "transitions": 9216,
+          "episodes": 173,
+          "success_count": 142,
+          "safe_success_count": 69,
+          "impact_count": 18,
+          "collision_steps": 1637,
+          "reward_sum": 1114.5869825981663,
+          "mse_sum": 32.7622808124961,
+          "risk_error_sum": 0.0,
+          "scenes": {
+            "(0, 0, 0)": {
+              "steps": 1024,
+              "episodes": 23,
+              "success": 23,
+              "safe_success": 18,
+              "impact": 0,
+              "collision": 26
+            },
+            "(0, 1, 2)": {
+              "steps": 1024,
+              "episodes": 23,
+              "success": 21,
+              "safe_success": 14,
+              "impact": 1,
+              "collision": 58
+            },
+            "(0, 2, 1)": {
+              "steps": 1024,
+              "episodes": 22,
+              "success": 18,
+              "safe_success": 12,
+              "impact": 3,
+              "collision": 63
+            },
+            "(1, 0, 2)": {
+              "steps": 1024,
+              "episodes": 19,
+              "success": 14,
+              "safe_success": 3,
+              "impact": 2,
+              "collision": 226
+            },
+            "(1, 1, 1)": {
+              "steps": 1024,
+              "episodes": 17,
+              "success": 12,
+              "safe_success": 3,
+              "impact": 4,
+              "collision": 282
+            },
+            "(1, 2, 0)": {
+              "steps": 1024,
+              "episodes": 17,
+              "success": 15,
+              "safe_success": 3,
+              "impact": 0,
+              "collision": 167
+            },
+            "(2, 0, 1)": {
+              "steps": 1024,
+              "episodes": 21,
+              "success": 15,
+              "safe_success": 8,
+              "impact": 5,
+              "collision": 166
+            },
+            "(2, 1, 0)": {
+              "steps": 1024,
+              "episodes": 13,
+              "success": 10,
+              "safe_success": 5,
+              "impact": 0,
+              "collision": 259
+            },
+            "(2, 2, 2)": {
+              "steps": 1024,
+              "episodes": 18,
+              "success": 14,
+              "safe_success": 3,
+              "impact": 3,
+              "collision": 390
+            }
+          },
+          "success": 0.8208092485549133,
+          "safe_success": 0.3988439306358382,
+          "impact": 0.10404624277456648,
+          "collision_step_rate": 0.17762586805555555,
+          "reward": 0.1209404277992802,
+          "mse": 0.003554934983994803,
+          "risk_brier": 0.0,
+          "sha256": {
+            "transitions_00000.npz": "1bcad65704591414ea131e90d807968ffe60e4da25ca6760489ebb43ef1c614a",
+            "transitions_00001.npz": "249646dd18e8f30dea3da7b241c45a771519cb853d3390e64e7620bfa4e3f20b",
+            "transitions_00002.npz": "5f27b779eb844455958e2b255eb55849a82d72aa2899e447e96dc5947147d42f",
+            "transitions_00003.npz": "efe717f7a79181e2049534fa6334ca1f7e310cf467060dc414413973d03770d0",
+            "transitions_00004.npz": "e16000d3e75dec29f91d9b6768746ffa9d8bb4039fe1ee9938dce6ba2de20b88",
+            "transitions_00005.npz": "f8b37ce2de7b5a1c30bd8854a613147ce88450cbc4e51ec70603693d9cf42709",
+            "transitions_00006.npz": "8ec46c8fcd5ad42ef2f8fa1901c038102aaae8237312a7c7d30a158f692f41f5",
+            "transitions_00007.npz": "dedb7201839e6ad24dc8705870687b1655dbf811b7f857c495a3e22bad6fe5ce",
+            "events.sqlite": "f7de40077ed420c27706ed3f535a2c50de80f207c2c771023bc4abc9fc23367d"
+          }
+        }
+      },
+      "8192": {
+        "seen": {
+          "transitions": 18432,
+          "episodes": 394,
+          "success_count": 328,
+          "safe_success_count": 167,
+          "impact_count": 46,
+          "collision_steps": 3591,
+          "reward_sum": 2742.014673652555,
+          "mse_sum": 52.494902672267926,
+          "risk_error_sum": 0.0,
+          "scenes": {
+            "(0, 0, 1)": {
+              "steps": 1024,
+              "episodes": 27,
+              "success": 21,
+              "safe_success": 16,
+              "impact": 6,
+              "collision": 31
+            },
+            "(0, 0, 2)": {
+              "steps": 1024,
+              "episodes": 24,
+              "success": 22,
+              "safe_success": 14,
+              "impact": 2,
+              "collision": 58
+            },
+            "(0, 1, 0)": {
+              "steps": 1024,
+              "episodes": 20,
+              "success": 19,
+              "safe_success": 11,
+              "impact": 0,
+              "collision": 55
+            },
+            "(0, 1, 1)": {
+              "steps": 1024,
+              "episodes": 30,
+              "success": 25,
+              "safe_success": 21,
+              "impact": 5,
+              "collision": 50
+            },
+            "(0, 2, 0)": {
+              "steps": 1024,
+              "episodes": 23,
+              "success": 22,
+              "safe_success": 16,
+              "impact": 0,
+              "collision": 25
+            },
+            "(0, 2, 2)": {
+              "steps": 1024,
+              "episodes": 31,
+              "success": 29,
+              "safe_success": 25,
+              "impact": 2,
+              "collision": 33
+            },
+            "(1, 0, 0)": {
+              "steps": 1024,
+              "episodes": 12,
+              "success": 8,
+              "safe_success": 2,
+              "impact": 0,
+              "collision": 158
+            },
+            "(1, 0, 1)": {
+              "steps": 1024,
+              "episodes": 23,
+              "success": 19,
+              "safe_success": 5,
+              "impact": 4,
+              "collision": 196
+            },
+            "(1, 1, 0)": {
+              "steps": 1024,
+              "episodes": 21,
+              "success": 19,
+              "safe_success": 9,
+              "impact": 0,
+              "collision": 214
+            },
+            "(1, 1, 2)": {
+              "steps": 1024,
+              "episodes": 21,
+              "success": 18,
+              "safe_success": 6,
+              "impact": 3,
+              "collision": 265
+            },
+            "(1, 2, 1)": {
+              "steps": 1024,
+              "episodes": 25,
+              "success": 23,
+              "safe_success": 6,
+              "impact": 2,
+              "collision": 145
+            },
+            "(1, 2, 2)": {
+              "steps": 1024,
+              "episodes": 20,
+              "success": 16,
+              "safe_success": 3,
+              "impact": 4,
+              "collision": 230
+            },
+            "(2, 0, 0)": {
+              "steps": 1024,
+              "episodes": 15,
+              "success": 10,
+              "safe_success": 4,
+              "impact": 0,
+              "collision": 550
+            },
+            "(2, 0, 2)": {
+              "steps": 1024,
+              "episodes": 11,
+              "success": 7,
+              "safe_success": 1,
+              "impact": 1,
+              "collision": 435
+            },
+            "(2, 1, 1)": {
+              "steps": 1024,
+              "episodes": 25,
+              "success": 17,
+              "safe_success": 7,
+              "impact": 7,
+              "collision": 260
+            },
+            "(2, 1, 2)": {
+              "steps": 1024,
+              "episodes": 21,
+              "success": 17,
+              "safe_success": 7,
+              "impact": 4,
+              "collision": 338
+            },
+            "(2, 2, 0)": {
+              "steps": 1024,
+              "episodes": 20,
+              "success": 17,
+              "safe_success": 5,
+              "impact": 0,
+              "collision": 351
+            },
+            "(2, 2, 1)": {
+              "steps": 1024,
+              "episodes": 25,
+              "success": 19,
+              "safe_success": 9,
+              "impact": 6,
+              "collision": 197
+            }
+          },
+          "success": 0.8324873096446701,
+          "safe_success": 0.42385786802030456,
+          "impact": 0.116751269035533,
+          "collision_step_rate": 0.19482421875,
+          "reward": 0.14876381692993462,
+          "mse": 0.002848030743938147,
+          "risk_brier": 0.0,
+          "sha256": {
+            "transitions_00000.npz": "96fcab8ed2d76fc792e88790155b9b6655bef9f81cd27e0107bb25335dece906",
+            "transitions_00001.npz": "fa6ff9fa84744d8c4ca1bd6907377b03c8cc76d7d814debd2d8c97fb3b4c09c3",
+            "transitions_00002.npz": "19fcc786eb093a5cea2cd092ae0ccf9c511a3249154c787b75ac8be500a071a1",
+            "transitions_00003.npz": "0ebe3a983d7c98d2a75de11863cccfd79802776333aff3f2a45771a2258e390f",
+            "transitions_00004.npz": "397e6453498fec27fe75f0441c64cfa8ad49578e2d5d3eaf80a24b5ebfb0e3bb",
+            "transitions_00005.npz": "8effd90c364cd90b23176724fdcda3126e7521e833f07bcf0048464ec342d1e1",
+            "transitions_00006.npz": "e85b08c4f1c154a450d9e1302b6b343d07a69cffefb6f2f539fc58a37d6ffa15",
+            "transitions_00007.npz": "fe4adb91a42f4c89773cf4624f0ee168a7b481964d6bbf9a14f9da530773e4e4",
+            "events.sqlite": "701a811e809a555f380557229163108272871a9816758d13f5da7c498ea2bdb5"
+          }
+        },
+        "heldout": {
+          "transitions": 9216,
+          "episodes": 196,
+          "success_count": 162,
+          "safe_success_count": 77,
+          "impact_count": 25,
+          "collision_steps": 1747,
+          "reward_sum": 1368.0074093617804,
+          "mse_sum": 26.913362394433534,
+          "risk_error_sum": 0.0,
+          "scenes": {
+            "(0, 0, 0)": {
+              "steps": 1024,
+              "episodes": 28,
+              "success": 28,
+              "safe_success": 23,
+              "impact": 0,
+              "collision": 12
+            },
+            "(0, 1, 2)": {
+              "steps": 1024,
+              "episodes": 18,
+              "success": 14,
+              "safe_success": 8,
+              "impact": 3,
+              "collision": 56
+            },
+            "(0, 2, 1)": {
+              "steps": 1024,
+              "episodes": 21,
+              "success": 21,
+              "safe_success": 14,
+              "impact": 0,
+              "collision": 37
+            },
+            "(1, 0, 2)": {
+              "steps": 1024,
+              "episodes": 20,
+              "success": 17,
+              "safe_success": 6,
+              "impact": 2,
+              "collision": 209
+            },
+            "(1, 1, 1)": {
+              "steps": 1024,
+              "episodes": 27,
+              "success": 22,
+              "safe_success": 8,
+              "impact": 5,
+              "collision": 174
+            },
+            "(1, 2, 0)": {
+              "steps": 1024,
+              "episodes": 20,
+              "success": 18,
+              "safe_success": 4,
+              "impact": 0,
+              "collision": 160
+            },
+            "(2, 0, 1)": {
+              "steps": 1024,
+              "episodes": 27,
+              "success": 17,
+              "safe_success": 5,
+              "impact": 9,
+              "collision": 261
+            },
+            "(2, 1, 0)": {
+              "steps": 1024,
+              "episodes": 16,
+              "success": 13,
+              "safe_success": 7,
+              "impact": 0,
+              "collision": 382
+            },
+            "(2, 2, 2)": {
+              "steps": 1024,
+              "episodes": 19,
+              "success": 12,
+              "safe_success": 2,
+              "impact": 6,
+              "collision": 456
+            }
+          },
+          "success": 0.826530612244898,
+          "safe_success": 0.39285714285714285,
+          "impact": 0.12755102040816327,
+          "collision_step_rate": 0.18956163194444445,
+          "reward": 0.14843830396720709,
+          "mse": 0.002920286718146,
+          "risk_brier": 0.0,
+          "sha256": {
+            "transitions_00000.npz": "6721c5d61384e9b61866f7628bd44c312a251f6df908ce8fe40e211336fca64d",
+            "transitions_00001.npz": "02c4ca673eccfb9a9bb3c64c6e3c16221c26e71775f20ca4cac05599a22a1160",
+            "transitions_00002.npz": "df68716318d29d6576b32864cceef8040886f6106f15bb955dabc0bad4dd42e6",
+            "transitions_00003.npz": "96a59d9eee21973b1d817042696e1813f6ab27866a7284044bf0643243955f60",
+            "transitions_00004.npz": "ec6a4a46ff2de3a25ad855d46261f82618f79f61ba81303c1d454df88c580ddf",
+            "transitions_00005.npz": "d274723f9a5e987ee23632affb0a21a3eeabbd24d275fbc12273f0d580c7adbb",
+            "transitions_00006.npz": "d995239a716beafa95ef16f66a270fc36da4d87d269f059541b6a3028f24705f",
+            "transitions_00007.npz": "f8026a7336969c6009f828640591337b3fb2e68c5c98b14ae6745b8d166d6c1d",
+            "events.sqlite": "2195813c2f49a1ed2e2be9884cfb4ebce801f12e8f0626c6dd03c405b0e8c51e"
+          }
+        }
+      }
+    },
+    "directory": {
+      "training": {
+        "transitions": 393216,
+        "episodes": 7121,
+        "success_count": 4810,
+        "safe_success_count": 3088,
+        "impact_count": 1478,
+        "collision_steps": 40472,
+        "reward_sum": 43444.91045215723,
+        "mse_sum": 978.0170396475212,
+        "risk_error_sum": 0.0,
+        "scenes": {
+          "(0, 0, 1)": {
+            "steps": 16505,
+            "episodes": 375,
+            "success": 232,
+            "safe_success": 226,
+            "impact": 138,
+            "collision": 29
+          },
+          "(0, 0, 2)": {
+            "steps": 19243,
+            "episodes": 373,
+            "success": 266,
+            "safe_success": 255,
+            "impact": 71,
+            "collision": 59
+          },
+          "(0, 1, 0)": {
+            "steps": 24686,
+            "episodes": 385,
+            "success": 301,
+            "safe_success": 276,
+            "impact": 0,
+            "collision": 96
+          },
+          "(0, 1, 1)": {
+            "steps": 15242,
+            "episodes": 353,
+            "success": 210,
+            "safe_success": 199,
+            "impact": 139,
+            "collision": 58
+          },
+          "(0, 2, 0)": {
+            "steps": 22875,
+            "episodes": 383,
+            "success": 311,
+            "safe_success": 298,
+            "impact": 0,
+            "collision": 84
+          },
+          "(0, 2, 2)": {
+            "steps": 19658,
+            "episodes": 402,
+            "success": 300,
+            "safe_success": 287,
+            "impact": 78,
+            "collision": 82
+          },
+          "(1, 0, 0)": {
+            "steps": 25135,
+            "episodes": 412,
+            "success": 329,
+            "safe_success": 167,
+            "impact": 0,
+            "collision": 2684
+          },
+          "(1, 1, 0)": {
+            "steps": 27650,
+            "episodes": 414,
+            "success": 319,
+            "safe_success": 128,
+            "impact": 0,
+            "collision": 3497
+          },
+          "(1, 1, 2)": {
+            "steps": 21930,
+            "episodes": 380,
+            "success": 250,
+            "safe_success": 107,
+            "impact": 87,
+            "collision": 2347
+          },
+          "(1, 2, 1)": {
+            "steps": 20219,
+            "episodes": 433,
+            "success": 245,
+            "safe_success": 113,
+            "impact": 182,
+            "collision": 2162
+          },
+          "(1, 2, 2)": {
+            "steps": 22344,
+            "episodes": 396,
+            "success": 273,
+            "safe_success": 132,
+            "impact": 85,
+            "collision": 2298
+          },
+          "(2, 0, 0)": {
+            "steps": 29442,
+            "episodes": 403,
+            "success": 268,
+            "safe_success": 138,
+            "impact": 0,
+            "collision": 6594
+          },
+          "(2, 0, 2)": {
+            "steps": 22113,
+            "episodes": 394,
+            "success": 267,
+            "safe_success": 146,
+            "impact": 88,
+            "collision": 3813
+          },
+          "(2, 1, 1)": {
+            "steps": 17951,
+            "episodes": 390,
+            "success": 202,
+            "safe_success": 105,
+            "impact": 186,
+            "collision": 2343
+          },
+          "(2, 1, 2)": {
+            "steps": 24126,
+            "episodes": 401,
+            "success": 253,
+            "safe_success": 117,
+            "impact": 100,
+            "collision": 4531
+          },
+          "(2, 2, 0)": {
+            "steps": 29813,
+            "episodes": 439,
+            "success": 324,
+            "safe_success": 155,
+            "impact": 0,
+            "collision": 5620
+          },
+          "(2, 2, 1)": {
+            "steps": 16786,
+            "episodes": 364,
+            "success": 192,
+            "safe_success": 102,
+            "impact": 170,
+            "collision": 2482
+          },
+          "(1, 0, 1)": {
+            "steps": 17498,
+            "episodes": 424,
+            "success": 268,
+            "safe_success": 137,
+            "impact": 154,
+            "collision": 1693
+          }
+        },
+        "success": 0.6754669288021345,
+        "safe_success": 0.43364695969667183,
+        "impact": 0.2075551186631091,
+        "collision_step_rate": 0.10292561848958333,
+        "reward": 0.11048612073811144,
+        "mse": 0.0024872259512520377,
+        "risk_brier": 0.0,
+        "sha256": {
+          "transitions_00000.npz": "850b6ae1395538a1acbef6e9a638f7632d2e8ed90a3d484869cef783725581de",
+          "transitions_00001.npz": "415d82c47f8cbf7ba0762e6a0da513f474369b76a36718d4c879af772d10bf5c",
+          "transitions_00002.npz": "9a5b4d49b5486aa851c43334011b63df935e218baf6f5c0d1ffec7f479eb2e80",
+          "transitions_00003.npz": "1a894e9b1cd211714e8fbccf633d7d9c38cedbe3834e940778878d1bda99dfc1",
+          "transitions_00004.npz": "eda04b7067b23877ffe26c52b7955c46035dc05d3012a1ce603c34785db244f9",
+          "transitions_00005.npz": "479058156ff84a66b4be3ec8200ca41f9634a42e484fddd61860adc6c5fd6025",
+          "transitions_00006.npz": "bc42a3d1b8d57293c8cd834b3bdc241425922ea71ddea1f10ecd80bdf8740fbf",
+          "transitions_00007.npz": "9df4cadd7e0dabe64608437acabb4238df408ce023942b11c685f22a9677857e",
+          "transitions_00008.npz": "b8b17e2d4742b0793854f428ec0d2be5ebdb657cd356189849f65e60dd150ab0",
+          "transitions_00009.npz": "9cd1579ba69e32769fd96c92812fd5f874a2465fa768699804871175e3eeb04c",
+          "transitions_00010.npz": "4399210e77bf67187145a9985915bf07283e893b02ce44d983b96beccea08cb5",
+          "transitions_00011.npz": "998155db6f57160b5670117c362c3480b89d45710ffab0991bce1563ab22e6a8",
+          "transitions_00012.npz": "8665ac9e5d8f87ce5074f465c9b78665882a96769d89d29f9a5e8833192bcab5",
+          "transitions_00013.npz": "42d3ba27b73d9fb97f0252341da37b1e0525725ca89d4521c6e46a1d438caa80",
+          "transitions_00014.npz": "d71b2808ce776d904c828c48393b15511c5ae1cc33456987b16f105adb4007fd",
+          "transitions_00015.npz": "e75a67cc84fefaa28945f301990f9af66d229533b68d24923801ff87511e5870",
+          "transitions_00016.npz": "1593bf394e291b103c2ad29a365e335b10ed7280caecb6b7f2b121bf8192e57f",
+          "transitions_00017.npz": "955e3ffa7ff7741ee99d3207594937b8c6ead794a5644f90497ab152f6c77815",
+          "transitions_00018.npz": "64173dea73dea72be854a336f64e0aace04e5307a275347b5ab30d017d116525",
+          "transitions_00019.npz": "c844a3ff5b3bee1cdc46bf792b5d93d01b06cb7b087ae4e0c15f2acd1e563648",
+          "transitions_00020.npz": "7574613b6225059900d525eb746cca2f8cdddfc97c3b5f6b14a7148016f0f528",
+          "transitions_00021.npz": "aa85e562d995e696e95285ad129b8abd737ada1934a43605eb8b5324e0b7dc8f",
+          "transitions_00022.npz": "3d2762b914f68c78b50d39416084ce47f3397b53541e9544c098c60cf5878c99",
+          "transitions_00023.npz": "7a94686eb2f76c1017c3d99cbf530470f6c657739054f4ac07889659f7091472",
+          "transitions_00024.npz": "b767badeefc17a8b5aeaf6aea72056c5ad60ed5f55cefffae4578e2e783062c7",
+          "transitions_00025.npz": "3b5d73042add0baab45430672924b2b4feed919513b4d9e224af2efebff6ee75",
+          "transitions_00026.npz": "616d18e9b655dabd9c9c455f8796a761e39f16808f98cbb029cea401dcaa29db",
+          "transitions_00027.npz": "16e34e223f831760ddb51b4868d3a09232c89e318f43d8cf222ef23d3cfbdde3",
+          "transitions_00028.npz": "1303aabc45d8b4e15355348cee633c514dbb9a06049191524a54ed4cb167b4f1",
+          "transitions_00029.npz": "0e26d0bf2fd2370654d1345393992303c97025bb5181d5d9d74fb15a77b00ee9",
+          "transitions_00030.npz": "62a67402163b8b2a7a2b1ba84c677bd3d7f557681df959ea05ad07695ea253c9",
+          "transitions_00031.npz": "60ece036661f37fd96794f35d6223b9bf7ebd6d387296c79188f6b75590338ec",
+          "transitions_00032.npz": "6eecf2a4c796b74187044cd5eb7b4b9818f94e9d0c08587d6392062dc5d55118",
+          "transitions_00033.npz": "098041ea957a21e0e0fd568df0a759c68c1a7dc727f7f268134990d985ec817d",
+          "transitions_00034.npz": "3c9d37f4c8f066c813a82affdb3ce3ab413a5bd946c0e57e19b40b78d4100df0",
+          "transitions_00035.npz": "ce8969da406f86eec9b6c6e339e83052b0ffc940d1d66315f637a66b5212896a",
+          "transitions_00036.npz": "bcbb247ccd86e88df8502c3f3367ab426b9ef9f006e305f99fa5ed192f642afd",
+          "transitions_00037.npz": "d9482e81586510d8e000fcac2521b7613ce0479681ae973091cafd43033be963",
+          "transitions_00038.npz": "ac38b6387b22b7bc032ac3724dfb32fb9481b4c31615790bb65e3e57b91ecb58",
+          "transitions_00039.npz": "9b183e44ca955c44d5c5c519bc077b7c616a96bae2f594ef542a31d84367b984",
+          "transitions_00040.npz": "7aa05bad06898877042e406e0e78c5da19b2e10074e425d12cfc46e04a9dc70f",
+          "transitions_00041.npz": "f991be433054d6fa1a52ce0531abc55a1b2278637540d124406821d95efc30bc",
+          "transitions_00042.npz": "213d99ebb61d0250feaf6a29ca90adf3cfb18f74b1021d4d07fbd825dc9a0e1d",
+          "transitions_00043.npz": "07f03438a8426a869e1a255eaaf1a27723681d3ddbf0770efd924aab67f06ee2",
+          "transitions_00044.npz": "e1230f663abadfd772cd649e43cd64d39b2342fac40b3971811ba8c048260080",
+          "transitions_00045.npz": "983efb186ed4cba162b579d58774d5001ca829956318ff9af574ba7be839c661",
+          "transitions_00046.npz": "4296066b18403973114c9c45d4ae5bd8613729f8ce891addc25ad217c4f56a6e",
+          "transitions_00047.npz": "5d589a030018a0c8d0666ce86c259f219d4ac6f032353471ada10896d782f9e7",
+          "transitions_00048.npz": "5d8a06b7a3430e0fd7fa7a78e0a194c7b59c9a487f9eafdf3b80a1c001c86af0",
+          "transitions_00049.npz": "3cae2b98bb53a22a797d5d963d61ff2da52bafc57b2f1a26be33d9c532c7c7e0",
+          "transitions_00050.npz": "7e5921cbb94571a80f5c651914d01c995c87e768e4bb14fdec8ab1169582ece3",
+          "transitions_00051.npz": "9b389d9bd79ab9326ac2a7057d63f837fee082e28b62b2b613034b8e06dc4c95",
+          "transitions_00052.npz": "9c13f02f11249a5449af94dfe846fa868e3537932a76a26ff005a7bd1582bd46",
+          "transitions_00053.npz": "d710310af26a5ae91c759118d0486b3443718771a747f34c753f1619d8efd5c7",
+          "transitions_00054.npz": "e835605a7fe02f852e6d7b3b1779a64e97a65fc6d867d6e415881a8c1dc4c712",
+          "transitions_00055.npz": "841fafc0e17b81e6b14066819ba6b7506562c524d2469a9d5fda500e0e2a8367",
+          "transitions_00056.npz": "cb466b19f7a770d168675ac325797bc879c80c0201268f3e57cb71497275ba1e",
+          "transitions_00057.npz": "343491dca55321ede67499807d7732422b7688072fb127647b7fbf08ba5fb8ee",
+          "transitions_00058.npz": "69078ec80164ef428da338c1d2f24f280a1d23354aa9066d209a611c63876133",
+          "transitions_00059.npz": "b1ad47fb0a7ec518e40d631ae0d6e9af093831735abed4ad2019bc9f0a5a0809",
+          "transitions_00060.npz": "49d7eafa55d228216bd818efb12e7eeab62e0d133ae183e1bb78d36189d38e91",
+          "transitions_00061.npz": "19b47b2c567302a5389c7dc00fbbb42b201ab57efdf85dc4b35f045f2faf5d70",
+          "transitions_00062.npz": "5ea78e2d9a94e0197be65c8d217e160905c940dce62eba7c55404f294459a903",
+          "transitions_00063.npz": "14bf7a47ed018e07fc8afb79e80ed6298b0f967b8748f3624f90dc21991bc90e",
+          "transitions_00064.npz": "bb4d046786190a2a309f9645974f3edbd07e5abd474ce005b14aad7177bf0f47",
+          "transitions_00065.npz": "46f46ed03f20bcf02554e18ff5955fee17a6f113a358e5a761ba854515913ddd",
+          "transitions_00066.npz": "537c8cdd49e0fc20d9819278bc2a15e958c72f97051d049d661c75154c3e80e4",
+          "transitions_00067.npz": "4adc61b2826a96017af323f0d89d6131cc76e04b9cc32280a6f54fd86ac2c45b",
+          "transitions_00068.npz": "2c5e08385edbed4a589910da843a60b98414175ff397081dc488e4a09d6c4eb9",
+          "transitions_00069.npz": "a9022b76c6cef582202f3bce4868ea3b70a2566136b4d5fbe4dca9c4a634d1ad",
+          "transitions_00070.npz": "f75ad0420116a3a43660e4a290d4cbd4a7bdf8a4faf30de92e05d78eab90b582",
+          "transitions_00071.npz": "71c6c4e2be74a048c12c191699590fbc58c01d30379373d7bfa64da60edb3352",
+          "transitions_00072.npz": "d50342528539bd78fe49abdcd6d8025cb0a1e33ec9d8d8151f98340f92ee0d58",
+          "transitions_00073.npz": "9297fffa1f2469ce0ebd162fff67b66abf8e4618110e9aa9613d749ab7b4adcf",
+          "transitions_00074.npz": "18c933d1ea987c04fa4cb20e842f4edc201a7313c72d3477eb60e03ae91f043e",
+          "transitions_00075.npz": "78eae683124aa38b42494f6b358e21f028750790d149107174d89e41c060531f",
+          "transitions_00076.npz": "b2cc2880de5ab4e6be2ab0a30dd9f3326a579a9b83bedc6982cd104d015b39eb",
+          "transitions_00077.npz": "eedf6f5514cb780bc4bf25d1f9942cd93c7ced7c4a59736ce2ec0797e83c378b",
+          "transitions_00078.npz": "94241ad03205591d64e29d6cb7afd580c3ff977171f00b24618e0bdf6457b25b",
+          "transitions_00079.npz": "95fac4ab101483bd57a06a162ee2ab765c81207bbba7de1437ff5f72099824bf",
+          "transitions_00080.npz": "cc4a4f82d6c2e4c9ca9323819935dd3b1269f6b8382b3d295da275a9298dd510",
+          "transitions_00081.npz": "98181ee0c81e39189cf8f74f25bd442ceb1a8775a6dbbf825544cf9b80d7cf0b",
+          "transitions_00082.npz": "f39038b45f197404f4dceb5e527476fb468b4306db7c7d54ec54880d7f20e330",
+          "transitions_00083.npz": "ca077276b5c55178b1cec5f3a15a779e5db6c2b55a65f9c08026a7b7e1e45bd9",
+          "transitions_00084.npz": "3b03a01e2c59875d7aa7895bd277acbec8ada5f17dc5354b6324890a6dd4d5f1",
+          "transitions_00085.npz": "07257c6b2ef0d18bc0eb022f1adf43c90bfaa3e2bb10099761560a7c08228fc5",
+          "transitions_00086.npz": "414f77232820e629f792ba4f334c612e9e81754858ff332077ec3e4cae2be1ff",
+          "transitions_00087.npz": "5b7ecdd6eadc92a54a532341abe69ff7b1e7250740c5579c9aa54236703f9966",
+          "transitions_00088.npz": "c5a597772f702b07245c33d6dce955b2528d55eb20ca67a3876ffa9deeda5b41",
+          "transitions_00089.npz": "d2795e8905efacf57ccf7fcf4bf2d54ce20415689d1136197e7f7495ee10622d",
+          "transitions_00090.npz": "eb4bc74a6116a9cbffa55b01df55a5c134c354682254b47cf242b7626c822f53",
+          "transitions_00091.npz": "71ede2de39be1a4a62cbe6b2b670c31c7d70cf32a0be95cebb6e4e5f2102e4db",
+          "transitions_00092.npz": "b76a644814571263ff0cd653bc92dfec87cead278a398859f4f8aa1b68b7f7f0",
+          "transitions_00093.npz": "b8f6d2f866c168f0efba909c8e095a4eff73956fbd35e350e0b08c9a8bf07c43",
+          "transitions_00094.npz": "9bd27268e26f352530ecda90bad2be81aa7ccbedfa41e8338e9323398f920bb9",
+          "transitions_00095.npz": "5654574a3e3bd16e659422782debead564df04ed827d3b3ce0c6a01e313e8a85",
+          "transitions_00096.npz": "ed9273771322e804c4f38911677a2cd58a7fbba559606ea76e6734d1ad65bc24",
+          "transitions_00097.npz": "5245088f6a4039a42239496b790b443b7c70162eebe9b22bfdce13d8e6bcfb44",
+          "transitions_00098.npz": "d89682e757d5aec775bc680f58c6754890898430738c640f73fe490c20944130",
+          "transitions_00099.npz": "d6ac1ecbce5a38a262c073b3e2e2906dd49747be12f63aafdd1070e36443dc5f",
+          "transitions_00100.npz": "75aa15d9595955ae1585ce1c3aa0cb68fcd9083eb3d9ce52380dd46896f308a4",
+          "transitions_00101.npz": "3cd438b2f6d892bd3df09259a65ace8728844a3837718f6182d8449829b356c2",
+          "transitions_00102.npz": "3e8606c3ab078ecb288a350f4d929330a9127963c9892f169b6d612cd692cec1",
+          "transitions_00103.npz": "f1136917e3e8839ff37d7c1fc435e47b9f5e6d7a2ef3089b099088dfcb01ac22",
+          "transitions_00104.npz": "7854352c69223947d0e09e2947c80876ecdf2d7e2cb7cf2bc54e74107a61bfe2",
+          "transitions_00105.npz": "6cd71b9051f91744bbcd1a944d123d2f5b09694af1a7977fa0488a4175dc22b3",
+          "transitions_00106.npz": "266894298489aa7ac2edabe8f463e2ceb68c64fbca9e1104e5c1d13ede037a65",
+          "transitions_00107.npz": "4457bf42e5e3843651efbb99fa3370e8928fb29231970452c021afa46622b559",
+          "transitions_00108.npz": "2d84c5d9de81465b916f2a8fbd38a8f0c712f1faf574b8ff632f91cc48383696",
+          "transitions_00109.npz": "a1aeb963c1cd3c163641945d318b4da03bd103f2c3eb03503d2d2272d3452194",
+          "transitions_00110.npz": "72aad14dc28701962f9ab6802141e6a3bf08bcba6e6017684f8b3af50c5eea5c",
+          "transitions_00111.npz": "23bddabebbfd470c6a7f56f467fe5bfc9fd79f3cadfebdf67937a27ae6c727a3",
+          "transitions_00112.npz": "809b73ac640b0d1e563bcbbfd2c018f4863facf39f0e7a97816e88d57027abfb",
+          "transitions_00113.npz": "40dc336d5e9bc75fd297c4ec8f3a79de2d14df84dc79ab8fe3404e3e468fa797",
+          "transitions_00114.npz": "bc647390a70debda839a7205b97112e2e65c63fdb46f5638bcf035379c397e0c",
+          "transitions_00115.npz": "2da0bd74408f72d8987d43585ed5f6fb949c59e8aaa222b151c55b7262a7c5d6",
+          "transitions_00116.npz": "1f919072b472d0cf8f22d07fc5478c09910e7e596a9977c5579ac0feacb75a4b",
+          "transitions_00117.npz": "fee06c8bfc598c949008fe4489b8ff15e2984c8d7fb537824df1f8b15c3701e8",
+          "transitions_00118.npz": "9a84a4d41c6964a46524b404fb41b448d45b6cd4189cbb74dbeaf93aac4aacc2",
+          "transitions_00119.npz": "815e4539bbf0aabdbe3c0f1fee71da9f5cf7fc4258db7392c6e8d582095565bb",
+          "transitions_00120.npz": "adc8273e29da6dedfc9b3389970fd042f59bcde8903142ae8c9559db9e4c197b",
+          "transitions_00121.npz": "70c5a6dd7f70c6608591c9420b6ae54a710b94663ffef858e0ec06889c05165d",
+          "transitions_00122.npz": "94ead7dd8f2127e5e52fca782a5751edcfabe495cd66a227a246212cd4fde9f3",
+          "transitions_00123.npz": "1a90ed067463711b91bd7ef049668f9fdbdac92092c1fe2b4f9b3a69eea60abc",
+          "transitions_00124.npz": "86c70d73967e3b0a5797596eeb7784c5902439f50a29bf7ce4ed84e97940a629",
+          "transitions_00125.npz": "a0f8d506950a9497991863579ab18182465548e9543d42a95a7f1f3187b7272e",
+          "transitions_00126.npz": "263c81a860817305169fd33133071b190d4cf060fa556caeccf99ca61b7acf41",
+          "transitions_00127.npz": "5354ca90bd8611c350fe92c89577a99840d6062a5f382dbfd50f85e3f2a2104b",
+          "events.sqlite": "3bcd6a63f382607753a3b37f4ed47e18dd109c5f989c1ae5bda8114ce00af42b"
+        }
+      },
+      "0": {
+        "seen": {
+          "transitions": 18432,
+          "episodes": 202,
+          "success_count": 14,
+          "safe_success_count": 8,
+          "impact_count": 102,
+          "collision_steps": 14268,
+          "reward_sum": -6614.009410386774,
+          "mse_sum": 296.00034201331437,
+          "risk_error_sum": 0.0,
+          "scenes": {
+            "(0, 0, 1)": {
+              "steps": 1024,
+              "episodes": 17,
+              "success": 2,
+              "safe_success": 2,
+              "impact": 15,
+              "collision": 641
+            },
+            "(0, 0, 2)": {
+              "steps": 1024,
+              "episodes": 10,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 4,
+              "collision": 802
+            },
+            "(0, 1, 0)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 0,
+              "collision": 908
+            },
+            "(0, 1, 1)": {
+              "steps": 1024,
+              "episodes": 18,
+              "success": 2,
+              "safe_success": 2,
+              "impact": 16,
+              "collision": 716
+            },
+            "(0, 2, 0)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 0,
+              "collision": 859
+            },
+            "(0, 2, 2)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 0,
+              "collision": 829
+            },
+            "(1, 0, 0)": {
+              "steps": 1024,
+              "episodes": 9,
+              "success": 2,
+              "safe_success": 1,
+              "impact": 0,
+              "collision": 862
+            },
+            "(1, 0, 1)": {
+              "steps": 1024,
+              "episodes": 17,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 17,
+              "collision": 585
+            },
+            "(1, 1, 0)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 1,
+              "safe_success": 1,
+              "impact": 0,
+              "collision": 854
+            },
+            "(1, 1, 2)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 1,
+              "collision": 796
+            },
+            "(1, 2, 1)": {
+              "steps": 1024,
+              "episodes": 15,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 15,
+              "collision": 724
+            },
+            "(1, 2, 2)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 1,
+              "safe_success": 1,
+              "impact": 0,
+              "collision": 879
+            },
+            "(2, 0, 0)": {
+              "steps": 1024,
+              "episodes": 9,
+              "success": 2,
+              "safe_success": 0,
+              "impact": 0,
+              "collision": 830
+            },
+            "(2, 0, 2)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 1,
+              "collision": 877
+            },
+            "(2, 1, 1)": {
+              "steps": 1024,
+              "episodes": 17,
+              "success": 3,
+              "safe_success": 0,
+              "impact": 14,
+              "collision": 674
+            },
+            "(2, 1, 2)": {
+              "steps": 1024,
+              "episodes": 10,
+              "success": 1,
+              "safe_success": 1,
+              "impact": 3,
+              "collision": 832
+            },
+            "(2, 2, 0)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 0,
+              "collision": 916
+            },
+            "(2, 2, 1)": {
+              "steps": 1024,
+              "episodes": 16,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 16,
+              "collision": 684
+            }
+          },
+          "success": 0.06930693069306931,
+          "safe_success": 0.039603960396039604,
+          "impact": 0.504950495049505,
+          "collision_step_rate": 0.7740885416666666,
+          "reward": -0.35883297582393525,
+          "mse": 0.016059046333187627,
+          "risk_brier": 0.0,
+          "sha256": {
+            "transitions_00000.npz": "258f731395a8ef335c0bf703982b5e17cef45606fd105ac22c79e0e7060e6431",
+            "transitions_00001.npz": "320efa7b97a04f733f90ee924601e6c693cf57f951ed7fc6492262046ef5b2e9",
+            "transitions_00002.npz": "d8ae75bb5005332ec8ef4b08146b695d82aa1d20eed88b4367f996c3d2aea8db",
+            "transitions_00003.npz": "06889a964e04f08e34069b73544f0ab45979697501a8420ee561d27eab88567b",
+            "transitions_00004.npz": "302ac1ec5466dc302b721f7cbccbb9925a31336370856c92d8bacd7fe4c90810",
+            "transitions_00005.npz": "f2ad95e6b47cb316dbc387c21f4021f0e17b883336a0815bc84b08accaec92c6",
+            "transitions_00006.npz": "05a2d97f3a3561335ac4c8e5b6b4c0b4c55b2f60440c346b6a27656a63b11ccc",
+            "transitions_00007.npz": "ba9188ec693dd828af0ec5093540a388a799a8aa9f0436b151bbdc8255e19e91",
+            "events.sqlite": "16e9a142907ef77142e270f3e234e9ba9a540d1dd809cca0874134adab4f3e5f"
+          }
+        },
+        "heldout": {
+          "transitions": 9216,
+          "episodes": 106,
+          "success_count": 8,
+          "safe_success_count": 5,
+          "impact_count": 53,
+          "collision_steps": 6998,
+          "reward_sum": -3235.0072078318335,
+          "mse_sum": 146.81562551297247,
+          "risk_error_sum": 0.0,
+          "scenes": {
+            "(0, 0, 0)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 0,
+              "collision": 873
+            },
+            "(0, 1, 2)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 0,
+              "collision": 840
+            },
+            "(0, 2, 1)": {
+              "steps": 1024,
+              "episodes": 20,
+              "success": 4,
+              "safe_success": 4,
+              "impact": 16,
+              "collision": 623
+            },
+            "(1, 0, 2)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 1,
+              "collision": 898
+            },
+            "(1, 1, 1)": {
+              "steps": 1024,
+              "episodes": 22,
+              "success": 4,
+              "safe_success": 1,
+              "impact": 18,
+              "collision": 534
+            },
+            "(1, 2, 0)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 0,
+              "collision": 867
+            },
+            "(2, 0, 1)": {
+              "steps": 1024,
+              "episodes": 16,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 16,
+              "collision": 730
+            },
+            "(2, 1, 0)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 0,
+              "collision": 874
+            },
+            "(2, 2, 2)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 2,
+              "collision": 759
+            }
+          },
+          "success": 0.07547169811320754,
+          "safe_success": 0.04716981132075472,
+          "impact": 0.5,
+          "collision_step_rate": 0.7593315972222222,
+          "reward": -0.3510207473775861,
+          "mse": 0.015930514921112464,
+          "risk_brier": 0.0,
+          "sha256": {
+            "transitions_00000.npz": "164f248c89d757ab3aa72173038158dd836098ee6814fceddba69b8daeaaa343",
+            "transitions_00001.npz": "970154eeefbe54a31d97b16e70364f0173f1b644393632c1b3b9eb0f59d15def",
+            "transitions_00002.npz": "aeaf01fb331304038fcef444ec7b620c782ec71ad8d96dc4f002b2ac2a07cdfa",
+            "transitions_00003.npz": "bf9b513837c2c7635c99f09239a5c9d6f56c7933a946acae2889e67b00ef825c",
+            "transitions_00004.npz": "c86b43cd8a6c505eb4964dae2b20b3cfa607f1f4e666a39f823f2d1de059be82",
+            "transitions_00005.npz": "94c2c699af5a64e48d9e4a88c88964858b855d59080f555e8a01e41967c78e98",
+            "transitions_00006.npz": "27c76f83d98a3e1c5c073f1966d51c5c7500d0fcd302e004bc0c2883c56ae934",
+            "transitions_00007.npz": "2b231df7db693aaadd2f3c90b3f9f5313f72dbb30ffa12acb2d99abf2145899f",
+            "events.sqlite": "103bf57421837e39e8d501c780f8d9d798306ddfa36c56a8a540ffd4da9667e9"
+          }
+        }
+      },
+      "1024": {
+        "seen": {
+          "transitions": 18432,
+          "episodes": 233,
+          "success_count": 35,
+          "safe_success_count": 23,
+          "impact_count": 132,
+          "collision_steps": 2618,
+          "reward_sum": -897.7698216891094,
+          "mse_sum": 47.929332742922725,
+          "risk_error_sum": 0.0,
+          "scenes": {
+            "(0, 0, 1)": {
+              "steps": 1024,
+              "episodes": 21,
+              "success": 2,
+              "safe_success": 2,
+              "impact": 19,
+              "collision": 0
+            },
+            "(0, 0, 2)": {
+              "steps": 1024,
+              "episodes": 12,
+              "success": 2,
+              "safe_success": 2,
+              "impact": 5,
+              "collision": 0
+            },
+            "(0, 1, 0)": {
+              "steps": 1024,
+              "episodes": 9,
+              "success": 2,
+              "safe_success": 2,
+              "impact": 0,
+              "collision": 0
+            },
+            "(0, 1, 1)": {
+              "steps": 1024,
+              "episodes": 17,
+              "success": 1,
+              "safe_success": 1,
+              "impact": 16,
+              "collision": 0
+            },
+            "(0, 2, 0)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 1,
+              "safe_success": 1,
+              "impact": 0,
+              "collision": 0
+            },
+            "(0, 2, 2)": {
+              "steps": 1024,
+              "episodes": 11,
+              "success": 4,
+              "safe_success": 4,
+              "impact": 3,
+              "collision": 0
+            },
+            "(1, 0, 0)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 1,
+              "safe_success": 0,
+              "impact": 0,
+              "collision": 37
+            },
+            "(1, 0, 1)": {
+              "steps": 1024,
+              "episodes": 18,
+              "success": 2,
+              "safe_success": 1,
+              "impact": 16,
+              "collision": 99
+            },
+            "(1, 1, 0)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 2,
+              "safe_success": 2,
+              "impact": 0,
+              "collision": 81
+            },
+            "(1, 1, 2)": {
+              "steps": 1024,
+              "episodes": 10,
+              "success": 1,
+              "safe_success": 0,
+              "impact": 5,
+              "collision": 126
+            },
+            "(1, 2, 1)": {
+              "steps": 1024,
+              "episodes": 20,
+              "success": 5,
+              "safe_success": 1,
+              "impact": 15,
+              "collision": 94
+            },
+            "(1, 2, 2)": {
+              "steps": 1024,
+              "episodes": 12,
+              "success": 1,
+              "safe_success": 1,
+              "impact": 6,
+              "collision": 136
+            },
+            "(2, 0, 0)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 1,
+              "safe_success": 1,
+              "impact": 0,
+              "collision": 235
+            },
+            "(2, 0, 2)": {
+              "steps": 1024,
+              "episodes": 11,
+              "success": 1,
+              "safe_success": 1,
+              "impact": 6,
+              "collision": 367
+            },
+            "(2, 1, 1)": {
+              "steps": 1024,
+              "episodes": 20,
+              "success": 4,
+              "safe_success": 1,
+              "impact": 16,
+              "collision": 342
+            },
+            "(2, 1, 2)": {
+              "steps": 1024,
+              "episodes": 10,
+              "success": 2,
+              "safe_success": 1,
+              "impact": 5,
+              "collision": 308
+            },
+            "(2, 2, 0)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 1,
+              "safe_success": 1,
+              "impact": 0,
+              "collision": 503
+            },
+            "(2, 2, 1)": {
+              "steps": 1024,
+              "episodes": 22,
+              "success": 2,
+              "safe_success": 1,
+              "impact": 20,
+              "collision": 290
+            }
+          },
+          "success": 0.15021459227467812,
+          "safe_success": 0.09871244635193133,
+          "impact": 0.5665236051502146,
+          "collision_step_rate": 0.1420355902777778,
+          "reward": -0.048707130082959495,
+          "mse": 0.002600332722597804,
+          "risk_brier": 0.0,
+          "sha256": {
+            "transitions_00000.npz": "bfb5629af2eb26eabb5547432980a06f2046fc5b5ed50fcc69c5e28fb88c033d",
+            "transitions_00001.npz": "efda22f193ac1d30ebe7c6fbfb0a3e45df72dc4d103fae1292f75bb758819914",
+            "transitions_00002.npz": "f74e965026f04a1d537f794d137c912af1154e8f83d8a0eede962e62676acab1",
+            "transitions_00003.npz": "a231b66aa3be38e78df750834ba4cb04db03e58c8c4ba03d12afe9129718fc1f",
+            "transitions_00004.npz": "4d208ca495c0911124a7470ec2511f8e25bff269c4fabd20becf411c5091b835",
+            "transitions_00005.npz": "9e711552fc77e39e5afd0206d38702965a018736c5257b0c1ce69407ed25bcc2",
+            "transitions_00006.npz": "2dab518a71046c16f8957eecd4e8a5aaef193618cc57205a33524c7535bbaaed",
+            "transitions_00007.npz": "3321902ab3549fa7d12ecea16c3aa7810236092fbc60b7a8853d6ec994249a7f",
+            "events.sqlite": "f969e40967fb841bb58c182947802277182a1ea2bc10f45723de0bcd992ddce8"
+          }
+        },
+        "heldout": {
+          "transitions": 9216,
+          "episodes": 130,
+          "success_count": 29,
+          "safe_success_count": 16,
+          "impact_count": 70,
+          "collision_steps": 1125,
+          "reward_sum": -237.25506481243065,
+          "mse_sum": 23.10424870152474,
+          "risk_error_sum": 0.0,
+          "scenes": {
+            "(0, 0, 0)": {
+              "steps": 1024,
+              "episodes": 8,
+              "success": 0,
+              "safe_success": 0,
+              "impact": 0,
+              "collision": 0
+            },
+            "(0, 1, 2)": {
+              "steps": 1024,
+              "episodes": 14,
+              "success": 4,
+              "safe_success": 4,
+              "impact": 7,
+              "collision": 0
+            },
+            "(0, 2, 1)": {
+              "steps": 1024,
+              "episodes": 20,
+              "success": 4,
+              "safe_success": 4,
+              "impact": 16,
+              "collision": 0
+            },
+            "(1, 0, 2)": {
+              "steps": 1024,
+              "episodes": 12,
+              "success": 5,
+              "safe_success": 2,
+              "impact": 3,
+              "collision": 233
+            },
+            "(1, 1, 1)": {
+              "steps": 1024,
+              "episodes": 19,
+              "success": 1,
+              "safe_success": 0,
+              "impact": 18,
+              "collision": 133
+            },
+            "(1, 2, 0)": {
+              "steps": 1024,
+              "episodes": 9,
+              "success": 2,
+              "safe_success": 2,
+              "impact": 0,
+              "collision": 122
+            },
+            "(2, 0, 1)": {
+              "steps": 1024,
+              "episodes": 24,
+              "success": 2,
+              "safe_success": 2,
+              "impact": 22,
+              "collision": 172
+            },
+            "(2, 1, 0)": {
+              "steps": 1024,
+              "episodes": 9,
+              "success": 3,
+              "safe_success": 1,
+              "impact": 0,
+              "collision": 281
+            },
+            "(2, 2, 2)": {
+              "steps": 1024,
+              "episodes": 15,
+              "success": 8,
+              "safe_success": 1,
+              "impact": 4,
+              "collision": 184
+            }
+          },
+          "success": 0.2230769230769231,
+          "safe_success": 0.12307692307692308,
+          "impact": 0.5384615384615384,
+          "collision_step_rate": 0.1220703125,
+          "reward": -0.025743822136765477,
+          "mse": 0.0025069714302869725,
+          "risk_brier": 0.0,
+          "sha256": {
+            "transitions_00000.npz": "5ff2265da6a8dbe59d8528d5f03e6136854f6fb1eebad3ada4ec8afad7e3ebdf",
+            "transitions_00001.npz": "07547fa05b5af3cdb6d23860d3e3ec941d070944bd684fc33fe9de7366a4e42b",
+            "transitions_00002.npz": "cf4280bca5d478d3e7291c5583d2a6d87c6aecececf73a9b20cab67d82c05771",
+            "transitions_00003.npz": "b7534d722e23fc44af9a7e4739bc2e0d09cf25d9d00baaba97f86f83770313f8",
+            "transitions_00004.npz": "81e302df3978e12dfa7f013f726ffb17a4e7070128a06542d9985097ff8f4861",
+            "transitions_00005.npz": "c5e4383f92e972ff51ab76f30f2ca434cd124ec7dbf0570548b0ceb0f120c9ed",
+            "transitions_00006.npz": "93eb0f51ab5711f33b699ce98389095ec0ba758f1c97316e03e7f57759b1ad4f",
+            "transitions_00007.npz": "1342376555c7a3d077b62dbdcc1ca1d585920d22213678550057d3b94e63c093",
+            "events.sqlite": "a20d02ee25d85a004f6a54a77fc3bc483eb94ef78cc47504c97c83ef75df0ff5"
+          }
+        }
+      },
+      "4096": {
+        "seen": {
+          "transitions": 18432,
+          "episodes": 327,
+          "success_count": 219,
+          "safe_success_count": 119,
+          "impact_count": 78,
+          "collision_steps": 4451,
+          "reward_sum": 932.1443819789783,
+          "mse_sum": 69.31933726107036,
+          "risk_error_sum": 0.0,
+          "scenes": {
+            "(0, 0, 1)": {
+              "steps": 1024,
+              "episodes": 23,
+              "success": 14,
+              "safe_success": 12,
+              "impact": 9,
+              "collision": 72
+            },
+            "(0, 0, 2)": {
+              "steps": 1024,
+              "episodes": 19,
+              "success": 15,
+              "safe_success": 11,
+              "impact": 2,
+              "collision": 155
+            },
+            "(0, 1, 0)": {
+              "steps": 1024,
+              "episodes": 19,
+              "success": 17,
+              "safe_success": 10,
+              "impact": 0,
+              "collision": 119
+            },
+            "(0, 1, 1)": {
+              "steps": 1024,
+              "episodes": 19,
+              "success": 14,
+              "safe_success": 8,
+              "impact": 5,
+              "collision": 83
+            },
+            "(0, 2, 0)": {
+              "steps": 1024,
+              "episodes": 21,
+              "success": 21,
+              "safe_success": 15,
+              "impact": 0,
+              "collision": 73
+            },
+            "(0, 2, 2)": {
+              "steps": 1024,
+              "episodes": 23,
+              "success": 17,
+              "safe_success": 14,
+              "impact": 5,
+              "collision": 26
+            },
+            "(1, 0, 0)": {
+              "steps": 1024,
+              "episodes": 12,
+              "success": 7,
+              "safe_success": 4,
+              "impact": 0,
+              "collision": 395
+            },
+            "(1, 0, 1)": {
+              "steps": 1024,
+              "episodes": 19,
+              "success": 12,
+              "safe_success": 6,
+              "impact": 5,
+              "collision": 256
+            },
+            "(1, 1, 0)": {
+              "steps": 1024,
+              "episodes": 15,
+              "success": 13,
+              "safe_success": 6,
+              "impact": 0,
+              "collision": 396
+            },
+            "(1, 1, 2)": {
+              "steps": 1024,
+              "episodes": 18,
+              "success": 14,
+              "safe_success": 2,
+              "impact": 3,
+              "collision": 329
+            },
+            "(1, 2, 1)": {
+              "steps": 1024,
+              "episodes": 24,
+              "success": 10,
+              "safe_success": 6,
+              "impact": 14,
+              "collision": 238
+            },
+            "(1, 2, 2)": {
+              "steps": 1024,
+              "episodes": 19,
+              "success": 10,
+              "safe_success": 2,
+              "impact": 7,
+              "collision": 309
+            },
+            "(2, 0, 0)": {
+              "steps": 1024,
+              "episodes": 12,
+              "success": 7,
+              "safe_success": 3,
+              "impact": 0,
+              "collision": 238
+            },
+            "(2, 0, 2)": {
+              "steps": 1024,
+              "episodes": 15,
+              "success": 10,
+              "safe_success": 4,
+              "impact": 3,
+              "collision": 432
+            },
+            "(2, 1, 1)": {
+              "steps": 1024,
+              "episodes": 19,
+              "success": 7,
+              "safe_success": 3,
+              "impact": 12,
+              "collision": 274
+            },
+            "(2, 1, 2)": {
+              "steps": 1024,
+              "episodes": 14,
+              "success": 11,
+              "safe_success": 4,
+              "impact": 0,
+              "collision": 352
+            },
+            "(2, 2, 0)": {
+              "steps": 1024,
+              "episodes": 14,
+              "success": 11,
+              "safe_success": 4,
+              "impact": 0,
+              "collision": 386
+            },
+            "(2, 2, 1)": {
+              "steps": 1024,
+              "episodes": 22,
+              "success": 9,
+              "safe_success": 5,
+              "impact": 13,
+              "collision": 318
+            }
+          },
+          "success": 0.6697247706422018,
+          "safe_success": 0.363914373088685,
+          "impact": 0.23853211009174313,
+          "collision_step_rate": 0.2414822048611111,
+          "reward": 0.050572069334797,
+          "mse": 0.0037608147385563345,
+          "risk_brier": 0.0,
+          "sha256": {
+            "transitions_00000.npz": "4444a525a42d1087aa21d8506f6a5035fb87af7ebf3f822e6caaa88697c30b81",
+            "transitions_00001.npz": "400c2711ba6cb47f2c94e9be48720e9ab93a13d2dff18ccc5881a812124d2bcd",
+            "transitions_00002.npz": "15f01638b733a04f381bcdcc207ce74da41563c5da067ae4fffe7c815a64b865",
+            "transitions_00003.npz": "bf149ecb48e641ea55009145de909ab073f1a28fe0e398bc3b03265d27e4bf51",
+            "transitions_00004.npz": "82fad210b8d274ad5b92d8c4b1f589316a258d1f586a69da7231d5e2518f0ba1",
+            "transitions_00005.npz": "7fb9fef5ce0d37dba800db9b9243ebc60445d9e669ccb5dce443bc9d321d7677",
+            "transitions_00006.npz": "c4ee5d6f5ab4c3bac5af6f35fbc7340ab3f2d26f9a4d39d825a8c35a65c35b06",
+            "transitions_00007.npz": "bac0b072ac9325b17a7b8a277d325fe5a3dfcf7a553f9f65e64ec60049be436a",
+            "events.sqlite": "3b21b9f2a46e712e764daf13c262231ca1be6229dca08a1eb6f40d8fef269cf6"
+          }
+        },
+        "heldout": {
+          "transitions": 9216,
+          "episodes": 161,
+          "success_count": 105,
+          "safe_success_count": 61,
+          "impact_count": 37,
+          "collision_steps": 2470,
+          "reward_sum": 291.06410849078384,
+          "mse_sum": 34.55044906711737,
+          "risk_error_sum": 0.0,
+          "scenes": {
+            "(0, 0, 0)": {
+              "steps": 1024,
+              "episodes": 16,
+              "success": 14,
+              "safe_success": 9,
+              "impact": 0,
+              "collision": 227
+            },
+            "(0, 1, 2)": {
+              "steps": 1024,
+              "episodes": 22,
+              "success": 17,
+              "safe_success": 11,
+              "impact": 4,
+              "collision": 25
+            },
+            "(0, 2, 1)": {
+              "steps": 1024,
+              "episodes": 28,
+              "success": 20,
+              "safe_success": 16,
+              "impact": 8,
+              "collision": 46
+            },
+            "(1, 0, 2)": {
+              "steps": 1024,
+              "episodes": 16,
+              "success": 9,
+              "safe_success": 5,
+              "impact": 5,
+              "collision": 375
+            },
+            "(1, 1, 1)": {
+              "steps": 1024,
+              "episodes": 16,
+              "success": 4,
+              "safe_success": 1,
+              "impact": 10,
+              "collision": 173
+            },
+            "(1, 2, 0)": {
+              "steps": 1024,
+              "episodes": 13,
+              "success": 9,
+              "safe_success": 2,
+              "impact": 0,
+              "collision": 535
+            },
+            "(2, 0, 1)": {
+              "steps": 1024,
+              "episodes": 21,
+              "success": 11,
+              "safe_success": 6,
+              "impact": 9,
+              "collision": 273
+            },
+            "(2, 1, 0)": {
+              "steps": 1024,
+              "episodes": 16,
+              "success": 12,
+              "safe_success": 5,
+              "impact": 0,
+              "collision": 365
+            },
+            "(2, 2, 2)": {
+              "steps": 1024,
+              "episodes": 13,
+              "success": 9,
+              "safe_success": 6,
+              "impact": 1,
+              "collision": 451
+            }
+          },
+          "success": 0.6521739130434783,
+          "safe_success": 0.37888198757763975,
+          "impact": 0.22981366459627328,
+          "collision_step_rate": 0.2680121527777778,
+          "reward": 0.03158247704978123,
+          "mse": 0.0037489636574563117,
+          "risk_brier": 0.0,
+          "sha256": {
+            "transitions_00000.npz": "2d5ab01d5670aca3971149c796fe93b1f34dfeef7463cedf0797405996ea9f73",
+            "transitions_00001.npz": "d9f62f941737b7226b6da180aab390efee2e6fc7cff76256f0302657d10eeff9",
+            "transitions_00002.npz": "49e6ee70fae0b95a37e6899327c5f730240d1cea909010999c7c3d6447d8d721",
+            "transitions_00003.npz": "af4bb17bdbac4c88b050b8ab1c45d857682c8ffe9d1b09abbb5eb0d2befd8b8c",
+            "transitions_00004.npz": "3788e2276acd57944e2cfe37692f9971e868900b30b027afaf11434e7461d03a",
+            "transitions_00005.npz": "6d88f489eb8a5e4d5f7bcde751e19bcbf55c3699a278725fd684c4a015b1d634",
+            "transitions_00006.npz": "97437c5d203c0ef2a22aa09385db0b5fb741341ecc507eda77f94ecde16c6e20",
+            "transitions_00007.npz": "004c26034a16e6331b3485131be152f7f9a864ae93a1aa50f05a59654e2911fb",
+            "events.sqlite": "03615b660c8d36e9e0712720b8bc4312cce1f20b29709d6d0fd3092ae4eb9d0e"
+          }
+        }
+      },
+      "8192": {
+        "seen": {
+          "transitions": 18432,
+          "episodes": 468,
+          "success_count": 393,
+          "safe_success_count": 234,
+          "impact_count": 57,
+          "collision_steps": 3647,
+          "reward_sum": 3549.486468436269,
+          "mse_sum": 50.68656334708794,
+          "risk_error_sum": 0.0,
+          "scenes": {
+            "(0, 0, 1)": {
+              "steps": 1024,
+              "episodes": 31,
+              "success": 30,
+              "safe_success": 24,
+              "impact": 1,
+              "collision": 53
+            },
+            "(0, 0, 2)": {
+              "steps": 1024,
+              "episodes": 34,
+              "success": 31,
+              "safe_success": 24,
+              "impact": 3,
+              "collision": 14
+            },
+            "(0, 1, 0)": {
+              "steps": 1024,
+              "episodes": 27,
+              "success": 27,
+              "safe_success": 22,
+              "impact": 0,
+              "collision": 10
+            },
+            "(0, 1, 1)": {
+              "steps": 1024,
+              "episodes": 31,
+              "success": 25,
+              "safe_success": 21,
+              "impact": 6,
+              "collision": 18
+            },
+            "(0, 2, 0)": {
+              "steps": 1024,
+              "episodes": 30,
+              "success": 30,
+              "safe_success": 24,
+              "impact": 0,
+              "collision": 64
+            },
+            "(0, 2, 2)": {
+              "steps": 1024,
+              "episodes": 32,
+              "success": 28,
+              "safe_success": 26,
+              "impact": 3,
+              "collision": 13
+            },
+            "(1, 0, 0)": {
+              "steps": 1024,
+              "episodes": 27,
+              "success": 24,
+              "safe_success": 12,
+              "impact": 0,
+              "collision": 429
+            },
+            "(1, 0, 1)": {
+              "steps": 1024,
+              "episodes": 31,
+              "success": 29,
+              "safe_success": 16,
+              "impact": 2,
+              "collision": 171
+            },
+            "(1, 1, 0)": {
+              "steps": 1024,
+              "episodes": 19,
+              "success": 16,
+              "safe_success": 7,
+              "impact": 0,
+              "collision": 313
+            },
+            "(1, 1, 2)": {
+              "steps": 1024,
+              "episodes": 27,
+              "success": 22,
+              "safe_success": 9,
+              "impact": 4,
+              "collision": 130
+            },
+            "(1, 2, 1)": {
+              "steps": 1024,
+              "episodes": 29,
+              "success": 22,
+              "safe_success": 11,
+              "impact": 7,
+              "collision": 206
+            },
+            "(1, 2, 2)": {
+              "steps": 1024,
+              "episodes": 18,
+              "success": 13,
+              "safe_success": 4,
+              "impact": 4,
+              "collision": 328
+            },
+            "(2, 0, 0)": {
+              "steps": 1024,
+              "episodes": 16,
+              "success": 11,
+              "safe_success": 6,
+              "impact": 0,
+              "collision": 608
+            },
+            "(2, 0, 2)": {
+              "steps": 1024,
+              "episodes": 18,
+              "success": 14,
+              "safe_success": 3,
+              "impact": 2,
+              "collision": 412
+            },
+            "(2, 1, 1)": {
+              "steps": 1024,
+              "episodes": 25,
+              "success": 15,
+              "safe_success": 6,
+              "impact": 10,
+              "collision": 216
+            },
+            "(2, 1, 2)": {
+              "steps": 1024,
+              "episodes": 20,
+              "success": 14,
+              "safe_success": 4,
+              "impact": 5,
+              "collision": 205
+            },
+            "(2, 2, 0)": {
+              "steps": 1024,
+              "episodes": 26,
+              "success": 25,
+              "safe_success": 11,
+              "impact": 0,
+              "collision": 234
+            },
+            "(2, 2, 1)": {
+              "steps": 1024,
+              "episodes": 27,
+              "success": 17,
+              "safe_success": 4,
+              "impact": 10,
+              "collision": 223
+            }
+          },
+          "success": 0.8397435897435898,
+          "safe_success": 0.5,
+          "impact": 0.12179487179487179,
+          "collision_step_rate": 0.19786241319444445,
+          "reward": 0.19257196551846079,
+          "mse": 0.0027499220565911425,
+          "risk_brier": 0.0,
+          "sha256": {
+            "transitions_00000.npz": "f9446400ae9006a77b824011a39eb7bc52479c16ed2d6f0e45a3031a44605b89",
+            "transitions_00001.npz": "e74b9707371bf1b767ee7e54dd2d166d45e6bbc570c0cff3079bc1438317f687",
+            "transitions_00002.npz": "d03cec66d92b89ecd068b27d505fc041be9e1060fb2d9063bffa12ec22fe39cb",
+            "transitions_00003.npz": "3d0e25607607e552caadc72ccc6e74de18b70b0b522ad09583eef3cd6be80591",
+            "transitions_00004.npz": "5b4b106006ce55e563b2809a254522c509b329044b1855636324b76c12efcf8f",
+            "transitions_00005.npz": "2e3e0a407f79f1a74a431e3ab9ac40c1eb10d97ca879ffd0eab1c7370a53b2bf",
+            "transitions_00006.npz": "613daee2583f53feade7960ea28d05d5295f3e9c6e306a78d953f188565f449a",
+            "transitions_00007.npz": "ae17db301b6682196ae5a2b178050d46c84049cc983d499739e75b8d902e63f9",
+            "events.sqlite": "71e24b7f33a7ba92460962e616fdb23782ba28e7d8dd56af51d0543f0d86952a"
+          }
+        },
+        "heldout": {
+          "transitions": 9216,
+          "episodes": 230,
+          "success_count": 206,
+          "safe_success_count": 119,
+          "impact_count": 16,
+          "collision_steps": 1388,
+          "reward_sum": 2086.1021441872545,
+          "mse_sum": 27.09695158672912,
+          "risk_error_sum": 0.0,
+          "scenes": {
+            "(0, 0, 0)": {
+              "steps": 1024,
+              "episodes": 33,
+              "success": 33,
+              "safe_success": 27,
+              "impact": 0,
+              "collision": 30
+            },
+            "(0, 1, 2)": {
+              "steps": 1024,
+              "episodes": 27,
+              "success": 26,
+              "safe_success": 20,
+              "impact": 1,
+              "collision": 15
+            },
+            "(0, 2, 1)": {
+              "steps": 1024,
+              "episodes": 36,
+              "success": 33,
+              "safe_success": 30,
+              "impact": 3,
+              "collision": 9
+            },
+            "(1, 0, 2)": {
+              "steps": 1024,
+              "episodes": 23,
+              "success": 22,
+              "safe_success": 11,
+              "impact": 0,
+              "collision": 253
+            },
+            "(1, 1, 1)": {
+              "steps": 1024,
+              "episodes": 21,
+              "success": 16,
+              "safe_success": 4,
+              "impact": 4,
+              "collision": 139
+            },
+            "(1, 2, 0)": {
+              "steps": 1024,
+              "episodes": 22,
+              "success": 21,
+              "safe_success": 4,
+              "impact": 0,
+              "collision": 201
+            },
+            "(2, 0, 1)": {
+              "steps": 1024,
+              "episodes": 25,
+              "success": 21,
+              "safe_success": 11,
+              "impact": 4,
+              "collision": 165
+            },
+            "(2, 1, 0)": {
+              "steps": 1024,
+              "episodes": 19,
+              "success": 16,
+              "safe_success": 6,
+              "impact": 0,
+              "collision": 306
+            },
+            "(2, 2, 2)": {
+              "steps": 1024,
+              "episodes": 24,
+              "success": 18,
+              "safe_success": 6,
+              "impact": 4,
+              "collision": 270
+            }
+          },
+          "success": 0.8956521739130435,
+          "safe_success": 0.5173913043478261,
+          "impact": 0.06956521739130435,
+          "collision_step_rate": 0.1506076388888889,
+          "reward": 0.22635656946476285,
+          "mse": 0.0029402074204350173,
+          "risk_brier": 0.0,
+          "sha256": {
+            "transitions_00000.npz": "5270759be0be8f82427b14712a962009a030f6c47d850bd5ea046bc969a815ff",
+            "transitions_00001.npz": "82d128c7f99e9ef6748fa657d4ef5ab92c36ba3037a3449024bf9ababa28e6c6",
+            "transitions_00002.npz": "586b7535f102cc8538976cc7988f80e2427bc3499edeaf37f6e164ee5ebffd53",
+            "transitions_00003.npz": "91ee5cb8fcce6ff06c39da1fdf1937223a66bbe24b34960b48c5156acff5597f",
+            "transitions_00004.npz": "ae73f49a0ae068ef560e07bf895e3ad01b365e7e2aca39e2d83ca50edae8a904",
+            "transitions_00005.npz": "a1f8dabc78c4b1f5818b71b32e0d52c34c10e56671721c5f4dd75e418318b9de",
+            "transitions_00006.npz": "518ad9db8bf6228d74b29d022216465aea5721d32063eb59c0bb8a024211cc68",
+            "transitions_00007.npz": "2af69040b7b8f04e25f7c6625796e8e6d89d9ec6c082acbd43e513f4083aa2dc",
+            "events.sqlite": "7236459900a770e27b4c7c519c211765a024b98dc16786d35a237e5b922cc94e"
+          }
+        }
+      }
+    }
+  },
+  "audit_source_sha256": "bb997caae9a4e81e7b8227d14a4a2c7e9594a21a813325e3518cc8ac90e3135c"
+}

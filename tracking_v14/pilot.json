@@ -1,0 +1,12 @@
+{
+  "stage": "pilot",
+  "model_seed": 141,
+  "world_seed": 641000,
+  "worlds": 48,
+  "experts": 4,
+  "rollout": 64,
+  "epochs": 4,
+  "milestones": [1024, 4096, 8192],
+  "probe_episodes_per_combo": 8,
+  "modes": ["recent", "directory"]
+}
