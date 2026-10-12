@@ -1,0 +1,41 @@
+{
+  "mode": "no_query_content",
+  "step": 240,
+  "worlds": 64,
+  "training": false,
+  "reads_enabled": true,
+  "parameters": 126918,
+  "active_predictor_parameters": 30985,
+  "success": 0.8456380208333333,
+  "critical_success": 0.880859375,
+  "mse": 0.015514147467911243,
+  "critical_mse": 0.022826556116342545,
+  "cost": 0.028481967747211456,
+  "regret": 0.008791059255599976,
+  "retrievals": 2068,
+  "both_cues_at_change": 0.0,
+  "operation_counts": {
+    "keep": 0,
+    "retrieve": 1954,
+    "fade": 1886
+  },
+  "paired_retrievals": 114,
+  "group_execution_counts": [
+    0,
+    0,
+    0,
+    15360
+  ],
+  "totals": {
+    "new_experiences": 15360,
+    "planner_replay_presentations": 0,
+    "predictor_macs": 474316800,
+    "planning_macs": 949432320,
+    "routing_macs": 77660160,
+    "local_update_macs": 0,
+    "local_optimizer_elements": 0
+  },
+  "estimated_total_macs": 1501409280,
+  "curves": [],
+  "seconds": 4.041062799980864
+}

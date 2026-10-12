@@ -1,0 +1,150 @@
+{
+  "mode": "no_query_content",
+  "step": 1024,
+  "worlds": 64,
+  "training": true,
+  "reads_enabled": true,
+  "parameters": 126918,
+  "active_predictor_parameters": 30985,
+  "success": 0.6416168212890625,
+  "critical_success": 0.63671875,
+  "mse": 0.07067153602838516,
+  "critical_mse": 0.0415506474673748,
+  "cost": 0.1736721247434616,
+  "regret": 0.0735761895775795,
+  "retrievals": 24984,
+  "both_cues_at_change": 0.07663690476190477,
+  "operation_counts": {
+    "keep": 3396,
+    "retrieve": 12828,
+    "fade": 160
+  },
+  "paired_retrievals": 12156,
+  "group_execution_counts": [
+    4655,
+    18374,
+    27441,
+    15066
+  ],
+  "totals": {
+    "new_experiences": 65536,
+    "planner_replay_presentations": 32768,
+    "predictor_macs": 2023751680,
+    "planning_macs": 4050911232,
+    "routing_macs": 331350016,
+    "local_update_macs": 4454875136,
+    "local_optimizer_elements": 120753152
+  },
+  "estimated_total_macs": 10860888064,
+  "curves": [
+    {
+      "step": 256,
+      "success": 0.517333984375,
+      "mse": 0.20729343593120575,
+      "reads": 1541
+    },
+    {
+      "step": 512,
+      "success": 0.635498046875,
+      "mse": 0.0260210782289505,
+      "reads": 8968
+    },
+    {
+      "step": 768,
+      "success": 0.61212158203125,
+      "mse": 0.033434342592954636,
+      "reads": 16956
+    },
+    {
+      "step": 1024,
+      "success": 0.801513671875,
+      "mse": 0.015937309712171555,
+      "reads": 24984
+    }
+  ],
+  "seconds": 60.12942750006914,
+  "probes": {
+    "seen": {
+      "mode": "no_query_content",
+      "step": 240,
+      "worlds": 64,
+      "training": false,
+      "reads_enabled": true,
+      "parameters": 126918,
+      "active_predictor_parameters": 30985,
+      "success": 0.7313151041666667,
+      "critical_success": 0.83984375,
+      "mse": 0.02133765071630478,
+      "critical_mse": 0.017783349379897118,
+      "cost": 0.04695180431008339,
+      "regret": 0.024416569620370865,
+      "retrievals": 7168,
+      "both_cues_at_change": 0.0,
+      "operation_counts": {
+        "keep": 256,
+        "retrieve": 3584,
+        "fade": 0
+      },
+      "paired_retrievals": 3584,
+      "group_execution_counts": [
+        0,
+        0,
+        15360,
+        0
+      ],
+      "totals": {
+        "new_experiences": 15360,
+        "planner_replay_presentations": 0,
+        "predictor_macs": 474316800,
+        "planning_macs": 949432320,
+        "routing_macs": 77660160,
+        "local_update_macs": 0,
+        "local_optimizer_elements": 0
+      },
+      "estimated_total_macs": 1501409280,
+      "curves": [],
+      "seconds": 6.273296499857679
+    },
+    "composition": {
+      "mode": "no_query_content",
+      "step": 240,
+      "worlds": 64,
+      "training": false,
+      "reads_enabled": true,
+      "parameters": 126918,
+      "active_predictor_parameters": 30985,
+      "success": 0.7534505208333333,
+      "critical_success": 0.853515625,
+      "mse": 0.028084559366106987,
+      "critical_mse": 0.030568573623895645,
+      "cost": 0.06039973720908165,
+      "regret": 0.027344370260834694,
+      "retrievals": 7168,
+      "both_cues_at_change": 0.0,
+      "operation_counts": {
+        "keep": 256,
+        "retrieve": 3584,
+        "fade": 0
+      },
+      "paired_retrievals": 3584,
+      "group_execution_counts": [
+        0,
+        0,
+        15360,
+        0
+      ],
+      "totals": {
+        "new_experiences": 15360,
+        "planner_replay_presentations": 0,
+        "predictor_macs": 474316800,
+        "planning_macs": 949432320,
+        "routing_macs": 77660160,
+        "local_update_macs": 0,
+        "local_optimizer_elements": 0
+      },
+      "estimated_total_macs": 1501409280,
+      "curves": [],
+      "seconds": 5.694181500002742
+    }
+  }
+}

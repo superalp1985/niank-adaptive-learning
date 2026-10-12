@@ -1,0 +1,551 @@
+{
+  "mode": "state_time",
+  "step": 16384,
+  "worlds": 64,
+  "training": true,
+  "reads_enabled": true,
+  "parameters": 126918,
+  "active_predictor_parameters": 30985,
+  "success": 0.8648109436035156,
+  "critical_success": 0.8632659912109375,
+  "mse": 0.01000893022865057,
+  "critical_mse": 0.017008062452077866,
+  "cost": 0.04553848132491112,
+  "regret": 0.014887289144098759,
+  "retrievals": 256597,
+  "both_cues_at_change": 0.0032958984375,
+  "operation_counts": {
+    "keep": 481,
+    "retrieve": 115231,
+    "fade": 80896
+  },
+  "paired_retrievals": 87736,
+  "group_execution_counts": [
+    182289,
+    302513,
+    377789,
+    185985
+  ],
+  "totals": {
+    "new_experiences": 1048576,
+    "planner_replay_presentations": 524288,
+    "predictor_macs": 32380026880,
+    "planning_macs": 64814579712,
+    "routing_macs": 5301600256,
+    "local_update_macs": 71278002176,
+    "local_optimizer_elements": 1938154477
+  },
+  "estimated_total_macs": 173774209024,
+  "curves": [
+    {
+      "step": 256,
+      "success": 0.51031494140625,
+      "mse": 0.20872913300991058,
+      "reads": 2681
+    },
+    {
+      "step": 512,
+      "success": 0.594970703125,
+      "mse": 0.03353024646639824,
+      "reads": 9414
+    },
+    {
+      "step": 768,
+      "success": 0.61419677734375,
+      "mse": 0.032244160771369934,
+      "reads": 14234
+    },
+    {
+      "step": 1024,
+      "success": 0.793701171875,
+      "mse": 0.016775866970419884,
+      "reads": 16537
+    },
+    {
+      "step": 1280,
+      "success": 0.78680419921875,
+      "mse": 0.016941295936703682,
+      "reads": 18015
+    },
+    {
+      "step": 1536,
+      "success": 0.7371826171875,
+      "mse": 0.017637070268392563,
+      "reads": 19635
+    },
+    {
+      "step": 1792,
+      "success": 0.787109375,
+      "mse": 0.01411391794681549,
+      "reads": 23108
+    },
+    {
+      "step": 2048,
+      "success": 0.82122802734375,
+      "mse": 0.012882949784398079,
+      "reads": 26218
+    },
+    {
+      "step": 2304,
+      "success": 0.83917236328125,
+      "mse": 0.01067049615085125,
+      "reads": 28762
+    },
+    {
+      "step": 2560,
+      "success": 0.815673828125,
+      "mse": 0.013433310203254223,
+      "reads": 32372
+    },
+    {
+      "step": 2816,
+      "success": 0.8077392578125,
+      "mse": 0.013950541615486145,
+      "reads": 37846
+    },
+    {
+      "step": 3072,
+      "success": 0.801513671875,
+      "mse": 0.014053471386432648,
+      "reads": 40789
+    },
+    {
+      "step": 3328,
+      "success": 0.85223388671875,
+      "mse": 0.010584775358438492,
+      "reads": 43260
+    },
+    {
+      "step": 3584,
+      "success": 0.8570556640625,
+      "mse": 0.00969569943845272,
+      "reads": 46643
+    },
+    {
+      "step": 3840,
+      "success": 0.84271240234375,
+      "mse": 0.011027172207832336,
+      "reads": 49685
+    },
+    {
+      "step": 4096,
+      "success": 0.825439453125,
+      "mse": 0.013264689594507217,
+      "reads": 53630
+    },
+    {
+      "step": 4352,
+      "success": 0.83978271484375,
+      "mse": 0.010964658111333847,
+      "reads": 58547
+    },
+    {
+      "step": 4608,
+      "success": 0.84832763671875,
+      "mse": 0.009544570930302143,
+      "reads": 62803
+    },
+    {
+      "step": 4864,
+      "success": 0.84967041015625,
+      "mse": 0.010445665568113327,
+      "reads": 66305
+    },
+    {
+      "step": 5120,
+      "success": 0.84454345703125,
+      "mse": 0.011731448583304882,
+      "reads": 70606
+    },
+    {
+      "step": 5376,
+      "success": 0.86590576171875,
+      "mse": 0.010062986984848976,
+      "reads": 75133
+    },
+    {
+      "step": 5632,
+      "success": 0.8612060546875,
+      "mse": 0.010917339473962784,
+      "reads": 78689
+    },
+    {
+      "step": 5888,
+      "success": 0.8658447265625,
+      "mse": 0.01017564907670021,
+      "reads": 82488
+    },
+    {
+      "step": 6144,
+      "success": 0.86749267578125,
+      "mse": 0.00979663897305727,
+      "reads": 86765
+    },
+    {
+      "step": 6400,
+      "success": 0.87115478515625,
+      "mse": 0.009355575777590275,
+      "reads": 90651
+    },
+    {
+      "step": 6656,
+      "success": 0.876953125,
+      "mse": 0.009444741532206535,
+      "reads": 95805
+    },
+    {
+      "step": 6912,
+      "success": 0.86846923828125,
+      "mse": 0.009878036566078663,
+      "reads": 101173
+    },
+    {
+      "step": 7168,
+      "success": 0.85162353515625,
+      "mse": 0.010784242302179337,
+      "reads": 104895
+    },
+    {
+      "step": 7424,
+      "success": 0.86639404296875,
+      "mse": 0.01004020869731903,
+      "reads": 109003
+    },
+    {
+      "step": 7680,
+      "success": 0.86895751953125,
+      "mse": 0.009963056072592735,
+      "reads": 114059
+    },
+    {
+      "step": 7936,
+      "success": 0.86431884765625,
+      "mse": 0.010060681961476803,
+      "reads": 118570
+    },
+    {
+      "step": 8192,
+      "success": 0.85626220703125,
+      "mse": 0.01102928165346384,
+      "reads": 123904
+    },
+    {
+      "step": 8448,
+      "success": 0.857666015625,
+      "mse": 0.010566090233623981,
+      "reads": 128270
+    },
+    {
+      "step": 8704,
+      "success": 0.86962890625,
+      "mse": 0.009727070108056068,
+      "reads": 132630
+    },
+    {
+      "step": 8960,
+      "success": 0.8663330078125,
+      "mse": 0.010102855041623116,
+      "reads": 135525
+    },
+    {
+      "step": 9216,
+      "success": 0.87518310546875,
+      "mse": 0.009672107174992561,
+      "reads": 139303
+    },
+    {
+      "step": 9472,
+      "success": 0.87103271484375,
+      "mse": 0.009932972490787506,
+      "reads": 143132
+    },
+    {
+      "step": 9728,
+      "success": 0.8704833984375,
+      "mse": 0.009859168902039528,
+      "reads": 147562
+    },
+    {
+      "step": 9984,
+      "success": 0.86199951171875,
+      "mse": 0.0100218765437603,
+      "reads": 153442
+    },
+    {
+      "step": 10240,
+      "success": 0.8690185546875,
+      "mse": 0.010305206291377544,
+      "reads": 158070
+    },
+    {
+      "step": 10496,
+      "success": 0.87286376953125,
+      "mse": 0.009508936665952206,
+      "reads": 160874
+    },
+    {
+      "step": 10752,
+      "success": 0.87158203125,
+      "mse": 0.009759727865457535,
+      "reads": 165372
+    },
+    {
+      "step": 11008,
+      "success": 0.86370849609375,
+      "mse": 0.010115881450474262,
+      "reads": 168318
+    },
+    {
+      "step": 11264,
+      "success": 0.86846923828125,
+      "mse": 0.010023774579167366,
+      "reads": 174245
+    },
+    {
+      "step": 11520,
+      "success": 0.85540771484375,
+      "mse": 0.010469604283571243,
+      "reads": 179495
+    },
+    {
+      "step": 11776,
+      "success": 0.8592529296875,
+      "mse": 0.009963085874915123,
+      "reads": 184118
+    },
+    {
+      "step": 12032,
+      "success": 0.85919189453125,
+      "mse": 0.010127516463398933,
+      "reads": 188716
+    },
+    {
+      "step": 12288,
+      "success": 0.853271484375,
+      "mse": 0.010368861258029938,
+      "reads": 191761
+    },
+    {
+      "step": 12544,
+      "success": 0.85162353515625,
+      "mse": 0.010760631412267685,
+      "reads": 194872
+    },
+    {
+      "step": 12800,
+      "success": 0.8663330078125,
+      "mse": 0.010138213634490967,
+      "reads": 197742
+    },
+    {
+      "step": 13056,
+      "success": 0.86785888671875,
+      "mse": 0.00973969791084528,
+      "reads": 200213
+    },
+    {
+      "step": 13312,
+      "success": 0.8638916015625,
+      "mse": 0.009664593264460564,
+      "reads": 204103
+    },
+    {
+      "step": 13568,
+      "success": 0.88006591796875,
+      "mse": 0.009173640049993992,
+      "reads": 208770
+    },
+    {
+      "step": 13824,
+      "success": 0.88824462890625,
+      "mse": 0.008388955146074295,
+      "reads": 214022
+    },
+    {
+      "step": 14080,
+      "success": 0.88232421875,
+      "mse": 0.008989260531961918,
+      "reads": 219423
+    },
+    {
+      "step": 14336,
+      "success": 0.863037109375,
+      "mse": 0.010133820585906506,
+      "reads": 224708
+    },
+    {
+      "step": 14592,
+      "success": 0.828369140625,
+      "mse": 0.01198514737188816,
+      "reads": 227145
+    },
+    {
+      "step": 14848,
+      "success": 0.85906982421875,
+      "mse": 0.010424165055155754,
+      "reads": 231147
+    },
+    {
+      "step": 15104,
+      "success": 0.880859375,
+      "mse": 0.009326791390776634,
+      "reads": 234832
+    },
+    {
+      "step": 15360,
+      "success": 0.884765625,
+      "mse": 0.008580466732382774,
+      "reads": 239421
+    },
+    {
+      "step": 15616,
+      "success": 0.8782958984375,
+      "mse": 0.008705441839993,
+      "reads": 244305
+    },
+    {
+      "step": 15872,
+      "success": 0.87335205078125,
+      "mse": 0.009508023038506508,
+      "reads": 248140
+    },
+    {
+      "step": 16128,
+      "success": 0.8699951171875,
+      "mse": 0.009968358092010021,
+      "reads": 252067
+    },
+    {
+      "step": 16384,
+      "success": 0.86083984375,
+      "mse": 0.010222047567367554,
+      "reads": 256597
+    }
+  ],
+  "seconds": 953.7302227001637,
+  "probes": {
+    "seen": {
+      "mode": "state_time",
+      "step": 240,
+      "worlds": 64,
+      "training": false,
+      "reads_enabled": true,
+      "parameters": 126918,
+      "active_predictor_parameters": 30985,
+      "success": 0.84921875,
+      "critical_success": 0.900390625,
+      "mse": 0.011413195170462132,
+      "critical_mse": 0.01588618755340576,
+      "cost": 0.023371638730168343,
+      "regret": 0.00862008985131979,
+      "retrievals": 1320,
+      "both_cues_at_change": 0.065625,
+      "operation_counts": {
+        "keep": 0,
+        "retrieve": 1282,
+        "fade": 2558
+      },
+      "paired_retrievals": 38,
+      "group_execution_counts": [
+        0,
+        15360,
+        0,
+        0
+      ],
+      "totals": {
+        "new_experiences": 15360,
+        "planner_replay_presentations": 0,
+        "predictor_macs": 474316800,
+        "planning_macs": 949432320,
+        "routing_macs": 77660160,
+        "local_update_macs": 0,
+        "local_optimizer_elements": 0
+      },
+      "estimated_total_macs": 1501409280,
+      "curves": [],
+      "seconds": 1.1158916000276804
+    },
+    "composition": {
+      "mode": "state_time",
+      "step": 240,
+      "worlds": 64,
+      "training": false,
+      "reads_enabled": true,
+      "parameters": 126918,
+      "active_predictor_parameters": 30985,
+      "success": 0.8122395833333333,
+      "critical_success": 0.9169921875,
+      "mse": 0.02241329289972782,
+      "critical_mse": 0.03298234939575195,
+      "cost": 0.04194892197847366,
+      "regret": 0.01325308345258236,
+      "retrievals": 1241,
+      "both_cues_at_change": 0.021875,
+      "operation_counts": {
+        "keep": 0,
+        "retrieve": 1167,
+        "fade": 2673
+      },
+      "paired_retrievals": 74,
+      "group_execution_counts": [
+        1,
+        15359,
+        0,
+        0
+      ],
+      "totals": {
+        "new_experiences": 15360,
+        "planner_replay_presentations": 0,
+        "predictor_macs": 474316800,
+        "planning_macs": 949432320,
+        "routing_macs": 77660160,
+        "local_update_macs": 0,
+        "local_optimizer_elements": 0
+      },
+      "estimated_total_macs": 1501409280,
+      "curves": [],
+      "seconds": 1.050903300056234
+    },
+    "composition_no_reads": {
+      "mode": "state_time",
+      "step": 240,
+      "worlds": 64,
+      "training": false,
+      "reads_enabled": false,
+      "parameters": 126918,
+      "active_predictor_parameters": 30985,
+      "success": 0.773828125,
+      "critical_success": 0.8974609375,
+      "mse": 0.022346338257193565,
+      "critical_mse": 0.030423743650317192,
+      "cost": 0.040794000029563904,
+      "regret": 0.01532017346471548,
+      "retrievals": 0,
+      "both_cues_at_change": 0.0,
+      "operation_counts": {
+        "keep": 0,
+        "retrieve": 0,
+        "fade": 3840
+      },
+      "paired_retrievals": 0,
+      "group_execution_counts": [
+        0,
+        15360,
+        0,
+        0
+      ],
+      "totals": {
+        "new_experiences": 15360,
+        "planner_replay_presentations": 0,
+        "predictor_macs": 474316800,
+        "planning_macs": 949432320,
+        "routing_macs": 77660160,
+        "local_update_macs": 0,
+        "local_optimizer_elements": 0
+      },
+      "estimated_total_macs": 1501409280,
+      "curves": [],
+      "seconds": 0.8884256000164896
+    }
+  }
+}

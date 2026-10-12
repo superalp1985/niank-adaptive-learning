@@ -1,0 +1,761 @@
+{
+  "interpretation": "Descriptive selected-operation statistics, not matched causal treatment effects.",
+  "exploration": "Uniform over legal plans, not over keep/retrieve/fade classes.",
+  "candidates": {
+    "keep": 1,
+    "retrieve": 136,
+    "fade": 16
+  },
+  "entries": [
+    {
+      "path": "pilot\\no_query_content\\decisions_00.npz",
+      "first_step": 0,
+      "last_step": 1020,
+      "operations": {
+        "keep": {
+          "count": 3396,
+          "fraction": 0.207275390625,
+          "mean_reward": -0.38506404964954816,
+          "estimate_bias": 0.055603958915952524
+        },
+        "retrieve": {
+          "count": 12828,
+          "fraction": 0.782958984375,
+          "mean_reward": -0.16457510096646175,
+          "estimate_bias": -0.061131930250172974
+        },
+        "fade": {
+          "count": 160,
+          "fraction": 0.009765625,
+          "mean_reward": -0.34691378809511664,
+          "estimate_bias": -0.0462664210004732
+        }
+      }
+    },
+    {
+      "path": "pilot\\no_query_content\\decisions_01.npz",
+      "first_step": 1024,
+      "last_step": 4092,
+      "operations": {
+        "keep": {
+          "count": 95,
+          "fraction": 0.0019327799479166667,
+          "mean_reward": -0.07570880492658992,
+          "estimate_bias": -0.18727791640711458
+        },
+        "retrieve": {
+          "count": 46975,
+          "fraction": 0.9557088216145834,
+          "mean_reward": -0.0702151211177839,
+          "estimate_bias": -0.005547087739972574
+        },
+        "fade": {
+          "count": 2082,
+          "fraction": 0.0423583984375,
+          "mean_reward": -0.07040891924535939,
+          "estimate_bias": -0.0031347484942360116
+        }
+      }
+    },
+    {
+      "path": "pilot\\no_query_content\\decisions_02.npz",
+      "first_step": 4096,
+      "last_step": 16380,
+      "operations": {
+        "keep": {
+          "count": 404,
+          "fraction": 0.0020548502604166665,
+          "mean_reward": -0.03974394348858035,
+          "estimate_bias": -0.08254030915057876
+        },
+        "retrieve": {
+          "count": 160689,
+          "fraction": 0.8173065185546875,
+          "mean_reward": -0.04866540313780281,
+          "estimate_bias": 0.0016034591217942834
+        },
+        "fade": {
+          "count": 35515,
+          "fraction": 0.18063863118489584,
+          "mean_reward": -0.049915586771416214,
+          "estimate_bias": 0.0040312152721921875
+        }
+      }
+    },
+    {
+      "path": "pilot\\no_query_content\\probe_1024\\composition\\decisions_00.npz",
+      "first_step": 0,
+      "last_step": 236,
+      "operations": {
+        "keep": {
+          "count": 256,
+          "fraction": 0.06666666666666667,
+          "mean_reward": -0.07329916330127162,
+          "estimate_bias": -0.29753885297031957
+        },
+        "retrieve": {
+          "count": 3584,
+          "fraction": 0.9333333333333333,
+          "mean_reward": -0.07852364801000451,
+          "estimate_bias": -0.04685217410786364
+        },
+        "fade": {
+          "count": 0,
+          "fraction": 0.0,
+          "mean_reward": null,
+          "estimate_bias": null
+        }
+      }
+    },
+    {
+      "path": "pilot\\no_query_content\\probe_1024\\seen\\decisions_00.npz",
+      "first_step": 0,
+      "last_step": 236,
+      "operations": {
+        "keep": {
+          "count": 256,
+          "fraction": 0.06666666666666667,
+          "mean_reward": -0.04776224166926113,
+          "estimate_bias": -0.32307577460233006
+        },
+        "retrieve": {
+          "count": 3584,
+          "fraction": 0.9333333333333333,
+          "mean_reward": -0.06232480087045562,
+          "estimate_bias": -0.06331703416601574
+        },
+        "fade": {
+          "count": 0,
+          "fraction": 0.0,
+          "mean_reward": null,
+          "estimate_bias": null
+        }
+      }
+    },
+    {
+      "path": "pilot\\no_query_content\\probe_16384\\composition\\decisions_00.npz",
+      "first_step": 0,
+      "last_step": 236,
+      "operations": {
+        "keep": {
+          "count": 0,
+          "fraction": 0.0,
+          "mean_reward": null,
+          "estimate_bias": null
+        },
+        "retrieve": {
+          "count": 2103,
+          "fraction": 0.54765625,
+          "mean_reward": -0.028222279124162097,
+          "estimate_bias": -0.00769640987704247
+        },
+        "fade": {
+          "count": 1737,
+          "fraction": 0.45234375,
+          "mean_reward": -0.04964414281340581,
+          "estimate_bias": 0.00707026179794117
+        }
+      }
+    },
+    {
+      "path": "pilot\\no_query_content\\probe_16384\\composition_no_reads\\decisions_00.npz",
+      "first_step": 0,
+      "last_step": 236,
+      "operations": {
+        "keep": {
+          "count": 0,
+          "fraction": 0.0,
+          "mean_reward": null,
+          "estimate_bias": null
+        },
+        "retrieve": {
+          "count": 0,
+          "fraction": 0.0,
+          "mean_reward": null,
+          "estimate_bias": null
+        },
+        "fade": {
+          "count": 3840,
+          "fraction": 1.0,
+          "mean_reward": -0.0637435495981966,
+          "estimate_bias": 0.007998776821235272
+        }
+      }
+    },
+    {
+      "path": "pilot\\no_query_content\\probe_16384\\seen\\decisions_00.npz",
+      "first_step": 0,
+      "last_step": 236,
+      "operations": {
+        "keep": {
+          "count": 0,
+          "fraction": 0.0,
+          "mean_reward": null,
+          "estimate_bias": null
+        },
+        "retrieve": {
+          "count": 2098,
+          "fraction": 0.5463541666666667,
+          "mean_reward": -0.020805754938415008,
+          "estimate_bias": -0.015108588054082802
+        },
+        "fade": {
+          "count": 1742,
+          "fraction": 0.45364583333333336,
+          "mean_reward": -0.030863219959060977,
+          "estimate_bias": -0.01178534780237364
+        }
+      }
+    },
+    {
+      "path": "pilot\\no_query_content\\probe_4096\\composition\\decisions_00.npz",
+      "first_step": 0,
+      "last_step": 236,
+      "operations": {
+        "keep": {
+          "count": 0,
+          "fraction": 0.0,
+          "mean_reward": null,
+          "estimate_bias": null
+        },
+        "retrieve": {
+          "count": 1954,
+          "fraction": 0.5088541666666667,
+          "mean_reward": -0.02933508739511873,
+          "estimate_bias": -0.02758484274732614
+        },
+        "fade": {
+          "count": 1886,
+          "fraction": 0.49114583333333334,
+          "mean_reward": -0.0455849237432891,
+          "estimate_bias": -0.009707767723280292
+        }
+      }
+    },
+    {
+      "path": "pilot\\no_query_content\\probe_4096\\seen\\decisions_00.npz",
+      "first_step": 0,
+      "last_step": 236,
+      "operations": {
+        "keep": {
+          "count": 0,
+          "fraction": 0.0,
+          "mean_reward": null,
+          "estimate_bias": null
+        },
+        "retrieve": {
+          "count": 1941,
+          "fraction": 0.50546875,
+          "mean_reward": -0.021108009499396476,
+          "estimate_bias": -0.035793330519839676
+        },
+        "fade": {
+          "count": 1899,
+          "fraction": 0.49453125,
+          "mean_reward": -0.027886330449474035,
+          "estimate_bias": -0.027545029420323233
+        }
+      }
+    },
+    {
+      "path": "pilot\\state_content\\decisions_00.npz",
+      "first_step": 0,
+      "last_step": 1020,
+      "operations": {
+        "keep": {
+          "count": 2586,
+          "fraction": 0.1578369140625,
+          "mean_reward": -0.4646712415169187,
+          "estimate_bias": 0.0634099977314782
+        },
+        "retrieve": {
+          "count": 10613,
+          "fraction": 0.64776611328125,
+          "mean_reward": -0.1772887075678891,
+          "estimate_bias": -0.0016852747830530253
+        },
+        "fade": {
+          "count": 3185,
+          "fraction": 0.19439697265625,
+          "mean_reward": -0.11752605486172872,
+          "estimate_bias": 0.0015277259266720368
+        }
+      }
+    },
+    {
+      "path": "pilot\\state_content\\decisions_01.npz",
+      "first_step": 1024,
+      "last_step": 4092,
+      "operations": {
+        "keep": {
+          "count": 93,
+          "fraction": 0.00189208984375,
+          "mean_reward": -0.07682442609270815,
+          "estimate_bias": -0.060645938477909535
+        },
+        "retrieve": {
+          "count": 28037,
+          "fraction": 0.5704142252604166,
+          "mean_reward": -0.07074639236097166,
+          "estimate_bias": -1.0183626883431411e-05
+        },
+        "fade": {
+          "count": 21022,
+          "fraction": 0.4276936848958333,
+          "mean_reward": -0.0687661769753548,
+          "estimate_bias": 0.0018092435992858654
+        }
+      }
+    },
+    {
+      "path": "pilot\\state_content\\decisions_02.npz",
+      "first_step": 4096,
+      "last_step": 16380,
+      "operations": {
+        "keep": {
+          "count": 626,
+          "fraction": 0.0031840006510416665,
+          "mean_reward": -0.08881322238609171,
+          "estimate_bias": 0.00858975625329148
+        },
+        "retrieve": {
+          "count": 119695,
+          "fraction": 0.6088002522786459,
+          "mean_reward": -0.04976821697422107,
+          "estimate_bias": 0.0038041728230794195
+        },
+        "fade": {
+          "count": 76287,
+          "fraction": 0.3880157470703125,
+          "mean_reward": -0.046317358567809726,
+          "estimate_bias": 0.003255701244398955
+        }
+      }
+    },
+    {
+      "path": "pilot\\state_content\\probe_1024\\composition\\decisions_00.npz",
+      "first_step": 0,
+      "last_step": 236,
+      "operations": {
+        "keep": {
+          "count": 0,
+          "fraction": 0.0,
+          "mean_reward": null,
+          "estimate_bias": null
+        },
+        "retrieve": {
+          "count": 227,
+          "fraction": 0.05911458333333333,
+          "mean_reward": -0.0701442025117412,
+          "estimate_bias": -0.061863084031621794
+        },
+        "fade": {
+          "count": 3613,
+          "fraction": 0.9408854166666667,
+          "mean_reward": -0.08664012740428284,
+          "estimate_bias": -0.010999317993424108
+        }
+      }
+    },
+    {
+      "path": "pilot\\state_content\\probe_1024\\seen\\decisions_00.npz",
+      "first_step": 0,
+      "last_step": 236,
+      "operations": {
+        "keep": {
+          "count": 0,
+          "fraction": 0.0,
+          "mean_reward": null,
+          "estimate_bias": null
+        },
+        "retrieve": {
+          "count": 249,
+          "fraction": 0.06484375,
+          "mean_reward": -0.05582772216547924,
+          "estimate_bias": -0.048862098492891436
+        },
+        "fade": {
+          "count": 3591,
+          "fraction": 0.93515625,
+          "mean_reward": -0.06114210120439363,
+          "estimate_bias": -0.02102058822617445
+        }
+      }
+    },
+    {
+      "path": "pilot\\state_content\\probe_16384\\composition\\decisions_00.npz",
+      "first_step": 0,
+      "last_step": 236,
+      "operations": {
+        "keep": {
+          "count": 0,
+          "fraction": 0.0,
+          "mean_reward": null,
+          "estimate_bias": null
+        },
+        "retrieve": {
+          "count": 755,
+          "fraction": 0.19661458333333334,
+          "mean_reward": -0.06375815843889453,
+          "estimate_bias": 0.003632162224526044
+        },
+        "fade": {
+          "count": 3085,
+          "fraction": 0.8033854166666666,
+          "mean_reward": -0.05344282855555971,
+          "estimate_bias": -0.011582368125948856
+        }
+      }
+    },
+    {
+      "path": "pilot\\state_content\\probe_16384\\composition_no_reads\\decisions_00.npz",
+      "first_step": 0,
+      "last_step": 236,
+      "operations": {
+        "keep": {
+          "count": 0,
+          "fraction": 0.0,
+          "mean_reward": null,
+          "estimate_bias": null
+        },
+        "retrieve": {
+          "count": 0,
+          "fraction": 0.0,
+          "mean_reward": null,
+          "estimate_bias": null
+        },
+        "fade": {
+          "count": 3840,
+          "fraction": 1.0,
+          "mean_reward": -0.059592357586370784,
+          "estimate_bias": -0.002889589466455315
+        }
+      }
+    },
+    {
+      "path": "pilot\\state_content\\probe_16384\\seen\\decisions_00.npz",
+      "first_step": 0,
+      "last_step": 236,
+      "operations": {
+        "keep": {
+          "count": 0,
+          "fraction": 0.0,
+          "mean_reward": null,
+          "estimate_bias": null
+        },
+        "retrieve": {
+          "count": 803,
+          "fraction": 0.20911458333333333,
+          "mean_reward": -0.026967965119801332,
+          "estimate_bias": -0.013656065200819663
+        },
+        "fade": {
+          "count": 3037,
+          "fraction": 0.7908854166666667,
+          "mean_reward": -0.034303995751054236,
+          "estimate_bias": -0.01786174546209019
+        }
+      }
+    },
+    {
+      "path": "pilot\\state_content\\probe_4096\\composition\\decisions_00.npz",
+      "first_step": 0,
+      "last_step": 236,
+      "operations": {
+        "keep": {
+          "count": 0,
+          "fraction": 0.0,
+          "mean_reward": null,
+          "estimate_bias": null
+        },
+        "retrieve": {
+          "count": 1027,
+          "fraction": 0.2674479166666667,
+          "mean_reward": -0.05623394054476581,
+          "estimate_bias": -0.014668201162275777
+        },
+        "fade": {
+          "count": 2813,
+          "fraction": 0.7325520833333333,
+          "mean_reward": -0.04299850400750467,
+          "estimate_bias": -0.025550068156456676
+        }
+      }
+    },
+    {
+      "path": "pilot\\state_content\\probe_4096\\seen\\decisions_00.npz",
+      "first_step": 0,
+      "last_step": 236,
+      "operations": {
+        "keep": {
+          "count": 0,
+          "fraction": 0.0,
+          "mean_reward": null,
+          "estimate_bias": null
+        },
+        "retrieve": {
+          "count": 1080,
+          "fraction": 0.28125,
+          "mean_reward": -0.04012666121581398,
+          "estimate_bias": -0.018607046174635697
+        },
+        "fade": {
+          "count": 2760,
+          "fraction": 0.71875,
+          "mean_reward": -0.03755822817109984,
+          "estimate_bias": -0.02402752200394626
+        }
+      }
+    },
+    {
+      "path": "pilot\\state_time\\decisions_00.npz",
+      "first_step": 0,
+      "last_step": 1020,
+      "operations": {
+        "keep": {
+          "count": 2477,
+          "fraction": 0.15118408203125,
+          "mean_reward": -0.5397525775126194,
+          "estimate_bias": 0.1109476927676316
+        },
+        "retrieve": {
+          "count": 11051,
+          "fraction": 0.67449951171875,
+          "mean_reward": -0.18512586106702097,
+          "estimate_bias": -0.0152179169148652
+        },
+        "fade": {
+          "count": 2856,
+          "fraction": 0.17431640625,
+          "mean_reward": -0.08398188831492037,
+          "estimate_bias": -0.019216261166591374
+        }
+      }
+    },
+    {
+      "path": "pilot\\state_time\\decisions_01.npz",
+      "first_step": 1024,
+      "last_step": 4092,
+      "operations": {
+        "keep": {
+          "count": 92,
+          "fraction": 0.0018717447916666667,
+          "mean_reward": -0.0713109863091908,
+          "estimate_bias": -0.10506074811817835
+        },
+        "retrieve": {
+          "count": 20240,
+          "fraction": 0.4117838541666667,
+          "mean_reward": -0.07192205930029369,
+          "estimate_bias": -0.001833821218616598
+        },
+        "fade": {
+          "count": 28820,
+          "fraction": 0.5863444010416666,
+          "mean_reward": -0.06598738984617332,
+          "estimate_bias": 0.004797782012418825
+        }
+      }
+    },
+    {
+      "path": "pilot\\state_time\\decisions_02.npz",
+      "first_step": 4096,
+      "last_step": 16380,
+      "operations": {
+        "keep": {
+          "count": 481,
+          "fraction": 0.0024464925130208335,
+          "mean_reward": -0.05979912023576995,
+          "estimate_bias": -0.020163403687468127
+        },
+        "retrieve": {
+          "count": 115231,
+          "fraction": 0.5860951741536459,
+          "mean_reward": -0.05348005828926319,
+          "estimate_bias": 0.0029212465944829557
+        },
+        "fade": {
+          "count": 80896,
+          "fraction": 0.4114583333333333,
+          "mean_reward": -0.051322154134274704,
+          "estimate_bias": 0.003401665837990365
+        }
+      }
+    },
+    {
+      "path": "pilot\\state_time\\probe_1024\\composition\\decisions_00.npz",
+      "first_step": 0,
+      "last_step": 236,
+      "operations": {
+        "keep": {
+          "count": 0,
+          "fraction": 0.0,
+          "mean_reward": null,
+          "estimate_bias": null
+        },
+        "retrieve": {
+          "count": 0,
+          "fraction": 0.0,
+          "mean_reward": null,
+          "estimate_bias": null
+        },
+        "fade": {
+          "count": 3840,
+          "fraction": 1.0,
+          "mean_reward": -0.07289332523747968,
+          "estimate_bias": -0.014769837548374198
+        }
+      }
+    },
+    {
+      "path": "pilot\\state_time\\probe_1024\\seen\\decisions_00.npz",
+      "first_step": 0,
+      "last_step": 236,
+      "operations": {
+        "keep": {
+          "count": 0,
+          "fraction": 0.0,
+          "mean_reward": null,
+          "estimate_bias": null
+        },
+        "retrieve": {
+          "count": 0,
+          "fraction": 0.0,
+          "mean_reward": null,
+          "estimate_bias": null
+        },
+        "fade": {
+          "count": 3840,
+          "fraction": 1.0,
+          "mean_reward": -0.0571790929138236,
+          "estimate_bias": -0.014574971347701648
+        }
+      }
+    },
+    {
+      "path": "pilot\\state_time\\probe_16384\\composition\\decisions_00.npz",
+      "first_step": 0,
+      "last_step": 236,
+      "operations": {
+        "keep": {
+          "count": 0,
+          "fraction": 0.0,
+          "mean_reward": null,
+          "estimate_bias": null
+        },
+        "retrieve": {
+          "count": 1167,
+          "fraction": 0.30390625,
+          "mean_reward": -0.07898619233930504,
+          "estimate_bias": 0.006106189434688728
+        },
+        "fade": {
+          "count": 2673,
+          "fraction": 0.69609375,
+          "mean_reward": -0.0428067748610793,
+          "estimate_bias": -0.02998305493885609
+        }
+      }
+    },
+    {
+      "path": "pilot\\state_time\\probe_16384\\composition_no_reads\\decisions_00.npz",
+      "first_step": 0,
+      "last_step": 236,
+      "operations": {
+        "keep": {
+          "count": 0,
+          "fraction": 0.0,
+          "mean_reward": null,
+          "estimate_bias": null
+        },
+        "retrieve": {
+          "count": 0,
+          "fraction": 0.0,
+          "mean_reward": null,
+          "estimate_bias": null
+        },
+        "fade": {
+          "count": 3840,
+          "fraction": 1.0,
+          "mean_reward": -0.05196716901021622,
+          "estimate_bias": -0.019949744976959966
+        }
+      }
+    },
+    {
+      "path": "pilot\\state_time\\probe_16384\\seen\\decisions_00.npz",
+      "first_step": 0,
+      "last_step": 236,
+      "operations": {
+        "keep": {
+          "count": 0,
+          "fraction": 0.0,
+          "mean_reward": null,
+          "estimate_bias": null
+        },
+        "retrieve": {
+          "count": 1282,
+          "fraction": 0.3338541666666667,
+          "mean_reward": -0.028427395839218703,
+          "estimate_bias": -0.01772386421502877
+        },
+        "fade": {
+          "count": 2558,
+          "fraction": 0.6661458333333333,
+          "mean_reward": -0.030436475601311602,
+          "estimate_bias": -0.025017716519646
+        }
+      }
+    },
+    {
+      "path": "pilot\\state_time\\probe_4096\\composition\\decisions_00.npz",
+      "first_step": 0,
+      "last_step": 236,
+      "operations": {
+        "keep": {
+          "count": 0,
+          "fraction": 0.0,
+          "mean_reward": null,
+          "estimate_bias": null
+        },
+        "retrieve": {
+          "count": 3709,
+          "fraction": 0.9658854166666667,
+          "mean_reward": -0.05198157385512725,
+          "estimate_bias": -0.01942905095141671
+        },
+        "fade": {
+          "count": 131,
+          "fraction": 0.03411458333333333,
+          "mean_reward": -0.07612848973420683,
+          "estimate_bias": 0.0043855009952432095
+        }
+      }
+    },
+    {
+      "path": "pilot\\state_time\\probe_4096\\seen\\decisions_00.npz",
+      "first_step": 0,
+      "last_step": 236,
+      "operations": {
+        "keep": {
+          "count": 0,
+          "fraction": 0.0,
+          "mean_reward": null,
+          "estimate_bias": null
+        },
+        "retrieve": {
+          "count": 3712,
+          "fraction": 0.9666666666666667,
+          "mean_reward": -0.03390903081543617,
+          "estimate_bias": -0.025932138572163737
+        },
+        "fade": {
+          "count": 128,
+          "fraction": 0.03333333333333333,
+          "mean_reward": -0.040089363043080084,
+          "estimate_bias": -0.015140535557293333
+        }
+      }
+    }
+  ]
+}

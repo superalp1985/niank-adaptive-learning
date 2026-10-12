@@ -1,0 +1,10 @@
+{
+  "stage": "pilot",
+  "model_seed": 73,
+  "world_seed": 620100,
+  "worlds": 64,
+  "groups": 4,
+  "modes": ["state_content", "state_time", "no_query_content"],
+  "milestones": [1024, 4096, 16384],
+  "probe_steps": 240
+}

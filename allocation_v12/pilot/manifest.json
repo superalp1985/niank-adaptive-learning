@@ -1,0 +1,31 @@
+{
+  "config": {
+    "stage": "pilot",
+    "model_seed": 73,
+    "world_seed": 620100,
+    "worlds": 64,
+    "groups": 4,
+    "modes": [
+      "state_content",
+      "state_time",
+      "no_query_content"
+    ],
+    "milestones": [
+      1024,
+      4096,
+      16384
+    ],
+    "probe_steps": 240
+  },
+  "sha256": {
+    "allocation_v12\\core.py": "3577cafe1befaadb9a2cfe8a3ebe457a9e8eaffa7a05b3d44f0fab5e3c514ba2",
+    "allocation_v12\\run.py": "1da483b7a36f40c1c3fc6227e99534b9d5299b3bd07f0060b6a59ca534fbc9fd",
+    "allocation_v12\\PROTOCOL.md": "8c614ac484f3ff0be5155cb7b26c0fc1e901cc0bf1b8afb16aff07c5ec57b0d3",
+    "allocation_v12\\pilot.json": "a6cef31082838e8d5f690fe83561f2e4f5dd41cb3229ba2b1f8b4ed54e3df802",
+    "allocation_v11\\core.py": "7c7502c2ae6970acfabd9dfadb20f4f0b5139392733df1d1d0cfc515eac6727d",
+    "allocation_v10\\core.py": "4e2bc109829d1e4d9097d3753a258b7b64d9ac37ac63edc126432503b5fdcff9",
+    "retention_v5\\experiment.py": "3cc4877bf0b0998f6bae45d4e4c2be5f93e8e38207c1965e75832dc102b3432e"
+  },
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "torch": "2.3.1+cu118"
+}

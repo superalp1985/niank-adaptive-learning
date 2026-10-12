@@ -1,0 +1,222 @@
+{
+  "mode": "state_content",
+  "step": 4096,
+  "worlds": 64,
+  "training": true,
+  "reads_enabled": true,
+  "parameters": 126918,
+  "active_predictor_parameters": 30985,
+  "success": 0.8011372884114584,
+  "critical_success": 0.81805419921875,
+  "mse": 0.012848193757236004,
+  "critical_mse": 0.017897896468639374,
+  "cost": 0.06137010082602501,
+  "regret": 0.025197086855769157,
+  "retrievals": 72618,
+  "both_cues_at_change": 0.119384765625,
+  "operation_counts": {
+    "keep": 93,
+    "retrieve": 28037,
+    "fade": 21022
+  },
+  "paired_retrievals": 23985,
+  "group_execution_counts": [
+    90235,
+    61289,
+    66619,
+    44001
+  ],
+  "totals": {
+    "new_experiences": 262144,
+    "planner_replay_presentations": 131072,
+    "predictor_macs": 8095006720,
+    "planning_macs": 16203644928,
+    "routing_macs": 1325400064,
+    "local_update_macs": 17819500544,
+    "local_optimizer_elements": 486575883
+  },
+  "estimated_total_macs": 43443552256,
+  "curves": [
+    {
+      "step": 256,
+      "success": 0.52301025390625,
+      "mse": 0.20934143662452698,
+      "reads": 2639
+    },
+    {
+      "step": 512,
+      "success": 0.63641357421875,
+      "mse": 0.04003213346004486,
+      "reads": 10626
+    },
+    {
+      "step": 768,
+      "success": 0.62908935546875,
+      "mse": 0.02824932336807251,
+      "reads": 17578
+    },
+    {
+      "step": 1024,
+      "success": 0.6839599609375,
+      "mse": 0.0252377986907959,
+      "reads": 20596
+    },
+    {
+      "step": 1280,
+      "success": 0.760498046875,
+      "mse": 0.015763800591230392,
+      "reads": 23828
+    },
+    {
+      "step": 1536,
+      "success": 0.75244140625,
+      "mse": 0.014812501147389412,
+      "reads": 27421
+    },
+    {
+      "step": 1792,
+      "success": 0.79107666015625,
+      "mse": 0.014398328959941864,
+      "reads": 31772
+    },
+    {
+      "step": 2048,
+      "success": 0.78546142578125,
+      "mse": 0.01711808517575264,
+      "reads": 37705
+    },
+    {
+      "step": 2304,
+      "success": 0.766845703125,
+      "mse": 0.01477679330855608,
+      "reads": 42317
+    },
+    {
+      "step": 2560,
+      "success": 0.82818603515625,
+      "mse": 0.01107148826122284,
+      "reads": 46509
+    },
+    {
+      "step": 2816,
+      "success": 0.796630859375,
+      "mse": 0.012162385508418083,
+      "reads": 51133
+    },
+    {
+      "step": 3072,
+      "success": 0.8048095703125,
+      "mse": 0.010827887803316116,
+      "reads": 56383
+    },
+    {
+      "step": 3328,
+      "success": 0.82525634765625,
+      "mse": 0.011313398368656635,
+      "reads": 60394
+    },
+    {
+      "step": 3584,
+      "success": 0.8287353515625,
+      "mse": 0.010644134134054184,
+      "reads": 64946
+    },
+    {
+      "step": 3840,
+      "success": 0.85296630859375,
+      "mse": 0.009564448148012161,
+      "reads": 68744
+    },
+    {
+      "step": 4096,
+      "success": 0.82073974609375,
+      "mse": 0.011725075542926788,
+      "reads": 72618
+    }
+  ],
+  "seconds": 121.45384320011362,
+  "probes": {
+    "seen": {
+      "mode": "state_content",
+      "step": 240,
+      "worlds": 64,
+      "training": false,
+      "reads_enabled": true,
+      "parameters": 126918,
+      "active_predictor_parameters": 30985,
+      "success": 0.8554036458333333,
+      "critical_success": 0.7880859375,
+      "mse": 0.010339413769543171,
+      "critical_mse": 0.017569754272699356,
+      "cost": 0.0322098508477211,
+      "regret": 0.016989966854453087,
+      "retrievals": 1730,
+      "both_cues_at_change": 0.078125,
+      "operation_counts": {
+        "keep": 0,
+        "retrieve": 1080,
+        "fade": 2760
+      },
+      "paired_retrievals": 650,
+      "group_execution_counts": [
+        5983,
+        0,
+        9365,
+        12
+      ],
+      "totals": {
+        "new_experiences": 15360,
+        "planner_replay_presentations": 0,
+        "predictor_macs": 474316800,
+        "planning_macs": 949432320,
+        "routing_macs": 77660160,
+        "local_update_macs": 0,
+        "local_optimizer_elements": 0
+      },
+      "estimated_total_macs": 1501409280,
+      "curves": [],
+      "seconds": 6.115402099909261
+    },
+    "composition": {
+      "mode": "state_content",
+      "step": 240,
+      "worlds": 64,
+      "training": false,
+      "reads_enabled": true,
+      "parameters": 126918,
+      "active_predictor_parameters": 30985,
+      "success": 0.8681640625,
+      "critical_success": 0.822265625,
+      "mse": 0.01648132875561714,
+      "critical_mse": 0.026277322322130203,
+      "cost": 0.03742731362581253,
+      "regret": 0.012956203892827034,
+      "retrievals": 1671,
+      "both_cues_at_change": 0.134375,
+      "operation_counts": {
+        "keep": 0,
+        "retrieve": 1027,
+        "fade": 2813
+      },
+      "paired_retrievals": 644,
+      "group_execution_counts": [
+        6360,
+        0,
+        8988,
+        12
+      ],
+      "totals": {
+        "new_experiences": 15360,
+        "planner_replay_presentations": 0,
+        "predictor_macs": 474316800,
+        "planning_macs": 949432320,
+        "routing_macs": 77660160,
+        "local_update_macs": 0,
+        "local_optimizer_elements": 0
+      },
+      "estimated_total_macs": 1501409280,
+      "curves": [],
+      "seconds": 6.098635100061074
+    }
+  }
+}
