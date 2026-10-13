@@ -143,8 +143,85 @@ def publish(tag):
         git(["config", "user.email", git(["config", "user.email"], ROOT)], repo)
         git(["add", "--all"], repo)
         git(["commit", "-qm", f"Publish immutable research archive {tag}"], repo)
-    git(["push", "-u", "origin", branch], repo)
+    if manifest["zip_bytes"] > 1500 * 1024 * 1024:
+        publish_batched(tag, repo, branch, manifest)
+    else:
+        git(["push", "-u", "origin", branch], repo)
     print(json.dumps({"pushed_archive_branch": branch, "parts": len(manifest["parts"])}), flush=True)
+
+
+def publish_batched(tag, repo, branch, manifest):
+    """Keep every push below GitHub's 2 GiB pack limit."""
+    ledger = location(tag) / "local-publish-batches.json"
+    saved = json.loads(ledger.read_text(encoding="utf-8")) if ledger.exists() else None
+    remote = git(["ls-remote", "--heads", "origin", f"refs/heads/{branch}"], repo)
+    remote_oid = remote.split()[0] if remote else None
+    if saved and saved.get("parts_per_push") == 2:
+        commits = saved["commits"]
+    else:
+        original = git(["rev-parse", "HEAD"], repo)
+        entries = []
+        for line in git(["ls-tree", "-r", original], repo).splitlines():
+            metadata, name = line.split("\t", 1)
+            mode, kind, oid = metadata.split()
+            if kind != "blob":
+                raise ValueError("Only regular snapshot files can be batched")
+            entries.append((mode, oid, name))
+        metadata = [v for v in entries if ".part" not in v[2]
+                    and not v[2].startswith(".github/")]
+        parts = sorted([v for v in entries if ".part" in v[2]], key=lambda v: v[2])
+        workflows = [v for v in entries if v[2].startswith(".github/")]
+        if len(parts) != len(manifest["parts"]):
+            raise ValueError("Staged part count differs from manifest")
+        index = repo.parent / "batch-publish.index"
+        env = dict(os.environ, GIT_INDEX_FILE=str(index.resolve()),
+                   GIT_TERMINAL_PROMPT="0", GCM_INTERACTIVE="Never")
+
+        def plumbing(arguments):
+            result = subprocess.run(["git", *arguments], cwd=repo, env=env,
+                text=True, encoding="utf-8", errors="replace",
+                stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+                creationflags=subprocess.CREATE_NO_WINDOW if os.name == "nt" else 0)
+            if result.returncode:
+                raise RuntimeError(result.stderr[-3000:])
+            return result.stdout.strip()
+
+        if remote_oid:
+            plumbing(["read-tree", remote_oid])
+            published_names = {line.split("\t", 1)[1]
+                               for line in git(["ls-tree", "-r", remote_oid], repo).splitlines()}
+            parts = [v for v in parts if v[2] not in published_names]
+        else:
+            plumbing(["read-tree", "--empty"])
+        parent = remote_oid
+        commits = [remote_oid] if remote_oid else []
+
+        def commit_files(files, message):
+            nonlocal parent
+            for mode, oid, name in files:
+                plumbing(["update-index", "--add", "--cacheinfo", mode, oid, name])
+            tree = plumbing(["write-tree"])
+            arguments = ["commit-tree", tree, "-m", message]
+            if parent:
+                arguments += ["-p", parent]
+            parent = plumbing(arguments)
+            commits.append(parent)
+
+        if not remote_oid:
+            commit_files(metadata, f"Stage metadata for {tag}")
+        for start in range(0, len(parts), 2):
+            commit_files(parts[start:start + 2], f"Stage next archive parts {start + 1}-{min(start + 2, len(parts))}")
+        commit_files(workflows, f"Publish complete immutable archive {tag}")
+        if git(["rev-parse", f"{parent}^{{tree}}"], repo) != git(["rev-parse", f"{original}^{{tree}}"], repo):
+            raise RuntimeError("Batched final tree differs from immutable snapshot")
+        git(["update-ref", f"refs/heads/{branch}", parent, original], repo)
+        dump(ledger, dict(tag=tag, commits=commits, original=original, parts_per_push=2,
+                         previous_schedule=saved,
+                         final_tree=git(["rev-parse", f"{parent}^{{tree}}"], repo)))
+    start = 0 if remote_oid is None else commits.index(remote_oid) + 1
+    for index, commit in enumerate(commits[start:], start + 1):
+        git(["push", "origin", f"{commit}:refs/heads/{branch}"], repo)
+        print(json.dumps({"published_batch": index, "total_batches": len(commits)}), flush=True)
 
 
 def remote_part(tag, name):
