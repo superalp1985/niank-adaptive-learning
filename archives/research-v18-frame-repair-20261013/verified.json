@@ -1,0 +1,174 @@
+{
+  "repository": "superalp1985/niank-adaptive-learning",
+  "tag": "research-v18-frame-repair-20261013",
+  "manifest_sha256": "fbfc0af92ab8e3cc51e7c6734305693b043d9fd8552a232b508caaa2a32d5d17",
+  "remote_manifest_sha256": "fbfc0af92ab8e3cc51e7c6734305693b043d9fd8552a232b508caaa2a32d5d17",
+  "verified_utc": "2026-10-13T05:28:10.768317+00:00",
+  "parts": [
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part001",
+      "bytes": 41943040,
+      "sha256": "e32b30fe83aced2c7c370d2d7b610f45806069235c8dc62e44ccc90701d4e3d9"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part002",
+      "bytes": 41943040,
+      "sha256": "132039111a8b4c6aa2ce568e0038eeb28c5294ed2ddf0fda91c0372d830c2130"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part003",
+      "bytes": 41943040,
+      "sha256": "21024f7b1d1a4d1695db540e1d9ba8ed274e176345c2e97dc9f2b058d5a62610"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part004",
+      "bytes": 41943040,
+      "sha256": "2236f4b6d8a5cbc8d2f0668522795be5c71bbcd5c4a9c7b7552df1e487926fad"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part005",
+      "bytes": 41943040,
+      "sha256": "770a22859b5080ae709954dae82ff5e2a7c1fdd41e9eaeb6617398644d2924ad"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part006",
+      "bytes": 41943040,
+      "sha256": "58f68e8b67f7c765e4a4aaf8d485142ea9d7bfd90863676ff2643cf6365410c1"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part007",
+      "bytes": 41943040,
+      "sha256": "26e28245b145ff043fa442d7178e2ef9a5d304fbb0d45faa015e3d03ec8cfbb1"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part008",
+      "bytes": 41943040,
+      "sha256": "b158e1c1cd43000f297e09f5450f642dfa79123f6f34d74665012338ad4a4936"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part009",
+      "bytes": 41943040,
+      "sha256": "e6a420d9dd8e3a837b948fbd01515fa06f70d49fa238755636f93879c1fab552"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part010",
+      "bytes": 41943040,
+      "sha256": "54f09f3ef4e25c5af8be977b2e733dc441b059cb5dd74614c126105b5cf4d705"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part011",
+      "bytes": 41943040,
+      "sha256": "07ab79c6ec7bd226f63d8dd953b60bdf85e81eec35316e292cdf7a3259567aeb"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part012",
+      "bytes": 41943040,
+      "sha256": "72c081e158f1752a5c2da1bfe34175cb85ea6e2766a4ff0f926a24207cadeaf5"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part013",
+      "bytes": 41943040,
+      "sha256": "8985f8279f0ee12a38208f2a7a75b5bac932b24c35a629ca705c7a60a51445a7"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part014",
+      "bytes": 41943040,
+      "sha256": "46a68b299cb842fd9ab55bbf3c2c171ffbe31f1b120a8d107bd85a93e1a66833"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part015",
+      "bytes": 41943040,
+      "sha256": "9f2021896233dda5c38303988624f3aba7061f62252b561ec65e8ff74d8ff772"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part016",
+      "bytes": 41943040,
+      "sha256": "589f45b243e154f8c2600602fee620e98610b3b7ff310fa6863b5855834c9458"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part017",
+      "bytes": 41943040,
+      "sha256": "603076fce8b406ba598e9c1314005d6d243e0076d431184c8af39e8eca646bbd"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part018",
+      "bytes": 41943040,
+      "sha256": "9d12c4d60b80f4fe3a5037907b4a99fadb93a5a143d40e80aa5ec87f2181550a"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part019",
+      "bytes": 41943040,
+      "sha256": "ff525503596e4523bd0fc14b0907070da721b9b06abbb93c95df0f9804581401"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part020",
+      "bytes": 41943040,
+      "sha256": "23b5f3f673714ac95127cca49596fe894e4b901130d16b7c3c9c0556c3034fa7"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part021",
+      "bytes": 41943040,
+      "sha256": "92a6d56c406bbefabf7284a64c2cd1ee53c828ea16da32fa7ccaefcbb148fc24"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part022",
+      "bytes": 41943040,
+      "sha256": "982f6831c5173c2e8e3c8eab1fb49330e2d41f532193687919fcfca50656483c"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part023",
+      "bytes": 41943040,
+      "sha256": "2e51da44610ac1f6eadd0c5392433a8f42c5034cdff53f19f05fab45baf671a2"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part024",
+      "bytes": 41943040,
+      "sha256": "460a4c9b08397eddd091df4b9cb867f6add777c7b193ca035833a39a1d7a709d"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part025",
+      "bytes": 41943040,
+      "sha256": "2fb249fd21e614041a581f39f9ba90e6e8531b3a060ca25c499398c2fb78b51b"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part026",
+      "bytes": 41943040,
+      "sha256": "9a75740d05074f126ddd00bb9cd083eebd3815fc7253e48b37cad50d6f9010a2"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part027",
+      "bytes": 41943040,
+      "sha256": "537f8d1ea903b95e27316dd44da91573054d1a3bf61205a5c6d35d2d7bb96684"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part028",
+      "bytes": 41943040,
+      "sha256": "3886b0110e29a0cec5f972ac8ed14b5f7c2b809ab6bb5e2fdc0d4984d12feb3b"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part029",
+      "bytes": 41943040,
+      "sha256": "20f01826b02676a4c4eb84d22983abfc74e5afff61fcd3090093d4824811c4f4"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part030",
+      "bytes": 41943040,
+      "sha256": "8c6484ab6ee6a50281763c5ed91c72287525ebaaa788c5ccc577df1a586ac843"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part031",
+      "bytes": 41943040,
+      "sha256": "e4b65716df867c8d1ae57c1b4cdb753ced2d173565e16caaaf13c85d12bf1d02"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part032",
+      "bytes": 41943040,
+      "sha256": "7df07beaf3d0d1d0729ec32540965ef4e84e80c459c18fe4c1696dddbae899be"
+    },
+    {
+      "name": "research-v18-frame-repair-20261013.zip.part033",
+      "bytes": 13266840,
+      "sha256": "625efb72067d95f5e5b8b3154e8abe3f528099f2f4826b6c3a3d9178c7118196"
+    }
+  ]
+}
