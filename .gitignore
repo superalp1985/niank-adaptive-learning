@@ -10,6 +10,9 @@ tracking_runtime/
 *.npy
 *.sqlite
 *.sqlite3
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
 *.db
 *.zip
 *.part[0-9]*
