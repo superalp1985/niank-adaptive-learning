@@ -1,0 +1,17 @@
+{
+  "step": 512,
+  "experiences": 12288,
+  "contact_count": 43,
+  "safe_contacts": 29,
+  "collision_rate": 0.046875,
+  "impact_rate": 0.013346354166666666,
+  "visible_lock": 0.744890234670704,
+  "preupdate_mse": 0.005579374730587006,
+  "omitted_mse": 0.005592454224824905,
+  "mean_retention_gate": 0.7846047878265381,
+  "mean_retention_utility": 1.4483513950835913e-05,
+  "mean_abs_utility": 9.317286458099261e-05,
+  "mean_abs_gain": 0.00024035673413891345,
+  "mean_alignment_change": 0.0002453718625474721,
+  "predictor_loss": null
+}

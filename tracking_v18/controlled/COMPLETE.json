@@ -1,0 +1,8 @@
+{
+  "arms": [
+    "legacy",
+    "aligned"
+  ],
+  "steps": 8192,
+  "new_training_experiences": 1179648
+}

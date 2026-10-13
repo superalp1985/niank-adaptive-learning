@@ -1,0 +1,45 @@
+{
+  "config": {
+    "stage": "controlled",
+    "arms": [
+      "legacy",
+      "aligned"
+    ],
+    "warm_start": "tracking_v17/pilot/fixed/model.pt",
+    "ancestor_experiences": 1179648,
+    "model_seed": 181,
+    "world_seed": 681000,
+    "worlds": 72,
+    "rollout": 128,
+    "epochs": 3,
+    "milestones": [
+      2048,
+      4096,
+      8192
+    ],
+    "probe_steps": 512,
+    "probe_feedback": [
+      false,
+      true
+    ]
+  },
+  "source": {
+    "tracking_v18/audit.py": "98fd811517583d9d3af37a26b4d64663bc0a8c94268436137c60fb82a301d253",
+    "tracking_v18/learner.py": "7cdcb46c78655ee2047f164af6310083962f0eb4fdd48351131b7a2e8511035b",
+    "tracking_v18/run.py": "79ce316b952c8c22cb84396df4927b95957df8b24216a2dcd13a950f7d7134d7",
+    "tracking_v18/test_frame_contracts.py": "b100982a5596fbdd3027ae5d97281a459dc38266fde2e33cab20e10c711341a7",
+    "tracking_v18/PROTOCOL_ZH.md": "7cf414562ae79d45cda96500031ad0bc97c08e016005d88b36083019d91ea998",
+    "tracking_v18/config.json": "c382ddc8dcb396dc8f68f867be735ad6a9229839e7947ff47deee05ad598ab53",
+    "tracking_v17/learner.py": "9fac379700e0057eb668ff460ddc9ed95fe5c55b5024bbd2ed4ac99e181fbb64",
+    "tracking_v17/world.py": "b1ba1fdb18473d7ebb1dfffba5e6113fe8d489c0f825162a89b96fad5f71d949",
+    "tracking_v17/run.py": "ae41c319ad68a6f0ada6aeb2ce8ca9b1b3a795d59471718af8b523a9ac8e2bdd",
+    "tracking_v14/learner.py": "fee109d39e7dcc9f7442066810d5e8513a02a3aa027cddfe64425023989337fd",
+    "tracking_v14/world.py": "adeaa46fe3e409084a5e24d6242e738f2b5ed96fc089bae9245962136aa47087"
+  },
+  "warm_start_sha256": "d29eba87106274183bcad53448923d297b0d6750aa9c82a33bc5592ac04b56ef",
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "torch": "2.7.1+cu128",
+  "warm_start_kind": "weights_only_fresh_optimizers_worlds_and_traces",
+  "new_training_experiences_per_arm": 589824,
+  "total_ancestral_plus_new_per_arm": 1769472
+}
