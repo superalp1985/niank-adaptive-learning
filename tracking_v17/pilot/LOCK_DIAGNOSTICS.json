@@ -1,0 +1,30 @@
+{
+  "fixed": {
+    "path": "pilot\\fixed\\probe_16384",
+    "recorded_steps": 512,
+    "lock_runs": 398,
+    "median_lock_run_steps": 7.0,
+    "lock_runs_at_least_10_steps": 184,
+    "goals_ever_attention_locked": 197,
+    "recovered_gaps": 201,
+    "abandoned_gaps": 6,
+    "pending_recovery_at_end": 3,
+    "recovered_gaps_that_included_occlusion": 68,
+    "median_recovery_steps": 2.0,
+    "caveat": "Post-hoc attention metrics; completion-conditioned latency can hide abandoned recovery."
+  },
+  "revisable": {
+    "path": "pilot\\revisable\\probe_16384",
+    "recorded_steps": 512,
+    "lock_runs": 414,
+    "median_lock_run_steps": 5.0,
+    "lock_runs_at_least_10_steps": 168,
+    "goals_ever_attention_locked": 178,
+    "recovered_gaps": 236,
+    "abandoned_gaps": 7,
+    "pending_recovery_at_end": 6,
+    "recovered_gaps_that_included_occlusion": 91,
+    "median_recovery_steps": 2.0,
+    "caveat": "Post-hoc attention metrics; completion-conditioned latency can hide abandoned recovery."
+  }
+}

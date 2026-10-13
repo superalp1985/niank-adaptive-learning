@@ -1,14 +1,14 @@
 {
-  "step": 3456,
-  "experiences": 248832,
-  "contact_count": 18,
-  "safe_contacts": 10,
-  "collision_rate": 0.019965277777777776,
-  "impact_rate": 0.019965277777777776,
-  "visible_lock": 0.29609218436873747,
-  "preupdate_mse": 0.006594402715563774,
-  "omitted_mse": 0.00656094728037715,
-  "mean_retention_gate": 0.7346324324607849,
+  "step": 16384,
+  "experiences": 1179648,
+  "contact_count": 102,
+  "safe_contacts": 75,
+  "collision_rate": 0.042643229166666664,
+  "impact_rate": 0.009765625,
+  "visible_lock": 0.5777396525841733,
+  "preupdate_mse": 0.004410316236317158,
+  "omitted_mse": 0.004414229653775692,
+  "mean_retention_gate": 0.7208658456802368,
   "mean_retention_utility": 0.0,
-  "predictor_loss": 0.010358267075692614
+  "predictor_loss": 0.006813225633878674
 }

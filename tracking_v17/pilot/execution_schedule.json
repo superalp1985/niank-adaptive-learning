@@ -1,0 +1,8 @@
+{
+  "reason": "Two declared arms in separate processes; no data rerun",
+  "worker_sha256": "4fc2faa264235073593e81e95890053c1003c7fc9a5ad093e98abc68fda3f257",
+  "running_first_arm": "fixed",
+  "concurrent_second_arm": "revisable",
+  "expected_parent_exit": "Original sequential driver encounters existing second-arm folder after fixed completes.",
+  "scientific_sources_unchanged": true
+}

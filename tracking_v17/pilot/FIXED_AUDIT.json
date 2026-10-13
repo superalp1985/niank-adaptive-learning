@@ -1,0 +1,107 @@
+{
+  "sessions": [
+    {
+      "path": "pilot\\fixed",
+      "rows": 1179648,
+      "recomputed": {
+        "contacts": 5387,
+        "safe_contacts": 3345,
+        "collision_rate": 0.033404032389322914,
+        "impact_rate": 0.016368442111545138,
+        "contact_per_minute": 2.2833082411024304,
+        "visibility_steps": 544212,
+        "visible_lock": 0.37364666710767125,
+        "attacked_steps": 884736,
+        "attacked_impact_rate": 0.021824589482060185,
+        "reacquisitions": 58439,
+        "mean_reacquire_seconds": 1.0562377864097605
+      }
+    },
+    {
+      "path": "pilot\\fixed\\probe_0",
+      "rows": 12288,
+      "recomputed": {
+        "contacts": 7,
+        "safe_contacts": 2,
+        "collision_rate": 0.055745442708333336,
+        "impact_rate": 0.01220703125,
+        "contact_per_minute": 0.2848307291666667,
+        "visibility_steps": 7105,
+        "visible_lock": 0.16776917663617172,
+        "attacked_steps": 9216,
+        "attacked_impact_rate": 0.016276041666666668,
+        "reacquisitions": 356,
+        "mean_reacquire_seconds": 2.0298876404494384
+      }
+    },
+    {
+      "path": "pilot\\fixed\\probe_16384",
+      "rows": 12288,
+      "recomputed": {
+        "contacts": 187,
+        "safe_contacts": 140,
+        "collision_rate": 0.03955078125,
+        "impact_rate": 0.009521484375,
+        "contact_per_minute": 7.609049479166667,
+        "visibility_steps": 5744,
+        "visible_lock": 0.7658426183844012,
+        "attacked_steps": 9216,
+        "attacked_impact_rate": 0.0126953125,
+        "reacquisitions": 201,
+        "mean_reacquire_seconds": 0.9940298507462686
+      }
+    },
+    {
+      "path": "pilot\\fixed\\probe_2048",
+      "rows": 12288,
+      "recomputed": {
+        "contacts": 15,
+        "safe_contacts": 13,
+        "collision_rate": 0.09676106770833333,
+        "impact_rate": 0.025309244791666668,
+        "contact_per_minute": 0.6103515625,
+        "visibility_steps": 6376,
+        "visible_lock": 0.528387703889586,
+        "attacked_steps": 9216,
+        "attacked_impact_rate": 0.033745659722222224,
+        "reacquisitions": 268,
+        "mean_reacquire_seconds": 1.8846268656716418
+      }
+    },
+    {
+      "path": "pilot\\fixed\\probe_8192",
+      "rows": 12288,
+      "recomputed": {
+        "contacts": 32,
+        "safe_contacts": 24,
+        "collision_rate": 0.013020833333333334,
+        "impact_rate": 0.019856770833333332,
+        "contact_per_minute": 1.3020833333333335,
+        "visibility_steps": 4695,
+        "visible_lock": 0.3077742279020234,
+        "attacked_steps": 9216,
+        "attacked_impact_rate": 0.026475694444444444,
+        "reacquisitions": 291,
+        "mean_reacquire_seconds": 2.049484536082474
+      }
+    },
+    {
+      "path": "pilot\\fixed\\probe_no_eyes",
+      "rows": 12288,
+      "recomputed": {
+        "contacts": 11,
+        "safe_contacts": 4,
+        "collision_rate": 0.5082194010416666,
+        "impact_rate": 0.02099609375,
+        "contact_per_minute": 0.44759114583333337,
+        "visibility_steps": 6154,
+        "visible_lock": 0.03168670783230419,
+        "attacked_steps": 9216,
+        "attacked_impact_rate": 0.027994791666666668,
+        "reacquisitions": 112,
+        "mean_reacquire_seconds": 4.675714285714285
+      }
+    }
+  ],
+  "rows": 1241088
+}
