@@ -1,0 +1,90 @@
+{
+  "fixed": {
+    "phases": [
+      {
+        "cells": 18874368,
+        "absolute_sum": 25411.08767667309,
+        "signed_sum": 8131.647246509503,
+        "above_001": 7054454,
+        "above_01": 162094,
+        "absolute_sum_per_cell": 0.001346327870510583,
+        "signed_sum_per_cell": 0.0004308301738373175,
+        "above_001_per_cell": 0.373758422003852,
+        "above_01_per_cell": 0.00858804914686415
+      },
+      {
+        "cells": 56623104,
+        "absolute_sum": 18699.099390379928,
+        "signed_sum": -787.8027820854375,
+        "above_001": 4570386,
+        "above_01": 16223,
+        "absolute_sum_per_cell": 0.0003302379783061686,
+        "signed_sum_per_cell": -1.3913097771634658e-05,
+        "above_001_per_cell": 0.08071592119004992,
+        "above_01_per_cell": 0.0002865084895381221
+      },
+      {
+        "cells": 75497472,
+        "absolute_sum": 17331.497694084657,
+        "signed_sum": -303.7578450106,
+        "above_001": 4111261,
+        "above_01": 8699,
+        "absolute_sum_per_cell": 0.00022956394744031504,
+        "signed_sum_per_cell": -4.023417433243328e-06,
+        "above_001_per_cell": 0.054455611440870494,
+        "above_01_per_cell": 0.00011522240108913845
+      }
+    ],
+    "final_snapshot": {
+      "absolute_sector_utility_mean": 0.0,
+      "absolute_sector_utility_max": 0.0,
+      "absolute_gate_change_mean": 0.0,
+      "absolute_gate_change_max": 0.0
+    },
+    "note": "Post-hoc descriptive only; V17 next-frame utility rotation defect remains. Final checkpoint follows a physical reset, so its cleared utility does not measure the utility throughout learning."
+  },
+  "revisable": {
+    "phases": [
+      {
+        "cells": 18874368,
+        "absolute_sum": 25582.119880753125,
+        "signed_sum": 8566.7189726042,
+        "above_001": 7115713,
+        "above_01": 166171,
+        "absolute_sum_per_cell": 0.0013553894827499986,
+        "signed_sum_per_cell": 0.000453881103335709,
+        "above_001_per_cell": 0.3770040406121148,
+        "above_01_per_cell": 0.008804056379530165
+      },
+      {
+        "cells": 56623104,
+        "absolute_sum": 17608.895561723846,
+        "signed_sum": -856.6531347650398,
+        "above_001": 4329302,
+        "above_01": 14399,
+        "absolute_sum_per_cell": 0.0003109842858795563,
+        "signed_sum_per_cell": -1.5129038753598528e-05,
+        "above_001_per_cell": 0.07645822454381872,
+        "above_01_per_cell": 0.00025429549040617767
+      },
+      {
+        "cells": 75497472,
+        "absolute_sum": 17750.547020803213,
+        "signed_sum": -270.4821299703449,
+        "above_001": 4131774,
+        "above_01": 17808,
+        "absolute_sum_per_cell": 0.00023511445549863198,
+        "signed_sum_per_cell": -3.5826647277718766e-06,
+        "above_001_per_cell": 0.05472731590270996,
+        "above_01_per_cell": 0.00023587544759114584
+      }
+    ],
+    "final_snapshot": {
+      "absolute_sector_utility_mean": 0.0,
+      "absolute_sector_utility_max": 0.0,
+      "absolute_gate_change_mean": 0.0,
+      "absolute_gate_change_max": 0.0
+    },
+    "note": "Post-hoc descriptive only; V17 next-frame utility rotation defect remains. Final checkpoint follows a physical reset, so its cleared utility does not measure the utility throughout learning."
+  }
+}

@@ -10,6 +10,21 @@ from tools import archive_snapshot as archive
 
 
 class BatchContracts(unittest.TestCase):
+    def test_large_archive_final_commit_triggers_upload_path_filter(self):
+        with tempfile.TemporaryDirectory(dir=archive.ROOT / "cache") as tmp:
+            root = Path(tmp)
+            stage = root / ".archive-staging/test"
+            stage.mkdir(parents=True)
+            repo, remote, tree, manifest = self.fixture(stage)
+            manifest.update(zip_bytes=2000 * 1024 * 1024, zip_sha256="a" * 64)
+            with patch.object(archive, "ROOT", root), \
+                 patch.object(archive, "location", return_value=root / "ledger"), \
+                 patch.object(archive, "read_manifest", return_value=manifest):
+                archive.publish("test")
+            changed = archive.git(["diff", "--name-only", "HEAD^", "HEAD"], repo)
+            self.assertEqual(changed, "upload/release-ready.json")
+            self.assertIn(".github/workflows", archive.git(["ls-tree", "-r", "HEAD"], repo))
+
     def fixture(self, root):
         repo, remote = root / "upload-repo", root / "bare-remote"
         repo.mkdir()

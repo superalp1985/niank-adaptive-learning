@@ -143,8 +143,19 @@ def publish(tag):
         git(["config", "user.email", git(["config", "user.email"], ROOT)], repo)
         git(["add", "--all"], repo)
         git(["commit", "-qm", f"Publish immutable research archive {tag}"], repo)
-    if manifest["zip_bytes"] > 1500 * 1024 * 1024:
+    ready = repo / "upload" / "release-ready.json"
+    if ready.exists():
+        if json.loads(ready.read_text(encoding="utf-8"))["zip_sha256"] != manifest["zip_sha256"]:
+            raise RuntimeError("Release readiness marker differs from snapshot")
+        git(["push", "-u", "origin", branch], repo)
+    elif manifest["zip_bytes"] > 1500 * 1024 * 1024:
         publish_batched(tag, repo, branch, manifest)
+        # The final workflow-only commit does not satisfy the upload/** path filter.
+        dump(ready, dict(tag=tag, parts=len(manifest["parts"]),
+                         zip_sha256=manifest["zip_sha256"], all_parts_staged=True))
+        git(["add", "upload/release-ready.json"], repo)
+        git(["commit", "-qm", f"Trigger complete archive release {tag}"], repo)
+        git(["push", "-u", "origin", branch], repo)
     else:
         git(["push", "-u", "origin", branch], repo)
     print(json.dumps({"pushed_archive_branch": branch, "parts": len(manifest["parts"])}), flush=True)
