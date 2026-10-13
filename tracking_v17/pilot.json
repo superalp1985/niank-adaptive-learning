@@ -1,0 +1,12 @@
+{
+  "stage": "pilot",
+  "model_seed": 171,
+  "world_seed": 671000,
+  "worlds": 72,
+  "eyes": 128,
+  "rollout": 128,
+  "epochs": 3,
+  "milestones": [2048, 8192, 16384],
+  "probe_steps": 512,
+  "modes": ["fixed", "revisable"]
+}
