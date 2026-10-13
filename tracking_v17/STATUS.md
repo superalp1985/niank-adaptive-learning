@@ -11,7 +11,10 @@
 - Post-run defect: revisable utility receives next-frame gains in the old
   frame, then rotates again. See POSTRUN_FRAME_AUDIT_ZH.md. This invalidates
   a clean inference about correctly aligned adaptive retention.
-- Pending: complete GitHub archive/readback and verified cleanup.
+- Complete: GitHub Release research-v17-compound-eye-20261013; all 57
+  parts streamed back and SHA-256 verified.
+- Cleaned: 2,830,874,575 raw/redundant bytes and 7,160,953,463 staging bytes.
+  Retained: both final model.pt work sets. Temporary archive branch removed.
 
 Current versus historical image channels are separate. Oracle visibility
 and coordinates appear only in outcome telemetry, never policy features.
@@ -21,3 +24,7 @@ through occlusion has not been established.
 Training source, configuration and results remain immutable. Source hashes
 match. Initial model tensors match across arms. Fixed-arm sensor removal
 reduces contact rate from 7.609 to .448 per body minute.
+
+Remote archive retains the first report/plot. Current main has the explicit
+frame-defect correction, sector diagnostics, corrected plot, and V18 plan.
+No V18 code or training has started.

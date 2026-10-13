@@ -5,6 +5,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import datetime as dt
 import hashlib
 import json
+import time
 
 from tools.archive_snapshot import dump, digest, location, read_manifest, remote_part
 
@@ -24,15 +25,27 @@ def verify(tag, workers=4):
             completed = {item["name"]: item for item in saved["parts"]}
 
     def check(part):
-        sha, size = hashlib.sha256(), 0
-        with remote_part(tag, part["name"]) as stream:
-            for block in iter(lambda: stream.read(1024 * 1024), b""):
-                sha.update(block)
-                size += len(block)
-        result = dict(name=part["name"], bytes=size, sha256=sha.hexdigest())
-        if result != part:
-            raise RuntimeError(f"Bad remote part: {part['name']}")
-        return result
+        for attempt in range(3):
+            try:
+                sha, size = hashlib.sha256(), 0
+                with remote_part(tag, part["name"]) as stream:
+                    for block in iter(lambda: stream.read(1024 * 1024), b""):
+                        sha.update(block)
+                        size += len(block)
+            except Exception:
+                if attempt == 2:
+                    raise
+                time.sleep(1 + attempt)
+                continue
+            result = dict(name=part["name"], bytes=size, sha256=sha.hexdigest())
+            if result != part:
+                print(json.dumps(dict(retry_mismatch=part["name"], attempt=attempt + 1,
+                                      received_bytes=size, expected_bytes=part["bytes"])), flush=True)
+                if attempt < 2:
+                    time.sleep(1 + attempt)
+                    continue
+                raise RuntimeError(f"Bad remote part after full readbacks: {part['name']}")
+            return result
 
     pending = [p for p in manifest["parts"] if completed.get(p["name"]) != p]
     failures = []
@@ -43,6 +56,8 @@ def verify(tag, workers=4):
                 result = job.result()
             except Exception as error:
                 failures.append((jobs[job]["name"], repr(error)))
+                print(json.dumps(dict(unverified_part=jobs[job]["name"],
+                                      error=repr(error))), flush=True)
                 continue
             completed[result["name"]] = result
             dump(progress, dict(manifest_sha256=manifest_hash,

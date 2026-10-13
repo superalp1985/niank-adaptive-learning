@@ -38,7 +38,8 @@ class VerificationContracts(unittest.TestCase):
 
             with patch.object(verifier, "location", return_value=root), \
                  patch.object(verifier, "read_manifest", return_value=manifest), \
-                 patch.object(verifier, "remote_part", side_effect=remote):
+                 patch.object(verifier, "remote_part", side_effect=remote), \
+                 patch.object(verifier.time, "sleep"):
                 with self.assertRaisesRegex(RuntimeError, "not verified"):
                     verifier.verify("test", 2)
                 self.assertFalse((root / "verified.json").exists())
@@ -46,7 +47,7 @@ class VerificationContracts(unittest.TestCase):
                 verifier.verify("test", 2)
             self.assertEqual(calls.count("test.zip.part001"), 1)
             self.assertEqual(calls.count("test.zip.part003"), 1)
-            self.assertEqual(calls.count("test.zip.part002"), 2)
+            self.assertEqual(calls.count("test.zip.part002"), 4)
             receipt = json.loads((root / "verified.json").read_text())
             self.assertEqual(receipt["parts"], manifest["parts"])
 
@@ -62,7 +63,8 @@ class VerificationContracts(unittest.TestCase):
 
             with patch.object(verifier, "location", return_value=root), \
                  patch.object(verifier, "read_manifest", return_value=manifest), \
-                 patch.object(verifier, "remote_part", side_effect=remote):
+                 patch.object(verifier, "remote_part", side_effect=remote), \
+                 patch.object(verifier.time, "sleep"):
                 with self.assertRaisesRegex(RuntimeError, "not verified"):
                     verifier.verify("test", 2)
             self.assertFalse((root / "verified.json").exists())

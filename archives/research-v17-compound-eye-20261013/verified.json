@@ -1,0 +1,294 @@
+{
+  "repository": "superalp1985/niank-adaptive-learning",
+  "tag": "research-v17-compound-eye-20261013",
+  "manifest_sha256": "54f11815f817a7a62c21de81b0406921863e3d0df6e3d3af6dbb6662e4786395",
+  "remote_manifest_sha256": "54f11815f817a7a62c21de81b0406921863e3d0df6e3d3af6dbb6662e4786395",
+  "verified_utc": "2026-10-13T04:21:14.892795+00:00",
+  "parts": [
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part001",
+      "bytes": 41943040,
+      "sha256": "d095308f345bd7844aa66a5e76fdadcd8206b213036a9cda7c1837fc62b0fc25"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part002",
+      "bytes": 41943040,
+      "sha256": "8c5bd7812ce52c0ecacfde055ab794b9a4062ab539b682386bbc0eb361b991d1"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part003",
+      "bytes": 41943040,
+      "sha256": "f2dbd3de0c9d1eca88c39dcd142635cfe87d5c43b4c041e1a75e6bf7307797bc"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part004",
+      "bytes": 41943040,
+      "sha256": "1f8d0968f89a39d6fbc3cc00fb5335d348e7e3067ce92d6ce559436866a05377"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part005",
+      "bytes": 41943040,
+      "sha256": "b8040baffa7096b2227c7c39fe47f924fe6fb15c1b211ca02314a0035050c3e3"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part006",
+      "bytes": 41943040,
+      "sha256": "5751f0e0dbae00de6d5380dd0b165435f9bc1a06eeea401075d59b6009cecf7a"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part007",
+      "bytes": 41943040,
+      "sha256": "da003b231d244156b7d5cb2a971102bc46ce8ec3d20bf0b3b085b8148c420fee"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part008",
+      "bytes": 41943040,
+      "sha256": "7b428a6ed0e9ab5b1de45287f513c8d5f587293b398f965a3de24027e4d6098f"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part009",
+      "bytes": 41943040,
+      "sha256": "5ad32f72fea2dd04504600efe27e47e674ee4378653e8f55b395ed2561c6ce06"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part010",
+      "bytes": 41943040,
+      "sha256": "899d67ddb0a716e527bcea373323cd4a2d86956624092874fa9c3ba0a0baead0"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part011",
+      "bytes": 41943040,
+      "sha256": "17931e66b407bb54716c15a7a3e92f8beae9a825b769604ac681cd5ecef431a7"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part012",
+      "bytes": 41943040,
+      "sha256": "99921b2ddee8d1a42e0dcc4b9c1c466c1b28d04509303d55be3d23b6d40aa546"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part013",
+      "bytes": 41943040,
+      "sha256": "c747fc6479e335abd79040c7dd15c0ca46a620b97cf74fa9f36d763166485196"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part014",
+      "bytes": 41943040,
+      "sha256": "c680eea855732b30a46248987c00b5f3cada513c1d49303c7ab156480520bb8d"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part015",
+      "bytes": 41943040,
+      "sha256": "e07fef8fce925778f421c3318fe5eacfb8e0418f94ca4510222faf257d9a459c"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part016",
+      "bytes": 41943040,
+      "sha256": "788f238ac55a927e63d7b980ee410e5aa373ccfb9b2aa3c72f9d6912ad702f33"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part017",
+      "bytes": 41943040,
+      "sha256": "fceef68a43080151ff49093e4a2960ac86603b400ae913beeaee7e654af0a323"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part018",
+      "bytes": 41943040,
+      "sha256": "3fdefb3487abe5606fb28ceea17ac405ccc095bbdd2b8ef0cbfce2b053cd67e7"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part019",
+      "bytes": 41943040,
+      "sha256": "54b18236e470f3a28d327282b51ea88e634215f8d3bb47cb43a9210f91633f4b"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part020",
+      "bytes": 41943040,
+      "sha256": "289ca5dfb1da6109e74ac98c1aa4c935d99ce28239b614687440e77af4748c4f"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part021",
+      "bytes": 41943040,
+      "sha256": "e8a69fa876bfe4d6a9b252a8e7b5eadb53365f40bb04e86263a6ce44e96c56a8"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part022",
+      "bytes": 41943040,
+      "sha256": "a8599a8f7630c0ba8f926556b204f25ef25f1fb1f6c964bf23523c089b0ceb78"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part023",
+      "bytes": 41943040,
+      "sha256": "0db75dbef6ce0db17d56ceb167b8ac0f366b4131ea9849121482244baeeef682"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part024",
+      "bytes": 41943040,
+      "sha256": "33414cd4bd9b9e414e089e34d0e65c2ae22c71e32dec48ef01db99690d2ef33e"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part025",
+      "bytes": 41943040,
+      "sha256": "4b49896364687d6fd19af68b250757e59b15b6db8ccb124ce156817952cd352f"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part026",
+      "bytes": 41943040,
+      "sha256": "323679cebdd2d574fa58897ba546de247e5da7a05c27b425d37c785249864f96"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part027",
+      "bytes": 41943040,
+      "sha256": "dd2e7c16161187cb3f644e350c8ab4eb89bad00515af2fb5c0c61f79bd2a54da"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part028",
+      "bytes": 41943040,
+      "sha256": "08e7ef88ba8e1fe359d18936ec5318432d176549c71346766d2ed160ace84dda"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part029",
+      "bytes": 41943040,
+      "sha256": "4c6a090f57a8e1d10719886721816efa32f24479eb2294c1a5a01b26c67e3e18"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part030",
+      "bytes": 41943040,
+      "sha256": "df80eb9133604f6ac8469b6867da9bd6a9f1e191ae9fa05c7f26e888df566aea"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part031",
+      "bytes": 41943040,
+      "sha256": "b73ecc8545d674252b1673559659ca3c897ae05384e69b29697a1c3ad0ca2732"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part032",
+      "bytes": 41943040,
+      "sha256": "bb5f06aa7636907dabbb022970b2601e6a67ab15d37242a423e3e0c182244cd4"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part033",
+      "bytes": 41943040,
+      "sha256": "32bdad11c9c0fc57ac70c7df3ae24bfd0c5c395f1bfcccec9ff4094ab6b03527"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part034",
+      "bytes": 41943040,
+      "sha256": "5319ca05d5b04ee34036bbb8a36939cb9df861ad46bc8d6808c263e96363de9f"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part035",
+      "bytes": 41943040,
+      "sha256": "35e9d71f704861a2761d22330d18fb4e5e683a7cb631b09337cf05c6710f5ad4"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part036",
+      "bytes": 41943040,
+      "sha256": "1f4be70d60701488d0461f18e160d25413352f90fd83a18d0542153fd9df22fc"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part037",
+      "bytes": 41943040,
+      "sha256": "7bcda52711dcfad9b4dc72da50095496ecbf677259bdf25e7d6434b741892295"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part038",
+      "bytes": 41943040,
+      "sha256": "49c238706dea2af0d5d87c1498a7bea25430fca9349824193d98f88f94e216fb"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part039",
+      "bytes": 41943040,
+      "sha256": "cbc88222e01733cf723187e74e291bd10f9c0340e7156629948d9d4ad3a80a60"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part040",
+      "bytes": 41943040,
+      "sha256": "79f9d0925b0251550ffab68cf8d971927f2e6bbafca1316b051e6048aef2b498"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part041",
+      "bytes": 41943040,
+      "sha256": "c920e0df7a8467157d20f1c1a221fd9ce0f32456fbdceadebc6606de387e6e27"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part042",
+      "bytes": 41943040,
+      "sha256": "be0936b8efd2ca256d8edc16f29602c96b37f5fa5c5f844af673d005883d7a90"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part043",
+      "bytes": 41943040,
+      "sha256": "92240cfb2a3f75006341e9e73c6f427995cab071a0f6a9bf32e9b07b5195160a"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part044",
+      "bytes": 41943040,
+      "sha256": "58b2eea5f51833d0072184f04c7d746e821559a3ef43f9f3c9e09e9fda8078bc"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part045",
+      "bytes": 41943040,
+      "sha256": "4fef301f47417d3ef48bbb5b772c025a2e4f23a0025046396cbffa83501298d3"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part046",
+      "bytes": 41943040,
+      "sha256": "7bbb23acee224601ed612678d680a34e68616b3cd99ad6caa0ed01888ebbc85f"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part047",
+      "bytes": 41943040,
+      "sha256": "0ac3c842051a4e27764dd1e85708647495f6c086db9de2579f231af2be359980"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part048",
+      "bytes": 41943040,
+      "sha256": "452267dfc0ab97910648399e97dee77ee6b016f2f52ec1906b13a2532f335132"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part049",
+      "bytes": 41943040,
+      "sha256": "f9d18a1568cc1866b1533bdfd1c540e4bc8403f0eb0b84e5aa40a2ec8f7f93d0"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part050",
+      "bytes": 41943040,
+      "sha256": "5cc98f08f9520258a4c49c82eaaee040a28b36e1132f225d1e9fb11afa6b8220"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part051",
+      "bytes": 41943040,
+      "sha256": "d3d201392c28c0d52cb1559801682a7d46cb0bf6de1dc5305a96b588de20fc31"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part052",
+      "bytes": 41943040,
+      "sha256": "4789fa47c55c175cd8a22d9e039ce86e802768f5beaa5e80c223d5372b3ea721"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part053",
+      "bytes": 41943040,
+      "sha256": "23b9b35335414c40dac73788fa21a72bee9294ba779dbe88e84e811e59ab1dea"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part054",
+      "bytes": 41943040,
+      "sha256": "cbc52104188c0c5949db4d8931b3f5f04354bd17477ed52acb9342f01f76349d"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part055",
+      "bytes": 41943040,
+      "sha256": "e9b461d1cb83bc009a8324a756b4bcefafb68b2b136641839537b1e1e3cef7a0"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part056",
+      "bytes": 41943040,
+      "sha256": "cd6c498e5ef7871daef068dd2fbe29fc8dbbb05048b077bb33d3c91324439a8e"
+    },
+    {
+      "name": "research-v17-compound-eye-20261013.zip.part057",
+      "bytes": 38246973,
+      "sha256": "99387e3a1cf218e6102e6a23b4cb18c1862d431d45a68321bd4834dcff2ff10b"
+    }
+  ]
+}
