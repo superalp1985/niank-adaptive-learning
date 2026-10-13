@@ -1,0 +1,14 @@
+{
+  "stage": "controlled",
+  "arms": ["legacy", "aligned"],
+  "warm_start": "tracking_v17/pilot/fixed/model.pt",
+  "ancestor_experiences": 1179648,
+  "model_seed": 181,
+  "world_seed": 681000,
+  "worlds": 72,
+  "rollout": 128,
+  "epochs": 3,
+  "milestones": [2048, 4096, 8192],
+  "probe_steps": 512,
+  "probe_feedback": [false, true]
+}
