@@ -23,8 +23,9 @@ tracking_v19/NEXT_V20_ZH.md。
 用户“遗忘+反复学习+预测/测试形成筛选分层”的假设已记录，
 不能把再次进入访问范围冒充重新学会后行为恢复。
 
-归档标签research-v19-local-memory-20261014；发布与清理状态见
-tracking_v19/STATUS.md及archives对应凭据。远端全量核验前保留原件。
+归档标签research-v19-local-memory-20261014，20分片远端完整读回核验通过。
+清理约3.53GB已归档数据和临时副本，保留共同校准及两个后代的model.pt。
+发布与清理凭据见tracking_v19/STATUS.md及archives对应目录。
 
 ## V18最新入口
 

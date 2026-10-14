@@ -34,5 +34,5 @@ Preserve raw experience and failures. No online test-label optimization.
 - [x] `audit.py` and `analyze.py`: independently recompute evidence, access
   decisions and metrics, describe all phase/scene tradeoffs.
 - [x] Report results and record the limits of the forgetting/relearning claim.
-- [ ] Upload complete archive, verify every remote part,
+- [x] Upload complete archive, verify every remote part,
   clean verified bulk files and update the research entry point.

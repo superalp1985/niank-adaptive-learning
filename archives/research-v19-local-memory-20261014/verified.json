@@ -1,0 +1,109 @@
+{
+  "repository": "superalp1985/niank-adaptive-learning",
+  "tag": "research-v19-local-memory-20261014",
+  "manifest_sha256": "734a3c05557e6d971ef260c6a5a3c6f976206d895c99e6c77af8e70a4f7faad8",
+  "remote_manifest_sha256": "734a3c05557e6d971ef260c6a5a3c6f976206d895c99e6c77af8e70a4f7faad8",
+  "verified_utc": "2026-10-14T01:36:14.045926+00:00",
+  "parts": [
+    {
+      "name": "research-v19-local-memory-20261014.zip.part001",
+      "bytes": 41943040,
+      "sha256": "e9fe457ad2806736ff0a9b070e827448f1e5ab38bffa5a2f95262a338c8f3391"
+    },
+    {
+      "name": "research-v19-local-memory-20261014.zip.part002",
+      "bytes": 41943040,
+      "sha256": "4cc2db4254a28fd2ec4e69b7df62340fc8bec7b748353d19c0f943f64f4b5937"
+    },
+    {
+      "name": "research-v19-local-memory-20261014.zip.part003",
+      "bytes": 41943040,
+      "sha256": "f08fb3e240fee8280be09272d03e7081c44f60d706fc5efdba2659075a56833e"
+    },
+    {
+      "name": "research-v19-local-memory-20261014.zip.part004",
+      "bytes": 41943040,
+      "sha256": "96d47554135d095fbda2d95c85bb3dd74f0a163eb95652bcad8c4925b62df0e9"
+    },
+    {
+      "name": "research-v19-local-memory-20261014.zip.part005",
+      "bytes": 41943040,
+      "sha256": "d9f677949c83840aadd4f045f1feff4bc554764da10c229686cb3cd91780dbb7"
+    },
+    {
+      "name": "research-v19-local-memory-20261014.zip.part006",
+      "bytes": 41943040,
+      "sha256": "ef7f3e8884ce98674c4996ae71aaee5825053fa68ca49caf51be92bc22d1d435"
+    },
+    {
+      "name": "research-v19-local-memory-20261014.zip.part007",
+      "bytes": 41943040,
+      "sha256": "0aa97d5a9435c9dab8141ec8cebb71dee7d1c6c15b4e56d8c95cc3fe664372d2"
+    },
+    {
+      "name": "research-v19-local-memory-20261014.zip.part008",
+      "bytes": 41943040,
+      "sha256": "c44e5f92458a67063cb51d4d7cb9555a21acca28483acfa371240a0c8ea872d4"
+    },
+    {
+      "name": "research-v19-local-memory-20261014.zip.part009",
+      "bytes": 41943040,
+      "sha256": "f08367d18db280271d1e1733ae0a5d2015e315abeb25b14f230846ba04d13524"
+    },
+    {
+      "name": "research-v19-local-memory-20261014.zip.part010",
+      "bytes": 41943040,
+      "sha256": "04044c0d9699132e13fea3dbee9c84c5622f14db9a61505165a637af5ba12c98"
+    },
+    {
+      "name": "research-v19-local-memory-20261014.zip.part011",
+      "bytes": 41943040,
+      "sha256": "5ee00d7cd3dad9453e935fb848eaf143274d4c605cc848e822050a27a917b3b6"
+    },
+    {
+      "name": "research-v19-local-memory-20261014.zip.part012",
+      "bytes": 41943040,
+      "sha256": "c33c746fe221be573ccaa90c53033f24de8b2df675b4c311cb5fdc5a2b280674"
+    },
+    {
+      "name": "research-v19-local-memory-20261014.zip.part013",
+      "bytes": 41943040,
+      "sha256": "c08c4b5af38bdc27e903adbe128b7dc7eadcc96eb024e520ee97ca4e0e12227e"
+    },
+    {
+      "name": "research-v19-local-memory-20261014.zip.part014",
+      "bytes": 41943040,
+      "sha256": "eb54aade3596bbf1cb2029f6a2563aa8eff325525f73f9f15d0c38fcbbf98952"
+    },
+    {
+      "name": "research-v19-local-memory-20261014.zip.part015",
+      "bytes": 41943040,
+      "sha256": "cf43ec33345ea620db49eeb6205c643458528d226fa3b430d744dad34fac8ec3"
+    },
+    {
+      "name": "research-v19-local-memory-20261014.zip.part016",
+      "bytes": 41943040,
+      "sha256": "0d37a854a23f9b538a13eae7160152ecad19704875c857c8307a4df93df3ea13"
+    },
+    {
+      "name": "research-v19-local-memory-20261014.zip.part017",
+      "bytes": 41943040,
+      "sha256": "93e5cb4b0d06335ea8898fd916c033fece6477196c0d848695b8957ef93e6981"
+    },
+    {
+      "name": "research-v19-local-memory-20261014.zip.part018",
+      "bytes": 41943040,
+      "sha256": "521b4aa98fcdde6c63e027760c6375aef29a4c413ae0e5b20be3efd833f1e61a"
+    },
+    {
+      "name": "research-v19-local-memory-20261014.zip.part019",
+      "bytes": 41943040,
+      "sha256": "95a19ed49f4089d35c06ea30966ceea491aa0f635e58bb3a4be6f8557c06dbd1"
+    },
+    {
+      "name": "research-v19-local-memory-20261014.zip.part020",
+      "bytes": 32525106,
+      "sha256": "b6fafc26023fc7be7d25230a84b7ebefe3df182a95b29381a1b2d48d3df9c43b"
+    }
+  ]
+}
