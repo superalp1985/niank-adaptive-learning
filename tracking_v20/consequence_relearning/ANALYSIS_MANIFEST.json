@@ -1,0 +1,46 @@
+{
+  "analysis_script": "tracking_v20/analyze.py",
+  "analysis_script_sha256": "e9177d4fbd71ae74cad629cfeb0eadb2f0b18b3953e036af780aa3b2e67810fd",
+  "analysis_config": {
+    "schema_version": 3,
+    "arms": [
+      "random",
+      "retrieval"
+    ],
+    "final_step": 12288,
+    "stages": [
+      [
+        0,
+        4096
+      ],
+      [
+        4096,
+        8192
+      ],
+      [
+        8192,
+        12288
+      ]
+    ],
+    "dt_seconds": 0.12,
+    "failure_followup_steps": 32,
+    "failure_followup_eligibility": "Full future window in the same segment, regardless of contact.",
+    "consequence_horizon": 8,
+    "low_weight_threshold": 0.25,
+    "expected_worlds": 72,
+    "expected_rollout": 128,
+    "expected_epochs": 2,
+    "expected_calibration_steps": 1024,
+    "expected_segment_steps": 1024,
+    "expected_factual_experiences_per_arm": 884736,
+    "expected_ppo_presentations_per_arm": 1769472,
+    "expected_replay_presentations_per_arm": 147456,
+    "expected_replay_queries_per_arm": 96,
+    "expected_replay_per_query": 1536
+  },
+  "analysis_config_sha256": "1945c85bf76312c58225d3680504f1936b51194b7b151c48c528d8ce606da175",
+  "training_manifest_sha256": "a51c664798e576a18aeb82d6e8c869afaac1845d589201425d06e5ce5ca09108",
+  "audit_sha256": "fb991df15fe59623afac1980cf7fcddc712e5be2d45407b0e9e9fe4b061c2d85",
+  "training_manifest_modified": false,
+  "counter_scope": "Agent construction resets counters; state/load transfer weights only. Shared calibration presentations are separate from each arm."
+}

@@ -1,0 +1,19 @@
+{
+  "stage": "consequence_relearning",
+  "arms": ["random", "retrieval"],
+  "warm_start": "tracking_v19/local_memory/utility/model.pt",
+  "ancestor_experiences": 2433024,
+  "model_seed": 201,
+  "world_seed": 720000,
+  "memory_seed": 20020,
+  "worlds": 72,
+  "calibration_steps": 1024,
+  "rollout": 128,
+  "epochs": 2,
+  "milestones": [4096, 12288],
+  "probe_steps": 1024,
+  "guidance": 0.35,
+  "directory_capacity": 512,
+  "replay_budget": 1536,
+  "horizon": 8
+}

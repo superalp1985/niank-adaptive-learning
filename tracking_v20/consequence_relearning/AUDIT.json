@@ -1,0 +1,237 @@
+{
+  "source_verified": true,
+  "equal_replay_budget": 147456,
+  "sessions": {
+    "baseline_reference": {
+      "steps": 1024,
+      "worlds": 24,
+      "counts": {
+        "events": 24576,
+        "evidence": 24576,
+        "outcomes": 24576,
+        "directory_events": 11979,
+        "retrievals": 0
+      },
+      "consequence_labels_checked": 24576,
+      "maximum_target_difference": 0.0,
+      "consequence_channel_mse": [
+        0.2754697165556361,
+        0.11260488053128863,
+        0.08455075456172996,
+        0.11716690428143768,
+        0.06377991005045185
+      ],
+      "replay_batches": 0,
+      "invalid_retrievals": 0,
+      "premature_labels": 0
+    },
+    "calibration": {
+      "steps": 1024,
+      "worlds": 72,
+      "counts": {
+        "events": 73728,
+        "evidence": 73728,
+        "outcomes": 73728,
+        "directory_events": 33071,
+        "retrievals": 0
+      },
+      "consequence_labels_checked": 73728,
+      "maximum_target_difference": 0.0,
+      "consequence_channel_mse": [
+        0.18533232508384415,
+        0.15435607904626952,
+        0.13232059332361246,
+        0.1482698991136936,
+        0.13365773062227504
+      ],
+      "replay_batches": 0,
+      "invalid_retrievals": 0,
+      "premature_labels": 0
+    },
+    "random": {
+      "steps": 12288,
+      "worlds": 72,
+      "counts": {
+        "events": 884736,
+        "evidence": 884736,
+        "outcomes": 884736,
+        "directory_events": 394661,
+        "retrievals": 147456
+      },
+      "consequence_labels_checked": 884736,
+      "maximum_target_difference": 0.0,
+      "consequence_channel_mse": [
+        0.1313915377237963,
+        0.036057582986354274,
+        0.033277719974340585,
+        0.08250341430332139,
+        0.07092769591692137
+      ],
+      "replay_batches": 96,
+      "invalid_retrievals": 0,
+      "premature_labels": 0
+    },
+    "random/probe_0": {
+      "steps": 1024,
+      "worlds": 24,
+      "counts": {
+        "events": 24576,
+        "evidence": 24576,
+        "outcomes": 24576,
+        "directory_events": 12041,
+        "retrievals": 0
+      },
+      "consequence_labels_checked": 24576,
+      "maximum_target_difference": 0.0,
+      "consequence_channel_mse": [
+        0.2889239468445708,
+        0.10544415900716331,
+        0.08179357272313581,
+        0.12100167722572526,
+        0.06857268057300796
+      ],
+      "replay_batches": 0,
+      "invalid_retrievals": 0,
+      "premature_labels": 0
+    },
+    "random/probe_12288": {
+      "steps": 1024,
+      "worlds": 24,
+      "counts": {
+        "events": 24576,
+        "evidence": 24576,
+        "outcomes": 24576,
+        "directory_events": 11348,
+        "retrievals": 0
+      },
+      "consequence_labels_checked": 24576,
+      "maximum_target_difference": 0.0,
+      "consequence_channel_mse": [
+        0.12268650040430201,
+        0.03304880832104907,
+        0.032676924617011445,
+        0.0596236893954026,
+        0.06564001972911981
+      ],
+      "replay_batches": 0,
+      "invalid_retrievals": 0,
+      "premature_labels": 0
+    },
+    "random/probe_4096": {
+      "steps": 1024,
+      "worlds": 24,
+      "counts": {
+        "events": 24576,
+        "evidence": 24576,
+        "outcomes": 24576,
+        "directory_events": 11554,
+        "retrievals": 0
+      },
+      "consequence_labels_checked": 24576,
+      "maximum_target_difference": 0.0,
+      "consequence_channel_mse": [
+        0.17664022104110955,
+        0.03654432725713249,
+        0.040186433677433,
+        0.08981672160058689,
+        0.06954066788394186
+      ],
+      "replay_batches": 0,
+      "invalid_retrievals": 0,
+      "premature_labels": 0
+    },
+    "retrieval": {
+      "steps": 12288,
+      "worlds": 72,
+      "counts": {
+        "events": 884736,
+        "evidence": 884736,
+        "outcomes": 884736,
+        "directory_events": 404014,
+        "retrievals": 147456
+      },
+      "consequence_labels_checked": 884736,
+      "maximum_target_difference": 0.0,
+      "consequence_channel_mse": [
+        0.13738794972481544,
+        0.03546606088405387,
+        0.03222874603785132,
+        0.09457494753828764,
+        0.07558479681329573
+      ],
+      "replay_batches": 96,
+      "invalid_retrievals": 0,
+      "premature_labels": 0
+    },
+    "retrieval/probe_0": {
+      "steps": 1024,
+      "worlds": 24,
+      "counts": {
+        "events": 24576,
+        "evidence": 24576,
+        "outcomes": 24576,
+        "directory_events": 12041,
+        "retrievals": 0
+      },
+      "consequence_labels_checked": 24576,
+      "maximum_target_difference": 0.0,
+      "consequence_channel_mse": [
+        0.2889239468445708,
+        0.10544415900716331,
+        0.08179357272313581,
+        0.12100167722572526,
+        0.06857268057300796
+      ],
+      "replay_batches": 0,
+      "invalid_retrievals": 0,
+      "premature_labels": 0
+    },
+    "retrieval/probe_12288": {
+      "steps": 1024,
+      "worlds": 24,
+      "counts": {
+        "events": 24576,
+        "evidence": 24576,
+        "outcomes": 24576,
+        "directory_events": 11630,
+        "retrievals": 0
+      },
+      "consequence_labels_checked": 24576,
+      "maximum_target_difference": 0.0,
+      "consequence_channel_mse": [
+        0.13256441710133265,
+        0.03467316842538334,
+        0.03428278719599713,
+        0.06538651836560778,
+        0.06903026760448701
+      ],
+      "replay_batches": 0,
+      "invalid_retrievals": 0,
+      "premature_labels": 0
+    },
+    "retrieval/probe_4096": {
+      "steps": 1024,
+      "worlds": 24,
+      "counts": {
+        "events": 24576,
+        "evidence": 24576,
+        "outcomes": 24576,
+        "directory_events": 11916,
+        "retrievals": 0
+      },
+      "consequence_labels_checked": 24576,
+      "maximum_target_difference": 0.0,
+      "consequence_channel_mse": [
+        0.20848475864943614,
+        0.038530653819830084,
+        0.042764839899455266,
+        0.1033640254853528,
+        0.0686889166236521
+      ],
+      "replay_batches": 0,
+      "invalid_retrievals": 0,
+      "premature_labels": 0
+    }
+  },
+  "complete": true
+}

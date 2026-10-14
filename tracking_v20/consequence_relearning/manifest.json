@@ -1,0 +1,50 @@
+{
+  "config": {
+    "stage": "consequence_relearning",
+    "arms": [
+      "random",
+      "retrieval"
+    ],
+    "warm_start": "tracking_v19/local_memory/utility/model.pt",
+    "ancestor_experiences": 2433024,
+    "model_seed": 201,
+    "world_seed": 720000,
+    "memory_seed": 20020,
+    "worlds": 72,
+    "calibration_steps": 1024,
+    "rollout": 128,
+    "epochs": 2,
+    "milestones": [
+      4096,
+      12288
+    ],
+    "probe_steps": 1024,
+    "guidance": 0.35,
+    "directory_capacity": 512,
+    "replay_budget": 1536,
+    "horizon": 8
+  },
+  "source": {
+    "tracking_v20/audit.py": "445d9b2e7dc7b2b05c427d321a57ce9cc2a42c1f4a3ceb75badf0b3b3f4e372e",
+    "tracking_v20/directory.py": "a98ec890d73b4ba898b25c45fdfe677b2a3a95164da48814c00fe12d620f6222",
+    "tracking_v20/learner.py": "306dac87e49eea348a493ded4638ee987d4afd918f23ae2fc207ab4c0b657208",
+    "tracking_v20/run.py": "a24121dc7afdb357e1e37dd69a52d1bc6b10df71de685018aae879c7d66ead13",
+    "tracking_v20/test_directory.py": "673b0e0b4ae419370fdc3893d45d8f498f894e22723717dd1904d0eb83b00308",
+    "tracking_v20/test_learning.py": "d3ea343a07cb0ed26c5a7ac63bd09508324148849c0c7057ceac06465e0e4e57",
+    "tracking_v20/PROTOCOL_ZH.md": "873efab7f08565269ffee8781b4aee81daa397d130c4a69e5b127ae8ef971027",
+    "tracking_v20/config.json": "6a8c62a138f3e9fb94895ff3727d14c3917700dc6dd119f55f8b68ec4409f1f3",
+    "tracking_v19/run.py": "06f7d643f248b0064bc19df8d8379f98900158fa07ec12bdbb3988b630273d99",
+    "tracking_v19/learner.py": "fc34ba9ea582c1e93c936317087fd2e1b57f097f0bc75af5e80067d9a19701b5",
+    "tracking_v17/run.py": "ae41c319ad68a6f0ada6aeb2ce8ca9b1b3a795d59471718af8b523a9ac8e2bdd",
+    "tracking_v17/learner.py": "9fac379700e0057eb668ff460ddc9ed95fe5c55b5024bbd2ed4ac99e181fbb64",
+    "tracking_v17/world.py": "b1ba1fdb18473d7ebb1dfffba5e6113fe8d489c0f825162a89b96fad5f71d949",
+    "tracking_v14/learner.py": "fee109d39e7dcc9f7442066810d5e8513a02a3aa027cddfe64425023989337fd",
+    "tracking_v14/world.py": "adeaa46fe3e409084a5e24d6242e738f2b5ed96fc089bae9245962136aa47087"
+  },
+  "warm_start_sha256": "fda7e0565b448d87512e1653c5bcf0cf33dae372b53adf092d42a23a9d98223b",
+  "warm_start_kind": "weights_only_fresh_worlds_optimizers_and_traces",
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "torch": "2.7.1+cu128",
+  "unique_new_training_experiences": 1843200,
+  "ancestral_plus_new_per_arm": 3391488
+}
