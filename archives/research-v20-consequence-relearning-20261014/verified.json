@@ -1,0 +1,434 @@
+{
+  "repository": "superalp1985/niank-adaptive-learning",
+  "tag": "research-v20-consequence-relearning-20261014",
+  "manifest_sha256": "79bbeb4928b9f29fa966cda9ce167be20698170e7def13bdd629e40943cf6cdf",
+  "remote_manifest_sha256": "79bbeb4928b9f29fa966cda9ce167be20698170e7def13bdd629e40943cf6cdf",
+  "verified_utc": "2026-10-14T16:59:24.664300+00:00",
+  "parts": [
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part001",
+      "bytes": 41943040,
+      "sha256": "09c41a4f4eec1feb915f1176df9427857c8dcb5398115fde2e7f34ffbfe12774"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part002",
+      "bytes": 41943040,
+      "sha256": "c28210e9463c0433c622465a00df6a398de67c65994b597d1cb709f9da65cb6d"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part003",
+      "bytes": 41943040,
+      "sha256": "0dfec188368531f17a17df8bece1e617148777aad76822b2d982028a9e7064cb"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part004",
+      "bytes": 41943040,
+      "sha256": "4dfdeab794d5a3000c17967d6a041eb3d6ccdf4a309f58bddf445f5d8086505a"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part005",
+      "bytes": 41943040,
+      "sha256": "b199d6102c11ad413df82d6b4e49ab71ee44f1453a18b3cb1a8dae518372c3ef"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part006",
+      "bytes": 41943040,
+      "sha256": "b93d69a11bf5cff71469c6e052bd23c8045c04003fa59416353dc171e73070d9"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part007",
+      "bytes": 41943040,
+      "sha256": "1ae805a3127984d5095e4790ca26142bcaab37700457c2f2739c9a2975765cd7"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part008",
+      "bytes": 41943040,
+      "sha256": "8e98d4f9ade10e0fa98caf1967995b11c77ec7cdcfa4ea8ad6b25898160b4332"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part009",
+      "bytes": 41943040,
+      "sha256": "88872cb25c026555e38a22a1a08c9a23f99bb539bb12c02997a1f69e1995aa17"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part010",
+      "bytes": 41943040,
+      "sha256": "2b67ad2658203802a972d65ba36ee951e031bb11379fa5b38c0193d18bdf560c"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part011",
+      "bytes": 41943040,
+      "sha256": "0c15472e390939ac5903b33e74f09f3880741f1f45d3f6a8d823eb4d316d7d06"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part012",
+      "bytes": 41943040,
+      "sha256": "04f5d9847fccff620c68b6f6a76aea2f14a3b0c68c1a6165a084d2e7864c158e"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part013",
+      "bytes": 41943040,
+      "sha256": "869eaf87f4cea3eed4554cf15d12db1af3dadfc36df9311fcad21e4b662c13d8"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part014",
+      "bytes": 41943040,
+      "sha256": "59227aed992e00ab540b877d231e6d83d39b4302a0d5024230f19513ac0e2220"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part015",
+      "bytes": 41943040,
+      "sha256": "062bd49882b958346c21871cdfaa1c6a463848037c2309b7a690ad9749ea1bc5"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part016",
+      "bytes": 41943040,
+      "sha256": "c63b824afb4eb041d3cc2d47bb7bf949afa354239cb0615e0779a643f82178f7"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part017",
+      "bytes": 41943040,
+      "sha256": "c21c9e8b9f90cf572d560026fbfe7be6821de4f017b47ed86b1cd312b4bb9add"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part018",
+      "bytes": 41943040,
+      "sha256": "5959fede758c3fda90480578072d8933fc741cbcf420967d0e8ea8d8a7fe72c4"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part019",
+      "bytes": 41943040,
+      "sha256": "4bb82d2fad3be37e733e9a0db1e8e49863bd6388360b059f7ca82e08c5dc3534"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part020",
+      "bytes": 41943040,
+      "sha256": "fa5998166fb31512e9a193f5783e1a0c7187252f868cc4acfb9e58fda90c7e32"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part021",
+      "bytes": 41943040,
+      "sha256": "a91a0f1b3f01210cb871d7d495187a583ab17259b79b81881973eec8fab5766f"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part022",
+      "bytes": 41943040,
+      "sha256": "97c78f066b6736e81d52aa426ec2ff8eb66eebc3f669e83f8a42b9f91511533f"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part023",
+      "bytes": 41943040,
+      "sha256": "e8dd54685d3e1d705726f9b5a86d0978e79e55074576494cee7f31fd9f70d19e"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part024",
+      "bytes": 41943040,
+      "sha256": "89c8b4d991b22e4315175253a3630340956f27c62aee7621303755eb4d2aac8a"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part025",
+      "bytes": 41943040,
+      "sha256": "fc4255296c8a56876ee79f34df18bff4fe17180e572e4fa49cf89afe662c2229"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part026",
+      "bytes": 41943040,
+      "sha256": "bbba14e9f829ab71a8fe9bcefc2e9296138c2dfc67fc4008c472b510dfa080b7"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part027",
+      "bytes": 41943040,
+      "sha256": "36b310529985778837b8b03a4c513ccfe6382c5fe43b012e80b6156a551d2895"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part028",
+      "bytes": 41943040,
+      "sha256": "8257ef0b6cb593a6d3b872be4ad123ce16969b9078572b75ec7227b389ac7a4d"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part029",
+      "bytes": 41943040,
+      "sha256": "49560f5dd0d51af5d0d75466f32999fc7bdcef8c8cb6de541360f59957d00c18"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part030",
+      "bytes": 41943040,
+      "sha256": "c02d395266b8fb29a003add663b7fe63015e4ab56f9ea048dceb416e1f508000"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part031",
+      "bytes": 41943040,
+      "sha256": "e3e97809763b25798fcc289719f76189b2514b9be23a08a5996b835ce38c0ef4"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part032",
+      "bytes": 41943040,
+      "sha256": "5409550d231a80136c1966490c82fc143701efe39384b1409d44d5ef848c0176"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part033",
+      "bytes": 41943040,
+      "sha256": "ba6387af30ddb29a690511bee62a98c23cd98fd11265d470742baf82144e515f"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part034",
+      "bytes": 41943040,
+      "sha256": "e7dd3143074402b9cfc3d41975bcd9e4c5f0bc90655e8affbd4cbe5cdd6a17bf"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part035",
+      "bytes": 41943040,
+      "sha256": "52efc85a879393e91566f3d31eb94f2ac48db698ac942ef030371894b85f52f3"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part036",
+      "bytes": 41943040,
+      "sha256": "48d453a42940be100dacea09ba54f06727586674a39c03b4ac14d8ce5b47c452"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part037",
+      "bytes": 41943040,
+      "sha256": "6f9fe32c4b923c577a54be5734138ca5e272600ab332a349cc7f13baca4b3dfc"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part038",
+      "bytes": 41943040,
+      "sha256": "a8cfb6b27df21b02dacfe771f5910ddc722979d677a9fe872dacbe50df17ae80"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part039",
+      "bytes": 41943040,
+      "sha256": "b649d853788f4424a743898e0052f34a33fdbd98d2186bfeb65b05c957d19c16"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part040",
+      "bytes": 41943040,
+      "sha256": "bf50b7fc148660f2d9362e52c165693ed009524c215f7c4dafdd12c2992b7b81"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part041",
+      "bytes": 41943040,
+      "sha256": "7e534af4b23888d2f6547ceee32bfae4b1fc97092e3125c36aa75d32d0a4a2c1"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part042",
+      "bytes": 41943040,
+      "sha256": "b7aae270f17b0b4cbaa599fec9a3e097fa1ec72bc6e842fb532c36a1a235bd05"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part043",
+      "bytes": 41943040,
+      "sha256": "89ebc2c3ad62cbd86b7156a62ee48c006bf0a2843b933c6c2f9e3d9ef35b0371"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part044",
+      "bytes": 41943040,
+      "sha256": "4f85027dc613d3fe4cde09b70e99beb867eab00aac286765bf13af9a9f03df12"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part045",
+      "bytes": 41943040,
+      "sha256": "16d5934975f971316487dce6a1042b29d6fae9175dd5c85cd23e8079b070f996"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part046",
+      "bytes": 41943040,
+      "sha256": "3af8848838d12ed4f587d353d859c21d1bbeeefec6f25f670e882d12513ea2c0"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part047",
+      "bytes": 41943040,
+      "sha256": "074336abb1787215dd6009d6e58aa7db26b545d0f079fe964cec79cf31f8a921"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part048",
+      "bytes": 41943040,
+      "sha256": "06f90d5b0e14d60b37c000869d09947816d72a6bb4cac253ed3fa38dc7dfe035"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part049",
+      "bytes": 41943040,
+      "sha256": "9f749d2b8f7c5a7827b6ea2d37a0f9865f0e8b05d5f6d9d92c4df04a6c9c71d0"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part050",
+      "bytes": 41943040,
+      "sha256": "869cfed893d29806c2447125897ad3bd2a2fe440de73507fdc31644f1fb0a0cb"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part051",
+      "bytes": 41943040,
+      "sha256": "56e4dad698d44fc31c89f71ed571b764ad2dcf48b76e537ca374d3860dfa85a1"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part052",
+      "bytes": 41943040,
+      "sha256": "b5985b5c5e9bd04050bfd241a3d30e5c956001fea68f46f4e36c1883056ec884"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part053",
+      "bytes": 41943040,
+      "sha256": "f427ec661c1561d93072101fdbfe78ea08d3953c9175a3671c275c565751852d"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part054",
+      "bytes": 41943040,
+      "sha256": "ccc605235d1e55f856bc87cdb05c87bf69c257799d2471a1d486a6a7bb2891f1"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part055",
+      "bytes": 41943040,
+      "sha256": "1cb1d7b989c9c4c6f129a866fc6a35e75dbf3ee58bbfba737de660770fa2d77e"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part056",
+      "bytes": 41943040,
+      "sha256": "8a7633815d195193e491c31886ea77db78f0a94eff80403c426b83e22547bb12"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part057",
+      "bytes": 41943040,
+      "sha256": "4a22b2775d5bc2da127e441915b3ebe6fb6811fa2d3ad4b390dc89e3922619d2"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part058",
+      "bytes": 41943040,
+      "sha256": "b761f1de92c7e7913e26e1097d56eeeece9da84f8bed2dfe6b530572ae78c3c9"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part059",
+      "bytes": 41943040,
+      "sha256": "c414e66b08801449996c17402cfc90b09cda520fdf522ad5afabee620770af46"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part060",
+      "bytes": 41943040,
+      "sha256": "f42acd486b7798cf424813cce2b3cf7a7ef671d7e5ca97873b97f789595c4a5a"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part061",
+      "bytes": 41943040,
+      "sha256": "27ba79651d728431b2c16ead7a20c133166bd659516b586837e854a8a33d66eb"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part062",
+      "bytes": 41943040,
+      "sha256": "d2b1bab552a4d15bd36eff99c8d388fa4bdf3e052c80215cf00bca77031d3bc5"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part063",
+      "bytes": 41943040,
+      "sha256": "2b65a1038f98c84733da6dc235f7c425342f76c509f8e5fa704fbb7f0da83104"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part064",
+      "bytes": 41943040,
+      "sha256": "8e3f6206b4d5f6a8e33467744cf76c076044a2b8e546364273af5a392fbd6f3e"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part065",
+      "bytes": 41943040,
+      "sha256": "d3e59c2a4838002109879bc82470d8612f27b97294e7caa0e593d0b0a658fa01"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part066",
+      "bytes": 41943040,
+      "sha256": "513ee222a11e1b6ee70c70a11170da8c3e649bcb395f997d3c3a8ecf391be2d9"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part067",
+      "bytes": 41943040,
+      "sha256": "5f9722bb700539c286c782d03671f3791bf1c6e027d9fb0be1e302a64eb7a5a8"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part068",
+      "bytes": 41943040,
+      "sha256": "b6c3d5843780671415202a4a9587e8bf8e3982002a7a551561a6e399009d7299"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part069",
+      "bytes": 41943040,
+      "sha256": "2b2eb0135134189781f09ac0cdfdf15336b303ce092ae2850b6a7f3d854e0dc6"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part070",
+      "bytes": 41943040,
+      "sha256": "9d9a8bb337b74c2ce3ba34bc8418ef447a221ddc2d1ef65ecbcd687247bb6ca7"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part071",
+      "bytes": 41943040,
+      "sha256": "f4e5803cd5dfdea72eac82b9971c6468fb695658d11f72bc055cc8f34238a190"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part072",
+      "bytes": 41943040,
+      "sha256": "5f54c3913d643a5438dbbb10a73ab059d91ab646d9447e1420b122132b073bac"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part073",
+      "bytes": 41943040,
+      "sha256": "b6dc8aff7e156ab9242a3ea1ac71a0e206bd19b6b64396c7cafc46a062dbf831"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part074",
+      "bytes": 41943040,
+      "sha256": "68e6b802126c9cbab4d75bf4f2b16368e07cf9d76ec17ea7dc3373acdb21173c"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part075",
+      "bytes": 41943040,
+      "sha256": "a7636f73323f93b190acd489b81cf44309940989aef5d714b2a66c156c9e649f"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part076",
+      "bytes": 41943040,
+      "sha256": "cc16a71917cf82d2e643dc1d1a00e3e25bf3f0314eabea62ebadbe0a0bb3705c"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part077",
+      "bytes": 41943040,
+      "sha256": "21eae3b0cd3cfbd6a435690bdfb567d0a4aa15a476e52f3b1fa8c92f8e32f12d"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part078",
+      "bytes": 41943040,
+      "sha256": "55b3a2ffa10e30317664c09140479efeed13ce08f7494da6bc05559009dec1d0"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part079",
+      "bytes": 41943040,
+      "sha256": "3dd3851b2d97cd9af6035304589708ae039da4c360787cdc5cdde4b7f09213f5"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part080",
+      "bytes": 41943040,
+      "sha256": "323e070976a3895639cf0bf82e904e9e4998b714d039427c23aca72e3b907e3f"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part081",
+      "bytes": 41943040,
+      "sha256": "037036c36296277167d3d7c1fa58b9ac51464d63630750d8c96fad5c3d9c85b0"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part082",
+      "bytes": 41943040,
+      "sha256": "cf7b9cd786e2c8d4b35dd698e8a3c8140ff8f1e2baacda0b236fc422176f09cc"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part083",
+      "bytes": 41943040,
+      "sha256": "b6daf58add3815a0e317a7342aa0f0034fe0a67366fae9a0b66c4771bf02c647"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part084",
+      "bytes": 41943040,
+      "sha256": "6dfac321e3ad63d3c47e445f7a1b91e5a4190379a1ab3b744cbced289cb12e7f"
+    },
+    {
+      "name": "research-v20-consequence-relearning-20261014.zip.part085",
+      "bytes": 39651882,
+      "sha256": "db8d529665fb238a23da0d72529793de0c80ea3f841afe1a8db8cb2b06efd674"
+    }
+  ]
+}

@@ -16,6 +16,25 @@
 VALIDATION_ZH.md。分析来源单独登记，未改原训练清单。
 
 归档标签 research-v20-consequence-relearning-20261014。
-当前待发布完整快照并从远端全量读回核验；尚未清理原始数据。
-远端核验后保留 calibration、random、retrieval 三份 model.pt，
-再清理已归档数据库、轨迹、冗余检查点和一次性上传文件。
+2026-10-15 发布、全量读回核验和本地清理完成。
+源码与报告提交为 7d69e4ae10b26ad90b426125655cbfa662765993。
+345 文件、5,228,678,023 原始字节；ZIP 3,562,867,242 字节，85 分片。
+工作流 38599676072 成功，上传 HEAD 为
+c203599faea6f8eab88d47f33492e49d2e06405c；Release 的 86 个资产
+名称、大小与 SHA-256 元数据匹配。85 分片均从远端完整流式读回，
+长度和 SHA-256 全部通过；C 盘未保存下载副本。
+
+按过滤后的精确清单删除 277 个已归档二进制，释放 5,224,755,710 字节；
+删除 171 个临时 ZIP、分片及对应暂存 Git 对象，另释放 10,686,815,620 字节。
+合计释放 15,911,571,330 字节，约 15.91 GB，包括临时重复副本。
+calibration、random、retrieval 三份 model.pt 各 612,166 字节保留，
+全部 65 个小文件及所有 cache、__pycache__ 保留；清理后、发布状态
+更新前，68 个保留文件哈希均与快照一致。没有删除其他实验、
+祖先模型或共享环境。
+临时远端上传分支已删除，Release 保留。下一候选尚未实现。
+
+完整清单和收据见
+[归档目录](../archives/research-v20-consequence-relearning-20261014/)：
+manifest.json、release.json、verified.json、cleanup.json、
+staging-cleanup.json 与 PUBLISH_NOTES.md。快照保持不变；
+本文件的发布后状态更新保存在 main。
