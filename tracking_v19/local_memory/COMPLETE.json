@@ -1,0 +1,8 @@
+{
+  "arms": [
+    "utility",
+    "protected"
+  ],
+  "shared_calibration_experiences": 73728,
+  "additional_training_experiences": 1179648
+}

@@ -1,0 +1,55 @@
+{
+  "config": {
+    "stage": "local_memory",
+    "arms": [
+      "utility",
+      "protected"
+    ],
+    "warm_start": "tracking_v18/controlled/aligned/model.pt",
+    "ancestor_experiences": 1769472,
+    "model_seed": 191,
+    "world_seed": 719000,
+    "memory_seed": 19019,
+    "worlds": 72,
+    "calibration_steps": 1024,
+    "rollout": 128,
+    "epochs": 3,
+    "milestones": [
+      2048,
+      4096,
+      8192
+    ],
+    "probe_steps": 512,
+    "probe_feedback": [
+      false,
+      true
+    ],
+    "floor_quantile": 0.25
+  },
+  "source": {
+    "tracking_v19/analyze.py": "79357b99f12879443440eed37f89d7022f15de724b594b80a1642d3944648fd1",
+    "tracking_v19/audit.py": "57c36d7a0f3cea4bfc6ba91356a6029c6b615b8dce596ff6ec2b243967995eb8",
+    "tracking_v19/audit_predictions.py": "134c1ec7e1bed2e19520f792d54b68e6c62e7ed47521ae4b963adba88ddb3ff4",
+    "tracking_v19/learner.py": "fc34ba9ea582c1e93c936317087fd2e1b57f097f0bc75af5e80067d9a19701b5",
+    "tracking_v19/run.py": "06f7d643f248b0064bc19df8d8379f98900158fa07ec12bdbb3988b630273d99",
+    "tracking_v19/test_memory_contracts.py": "c10d60333865873de3d9e4e66e7cd04f4cffef17c7dcd1fafb859ba01a5f9a67",
+    "tracking_v19/test_session_contracts.py": "cb8496bf0aac38c9086e8114bdf75f4f1bfb4798c950153700c4123460402b60",
+    "tracking_v19/PROTOCOL_ZH.md": "c10aad80adda9c2378301dfb81842d64ab03c91a2659e9b718d8d80a5458c930",
+    "tracking_v19/MEMORY_RESEARCH_ZH.md": "8086b2f1b1de2223b0d8967aebac0938488ce20ddb25f52b4e9512b2a7201ac2",
+    "tracking_v19/ANTHROPIC_RESEARCH_ZH.md": "c125b444ae68b91eba238a3281f734d4d985302dbf233b2c731206ed4154ac89",
+    "tracking_v19/config.json": "d2a2b49324f2f65c2ccb6e24813253e9760d2248c1fe32c31aaec8ff3f8b0b40",
+    "tracking_v17/learner.py": "9fac379700e0057eb668ff460ddc9ed95fe5c55b5024bbd2ed4ac99e181fbb64",
+    "tracking_v17/world.py": "b1ba1fdb18473d7ebb1dfffba5e6113fe8d489c0f825162a89b96fad5f71d949",
+    "tracking_v17/run.py": "ae41c319ad68a6f0ada6aeb2ce8ca9b1b3a795d59471718af8b523a9ac8e2bdd",
+    "tracking_v14/learner.py": "fee109d39e7dcc9f7442066810d5e8513a02a3aa027cddfe64425023989337fd",
+    "tracking_v14/world.py": "adeaa46fe3e409084a5e24d6242e738f2b5ed96fc089bae9245962136aa47087"
+  },
+  "warm_start_sha256": "c86e672c1a6d1ccc646cf6fc0fba45b7924eb6c376c1e960e08afa7102710e04",
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "torch": "2.7.1+cu128",
+  "warm_start_kind": "weights_only_fresh_optimizers_worlds_and_traces",
+  "shared_calibration_experiences": 73728,
+  "new_training_experiences_per_arm": 589824,
+  "unique_new_training_experiences": 1253376,
+  "total_ancestral_plus_new_per_arm": 2433024
+}

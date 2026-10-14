@@ -1,0 +1,667 @@
+{
+  "sessions": [
+    {
+      "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\calibration",
+      "anchors": [
+        {
+          "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\calibration",
+          "anchor": 0,
+          "nrows": 4,
+          "max_error": {
+            "normal_local": 1.862645149230957e-09,
+            "omitted_local": 9.313225746154785e-10,
+            "scores": 1.2526288628578186e-07,
+            "prediction_disagreement": 9.094947017729282e-13
+          },
+          "checkpoint": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\calibration\\initial.pt",
+          "checkpointsha": "546fd04a765103e2e69759df238f5bb99da1d9dddd911826e6c8235dceb8c0e0"
+        }
+      ],
+      "prediction_rows": 4,
+      "reconstructed_rows": 4,
+      "max_error": {
+        "normal_local": 1.862645149230957e-09,
+        "omitted_local": 9.313225746154785e-10,
+        "scores": 1.2526288628578186e-07,
+        "prediction_disagreement": 9.094947017729282e-13
+      },
+      "device": "cuda",
+      "tolerance": {
+        "atol": 2e-06,
+        "score_atol": 2e-05,
+        "rtol": 0.0002
+      }
+    },
+    {
+      "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility",
+      "anchors": [
+        {
+          "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility",
+          "anchor": 0,
+          "nrows": 4,
+          "max_error": {
+            "normal_local": 9.313225746154785e-10,
+            "omitted_local": 4.656612873077393e-10,
+            "scores": 7.450580596923828e-08,
+            "prediction_disagreement": 2.2737367544323206e-13
+          },
+          "checkpoint": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility\\initial.pt",
+          "checkpointsha": "751f410784b82a678fc252552567ec3c4831115019bf781fe7c9dd2e4ec7950f"
+        },
+        {
+          "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility",
+          "anchor": 2048,
+          "nrows": 4,
+          "max_error": {
+            "normal_local": 4.656612873077393e-10,
+            "omitted_local": 4.656612873077393e-10,
+            "scores": 8.940696716308594e-08,
+            "prediction_disagreement": 4.547473508864641e-13
+          },
+          "checkpoint": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility\\checkpoint_2048.pt",
+          "checkpointsha": "2fa13c7ec384fffb07de5aa7d66574e4781f5ba0a28a6ce41771226932edc6a4"
+        },
+        {
+          "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility",
+          "anchor": 4096,
+          "nrows": 4,
+          "max_error": {
+            "normal_local": 9.313225746154785e-10,
+            "omitted_local": 9.313225746154785e-10,
+            "scores": 1.1920928955078125e-07,
+            "prediction_disagreement": 1.8189894035458565e-12
+          },
+          "checkpoint": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility\\checkpoint_4096.pt",
+          "checkpointsha": "d0658db289202c2dbbf7d14ea3ca9bc5ecf6f404fcd2a0b0c3d108810033f1cf"
+        }
+      ],
+      "prediction_rows": 12,
+      "reconstructed_rows": 16388,
+      "max_error": {
+        "normal_local": 9.313225746154785e-10,
+        "omitted_local": 9.313225746154785e-10,
+        "scores": 1.1920928955078125e-07,
+        "prediction_disagreement": 1.8189894035458565e-12
+      },
+      "device": "cuda",
+      "tolerance": {
+        "atol": 2e-06,
+        "score_atol": 2e-05,
+        "rtol": 0.0002
+      }
+    },
+    {
+      "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility\\probe_0_adaptive",
+      "anchors": [
+        {
+          "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility\\probe_0_adaptive",
+          "anchor": 0,
+          "nrows": 4,
+          "max_error": {
+            "normal_local": 4.656612873077393e-10,
+            "omitted_local": 9.313225746154785e-10,
+            "scores": 9.685754776000977e-08,
+            "prediction_disagreement": 9.094947017729282e-13
+          },
+          "checkpoint": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility\\initial.pt",
+          "checkpointsha": "751f410784b82a678fc252552567ec3c4831115019bf781fe7c9dd2e4ec7950f"
+        }
+      ],
+      "prediction_rows": 4,
+      "reconstructed_rows": 4,
+      "max_error": {
+        "normal_local": 4.656612873077393e-10,
+        "omitted_local": 9.313225746154785e-10,
+        "scores": 9.685754776000977e-08,
+        "prediction_disagreement": 9.094947017729282e-13
+      },
+      "device": "cuda",
+      "tolerance": {
+        "atol": 2e-06,
+        "score_atol": 2e-05,
+        "rtol": 0.0002
+      }
+    },
+    {
+      "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility\\probe_0_frozen",
+      "anchors": [
+        {
+          "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility\\probe_0_frozen",
+          "anchor": 0,
+          "nrows": 4,
+          "max_error": {
+            "normal_local": 4.656612873077393e-10,
+            "omitted_local": 9.313225746154785e-10,
+            "scores": 9.685754776000977e-08,
+            "prediction_disagreement": 9.094947017729282e-13
+          },
+          "checkpoint": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility\\initial.pt",
+          "checkpointsha": "751f410784b82a678fc252552567ec3c4831115019bf781fe7c9dd2e4ec7950f"
+        }
+      ],
+      "prediction_rows": 4,
+      "reconstructed_rows": 4,
+      "max_error": {
+        "normal_local": 4.656612873077393e-10,
+        "omitted_local": 9.313225746154785e-10,
+        "scores": 9.685754776000977e-08,
+        "prediction_disagreement": 9.094947017729282e-13
+      },
+      "device": "cuda",
+      "tolerance": {
+        "atol": 2e-06,
+        "score_atol": 2e-05,
+        "rtol": 0.0002
+      }
+    },
+    {
+      "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility\\probe_2048_adaptive",
+      "anchors": [
+        {
+          "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility\\probe_2048_adaptive",
+          "anchor": 0,
+          "nrows": 4,
+          "max_error": {
+            "normal_local": 4.656612873077393e-10,
+            "omitted_local": 4.656612873077393e-10,
+            "scores": 7.450580596923828e-08,
+            "prediction_disagreement": 9.094947017729282e-13
+          },
+          "checkpoint": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility\\checkpoint_2048.pt",
+          "checkpointsha": "2fa13c7ec384fffb07de5aa7d66574e4781f5ba0a28a6ce41771226932edc6a4"
+        }
+      ],
+      "prediction_rows": 4,
+      "reconstructed_rows": 4,
+      "max_error": {
+        "normal_local": 4.656612873077393e-10,
+        "omitted_local": 4.656612873077393e-10,
+        "scores": 7.450580596923828e-08,
+        "prediction_disagreement": 9.094947017729282e-13
+      },
+      "device": "cuda",
+      "tolerance": {
+        "atol": 2e-06,
+        "score_atol": 2e-05,
+        "rtol": 0.0002
+      }
+    },
+    {
+      "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility\\probe_2048_frozen",
+      "anchors": [
+        {
+          "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility\\probe_2048_frozen",
+          "anchor": 0,
+          "nrows": 4,
+          "max_error": {
+            "normal_local": 4.656612873077393e-10,
+            "omitted_local": 4.656612873077393e-10,
+            "scores": 7.450580596923828e-08,
+            "prediction_disagreement": 9.094947017729282e-13
+          },
+          "checkpoint": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility\\checkpoint_2048.pt",
+          "checkpointsha": "2fa13c7ec384fffb07de5aa7d66574e4781f5ba0a28a6ce41771226932edc6a4"
+        }
+      ],
+      "prediction_rows": 4,
+      "reconstructed_rows": 4,
+      "max_error": {
+        "normal_local": 4.656612873077393e-10,
+        "omitted_local": 4.656612873077393e-10,
+        "scores": 7.450580596923828e-08,
+        "prediction_disagreement": 9.094947017729282e-13
+      },
+      "device": "cuda",
+      "tolerance": {
+        "atol": 2e-06,
+        "score_atol": 2e-05,
+        "rtol": 0.0002
+      }
+    },
+    {
+      "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility\\probe_4096_adaptive",
+      "anchors": [
+        {
+          "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility\\probe_4096_adaptive",
+          "anchor": 0,
+          "nrows": 4,
+          "max_error": {
+            "normal_local": 4.656612873077393e-10,
+            "omitted_local": 4.656612873077393e-10,
+            "scores": 9.685754776000977e-08,
+            "prediction_disagreement": 4.547473508864641e-13
+          },
+          "checkpoint": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility\\checkpoint_4096.pt",
+          "checkpointsha": "d0658db289202c2dbbf7d14ea3ca9bc5ecf6f404fcd2a0b0c3d108810033f1cf"
+        }
+      ],
+      "prediction_rows": 4,
+      "reconstructed_rows": 4,
+      "max_error": {
+        "normal_local": 4.656612873077393e-10,
+        "omitted_local": 4.656612873077393e-10,
+        "scores": 9.685754776000977e-08,
+        "prediction_disagreement": 4.547473508864641e-13
+      },
+      "device": "cuda",
+      "tolerance": {
+        "atol": 2e-06,
+        "score_atol": 2e-05,
+        "rtol": 0.0002
+      }
+    },
+    {
+      "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility\\probe_4096_frozen",
+      "anchors": [
+        {
+          "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility\\probe_4096_frozen",
+          "anchor": 0,
+          "nrows": 4,
+          "max_error": {
+            "normal_local": 4.656612873077393e-10,
+            "omitted_local": 4.656612873077393e-10,
+            "scores": 9.685754776000977e-08,
+            "prediction_disagreement": 4.547473508864641e-13
+          },
+          "checkpoint": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility\\checkpoint_4096.pt",
+          "checkpointsha": "d0658db289202c2dbbf7d14ea3ca9bc5ecf6f404fcd2a0b0c3d108810033f1cf"
+        }
+      ],
+      "prediction_rows": 4,
+      "reconstructed_rows": 4,
+      "max_error": {
+        "normal_local": 4.656612873077393e-10,
+        "omitted_local": 4.656612873077393e-10,
+        "scores": 9.685754776000977e-08,
+        "prediction_disagreement": 4.547473508864641e-13
+      },
+      "device": "cuda",
+      "tolerance": {
+        "atol": 2e-06,
+        "score_atol": 2e-05,
+        "rtol": 0.0002
+      }
+    },
+    {
+      "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility\\probe_8192_adaptive",
+      "anchors": [
+        {
+          "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility\\probe_8192_adaptive",
+          "anchor": 0,
+          "nrows": 4,
+          "max_error": {
+            "normal_local": 3.4924596548080444e-10,
+            "omitted_local": 4.656612873077393e-10,
+            "scores": 8.940696716308594e-08,
+            "prediction_disagreement": 2.2737367544323206e-13
+          },
+          "checkpoint": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility\\checkpoint_8192.pt",
+          "checkpointsha": "2df72b1d783fa7062ced9574aaa99d36979c9deb0fc31553bb2e6690fe44c194"
+        }
+      ],
+      "prediction_rows": 4,
+      "reconstructed_rows": 4,
+      "max_error": {
+        "normal_local": 3.4924596548080444e-10,
+        "omitted_local": 4.656612873077393e-10,
+        "scores": 8.940696716308594e-08,
+        "prediction_disagreement": 2.2737367544323206e-13
+      },
+      "device": "cuda",
+      "tolerance": {
+        "atol": 2e-06,
+        "score_atol": 2e-05,
+        "rtol": 0.0002
+      }
+    },
+    {
+      "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility\\probe_8192_frozen",
+      "anchors": [
+        {
+          "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility\\probe_8192_frozen",
+          "anchor": 0,
+          "nrows": 4,
+          "max_error": {
+            "normal_local": 3.4924596548080444e-10,
+            "omitted_local": 4.656612873077393e-10,
+            "scores": 8.940696716308594e-08,
+            "prediction_disagreement": 2.2737367544323206e-13
+          },
+          "checkpoint": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\utility\\checkpoint_8192.pt",
+          "checkpointsha": "2df72b1d783fa7062ced9574aaa99d36979c9deb0fc31553bb2e6690fe44c194"
+        }
+      ],
+      "prediction_rows": 4,
+      "reconstructed_rows": 4,
+      "max_error": {
+        "normal_local": 3.4924596548080444e-10,
+        "omitted_local": 4.656612873077393e-10,
+        "scores": 8.940696716308594e-08,
+        "prediction_disagreement": 2.2737367544323206e-13
+      },
+      "device": "cuda",
+      "tolerance": {
+        "atol": 2e-06,
+        "score_atol": 2e-05,
+        "rtol": 0.0002
+      }
+    },
+    {
+      "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected",
+      "anchors": [
+        {
+          "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected",
+          "anchor": 0,
+          "nrows": 4,
+          "max_error": {
+            "normal_local": 9.313225746154785e-10,
+            "omitted_local": 4.656612873077393e-10,
+            "scores": 7.450580596923828e-08,
+            "prediction_disagreement": 2.2737367544323206e-13
+          },
+          "checkpoint": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected\\initial.pt",
+          "checkpointsha": "751f410784b82a678fc252552567ec3c4831115019bf781fe7c9dd2e4ec7950f"
+        },
+        {
+          "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected",
+          "anchor": 2048,
+          "nrows": 4,
+          "max_error": {
+            "normal_local": 9.313225746154785e-10,
+            "omitted_local": 9.313225746154785e-10,
+            "scores": 6.51925802230835e-08,
+            "prediction_disagreement": 4.547473508864641e-13
+          },
+          "checkpoint": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected\\checkpoint_2048.pt",
+          "checkpointsha": "e5159d4aadb8acb28fab2842c960c00c2dbc05c461aa2dd48cb535d82c094d1a"
+        },
+        {
+          "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected",
+          "anchor": 4096,
+          "nrows": 4,
+          "max_error": {
+            "normal_local": 2.3283064365386963e-10,
+            "omitted_local": 4.656612873077393e-10,
+            "scores": 1.1920928955078125e-07,
+            "prediction_disagreement": 5.684341886080802e-14
+          },
+          "checkpoint": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected\\checkpoint_4096.pt",
+          "checkpointsha": "b9b22d65ce2510832ac61df46cfb9ee8d920b72a59713dab0a3d6a9529161b3c"
+        }
+      ],
+      "prediction_rows": 12,
+      "reconstructed_rows": 16388,
+      "max_error": {
+        "normal_local": 9.313225746154785e-10,
+        "omitted_local": 9.313225746154785e-10,
+        "scores": 1.1920928955078125e-07,
+        "prediction_disagreement": 4.547473508864641e-13
+      },
+      "device": "cuda",
+      "tolerance": {
+        "atol": 2e-06,
+        "score_atol": 2e-05,
+        "rtol": 0.0002
+      }
+    },
+    {
+      "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected\\probe_0_adaptive",
+      "anchors": [
+        {
+          "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected\\probe_0_adaptive",
+          "anchor": 0,
+          "nrows": 4,
+          "max_error": {
+            "normal_local": 4.656612873077393e-10,
+            "omitted_local": 9.313225746154785e-10,
+            "scores": 9.685754776000977e-08,
+            "prediction_disagreement": 9.094947017729282e-13
+          },
+          "checkpoint": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected\\initial.pt",
+          "checkpointsha": "751f410784b82a678fc252552567ec3c4831115019bf781fe7c9dd2e4ec7950f"
+        }
+      ],
+      "prediction_rows": 4,
+      "reconstructed_rows": 4,
+      "max_error": {
+        "normal_local": 4.656612873077393e-10,
+        "omitted_local": 9.313225746154785e-10,
+        "scores": 9.685754776000977e-08,
+        "prediction_disagreement": 9.094947017729282e-13
+      },
+      "device": "cuda",
+      "tolerance": {
+        "atol": 2e-06,
+        "score_atol": 2e-05,
+        "rtol": 0.0002
+      }
+    },
+    {
+      "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected\\probe_0_frozen",
+      "anchors": [
+        {
+          "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected\\probe_0_frozen",
+          "anchor": 0,
+          "nrows": 4,
+          "max_error": {
+            "normal_local": 4.656612873077393e-10,
+            "omitted_local": 9.313225746154785e-10,
+            "scores": 9.685754776000977e-08,
+            "prediction_disagreement": 9.094947017729282e-13
+          },
+          "checkpoint": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected\\initial.pt",
+          "checkpointsha": "751f410784b82a678fc252552567ec3c4831115019bf781fe7c9dd2e4ec7950f"
+        }
+      ],
+      "prediction_rows": 4,
+      "reconstructed_rows": 4,
+      "max_error": {
+        "normal_local": 4.656612873077393e-10,
+        "omitted_local": 9.313225746154785e-10,
+        "scores": 9.685754776000977e-08,
+        "prediction_disagreement": 9.094947017729282e-13
+      },
+      "device": "cuda",
+      "tolerance": {
+        "atol": 2e-06,
+        "score_atol": 2e-05,
+        "rtol": 0.0002
+      }
+    },
+    {
+      "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected\\probe_2048_adaptive",
+      "anchors": [
+        {
+          "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected\\probe_2048_adaptive",
+          "anchor": 0,
+          "nrows": 4,
+          "max_error": {
+            "normal_local": 6.984919309616089e-10,
+            "omitted_local": 6.984919309616089e-10,
+            "scores": 9.313225746154785e-08,
+            "prediction_disagreement": 4.547473508864641e-13
+          },
+          "checkpoint": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected\\checkpoint_2048.pt",
+          "checkpointsha": "e5159d4aadb8acb28fab2842c960c00c2dbc05c461aa2dd48cb535d82c094d1a"
+        }
+      ],
+      "prediction_rows": 4,
+      "reconstructed_rows": 4,
+      "max_error": {
+        "normal_local": 6.984919309616089e-10,
+        "omitted_local": 6.984919309616089e-10,
+        "scores": 9.313225746154785e-08,
+        "prediction_disagreement": 4.547473508864641e-13
+      },
+      "device": "cuda",
+      "tolerance": {
+        "atol": 2e-06,
+        "score_atol": 2e-05,
+        "rtol": 0.0002
+      }
+    },
+    {
+      "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected\\probe_2048_frozen",
+      "anchors": [
+        {
+          "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected\\probe_2048_frozen",
+          "anchor": 0,
+          "nrows": 4,
+          "max_error": {
+            "normal_local": 6.984919309616089e-10,
+            "omitted_local": 6.984919309616089e-10,
+            "scores": 9.313225746154785e-08,
+            "prediction_disagreement": 4.547473508864641e-13
+          },
+          "checkpoint": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected\\checkpoint_2048.pt",
+          "checkpointsha": "e5159d4aadb8acb28fab2842c960c00c2dbc05c461aa2dd48cb535d82c094d1a"
+        }
+      ],
+      "prediction_rows": 4,
+      "reconstructed_rows": 4,
+      "max_error": {
+        "normal_local": 6.984919309616089e-10,
+        "omitted_local": 6.984919309616089e-10,
+        "scores": 9.313225746154785e-08,
+        "prediction_disagreement": 4.547473508864641e-13
+      },
+      "device": "cuda",
+      "tolerance": {
+        "atol": 2e-06,
+        "score_atol": 2e-05,
+        "rtol": 0.0002
+      }
+    },
+    {
+      "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected\\probe_4096_adaptive",
+      "anchors": [
+        {
+          "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected\\probe_4096_adaptive",
+          "anchor": 0,
+          "nrows": 4,
+          "max_error": {
+            "normal_local": 2.3283064365386963e-10,
+            "omitted_local": 4.656612873077393e-10,
+            "scores": 8.940696716308594e-08,
+            "prediction_disagreement": 2.2737367544323206e-13
+          },
+          "checkpoint": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected\\checkpoint_4096.pt",
+          "checkpointsha": "b9b22d65ce2510832ac61df46cfb9ee8d920b72a59713dab0a3d6a9529161b3c"
+        }
+      ],
+      "prediction_rows": 4,
+      "reconstructed_rows": 4,
+      "max_error": {
+        "normal_local": 2.3283064365386963e-10,
+        "omitted_local": 4.656612873077393e-10,
+        "scores": 8.940696716308594e-08,
+        "prediction_disagreement": 2.2737367544323206e-13
+      },
+      "device": "cuda",
+      "tolerance": {
+        "atol": 2e-06,
+        "score_atol": 2e-05,
+        "rtol": 0.0002
+      }
+    },
+    {
+      "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected\\probe_4096_frozen",
+      "anchors": [
+        {
+          "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected\\probe_4096_frozen",
+          "anchor": 0,
+          "nrows": 4,
+          "max_error": {
+            "normal_local": 2.3283064365386963e-10,
+            "omitted_local": 4.656612873077393e-10,
+            "scores": 8.940696716308594e-08,
+            "prediction_disagreement": 2.2737367544323206e-13
+          },
+          "checkpoint": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected\\checkpoint_4096.pt",
+          "checkpointsha": "b9b22d65ce2510832ac61df46cfb9ee8d920b72a59713dab0a3d6a9529161b3c"
+        }
+      ],
+      "prediction_rows": 4,
+      "reconstructed_rows": 4,
+      "max_error": {
+        "normal_local": 2.3283064365386963e-10,
+        "omitted_local": 4.656612873077393e-10,
+        "scores": 8.940696716308594e-08,
+        "prediction_disagreement": 2.2737367544323206e-13
+      },
+      "device": "cuda",
+      "tolerance": {
+        "atol": 2e-06,
+        "score_atol": 2e-05,
+        "rtol": 0.0002
+      }
+    },
+    {
+      "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected\\probe_8192_adaptive",
+      "anchors": [
+        {
+          "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected\\probe_8192_adaptive",
+          "anchor": 0,
+          "nrows": 4,
+          "max_error": {
+            "normal_local": 2.3283064365386963e-10,
+            "omitted_local": 2.3283064365386963e-10,
+            "scores": 7.450580596923828e-08,
+            "prediction_disagreement": 4.547473508864641e-13
+          },
+          "checkpoint": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected\\checkpoint_8192.pt",
+          "checkpointsha": "b9005b3b7669e028a47cd9b7461ed61330f165dfafb1cf563491c9da06a1a465"
+        }
+      ],
+      "prediction_rows": 4,
+      "reconstructed_rows": 4,
+      "max_error": {
+        "normal_local": 2.3283064365386963e-10,
+        "omitted_local": 2.3283064365386963e-10,
+        "scores": 7.450580596923828e-08,
+        "prediction_disagreement": 4.547473508864641e-13
+      },
+      "device": "cuda",
+      "tolerance": {
+        "atol": 2e-06,
+        "score_atol": 2e-05,
+        "rtol": 0.0002
+      }
+    },
+    {
+      "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected\\probe_8192_frozen",
+      "anchors": [
+        {
+          "session": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected\\probe_8192_frozen",
+          "anchor": 0,
+          "nrows": 4,
+          "max_error": {
+            "normal_local": 2.3283064365386963e-10,
+            "omitted_local": 2.3283064365386963e-10,
+            "scores": 7.450580596923828e-08,
+            "prediction_disagreement": 4.547473508864641e-13
+          },
+          "checkpoint": "E:\\byte\u7ea7\u6a21\u578b\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v19\\local_memory\\protected\\checkpoint_8192.pt",
+          "checkpointsha": "b9005b3b7669e028a47cd9b7461ed61330f165dfafb1cf563491c9da06a1a465"
+        }
+      ],
+      "prediction_rows": 4,
+      "reconstructed_rows": 4,
+      "max_error": {
+        "normal_local": 2.3283064365386963e-10,
+        "omitted_local": 2.3283064365386963e-10,
+        "scores": 7.450580596923828e-08,
+        "prediction_disagreement": 4.547473508864641e-13
+      },
+      "device": "cuda",
+      "tolerance": {
+        "atol": 2e-06,
+        "score_atol": 2e-05,
+        "rtol": 0.0002
+      }
+    }
+  ],
+  "all_prediction_rows": 92,
+  "all_reconstructed_rows": 32844,
+  "scope": "First four bodies at saved-weight anchors; sampled forward verification only."
+}

@@ -1,0 +1,585 @@
+{
+  "source_verification": {
+    "tracking_v19/analyze.py": {
+      "snapshot": true,
+      "current": true
+    },
+    "tracking_v19/audit.py": {
+      "snapshot": true,
+      "current": true
+    },
+    "tracking_v19/audit_predictions.py": {
+      "snapshot": true,
+      "current": true
+    },
+    "tracking_v19/learner.py": {
+      "snapshot": true,
+      "current": true
+    },
+    "tracking_v19/run.py": {
+      "snapshot": true,
+      "current": true
+    },
+    "tracking_v19/test_memory_contracts.py": {
+      "snapshot": true,
+      "current": true
+    },
+    "tracking_v19/test_session_contracts.py": {
+      "snapshot": true,
+      "current": true
+    },
+    "tracking_v19/PROTOCOL_ZH.md": {
+      "snapshot": true,
+      "current": true
+    },
+    "tracking_v19/MEMORY_RESEARCH_ZH.md": {
+      "snapshot": true,
+      "current": true
+    },
+    "tracking_v19/ANTHROPIC_RESEARCH_ZH.md": {
+      "snapshot": true,
+      "current": true
+    },
+    "tracking_v19/config.json": {
+      "snapshot": true,
+      "current": true
+    },
+    "tracking_v17/learner.py": {
+      "snapshot": true,
+      "current": true
+    },
+    "tracking_v17/world.py": {
+      "snapshot": true,
+      "current": true
+    },
+    "tracking_v17/run.py": {
+      "snapshot": true,
+      "current": true
+    },
+    "tracking_v14/learner.py": {
+      "snapshot": true,
+      "current": true
+    },
+    "tracking_v14/world.py": {
+      "snapshot": true,
+      "current": true
+    }
+  },
+  "same_calibration_tensors": true,
+  "same_initial_frozen_trajectory": true,
+  "calibrated_floor": 0.0005934063228778541,
+  "sessions": [
+    {
+      "path": "tracking_v19\\local_memory\\calibration",
+      "rows": 73728,
+      "frame_digests_checked": 6144,
+      "recomputed": {
+        "contacts": 677,
+        "safe_contacts": 437,
+        "safe_contact_fraction": 0.6454948301329394,
+        "collision_rate": 0.04201931423611111,
+        "impact_rate": 0.012776692708333334,
+        "contact_per_minute": 4.591200086805555,
+        "visibility_steps": 35382,
+        "visible_lock": 0.5181730823582613,
+        "attacked_steps": 55296,
+        "attacked_impact_rate": 0.017035590277777776,
+        "reacquisitions": 5432,
+        "mean_reacquire_seconds": 0.5579823269513992,
+        "prediction_mse": 0.005109147233162087
+      },
+      "bootstrap_presentations": 177084,
+      "mean_abs_member_gain": 0.043676532805967484,
+      "mean_abs_utility": 0.0,
+      "mean_deviation": 0.0,
+      "promoted_accesses": 2357686,
+      "fraction_rotated": 0.9137098524305556
+    },
+    {
+      "path": "tracking_v19\\local_memory\\utility",
+      "rows": 589824,
+      "frame_digests_checked": 49152,
+      "recomputed": {
+        "contacts": 5588,
+        "safe_contacts": 3631,
+        "safe_contact_fraction": 0.6497852541159628,
+        "collision_rate": 0.04190402560763889,
+        "impact_rate": 0.011852688259548612,
+        "contact_per_minute": 4.737006293402778,
+        "visibility_steps": 287626,
+        "visible_lock": 0.5186631250304214,
+        "attacked_steps": 431104,
+        "attacked_impact_rate": 0.016216504602137766,
+        "reacquisitions": 38168,
+        "mean_reacquire_seconds": 0.6557618947809684,
+        "prediction_mse": 0.004972152496302919
+      },
+      "bootstrap_presentations": 1415750,
+      "mean_abs_member_gain": 0.017654986934721402,
+      "mean_abs_utility": 0.007291329204418075,
+      "mean_deviation": 0.002320477786077012,
+      "promoted_accesses": 5063561,
+      "fraction_rotated": 0.8938937717013888
+    },
+    {
+      "path": "tracking_v19\\local_memory\\utility\\probe_0_adaptive",
+      "rows": 12288,
+      "frame_digests_checked": 3072,
+      "recomputed": {
+        "contacts": 80,
+        "safe_contacts": 49,
+        "safe_contact_fraction": 0.6125,
+        "collision_rate": 0.09855143229166667,
+        "impact_rate": 0.011637369791666666,
+        "contact_per_minute": 3.2552083333333335,
+        "visibility_steps": 5496,
+        "visible_lock": 0.5327510917030568,
+        "attacked_steps": 9216,
+        "attacked_impact_rate": 0.015516493055555556,
+        "reacquisitions": 551,
+        "mean_reacquire_seconds": 1.086098003629764,
+        "prediction_mse": 0.004895102006384396
+      },
+      "bootstrap_presentations": 29676,
+      "mean_abs_member_gain": 0.020852057481929694,
+      "mean_abs_utility": 0.010890028963424688,
+      "mean_deviation": 0.0029907522002046902,
+      "promoted_accesses": 103691,
+      "fraction_rotated": 0.949462890625
+    },
+    {
+      "path": "tracking_v19\\local_memory\\utility\\probe_0_frozen",
+      "rows": 12288,
+      "frame_digests_checked": 3072,
+      "recomputed": {
+        "contacts": 149,
+        "safe_contacts": 118,
+        "safe_contact_fraction": 0.7919463087248322,
+        "collision_rate": 0.016764322916666668,
+        "impact_rate": 0.011881510416666666,
+        "contact_per_minute": 6.062825520833334,
+        "visibility_steps": 5713,
+        "visible_lock": 0.6922807631717136,
+        "attacked_steps": 9216,
+        "attacked_impact_rate": 0.015842013888888888,
+        "reacquisitions": 501,
+        "mean_reacquire_seconds": 0.7849101796407186,
+        "prediction_mse": 0.005192696613242139
+      },
+      "bootstrap_presentations": 29676,
+      "mean_abs_member_gain": 0.01963295005330526,
+      "mean_abs_utility": 0.0,
+      "mean_deviation": 0.0,
+      "promoted_accesses": 392351,
+      "fraction_rotated": 0.9728190104166666
+    },
+    {
+      "path": "tracking_v19\\local_memory\\utility\\probe_2048_adaptive",
+      "rows": 12288,
+      "frame_digests_checked": 3072,
+      "recomputed": {
+        "contacts": 112,
+        "safe_contacts": 83,
+        "safe_contact_fraction": 0.7410714285714286,
+        "collision_rate": 0.030517578125,
+        "impact_rate": 0.011637369791666666,
+        "contact_per_minute": 4.557291666666667,
+        "visibility_steps": 5613,
+        "visible_lock": 0.5725993230001781,
+        "attacked_steps": 9216,
+        "attacked_impact_rate": 0.015516493055555556,
+        "reacquisitions": 481,
+        "mean_reacquire_seconds": 0.9844490644490644,
+        "prediction_mse": 0.005560949623510207
+      },
+      "bootstrap_presentations": 29676,
+      "mean_abs_member_gain": 0.020310757173805222,
+      "mean_abs_utility": 0.010664220963735241,
+      "mean_deviation": 0.0018709396825458506,
+      "promoted_accesses": 105041,
+      "fraction_rotated": 0.9423828125
+    },
+    {
+      "path": "tracking_v19\\local_memory\\utility\\probe_2048_frozen",
+      "rows": 12288,
+      "frame_digests_checked": 3072,
+      "recomputed": {
+        "contacts": 139,
+        "safe_contacts": 111,
+        "safe_contact_fraction": 0.7985611510791367,
+        "collision_rate": 0.014811197916666666,
+        "impact_rate": 0.013753255208333334,
+        "contact_per_minute": 5.655924479166667,
+        "visibility_steps": 5060,
+        "visible_lock": 0.7086956521739131,
+        "attacked_steps": 9216,
+        "attacked_impact_rate": 0.018337673611111112,
+        "reacquisitions": 384,
+        "mean_reacquire_seconds": 0.6934374999999999,
+        "prediction_mse": 0.005396125051208974
+      },
+      "bootstrap_presentations": 29676,
+      "mean_abs_member_gain": 0.019518996118859374,
+      "mean_abs_utility": 0.0,
+      "mean_deviation": 0.0,
+      "promoted_accesses": 391872,
+      "fraction_rotated": 0.9536946614583334
+    },
+    {
+      "path": "tracking_v19\\local_memory\\utility\\probe_4096_adaptive",
+      "rows": 12288,
+      "frame_digests_checked": 3072,
+      "recomputed": {
+        "contacts": 126,
+        "safe_contacts": 86,
+        "safe_contact_fraction": 0.6825396825396826,
+        "collision_rate": 0.043863932291666664,
+        "impact_rate": 0.010172526041666666,
+        "contact_per_minute": 5.126953125,
+        "visibility_steps": 5440,
+        "visible_lock": 0.6077205882352941,
+        "attacked_steps": 9216,
+        "attacked_impact_rate": 0.013563368055555556,
+        "reacquisitions": 390,
+        "mean_reacquire_seconds": 1.286153846153846,
+        "prediction_mse": 0.005351482148049887
+      },
+      "bootstrap_presentations": 29676,
+      "mean_abs_member_gain": 0.017241385651670722,
+      "mean_abs_utility": 0.006705072008787265,
+      "mean_deviation": 0.001583901475505356,
+      "promoted_accesses": 107836,
+      "fraction_rotated": 0.8949381510416666
+    },
+    {
+      "path": "tracking_v19\\local_memory\\utility\\probe_4096_frozen",
+      "rows": 12288,
+      "frame_digests_checked": 3072,
+      "recomputed": {
+        "contacts": 166,
+        "safe_contacts": 117,
+        "safe_contact_fraction": 0.7048192771084337,
+        "collision_rate": 0.048746744791666664,
+        "impact_rate": 0.009602864583333334,
+        "contact_per_minute": 6.754557291666667,
+        "visibility_steps": 5422,
+        "visible_lock": 0.7250092216894135,
+        "attacked_steps": 9216,
+        "attacked_impact_rate": 0.012803819444444444,
+        "reacquisitions": 342,
+        "mean_reacquire_seconds": 1.0712280701754386,
+        "prediction_mse": 0.005427246031909287
+      },
+      "bootstrap_presentations": 29676,
+      "mean_abs_member_gain": 0.017675815788048374,
+      "mean_abs_utility": 0.0,
+      "mean_deviation": 0.0,
+      "promoted_accesses": 392271,
+      "fraction_rotated": 0.8800455729166666
+    },
+    {
+      "path": "tracking_v19\\local_memory\\utility\\probe_8192_adaptive",
+      "rows": 12288,
+      "frame_digests_checked": 3072,
+      "recomputed": {
+        "contacts": 189,
+        "safe_contacts": 145,
+        "safe_contact_fraction": 0.7671957671957672,
+        "collision_rate": 0.060139973958333336,
+        "impact_rate": 0.006917317708333333,
+        "contact_per_minute": 7.6904296875,
+        "visibility_steps": 5801,
+        "visible_lock": 0.7822789174280297,
+        "attacked_steps": 9216,
+        "attacked_impact_rate": 0.009223090277777778,
+        "reacquisitions": 282,
+        "mean_reacquire_seconds": 0.8804255319148936,
+        "prediction_mse": 0.005134295630188153
+      },
+      "bootstrap_presentations": 29676,
+      "mean_abs_member_gain": 0.02032516014584841,
+      "mean_abs_utility": 0.007687681066570917,
+      "mean_deviation": 0.0017948865372799383,
+      "promoted_accesses": 107721,
+      "fraction_rotated": 0.7328287760416666
+    },
+    {
+      "path": "tracking_v19\\local_memory\\utility\\probe_8192_frozen",
+      "rows": 12288,
+      "frame_digests_checked": 3072,
+      "recomputed": {
+        "contacts": 189,
+        "safe_contacts": 131,
+        "safe_contact_fraction": 0.6931216931216931,
+        "collision_rate": 0.036946614583333336,
+        "impact_rate": 0.009358723958333334,
+        "contact_per_minute": 7.6904296875,
+        "visibility_steps": 5710,
+        "visible_lock": 0.77215411558669,
+        "attacked_steps": 9216,
+        "attacked_impact_rate": 0.012478298611111112,
+        "reacquisitions": 234,
+        "mean_reacquire_seconds": 1.1769230769230767,
+        "prediction_mse": 0.005094196154531734
+      },
+      "bootstrap_presentations": 29676,
+      "mean_abs_member_gain": 0.020009160390137146,
+      "mean_abs_utility": 0.0,
+      "mean_deviation": 0.0,
+      "promoted_accesses": 392224,
+      "fraction_rotated": 0.7545572916666666
+    },
+    {
+      "path": "tracking_v19\\local_memory\\protected",
+      "rows": 589824,
+      "frame_digests_checked": 49152,
+      "recomputed": {
+        "contacts": 5116,
+        "safe_contacts": 3254,
+        "safe_contact_fraction": 0.6360437842064113,
+        "collision_rate": 0.047368367513020836,
+        "impact_rate": 0.012029012044270834,
+        "contact_per_minute": 4.336886935763888,
+        "visibility_steps": 284313,
+        "visible_lock": 0.5310872172570371,
+        "attacked_steps": 439296,
+        "attacked_impact_rate": 0.016150841346153848,
+        "reacquisitions": 35947,
+        "mean_reacquire_seconds": 0.7035123932456115,
+        "prediction_mse": 0.004834960369481334
+      },
+      "bootstrap_presentations": 1415750,
+      "mean_abs_member_gain": 0.01807249876523382,
+      "mean_abs_utility": 0.008640887880979053,
+      "mean_deviation": 0.0022091988931082765,
+      "promoted_accesses": 5035144,
+      "fraction_rotated": 0.9091203477647569
+    },
+    {
+      "path": "tracking_v19\\local_memory\\protected\\probe_0_adaptive",
+      "rows": 12288,
+      "frame_digests_checked": 3072,
+      "recomputed": {
+        "contacts": 79,
+        "safe_contacts": 45,
+        "safe_contact_fraction": 0.569620253164557,
+        "collision_rate": 0.08707682291666667,
+        "impact_rate": 0.009928385416666666,
+        "contact_per_minute": 3.214518229166667,
+        "visibility_steps": 5782,
+        "visible_lock": 0.5050155655482532,
+        "attacked_steps": 9216,
+        "attacked_impact_rate": 0.013237847222222222,
+        "reacquisitions": 597,
+        "mean_reacquire_seconds": 0.9401005025125628,
+        "prediction_mse": 0.0048271228849851395
+      },
+      "bootstrap_presentations": 29676,
+      "mean_abs_member_gain": 0.021421571780649566,
+      "mean_abs_utility": 0.011369949839859098,
+      "mean_deviation": 0.0029502619663165732,
+      "promoted_accesses": 103109,
+      "fraction_rotated": 0.9571126302083334
+    },
+    {
+      "path": "tracking_v19\\local_memory\\protected\\probe_0_frozen",
+      "rows": 12288,
+      "frame_digests_checked": 3072,
+      "recomputed": {
+        "contacts": 149,
+        "safe_contacts": 118,
+        "safe_contact_fraction": 0.7919463087248322,
+        "collision_rate": 0.016764322916666668,
+        "impact_rate": 0.011881510416666666,
+        "contact_per_minute": 6.062825520833334,
+        "visibility_steps": 5713,
+        "visible_lock": 0.6922807631717136,
+        "attacked_steps": 9216,
+        "attacked_impact_rate": 0.015842013888888888,
+        "reacquisitions": 501,
+        "mean_reacquire_seconds": 0.7849101796407186,
+        "prediction_mse": 0.005192696613242139
+      },
+      "bootstrap_presentations": 29676,
+      "mean_abs_member_gain": 0.01963295005330526,
+      "mean_abs_utility": 0.0,
+      "mean_deviation": 0.0,
+      "promoted_accesses": 392351,
+      "fraction_rotated": 0.9728190104166666
+    },
+    {
+      "path": "tracking_v19\\local_memory\\protected\\probe_2048_adaptive",
+      "rows": 12288,
+      "frame_digests_checked": 3072,
+      "recomputed": {
+        "contacts": 118,
+        "safe_contacts": 77,
+        "safe_contact_fraction": 0.652542372881356,
+        "collision_rate": 0.045328776041666664,
+        "impact_rate": 0.012451171875,
+        "contact_per_minute": 4.801432291666667,
+        "visibility_steps": 5570,
+        "visible_lock": 0.6285457809694793,
+        "attacked_steps": 9216,
+        "attacked_impact_rate": 0.0166015625,
+        "reacquisitions": 414,
+        "mean_reacquire_seconds": 0.9289855072463767,
+        "prediction_mse": 0.004771500223512248
+      },
+      "bootstrap_presentations": 29676,
+      "mean_abs_member_gain": 0.01841739263814002,
+      "mean_abs_utility": 0.009035810828822507,
+      "mean_deviation": 0.0019211424548934246,
+      "promoted_accesses": 104660,
+      "fraction_rotated": 0.8162434895833334
+    },
+    {
+      "path": "tracking_v19\\local_memory\\protected\\probe_2048_frozen",
+      "rows": 12288,
+      "frame_digests_checked": 3072,
+      "recomputed": {
+        "contacts": 152,
+        "safe_contacts": 111,
+        "safe_contact_fraction": 0.7302631578947368,
+        "collision_rate": 0.023681640625,
+        "impact_rate": 0.0126953125,
+        "contact_per_minute": 6.184895833333334,
+        "visibility_steps": 5871,
+        "visible_lock": 0.7230454777721002,
+        "attacked_steps": 9216,
+        "attacked_impact_rate": 0.016927083333333332,
+        "reacquisitions": 486,
+        "mean_reacquire_seconds": 0.628641975308642,
+        "prediction_mse": 0.005003988617762782
+      },
+      "bootstrap_presentations": 29676,
+      "mean_abs_member_gain": 0.017872165325333995,
+      "mean_abs_utility": 0.0,
+      "mean_deviation": 0.0,
+      "promoted_accesses": 392179,
+      "fraction_rotated": 0.9204915364583334
+    },
+    {
+      "path": "tracking_v19\\local_memory\\protected\\probe_4096_adaptive",
+      "rows": 12288,
+      "frame_digests_checked": 3072,
+      "recomputed": {
+        "contacts": 134,
+        "safe_contacts": 91,
+        "safe_contact_fraction": 0.6791044776119403,
+        "collision_rate": 0.045735677083333336,
+        "impact_rate": 0.01123046875,
+        "contact_per_minute": 5.452473958333334,
+        "visibility_steps": 5700,
+        "visible_lock": 0.6524561403508772,
+        "attacked_steps": 9216,
+        "attacked_impact_rate": 0.014973958333333334,
+        "reacquisitions": 416,
+        "mean_reacquire_seconds": 0.8826923076923077,
+        "prediction_mse": 0.005034338617415202
+      },
+      "bootstrap_presentations": 29676,
+      "mean_abs_member_gain": 0.01639444838756657,
+      "mean_abs_utility": 0.006325768001637755,
+      "mean_deviation": 0.0017027561216039395,
+      "promoted_accesses": 106812,
+      "fraction_rotated": 0.8427734375
+    },
+    {
+      "path": "tracking_v19\\local_memory\\protected\\probe_4096_frozen",
+      "rows": 12288,
+      "frame_digests_checked": 3072,
+      "recomputed": {
+        "contacts": 182,
+        "safe_contacts": 129,
+        "safe_contact_fraction": 0.7087912087912088,
+        "collision_rate": 0.030436197916666668,
+        "impact_rate": 0.010904947916666666,
+        "contact_per_minute": 7.405598958333334,
+        "visibility_steps": 5925,
+        "visible_lock": 0.7584810126582279,
+        "attacked_steps": 9216,
+        "attacked_impact_rate": 0.014539930555555556,
+        "reacquisitions": 329,
+        "mean_reacquire_seconds": 0.8917933130699087,
+        "prediction_mse": 0.005336850225495719
+      },
+      "bootstrap_presentations": 29676,
+      "mean_abs_member_gain": 0.01629630929718323,
+      "mean_abs_utility": 0.0,
+      "mean_deviation": 0.0,
+      "promoted_accesses": 392081,
+      "fraction_rotated": 0.9088541666666666
+    },
+    {
+      "path": "tracking_v19\\local_memory\\protected\\probe_8192_adaptive",
+      "rows": 12288,
+      "frame_digests_checked": 3072,
+      "recomputed": {
+        "contacts": 178,
+        "safe_contacts": 104,
+        "safe_contact_fraction": 0.5842696629213483,
+        "collision_rate": 0.063232421875,
+        "impact_rate": 0.008382161458333334,
+        "contact_per_minute": 7.242838541666667,
+        "visibility_steps": 5896,
+        "visible_lock": 0.7493215739484396,
+        "attacked_steps": 9216,
+        "attacked_impact_rate": 0.011176215277777778,
+        "reacquisitions": 331,
+        "mean_reacquire_seconds": 1.006404833836858,
+        "prediction_mse": 0.005395675834111084
+      },
+      "bootstrap_presentations": 29676,
+      "mean_abs_member_gain": 0.022147400270929526,
+      "mean_abs_utility": 0.01051335568651742,
+      "mean_deviation": 0.0019489925510316475,
+      "promoted_accesses": 108063,
+      "fraction_rotated": 0.7963053385416666
+    },
+    {
+      "path": "tracking_v19\\local_memory\\protected\\probe_8192_frozen",
+      "rows": 12288,
+      "frame_digests_checked": 3072,
+      "recomputed": {
+        "contacts": 204,
+        "safe_contacts": 140,
+        "safe_contact_fraction": 0.6862745098039216,
+        "collision_rate": 0.0380859375,
+        "impact_rate": 0.010904947916666666,
+        "contact_per_minute": 8.30078125,
+        "visibility_steps": 5807,
+        "visible_lock": 0.800585500258309,
+        "attacked_steps": 9216,
+        "attacked_impact_rate": 0.014539930555555556,
+        "reacquisitions": 298,
+        "mean_reacquire_seconds": 1.0195973154362414,
+        "prediction_mse": 0.005694719606476421
+      },
+      "bootstrap_presentations": 29676,
+      "mean_abs_member_gain": 0.021543351471905968,
+      "mean_abs_utility": 0.0,
+      "mean_deviation": 0.0,
+      "promoted_accesses": 392051,
+      "fraction_rotated": 0.8169759114583334
+    }
+  ],
+  "all_rows": 1449984,
+  "frame_digests_checked": 153600,
+  "audit_source_sha256": "57c36d7a0f3cea4bfc6ba91356a6029c6b615b8dce596ff6ec2b243967995eb8",
+  "current_python_sha256": {
+    "tracking_v19/analyze.py": "79357b99f12879443440eed37f89d7022f15de724b594b80a1642d3944648fd1",
+    "tracking_v19/audit.py": "57c36d7a0f3cea4bfc6ba91356a6029c6b615b8dce596ff6ec2b243967995eb8",
+    "tracking_v19/audit_predictions.py": "134c1ec7e1bed2e19520f792d54b68e6c62e7ed47521ae4b963adba88ddb3ff4",
+    "tracking_v19/learner.py": "fc34ba9ea582c1e93c936317087fd2e1b57f097f0bc75af5e80067d9a19701b5",
+    "tracking_v19/run.py": "06f7d643f248b0064bc19df8d8379f98900158fa07ec12bdbb3988b630273d99",
+    "tracking_v19/test_memory_contracts.py": "c10d60333865873de3d9e4e66e7cd04f4cffef17c7dcd1fafb859ba01a5f9a67",
+    "tracking_v19/test_session_contracts.py": "cb8496bf0aac38c9086e8114bdf75f4f1bfb4798c950153700c4123460402b60"
+  },
+  "supplementary_python": [],
+  "limits": [
+    "Reconstructs logged local-error algebra, not every neural prediction.",
+    "Prediction-error authenticity is not independently replayed from per-step weights.",
+    "Registered sources and their snapshots are checked; later analysis files are recorded separately."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "stage": "local_memory",
+  "arms": ["utility", "protected"],
+  "warm_start": "tracking_v18/controlled/aligned/model.pt",
+  "ancestor_experiences": 1769472,
+  "model_seed": 191,
+  "world_seed": 719000,
+  "memory_seed": 19019,
+  "worlds": 72,
+  "calibration_steps": 1024,
+  "rollout": 128,
+  "epochs": 3,
+  "milestones": [2048, 4096, 8192],
+  "probe_steps": 512,
+  "probe_feedback": [false, true],
+  "floor_quantile": 0.25
+}

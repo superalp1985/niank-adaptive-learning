@@ -30,8 +30,9 @@ Preserve raw experience and failures. No online test-label optimization.
 - [x] Focused tests: memory changes only after the factual next frame,
   read-cache does not rotate twice, probes do not train weights, raw replay
   reconstructs the exact accessed memory.
-- [ ] Complete both finite training budgets and all registered observations.
-- [ ] `audit.py` and `analyze.py`: independently recompute evidence, access
+- [x] Complete both finite training budgets and all registered observations.
+- [x] `audit.py` and `analyze.py`: independently recompute evidence, access
   decisions and metrics, describe all phase/scene tradeoffs.
-- [ ] Report results, upload complete archive, verify every remote part,
+- [x] Report results and record the limits of the forgetting/relearning claim.
+- [ ] Upload complete archive, verify every remote part,
   clean verified bulk files and update the research entry point.
