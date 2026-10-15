@@ -1,0 +1,254 @@
+{
+  "complete": true,
+  "sources_verified": true,
+  "factual_sessions": {
+    "random": {
+      "steps": 20480,
+      "worlds": 72,
+      "counts": {
+        "events": 1474560,
+        "evidence": 1474560,
+        "outcomes": 1474560,
+        "directory_events": 687964,
+        "retrievals": 245760
+      },
+      "consequence_labels_checked": 1474560,
+      "maximum_target_difference": 0.0,
+      "consequence_channel_mse": [
+        0.10690251072987872,
+        0.028273542165951796,
+        0.024160887535413216,
+        0.07736179914490753,
+        0.06593632003750585
+      ],
+      "replay_batches": 160,
+      "invalid_retrievals": 0,
+      "premature_labels": 0
+    },
+    "random/final_shift_0": {
+      "steps": 2048,
+      "worlds": 24,
+      "counts": {
+        "events": 49152,
+        "evidence": 49152,
+        "outcomes": 49152,
+        "directory_events": 23948,
+        "retrievals": 0
+      },
+      "consequence_labels_checked": 49152,
+      "maximum_target_difference": 0.0,
+      "consequence_channel_mse": [
+        0.07316688642233689,
+        0.024814595344182278,
+        0.01681509437025177,
+        0.0702791425538528,
+        0.0660449518596656
+      ],
+      "replay_batches": 0,
+      "invalid_retrievals": 0,
+      "premature_labels": 0
+    },
+    "random/final_shift_1": {
+      "steps": 2048,
+      "worlds": 24,
+      "counts": {
+        "events": 49152,
+        "evidence": 49152,
+        "outcomes": 49152,
+        "directory_events": 27654,
+        "retrievals": 0
+      },
+      "consequence_labels_checked": 49152,
+      "maximum_target_difference": 0.0,
+      "consequence_channel_mse": [
+        0.1753905011593717,
+        0.08056296424157232,
+        0.05470219669120641,
+        0.10877781311327521,
+        0.044525868137733716
+      ],
+      "replay_batches": 0,
+      "invalid_retrievals": 0,
+      "premature_labels": 0
+    },
+    "random/probe_20480": {
+      "steps": 1024,
+      "worlds": 24,
+      "counts": {
+        "events": 24576,
+        "evidence": 24576,
+        "outcomes": 24576,
+        "directory_events": 12616,
+        "retrievals": 0
+      },
+      "consequence_labels_checked": 24576,
+      "maximum_target_difference": 0.0,
+      "consequence_channel_mse": [
+        0.1181671588041684,
+        0.03194414244826473,
+        0.022949871612480233,
+        0.09010438263217006,
+        0.05256479765903769
+      ],
+      "replay_batches": 0,
+      "invalid_retrievals": 0,
+      "premature_labels": 0
+    },
+    "random/probe_8192": {
+      "steps": 1024,
+      "worlds": 24,
+      "counts": {
+        "events": 24576,
+        "evidence": 24576,
+        "outcomes": 24576,
+        "directory_events": 11550,
+        "retrievals": 0
+      },
+      "consequence_labels_checked": 24576,
+      "maximum_target_difference": 0.0,
+      "consequence_channel_mse": [
+        0.1349821493833465,
+        0.033790492310742076,
+        0.030213173545738787,
+        0.06787932994687058,
+        0.05841080707975325
+      ],
+      "replay_batches": 0,
+      "invalid_retrievals": 0,
+      "premature_labels": 0
+    },
+    "reversible": {
+      "steps": 20480,
+      "worlds": 72,
+      "counts": {
+        "events": 1474560,
+        "evidence": 1474560,
+        "outcomes": 1474560,
+        "directory_events": 669585,
+        "retrievals": 245760
+      },
+      "consequence_labels_checked": 1474560,
+      "maximum_target_difference": 0.0,
+      "consequence_channel_mse": [
+        0.10766141184853696,
+        0.030043554718100222,
+        0.025914303628815322,
+        0.0744362196254155,
+        0.0642105628239237
+      ],
+      "replay_batches": 160,
+      "invalid_retrievals": 0,
+      "premature_labels": 0
+    },
+    "reversible/final_shift_0": {
+      "steps": 2048,
+      "worlds": 24,
+      "counts": {
+        "events": 49152,
+        "evidence": 49152,
+        "outcomes": 49152,
+        "directory_events": 23772,
+        "retrievals": 0
+      },
+      "consequence_labels_checked": 49152,
+      "maximum_target_difference": 0.0,
+      "consequence_channel_mse": [
+        0.09274995220756727,
+        0.0246276731325928,
+        0.01635461831031405,
+        0.07284164377239932,
+        0.06343358040371132
+      ],
+      "replay_batches": 0,
+      "invalid_retrievals": 0,
+      "premature_labels": 0
+    },
+    "reversible/final_shift_1": {
+      "steps": 2048,
+      "worlds": 24,
+      "counts": {
+        "events": 49152,
+        "evidence": 49152,
+        "outcomes": 49152,
+        "directory_events": 29051,
+        "retrievals": 0
+      },
+      "consequence_labels_checked": 49152,
+      "maximum_target_difference": 0.0,
+      "consequence_channel_mse": [
+        0.19105105495837327,
+        0.07298452451478883,
+        0.052190606905388355,
+        0.12611026939037848,
+        0.0459952082028674
+      ],
+      "replay_batches": 0,
+      "invalid_retrievals": 0,
+      "premature_labels": 0
+    },
+    "reversible/probe_20480": {
+      "steps": 1024,
+      "worlds": 24,
+      "counts": {
+        "events": 24576,
+        "evidence": 24576,
+        "outcomes": 24576,
+        "directory_events": 12581,
+        "retrievals": 0
+      },
+      "consequence_labels_checked": 24576,
+      "maximum_target_difference": 0.0,
+      "consequence_channel_mse": [
+        0.13313080963678373,
+        0.031083644437797976,
+        0.025275212169003202,
+        0.08809655266702417,
+        0.04930960695913159
+      ],
+      "replay_batches": 0,
+      "invalid_retrievals": 0,
+      "premature_labels": 0
+    },
+    "reversible/probe_8192": {
+      "steps": 1024,
+      "worlds": 24,
+      "counts": {
+        "events": 24576,
+        "evidence": 24576,
+        "outcomes": 24576,
+        "directory_events": 11388,
+        "retrievals": 0
+      },
+      "consequence_labels_checked": 24576,
+      "maximum_target_difference": 0.0,
+      "consequence_channel_mse": [
+        0.14129086213094852,
+        0.03559067655000079,
+        0.03549832286206141,
+        0.06090570293332931,
+        0.06678213885987579
+      ],
+      "replay_batches": 0,
+      "invalid_retrievals": 0,
+      "premature_labels": 0
+    }
+  },
+  "credit": {
+    "catalog_records": 669585,
+    "trials_checked": 193677,
+    "enabled": 96997,
+    "credited_references": 3764966,
+    "invalid_cold_recalls": 0,
+    "cold_recalls": 32934,
+    "benefit_min": -0.2843097912070894,
+    "benefit_max": 0.373207827316318,
+    "tested_records": 582382,
+    "positive_records": 276842,
+    "negative_records": 305539,
+    "positive_to_negative": 251496,
+    "negative_to_positive": 235874,
+    "references_maturing_during_trial": 186359,
+    "temporal_check": "mature_by_trial_end; exact_per_query_time_not_logged"
+  },
+  "original_interrupted_audit_sha256": "90f02aec42e0bc382bc4aa22559678739af93e585caae2a30f112582cb6e28b1"
+}

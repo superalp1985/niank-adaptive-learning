@@ -1,0 +1,54 @@
+{
+  "config": {
+    "stage": "continued_practice",
+    "arms": [
+      "random",
+      "reversible"
+    ],
+    "warm_start": "tracking_v20/consequence_relearning/calibration/model.pt",
+    "ancestor_experiences": 2506752,
+    "model_seed": 211,
+    "world_seed": 831000,
+    "memory_seed": 21021,
+    "worlds": 72,
+    "rollout": 128,
+    "epochs": 2,
+    "milestones": [
+      8192,
+      20480
+    ],
+    "probe_steps": 1024,
+    "shift_steps": 2048,
+    "guidance": 0.35,
+    "directory_capacity": 128,
+    "replay_budget": 1536,
+    "horizon": 8,
+    "ancestor_v21_steps": 4096
+  },
+  "sources": {
+    "tracking_v21/directory.py": "8a384de4089d48b1085bf8c418ed5e0d0c0efd7be388e568c197e7a8acd71093",
+    "tracking_v21/learner.py": "a4ae9d83af86c8fe02d069cca38e4bd3db839ae6b0d6d732ae447f10c0a4237a",
+    "tracking_v21/run.py": "77cada67eebc292a6bdae720ef60a00638dd2619977be95b3f95c78b2476114a",
+    "tracking_v21/test_mechanism.py": "488b77dcee396a97ae47abe51e7bc175370823feee345f806a16d7fff8554faa",
+    "tracking_v21/PROTOCOL_ZH.md": "410faae53723f022803cec745948348b638f78643da48dc6c8ef9ac9e725c098",
+    "tracking_v21/config.json": "4a370434382f36d8d69943c6bdd1c500d0b80c0e38f0c8620bf5448222d4ccb7",
+    "tracking_v20/run.py": "a24121dc7afdb357e1e37dd69a52d1bc6b10df71de685018aae879c7d66ead13",
+    "tracking_v20/learner.py": "306dac87e49eea348a493ded4638ee987d4afd918f23ae2fc207ab4c0b657208",
+    "tracking_v20/directory.py": "a98ec890d73b4ba898b25c45fdfe677b2a3a95164da48814c00fe12d620f6222",
+    "tracking_v19/run.py": "06f7d643f248b0064bc19df8d8379f98900158fa07ec12bdbb3988b630273d99",
+    "tracking_v19/learner.py": "fc34ba9ea582c1e93c936317087fd2e1b57f097f0bc75af5e80067d9a19701b5",
+    "tracking_v17/run.py": "ae41c319ad68a6f0ada6aeb2ce8ca9b1b3a795d59471718af8b523a9ac8e2bdd",
+    "tracking_v17/learner.py": "9fac379700e0057eb668ff460ddc9ed95fe5c55b5024bbd2ed4ac99e181fbb64",
+    "tracking_v17/world.py": "b1ba1fdb18473d7ebb1dfffba5e6113fe8d489c0f825162a89b96fad5f71d949",
+    "tracking_v14/learner.py": "fee109d39e7dcc9f7442066810d5e8513a02a3aa027cddfe64425023989337fd",
+    "tracking_v21/recovery.py": "bc4f10458bd93829417cffcd7fda9015a01933fa031acc90a81b2cbb7822fdc2",
+    "tracking_v21/RECOVERY_ZH.md": "df40d9dc9f506b7acb6af18e301d4e13fc38b00aaed5a800b0d2eb0add14793f",
+    "tracking_v21/test_recovery.py": "8a916020bfc94ec7f003b2d7b9d87fad08199c7dac186937fd1a7dbd7ff02dde"
+  },
+  "ancestors": {
+    "random": "287e726b1dfae94f4032009b6fcf7fc27bac06bdde059236405b9aac63627749",
+    "reversible": "a4330748ca3cfecbb563d4b076e5b7ce441223b76d1a2e290632527d387b48a1"
+  },
+  "continuation": "weights_only_at_4096",
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU"
+}

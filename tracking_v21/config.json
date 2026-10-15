@@ -1,0 +1,19 @@
+{
+  "stage": "reversible_practice",
+  "arms": ["random", "reversible"],
+  "warm_start": "tracking_v20/consequence_relearning/calibration/model.pt",
+  "ancestor_experiences": 2506752,
+  "model_seed": 211,
+  "world_seed": 821000,
+  "memory_seed": 21021,
+  "worlds": 72,
+  "rollout": 128,
+  "epochs": 2,
+  "milestones": [4096, 12288, 24576],
+  "probe_steps": 1024,
+  "shift_steps": 2048,
+  "guidance": 0.35,
+  "directory_capacity": 128,
+  "replay_budget": 1536,
+  "horizon": 8
+}

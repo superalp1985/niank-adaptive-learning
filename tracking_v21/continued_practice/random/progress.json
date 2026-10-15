@@ -1,0 +1,16 @@
+{
+  "step": 20480,
+  "experiences": 1474560,
+  "contact_count": 139,
+  "safe_contacts": 94,
+  "collision_rate": 0.04318576388888889,
+  "impact_rate": 0.011610243055555556,
+  "preupdate_mse": 0.006022573448717594,
+  "directory_insertions": 687964,
+  "retrievals": 245760,
+  "reopened_accesses": 1,
+  "consequence_loss": 0.206146702170372,
+  "policy_relearn_loss": 0.0,
+  "replay_consequence_loss": 0.287529855966568,
+  "replay_policy_relearn_loss": 0.06615038635209203
+}

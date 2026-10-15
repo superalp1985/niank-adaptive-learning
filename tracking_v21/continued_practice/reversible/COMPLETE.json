@@ -1,0 +1,6 @@
+{
+  "complete": true,
+  "steps": 20480,
+  "lineage_steps": 24576,
+  "weights_only_boundary": 4096
+}

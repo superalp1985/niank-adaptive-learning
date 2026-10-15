@@ -1,0 +1,12 @@
+{
+  "step": 128,
+  "experiences": 3072,
+  "contact_count": 55,
+  "safe_contacts": 41,
+  "collision_rate": 0.045572916666666664,
+  "impact_rate": 0.0087890625,
+  "preupdate_mse": 0.006610253360122442,
+  "directory_insertions": 1434,
+  "retrievals": 0,
+  "reopened_accesses": 0
+}

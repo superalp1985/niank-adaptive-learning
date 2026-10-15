@@ -1,0 +1,226 @@
+{
+  "training_complete": false,
+  "sources_verified": true,
+  "sessions": {
+    "random": {
+      "steps": 9344,
+      "worlds": 72,
+      "counts": {
+        "events": 672768,
+        "evidence": 672768,
+        "outcomes": 672285,
+        "directory_events": 308482,
+        "retrievals": 112128
+      },
+      "consequence_labels_checked": 672285,
+      "maximum_target_difference": 0.0,
+      "consequence_channel_mse": [
+        0.14437317113856085,
+        0.03888514459822005,
+        0.03599248587534869,
+        0.09290821188369539,
+        0.07638890717718809
+      ],
+      "replay_batches": 73,
+      "invalid_retrievals": 0,
+      "premature_labels": 0
+    },
+    "random/probe_0": {
+      "steps": 1024,
+      "worlds": 24,
+      "counts": {
+        "events": 24576,
+        "evidence": 24576,
+        "outcomes": 24576,
+        "directory_events": 12600,
+        "retrievals": 0
+      },
+      "consequence_labels_checked": 24576,
+      "maximum_target_difference": 0.0,
+      "consequence_channel_mse": [
+        0.28890784605363923,
+        0.10642918505935957,
+        0.07640395674795523,
+        0.15138491726482547,
+        0.06514078985560445
+      ],
+      "replay_batches": 0,
+      "invalid_retrievals": 0,
+      "premature_labels": 0
+    },
+    "random/probe_4096": {
+      "steps": 1024,
+      "worlds": 24,
+      "counts": {
+        "events": 24576,
+        "evidence": 24576,
+        "outcomes": 24576,
+        "directory_events": 12041,
+        "retrievals": 0
+      },
+      "consequence_labels_checked": 24576,
+      "maximum_target_difference": 0.0,
+      "consequence_channel_mse": [
+        0.2084447441684392,
+        0.03778521455332003,
+        0.04467828671466153,
+        0.10577327210742382,
+        0.06446398297698626
+      ],
+      "replay_batches": 0,
+      "invalid_retrievals": 0,
+      "premature_labels": 0
+    },
+    "reversible": {
+      "steps": 8064,
+      "worlds": 72,
+      "counts": {
+        "events": 580608,
+        "evidence": 580608,
+        "outcomes": 580110,
+        "directory_events": 261290,
+        "retrievals": 96768
+      },
+      "consequence_labels_checked": 580110,
+      "maximum_target_difference": 0.0,
+      "consequence_channel_mse": [
+        0.14695311766022132,
+        0.04539915743101579,
+        0.03928274148511229,
+        0.0912573595213744,
+        0.07399409423821428
+      ],
+      "replay_batches": 63,
+      "invalid_retrievals": 0,
+      "premature_labels": 0
+    },
+    "reversible/probe_0": {
+      "steps": 1024,
+      "worlds": 24,
+      "counts": {
+        "events": 24576,
+        "evidence": 24576,
+        "outcomes": 24576,
+        "directory_events": 12600,
+        "retrievals": 0
+      },
+      "consequence_labels_checked": 24576,
+      "maximum_target_difference": 0.0,
+      "consequence_channel_mse": [
+        0.28890784605363923,
+        0.10642918505935957,
+        0.07640395674795523,
+        0.15138491726482547,
+        0.06514078985560445
+      ],
+      "replay_batches": 0,
+      "invalid_retrievals": 0,
+      "premature_labels": 0
+    },
+    "reversible/probe_4096": {
+      "steps": 1024,
+      "worlds": 24,
+      "counts": {
+        "events": 24576,
+        "evidence": 24576,
+        "outcomes": 24576,
+        "directory_events": 12216,
+        "retrievals": 0
+      },
+      "consequence_labels_checked": 24576,
+      "maximum_target_difference": 0.0,
+      "consequence_channel_mse": [
+        0.19618576535094437,
+        0.04099437545810739,
+        0.04473103127968581,
+        0.11082408744778623,
+        0.07365683807808428
+      ],
+      "replay_batches": 0,
+      "invalid_retrievals": 0,
+      "premature_labels": 0
+    }
+  },
+  "credit": {
+    "catalog_records": 261290,
+    "trials_checked": 75803,
+    "enabled": 38019,
+    "credited_references": 1452084,
+    "invalid_cold_recalls": 0,
+    "cold_recalls": 12333,
+    "benefit_min": -0.267037807995413,
+    "benefit_max": 0.33804463163724874,
+    "tested_records": 226214,
+    "positive_records": 107836,
+    "negative_records": 118374,
+    "positive_to_negative": 97846,
+    "negative_to_positive": 91989,
+    "references_maturing_during_trial": 79276,
+    "temporal_check": "mature_by_trial_end; exact_per_query_time_not_logged"
+  },
+  "phases": {
+    "random": [
+      {
+        "start": 0,
+        "end": 4096,
+        "experiences": 294912,
+        "safe_contacts": 2438,
+        "contacts": 3466,
+        "safe_per_body_minute": 4.133436414930556,
+        "collision_rate": 0.03935411241319445,
+        "attacked_impact_rate": 0.015434126420454546,
+        "prediction_mse": 0.004834337159991264
+      },
+      {
+        "start": 4096,
+        "end": 8192,
+        "experiences": 294912,
+        "safe_contacts": 2527,
+        "contacts": 3893,
+        "safe_per_body_minute": 4.284328884548611,
+        "collision_rate": 0.04284328884548611,
+        "attacked_impact_rate": 0.015559311939461883,
+        "prediction_mse": 0.004982900805771351
+      },
+      {
+        "start": 8192,
+        "end": 9344,
+        "experiences": 82944,
+        "safe_contacts": 803,
+        "contacts": 1144,
+        "safe_per_body_minute": 4.840615354938272,
+        "collision_rate": 0.032564139660493825,
+        "attacked_impact_rate": 0.01541688012295082,
+        "prediction_mse": 0.004844417329877615
+      }
+    ],
+    "reversible": [
+      {
+        "start": 0,
+        "end": 4096,
+        "experiences": 294912,
+        "safe_contacts": 2342,
+        "contacts": 3552,
+        "safe_per_body_minute": 3.970675998263889,
+        "collision_rate": 0.04445054796006945,
+        "attacked_impact_rate": 0.015589488636363636,
+        "prediction_mse": 0.005124072078615427
+      },
+      {
+        "start": 4096,
+        "end": 8064,
+        "experiences": 285696,
+        "safe_contacts": 2531,
+        "contacts": 3669,
+        "safe_per_body_minute": 4.429533490143369,
+        "collision_rate": 0.03156852038530466,
+        "attacked_impact_rate": 0.01502025645059786,
+        "prediction_mse": 0.004931425675749779
+      }
+    ]
+  },
+  "unmatured_at_interruption": {
+    "random": 483,
+    "reversible": 498
+  }
+}
