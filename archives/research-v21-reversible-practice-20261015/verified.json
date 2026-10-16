@@ -1,0 +1,1034 @@
+{
+  "repository": "superalp1985/niank-adaptive-learning",
+  "tag": "research-v21-reversible-practice-20261015",
+  "manifest_sha256": "fa50cec47b847a6d26f88845db6e1f42d7a6e6b39b02927b068fd44ef17ad378",
+  "remote_manifest_sha256": "fa50cec47b847a6d26f88845db6e1f42d7a6e6b39b02927b068fd44ef17ad378",
+  "verified_utc": "2026-10-16T12:24:19.172289+00:00",
+  "parts": [
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part001",
+      "bytes": 41943040,
+      "sha256": "263d59cbe98ad7d6a16e1f5dd15f01ac1d815a3754347f67a1426a002aa16518"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part002",
+      "bytes": 41943040,
+      "sha256": "d8100c15707183112489ff21fbe147a691062b4398992ef6515b4fd7ec7f5011"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part003",
+      "bytes": 41943040,
+      "sha256": "0a9d5ca9bcce22d5b5916d749a4ee9af316ee3f780d57dfb6b5ddf678716a1e9"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part004",
+      "bytes": 41943040,
+      "sha256": "bcf98dac8a331a569e678b2c39a8208a7063eebebda702970c5f775a7b4a2297"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part005",
+      "bytes": 41943040,
+      "sha256": "56645407790850d693c1d1dc50bc2c2f30ca2af729dd8dd1676dfb8582266aeb"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part006",
+      "bytes": 41943040,
+      "sha256": "8f66d85154bf15308c098b4ed564c50b5c1537b1fc0d3184ea81409c3d4e73d9"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part007",
+      "bytes": 41943040,
+      "sha256": "5e167159e1bb367309efd3db6df23fccc1faa316f5057c033124d6065dcd6612"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part008",
+      "bytes": 41943040,
+      "sha256": "033e82df5734ee85e3d1a4a0bc38b15b46c0690731444df72a762ed8a4c485ae"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part009",
+      "bytes": 41943040,
+      "sha256": "1f2c4bf669c9a8ef007becfdee3826c95deab4dca80b4bc8c294cfeaf77c1e2f"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part010",
+      "bytes": 41943040,
+      "sha256": "f32844927cc2bff998f76f5b0ba6757c13ad40f44ce67a1a718fa2452f3affd2"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part011",
+      "bytes": 41943040,
+      "sha256": "896f54f832e056a3a5bbbf22aa8e856d8b34ed31a7f015acbc444648aaefb7d6"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part012",
+      "bytes": 41943040,
+      "sha256": "8ddd07fc8c3c4dc672e433a6dc590dd209f586e5bcb3db0cd9cd17003025ccfa"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part013",
+      "bytes": 41943040,
+      "sha256": "a941af2f9e3a89435acb1181d2e4ba5047ab96d2c7fc1d5ddad4243c0ca2e151"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part014",
+      "bytes": 41943040,
+      "sha256": "c919e03d3c34e8d36f381d895dbd0b4d853d04d4e523a8d96233dbadc564f160"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part015",
+      "bytes": 41943040,
+      "sha256": "8b5bc1be970263c3d05ee200dd0b3649c27d1e7b9a7f200656850a1290e1702b"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part016",
+      "bytes": 41943040,
+      "sha256": "afb0d238cb4a534b60d0c180d204b735e81fb16399d20e64c833f5fa472f48d0"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part017",
+      "bytes": 41943040,
+      "sha256": "0f2aa4168038323929e31043a5238871a98b35e74dc5372cece7decf28f5ca5e"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part018",
+      "bytes": 41943040,
+      "sha256": "a44eb544f1a2116ee3d2256fa204da10d6cdf3ed0a4c5ff9da9045553f03fe49"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part019",
+      "bytes": 41943040,
+      "sha256": "f63e83cd48fec3ed2d3f2bd796bd9975916becfb285bf0e230cfd0da6b9a5127"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part020",
+      "bytes": 41943040,
+      "sha256": "e01466de57c57e0c14fdf350b0ac1a5f20b59e3eea29a519b76196f1808c53ca"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part021",
+      "bytes": 41943040,
+      "sha256": "00aef1313503347036e7fc934119327b04b708d49b4754db20ea6c57be3fa26c"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part022",
+      "bytes": 41943040,
+      "sha256": "887efe3c5e35208f03d2aa18ef44127079b2065cb47a7e398f3b2712947a2437"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part023",
+      "bytes": 41943040,
+      "sha256": "3e622c60de66f2b2cef577aae0c049cc41b706e3af23e2ec4ad78adb9144e34f"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part024",
+      "bytes": 41943040,
+      "sha256": "f1b7163aad9f820065f62b7bb9f8f7af5d40084c261ccf6e30ee20afeee970dc"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part025",
+      "bytes": 41943040,
+      "sha256": "ea7cf5d064c6971e63bf8734523cfd41e1eded6eca8ed98ff32d2b933ed4f83b"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part026",
+      "bytes": 41943040,
+      "sha256": "dad13792fb11a42355c1b85d9929dd61c0bf7dc421a2404f280dd231b807b5c0"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part027",
+      "bytes": 41943040,
+      "sha256": "2646126c9afac8cfe93de3e9e41bb48a07cd4920eb1f79c74f058200e1c3f412"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part028",
+      "bytes": 41943040,
+      "sha256": "54b45296cdd77bcad45c3b2d142c1a63d467da769269c60c1e97b322b086b527"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part029",
+      "bytes": 41943040,
+      "sha256": "181898b8c1199a2244f7c86d6816cfe4a655a12653e63f4e71cbfa90aeb5249f"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part030",
+      "bytes": 41943040,
+      "sha256": "dcc1c1ffbb0caf89702db910b212fc27efdb0781d329fa166221ffb297f0fc30"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part031",
+      "bytes": 41943040,
+      "sha256": "c6fa1e7a3eb7fe017c7229ec2fb6776be93d6d20e16fd6b36addd47aef078b42"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part032",
+      "bytes": 41943040,
+      "sha256": "fc8644fa53137d722503618ce2e10c0eaace588a91b5f515e0372d67b29d2320"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part033",
+      "bytes": 41943040,
+      "sha256": "91ead050c9948c895248649b1221ee4e617eb0f9709a4501cdad66beb15324f7"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part034",
+      "bytes": 41943040,
+      "sha256": "fa71f3aeca52e254d8ce68b9d3d9599c3295533181f190f0ad994378c347530b"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part035",
+      "bytes": 41943040,
+      "sha256": "0eca1bd3022b3148f95f81f3ca41fadd57f47149da0de9e57a9a8d124f1f5ff2"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part036",
+      "bytes": 41943040,
+      "sha256": "bde7318ad75017bf533e0494b49705f0baa22f1ed3da2807697e1268ece9d998"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part037",
+      "bytes": 41943040,
+      "sha256": "65f37bd56721c85dc626ee5c0813c14d6069fe012d64723fce7735f8e559965c"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part038",
+      "bytes": 41943040,
+      "sha256": "e430c545da1395d2377a2b0e5306bb04ac7d74c5925082ffabc810190d612553"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part039",
+      "bytes": 41943040,
+      "sha256": "60d50cfef9c6f19fbae1cbbb025cffb122607acc65107be8f91923957b5e9df6"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part040",
+      "bytes": 41943040,
+      "sha256": "0dc761b3b766fd84a1c7328fffd77be94eefaebf64999131e95a23cdc39d09e1"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part041",
+      "bytes": 41943040,
+      "sha256": "84810209ddf235de700a9767e92186261d7d08e4b4f01301d39c5ba2e653317d"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part042",
+      "bytes": 41943040,
+      "sha256": "4722f03f2a0ae3c59f4c057972c5ee8c7551e75c8e16feda15d74d25dde12c87"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part043",
+      "bytes": 41943040,
+      "sha256": "25f59b4967d2ab3340fbc31520c8e9b9677ca655896e5fa49129754ce7b16848"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part044",
+      "bytes": 41943040,
+      "sha256": "58df582ed90fa9b673734acdc151565ca9217f4ce441b452583cb2b3369884d5"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part045",
+      "bytes": 41943040,
+      "sha256": "9fcb403905fad8e720462af127cd08b724b340cb68480a7c422319f255d9dfda"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part046",
+      "bytes": 41943040,
+      "sha256": "ed2121f9a8bd4b6871224d9594999cb074ae9616a7cfee9b57f9d86db56f8ed3"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part047",
+      "bytes": 41943040,
+      "sha256": "9a22a269805cd81266aa8cb00a1cc3e93f62ba0fc3f4e9d42280e2f713feceae"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part048",
+      "bytes": 41943040,
+      "sha256": "97583d170aaa6d494a4ddba6aef992c35717a3d858c07e2c6039abe24eb28f14"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part049",
+      "bytes": 41943040,
+      "sha256": "b9e145226b4423638cb80f3ed2d3bb67fd9a06c0b0e12d643a67a5af2bd06d29"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part050",
+      "bytes": 41943040,
+      "sha256": "330228a5b445af83bad207dc7234a19b94ae08f6fec8b6f7c64f191852f8bf2c"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part051",
+      "bytes": 41943040,
+      "sha256": "faf8be87f85f0a51c53789d258730e87fca54bc5804f4c15c67bb9e97e5df806"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part052",
+      "bytes": 41943040,
+      "sha256": "19997c45d7ce2af4035daae3b4a62f2eea839da98d68f3d8b86cdd473f507160"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part053",
+      "bytes": 41943040,
+      "sha256": "5b5a114ed2cb86ac047a9a09fc2713ddb7fcc927d90507b5b42ee26320574611"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part054",
+      "bytes": 41943040,
+      "sha256": "f6db577d6ca2fe7a36b4e890a07dfaa20f24c9745a9241a83338324b4bb4a2c3"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part055",
+      "bytes": 41943040,
+      "sha256": "a94181b650d0d3c335eb7f5841b73d2e93e7a686ad4bb590f32c55a64861908c"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part056",
+      "bytes": 41943040,
+      "sha256": "7a27f71cd8dff4c411f6eb55dff739e892b138c11838878ada551947221ba067"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part057",
+      "bytes": 41943040,
+      "sha256": "ce3c4e44c54fbafc01cd3ed9a264c44b708568008f42cfdba3e61019d5f73a06"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part058",
+      "bytes": 41943040,
+      "sha256": "5d8ced6e4a6fa717787be9718a76621f79ab58bb773a72f4fbd2975d293a2566"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part059",
+      "bytes": 41943040,
+      "sha256": "585edf33cef4e6633c360de62ae7836ae17da3652c7dae9fcc339217d05ce6c9"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part060",
+      "bytes": 41943040,
+      "sha256": "f4c47f1c35fc4f33e48519b887bc6facbdf681d8134cd321e808a50cd138b811"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part061",
+      "bytes": 41943040,
+      "sha256": "cd57712799d4e0cceea004576b589addadacd87d473df1dd85843d18a3975f66"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part062",
+      "bytes": 41943040,
+      "sha256": "31dd63054529ea0ce5bd77222209d4cd8eb3d8987ddf853aefd038534b77b5b6"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part063",
+      "bytes": 41943040,
+      "sha256": "0df340b3d598d4c6abd56a16a1004f6bfd08afb844a64e0b9d9c123634e96974"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part064",
+      "bytes": 41943040,
+      "sha256": "8e70649ae7f7d4a4bffcc96a622bf1fa380e167cc79b804a95f6569f36cf382f"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part065",
+      "bytes": 41943040,
+      "sha256": "9e47f2c19dcc12a805f1a47e1cc56ff1b98af3f0310139fb95d64734b0d4c338"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part066",
+      "bytes": 41943040,
+      "sha256": "5bc478bcfea0f7a0d330cb027f9fc22413ffb4c226416129f1e933dad8a284e1"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part067",
+      "bytes": 41943040,
+      "sha256": "4901a7842beb9623e11cb7023a343ea6c530cb0781d1b6305d472863362ad569"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part068",
+      "bytes": 41943040,
+      "sha256": "6db3f48feac10f939d0b41da0a8939c91afbdfe474ac99df50c822d398daceea"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part069",
+      "bytes": 41943040,
+      "sha256": "aca70bcfa0f136f837c1a873858af98eafa0bc011ebfbe2f9bad7ead9f4058ff"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part070",
+      "bytes": 41943040,
+      "sha256": "2079d6b1de03330c3b25d104e2692bdccc74db044b651f8bd862ab5ae6004b8a"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part071",
+      "bytes": 41943040,
+      "sha256": "1f6c92df89ab7659616a190ff9bff73b98ef80b30ae385d17370bcb685d6b29e"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part072",
+      "bytes": 41943040,
+      "sha256": "fe451f84f2ef97788ee9a190245235bc95b8cc0158c5f84f72ec78a87d865f4c"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part073",
+      "bytes": 41943040,
+      "sha256": "7445d4eeeb3df9cfef44896043ca47f00de1301473e7462b331df8341696b569"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part074",
+      "bytes": 41943040,
+      "sha256": "f064c74e9e7a0e5faf084b062fb707e7dc501d31bfd488b9e8d3d6055fc550dd"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part075",
+      "bytes": 41943040,
+      "sha256": "085fd7b11ef8ee003cb67fb3a3dc2ea390d60b50b01f9331c7fe748ac0766435"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part076",
+      "bytes": 41943040,
+      "sha256": "762d5a98635ab64af26d4c7ab31d93654af8081422240da2234962839ec48df3"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part077",
+      "bytes": 41943040,
+      "sha256": "292742560ee35d652c1e8a70e7d88a03e91a5a741c8c775586e1d33330723407"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part078",
+      "bytes": 41943040,
+      "sha256": "452ba85fcea98de43d7615653e8ce5703fff0c5b7eea3acfa562ba561e45f1d8"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part079",
+      "bytes": 41943040,
+      "sha256": "3c86e7364a28ded1ad18c5260b7f66d47a1e5cbe8502548d2764731dba652729"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part080",
+      "bytes": 41943040,
+      "sha256": "2fbeda9f5d2eb6aa98ffc8da57defa61880d5850b0b88a2fbd9d9e812a97c108"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part081",
+      "bytes": 41943040,
+      "sha256": "568a884e75b224b35655edf9e1534a478a856a00eacf9b98b88e6fe9b5b6501d"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part082",
+      "bytes": 41943040,
+      "sha256": "ac67fe209cd70d57a11b63b827f936a6d14db2e8cc79748c81ff275ba5c43f3c"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part083",
+      "bytes": 41943040,
+      "sha256": "233379a1eba642ce80f8bb15d5368de2cd1315019d330419af00ae13cec4e915"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part084",
+      "bytes": 41943040,
+      "sha256": "ed114ecda45cd976fb767201b8ccbd5896cee4c0475aa1cf08670977cec1a62f"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part085",
+      "bytes": 41943040,
+      "sha256": "adf24316fec7506c87174cfc93f6f9cf2aea973ac4e5ed09690f3c675f6aebbc"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part086",
+      "bytes": 41943040,
+      "sha256": "eb678de1a64acb3607cdc32eca9e949171378f48c64184608903446558fa2ef7"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part087",
+      "bytes": 41943040,
+      "sha256": "91433f2ebaa6d173ec9e0e81ad429909154f347b2156b2e79b0d133c14bc20ad"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part088",
+      "bytes": 41943040,
+      "sha256": "1b85bd9dafa6457a40608a13838e9c8f583ad8ca309b899f358de512a5ccaec3"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part089",
+      "bytes": 41943040,
+      "sha256": "e58407d4022110bfc07d0ade6b35fde3f33675218c984548ce6a0fac3b964384"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part090",
+      "bytes": 41943040,
+      "sha256": "2e2b95dc1c2b9034c5bd8d36b4167042b349baaea11fee11ae2a81bd658f9ce9"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part091",
+      "bytes": 41943040,
+      "sha256": "650044861958156399c6b58fb62fa267d28026ed22485bce2353a6a6a774f585"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part092",
+      "bytes": 41943040,
+      "sha256": "c4ba3129c50129c64a47be5e36603f92163ce8b83209f621434fd36cc15fc9b5"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part093",
+      "bytes": 41943040,
+      "sha256": "6882584442e8e20bd9a83e4e8f98246ae892b03151839758c09b2798692ff7ac"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part094",
+      "bytes": 41943040,
+      "sha256": "d31dbf86fbbcc93ed7598fce396a3c925e4bb68d56abd0fb891721247b5a512c"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part095",
+      "bytes": 41943040,
+      "sha256": "46a1aeb14e6ae651c0c7c47edbe2abe618f2340121ebcf275600a76db378f727"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part096",
+      "bytes": 41943040,
+      "sha256": "48edf0107116fd446ecfc8cd13cec88b4953a340f63104e02e7894ebdc25d41e"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part097",
+      "bytes": 41943040,
+      "sha256": "21d4e5be49f5e116c4d71432814a1327cad38959aeb6046d8fc0bbfc1fbf9c67"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part098",
+      "bytes": 41943040,
+      "sha256": "244b3e7dd1e7d1bf4a26991a5743c7bcc43b403964bda1a10db28015f10a09d3"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part099",
+      "bytes": 41943040,
+      "sha256": "4393fa18569641e469c1c8065132d029e6994d613698b1ffadc6bc6d2776cfa1"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part100",
+      "bytes": 41943040,
+      "sha256": "df22b874de90b34535144f882638ca93fcc1ef85e37924d6ed76ca3228f6677a"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part101",
+      "bytes": 41943040,
+      "sha256": "fcd4acb11dcfa6ccc6d0d0a3c325b7a5b68dcfc862df04459882d21f55cc4377"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part102",
+      "bytes": 41943040,
+      "sha256": "e280b7339d1ef1bdba5b78ff3cf6a3ffab19a4da45e24709a4eeacb17b1f54cd"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part103",
+      "bytes": 41943040,
+      "sha256": "9da97066810d7c301c2364c43f52bb221fec4b2d3deb59ba2695a4373bb4f441"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part104",
+      "bytes": 41943040,
+      "sha256": "ca7aeed1cd0bdd60fa73e1b1703bd93a41bc725e82154a88c135d07f47eb2bc4"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part105",
+      "bytes": 41943040,
+      "sha256": "8f99e79b5c7454fd5ac3ebcee6fabfc94eb6fb37957e1861c3b3186ec95bb04d"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part106",
+      "bytes": 41943040,
+      "sha256": "d18b2c25731b69af6674bab11740434aaa6d29ef249e9e2614f79815032a36e9"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part107",
+      "bytes": 41943040,
+      "sha256": "817e5a54bf7b142b538b24b55acd8e8178fd7d8e7b4070ef0a4478769ad47145"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part108",
+      "bytes": 41943040,
+      "sha256": "00adb3aef02a6c85a3268e4a08ef52a38b3118493d7e28546c931fc5a08a2ba3"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part109",
+      "bytes": 41943040,
+      "sha256": "4ff64fad226ff800f5a9524ff2e50e86e778bf69df6de4e7474841440fc6cdbb"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part110",
+      "bytes": 41943040,
+      "sha256": "6b49598aa902816a0b990f6dd7bc19db87780b05ded4ba794659d5b5c7c9f662"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part111",
+      "bytes": 41943040,
+      "sha256": "437a908a34aea1f1fa32f1819441b396b00d6d81ba784240c6e48a61293cec62"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part112",
+      "bytes": 41943040,
+      "sha256": "46b10bda6a6948048c12cf5c996e8e8a475b12b055f06930a68085e96597ca6b"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part113",
+      "bytes": 41943040,
+      "sha256": "8cc5d662f97ac19e079e9a68e23339d6a52493211853833042c10e3d15956c1c"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part114",
+      "bytes": 41943040,
+      "sha256": "a580afcecb151ba12c6195a14ca15e0911bb0b424508dcf52ad093cca0900722"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part115",
+      "bytes": 41943040,
+      "sha256": "413ae8ffd0d20fc9eae7c198d0fffab923e54642207921feb546b557224d63bf"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part116",
+      "bytes": 41943040,
+      "sha256": "e3bfebe22af9060917c876397c6d71798ccbffe09c1ca2e79b0ddc473de8263a"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part117",
+      "bytes": 41943040,
+      "sha256": "d991e952b82d981225400939db2bce753ebe12a941b8a44eb64d03655157dd42"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part118",
+      "bytes": 41943040,
+      "sha256": "02e2e58be1bf61525f86d1c9ac0ca72c66ea675b51c530e4b7a8324b6dc9fb42"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part119",
+      "bytes": 41943040,
+      "sha256": "831f4159fb83fee5246f97bd4c38e1316efa8759c943bb694bb51d7a672d8092"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part120",
+      "bytes": 41943040,
+      "sha256": "33e3c179d503331afdd3cbed2e0f8b5bd172bc276fa38599a4417036546a0cc8"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part121",
+      "bytes": 41943040,
+      "sha256": "b1213d31f62b64e611802952257c65f1e81422440607b422d82208fdc6fe40ce"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part122",
+      "bytes": 41943040,
+      "sha256": "1b11133ac51129af8c7696470f59d10c834342dcb7af4e604c1a5a80cbec8588"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part123",
+      "bytes": 41943040,
+      "sha256": "c499bb5bba7e411db58ad82fb387fcde1c309e21e6ee644e5d298f39d4c48bd9"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part124",
+      "bytes": 41943040,
+      "sha256": "23249e8e60a2fc704002765d58d7768cc145bf50d27c9d1c8a71efcaa87b37c7"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part125",
+      "bytes": 41943040,
+      "sha256": "d6c4de62c02892b9c0cea60eb67ab2e7a9703d63839a462acc9bea632c07bb09"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part126",
+      "bytes": 41943040,
+      "sha256": "bf72b01c43d56b04d3ff3a01f74c8af15534de709257fb2eeeade7a1e0bc1265"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part127",
+      "bytes": 41943040,
+      "sha256": "babbb5428464338381661be76e3b10f1541055edd654d077db74dcc9ae6cb0de"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part128",
+      "bytes": 41943040,
+      "sha256": "0cf5f1f9574381e7c6988083fab43715a5f95662b1c7c823d162584e4226c9e9"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part129",
+      "bytes": 41943040,
+      "sha256": "18916716d18a9d2e195bc12059294ff9f2091ed45ad55efb25cdf9e878595315"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part130",
+      "bytes": 41943040,
+      "sha256": "8123cbd5806ab8453c52bde0aa74ed7b17e994c15c77a752279a37f1ef21cb65"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part131",
+      "bytes": 41943040,
+      "sha256": "9741773a5ccad8d6317142cee376754e73cdce53dc4f359ba32690ea3570c3cb"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part132",
+      "bytes": 41943040,
+      "sha256": "3334dc31db76d7116e18c34a38743bd513ff80434c39b4d3d0a30b52b6a29fff"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part133",
+      "bytes": 41943040,
+      "sha256": "5459148f7061b52d4cf8c5b744d6f03dde84cf052a6ad2139d550ccd7f858f4d"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part134",
+      "bytes": 41943040,
+      "sha256": "8a137395de4d3c34bfb4682cb9a74d3ed3fb6c289f7e842be45c28cddd68eda3"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part135",
+      "bytes": 41943040,
+      "sha256": "2c3ea5ba8ac74d9e77227cb51fa7538e49dafc84bbce11ddb10329043f2c9ebc"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part136",
+      "bytes": 41943040,
+      "sha256": "95057b58acb2995f9166777acc033328eb7a5526efb59113d3131f2d10f25514"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part137",
+      "bytes": 41943040,
+      "sha256": "67a551b5244f7f2624c1666d1e3d1ce22d84132960cc5f167e420936f38a9b53"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part138",
+      "bytes": 41943040,
+      "sha256": "92f72d20d2c7b5d9a428ee23bf2a79d17baae3ff26f353ae5d1c35661f69b6ac"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part139",
+      "bytes": 41943040,
+      "sha256": "fe7bc722851008f85dac7ac79b1e508884db988435648f85a161107a29dbb5d8"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part140",
+      "bytes": 41943040,
+      "sha256": "077e7d7e2ea7f83504a4960c89068e52cd0a0d418b779c55569ee8fcb3da4608"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part141",
+      "bytes": 41943040,
+      "sha256": "3ad105cf62cc8fdc63e6d80187295198e96b8a4b65d7bc8eb135a92e1436b8a9"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part142",
+      "bytes": 41943040,
+      "sha256": "25fc8ab2c9c068817c7bf678a5482a33c335ab32d90c5454b162058962a6e2a7"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part143",
+      "bytes": 41943040,
+      "sha256": "1b0bf31c3b1ac9a4a1b02f2a12ecd75cd8c4a7a667659d2802471806fbdd80df"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part144",
+      "bytes": 41943040,
+      "sha256": "8a71b85cddad96ed4417e66315ffe82299183dfe652e92232b72fd4a451d2988"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part145",
+      "bytes": 41943040,
+      "sha256": "6568eb0b0423fb6870d9587fd6f79f9c852efddbe9a88f9e37930076039e3759"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part146",
+      "bytes": 41943040,
+      "sha256": "040348bdc3f96d92a3cb03f404af63490f616afa00065c2ed639195cd30ab3b5"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part147",
+      "bytes": 41943040,
+      "sha256": "e71132d45b7d63201e3b4a6be1859d8e83e8eb614619f5862033a6359fe2ab0d"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part148",
+      "bytes": 41943040,
+      "sha256": "ef6fdf7498ccc1f1e014d44b66dc1e832921b058501bef4c3bb1f85363ddb18a"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part149",
+      "bytes": 41943040,
+      "sha256": "1838521bc79ff249bce19cd751577c5386105045934339479baaa55471ff37c5"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part150",
+      "bytes": 41943040,
+      "sha256": "1ee71060b5cac8774b5d30ac9fc4c9ba10a11fe9319bff773153e1aef3214685"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part151",
+      "bytes": 41943040,
+      "sha256": "42578cf83c7b305cf64746ebdcd86afd4df48c5f4979163616538d8d02b34138"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part152",
+      "bytes": 41943040,
+      "sha256": "a4ecc70c28e71cf6e7f712d6309d234f8fd37e379bdaae6f6a8305ce51576e43"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part153",
+      "bytes": 41943040,
+      "sha256": "2b7107719c6c55033c77f21474a5bef6a7afd9ba4ae6b42091504ade40728b29"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part154",
+      "bytes": 41943040,
+      "sha256": "c8e8be9882cd27316ceab1bdce0ec484e0ebe56eba3290cd30f4c1fc2f9836cf"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part155",
+      "bytes": 41943040,
+      "sha256": "3177061ff5d3f2f00e5fdd5291dd1590f45759292acd8576b75031ea11264caa"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part156",
+      "bytes": 41943040,
+      "sha256": "cda952c09f0477b2a3564b90e2cd6a514742b5f7582291cf018c174d3a87e580"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part157",
+      "bytes": 41943040,
+      "sha256": "702801b9bf53d53bb4cc39639e47a9e2670557cc6b32500676ba5cda22210bcb"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part158",
+      "bytes": 41943040,
+      "sha256": "bdd42c7785b6e3da543c4c7946128b9c109407d346026c1ff21cd2356d8ae83c"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part159",
+      "bytes": 41943040,
+      "sha256": "fc78b344de28176eeffe720699b30cc24d51c5e4b02552248f909a7da0ae5bfd"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part160",
+      "bytes": 41943040,
+      "sha256": "92205a21094072570f5bd722115d36716680a79079693a277637da96c1d815a8"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part161",
+      "bytes": 41943040,
+      "sha256": "81f0a63e8e26ad40d439c71500428f75c4578af9c343ba21a73718191807a62f"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part162",
+      "bytes": 41943040,
+      "sha256": "2a546ee2e954d25d14e39c74b229cfd6d6886dc2277c608b0aa23c0c4d15b479"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part163",
+      "bytes": 41943040,
+      "sha256": "166d17eeb5d6cc0cb0a513a1c37d57cfb495c4ec0e091ad5178a4c92f8785485"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part164",
+      "bytes": 41943040,
+      "sha256": "36df097f780940af2bf6e6df7033d3ccd57097f4fd7547d4d088be7ade806837"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part165",
+      "bytes": 41943040,
+      "sha256": "da9eea27f60f76419d6a7593a24435cdd2b7200d1f7a67fbc78fbe7ec7369536"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part166",
+      "bytes": 41943040,
+      "sha256": "78b0cb5bc3d2349868ea0cf389ed30950c39ff7d4958a5908a503820927f0c02"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part167",
+      "bytes": 41943040,
+      "sha256": "51662d9a4ab64302fc291d36825e01cac76d79a19beebfad6a2c2ebde2078aba"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part168",
+      "bytes": 41943040,
+      "sha256": "5889ce10d53aaa993fbf74e974f02b996ba29e47822d0d52c6685c3f90125445"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part169",
+      "bytes": 41943040,
+      "sha256": "0da2ff903149e966ad20495b7dd49ca43aa41094232aff8d1b513517e0977e38"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part170",
+      "bytes": 41943040,
+      "sha256": "72d86ed4b4f4780260854e9221a125cac58582d9cdc277f58147974901f1f403"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part171",
+      "bytes": 41943040,
+      "sha256": "3ac6634be6bda9d6b0563df5c4f01140c4a4f736fdfdfd54e9d712dc9fd7c900"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part172",
+      "bytes": 41943040,
+      "sha256": "38f19d87256228d1fde17ad8d071b4f2cf2b1eb755c445ac21bb2e68c92aeff2"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part173",
+      "bytes": 41943040,
+      "sha256": "c15a331f4f9a27f455d159497060fc83d7c2c3d725fba83f66ad3a7baa300ce2"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part174",
+      "bytes": 41943040,
+      "sha256": "e6622ff5a0338559f458e3c5d458fa1eb3677082caeedcfd492fadc48143d62e"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part175",
+      "bytes": 41943040,
+      "sha256": "a985fa8693195b32759918d4fd3ebe6b79006d72263f44ecdf21573109cf0a1a"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part176",
+      "bytes": 41943040,
+      "sha256": "868288a77bb3a394321f9e46254914b3ed00a508c0e146e9e5b213b20324d917"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part177",
+      "bytes": 41943040,
+      "sha256": "c56be26a168b274d50ce24cf47b7ddddb3b48d6a3eb7067d135d89f0e331e771"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part178",
+      "bytes": 41943040,
+      "sha256": "5723ef5a773d41cd6d2a1a101b33413d365902c5f911c2573b1af52126dd484a"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part179",
+      "bytes": 41943040,
+      "sha256": "cf7e0b061c10a757dbea030c0c9823e9f25e605b9d79be09ae3515296c7de4dc"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part180",
+      "bytes": 41943040,
+      "sha256": "277c68bdb27e42d0dc5bb90bab05b24b63e0abf42633c0817bc8682b1363fffa"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part181",
+      "bytes": 41943040,
+      "sha256": "64610a0437d204efd11c7c99eaa9dfbebd7108f4e5342eb792249170db595f94"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part182",
+      "bytes": 41943040,
+      "sha256": "3328f724bca9f7a20ebe57fe6069d5819dbcc5b4e69b8bd4c1862eb57d247e43"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part183",
+      "bytes": 41943040,
+      "sha256": "b3936d43250efaf02f92766e2a58129caf8c596f9274d152c717eb1cce11a228"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part184",
+      "bytes": 41943040,
+      "sha256": "598cac75e103a4d4d9cb51305c0993bd57fefc03d50968d75df65e55ae601217"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part185",
+      "bytes": 41943040,
+      "sha256": "6c07fc4fae56dd0d1e9771a8e19e14456ea4587a754ca52359b3752e4d3e5ce4"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part186",
+      "bytes": 41943040,
+      "sha256": "b5897c29a3707a5726e1b856f9f1830f2c0135e9dbc0fd14dfb9160e0e256b4f"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part187",
+      "bytes": 41943040,
+      "sha256": "fc5c29c5493b1c8366adf5b483196ae5df0ee50e6513dd72932fc4ebab180859"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part188",
+      "bytes": 41943040,
+      "sha256": "a0e4d21cdc01720371b68e40b004acfb8bb3bf30cc82d543e5abc1f0a9906907"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part189",
+      "bytes": 41943040,
+      "sha256": "92bfac84a9aa1fa56a99282e0f7e19b4a13ae78e0137100c4d9a46cefa6f1ab1"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part190",
+      "bytes": 41943040,
+      "sha256": "9323e86e0b7c48c5733e67923b184aa0d12ebe9e7a483659dd0525ba389aec07"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part191",
+      "bytes": 41943040,
+      "sha256": "1d4419b28b490343502a46aa1b2d0f4c69af7f60170c36b9dfcaa44072009083"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part192",
+      "bytes": 41943040,
+      "sha256": "dfc59c8a9b9293e131d51b7b52293cf341918de4554cfc03a2aa340e7be8ac81"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part193",
+      "bytes": 41943040,
+      "sha256": "9b10433504165f8bd0d31a0534448a0094d1c8c183280c7b4bbcca0cb0e10469"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part194",
+      "bytes": 41943040,
+      "sha256": "5fda6f7c63e9871d641db5c4fe540bd5187694933c8d8bd77e25b88ce9639543"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part195",
+      "bytes": 41943040,
+      "sha256": "d5408fd9f03d2bed88ff47a9685da40cc880d09198d7b250c2cc167dc1f77f44"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part196",
+      "bytes": 41943040,
+      "sha256": "ae8a2526d6f2ed8921e6ebda3457ce086c560d87dcfc96ff0e63ae7c35e42c81"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part197",
+      "bytes": 41943040,
+      "sha256": "c38d23002c03c7e308cdf9cf0f0348756843b628c9f312e031a6e87664e648af"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part198",
+      "bytes": 41943040,
+      "sha256": "e42f80f5c0d74dfc4c2ab1dc9ffc731431ef98822da0cdbeb404ae8e0d72c506"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part199",
+      "bytes": 41943040,
+      "sha256": "cfe361941da308d24cdeacb265dea63584fe240afdabc5b8b1310baae8099d11"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part200",
+      "bytes": 41943040,
+      "sha256": "7ed996a5c1bdfd1065cac8a067c17ba6fc401a73d81fd290c420ac8176c76827"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part201",
+      "bytes": 41943040,
+      "sha256": "b5928e757c946a0028ab742eb8c14d1d446237751f9e00a98de47fb5ecc29f35"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part202",
+      "bytes": 41943040,
+      "sha256": "b3afc5ca943ad768151653eb7543f063294f58ea7406a429a83d709c8de81b18"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part203",
+      "bytes": 41943040,
+      "sha256": "42de7d87adcd9ccdb96daa6c0c361e90c766823674c612cba68cbd6a85fd1aa6"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part204",
+      "bytes": 41943040,
+      "sha256": "b0946f6ab5d8390247a1a8751b018f6424eac9c846588ca2a67031bed6b1be3d"
+    },
+    {
+      "name": "research-v21-reversible-practice-20261015.zip.part205",
+      "bytes": 7582784,
+      "sha256": "e0d4e9696c921d4997960304c4fd51152793a510955d4fb3f01493b67dd5fd43"
+    }
+  ]
+}

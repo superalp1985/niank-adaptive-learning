@@ -1,0 +1,37 @@
+{
+  "tag": "research-v21-reversible-practice-20261015",
+  "checked_utc": "2026-10-16T12:27:19.4611198Z",
+  "deleted_entries_absent": 639,
+  "retained_files_hash_matched": 156,
+  "previously_removed_zero_byte_locks": [
+    "tracking_v21/continued_practice/run.lock"
+  ],
+  "retained_binary": [
+    {
+      "path": "tracking_v21/continued_practice/random/model.pt",
+      "bytes": 612166,
+      "sha256": "187aae352a0d600f4a1f5745d807ee2ecd817a92057f8cea3ab9e3df6fc3eddc"
+    },
+    {
+      "path": "tracking_v21/continued_practice/reversible/model.pt",
+      "bytes": 612166,
+      "sha256": "62e3276e8be756a1f3bdb73e8584bc482e7e1f0b10d786e38395501a117782e8"
+    },
+    {
+      "path": "tracking_v21/integration_smoke/random/model.pt",
+      "bytes": 612166,
+      "sha256": "44341ef96bae6bed3389b7a108101e11734cb1e573aac0827a225eb937d0c25c"
+    },
+    {
+      "path": "tracking_v21/integration_smoke/reversible/model.pt",
+      "bytes": 612166,
+      "sha256": "30715acadabe6ba2ee14d281b9c35abae67a999748f3d03d47e33c9dcbc75508"
+    },
+    {
+      "path": "tracking_v21/continued_practice/reversible/events.sqlite",
+      "bytes": 4079276032,
+      "sha256": "66a7022c99204e68a959f2c5f4f3d1337b1f05d6071bf787a6c9a9ecf9606894"
+    }
+  ],
+  "status_documents_not_yet_updated": true
+}
