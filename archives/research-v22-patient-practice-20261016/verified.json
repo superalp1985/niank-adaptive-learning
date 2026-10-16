@@ -1,0 +1,24 @@
+{
+  "repository": "superalp1985/niank-adaptive-learning",
+  "tag": "research-v22-patient-practice-20261016",
+  "manifest_sha256": "ed041e22e9b50ee78c8b081f4d87805f427b4177eefea073cede140a73dff30f",
+  "remote_manifest_sha256": "ed041e22e9b50ee78c8b081f4d87805f427b4177eefea073cede140a73dff30f",
+  "verified_utc": "2026-10-16T15:48:05.159277+00:00",
+  "parts": [
+    {
+      "name": "research-v22-patient-practice-20261016.zip.part001",
+      "bytes": 41943040,
+      "sha256": "8a6e646dfb2d996106c5be9839f3549bc09033e2a05bc76a664637f4b4056479"
+    },
+    {
+      "name": "research-v22-patient-practice-20261016.zip.part002",
+      "bytes": 41943040,
+      "sha256": "d76fea8c0d1abc0c4b35aa0e2b7e16a6debe7eb28f5466f397b4396487f30d47"
+    },
+    {
+      "name": "research-v22-patient-practice-20261016.zip.part003",
+      "bytes": 8561134,
+      "sha256": "88eba1cdc600f8a67a2e9bc4dafa782714c371b954448d613475345beea63d1a"
+    }
+  ]
+}

@@ -1,0 +1,975 @@
+{
+  "format": 1,
+  "repository": "superalp1985/niank-adaptive-learning",
+  "tag": "research-v22-patient-practice-20261016",
+  "scope": "tracking_v22",
+  "created_utc": "2026-10-16T15:36:28.669032+00:00",
+  "source_commit": "87520460452310ef4edd88b88ee11751608bc41c",
+  "files": [
+    {
+      "path": "tracking_v22/__init__.py",
+      "bytes": 72,
+      "sha256": "9f2e543c9890c34016b9b427ac2cdfc2698667c1d784acf72ae1ba4465f772db"
+    },
+    {
+      "path": "tracking_v22/audit_learning.py",
+      "bytes": 3605,
+      "sha256": "db4aacd202630462a400039deb2531950ca840108fa03e4fd153709bd9a646ee"
+    },
+    {
+      "path": "tracking_v22/evaluate_stages.py",
+      "bytes": 4179,
+      "sha256": "1bb47d51102b55ec6bb096b7d5afb377f86e0a1e508e4f02706413e4d10a914a"
+    },
+    {
+      "path": "tracking_v22/MECHANISM_ZH.md",
+      "bytes": 4363,
+      "sha256": "a288a9c79b41947643c94e821e37b1e86b1a1411defb8b86c8a3a48fa6b98a2e"
+    },
+    {
+      "path": "tracking_v22/neural.py",
+      "bytes": 17244,
+      "sha256": "04a78276c325a5c592c791a854c54c206b01227b8aa4521331a469fe0aabd3b0"
+    },
+    {
+      "path": "tracking_v22/PATIENT_PRACTICE_REPORT_ZH.md",
+      "bytes": 6707,
+      "sha256": "af99803dc22c26564bf6cb2486dd73b26645e162d60ccb25acd6145c99b5062b"
+    },
+    {
+      "path": "tracking_v22/pilot_autonomous.json",
+      "bytes": 226,
+      "sha256": "f72f866aa4d03153f0ee5a3b2f6bc7282bf575ce278978d0043915cc08f17313"
+    },
+    {
+      "path": "tracking_v22/pilot_fixed.json",
+      "bytes": 221,
+      "sha256": "24122ffb32bc8dfd6ead25c6a7dc52f2fc73edc79c00c1c81d7e97aa58a38ccc"
+    },
+    {
+      "path": "tracking_v22/PILOT_REPORT_ZH.md",
+      "bytes": 4584,
+      "sha256": "a3398cad540a36df7652a810bc07471d15c3233bab5cfcf0d17966d1a291ed29"
+    },
+    {
+      "path": "tracking_v22/PLAN.md",
+      "bytes": 5425,
+      "sha256": "d23261a4bbebbdb50804d8da7cf54d885570076082656eb3535144a7d4cee824"
+    },
+    {
+      "path": "tracking_v22/PROGRESS.md",
+      "bytes": 4639,
+      "sha256": "46f950bbafea91eb46692256eaafe57ccefa154ef51b9467581d49442c6827be"
+    },
+    {
+      "path": "tracking_v22/report_data.py",
+      "bytes": 7613,
+      "sha256": "38fce746c5d2c236d6b9a45b67857a16fac52e24e23659ac6373e2a58149674d"
+    },
+    {
+      "path": "tracking_v22/results/learning_audit_20261016/learning_audit.json",
+      "bytes": 22301,
+      "sha256": "278bbf1aef616bf5ed4b2c21140e7ac6e58df19492a4a1c4479a82b3ba293696"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/actual_input_0.png",
+      "bytes": 5557,
+      "sha256": "3d59cdb1d86a3208a98060406a34d87c747fb755cf6527acbde08e36f936a25b"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/actual_input_1.png",
+      "bytes": 6758,
+      "sha256": "8b4831fcecbc309bb671c6d5be160f495797dcbeae5e6beb4a496c63ce13a09b"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/actual_input_2.png",
+      "bytes": 5231,
+      "sha256": "c65715d4be50ca900ffbb166ddde1075fe91fed358f6a74c9a12ba0bd87d6f51"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/actual_input_3.png",
+      "bytes": 4872,
+      "sha256": "98eb198e105187c3a8bf5c56adf0658afd30f17294c25166959da5a5f2b31060"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/COMPLETE.json",
+      "bytes": 311994,
+      "sha256": "50e7aee4a48a852838f3fe55fd78d87b395d8a18a243ae69e3a60be5b0f78d64"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/completion_audit.json",
+      "bytes": 1131,
+      "sha256": "5d1c90915fc87447fcbfae649279ee52456baca8162a24d25d53e41dfdebc019"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/events.sqlite",
+      "bytes": 97247232,
+      "sha256": "9f6b104c938d15907c154fed2150e39055f7d3f722df0cb1ccf1f261f4e67ce7"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/events.sqlite-shm",
+      "bytes": 32768,
+      "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/events.sqlite-wal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/frozen_probe/actual_input_0.png",
+      "bytes": 4800,
+      "sha256": "2233142bec76c5b6f30904ed6b378c314fa4c7017459cbe9ee65c79bd2a2a148"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/frozen_probe/actual_input_1.png",
+      "bytes": 6043,
+      "sha256": "1612e7cc30a49794536f8a093e3dab9b0f4d9269805532a99b44b693a69e8757"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/frozen_probe/actual_input_2.png",
+      "bytes": 4601,
+      "sha256": "76895b920b758fbc48588f7f8f5836d0f5b11238869182515934e8178a0d785c"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/frozen_probe/actual_input_3.png",
+      "bytes": 6282,
+      "sha256": "e10c4b39c434875c8add7d7f8a5e255217ea8541a05f8ba23b06c74616ca28b9"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/frozen_probe/events.sqlite",
+      "bytes": 30953472,
+      "sha256": "68a6cc07e0f2f9e6778343e83fe04b9960ce660437dc659335647c90dbb48824"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/frozen_probe/events.sqlite-shm",
+      "bytes": 32768,
+      "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/frozen_probe/events.sqlite-wal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/frozen_probe/progress.json",
+      "bytes": 1112,
+      "sha256": "2ec40a97984cfb697a7df3069e6f0bc7282b51dc875c82206b575a0216f7d053"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/frozen_probe/summary.json",
+      "bytes": 23820,
+      "sha256": "2edc98aa99669d5155006104726c564248f52507a61ca3cdfbde3c7751804f69"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/learner.pt",
+      "bytes": 1712283,
+      "sha256": "2ac4b3a38b4fe215d52172f1145d8d794e007225ecc77f062fc0bb7dad1b5b84"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/learner_step_00000.pt",
+      "bytes": 861517,
+      "sha256": "f77d208dd8e2cc3523a15791677db9373b35ae70df01092651bb11598274a3e7"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/learner_step_02048.pt",
+      "bytes": 2125741,
+      "sha256": "b8ee625b16e7ef7f10ae0d0b1f1cb4ebcea0852a556d4ae7b852dee783b26196"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/learner_step_04096.pt",
+      "bytes": 2125869,
+      "sha256": "4312cb0266a3e6da6e7d8c68fc681a2b4e07d7bf4dee31fa37add2bdde12490c"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/learner_step_06144.pt",
+      "bytes": 2126061,
+      "sha256": "025616a20def03a60c7cd4fa64f22a8e9b64ce6a59c59dbb0b3a77ffd0f44dd7"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/learner_step_08192.pt",
+      "bytes": 2126317,
+      "sha256": "6fd7fe7d76951dea93ac1fcd73ed780f800279876b8ea35290945266e1391de5"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/learning_process.png",
+      "bytes": 281116,
+      "sha256": "188d983cdd47c9e5c0cb1b9708e9ea72479ea2eebb87c9f15c687f985208ce63"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/manifest.json",
+      "bytes": 2275,
+      "sha256": "75a83a08fd221a939895dd33b7f34c422b1d465ed7f725ed3466d7bf753d426e"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/process_measurements.json",
+      "bytes": 58253,
+      "sha256": "53b27e65392b26adbd48e802401afbb786b6369c60a54365106fe9856442a28a"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/progress.json",
+      "bytes": 1731,
+      "sha256": "29e2f400e846a2d79b21ba9b3bfce6e091c47f59fa5be519f9532ee0363d85f7"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/source/SUBJECTIVE_STATE_DESIGN_NOTES_ZH.md",
+      "bytes": 5074,
+      "sha256": "8b6bf16dda327fa968e89f3f123609adeefcfca2f11e2d95f0c91319ae230fc5"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/source/tracking_v17/world.py",
+      "bytes": 12959,
+      "sha256": "b1ba1fdb18473d7ebb1dfffba5e6113fe8d489c0f825162a89b96fad5f71d949"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/source/tracking_v22/__init__.py",
+      "bytes": 72,
+      "sha256": "9f2e543c9890c34016b9b427ac2cdfc2698667c1d784acf72ae1ba4465f772db"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/source/tracking_v22/audit_learning.py",
+      "bytes": 3605,
+      "sha256": "db4aacd202630462a400039deb2531950ca840108fa03e4fd153709bd9a646ee"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/source/tracking_v22/neural.py",
+      "bytes": 17244,
+      "sha256": "04a78276c325a5c592c791a854c54c206b01227b8aa4521331a469fe0aabd3b0"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/source/tracking_v22/PILOT_REPORT_ZH.md",
+      "bytes": 4584,
+      "sha256": "a3398cad540a36df7652a810bc07471d15c3233bab5cfcf0d17966d1a291ed29"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/source/tracking_v22/PLAN.md",
+      "bytes": 4052,
+      "sha256": "96fed8fe296de292a98ffb3ebf24b83c78f0a60bf9dedf5fd43c98ba0a477910"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/source/tracking_v22/PROGRESS.md",
+      "bytes": 3409,
+      "sha256": "b0b80018735f12842800a698e18d35c0088a4ccc6adb001caeca90c0ff068c64"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/source/tracking_v22/run.py",
+      "bytes": 26742,
+      "sha256": "fde23e7d89853ff54b5cccfccb0fcf29340e4159e3cdfc6d300fe05636cb9b8d"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/source/tracking_v22/sensory_audit.py",
+      "bytes": 4481,
+      "sha256": "1c00d918b2b5d383a4b485f3970a0927fb6e9b1fa2940ea67a810e9dd3d2c3f8"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/source/tracking_v22/test_neural.py",
+      "bytes": 3373,
+      "sha256": "a3d4fb01d851315a7e431b3ad7ef91b8165bc6538147c2244540c11ddd02831e"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/source/tracking_v22/test_runtime.py",
+      "bytes": 4029,
+      "sha256": "039ef29528f3e160b93cb2f4f55861e866ed0f6116802d3f3b9e82d6d968fb71"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/source/tracking_v22/test_verified.py",
+      "bytes": 2675,
+      "sha256": "adba7ebded332e875396b01e696b3ad1dfa65b5b13c0fab83fbe2f7556fbcc46"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/source/tracking_v22/test_world.py",
+      "bytes": 8893,
+      "sha256": "7756d9e852d3d2db698fa410edc5ecba357ce96348007f25ede200e034e54e93"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/source/tracking_v22/verified.py",
+      "bytes": 6498,
+      "sha256": "8f6fd3f3de293f702605d2d16ef5e55603b9b1bdf08aea8922322829b3b31927"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/source/tracking_v22/world.py",
+      "bytes": 18139,
+      "sha256": "51cc948108763a08dac27942f537730837a4d5a17c37dd0d12ed9b5ff2f88408"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_observations.json",
+      "bytes": 72292,
+      "sha256": "791fd7846778512b55312fb36e170f0f1e77059cd5e72b64bed466312bb2cb69"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_00000/actual_input_0.png",
+      "bytes": 4800,
+      "sha256": "2233142bec76c5b6f30904ed6b378c314fa4c7017459cbe9ee65c79bd2a2a148"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_00000/actual_input_1.png",
+      "bytes": 6043,
+      "sha256": "1612e7cc30a49794536f8a093e3dab9b0f4d9269805532a99b44b693a69e8757"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_00000/actual_input_2.png",
+      "bytes": 4601,
+      "sha256": "76895b920b758fbc48588f7f8f5836d0f5b11238869182515934e8178a0d785c"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_00000/actual_input_3.png",
+      "bytes": 6282,
+      "sha256": "e10c4b39c434875c8add7d7f8a5e255217ea8541a05f8ba23b06c74616ca28b9"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_00000/actual_sensor.gif",
+      "bytes": 66396,
+      "sha256": "44b28da15327038929b44079e0339698c2a9f5749df548b8baf7a70bee87a6c8"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_00000/COMPLETE.json",
+      "bytes": 11980,
+      "sha256": "fc1fec0243f77f3363414823c118a0e6eb0a6182b7d20e4e6f3db96fc155ce2e"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_00000/events.sqlite",
+      "bytes": 66670592,
+      "sha256": "c5d05ceb3a4f333fc0c7809bbc7838dec2423eed9190d7062de9d220c334a806"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_00000/events.sqlite-shm",
+      "bytes": 32768,
+      "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_00000/events.sqlite-wal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_00000/progress.json",
+      "bytes": 1047,
+      "sha256": "551e49c444fac6e99ab6a16370fa401a74510604d1cb27cdff9016e00c0efb47"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_02048/actual_input_0.png",
+      "bytes": 4800,
+      "sha256": "2233142bec76c5b6f30904ed6b378c314fa4c7017459cbe9ee65c79bd2a2a148"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_02048/actual_input_1.png",
+      "bytes": 6043,
+      "sha256": "1612e7cc30a49794536f8a093e3dab9b0f4d9269805532a99b44b693a69e8757"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_02048/actual_input_2.png",
+      "bytes": 4601,
+      "sha256": "76895b920b758fbc48588f7f8f5836d0f5b11238869182515934e8178a0d785c"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_02048/actual_input_3.png",
+      "bytes": 6282,
+      "sha256": "e10c4b39c434875c8add7d7f8a5e255217ea8541a05f8ba23b06c74616ca28b9"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_02048/actual_sensor.gif",
+      "bytes": 42225,
+      "sha256": "445f8513764dba381784cda62f143a1f0b40a938fd1a7c53be5d0406c6d19287"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_02048/COMPLETE.json",
+      "bytes": 13209,
+      "sha256": "085e64d419547fe605fa755bd44a75818ab1b1bbf08f75076d00d2323dfeda3e"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_02048/events.sqlite",
+      "bytes": 67862528,
+      "sha256": "9d3c2e70d60b655a1e73ace62dee63dbcf55e4b209c27bd4be43282bbaa2495a"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_02048/events.sqlite-shm",
+      "bytes": 32768,
+      "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_02048/events.sqlite-wal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_02048/progress.json",
+      "bytes": 1112,
+      "sha256": "957425e630c526d0e015a2aad1be995d9fb31e4bd4d1d080de8429e5e1676fa8"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_04096/actual_input_0.png",
+      "bytes": 4800,
+      "sha256": "2233142bec76c5b6f30904ed6b378c314fa4c7017459cbe9ee65c79bd2a2a148"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_04096/actual_input_1.png",
+      "bytes": 6043,
+      "sha256": "1612e7cc30a49794536f8a093e3dab9b0f4d9269805532a99b44b693a69e8757"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_04096/actual_input_2.png",
+      "bytes": 4601,
+      "sha256": "76895b920b758fbc48588f7f8f5836d0f5b11238869182515934e8178a0d785c"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_04096/actual_input_3.png",
+      "bytes": 6282,
+      "sha256": "e10c4b39c434875c8add7d7f8a5e255217ea8541a05f8ba23b06c74616ca28b9"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_04096/actual_sensor.gif",
+      "bytes": 73993,
+      "sha256": "d5cf62742a9d74e775114844f2be4f7c03d7d9c7ac0a0278fd067485735240dc"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_04096/COMPLETE.json",
+      "bytes": 13642,
+      "sha256": "208cadab2c3643ae206ec608b66ae23409195dc37673df90ba7810e4d2f7eb76"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_04096/events.sqlite",
+      "bytes": 68816896,
+      "sha256": "87b4071ceb3e6d80dcc45950672cd5a20d5bc3c09f555e6eecd6cf26c954ed98"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_04096/events.sqlite-shm",
+      "bytes": 32768,
+      "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_04096/events.sqlite-wal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_04096/progress.json",
+      "bytes": 1123,
+      "sha256": "5f35be3235b8165f4cda4462c1f11fc8a8fedad3c7a8fcc62cca79c5c94a97ae"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_06144/actual_input_0.png",
+      "bytes": 4800,
+      "sha256": "2233142bec76c5b6f30904ed6b378c314fa4c7017459cbe9ee65c79bd2a2a148"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_06144/actual_input_1.png",
+      "bytes": 6043,
+      "sha256": "1612e7cc30a49794536f8a093e3dab9b0f4d9269805532a99b44b693a69e8757"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_06144/actual_input_2.png",
+      "bytes": 4601,
+      "sha256": "76895b920b758fbc48588f7f8f5836d0f5b11238869182515934e8178a0d785c"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_06144/actual_input_3.png",
+      "bytes": 6282,
+      "sha256": "e10c4b39c434875c8add7d7f8a5e255217ea8541a05f8ba23b06c74616ca28b9"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_06144/actual_sensor.gif",
+      "bytes": 61672,
+      "sha256": "bab4631bee2a528e593525210024d7a40d3424b827e8495b16d1dac21d3465c6"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_06144/COMPLETE.json",
+      "bytes": 14144,
+      "sha256": "e9cd99fcd5e69d4be5b7dc25afb70dd74c4a3b8ee279b9b0e5c03e8fd58de4cb"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_06144/events.sqlite",
+      "bytes": 68247552,
+      "sha256": "b8892cb6f5f88e660bac409fb7bb0eeb63b494ce70942e02731142488a582646"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_06144/events.sqlite-shm",
+      "bytes": 32768,
+      "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_06144/events.sqlite-wal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_06144/progress.json",
+      "bytes": 1127,
+      "sha256": "f6bcfb64847d7569ca72c77b693a1fa52646b14e9bcd05c858f372d929ef70b4"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_06144/sensor_three_frames.png",
+      "bytes": 16493,
+      "sha256": "b42ec4b07519e4112cab5889ba35d8056f0ce592904a997ed70724409cadc8e4"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_08192/actual_input_0.png",
+      "bytes": 4800,
+      "sha256": "2233142bec76c5b6f30904ed6b378c314fa4c7017459cbe9ee65c79bd2a2a148"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_08192/actual_input_1.png",
+      "bytes": 6043,
+      "sha256": "1612e7cc30a49794536f8a093e3dab9b0f4d9269805532a99b44b693a69e8757"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_08192/actual_input_2.png",
+      "bytes": 4601,
+      "sha256": "76895b920b758fbc48588f7f8f5836d0f5b11238869182515934e8178a0d785c"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_08192/actual_input_3.png",
+      "bytes": 6282,
+      "sha256": "e10c4b39c434875c8add7d7f8a5e255217ea8541a05f8ba23b06c74616ca28b9"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_08192/actual_sensor.gif",
+      "bytes": 45057,
+      "sha256": "cb148c9b09671a8ef2b15b89eb8b29b566dbf184f45d5634185fce2ecc4fcfcd"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_08192/COMPLETE.json",
+      "bytes": 14755,
+      "sha256": "228152f49e60cd00f8bec74e0963a1f55c75bf8fa0394d8783dc0a54d0bed9e2"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_08192/events.sqlite",
+      "bytes": 67883008,
+      "sha256": "78b58a71fa8a57d9cb24eb7121b58ee1a3abc0edb2e4da7ac5437a67dc7d34a5"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_08192/events.sqlite-shm",
+      "bytes": 32768,
+      "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_08192/events.sqlite-wal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/stage_probes/stage_08192/progress.json",
+      "bytes": 1106,
+      "sha256": "25a528830efa286a4d83c9e9a482b4dcae4e24cea36c8071c22b17d65091e357"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/summary.json",
+      "bytes": 269177,
+      "sha256": "82b99c21a63db54e24edb7d1287e0103d1fc4d44c2ffed2fbe73e591ad524ad1"
+    },
+    {
+      "path": "tracking_v22/results/patient_practice_20261016/training_only_summary.json",
+      "bytes": 267165,
+      "sha256": "a9a6e304d2160041b3cb21bea5e5b8006f23bccd054d0108cf5cec880f22e67a"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/actual_input_0.png",
+      "bytes": 5557,
+      "sha256": "3d59cdb1d86a3208a98060406a34d87c747fb755cf6527acbde08e36f936a25b"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/actual_input_1.png",
+      "bytes": 6758,
+      "sha256": "8b4831fcecbc309bb671c6d5be160f495797dcbeae5e6beb4a496c63ce13a09b"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/actual_input_2.png",
+      "bytes": 5231,
+      "sha256": "c65715d4be50ca900ffbb166ddde1075fe91fed358f6a74c9a12ba0bd87d6f51"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/actual_input_3.png",
+      "bytes": 4872,
+      "sha256": "98eb198e105187c3a8bf5c56adf0658afd30f17294c25166959da5a5f2b31060"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/COMPLETE.json",
+      "bytes": 45245,
+      "sha256": "2b24f7f18bd207328a911c761db5f2db8332e3392af389f5c91b5e221587f1dc"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/frozen_probe/actual_input_0.png",
+      "bytes": 4800,
+      "sha256": "2233142bec76c5b6f30904ed6b378c314fa4c7017459cbe9ee65c79bd2a2a148"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/frozen_probe/actual_input_1.png",
+      "bytes": 6043,
+      "sha256": "1612e7cc30a49794536f8a093e3dab9b0f4d9269805532a99b44b693a69e8757"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/frozen_probe/actual_input_2.png",
+      "bytes": 4601,
+      "sha256": "76895b920b758fbc48588f7f8f5836d0f5b11238869182515934e8178a0d785c"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/frozen_probe/actual_input_3.png",
+      "bytes": 6282,
+      "sha256": "e10c4b39c434875c8add7d7f8a5e255217ea8541a05f8ba23b06c74616ca28b9"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/frozen_probe/progress.json",
+      "bytes": 794,
+      "sha256": "48fba0c62c006ca39e0ae4886418029c677fa488376692441ed099d30e3b288d"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/frozen_probe/summary.json",
+      "bytes": 8274,
+      "sha256": "1a9c0117ccbf207afb1e72413b7db3ca30d8dbca3bffe8e57fac19b12f638968"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/learner.pt",
+      "bytes": 1710555,
+      "sha256": "6d7606bf6c48d768e3f8de4c48325a27d147ea00052fdb0e9335f7ac9c534ed8"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/manifest.json",
+      "bytes": 1854,
+      "sha256": "9349bfdb8eb2fdc9beb7ef6afc804a1d6ced8fa883076e6b6e2990ed9c464833"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/progress.json",
+      "bytes": 1100,
+      "sha256": "35dfe34a2e57055abf488dd53accad7520b95ca5f191c88c29fb5873e4364533"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/source/SUBJECTIVE_STATE_DESIGN_NOTES_ZH.md",
+      "bytes": 5074,
+      "sha256": "8b6bf16dda327fa968e89f3f123609adeefcfca2f11e2d95f0c91319ae230fc5"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/source/tracking_v17/world.py",
+      "bytes": 12959,
+      "sha256": "b1ba1fdb18473d7ebb1dfffba5e6113fe8d489c0f825162a89b96fad5f71d949"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/source/tracking_v22/__init__.py",
+      "bytes": 72,
+      "sha256": "9f2e543c9890c34016b9b427ac2cdfc2698667c1d784acf72ae1ba4465f772db"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/source/tracking_v22/audit_learning.py",
+      "bytes": 3605,
+      "sha256": "db4aacd202630462a400039deb2531950ca840108fa03e4fd153709bd9a646ee"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/source/tracking_v22/neural.py",
+      "bytes": 17014,
+      "sha256": "b06134daae5ce8fcafd70f60a0ba32333524ba8adeda6567c2b1d9bb2185a96f"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/source/tracking_v22/PLAN.md",
+      "bytes": 4052,
+      "sha256": "96fed8fe296de292a98ffb3ebf24b83c78f0a60bf9dedf5fd43c98ba0a477910"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/source/tracking_v22/PROGRESS.md",
+      "bytes": 2284,
+      "sha256": "f733114a6836ff6e3f89edf45a80cd7428822ec6715c8714ab510f04c64045d7"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/source/tracking_v22/run.py",
+      "bytes": 22572,
+      "sha256": "5235c16d79561e0c148dd100a764896e88ab6843fe11af504efd0752be70fc84"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/source/tracking_v22/sensory_audit.py",
+      "bytes": 4481,
+      "sha256": "1c00d918b2b5d383a4b485f3970a0927fb6e9b1fa2940ea67a810e9dd3d2c3f8"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/source/tracking_v22/test_neural.py",
+      "bytes": 3373,
+      "sha256": "a3d4fb01d851315a7e431b3ad7ef91b8165bc6538147c2244540c11ddd02831e"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/source/tracking_v22/test_runtime.py",
+      "bytes": 3865,
+      "sha256": "da4ca75b65b6e82a93a18612fa17fb0a319e6073366989782846eaf7ec9339fa"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/source/tracking_v22/test_world.py",
+      "bytes": 8893,
+      "sha256": "7756d9e852d3d2db698fa410edc5ecba357ce96348007f25ede200e034e54e93"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/source/tracking_v22/world.py",
+      "bytes": 18139,
+      "sha256": "51cc948108763a08dac27942f537730837a4d5a17c37dd0d12ed9b5ff2f88408"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/summary.json",
+      "bytes": 33916,
+      "sha256": "a611f39be6ee3df24264fdfdf8407ab988bf17280b9883c5176f963132e458cc"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/actual_input_0.png",
+      "bytes": 5557,
+      "sha256": "3d59cdb1d86a3208a98060406a34d87c747fb755cf6527acbde08e36f936a25b"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/actual_input_1.png",
+      "bytes": 6758,
+      "sha256": "8b4831fcecbc309bb671c6d5be160f495797dcbeae5e6beb4a496c63ce13a09b"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/actual_input_2.png",
+      "bytes": 5231,
+      "sha256": "c65715d4be50ca900ffbb166ddde1075fe91fed358f6a74c9a12ba0bd87d6f51"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/actual_input_3.png",
+      "bytes": 4872,
+      "sha256": "98eb198e105187c3a8bf5c56adf0658afd30f17294c25166959da5a5f2b31060"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/COMPLETE.json",
+      "bytes": 30083,
+      "sha256": "82f0e9bc82efd5d458e2da787eb544ee916dca58eb53fe862110c591f521a1d3"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/frozen_probe/actual_input_0.png",
+      "bytes": 4800,
+      "sha256": "2233142bec76c5b6f30904ed6b378c314fa4c7017459cbe9ee65c79bd2a2a148"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/frozen_probe/actual_input_1.png",
+      "bytes": 6043,
+      "sha256": "1612e7cc30a49794536f8a093e3dab9b0f4d9269805532a99b44b693a69e8757"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/frozen_probe/actual_input_2.png",
+      "bytes": 4601,
+      "sha256": "76895b920b758fbc48588f7f8f5836d0f5b11238869182515934e8178a0d785c"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/frozen_probe/actual_input_3.png",
+      "bytes": 6282,
+      "sha256": "e10c4b39c434875c8add7d7f8a5e255217ea8541a05f8ba23b06c74616ca28b9"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/frozen_probe/progress.json",
+      "bytes": 561,
+      "sha256": "b43c92c428620132c39ea6a8aad49bad4f5653f6c522b25dda52b4c85ec27f06"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/frozen_probe/summary.json",
+      "bytes": 5957,
+      "sha256": "4030f188480444728b39efbe86803e5036893e709b762186a963a1a54976eeaa"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/learner.pt",
+      "bytes": 2116678,
+      "sha256": "37f7c467942d8715524e9cd313ce9277c96f7288f66ea397d6a98ccdc65b4f60"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/manifest.json",
+      "bytes": 1849,
+      "sha256": "0b066b607ab351366603bc65148912863e3a1a66912499823e050d20c45a2a60"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/progress.json",
+      "bytes": 768,
+      "sha256": "deb94ebc4daf0aaffb36de76dedd353de41335f072eb40f4b889ff428912d126"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/source/SUBJECTIVE_STATE_DESIGN_NOTES_ZH.md",
+      "bytes": 5074,
+      "sha256": "8b6bf16dda327fa968e89f3f123609adeefcfca2f11e2d95f0c91319ae230fc5"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/source/tracking_v17/world.py",
+      "bytes": 12959,
+      "sha256": "b1ba1fdb18473d7ebb1dfffba5e6113fe8d489c0f825162a89b96fad5f71d949"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/source/tracking_v22/__init__.py",
+      "bytes": 72,
+      "sha256": "9f2e543c9890c34016b9b427ac2cdfc2698667c1d784acf72ae1ba4465f772db"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/source/tracking_v22/audit_learning.py",
+      "bytes": 3605,
+      "sha256": "db4aacd202630462a400039deb2531950ca840108fa03e4fd153709bd9a646ee"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/source/tracking_v22/neural.py",
+      "bytes": 15719,
+      "sha256": "c048ddb6b286bf276bd5cd23d0814a425d2d3270d05410c99bc0899cc0140693"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/source/tracking_v22/PLAN.md",
+      "bytes": 4032,
+      "sha256": "70272c0e0e602d60a5c51f2ede27cfd2b048fd5aa1d49b4657765d3126b6a344"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/source/tracking_v22/PROGRESS.md",
+      "bytes": 1494,
+      "sha256": "08e3ea2839f659e39c5d8a56ebcfc09c9915f50be067b4945e83d123929f6b8a"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/source/tracking_v22/run.py",
+      "bytes": 19645,
+      "sha256": "fafa4d86c902d5ac222828ab5fd58c7d306206e85935344de87844e1e145c1de"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/source/tracking_v22/sensory_audit.py",
+      "bytes": 4481,
+      "sha256": "1c00d918b2b5d383a4b485f3970a0927fb6e9b1fa2940ea67a810e9dd3d2c3f8"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/source/tracking_v22/test_neural.py",
+      "bytes": 2844,
+      "sha256": "4154a880287b058c2d3e8d6c297961c315beea71c77ddd797d895eeb5a9844fa"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/source/tracking_v22/test_runtime.py",
+      "bytes": 2181,
+      "sha256": "2b47067bdd80cc1ac8dc8d5deedaf315f5016a64b15d9e4025f5c5b6f742708c"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/source/tracking_v22/test_world.py",
+      "bytes": 8893,
+      "sha256": "7756d9e852d3d2db698fa410edc5ecba357ce96348007f25ede200e034e54e93"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/source/tracking_v22/world.py",
+      "bytes": 18139,
+      "sha256": "51cc948108763a08dac27942f537730837a4d5a17c37dd0d12ed9b5ff2f88408"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/summary.json",
+      "bytes": 21923,
+      "sha256": "e3417c73304ca734ebe49dc22511729333ad33775e64ff30f91fafa0f604e49c"
+    },
+    {
+      "path": "tracking_v22/results/sensory_audit_20261016/audit.json",
+      "bytes": 4351,
+      "sha256": "28463ccb5f4ebfd2e1ffc1323f281d99cb1e67b1f3a95fb070ccfc74ac13fc6f"
+    },
+    {
+      "path": "tracking_v22/results/sensory_audit_20261016/constant_motion_00.png",
+      "bytes": 4298,
+      "sha256": "5775a3fa77ff45ccd3fa3434849644162cd5b2f234970e01cd536a3b2577900e"
+    },
+    {
+      "path": "tracking_v22/results/sensory_audit_20261016/constant_motion_01.png",
+      "bytes": 4286,
+      "sha256": "f167eb866f3e7b661ae57d909d4721e3dd73a781edcc9a4e21be919dd71c61cf"
+    },
+    {
+      "path": "tracking_v22/results/sensory_audit_20261016/constant_motion_02.png",
+      "bytes": 4204,
+      "sha256": "1d0d25adfb4c923ab67b57fc2da66588633e0b76b242754ebac3cd09e27ad520"
+    },
+    {
+      "path": "tracking_v22/results/sensory_audit_20261016/constant_motion_03.png",
+      "bytes": 4207,
+      "sha256": "0d9dc9e966c761401819407626dc302c262965d985260a81fac37f92231e56c4"
+    },
+    {
+      "path": "tracking_v22/results/sensory_audit_20261016/far_target_smallest_threat.png",
+      "bytes": 3735,
+      "sha256": "f4c29f3fbc6f690a41ad7d4d52178ad8d19f199fd6e7a268b196662c3cc6bec5"
+    },
+    {
+      "path": "tracking_v22/results/sensory_audit_20261016/forward_seam.png",
+      "bytes": 3973,
+      "sha256": "b3e347a0b36c510f146e43f855954102537049ba6c9a29746f15d0cb89dc9000"
+    },
+    {
+      "path": "tracking_v22/results/sensory_audit_20261016/fully_occluded.png",
+      "bytes": 5492,
+      "sha256": "7e2fb0c610f71d51ebcd646ccab21eef0770f4f611ec4bb1bae928e445b36200"
+    },
+    {
+      "path": "tracking_v22/results/sensory_audit_20261016/model_input_mosaic.png",
+      "bytes": 46668,
+      "sha256": "059971d469d48c16e2c48da4bc86afdc6107e77ae77ba47f45350e6d2c823503"
+    },
+    {
+      "path": "tracking_v22/results/sensory_audit_20261016/near_target_and_pattern_distractors.png",
+      "bytes": 5205,
+      "sha256": "91f7d4706330be585bdacddc63c548b7b7b22e2d572f6ae97a6a454fdf921a40"
+    },
+    {
+      "path": "tracking_v22/results/sensory_audit_20261016/partial_occlusion.png",
+      "bytes": 5391,
+      "sha256": "237d9d342f0adb44be912a3d0dceb0887c53cc23d28a570d8afb9119627e6c39"
+    },
+    {
+      "path": "tracking_v22/results/sensory_audit_20261016/reappeared.png",
+      "bytes": 5195,
+      "sha256": "62cadaa892a12452fbe1c5de6e11750b3a3cf15bffcc7705a0287fc532efe24d"
+    },
+    {
+      "path": "tracking_v22/run.py",
+      "bytes": 26742,
+      "sha256": "fde23e7d89853ff54b5cccfccb0fcf29340e4159e3cdfc6d300fe05636cb9b8d"
+    },
+    {
+      "path": "tracking_v22/sensory_audit.py",
+      "bytes": 4481,
+      "sha256": "1c00d918b2b5d383a4b485f3970a0927fb6e9b1fa2940ea67a810e9dd3d2c3f8"
+    },
+    {
+      "path": "tracking_v22/test_neural.py",
+      "bytes": 3373,
+      "sha256": "a3d4fb01d851315a7e431b3ad7ef91b8165bc6538147c2244540c11ddd02831e"
+    },
+    {
+      "path": "tracking_v22/test_runtime.py",
+      "bytes": 4029,
+      "sha256": "039ef29528f3e160b93cb2f4f55861e866ed0f6116802d3f3b9e82d6d968fb71"
+    },
+    {
+      "path": "tracking_v22/test_verified.py",
+      "bytes": 2675,
+      "sha256": "adba7ebded332e875396b01e696b3ad1dfa65b5b13c0fab83fbe2f7556fbcc46"
+    },
+    {
+      "path": "tracking_v22/test_world.py",
+      "bytes": 8893,
+      "sha256": "7756d9e852d3d2db698fa410edc5ecba357ce96348007f25ede200e034e54e93"
+    },
+    {
+      "path": "tracking_v22/validate_results.py",
+      "bytes": 4450,
+      "sha256": "f7a35f25d133021cd19f50f3b4e6b15593209922b91d517e241d224592d25eeb"
+    },
+    {
+      "path": "tracking_v22/verified.py",
+      "bytes": 6498,
+      "sha256": "8f6fd3f3de293f702605d2d16ef5e55603b9b1bdf08aea8922322829b3b31927"
+    },
+    {
+      "path": "tracking_v22/verified_practice.json",
+      "bytes": 320,
+      "sha256": "94d465ea6d2cf3616915d52795a712821bb5d124a84a9daf9887afc07d0a4675"
+    },
+    {
+      "path": "tracking_v22/world.py",
+      "bytes": 18139,
+      "sha256": "51cc948108763a08dac27942f537730837a4d5a17c37dd0d12ed9b5ff2f88408"
+    }
+  ],
+  "source_bytes": 485467344,
+  "zip_bytes": 92447214,
+  "zip_sha256": "4e5bb1cad2b7dfc10a5badec8504b771e8a0f6d335c3a100ba4cac5fb79be48c",
+  "parts": [
+    {
+      "name": "research-v22-patient-practice-20261016.zip.part001",
+      "bytes": 41943040,
+      "sha256": "8a6e646dfb2d996106c5be9839f3549bc09033e2a05bc76a664637f4b4056479"
+    },
+    {
+      "name": "research-v22-patient-practice-20261016.zip.part002",
+      "bytes": 41943040,
+      "sha256": "d76fea8c0d1abc0c4b35aa0e2b7e16a6debe7eb28f5466f397b4396487f30d47"
+    },
+    {
+      "name": "research-v22-patient-practice-20261016.zip.part003",
+      "bytes": 8561134,
+      "sha256": "88eba1cdc600f8a67a2e9bc4dafa782714c371b954448d613475345beea63d1a"
+    }
+  ]
+}

@@ -72,3 +72,13 @@ existing repository archive tool can cover all files without duplicating them.
 - Task 5: result documentation complete; full archive publication/readback and
   selective cleanup use research-v22-patient-practice-20261016. Its archive
   receipt, rather than this pre-publication note, determines completion.
+
+Task 5 complete. Archive research-v22-patient-practice-20261016 contains189
+files,485467344 source bytes,92447214 ZIP bytes in3 parts. GitHub Actions
+38926083951 succeeded; all parts fully read back with matching SHA-256.
+Verified cleanup removed only6 observation databases (370434048 bytes)
+and disposable upload staging (275613992 bytes). Main runtime/facts and
+all weights remain on E:. Temporary upload branch removed; release retained.
+Direct GitHub access reset connections; publication used the existing local
+SOCKS proxy. Python readback disabled automatic HTTP proxy discovery while
+using that same SOCKS route. No machine-wide network settings changed.

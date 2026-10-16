@@ -43,7 +43,7 @@ storage, independent trial directories, complete checkpoints and summaries.
 2. [complete] Spiking state and local autonomous learning, scoped review and tests.
 3. [complete] Runtime, persistence/recovery, sensor and timing checks.
 4. [complete for V22-B] Concurrent-scene practice and five frozen stage observations.
-5. [report complete; archive pending] Review, report, GitHub archive and remote verification.
+5. [complete] Report, GitHub archive, full remote readback and selective cleanup.
 
 ## Algorithm starting point
 
