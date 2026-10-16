@@ -1,0 +1,225 @@
+{
+  "stages": [
+    {
+      "new_steps_from": 0,
+      "new_steps_to": 8192,
+      "actual_last_step": 8189,
+      "decisions": 16384,
+      "entropy_mean": 4.154664310335647,
+      "entropy_uniform": 4.1588830833596715,
+      "attention_change_l1_mean": 0.015391240251233285,
+      "max_sector_probability_mean": 0.019595447927713394,
+      "multiplier_min": 0.7623056173324585,
+      "multiplier_max": 2.463311195373535,
+      "multiplier_top_mean": 1.1905815601348877,
+      "absolute_head_degrees_mean": 62.055175781250014,
+      "head_limit_fraction": 0.3558349609375,
+      "sampled_preaction_moving_fraction": 0.40521240234375,
+      "outward_command_at_limit_fraction": 0.19281005859375,
+      "head_action_counts": [
+        6553,
+        5160,
+        4671
+      ]
+    },
+    {
+      "new_steps_from": 8192,
+      "new_steps_to": 16384,
+      "actual_last_step": 16381,
+      "decisions": 16384,
+      "entropy_mean": 4.138182703929488,
+      "entropy_uniform": 4.1588830833596715,
+      "attention_change_l1_mean": 0.0492603023865712,
+      "max_sector_probability_mean": 0.026409052312374115,
+      "multiplier_min": 0.29598116874694824,
+      "multiplier_max": 5.822137832641602,
+      "multiplier_top_mean": 1.5176345109939575,
+      "absolute_head_degrees_mean": 71.72808837890628,
+      "head_limit_fraction": 0.531005859375,
+      "sampled_preaction_moving_fraction": 0.36151123046875,
+      "outward_command_at_limit_fraction": 0.3448486328125,
+      "head_action_counts": [
+        4803,
+        4105,
+        7476
+      ]
+    },
+    {
+      "new_steps_from": 16384,
+      "new_steps_to": 24576,
+      "actual_last_step": 24573,
+      "decisions": 16384,
+      "entropy_mean": 4.102519064152148,
+      "entropy_uniform": 4.1588830833596715,
+      "attention_change_l1_mean": 0.07738182934230053,
+      "max_sector_probability_mean": 0.035488713532686234,
+      "multiplier_min": 0.28817710280418396,
+      "multiplier_max": 9.332308769226074,
+      "multiplier_top_mean": 1.953458309173584,
+      "absolute_head_degrees_mean": 68.23839111328127,
+      "head_limit_fraction": 0.441650390625,
+      "sampled_preaction_moving_fraction": 0.41064453125,
+      "outward_command_at_limit_fraction": 0.256103515625,
+      "head_action_counts": [
+        5446,
+        4079,
+        6859
+      ]
+    },
+    {
+      "new_steps_from": 24576,
+      "new_steps_to": 32768,
+      "actual_last_step": 32765,
+      "decisions": 16384,
+      "entropy_mean": 4.103896491826163,
+      "entropy_uniform": 4.1588830833596715,
+      "attention_change_l1_mean": 0.07314627912144545,
+      "max_sector_probability_mean": 0.03512965887784958,
+      "multiplier_min": 0.26353973150253296,
+      "multiplier_max": 17.0181884765625,
+      "multiplier_top_mean": 1.9362237453460693,
+      "absolute_head_degrees_mean": 67.24259033203126,
+      "head_limit_fraction": 0.436767578125,
+      "sampled_preaction_moving_fraction": 0.40966796875,
+      "outward_command_at_limit_fraction": 0.2843017578125,
+      "head_action_counts": [
+        5011,
+        6773,
+        4600
+      ]
+    }
+  ],
+  "by_body": [
+    {
+      "body": 0,
+      "decisions": 8192,
+      "entropy_mean": 4.119276335433824,
+      "attention_change_l1_mean": 0.06817811575328392,
+      "multiplier_top_mean": 1.6389610767364502,
+      "absolute_head_degrees_mean": 63.11337890625003,
+      "head_limit_fraction": 0.388671875,
+      "sampled_preaction_moving_fraction": 0.4278564453125,
+      "outward_command_at_limit_fraction": 0.2459716796875,
+      "head_action_counts": [
+        2668,
+        2421,
+        3103
+      ]
+    },
+    {
+      "body": 1,
+      "decisions": 8192,
+      "entropy_mean": 4.120470622263383,
+      "attention_change_l1_mean": 0.05738809722615201,
+      "multiplier_top_mean": 1.7415302991867065,
+      "absolute_head_degrees_mean": 64.16103515625001,
+      "head_limit_fraction": 0.3778076171875,
+      "sampled_preaction_moving_fraction": 0.435302734375,
+      "outward_command_at_limit_fraction": 0.230224609375,
+      "head_action_counts": [
+        2733,
+        2320,
+        3139
+      ]
+    },
+    {
+      "body": 2,
+      "decisions": 8192,
+      "entropy_mean": 4.13159641152015,
+      "attention_change_l1_mean": 0.04796361851089159,
+      "multiplier_top_mean": 1.5855052471160889,
+      "absolute_head_degrees_mean": 66.51386718750003,
+      "head_limit_fraction": 0.4344482421875,
+      "sampled_preaction_moving_fraction": 0.400390625,
+      "outward_command_at_limit_fraction": 0.259521484375,
+      "head_action_counts": [
+        2774,
+        2564,
+        2854
+      ]
+    },
+    {
+      "body": 3,
+      "decisions": 8192,
+      "entropy_mean": 4.110933920688694,
+      "attention_change_l1_mean": 0.03742524138380077,
+      "multiplier_top_mean": 1.793729543685913,
+      "absolute_head_degrees_mean": 66.08759765624995,
+      "head_limit_fraction": 0.4013671875,
+      "sampled_preaction_moving_fraction": 0.3919677734375,
+      "outward_command_at_limit_fraction": 0.2474365234375,
+      "head_action_counts": [
+        2945,
+        2365,
+        2882
+      ]
+    },
+    {
+      "body": 4,
+      "decisions": 8192,
+      "entropy_mean": 4.129383082035929,
+      "attention_change_l1_mean": 0.04850293677782247,
+      "multiplier_top_mean": 1.4931859970092773,
+      "absolute_head_degrees_mean": 68.17148437499999,
+      "head_limit_fraction": 0.4796142578125,
+      "sampled_preaction_moving_fraction": 0.368896484375,
+      "outward_command_at_limit_fraction": 0.2884521484375,
+      "head_action_counts": [
+        2801,
+        2542,
+        2849
+      ]
+    },
+    {
+      "body": 5,
+      "decisions": 8192,
+      "entropy_mean": 4.128016168047907,
+      "attention_change_l1_mean": 0.05404890499733028,
+      "multiplier_top_mean": 1.6924129724502563,
+      "absolute_head_degrees_mean": 65.61936035156255,
+      "head_limit_fraction": 0.431640625,
+      "sampled_preaction_moving_fraction": 0.4197998046875,
+      "outward_command_at_limit_fraction": 0.2783203125,
+      "head_action_counts": [
+        2460,
+        2872,
+        2860
+      ]
+    },
+    {
+      "body": 6,
+      "decisions": 8192,
+      "entropy_mean": 4.127017532009631,
+      "attention_change_l1_mean": 0.06768973377415932,
+      "multiplier_top_mean": 1.7622605562210083,
+      "absolute_head_degrees_mean": 70.84995117187502,
+      "head_limit_fraction": 0.465087890625,
+      "sampled_preaction_moving_fraction": 0.4046630859375,
+      "outward_command_at_limit_fraction": 0.2677001953125,
+      "head_action_counts": [
+        2680,
+        2782,
+        2730
+      ]
+    },
+    {
+      "body": 7,
+      "decisions": 8192,
+      "entropy_mean": 4.131831068487372,
+      "attention_change_l1_mean": 0.04916265377966056,
+      "multiplier_top_mean": 1.4882103204727173,
+      "absolute_head_degrees_mean": 74.01181640624999,
+      "head_limit_fraction": 0.5518798828125,
+      "sampled_preaction_moving_fraction": 0.3251953125,
+      "outward_command_at_limit_fraction": 0.3385009765625,
+      "head_action_counts": [
+        2752,
+        2251,
+        3189
+      ]
+    }
+  ],
+  "total_decisions": 65536,
+  "settling_frames_excluded": true,
+  "note": "Attention entropy and head travel are activity measures, not task success. Yaw and velocity are sampled before the logged command is applied; outward-at-limit commands indicate blocked requests, not actual travel."
+}

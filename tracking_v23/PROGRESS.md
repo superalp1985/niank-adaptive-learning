@@ -30,7 +30,7 @@
   0.022 seconds/frame; 8-world simulation/render about 0.063 seconds/frame.
   This is a small scheduling estimate, not an experiment result.
 
-## Current status
+## Implementation checks before practice
 
 Core implementation committed as `884a08f`. Twenty-four focused tests passed
 in 20.651 seconds. A real-source smoke check continued both arms for 16 frames
@@ -51,7 +51,8 @@ updates and 3 settled future-credit choices per arm. New active records are
 matches, and the source database hash stayed unchanged. Mean attention change
 was nonzero but near uniform; this is integration evidence, not useful behavior.
 
-Full paired practice is running with the frozen implementation above.
+Full paired practice used the frozen implementation above. The following
+observations record its progression; completion is recorded at the end.
 
 Baseline completed all 32768 new training steps/body plus 64 settling steps.
 Equal 8192-step practice intervals recorded 26/30/34/27 contacts and
@@ -62,7 +63,7 @@ scene seed had 3 contacts, 2 safe, 0.018677 collision fraction and 14 impacts.
 It has no initial-model result on that final seed, so 3 contacts alone do not
 establish improvement there.
 
-Active practice follows baseline in the same run. Initial common-scene
+Active practice followed baseline in the same run. Initial common-scene
 physical metrics match baseline exactly, including progress and collision.
 Early observation at 2621 new steps (5248 decision/body samples) measured
 mean attention entropy 4.155634 versus uniform 4.158883, mean consecutive
@@ -98,3 +99,29 @@ Attention analysis now distinguishes pre-action sampled motion from a new
 outward command at a head limit, and includes all eight bodies.
 `ACTIVE_VISION_RESEARCH_ZH.md` records primary-paper references and candidate
 longer-horizon observation credit. It is not a change to the running algorithm.
+
+## Completed practice and observations
+
+Both arms completed 32768 new steps per body and 64 settling steps; the paired
+process and supplemental frozen-exploration process exited successfully.
+Active training contacts across four intervals were 37/35/32/23 and safe
+contacts 28/25/25/18. New training totals were baseline 117 contacts, 95 safe,
+4.08096% collision frames, 566 impact events; active 127 contacts, 96 safe,
+6.44455% collision frames, 548 impact events.
+
+Attention became differentiated and heads physically moved, but the middle
+checkpoint's behavioral gains partly receded. In the independent final
+greedy observations, baseline had 3/2 contacts/safe contacts, active 3/1,
+active uniform attention 3/3 and active fixed head 3/1. Supplemental frozen
+training-exploration observations had baseline 4/4 and active 3/1, with all
+learned parameters unchanged. These results do not establish useful learned
+attention or head control, and total practice remains under seven minutes
+per body including history.
+
+The full record audit covered 657408 physical rows, 656912 consequence
+windows and 1280 settled learning choices including duplicated history.
+All frozen parameter checks passed, all negative learning trials were kept,
+the 14 runtime source hashes per arm matched and the V22 source was unchanged.
+The Chinese report and compact measurements are complete. Archive and
+selective cleanup receipts are tracked in STATUS.md; no running algorithm
+source was changed during analysis.

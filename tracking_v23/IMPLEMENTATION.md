@@ -1,10 +1,11 @@
 # V23 implementation
 
 Implementation is confined to `tracking_v23`. V22 source and completed data are
-unchanged. The full 32768-step paired experiment is running at
-`results/extended_practice_20261017`: baseline practice and observations are
-complete; active practice is still in progress. Final results belong in the
-result report, rather than being inferred from implementation checks.
+unchanged. Both arms completed the full 32768-step continuation and planned
+frozen observations at `results/extended_practice_20261017`, including active
+uniform-attention and head-hold diagnostics. The main record audit passed.
+Final behavioral results belong in `REPORT_V23_ZH.md`, rather than being
+inferred from implementation checks. Archive receipts are tracked separately.
 
 ## Runtime
 

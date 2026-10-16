@@ -1,0 +1,91 @@
+{
+  "tracking_v23\\results\\extended_practice_20261017\\baseline": {
+    "physical_events_checked": 328704,
+    "consequence_windows_checked": 328456,
+    "feature_width_counts": {
+      "576": 328456
+    },
+    "source_and_new_records_included": true,
+    "settled_choices": 640,
+    "learning_trials": 557,
+    "negative_trials_retained": 134,
+    "retained_updates": 1774,
+    "learning_rate_changes_reproduced": 14,
+    "final_learning_rate": 0.003,
+    "mode_counts_reproduced": [
+      83,
+      454,
+      103
+    ],
+    "mode_returns_reproduced": [
+      0.0,
+      0.03368049739231089,
+      -0.023090699591481044
+    ],
+    "complete_runtime_step": 41088,
+    "continuation_origin_step": 8256,
+    "fresh_body_frames": 262656,
+    "fresh_seconds_per_body": 328.32,
+    "physical_scene_combinations": 8,
+    "episodes_with_fresh_experience": 80,
+    "new_episode_starts": 72,
+    "targets_with_fresh_experience": 197,
+    "finite_predictor_parameters": true,
+    "head_frame_samples": 0,
+    "head_travel_radians": 0.0,
+    "head_limit_frame_fraction": 0.0,
+    "head_action_frame_counts": [
+      0,
+      0,
+      0
+    ],
+    "limitation": "Record consistency is not evidence of better behavior.",
+    "database_sha256": "6ba1687bd18074fe78de87966f95d583c8f61a383c1f88301a4a2cffcc97a844",
+    "database_unchanged": true
+  },
+  "tracking_v23\\results\\extended_practice_20261017\\active": {
+    "physical_events_checked": 328704,
+    "consequence_windows_checked": 328456,
+    "feature_width_counts": {
+      "576": 65800,
+      "964": 262656
+    },
+    "source_and_new_records_included": true,
+    "settled_choices": 640,
+    "learning_trials": 482,
+    "negative_trials_retained": 138,
+    "retained_updates": 1532,
+    "learning_rate_changes_reproduced": 26,
+    "final_learning_rate": 0.003,
+    "mode_counts_reproduced": [
+      158,
+      396,
+      86
+    ],
+    "mode_returns_reproduced": [
+      0.0,
+      0.07445534505691198,
+      0.0012740082803219775
+    ],
+    "complete_runtime_step": 41088,
+    "continuation_origin_step": 8256,
+    "fresh_body_frames": 262656,
+    "fresh_seconds_per_body": 328.32,
+    "physical_scene_combinations": 8,
+    "episodes_with_fresh_experience": 79,
+    "new_episode_starts": 71,
+    "targets_with_fresh_experience": 207,
+    "finite_predictor_parameters": true,
+    "head_frame_samples": 262656,
+    "head_travel_radians": 3273.508129109623,
+    "head_limit_frame_fraction": 0.4145802875243665,
+    "head_action_frame_counts": [
+      87564,
+      80560,
+      94532
+    ],
+    "limitation": "Record consistency is not evidence of better behavior.",
+    "database_sha256": "22341d95502d47382f63a276d33aa2a21c12da09b22842a3e1900215335642fe",
+    "database_unchanged": true
+  }
+}

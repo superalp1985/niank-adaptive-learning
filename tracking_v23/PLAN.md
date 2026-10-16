@@ -73,5 +73,8 @@ canonicalize unpersisted physics solver caches in both arms.
 - Design and budget: complete.
 - Implementation, behavior tests and independent review: complete.
 - Baseline extended practice and planned frozen observations: complete.
-- Active extended practice and observations: in progress.
-- Final analysis, audit, full-result upload and verified cleanup: pending.
+- Active extended practice and planned observations: complete.
+- Full training-record audit and source-preservation checks: complete.
+- Supplemental frozen exploration and final report: complete.
+- Complete archive and remote readback: pending; see STATUS.md.
+- Verified cleanup: pending; keep both main databases and all model milestones.

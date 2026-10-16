@@ -1,0 +1,1790 @@
+{
+  "baseline": {
+    "new_training_steps_per_body": 32768,
+    "new_training_seconds_per_body": 327.68,
+    "new_training_body_seconds": 2621.44,
+    "new_training": {
+      "contact": 117,
+      "safe_contact": 95,
+      "collision": 10698,
+      "impact": 557,
+      "spawned": 1069,
+      "frames": 262144,
+      "deaths": 72,
+      "progress": 424.3853414972675,
+      "collision_seconds": 105.57300000001021,
+      "impact_events": 566,
+      "steps": 32768,
+      "updates": 1415,
+      "contacts_per_body_minute": 2.67791748046875,
+      "collision_fraction": 0.04080963134765625
+    },
+    "vision": {
+      "samples": 0,
+      "entropy": 0.0,
+      "attention_l1_change": 0.0,
+      "head_travel": 0.0,
+      "moving_frames": 0,
+      "gaze_actions": [
+        0,
+        0,
+        0
+      ],
+      "mean_entropy": 0.0,
+      "mean_attention_l1_change": 0.0,
+      "motion_fraction": 0.0
+    },
+    "stage_probes": {
+      "0": {
+        "contact": 0,
+        "safe_contact": 0,
+        "collision_fraction": 0.114990234375,
+        "impact_events": 3,
+        "contacts_per_body_minute": 0.0,
+        "progress": -0.36167801011634926
+      },
+      "16384": {
+        "contact": 0,
+        "safe_contact": 0,
+        "collision_fraction": 0.07080078125,
+        "impact_events": 3,
+        "contacts_per_body_minute": 0.0,
+        "progress": -2.45937233510863
+      },
+      "32768": {
+        "contact": 1,
+        "safe_contact": 1,
+        "collision_fraction": 0.097900390625,
+        "impact_events": 3,
+        "contacts_per_body_minute": 1.46484375,
+        "progress": 7.444292858240865
+      }
+    },
+    "stage_probe_scenes": {
+      "0": [
+        {
+          "body": 0,
+          "seed": 9231600,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": 0.9486808256885284,
+          "head_travel": 0.0,
+          "frames": 512
+        },
+        {
+          "body": 1,
+          "seed": 9232609,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": -0.8853629566334513,
+          "head_travel": 0.0,
+          "frames": 512
+        },
+        {
+          "body": 2,
+          "seed": 9233618,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 1,
+          "collision_seconds": 0.0,
+          "progress": 1.5101490283165697,
+          "head_travel": 0.0,
+          "frames": 512
+        },
+        {
+          "body": 3,
+          "seed": 9234627,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 239,
+          "impact_events": 0,
+          "collision_seconds": 2.3779999999999935,
+          "progress": -0.6208743485064936,
+          "head_travel": 0.0,
+          "frames": 512
+        },
+        {
+          "body": 4,
+          "seed": 9235636,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": -1.014491199775644,
+          "head_travel": 0.0,
+          "frames": 512
+        },
+        {
+          "body": 5,
+          "seed": 9236645,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 2,
+          "collision_seconds": 0.0,
+          "progress": -2.026521717971664,
+          "head_travel": 0.0,
+          "frames": 512
+        },
+        {
+          "body": 6,
+          "seed": 9237654,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": -1.0156833792472941,
+          "head_travel": 0.0,
+          "frames": 512
+        },
+        {
+          "body": 7,
+          "seed": 9238663,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 232,
+          "impact_events": 0,
+          "collision_seconds": 2.3139999999999947,
+          "progress": 2.7424257380130976,
+          "head_travel": 0.0,
+          "frames": 512
+        }
+      ],
+      "16384": [
+        {
+          "body": 0,
+          "seed": 9231600,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": 0.677505944908402,
+          "head_travel": 0.0,
+          "frames": 512
+        },
+        {
+          "body": 1,
+          "seed": 9232609,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": -0.9952870619609735,
+          "head_travel": 0.0,
+          "frames": 512
+        },
+        {
+          "body": 2,
+          "seed": 9233618,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 1,
+          "collision_seconds": 0.0,
+          "progress": 1.7114619194694956,
+          "head_travel": 0.0,
+          "frames": 512
+        },
+        {
+          "body": 3,
+          "seed": 9234627,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 290,
+          "impact_events": 0,
+          "collision_seconds": 2.8959999999999826,
+          "progress": -1.155958584539694,
+          "head_travel": 0.0,
+          "frames": 512
+        },
+        {
+          "body": 4,
+          "seed": 9235636,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": 0.0,
+          "head_travel": 0.0,
+          "frames": 512
+        },
+        {
+          "body": 5,
+          "seed": 9236645,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 2,
+          "collision_seconds": 0.0,
+          "progress": -1.8723402828948315,
+          "head_travel": 0.0,
+          "frames": 512
+        },
+        {
+          "body": 6,
+          "seed": 9237654,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": -0.9390454022044619,
+          "head_travel": 0.0,
+          "frames": 512
+        },
+        {
+          "body": 7,
+          "seed": 9238663,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": 0.11429113211343367,
+          "head_travel": 0.0,
+          "frames": 512
+        }
+      ],
+      "32768": [
+        {
+          "body": 0,
+          "seed": 9231600,
+          "contact": 1,
+          "safe_contact": 1,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": 5.88496485938147,
+          "head_travel": 0.0,
+          "frames": 512
+        },
+        {
+          "body": 1,
+          "seed": 9232609,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": -1.0175780464232158,
+          "head_travel": 0.0,
+          "frames": 512
+        },
+        {
+          "body": 2,
+          "seed": 9233618,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 1,
+          "collision_seconds": 0.0,
+          "progress": 3.361815995722445,
+          "head_travel": 0.0,
+          "frames": 512
+        },
+        {
+          "body": 3,
+          "seed": 9234627,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 228,
+          "impact_events": 0,
+          "collision_seconds": 2.2649999999999957,
+          "progress": -0.9808832521493498,
+          "head_travel": 0.0,
+          "frames": 512
+        },
+        {
+          "body": 4,
+          "seed": 9235636,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": 0.035955498822461074,
+          "head_travel": 0.0,
+          "frames": 512
+        },
+        {
+          "body": 5,
+          "seed": 9236645,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 2,
+          "collision_seconds": 0.0,
+          "progress": -1.705223407046205,
+          "head_travel": 0.0,
+          "frames": 512
+        },
+        {
+          "body": 6,
+          "seed": 9237654,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": -1.0624863985743112,
+          "head_travel": 0.0,
+          "frames": 512
+        },
+        {
+          "body": 7,
+          "seed": 9238663,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 173,
+          "impact_events": 0,
+          "collision_seconds": 1.7260000000000013,
+          "progress": 2.9277276085075616,
+          "head_travel": 0.0,
+          "frames": 512
+        }
+      ]
+    },
+    "independent_final_probe": {
+      "contact": 3,
+      "safe_contact": 2,
+      "collision_fraction": 0.0186767578125,
+      "impact_events": 14,
+      "contacts_per_body_minute": 2.197265625,
+      "progress": 14.323323641036069
+    },
+    "independent_final_scenes": [
+      {
+        "body": 0,
+        "seed": 19231600,
+        "contact": 0,
+        "safe_contact": 0,
+        "collision": 0,
+        "impact_events": 0,
+        "collision_seconds": 0.0,
+        "progress": 4.210425253365382,
+        "head_travel": 0.0,
+        "frames": 1024
+      },
+      {
+        "body": 1,
+        "seed": 19232609,
+        "contact": 1,
+        "safe_contact": 1,
+        "collision": 0,
+        "impact_events": 0,
+        "collision_seconds": 0.0,
+        "progress": 2.9924425911415997,
+        "head_travel": 0.0,
+        "frames": 1024
+      },
+      {
+        "body": 2,
+        "seed": 19233618,
+        "contact": 0,
+        "safe_contact": 0,
+        "collision": 0,
+        "impact_events": 0,
+        "collision_seconds": 0.0,
+        "progress": 0.8348386845594558,
+        "head_travel": 0.0,
+        "frames": 1024
+      },
+      {
+        "body": 3,
+        "seed": 19234627,
+        "contact": 0,
+        "safe_contact": 0,
+        "collision": 103,
+        "impact_events": 1,
+        "collision_seconds": 1.0160000000000007,
+        "progress": -1.3649260175513467,
+        "head_travel": 0.0,
+        "frames": 1024
+      },
+      {
+        "body": 4,
+        "seed": 19235636,
+        "contact": 0,
+        "safe_contact": 0,
+        "collision": 0,
+        "impact_events": 4,
+        "collision_seconds": 0.0,
+        "progress": -0.4551186652365309,
+        "head_travel": 0.0,
+        "frames": 1024
+      },
+      {
+        "body": 5,
+        "seed": 19236645,
+        "contact": 0,
+        "safe_contact": 0,
+        "collision": 14,
+        "impact_events": 6,
+        "collision_seconds": 0.13199999999999998,
+        "progress": 0.7137076426324667,
+        "head_travel": 0.0,
+        "frames": 1024
+      },
+      {
+        "body": 6,
+        "seed": 19237654,
+        "contact": 1,
+        "safe_contact": 1,
+        "collision": 0,
+        "impact_events": 2,
+        "collision_seconds": 0.0,
+        "progress": 3.7967496940687644,
+        "head_travel": 0.0,
+        "frames": 1024
+      },
+      {
+        "body": 7,
+        "seed": 19238663,
+        "contact": 1,
+        "safe_contact": 0,
+        "collision": 36,
+        "impact_events": 1,
+        "collision_seconds": 0.2900000000000001,
+        "progress": 3.5952044580562195,
+        "head_travel": 0.0,
+        "frames": 1024
+      }
+    ],
+    "diagnostics": {},
+    "diagnostic_scenes": {},
+    "attention_input_dependence": {},
+    "frozen_checks_all_passed": true,
+    "practice_process": {
+      "intervals": [
+        {
+          "new_steps_from": 0,
+          "new_steps_to": 8192,
+          "contact": 26,
+          "safe_contact": 20,
+          "collision_frames": 3242,
+          "impact_events": 139,
+          "frames": 65536,
+          "collision_fraction": 0.049468994140625,
+          "contacts_per_body_minute": 2.38037109375,
+          "learning_process": {
+            "settled_decisions": 127,
+            "mode_counts": [
+              17,
+              98,
+              12
+            ],
+            "learning_trials": 110,
+            "negative_trials_retained": 25,
+            "retained_predictor_updates": 342,
+            "prediction_gain_mean": 0.063756357899613,
+            "scope": "Grouped by credit settlement step; prediction gain is not task utility."
+          }
+        },
+        {
+          "new_steps_from": 8192,
+          "new_steps_to": 16384,
+          "contact": 30,
+          "safe_contact": 23,
+          "collision_frames": 2263,
+          "impact_events": 137,
+          "frames": 65536,
+          "collision_fraction": 0.0345306396484375,
+          "contacts_per_body_minute": 2.74658203125,
+          "learning_process": {
+            "settled_decisions": 128,
+            "mode_counts": [
+              17,
+              102,
+              9
+            ],
+            "learning_trials": 111,
+            "negative_trials_retained": 19,
+            "retained_predictor_updates": 342,
+            "prediction_gain_mean": 0.07218964072062345,
+            "scope": "Grouped by credit settlement step; prediction gain is not task utility."
+          }
+        },
+        {
+          "new_steps_from": 16384,
+          "new_steps_to": 24576,
+          "contact": 34,
+          "safe_contact": 32,
+          "collision_frames": 2610,
+          "impact_events": 135,
+          "frames": 65536,
+          "collision_fraction": 0.039825439453125,
+          "contacts_per_body_minute": 3.11279296875,
+          "learning_process": {
+            "settled_decisions": 128,
+            "mode_counts": [
+              14,
+              81,
+              33
+            ],
+            "learning_trials": 114,
+            "negative_trials_retained": 29,
+            "retained_predictor_updates": 375,
+            "prediction_gain_mean": 0.04441189819292783,
+            "scope": "Grouped by credit settlement step; prediction gain is not task utility."
+          }
+        },
+        {
+          "new_steps_from": 24576,
+          "new_steps_to": 32768,
+          "contact": 27,
+          "safe_contact": 20,
+          "collision_frames": 2583,
+          "impact_events": 155,
+          "frames": 65536,
+          "collision_fraction": 0.0394134521484375,
+          "contacts_per_body_minute": 2.471923828125,
+          "learning_process": {
+            "settled_decisions": 128,
+            "mode_counts": [
+              16,
+              92,
+              20
+            ],
+            "learning_trials": 112,
+            "negative_trials_retained": 29,
+            "retained_predictor_updates": 356,
+            "prediction_gain_mean": 0.043364989624283874,
+            "scope": "Grouped by credit settlement step; prediction gain is not task utility."
+          }
+        }
+      ],
+      "by_body": [
+        {
+          "body": 0,
+          "contact": 41,
+          "safe_contact": 41,
+          "collision_frames": 0,
+          "impact_events": 55,
+          "frames": 32768
+        },
+        {
+          "body": 1,
+          "contact": 5,
+          "safe_contact": 2,
+          "collision_frames": 1145,
+          "impact_events": 83,
+          "frames": 32768
+        },
+        {
+          "body": 2,
+          "contact": 7,
+          "safe_contact": 3,
+          "collision_frames": 1043,
+          "impact_events": 123,
+          "frames": 32768
+        },
+        {
+          "body": 3,
+          "contact": 5,
+          "safe_contact": 1,
+          "collision_frames": 4229,
+          "impact_events": 86,
+          "frames": 32768
+        },
+        {
+          "body": 4,
+          "contact": 6,
+          "safe_contact": 2,
+          "collision_frames": 1952,
+          "impact_events": 77,
+          "frames": 32768
+        },
+        {
+          "body": 5,
+          "contact": 16,
+          "safe_contact": 10,
+          "collision_frames": 1824,
+          "impact_events": 130,
+          "frames": 32768
+        },
+        {
+          "body": 6,
+          "contact": 35,
+          "safe_contact": 34,
+          "collision_frames": 180,
+          "impact_events": 0,
+          "frames": 32768
+        },
+        {
+          "body": 7,
+          "contact": 2,
+          "safe_contact": 2,
+          "collision_frames": 325,
+          "impact_events": 12,
+          "frames": 32768
+        }
+      ]
+    },
+    "exploratory_stochastic_probe": {
+      "metrics": {
+        "contact": 4,
+        "safe_contact": 4,
+        "collision_fraction": 0.0140380859375,
+        "impact_events": 12,
+        "contacts_per_body_minute": 2.9296875,
+        "progress": 14.5901470986819
+      },
+      "scenes": [
+        {
+          "body": 0,
+          "seed": 19231600,
+          "contact": 1,
+          "safe_contact": 1,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": 4.58876332587083,
+          "head_travel": 0.0,
+          "frames": 1024
+        },
+        {
+          "body": 1,
+          "seed": 19232609,
+          "contact": 1,
+          "safe_contact": 1,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": 2.9924425911415997,
+          "head_travel": 0.0,
+          "frames": 1024
+        },
+        {
+          "body": 2,
+          "seed": 19233618,
+          "contact": 1,
+          "safe_contact": 1,
+          "collision": 0,
+          "impact_events": 1,
+          "collision_seconds": 0.0,
+          "progress": 6.474287079747272,
+          "head_travel": 0.0,
+          "frames": 1024
+        },
+        {
+          "body": 3,
+          "seed": 19234627,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 68,
+          "impact_events": 1,
+          "collision_seconds": 0.6510000000000004,
+          "progress": -1.8814430143931755,
+          "head_travel": 0.0,
+          "frames": 1024
+        },
+        {
+          "body": 4,
+          "seed": 19235636,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 4,
+          "collision_seconds": 0.0,
+          "progress": -0.34825062395053097,
+          "head_travel": 0.0,
+          "frames": 1024
+        },
+        {
+          "body": 5,
+          "seed": 19236645,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 3,
+          "collision_seconds": 0.0,
+          "progress": 0.7183785290195237,
+          "head_travel": 0.0,
+          "frames": 1024
+        },
+        {
+          "body": 6,
+          "seed": 19237654,
+          "contact": 1,
+          "safe_contact": 1,
+          "collision": 0,
+          "impact_events": 3,
+          "collision_seconds": 0.0,
+          "progress": 2.6533638463693077,
+          "head_travel": 0.0,
+          "frames": 1024
+        },
+        {
+          "body": 7,
+          "seed": 19238663,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 47,
+          "impact_events": 0,
+          "collision_seconds": 0.4350000000000003,
+          "progress": -0.6073946351230113,
+          "head_travel": 0.0,
+          "frames": 1024
+        }
+      ],
+      "learned_parameters_unchanged": true,
+      "identity": {
+        "checkpoint_sha256": "a6340c8e29ec839ba385cacf73ee3621d667ba5731fa683849ecd503ceef3017",
+        "steps": 1024,
+        "scene_seed": 19231600,
+        "seed": 23001,
+        "arm": "baseline",
+        "action_policy": "unchanged_training_exploration",
+        "evaluator_sha256": "4e2920d320493b921d71b48901494eba23dff508a349ceb1e994aa45a2b69d7a"
+      },
+      "note": "Added after the baseline midpoint; supplements the planned greedy probes."
+    },
+    "final_probe_vision": {
+      "samples": 0,
+      "entropy": 0.0,
+      "attention_l1_change": 0.0,
+      "head_travel": 0.0,
+      "moving_frames": 0,
+      "gaze_actions": [
+        0,
+        0,
+        0
+      ],
+      "mean_entropy": 0.0,
+      "mean_attention_l1_change": 0.0,
+      "motion_fraction": 0.0
+    },
+    "diagnostic_vision": {}
+  },
+  "active": {
+    "new_training_steps_per_body": 32768,
+    "new_training_seconds_per_body": 327.68,
+    "new_training_body_seconds": 2621.44,
+    "new_training": {
+      "contact": 127,
+      "safe_contact": 96,
+      "collision": 16894,
+      "impact": 532,
+      "spawned": 1100,
+      "frames": 262144,
+      "deaths": 71,
+      "progress": 492.8366850870219,
+      "collision_seconds": 167.23999999995456,
+      "impact_events": 548,
+      "steps": 32768,
+      "updates": 1173,
+      "contacts_per_body_minute": 2.90679931640625,
+      "collision_fraction": 0.06444549560546875
+    },
+    "vision": {
+      "samples": 65536,
+      "entropy": 270323.9179508686,
+      "attention_l1_change": 3525.5034036478028,
+      "head_travel": 3271.49750981133,
+      "moving_frames": 104135,
+      "gaze_actions": [
+        21813,
+        20117,
+        23606
+      ],
+      "mean_entropy": 4.124815642560861,
+      "mean_attention_l1_change": 0.053794912775387616,
+      "motion_fraction": 0.3972434997558594
+    },
+    "stage_probes": {
+      "0": {
+        "contact": 0,
+        "safe_contact": 0,
+        "collision_fraction": 0.114990234375,
+        "impact_events": 3,
+        "contacts_per_body_minute": 0.0,
+        "progress": -0.36167801011634926
+      },
+      "16384": {
+        "contact": 3,
+        "safe_contact": 3,
+        "collision_fraction": 0.043212890625,
+        "impact_events": 3,
+        "contacts_per_body_minute": 4.39453125,
+        "progress": 9.009295868813691
+      },
+      "32768": {
+        "contact": 2,
+        "safe_contact": 2,
+        "collision_fraction": 0.104736328125,
+        "impact_events": 2,
+        "contacts_per_body_minute": 2.9296875,
+        "progress": 10.967825990516946
+      }
+    },
+    "stage_probe_scenes": {
+      "0": [
+        {
+          "body": 0,
+          "seed": 9231600,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": 0.9486808256885284,
+          "head_travel": 0.0,
+          "frames": 512
+        },
+        {
+          "body": 1,
+          "seed": 9232609,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": -0.8853629566334513,
+          "head_travel": 0.0,
+          "frames": 512
+        },
+        {
+          "body": 2,
+          "seed": 9233618,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 1,
+          "collision_seconds": 0.0,
+          "progress": 1.5101490283165697,
+          "head_travel": 0.0,
+          "frames": 512
+        },
+        {
+          "body": 3,
+          "seed": 9234627,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 239,
+          "impact_events": 0,
+          "collision_seconds": 2.3779999999999935,
+          "progress": -0.6208743485064936,
+          "head_travel": 0.0,
+          "frames": 512
+        },
+        {
+          "body": 4,
+          "seed": 9235636,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": -1.014491199775644,
+          "head_travel": 0.0,
+          "frames": 512
+        },
+        {
+          "body": 5,
+          "seed": 9236645,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 2,
+          "collision_seconds": 0.0,
+          "progress": -2.026521717971664,
+          "head_travel": 0.0,
+          "frames": 512
+        },
+        {
+          "body": 6,
+          "seed": 9237654,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": -1.0156833792472941,
+          "head_travel": 0.0,
+          "frames": 512
+        },
+        {
+          "body": 7,
+          "seed": 9238663,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 232,
+          "impact_events": 0,
+          "collision_seconds": 2.3139999999999947,
+          "progress": 2.7424257380130976,
+          "head_travel": 0.0,
+          "frames": 512
+        }
+      ],
+      "16384": [
+        {
+          "body": 0,
+          "seed": 9231600,
+          "contact": 1,
+          "safe_contact": 1,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": 5.492614785842087,
+          "head_travel": 1.5707963267948966,
+          "frames": 512
+        },
+        {
+          "body": 1,
+          "seed": 9232609,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": -0.9138628033994909,
+          "head_travel": 4.712388980384679,
+          "frames": 512
+        },
+        {
+          "body": 2,
+          "seed": 9233618,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 1,
+          "collision_seconds": 0.0,
+          "progress": 0.6663606334410921,
+          "head_travel": 4.586725274241102,
+          "frames": 512
+        },
+        {
+          "body": 3,
+          "seed": 9234627,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 106,
+          "impact_events": 0,
+          "collision_seconds": 1.0480000000000007,
+          "progress": -0.9378574309622465,
+          "head_travel": 2.0734511513692677,
+          "frames": 512
+        },
+        {
+          "body": 4,
+          "seed": 9235636,
+          "contact": 2,
+          "safe_contact": 2,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": 4.673987153770144,
+          "head_travel": 2.4504422698000443,
+          "frames": 512
+        },
+        {
+          "body": 5,
+          "seed": 9236645,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 2,
+          "collision_seconds": 0.0,
+          "progress": -2.0567876032012924,
+          "head_travel": 3.0787608005180065,
+          "frames": 512
+        },
+        {
+          "body": 6,
+          "seed": 9237654,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": -0.9784756249372188,
+          "head_travel": 4.586725274241109,
+          "frames": 512
+        },
+        {
+          "body": 7,
+          "seed": 9238663,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 71,
+          "impact_events": 0,
+          "collision_seconds": 0.7050000000000004,
+          "progress": 3.063316758260616,
+          "head_travel": 1.5707963267948966,
+          "frames": 512
+        }
+      ],
+      "32768": [
+        {
+          "body": 0,
+          "seed": 9231600,
+          "contact": 1,
+          "safe_contact": 1,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": 5.969588417602988,
+          "head_travel": 1.6336281798667036,
+          "frames": 512
+        },
+        {
+          "body": 1,
+          "seed": 9232609,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": -1.0265960018064586,
+          "head_travel": 5.403539364174462,
+          "frames": 512
+        },
+        {
+          "body": 2,
+          "seed": 9233618,
+          "contact": 1,
+          "safe_contact": 1,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": 5.726092728662559,
+          "head_travel": 3.5185837720205884,
+          "frames": 512
+        },
+        {
+          "body": 3,
+          "seed": 9234627,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 270,
+          "impact_events": 0,
+          "collision_seconds": 2.686999999999987,
+          "progress": -0.9891149690749597,
+          "head_travel": 3.07876080051801,
+          "frames": 512
+        },
+        {
+          "body": 4,
+          "seed": 9235636,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": 1.7077311778383026,
+          "head_travel": 3.3300882128051903,
+          "frames": 512
+        },
+        {
+          "body": 5,
+          "seed": 9236645,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 2,
+          "collision_seconds": 0.0,
+          "progress": -2.1181701011608,
+          "head_travel": 6.0946897479642,
+          "frames": 512
+        },
+        {
+          "body": 6,
+          "seed": 9237654,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": -1.0420015456328997,
+          "head_travel": 3.4557519189487884,
+          "frames": 512
+        },
+        {
+          "body": 7,
+          "seed": 9238663,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 159,
+          "impact_events": 0,
+          "collision_seconds": 1.575000000000001,
+          "progress": 2.7402962840882505,
+          "head_travel": 7.099999397112914,
+          "frames": 512
+        }
+      ]
+    },
+    "independent_final_probe": {
+      "contact": 3,
+      "safe_contact": 1,
+      "collision_fraction": 0.0263671875,
+      "impact_events": 17,
+      "contacts_per_body_minute": 2.197265625,
+      "progress": 12.038571818085565
+    },
+    "independent_final_scenes": [
+      {
+        "body": 0,
+        "seed": 19231600,
+        "contact": 0,
+        "safe_contact": 0,
+        "collision": 0,
+        "impact_events": 0,
+        "collision_seconds": 0.0,
+        "progress": 4.160227718709067,
+        "head_travel": 2.3247785636564533,
+        "frames": 1024
+      },
+      {
+        "body": 1,
+        "seed": 19232609,
+        "contact": 1,
+        "safe_contact": 1,
+        "collision": 0,
+        "impact_events": 0,
+        "collision_seconds": 0.0,
+        "progress": 2.9924425911415997,
+        "head_travel": 0.0,
+        "frames": 1024
+      },
+      {
+        "body": 2,
+        "seed": 19233618,
+        "contact": 0,
+        "safe_contact": 0,
+        "collision": 0,
+        "impact_events": 0,
+        "collision_seconds": 0.0,
+        "progress": 0.9043928685812617,
+        "head_travel": 9.864600932271939,
+        "frames": 1024
+      },
+      {
+        "body": 3,
+        "seed": 19234627,
+        "contact": 0,
+        "safe_contact": 0,
+        "collision": 0,
+        "impact_events": 1,
+        "collision_seconds": 0.0,
+        "progress": -1.3126485369018432,
+        "head_travel": 10.995574287564251,
+        "frames": 1024
+      },
+      {
+        "body": 4,
+        "seed": 19235636,
+        "contact": 0,
+        "safe_contact": 0,
+        "collision": 0,
+        "impact_events": 6,
+        "collision_seconds": 0.0,
+        "progress": -0.9395104087305528,
+        "head_travel": 1.5707963267948966,
+        "frames": 1024
+      },
+      {
+        "body": 5,
+        "seed": 19236645,
+        "contact": 0,
+        "safe_contact": 0,
+        "collision": 0,
+        "impact_events": 6,
+        "collision_seconds": 0.0,
+        "progress": 0.8249096558029247,
+        "head_travel": 5.0893800988154805,
+        "frames": 1024
+      },
+      {
+        "body": 6,
+        "seed": 19237654,
+        "contact": 1,
+        "safe_contact": 0,
+        "collision": 22,
+        "impact_events": 1,
+        "collision_seconds": 0.20300000000000004,
+        "progress": 1.4610981358349893,
+        "head_travel": 7.6026542216872794,
+        "frames": 1024
+      },
+      {
+        "body": 7,
+        "seed": 19238663,
+        "contact": 1,
+        "safe_contact": 0,
+        "collision": 194,
+        "impact_events": 3,
+        "collision_seconds": 1.9300000000000013,
+        "progress": 3.9476597936481337,
+        "head_travel": 7.602654221687301,
+        "frames": 1024
+      }
+    ],
+    "diagnostics": {
+      "uniform": {
+        "contact": 3,
+        "safe_contact": 3,
+        "collision_fraction": 0.0,
+        "impact_events": 17,
+        "contacts_per_body_minute": 2.197265625,
+        "progress": 10.788844002729695
+      },
+      "head_hold": {
+        "contact": 3,
+        "safe_contact": 1,
+        "collision_fraction": 0.026123046875,
+        "impact_events": 15,
+        "contacts_per_body_minute": 2.197265625,
+        "progress": 12.48549470764121
+      }
+    },
+    "diagnostic_scenes": {
+      "uniform": [
+        {
+          "body": 0,
+          "seed": 19231600,
+          "contact": 1,
+          "safe_contact": 1,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": 6.667821431852264,
+          "head_travel": 5.4663712172462535,
+          "frames": 1024
+        },
+        {
+          "body": 1,
+          "seed": 19232609,
+          "contact": 1,
+          "safe_contact": 1,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": 2.9924425911415997,
+          "head_travel": 2.0106192982974744,
+          "frames": 1024
+        },
+        {
+          "body": 2,
+          "seed": 19233618,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": 0.8745318361762475,
+          "head_travel": 10.618583169133485,
+          "frames": 1024
+        },
+        {
+          "body": 3,
+          "seed": 19234627,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 1,
+          "collision_seconds": 0.0,
+          "progress": -1.292407308892523,
+          "head_travel": 9.613273519984736,
+          "frames": 1024
+        },
+        {
+          "body": 4,
+          "seed": 19235636,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 6,
+          "collision_seconds": 0.0,
+          "progress": -0.9395104087305528,
+          "head_travel": 1.5707963267948966,
+          "frames": 1024
+        },
+        {
+          "body": 5,
+          "seed": 19236645,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 5,
+          "collision_seconds": 0.0,
+          "progress": 0.6842785961519828,
+          "head_travel": 8.607963870836027,
+          "frames": 1024
+        },
+        {
+          "body": 6,
+          "seed": 19237654,
+          "contact": 1,
+          "safe_contact": 1,
+          "collision": 0,
+          "impact_events": 3,
+          "collision_seconds": 0.0,
+          "progress": 1.235666146398235,
+          "head_travel": 5.0893800988154805,
+          "frames": 1024
+        },
+        {
+          "body": 7,
+          "seed": 19238663,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 2,
+          "collision_seconds": 0.0,
+          "progress": 0.566021118632464,
+          "head_travel": 2.073451151369264,
+          "frames": 1024
+        }
+      ],
+      "head_hold": [
+        {
+          "body": 0,
+          "seed": 19231600,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": 4.135970684117898,
+          "head_travel": 0.0,
+          "frames": 1024
+        },
+        {
+          "body": 1,
+          "seed": 19232609,
+          "contact": 1,
+          "safe_contact": 1,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": 2.9924425911415997,
+          "head_travel": 0.0,
+          "frames": 1024
+        },
+        {
+          "body": 2,
+          "seed": 19233618,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": 0.9234843621322426,
+          "head_travel": 0.0,
+          "frames": 1024
+        },
+        {
+          "body": 3,
+          "seed": 19234627,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 1,
+          "collision_seconds": 0.0,
+          "progress": -1.2394032339730456,
+          "head_travel": 0.0,
+          "frames": 1024
+        },
+        {
+          "body": 4,
+          "seed": 19235636,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 6,
+          "collision_seconds": 0.0,
+          "progress": -0.9395104087305528,
+          "head_travel": 0.0,
+          "frames": 1024
+        },
+        {
+          "body": 5,
+          "seed": 19236645,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 6,
+          "collision_seconds": 0.0,
+          "progress": 1.3141586931063607,
+          "head_travel": 0.0,
+          "frames": 1024
+        },
+        {
+          "body": 6,
+          "seed": 19237654,
+          "contact": 1,
+          "safe_contact": 0,
+          "collision": 3,
+          "impact_events": 2,
+          "collision_seconds": 0.016,
+          "progress": 1.299750613352673,
+          "head_travel": 0.0,
+          "frames": 1024
+        },
+        {
+          "body": 7,
+          "seed": 19238663,
+          "contact": 1,
+          "safe_contact": 0,
+          "collision": 211,
+          "impact_events": 0,
+          "collision_seconds": 2.1039999999999996,
+          "progress": 3.9986014064940467,
+          "head_travel": 0.0,
+          "frames": 1024
+        }
+      ]
+    },
+    "attention_input_dependence": {
+      "visual_attention_l1": 0.0033595915883779526,
+      "state_attention_l1": 0.0012407846515998244,
+      "uniform_prediction_l1": 0.017926756292581558,
+      "zero_detail_prediction_l1": 0.2621136009693146
+    },
+    "frozen_checks_all_passed": true,
+    "practice_process": {
+      "intervals": [
+        {
+          "new_steps_from": 0,
+          "new_steps_to": 8192,
+          "contact": 37,
+          "safe_contact": 28,
+          "collision_frames": 4748,
+          "impact_events": 141,
+          "frames": 65536,
+          "collision_fraction": 0.07244873046875,
+          "contacts_per_body_minute": 3.387451171875,
+          "learning_process": {
+            "settled_decisions": 127,
+            "mode_counts": [
+              41,
+              76,
+              10
+            ],
+            "learning_trials": 86,
+            "negative_trials_retained": 27,
+            "retained_predictor_updates": 268,
+            "prediction_gain_mean": 0.016858023495229264,
+            "scope": "Grouped by credit settlement step; prediction gain is not task utility."
+          }
+        },
+        {
+          "new_steps_from": 8192,
+          "new_steps_to": 16384,
+          "contact": 35,
+          "safe_contact": 25,
+          "collision_frames": 2660,
+          "impact_events": 141,
+          "frames": 65536,
+          "collision_fraction": 0.04058837890625,
+          "contacts_per_body_minute": 3.204345703125,
+          "learning_process": {
+            "settled_decisions": 128,
+            "mode_counts": [
+              14,
+              105,
+              9
+            ],
+            "learning_trials": 114,
+            "negative_trials_retained": 26,
+            "retained_predictor_updates": 351,
+            "prediction_gain_mean": 0.04862244918292977,
+            "scope": "Grouped by credit settlement step; prediction gain is not task utility."
+          }
+        },
+        {
+          "new_steps_from": 16384,
+          "new_steps_to": 24576,
+          "contact": 32,
+          "safe_contact": 25,
+          "collision_frames": 4067,
+          "impact_events": 129,
+          "frames": 65536,
+          "collision_fraction": 0.0620574951171875,
+          "contacts_per_body_minute": 2.9296875,
+          "learning_process": {
+            "settled_decisions": 128,
+            "mode_counts": [
+              72,
+              31,
+              25
+            ],
+            "learning_trials": 56,
+            "negative_trials_retained": 23,
+            "retained_predictor_updates": 193,
+            "prediction_gain_mean": 0.019185820675504926,
+            "scope": "Grouped by credit settlement step; prediction gain is not task utility."
+          }
+        },
+        {
+          "new_steps_from": 24576,
+          "new_steps_to": 32768,
+          "contact": 23,
+          "safe_contact": 18,
+          "collision_frames": 5419,
+          "impact_events": 137,
+          "frames": 65536,
+          "collision_fraction": 0.0826873779296875,
+          "contacts_per_body_minute": 2.105712890625,
+          "learning_process": {
+            "settled_decisions": 128,
+            "mode_counts": [
+              13,
+              102,
+              13
+            ],
+            "learning_trials": 115,
+            "negative_trials_retained": 30,
+            "retained_predictor_updates": 358,
+            "prediction_gain_mean": 0.04621461447247344,
+            "scope": "Grouped by credit settlement step; prediction gain is not task utility."
+          }
+        }
+      ],
+      "by_body": [
+        {
+          "body": 0,
+          "contact": 28,
+          "safe_contact": 28,
+          "collision_frames": 0,
+          "impact_events": 43,
+          "frames": 32768
+        },
+        {
+          "body": 1,
+          "contact": 15,
+          "safe_contact": 8,
+          "collision_frames": 2908,
+          "impact_events": 62,
+          "frames": 32768
+        },
+        {
+          "body": 2,
+          "contact": 6,
+          "safe_contact": 3,
+          "collision_frames": 1380,
+          "impact_events": 135,
+          "frames": 32768
+        },
+        {
+          "body": 3,
+          "contact": 11,
+          "safe_contact": 1,
+          "collision_frames": 7039,
+          "impact_events": 76,
+          "frames": 32768
+        },
+        {
+          "body": 4,
+          "contact": 5,
+          "safe_contact": 2,
+          "collision_frames": 963,
+          "impact_events": 98,
+          "frames": 32768
+        },
+        {
+          "body": 5,
+          "contact": 10,
+          "safe_contact": 7,
+          "collision_frames": 1199,
+          "impact_events": 128,
+          "frames": 32768
+        },
+        {
+          "body": 6,
+          "contact": 41,
+          "safe_contact": 41,
+          "collision_frames": 0,
+          "impact_events": 0,
+          "frames": 32768
+        },
+        {
+          "body": 7,
+          "contact": 11,
+          "safe_contact": 6,
+          "collision_frames": 3405,
+          "impact_events": 6,
+          "frames": 32768
+        }
+      ]
+    },
+    "exploratory_stochastic_probe": {
+      "metrics": {
+        "contact": 3,
+        "safe_contact": 1,
+        "collision_fraction": 0.020263671875,
+        "impact_events": 10,
+        "contacts_per_body_minute": 2.197265625,
+        "progress": 11.537431145358408
+      },
+      "scenes": [
+        {
+          "body": 0,
+          "seed": 19231600,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": 4.206736161870417,
+          "head_travel": 9.236282401553982,
+          "frames": 1024
+        },
+        {
+          "body": 1,
+          "seed": 19232609,
+          "contact": 1,
+          "safe_contact": 1,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": 2.9924425911415997,
+          "head_travel": 10.995574287564256,
+          "frames": 1024
+        },
+        {
+          "body": 2,
+          "seed": 19233618,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 0,
+          "collision_seconds": 0.0,
+          "progress": 0.9314774510023174,
+          "head_travel": 9.110618695410393,
+          "frames": 1024
+        },
+        {
+          "body": 3,
+          "seed": 19234627,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 1,
+          "collision_seconds": 0.0,
+          "progress": -1.319025675325448,
+          "head_travel": 9.864600932271927,
+          "frames": 1024
+        },
+        {
+          "body": 4,
+          "seed": 19235636,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 2,
+          "collision_seconds": 0.0,
+          "progress": -0.2364138648020604,
+          "head_travel": 2.7017696820872317,
+          "frames": 1024
+        },
+        {
+          "body": 5,
+          "seed": 19236645,
+          "contact": 0,
+          "safe_contact": 0,
+          "collision": 0,
+          "impact_events": 6,
+          "collision_seconds": 0.0,
+          "progress": 1.3403727487463435,
+          "head_travel": 9.11061869541039,
+          "frames": 1024
+        },
+        {
+          "body": 6,
+          "seed": 19237654,
+          "contact": 1,
+          "safe_contact": 0,
+          "collision": 17,
+          "impact_events": 1,
+          "collision_seconds": 0.165,
+          "progress": 1.384236987578475,
+          "head_travel": 8.607963870836008,
+          "frames": 1024
+        },
+        {
+          "body": 7,
+          "seed": 19238663,
+          "contact": 1,
+          "safe_contact": 0,
+          "collision": 149,
+          "impact_events": 0,
+          "collision_seconds": 1.477000000000001,
+          "progress": 2.2376047451468084,
+          "head_travel": 8.984954989266765,
+          "frames": 1024
+        }
+      ],
+      "learned_parameters_unchanged": true,
+      "identity": {
+        "checkpoint_sha256": "a7d8fd5212cd15ece4a5a5fde9418e375cf67177435dab63aaa37a8fe2d1d742",
+        "steps": 1024,
+        "scene_seed": 19231600,
+        "seed": 23001,
+        "arm": "active",
+        "action_policy": "unchanged_training_exploration",
+        "evaluator_sha256": "4e2920d320493b921d71b48901494eba23dff508a349ceb1e994aa45a2b69d7a"
+      },
+      "note": "Added after the baseline midpoint; supplements the planned greedy probes."
+    },
+    "final_probe_vision": {
+      "samples": 2048,
+      "entropy": 8414.648189544678,
+      "attention_l1_change": 117.36457342701033,
+      "head_travel": 45.050438652478974,
+      "moving_frames": 1434,
+      "gaze_actions": [
+        1258,
+        345,
+        445
+      ],
+      "mean_entropy": 4.108714936301112,
+      "mean_attention_l1_change": 0.057306920618657387,
+      "motion_fraction": 0.175048828125
+    },
+    "diagnostic_vision": {
+      "uniform": {
+        "samples": 2048,
+        "entropy": 8517.392578125,
+        "attention_l1_change": 0.0,
+        "head_travel": 45.05043865247897,
+        "moving_frames": 1434,
+        "gaze_actions": [
+          1108,
+          272,
+          668
+        ],
+        "mean_entropy": 4.158883094787598,
+        "mean_attention_l1_change": 0.0,
+        "motion_fraction": 0.175048828125
+      },
+      "head_hold": {
+        "samples": 2048,
+        "entropy": 8419.585147857666,
+        "attention_l1_change": 113.85505742905661,
+        "head_travel": 0.0,
+        "moving_frames": 0,
+        "gaze_actions": [
+          2048,
+          0,
+          0
+        ],
+        "mean_entropy": 4.111125560477376,
+        "mean_attention_l1_change": 0.05559328976028155,
+        "motion_fraction": 0.0
+      }
+    }
+  }
+}

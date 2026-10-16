@@ -1,0 +1,42 @@
+{
+  "config": {
+    "variant": "verified",
+    "seed": 23017,
+    "migration_seed": 23017,
+    "world_seed": 221600,
+    "bodies": 8,
+    "additional_steps": 32768,
+    "block": 64,
+    "horizon": 32,
+    "action_every": 4,
+    "checkpoint_every": 1024,
+    "milestone_every": 8192,
+    "stage_probe_steps": 512,
+    "final_probe_steps": 1024,
+    "probe_checkpoint_every": 128,
+    "stage_scene_seed": 9231600,
+    "final_scene_seed": 19231600,
+    "probe_seed": 23001,
+    "prior_gain": 1.0,
+    "recent_epochs": 3,
+    "recall_epochs": 4,
+    "active_capacity": 8,
+    "final_diagnostics": true
+  },
+  "source_runtime": {
+    "path": "E:\\byte级模型\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v22\\results\\patient_practice_20261016\\events.sqlite",
+    "runtime_step": 8256,
+    "runtime_sha256": "d891ccd4e47876804ca15452a09875e45c3444485b62e0d10d875b488bac91fc",
+    "database_sha256": "9f6b104c938d15907c154fed2150e39055f7d3f722df0cb1ccf1f261f4e67ce7",
+    "rows": {
+      "facts": 129,
+      "events": 66048,
+      "choices": 128,
+      "memory_events": 293
+    }
+  },
+  "arms": {
+    "baseline": "E:\\byte级模型\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v23\\results\\extended_practice_20261017\\baseline",
+    "active": "E:\\byte级模型\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v23\\results\\extended_practice_20261017\\active"
+  }
+}
