@@ -54,3 +54,21 @@ Task1-3 files plus21 tests complete; scoped review found no remaining blocker
 for the planned8192-step configuration. Archive pilots before extended practice.
 Outputs moved intact from E:/niank-data/v22 into tracking_v22/results so the
 existing repository archive tool can cover all files without duplicating them.
+
+2026-10-16 completion update:
+- Pilot archive research-v22-spiking-pilots-20261016 was uploaded and fully
+  read back with matching hashes. Verified pilot databases/staging cleaned.
+- Task 2 review complete. Full suite now23 tests, passing in8.728 seconds.
+- Task 4 complete for this finite iteration:8192 training steps/body,
+  64 settlement steps,1024 frozen steps,8 bodies.
+- Five common-scene frozen observations at0/2048/4096/6144/8192,512 steps each,
+  verified all learned parameter hashes unchanged. No duplicate completed runs.
+- 359 local updates retained,32 negative trials,29 recalls,7 cold returns.
+  Initial-to-final frozen contacts1/3/1/1/0: no stable pursuit gain established.
+- Source/runtime/event integrity, final settlement and frozen-parameter checks
+  passed on the actual completed data; completion_audit.json records results.
+- PATIENT_PRACTICE_REPORT_ZH.md records practice limits, shared final probe
+  scenes, hand-engineered prior fade and next distinctions to investigate.
+- Task 5: result documentation complete; full archive publication/readback and
+  selective cleanup use research-v22-patient-practice-20261016. Its archive
+  receipt, rather than this pre-publication note, determines completion.

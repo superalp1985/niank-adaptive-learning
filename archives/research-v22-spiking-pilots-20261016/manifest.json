@@ -1,0 +1,470 @@
+{
+  "format": 1,
+  "repository": "superalp1985/niank-adaptive-learning",
+  "tag": "research-v22-spiking-pilots-20261016",
+  "scope": "tracking_v22",
+  "created_utc": "2026-10-16T14:53:50.298405+00:00",
+  "source_commit": "9b5d77f4a6bc9df365d47eca52121c0d54ac6d30",
+  "files": [
+    {
+      "path": "tracking_v22/__init__.py",
+      "bytes": 72,
+      "sha256": "9f2e543c9890c34016b9b427ac2cdfc2698667c1d784acf72ae1ba4465f772db"
+    },
+    {
+      "path": "tracking_v22/audit_learning.py",
+      "bytes": 3605,
+      "sha256": "db4aacd202630462a400039deb2531950ca840108fa03e4fd153709bd9a646ee"
+    },
+    {
+      "path": "tracking_v22/neural.py",
+      "bytes": 17244,
+      "sha256": "04a78276c325a5c592c791a854c54c206b01227b8aa4521331a469fe0aabd3b0"
+    },
+    {
+      "path": "tracking_v22/pilot_autonomous.json",
+      "bytes": 226,
+      "sha256": "f72f866aa4d03153f0ee5a3b2f6bc7282bf575ce278978d0043915cc08f17313"
+    },
+    {
+      "path": "tracking_v22/pilot_fixed.json",
+      "bytes": 221,
+      "sha256": "24122ffb32bc8dfd6ead25c6a7dc52f2fc73edc79c00c1c81d7e97aa58a38ccc"
+    },
+    {
+      "path": "tracking_v22/PILOT_REPORT_ZH.md",
+      "bytes": 4584,
+      "sha256": "a3398cad540a36df7652a810bc07471d15c3233bab5cfcf0d17966d1a291ed29"
+    },
+    {
+      "path": "tracking_v22/PLAN.md",
+      "bytes": 4052,
+      "sha256": "96fed8fe296de292a98ffb3ebf24b83c78f0a60bf9dedf5fd43c98ba0a477910"
+    },
+    {
+      "path": "tracking_v22/PROGRESS.md",
+      "bytes": 3409,
+      "sha256": "b0b80018735f12842800a698e18d35c0088a4ccc6adb001caeca90c0ff068c64"
+    },
+    {
+      "path": "tracking_v22/results/learning_audit_20261016/learning_audit.json",
+      "bytes": 22301,
+      "sha256": "278bbf1aef616bf5ed4b2c21140e7ac6e58df19492a4a1c4479a82b3ba293696"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/actual_input_0.png",
+      "bytes": 5557,
+      "sha256": "3d59cdb1d86a3208a98060406a34d87c747fb755cf6527acbde08e36f936a25b"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/actual_input_1.png",
+      "bytes": 6758,
+      "sha256": "8b4831fcecbc309bb671c6d5be160f495797dcbeae5e6beb4a496c63ce13a09b"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/actual_input_2.png",
+      "bytes": 5231,
+      "sha256": "c65715d4be50ca900ffbb166ddde1075fe91fed358f6a74c9a12ba0bd87d6f51"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/actual_input_3.png",
+      "bytes": 4872,
+      "sha256": "98eb198e105187c3a8bf5c56adf0658afd30f17294c25166959da5a5f2b31060"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/COMPLETE.json",
+      "bytes": 45245,
+      "sha256": "2b24f7f18bd207328a911c761db5f2db8332e3392af389f5c91b5e221587f1dc"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/events.sqlite",
+      "bytes": 36712448,
+      "sha256": "0cfdd8840831aee1a8d8df758ea11c6825657cf2c18710c5b51bd78f05aece07"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/frozen_probe/actual_input_0.png",
+      "bytes": 4800,
+      "sha256": "2233142bec76c5b6f30904ed6b378c314fa4c7017459cbe9ee65c79bd2a2a148"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/frozen_probe/actual_input_1.png",
+      "bytes": 6043,
+      "sha256": "1612e7cc30a49794536f8a093e3dab9b0f4d9269805532a99b44b693a69e8757"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/frozen_probe/actual_input_2.png",
+      "bytes": 4601,
+      "sha256": "76895b920b758fbc48588f7f8f5836d0f5b11238869182515934e8178a0d785c"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/frozen_probe/actual_input_3.png",
+      "bytes": 6282,
+      "sha256": "e10c4b39c434875c8add7d7f8a5e255217ea8541a05f8ba23b06c74616ca28b9"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/frozen_probe/events.sqlite",
+      "bytes": 25522176,
+      "sha256": "7e8e3b83f6af62232dca515a1a22a66c9c2c86460e2e236e27f19f911f14bd8b"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/frozen_probe/progress.json",
+      "bytes": 794,
+      "sha256": "48fba0c62c006ca39e0ae4886418029c677fa488376692441ed099d30e3b288d"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/frozen_probe/summary.json",
+      "bytes": 8274,
+      "sha256": "1a9c0117ccbf207afb1e72413b7db3ca30d8dbca3bffe8e57fac19b12f638968"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/learner.pt",
+      "bytes": 1710555,
+      "sha256": "6d7606bf6c48d768e3f8de4c48325a27d147ea00052fdb0e9335f7ac9c534ed8"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/manifest.json",
+      "bytes": 1854,
+      "sha256": "9349bfdb8eb2fdc9beb7ef6afc804a1d6ced8fa883076e6b6e2990ed9c464833"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/progress.json",
+      "bytes": 1100,
+      "sha256": "35dfe34a2e57055abf488dd53accad7520b95ca5f191c88c29fb5873e4364533"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/source/SUBJECTIVE_STATE_DESIGN_NOTES_ZH.md",
+      "bytes": 5074,
+      "sha256": "8b6bf16dda327fa968e89f3f123609adeefcfca2f11e2d95f0c91319ae230fc5"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/source/tracking_v17/world.py",
+      "bytes": 12959,
+      "sha256": "b1ba1fdb18473d7ebb1dfffba5e6113fe8d489c0f825162a89b96fad5f71d949"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/source/tracking_v22/__init__.py",
+      "bytes": 72,
+      "sha256": "9f2e543c9890c34016b9b427ac2cdfc2698667c1d784acf72ae1ba4465f772db"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/source/tracking_v22/audit_learning.py",
+      "bytes": 3605,
+      "sha256": "db4aacd202630462a400039deb2531950ca840108fa03e4fd153709bd9a646ee"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/source/tracking_v22/neural.py",
+      "bytes": 17014,
+      "sha256": "b06134daae5ce8fcafd70f60a0ba32333524ba8adeda6567c2b1d9bb2185a96f"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/source/tracking_v22/PLAN.md",
+      "bytes": 4052,
+      "sha256": "96fed8fe296de292a98ffb3ebf24b83c78f0a60bf9dedf5fd43c98ba0a477910"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/source/tracking_v22/PROGRESS.md",
+      "bytes": 2284,
+      "sha256": "f733114a6836ff6e3f89edf45a80cd7428822ec6715c8714ab510f04c64045d7"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/source/tracking_v22/run.py",
+      "bytes": 22572,
+      "sha256": "5235c16d79561e0c148dd100a764896e88ab6843fe11af504efd0752be70fc84"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/source/tracking_v22/sensory_audit.py",
+      "bytes": 4481,
+      "sha256": "1c00d918b2b5d383a4b485f3970a0927fb6e9b1fa2940ea67a810e9dd3d2c3f8"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/source/tracking_v22/test_neural.py",
+      "bytes": 3373,
+      "sha256": "a3d4fb01d851315a7e431b3ad7ef91b8165bc6538147c2244540c11ddd02831e"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/source/tracking_v22/test_runtime.py",
+      "bytes": 3865,
+      "sha256": "da4ca75b65b6e82a93a18612fa17fb0a319e6073366989782846eaf7ec9339fa"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/source/tracking_v22/test_world.py",
+      "bytes": 8893,
+      "sha256": "7756d9e852d3d2db698fa410edc5ecba357ce96348007f25ede200e034e54e93"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/source/tracking_v22/world.py",
+      "bytes": 18139,
+      "sha256": "51cc948108763a08dac27942f537730837a4d5a17c37dd0d12ed9b5ff2f88408"
+    },
+    {
+      "path": "tracking_v22/results/pilot_autonomous_20261016/summary.json",
+      "bytes": 33916,
+      "sha256": "a611f39be6ee3df24264fdfdf8407ab988bf17280b9883c5176f963132e458cc"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/actual_input_0.png",
+      "bytes": 5557,
+      "sha256": "3d59cdb1d86a3208a98060406a34d87c747fb755cf6527acbde08e36f936a25b"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/actual_input_1.png",
+      "bytes": 6758,
+      "sha256": "8b4831fcecbc309bb671c6d5be160f495797dcbeae5e6beb4a496c63ce13a09b"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/actual_input_2.png",
+      "bytes": 5231,
+      "sha256": "c65715d4be50ca900ffbb166ddde1075fe91fed358f6a74c9a12ba0bd87d6f51"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/actual_input_3.png",
+      "bytes": 4872,
+      "sha256": "98eb198e105187c3a8bf5c56adf0658afd30f17294c25166959da5a5f2b31060"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/COMPLETE.json",
+      "bytes": 30083,
+      "sha256": "82f0e9bc82efd5d458e2da787eb544ee916dca58eb53fe862110c591f521a1d3"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/events.sqlite",
+      "bytes": 36016128,
+      "sha256": "2a1825f826457f117509f330db0b9d13c200fed8868903d77f8bcb47322cc986"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/frozen_probe/actual_input_0.png",
+      "bytes": 4800,
+      "sha256": "2233142bec76c5b6f30904ed6b378c314fa4c7017459cbe9ee65c79bd2a2a148"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/frozen_probe/actual_input_1.png",
+      "bytes": 6043,
+      "sha256": "1612e7cc30a49794536f8a093e3dab9b0f4d9269805532a99b44b693a69e8757"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/frozen_probe/actual_input_2.png",
+      "bytes": 4601,
+      "sha256": "76895b920b758fbc48588f7f8f5836d0f5b11238869182515934e8178a0d785c"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/frozen_probe/actual_input_3.png",
+      "bytes": 6282,
+      "sha256": "e10c4b39c434875c8add7d7f8a5e255217ea8541a05f8ba23b06c74616ca28b9"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/frozen_probe/events.sqlite",
+      "bytes": 15175680,
+      "sha256": "a1d65c5453a4f02d1f9d12bf46009912da72d9213e49eac86b36f2ebef8c0669"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/frozen_probe/progress.json",
+      "bytes": 561,
+      "sha256": "b43c92c428620132c39ea6a8aad49bad4f5653f6c522b25dda52b4c85ec27f06"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/frozen_probe/summary.json",
+      "bytes": 5957,
+      "sha256": "4030f188480444728b39efbe86803e5036893e709b762186a963a1a54976eeaa"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/learner.pt",
+      "bytes": 2116678,
+      "sha256": "37f7c467942d8715524e9cd313ce9277c96f7288f66ea397d6a98ccdc65b4f60"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/manifest.json",
+      "bytes": 1849,
+      "sha256": "0b066b607ab351366603bc65148912863e3a1a66912499823e050d20c45a2a60"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/progress.json",
+      "bytes": 768,
+      "sha256": "deb94ebc4daf0aaffb36de76dedd353de41335f072eb40f4b889ff428912d126"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/source/SUBJECTIVE_STATE_DESIGN_NOTES_ZH.md",
+      "bytes": 5074,
+      "sha256": "8b6bf16dda327fa968e89f3f123609adeefcfca2f11e2d95f0c91319ae230fc5"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/source/tracking_v17/world.py",
+      "bytes": 12959,
+      "sha256": "b1ba1fdb18473d7ebb1dfffba5e6113fe8d489c0f825162a89b96fad5f71d949"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/source/tracking_v22/__init__.py",
+      "bytes": 72,
+      "sha256": "9f2e543c9890c34016b9b427ac2cdfc2698667c1d784acf72ae1ba4465f772db"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/source/tracking_v22/audit_learning.py",
+      "bytes": 3605,
+      "sha256": "db4aacd202630462a400039deb2531950ca840108fa03e4fd153709bd9a646ee"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/source/tracking_v22/neural.py",
+      "bytes": 15719,
+      "sha256": "c048ddb6b286bf276bd5cd23d0814a425d2d3270d05410c99bc0899cc0140693"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/source/tracking_v22/PLAN.md",
+      "bytes": 4032,
+      "sha256": "70272c0e0e602d60a5c51f2ede27cfd2b048fd5aa1d49b4657765d3126b6a344"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/source/tracking_v22/PROGRESS.md",
+      "bytes": 1494,
+      "sha256": "08e3ea2839f659e39c5d8a56ebcfc09c9915f50be067b4945e83d123929f6b8a"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/source/tracking_v22/run.py",
+      "bytes": 19645,
+      "sha256": "fafa4d86c902d5ac222828ab5fd58c7d306206e85935344de87844e1e145c1de"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/source/tracking_v22/sensory_audit.py",
+      "bytes": 4481,
+      "sha256": "1c00d918b2b5d383a4b485f3970a0927fb6e9b1fa2940ea67a810e9dd3d2c3f8"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/source/tracking_v22/test_neural.py",
+      "bytes": 2844,
+      "sha256": "4154a880287b058c2d3e8d6c297961c315beea71c77ddd797d895eeb5a9844fa"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/source/tracking_v22/test_runtime.py",
+      "bytes": 2181,
+      "sha256": "2b47067bdd80cc1ac8dc8d5deedaf315f5016a64b15d9e4025f5c5b6f742708c"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/source/tracking_v22/test_world.py",
+      "bytes": 8893,
+      "sha256": "7756d9e852d3d2db698fa410edc5ecba357ce96348007f25ede200e034e54e93"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/source/tracking_v22/world.py",
+      "bytes": 18139,
+      "sha256": "51cc948108763a08dac27942f537730837a4d5a17c37dd0d12ed9b5ff2f88408"
+    },
+    {
+      "path": "tracking_v22/results/pilot_fixed_20261016/summary.json",
+      "bytes": 21923,
+      "sha256": "e3417c73304ca734ebe49dc22511729333ad33775e64ff30f91fafa0f604e49c"
+    },
+    {
+      "path": "tracking_v22/results/sensory_audit_20261016/audit.json",
+      "bytes": 4351,
+      "sha256": "28463ccb5f4ebfd2e1ffc1323f281d99cb1e67b1f3a95fb070ccfc74ac13fc6f"
+    },
+    {
+      "path": "tracking_v22/results/sensory_audit_20261016/constant_motion_00.png",
+      "bytes": 4298,
+      "sha256": "5775a3fa77ff45ccd3fa3434849644162cd5b2f234970e01cd536a3b2577900e"
+    },
+    {
+      "path": "tracking_v22/results/sensory_audit_20261016/constant_motion_01.png",
+      "bytes": 4286,
+      "sha256": "f167eb866f3e7b661ae57d909d4721e3dd73a781edcc9a4e21be919dd71c61cf"
+    },
+    {
+      "path": "tracking_v22/results/sensory_audit_20261016/constant_motion_02.png",
+      "bytes": 4204,
+      "sha256": "1d0d25adfb4c923ab67b57fc2da66588633e0b76b242754ebac3cd09e27ad520"
+    },
+    {
+      "path": "tracking_v22/results/sensory_audit_20261016/constant_motion_03.png",
+      "bytes": 4207,
+      "sha256": "0d9dc9e966c761401819407626dc302c262965d985260a81fac37f92231e56c4"
+    },
+    {
+      "path": "tracking_v22/results/sensory_audit_20261016/far_target_smallest_threat.png",
+      "bytes": 3735,
+      "sha256": "f4c29f3fbc6f690a41ad7d4d52178ad8d19f199fd6e7a268b196662c3cc6bec5"
+    },
+    {
+      "path": "tracking_v22/results/sensory_audit_20261016/forward_seam.png",
+      "bytes": 3973,
+      "sha256": "b3e347a0b36c510f146e43f855954102537049ba6c9a29746f15d0cb89dc9000"
+    },
+    {
+      "path": "tracking_v22/results/sensory_audit_20261016/fully_occluded.png",
+      "bytes": 5492,
+      "sha256": "7e2fb0c610f71d51ebcd646ccab21eef0770f4f611ec4bb1bae928e445b36200"
+    },
+    {
+      "path": "tracking_v22/results/sensory_audit_20261016/model_input_mosaic.png",
+      "bytes": 46668,
+      "sha256": "059971d469d48c16e2c48da4bc86afdc6107e77ae77ba47f45350e6d2c823503"
+    },
+    {
+      "path": "tracking_v22/results/sensory_audit_20261016/near_target_and_pattern_distractors.png",
+      "bytes": 5205,
+      "sha256": "91f7d4706330be585bdacddc63c548b7b7b22e2d572f6ae97a6a454fdf921a40"
+    },
+    {
+      "path": "tracking_v22/results/sensory_audit_20261016/partial_occlusion.png",
+      "bytes": 5391,
+      "sha256": "237d9d342f0adb44be912a3d0dceb0887c53cc23d28a570d8afb9119627e6c39"
+    },
+    {
+      "path": "tracking_v22/results/sensory_audit_20261016/reappeared.png",
+      "bytes": 5195,
+      "sha256": "62cadaa892a12452fbe1c5de6e11750b3a3cf15bffcc7705a0287fc532efe24d"
+    },
+    {
+      "path": "tracking_v22/run.py",
+      "bytes": 25758,
+      "sha256": "988093c798d98525188971da2120d2954426d67e7501466e987ccee0b0690994"
+    },
+    {
+      "path": "tracking_v22/sensory_audit.py",
+      "bytes": 4481,
+      "sha256": "1c00d918b2b5d383a4b485f3970a0927fb6e9b1fa2940ea67a810e9dd3d2c3f8"
+    },
+    {
+      "path": "tracking_v22/test_neural.py",
+      "bytes": 3373,
+      "sha256": "a3d4fb01d851315a7e431b3ad7ef91b8165bc6538147c2244540c11ddd02831e"
+    },
+    {
+      "path": "tracking_v22/test_runtime.py",
+      "bytes": 3865,
+      "sha256": "da4ca75b65b6e82a93a18612fa17fb0a319e6073366989782846eaf7ec9339fa"
+    },
+    {
+      "path": "tracking_v22/test_verified.py",
+      "bytes": 1896,
+      "sha256": "e2bb41653cce4fc77fa21fca68a2434cc3ba905d3d43fb1c86ef0930ec5d95a0"
+    },
+    {
+      "path": "tracking_v22/test_world.py",
+      "bytes": 8893,
+      "sha256": "7756d9e852d3d2db698fa410edc5ecba357ce96348007f25ede200e034e54e93"
+    },
+    {
+      "path": "tracking_v22/verified.py",
+      "bytes": 6498,
+      "sha256": "8f6fd3f3de293f702605d2d16ef5e55603b9b1bdf08aea8922322829b3b31927"
+    },
+    {
+      "path": "tracking_v22/verified_practice.json",
+      "bytes": 293,
+      "sha256": "fad8917b03fe0e651a13b01251e6737c2c4fbad9053c770975193edb85d22a43"
+    },
+    {
+      "path": "tracking_v22/world.py",
+      "bytes": 18139,
+      "sha256": "51cc948108763a08dac27942f537730837a4d5a17c37dd0d12ed9b5ff2f88408"
+    }
+  ],
+  "source_bytes": 117925713,
+  "zip_bytes": 34122325,
+  "zip_sha256": "140b642a9720f38f92ad7e59edfb198cc1d0dc4e05c6743ffa30b4fbe27a9b60",
+  "parts": [
+    {
+      "name": "research-v22-spiking-pilots-20261016.zip.part001",
+      "bytes": 34122325,
+      "sha256": "140b642a9720f38f92ad7e59edfb198cc1d0dc4e05c6743ffa30b4fbe27a9b60"
+    }
+  ]
+}

@@ -40,6 +40,22 @@ class VerifiedChecks(unittest.TestCase):
         memory.credit(cold, -.2)
         self.assertLess(memory.entries[cold]["benefit"], 0)
 
+    def test_rate_changes_only_after_repeated_evidence(self):
+        learner = VerifiedLearner(2, device="cpu")
+        for index in range(12):
+            batch = learner.synthetic_batch(8)
+            learner.begin_trial(torch.zeros(1, 33), 1, decision_step=index*64)
+            learner.train_batch(batch, 1)
+            with torch.no_grad():
+                for head in learner.model.heads:
+                    head.bias.add_(30.)
+            learner.settle_trial(learner.synthetic_batch(8))
+            if index < 11:
+                self.assertEqual(learner.optimizer.param_groups[0]["lr"], .0008)
+        self.assertEqual(learner.learning_trials, 12)
+        self.assertLess(learner.optimizer.param_groups[0]["lr"], .0008)
+        self.assertEqual(learner.rollbacks, 0)
+
 
 if __name__ == "__main__":
     unittest.main()

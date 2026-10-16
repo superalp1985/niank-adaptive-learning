@@ -12,5 +12,6 @@
   "prior_gain": 1.0,
   "recent_epochs": 3,
   "recall_epochs": 4,
-  "active_capacity": 8
+  "active_capacity": 8,
+  "save_milestones": true
 }

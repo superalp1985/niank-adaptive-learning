@@ -88,7 +88,8 @@ class Session:
         self.choices = [0, 0, 0]
         self.memory_recalls = self.cold_recalls = 0
         self.metrics = dict(contact=0, safe_contact=0, collision=0, impact=0,
-                            spawned=0, frames=0, deaths=0, progress=0.)
+                            spawned=0, frames=0, deaths=0, progress=0.,
+                            collision_seconds=0., impact_events=0)
         self.start = time.perf_counter()
         self.elapsed_before = 0.
         self.current_actions = np.zeros(self.bodies, np.int64)
@@ -237,6 +238,8 @@ class Session:
                 for key in ("contact", "safe_contact", "collision", "impact", "spawned"):
                     self.metrics[key] += int(info[key])
                 self.metrics["progress"] += info["progress"]
+                self.metrics["collision_seconds"] += info["collision_duration"]
+                self.metrics["impact_events"] += info["impact_count"]
                 for event in info.get("sensor_events", []):
                     # Relative to this world's current 10ms interval, including resets.
                     within = event["timestamp"] - (info["timestamp"]-DT)
@@ -405,6 +408,11 @@ def run(config, output):
     if (output/"COMPLETE.json").exists():
         raise RuntimeError("Completed configuration must not be rerun")
     if (output/"events.sqlite").exists():
+        manifest = json.loads((output/"manifest.json").read_text())
+        for relative, expected in manifest["sources"].items():
+            if relative.endswith(".py") and hashlib.sha256(
+                    (REPO/relative).read_bytes()).hexdigest() != expected:
+                raise RuntimeError("Resume requires the saved source version: "+relative)
         session = Session.restore(output)
         if session.config != config:
             raise ValueError("Cannot resume with changed configuration")
@@ -413,10 +421,16 @@ def run(config, output):
         source_snapshot(output, config)
         session = Session(output, config)
         session.checkpoint()
+        if config.get("save_milestones"):
+            torch.save(session.agent, output/"learner_step_00000.pt")
     try:
         while session.step < config["steps"]:
             session.advance(min(config["checkpoint_every"], config["steps"]-session.step))
             session.checkpoint()
+            if config.get("save_milestones") and session.step % 2048 == 0:
+                torch.save(session.agent, output/f"learner_step_{session.step:05d}.pt")
+        if not (output/"training_only_summary.json").exists():
+            dump(output/"training_only_summary.json", session.summary())
         session.learning_enabled = False
         settle_end = config["steps"] + config.get("settling_steps",
                                                  max(config["block"], config["horizon"]))

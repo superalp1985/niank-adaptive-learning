@@ -1,0 +1,38 @@
+{
+  "complete": true,
+  "training_step": 8256,
+  "local_updates": 359,
+  "settled_last_trial": true,
+  "final_frozen_parameters_unchanged": true,
+  "stage_checks": [
+    {
+      "step": 0,
+      "parameter_sha256": "661c23f779afd65ad9f0c3f1031898b6310f1af41be63127c594c91bec290cc0",
+      "world_seed": 921600
+    },
+    {
+      "step": 2048,
+      "parameter_sha256": "da5b6713eda3f8fb8da3c2ce45a7e73bee8a437b3800d7cabfc10184524e4383",
+      "world_seed": 921600
+    },
+    {
+      "step": 4096,
+      "parameter_sha256": "73c8d5df2417f5e8b3038d8a94b7d404d0619b9ff464aefe5028111351a44bfc",
+      "world_seed": 921600
+    },
+    {
+      "step": 6144,
+      "parameter_sha256": "e00aff36b4180ff5eb31c6e8918dc3168ddaafd6b10375ba0c5eab92ebf72209",
+      "world_seed": 921600
+    },
+    {
+      "step": 8192,
+      "parameter_sha256": "68b90a79dd790482d5b5fc31b377d3b4879cc65640238b7bfceabc10f90db908",
+      "world_seed": 921600
+    }
+  ],
+  "frozen_world_seed": 921600,
+  "final_probe_shares_stage_scenes": true,
+  "source_snapshots_unchanged": true,
+  "runtime_and_event_counts_verified": true
+}

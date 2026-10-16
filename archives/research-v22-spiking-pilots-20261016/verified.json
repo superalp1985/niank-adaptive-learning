@@ -1,0 +1,14 @@
+{
+  "repository": "superalp1985/niank-adaptive-learning",
+  "tag": "research-v22-spiking-pilots-20261016",
+  "manifest_sha256": "4f7dca869467093dd66f97c9ab1642ff3ab76c39efad98f4c580de4e4014836c",
+  "remote_manifest_sha256": "4f7dca869467093dd66f97c9ab1642ff3ab76c39efad98f4c580de4e4014836c",
+  "verified_utc": "2026-10-16T14:56:33.408658+00:00",
+  "parts": [
+    {
+      "name": "research-v22-spiking-pilots-20261016.zip.part001",
+      "bytes": 34122325,
+      "sha256": "140b642a9720f38f92ad7e59edfb198cc1d0dc4e05c6743ffa30b4fbe27a9b60"
+    }
+  ]
+}

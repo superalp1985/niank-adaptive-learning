@@ -46,9 +46,15 @@ class RuntimeChecks(unittest.TestCase):
                 self.assertEqual(a[key], b[key])
 
     def test_runtime_continuation(self):
+        self.check_runtime("autonomous")
+
+    def test_patient_runtime_continuation(self):
+        self.check_runtime("verified")
+
+    def check_runtime(self, variant):
         torch.set_num_threads(4)
         torch.manual_seed(99)
-        config = dict(bodies=2, variant="autonomous", world_seed=1900, block=8,
+        config = dict(bodies=2, variant=variant, world_seed=1900, block=8,
                       horizon=4, action_every=2, seed=99)
         with tempfile.TemporaryDirectory(dir="E:/niank-temp") as root:
             original = Path(root)/"original"

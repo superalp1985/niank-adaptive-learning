@@ -40,23 +40,24 @@ storage, independent trial directories, complete checkpoints and summaries.
 ## Tasks and status
 
 1. [complete] New physical/visual environment, real-input snapshots, tests.
-2. [complete; review underway] Spiking state and local autonomous learning, causal tests.
+2. [complete] Spiking state and local autonomous learning, scoped review and tests.
 3. [complete] Runtime, persistence/recovery, sensor and timing checks.
-4. [in progress] Concurrent-scene practice; failure-driven mechanism iteration.
-5. [pending] Review, report, GitHub archive and remote verification.
+4. [complete for V22-B] Concurrent-scene practice and five frozen stage observations.
+5. [report complete; archive pending] Review, report, GitHub archive and remote verification.
 
 ## Algorithm starting point
 
-The initial architecture uses learned visual features, a continuous latent
+The implemented architecture uses engineered native-pixel visual features, a continuous latent
 internal state and LIF temporal traces. A disclosed visual pursuit prior may
 provide initial motor competence; it must read pixels only and be shared by
-all comparisons. A learned residual policy and action-consequence model
-adjust behavior from physical outcomes. Internal energy, integrity, surprise
+all comparisons. Learned action-consequence predictions change action scores
+alongside this prior. Internal energy, integrity, surprise
 and latent state modulate the value of consequences.
 
 A contextual controller chooses observe, recent learning, or memory recall.
-Its credit uses subsequently observed prediction improvement and physical
-consequences, with explicit delayed attribution and update cost. Stored
+Its credit uses subsequently observed prediction improvement, with physical
+consequences as prediction targets, delayed attribution and update cost.
+It does not separately establish improved physical behavior. Stored
 experiences can leave active memory and later return. No reference policy
 agreement is counted as correctness.
 
@@ -64,6 +65,29 @@ We test a shared-sensor fixed-learning arm against autonomous learning, then
 change a mechanism only after seeing its failure. Comparisons record practice
 time, fresh frames, action count and optimizer steps separately. No promise
 of generalization or universal self-improvement follows from a short run.
+
+## Patient-practice amendment, 2026-10-16
+
+V22-B retains negative single-trial updates. Learning-rate adaptation starts
+after 12 actual learning trials and uses a rolling 12-trial mean every 4
+trials. Learning-mode exploration remains active. The motor prior fades
+gradually after 96 retained updates. These are explicit engineered rules,
+not learned laws or evidence of autonomous architecture invention.
+
+The current run uses 8 simultaneous bodies and 8192 steps each: 81.92
+simulated seconds per body, or 655.36 aggregate body-seconds. Its 64-step
+settling interval earns feedback for the last decision without more local
+training. This is more practice than the pilots, not a claim of sufficient
+developmental time.
+
+Observe saved stages at 0, 2048, 4096, 6144 and 8192 steps in the same
+independent scenarios, for 512 frozen steps each. Finish the separate
+1024-step frozen probe. The final probe uses the same scene seed as the
+stage observations, so it is a longer observation, not an independent
+second set of environments. Keep all declines and recoveries visible; do not
+stop on an early decline, or interpret additional training as guaranteed
+eventual success. Record action frequency and actual motion so inactivity
+cannot masquerade as obstacle avoidance.
 
 ## Evidence and stopping
 
