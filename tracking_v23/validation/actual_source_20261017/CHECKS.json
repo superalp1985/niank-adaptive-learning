@@ -1,0 +1,66 @@
+{
+  "source": {
+    "path": "E:\\byte级模型\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v22\\results\\patient_practice_20261016\\events.sqlite",
+    "runtime_step": 8256,
+    "runtime_sha256": "d891ccd4e47876804ca15452a09875e45c3444485b62e0d10d875b488bac91fc",
+    "database_sha256": "9f6b104c938d15907c154fed2150e39055f7d3f722df0cb1ccf1f261f4e67ce7",
+    "rows": {
+      "facts": 129,
+      "events": 66048,
+      "choices": 128,
+      "memory_events": 293
+    }
+  },
+  "source_unchanged": true,
+  "arms": {
+    "baseline": {
+      "origin_step": 8256,
+      "additional_smoke_steps": 16,
+      "pending_windows_migrated": 248,
+      "input_width": 576,
+      "parameter_sha256": "b4b91509d08ce2f19623c68fe82db27ebaa296b12cde782627406477384ebc68",
+      "initial_source_trial": false,
+      "vision": {
+        "samples": 0,
+        "entropy": 0.0,
+        "attention_l1_change": 0.0,
+        "head_travel": 0.0,
+        "moving_frames": 0,
+        "gaze_actions": [
+          0,
+          0,
+          0
+        ],
+        "mean_entropy": 0.0,
+        "mean_attention_l1_change": 0.0,
+        "motion_fraction": 0.0
+      },
+      "exact_checkpoint_continuation": true
+    },
+    "active": {
+      "origin_step": 8256,
+      "additional_smoke_steps": 16,
+      "pending_windows_migrated": 248,
+      "input_width": 964,
+      "parameter_sha256": "c2bb03a846ef4336b89dd6f8b15cf7dd4a8eec816926f74b2324ec5e60edb03e",
+      "initial_source_trial": false,
+      "vision": {
+        "samples": 32,
+        "entropy": 133.08425903320312,
+        "attention_l1_change": 0.0,
+        "head_travel": 2.5132741228718345,
+        "moving_frames": 80,
+        "gaze_actions": [
+          12,
+          10,
+          10
+        ],
+        "mean_entropy": 4.158883094787598,
+        "mean_attention_l1_change": 0.0,
+        "motion_fraction": 0.625
+      },
+      "exact_checkpoint_continuation": true
+    }
+  },
+  "scope": "16 extra frames/body/arm only; no full practice experiment"
+}
