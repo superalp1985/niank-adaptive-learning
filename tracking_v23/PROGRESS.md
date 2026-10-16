@@ -53,3 +53,18 @@ was nonzero but near uniform; this is integration evidence, not useful behavior.
 
 Full paired practice is now starting with the frozen implementation above.
 No full new-practice results yet.
+
+## Additional observation decision during training
+
+The baseline midpoint greedy probe had zero contacts, collision fraction
+0.07080 versus initial 0.11499, and unchanged 3 impact events. Training uses
+stochastic actions whereas this probe is greedy. Add a separate final
+1024-step frozen-weight stochastic probe for each arm on the same independent
+final scenes. This is an exploratory diagnostic added after observing the
+midpoint, not a replacement for the planned greedy results or a training change.
+One focused freeze/restore test passed in 2.759 seconds; independent review
+found no blocking issue. No predictor/state/spike/meta updates are permitted.
+
+Added process analysis separates each 8192-step interval and individual
+bodies. Attention/head charts exclude final settling steps and use a minimum
+multiplier color range of 0.9 to 1.1 so tiny changes are not visually exaggerated.

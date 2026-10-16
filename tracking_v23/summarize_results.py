@@ -2,6 +2,7 @@
 import argparse
 import json
 from pathlib import Path
+import sqlite3
 
 import matplotlib
 matplotlib.use("Agg")
@@ -17,6 +18,34 @@ def metrics(summary):
     return {key: summary[key] for key in (
         "contact", "safe_contact", "collision_fraction", "impact_events",
         "contacts_per_body_minute", "progress")}
+
+
+def practice_intervals(path, origin, steps, bodies):
+    connection = sqlite3.connect((path/"events.sqlite").resolve().as_uri()+"?mode=ro", uri=True)
+    intervals = []
+    body_rows = [dict(body=index, contact=0, safe_contact=0, collision_frames=0,
+                      impact_events=0, frames=0) for index in range(bodies)]
+    try:
+        for lower in range(0, steps, 8192):
+            upper = min(lower+8192, steps)
+            tally = dict(new_steps_from=lower, new_steps_to=upper, contact=0,
+                         safe_contact=0, collision_frames=0, impact_events=0, frames=0)
+            for body, raw in connection.execute(
+                    "SELECT body,facts FROM events WHERE step>? AND step<=?",
+                    (origin+lower, origin+upper)):
+                event = json.loads(raw)
+                for target in (tally, body_rows[body]):
+                    target["contact"] += event["contact"]
+                    target["safe_contact"] += event["safe_contact"]
+                    target["collision_frames"] += event["collision"]
+                    target["impact_events"] += event["impact_count"]
+                    target["frames"] += 1
+            tally["collision_fraction"] = tally["collision_frames"]/max(tally["frames"], 1)
+            tally["contacts_per_body_minute"] = tally["contact"]/max(tally["frames"]*.01/60, 1e-9)
+            intervals.append(tally)
+    finally:
+        connection.close()
+    return dict(intervals=intervals, by_body=body_rows)
 
 
 def summarize(root):
@@ -44,7 +73,21 @@ def summarize(root):
             attention_input_dependence=final["input_dependence"],
             frozen_checks_all_passed=all(item["learned_parameters_unchanged"] for item in
                 list(complete["stages"].values())+[final]+list(complete["diagnostics"].values())),
+            practice_process=practice_intervals(root/arm, train["origin_step"],
+                                               train["new_steps"], train["bodies"]),
         )
+        exploration = root/arm/"exploring_frozen_probe"/"COMPLETE.json"
+        if exploration.exists():
+            observed = read(exploration)
+            result[arm]["exploratory_stochastic_probe"] = dict(
+                metrics=metrics(observed["frozen"]),
+                scenes=observed["scenes"],
+                learned_parameters_unchanged=observed["learned_parameters_unchanged"],
+                identity=observed["identity"],
+                note="Added after the baseline midpoint; supplements the planned greedy probes.")
+        result[arm]["final_probe_vision"] = final["frozen"]["vision"]
+        result[arm]["diagnostic_vision"] = {
+            key: value["frozen"]["vision"] for key, value in complete["diagnostics"].items()}
         origin = train["origin_step"]
         curve = train["curve"]
         points = [point for point in curve if point["step"] >= origin]
