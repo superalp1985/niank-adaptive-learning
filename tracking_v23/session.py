@@ -2,7 +2,6 @@
 import copy
 import json
 from pathlib import Path
-import sqlite3
 
 import numpy as np
 from PIL import Image
@@ -12,24 +11,10 @@ from torch.nn import functional as F
 from tracking_v22.neural import retina
 from tracking_v22.run import Session as LegacySession
 from tracking_v23.neural import ActiveLearner
+from tracking_v23.persistence import backup_database
 from tracking_v23.vision import (
     HeadWorld, compose_input, encode_images, migrate_batch, migrate_input,
 )
-
-
-def backup_database(source, destination):
-    """SQLite backup reads a consistent snapshot, including any committed WAL."""
-    source, destination = Path(source).resolve(), Path(destination).resolve()
-    if source == destination or destination.exists():
-        raise ValueError("Database backup requires a distinct, absent destination")
-    destination.parent.mkdir(parents=True, exist_ok=True)
-    src = sqlite3.connect(source.as_uri()+"?mode=ro", uri=True)
-    dst = sqlite3.connect(destination)
-    try:
-        src.backup(dst)
-    finally:
-        dst.close()
-        src.close()
 
 
 class Session(LegacySession):

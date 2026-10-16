@@ -12,7 +12,7 @@ import numpy as np
 import torch
 
 from tracking_v22.evaluate_stages import parameter_hash, reset_dynamic
-from tracking_v22.run import dump
+from tracking_v23.persistence import atomic_json as dump, read_complete
 from tracking_v23.session import Session
 
 
@@ -86,6 +86,16 @@ def input_dependence(agent, x):
                 zero_detail_prediction_l1=float((agent.model(x)-agent.model(no_detail)).abs().mean()))
 
 
+def valid_probe_result(result):
+    return (result["learned_parameters_unchanged"] is True
+            and isinstance(result["parameter_sha256"], str)
+            and len(result["parameter_sha256"]) == 64
+            and result["frozen"]["step"] == result["identity"]["steps"]
+            and result["frozen"]["unsettled_learning_choices"] == 0
+            and isinstance(result["scenes"], list)
+            and len(result["scenes"]) == result["frozen"]["bodies"])
+
+
 def evaluate_checkpoint(checkpoint, output, config, steps, scene_seed, diagnostic="normal"):
     checkpoint, output = Path(checkpoint), Path(output)
     if diagnostic not in ("normal", "uniform", "head_hold"):
@@ -96,8 +106,8 @@ def evaluate_checkpoint(checkpoint, output, config, steps, scene_seed, diagnosti
                     scene_seed=scene_seed, diagnostic=diagnostic, arm=config["arm"],
                     seed=config["probe_seed"])
     completed = output/"COMPLETE.json"
-    if completed.exists():
-        result = json.loads(completed.read_text(encoding="utf-8"))
+    result = read_complete(completed, valid_probe_result)
+    if result is not None:
         if result["identity"] != identity:
             raise RuntimeError("Completed probe identity differs")
         return result

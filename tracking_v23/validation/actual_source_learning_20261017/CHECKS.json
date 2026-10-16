@@ -1,0 +1,228 @@
+{
+  "source": {
+    "path": "E:\\byte级模型\\v6\\niank_v9\\experiments\\fly_memory_v3_20261011\\tracking_v22\\results\\patient_practice_20261016\\events.sqlite",
+    "runtime_step": 8256,
+    "runtime_sha256": "d891ccd4e47876804ca15452a09875e45c3444485b62e0d10d875b488bac91fc",
+    "database_sha256": "9f6b104c938d15907c154fed2150e39055f7d3f722df0cb1ccf1f261f4e67ce7",
+    "rows": {
+      "facts": 129,
+      "events": 66048,
+      "choices": 128,
+      "memory_events": 293
+    }
+  },
+  "source_unchanged": true,
+  "arms": {
+    "baseline": {
+      "origin_step": 8256,
+      "additional_smoke_steps": 256,
+      "pending_windows_migrated": 248,
+      "input_width": 576,
+      "parameter_sha256": "982a2f0b87958aa4dfb7359ced2b97b1d3375d34040bc9be2aa0016f9f9fb2b9",
+      "initial_source_trial": false,
+      "new_predictor_updates": 12,
+      "new_meta_updates": 3,
+      "settled_credits": [
+        {
+          "mode": 1,
+          "gain": 0.1985531747341156,
+          "score": 0.19705317914485931,
+          "future_loss": 0.02662753313779831,
+          "old_future_loss": 0.033224329352378845,
+          "cost": 0.0015,
+          "validation_samples": 264,
+          "decision_step": 8320,
+          "validation_min_start": 8320,
+          "reverted": false,
+          "learning_rate": 0.003,
+          "attempted_updates": 3,
+          "retained_updates": 3,
+          "completed_learning_trials": 111,
+          "recent_mean_gain": 0.07895834185183048,
+          "negative_trials": 32,
+          "interpretation": "updates retained; not a claim of successful learning"
+        },
+        {
+          "mode": 1,
+          "gain": 0.1273365020751953,
+          "score": 0.12583650648593903,
+          "future_loss": 0.031139565631747246,
+          "old_future_loss": 0.03568335995078087,
+          "cost": 0.0015,
+          "validation_samples": 264,
+          "decision_step": 8384,
+          "validation_min_start": 8384,
+          "reverted": false,
+          "learning_rate": 0.003,
+          "attempted_updates": 3,
+          "retained_updates": 3,
+          "completed_learning_trials": 112,
+          "recent_mean_gain": 0.08389330406983693,
+          "negative_trials": 32,
+          "interpretation": "updates retained; not a claim of successful learning"
+        },
+        {
+          "mode": 1,
+          "gain": -0.031779367476701736,
+          "score": -0.03327936679124832,
+          "future_loss": 0.027659185230731964,
+          "old_future_loss": 0.0268072672188282,
+          "cost": 0.0015,
+          "validation_samples": 264,
+          "decision_step": 8448,
+          "validation_min_start": 8448,
+          "reverted": false,
+          "learning_rate": 0.003,
+          "attempted_updates": 3,
+          "retained_updates": 3,
+          "completed_learning_trials": 113,
+          "recent_mean_gain": 0.06561216184248526,
+          "negative_trials": 33,
+          "interpretation": "updates retained; not a claim of successful learning"
+        }
+      ],
+      "new_fact_widths": [
+        576,
+        576,
+        576,
+        576
+      ],
+      "encoder_adam_moment_shape": [
+        128,
+        576
+      ],
+      "head_group_weight_changes": [
+        [
+          1.0360110998153687
+        ],
+        [
+          1.0456666946411133
+        ]
+      ],
+      "vision": {
+        "samples": 0,
+        "entropy": 0.0,
+        "attention_l1_change": 0.0,
+        "head_travel": 0.0,
+        "moving_frames": 0,
+        "gaze_actions": [
+          0,
+          0,
+          0
+        ],
+        "mean_entropy": 0.0,
+        "mean_attention_l1_change": 0.0,
+        "motion_fraction": 0.0
+      },
+      "exact_checkpoint_continuation": true
+    },
+    "active": {
+      "origin_step": 8256,
+      "additional_smoke_steps": 256,
+      "pending_windows_migrated": 248,
+      "input_width": 964,
+      "parameter_sha256": "8b64ff28e495c8fed843c24faab2ca936170103fe618b7ba4afb4494d5d680a9",
+      "initial_source_trial": false,
+      "new_predictor_updates": 12,
+      "new_meta_updates": 3,
+      "settled_credits": [
+        {
+          "mode": 1,
+          "gain": -0.09029051661491394,
+          "score": -0.09179051965475082,
+          "future_loss": 0.03889259323477745,
+          "old_future_loss": 0.035671770572662354,
+          "cost": 0.0015,
+          "validation_samples": 264,
+          "decision_step": 8320,
+          "validation_min_start": 8320,
+          "reverted": false,
+          "learning_rate": 0.003,
+          "attempted_updates": 3,
+          "retained_updates": 3,
+          "completed_learning_trials": 111,
+          "recent_mean_gain": 0.054888034239411354,
+          "negative_trials": 33,
+          "interpretation": "updates retained; not a claim of successful learning"
+        },
+        {
+          "mode": 1,
+          "gain": 0.19388347864151,
+          "score": 0.19238348305225372,
+          "future_loss": 0.029602229595184326,
+          "old_future_loss": 0.03672202304005623,
+          "cost": 0.0015,
+          "validation_samples": 264,
+          "decision_step": 8384,
+          "validation_min_start": 8384,
+          "reverted": false,
+          "learning_rate": 0.003,
+          "attempted_updates": 3,
+          "retained_updates": 3,
+          "completed_learning_trials": 112,
+          "recent_mean_gain": 0.06536857783794403,
+          "negative_trials": 33,
+          "interpretation": "updates retained; not a claim of successful learning"
+        },
+        {
+          "mode": 1,
+          "gain": 0.02366391383111477,
+          "score": 0.022163914516568184,
+          "future_loss": 0.03734855353832245,
+          "old_future_loss": 0.0382537879049778,
+          "cost": 0.0015,
+          "validation_samples": 264,
+          "decision_step": 8448,
+          "validation_min_start": 8448,
+          "reverted": false,
+          "learning_rate": 0.003,
+          "attempted_updates": 3,
+          "retained_updates": 3,
+          "completed_learning_trials": 113,
+          "recent_mean_gain": 0.05170770905291041,
+          "negative_trials": 33,
+          "interpretation": "updates retained; not a claim of successful learning"
+        }
+      ],
+      "new_fact_widths": [
+        964,
+        964,
+        964,
+        964
+      ],
+      "encoder_adam_moment_shape": [
+        128,
+        964
+      ],
+      "head_group_weight_changes": [
+        [
+          0.8430096507072449,
+          0.7665949463844299,
+          0.8120502829551697
+        ],
+        [
+          0.8352439403533936,
+          0.7620241045951843,
+          0.814001739025116
+        ]
+      ],
+      "vision": {
+        "samples": 512,
+        "entropy": 2129.3385038375854,
+        "attention_l1_change": 0.3969079814851284,
+        "head_travel": 42.41150082346346,
+        "moving_frames": 1350,
+        "gaze_actions": [
+          174,
+          160,
+          178
+        ],
+        "mean_entropy": 4.158864265307784,
+        "mean_attention_l1_change": 0.0007752109013381414,
+        "motion_fraction": 0.6591796875
+      },
+      "exact_checkpoint_continuation": true
+    }
+  },
+  "scope": "256 extra frames/body/arm only; no full practice experiment"
+}

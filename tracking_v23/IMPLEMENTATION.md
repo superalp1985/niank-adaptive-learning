@@ -74,8 +74,8 @@ are available for the active arm.
 Commands use the environment above and `torch.set_num_threads(4)`.
 
 ```text
-python -m unittest tracking_v23.test_vision tracking_v23.test_neural tracking_v23.test_runtime -v
-python -m tracking_v23.smoke_source --output tracking_v23/validation/actual_source_20261017
+python -m unittest tracking_v23.test_vision tracking_v23.test_neural tracking_v23.test_runtime tracking_v23.test_persistence -v
+python -m tracking_v23.smoke_source --output tracking_v23/validation/actual_source_learning_20261017 --steps 256
 ```
 
 The initial focused run passed 14/14 vision and neural tests in 3.935 s.
@@ -105,6 +105,41 @@ and detail dependence, peripheral floor, pending-trial migration, lazy replay,
 death resets, unchanged baseline delayed state, exact V23 save/resume, frozen
 weights, training RNG isolation, interruption recovery, finite paired budgets,
 source preservation, completion rejection and code-manifest validation.
+
+### Independent review follow-up
+
+The review found two P2 interruption risks: JSON completion markers could be
+truncated by direct writes, and SQLite backup could expose an unfinished final
+database. `persistence.py` now writes JSON to a unique sibling, flushes and
+syncs it, then atomically replaces the destination. Complete markers must parse
+and have the required result content; invalid markers are retained under a
+unique evidence name and recovery uses the existing manifest and committed
+runtime. Invalid manifests are preserved and rejected; provenance is never
+silently regenerated after a run exists.
+
+Database backup now uses a unique sibling, validates SQLite integrity and the
+runtime SHA-256, closes all connections, and only then publishes the file.
+Interrupted temporary files remain available. A legacy incomplete bootstrap
+database is preserved in an evidence directory and rebuilt only if no practice
+milestone or progress evidence exists; damaged practiced state is not replaced.
+
+Focused revalidation: **16 persistence/runtime tests passed, 23.890 s, exit 0**.
+This covers interrupted JSON writes/publication, truncated arm/pair/probe
+markers, interrupted database copying, conservative manifest failure and both
+new and legacy bootstrap recovery. No implementation tests failed in this
+follow-up. Vision/neural algorithms were unchanged.
+
+Extended real-source validation:
+`validation/actual_source_learning_20261017/CHECKS.json` records **256 new steps
+per body per arm**, 12 predictor updates and 3 fresh-window credit settlements
+in each arm. Baseline credit gains were approximately +0.199, +0.127, -0.032;
+active gains were -0.090, +0.194, +0.024. Every update was retained. Both arms'
+last 16 frames resumed exactly, including all Adam state tensors and physical
+positions. The active encoder Adam moment is 128x964; all four new facts have
+width 964, and all three gaze groups in both prediction heads changed weights.
+All 248 source pending windows remained available and the source database hash
+was unchanged. This validates actual learning continuation, not superiority of
+the new mechanism. Native PNGs and 256-step GIFs accompany the JSON evidence.
 
 ## Practical limits
 

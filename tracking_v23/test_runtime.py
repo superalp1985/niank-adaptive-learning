@@ -271,12 +271,15 @@ class RuntimeChecks(unittest.TestCase):
                 self.assertEqual(results[arm]["training"]["unsettled_learning_choices"], 0)
             with self.assertRaisesRegex(RuntimeError, "Completed"):
                 run(configuration(), output, source)
-            # Recovery after the final probe completed but before marker writing.
-            (output/"COMPLETE.json").unlink()
-            (output/"active"/"COMPLETE.json").unlink()
+            # Legacy direct writes can leave truncated markers at any level.
+            for marker in (output/"COMPLETE.json", output/"active"/"COMPLETE.json",
+                           output/"active"/"final_probe"/"COMPLETE.json"):
+                marker.write_text('{"truncated":')
             original = results["active"]["final_probe"]["scenes"]
             resumed = run(configuration(), output, source)
             self.assertEqual(resumed["active"]["final_probe"]["scenes"], original)
+            for folder in (output, output/"active", output/"active"/"final_probe"):
+                self.assertEqual(len(list(folder.glob("COMPLETE.json.invalid_*"))), 1)
 
     def test_runner_recovers_source_backup_before_initial_upgrade(self):
         with tempfile.TemporaryDirectory(dir="E:/niank-temp") as directory:
@@ -290,6 +293,18 @@ class RuntimeChecks(unittest.TestCase):
             self.assertEqual(result["baseline"]["training"]["origin_step"], 8)
             self.assertEqual(result["baseline"]["training"]["new_steps"], 12)
 
+    def test_runner_recovers_legacy_interrupted_database_backup(self):
+        with tempfile.TemporaryDirectory(dir="E:/niank-temp") as directory:
+            root = Path(directory)
+            source = self.source(root)
+            output = root/"paired"
+            config = configuration()
+            snapshot(output/"baseline", dict(config, arm="baseline"), source_identity(source))
+            (output/"baseline"/"events.sqlite").write_bytes(b"incomplete legacy backup")
+            result = run(config, output, source, arm="baseline")
+            self.assertEqual(result["baseline"]["training"]["origin_step"], 8)
+            self.assertEqual(len(list((output/"baseline").glob("interrupted_bootstrap_*"))), 1)
+
     def test_manifest_rejects_code_and_configuration_changes(self):
         with tempfile.TemporaryDirectory(dir="E:/niank-temp") as directory:
             root = Path(directory)
@@ -301,6 +316,10 @@ class RuntimeChecks(unittest.TestCase):
             manifest_path.write_text(json.dumps(manifest))
             with self.assertRaisesRegex(RuntimeError, "source version"):
                 verify_manifest(root/"manifest")
+            manifest_path.write_text('{"sources":')
+            with self.assertRaisesRegex(RuntimeError, "Invalid manifest preserved"):
+                verify_manifest(root/"manifest")
+            self.assertEqual(manifest_path.read_text(), '{"sources":')
 
 
 if __name__ == "__main__":

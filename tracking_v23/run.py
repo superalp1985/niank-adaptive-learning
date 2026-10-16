@@ -8,9 +8,11 @@ import sqlite3
 
 import torch
 
-from tracking_v22.run import dump
 from tracking_v22.evaluate_stages import parameter_hash
-from tracking_v23.evaluate import evaluate_checkpoint, file_hash
+from tracking_v23.evaluate import evaluate_checkpoint, file_hash, valid_probe_result
+from tracking_v23.persistence import (
+    atomic_json as dump, preserve_incomplete_bootstrap, read_complete,
+)
 from tracking_v23.session import Session
 
 ROOT = Path(__file__).resolve().parent
@@ -21,7 +23,7 @@ RUNTIME_SOURCES = [
     "tracking_v22/neural.py", "tracking_v22/verified.py", "tracking_v22/run.py",
     "tracking_v22/evaluate_stages.py", "tracking_v23/__init__.py",
     "tracking_v23/vision.py", "tracking_v23/neural.py", "tracking_v23/session.py",
-    "tracking_v23/evaluate.py", "tracking_v23/run.py",
+    "tracking_v23/evaluate.py", "tracking_v23/run.py", "tracking_v23/persistence.py",
 ]
 
 
@@ -66,11 +68,42 @@ def snapshot(output, config, source):
 
 
 def verify_manifest(output):
-    manifest = json.loads((Path(output)/"manifest.json").read_text(encoding="utf-8"))
+    try:
+        manifest = json.loads((Path(output)/"manifest.json").read_text(encoding="utf-8"))
+        if (not isinstance(manifest["config"], dict)
+                or not isinstance(manifest["source_runtime"], dict)
+                or not isinstance(manifest["sources"], dict)
+                or not set(RUNTIME_SOURCES).issubset(manifest["sources"])):
+            raise ValueError("Missing manifest fields")
+    except (ValueError, TypeError, KeyError, UnicodeError) as error:
+        raise RuntimeError("Invalid manifest preserved; provenance cannot be regenerated") from error
     for relative, expected in manifest["sources"].items():
         if file_hash(REPO/relative) != expected:
             raise RuntimeError("Resume requires the saved source version: "+relative)
     return manifest
+
+
+def valid_arm_result(result):
+    config, training = result["config"], result["training"]
+    settling = config.get("settling_steps", max(config["block"], config["horizon"]))
+    stages = {str(step) for step in (0, config["additional_steps"]//2,
+                                    config["additional_steps"])}
+    return (training["new_steps"] == config["additional_steps"]+settling
+            and training["unsettled_learning_choices"] == 0
+            and isinstance(result["source_runtime"], dict)
+            and set(result["stages"]) == stages
+            and all(valid_probe_result(value) for value in result["stages"].values())
+            and valid_probe_result(result["final_probe"])
+            and (config["arm"] != "active" or not config.get("final_diagnostics", True)
+                 or set(result["diagnostics"]) == {"uniform", "head_hold"}
+                 and all(valid_probe_result(value) for value in result["diagnostics"].values())))
+
+
+def valid_pair_result(result):
+    return (isinstance(result["config"]["additional_steps"], int)
+            and isinstance(result["source_runtime"]["runtime_sha256"], str)
+            and set(result["arms"]) == {"baseline", "active"}
+            and all(isinstance(value, str) for value in result["arms"].values()))
 
 
 def _save_agent_file(session, path):
@@ -95,14 +128,17 @@ def _save_agent(session, relative):
 
 def run_arm(config, output, source, identity):
     output = Path(output)
-    if (output/"COMPLETE.json").exists():
+    if read_complete(output/"COMPLETE.json", valid_arm_result) is not None:
         raise RuntimeError("Completed arm must not be rerun")
     if (output/"manifest.json").exists():
         manifest = verify_manifest(output)
         if manifest["config"] != config or manifest["source_runtime"] != identity:
             raise RuntimeError("Resume configuration or V22 source changed")
     else:
+        if (output/"events.sqlite").exists():
+            raise RuntimeError("Existing runtime has no manifest; refusing to regenerate provenance")
         snapshot(output, config, identity)
+    preserve_incomplete_bootstrap(output)
     if (output/"events.sqlite").exists():
         session = Session.restore(output)
         if not hasattr(session, "origin_step"):
@@ -187,7 +223,7 @@ def run(config, output, source=DEFAULT_SOURCE, arm="both"):
     output, source = Path(output).resolve(), Path(source).resolve()
     if output.drive.upper() != "E:":
         raise ValueError("Experiment data must stay on E:")
-    if (output/"COMPLETE.json").exists():
+    if read_complete(output/"COMPLETE.json", valid_pair_result) is not None:
         raise RuntimeError("Completed paired configuration must not be rerun")
     identity = source_identity(source)
     results = {}
@@ -195,11 +231,14 @@ def run(config, output, source=DEFAULT_SOURCE, arm="both"):
     for name in arms:
         arm_config = dict(config, arm=name)
         path = output/name
-        if arm == "both" and (path/"COMPLETE.json").exists():
+        complete = read_complete(path/"COMPLETE.json", valid_arm_result)
+        if arm == "both" and complete is not None:
             manifest = verify_manifest(path)
             if manifest["config"] != arm_config or manifest["source_runtime"] != identity:
                 raise RuntimeError("Completed arm identity differs")
-            results[name] = json.loads((path/"COMPLETE.json").read_text(encoding="utf-8"))
+            if complete["config"] != arm_config or complete["source_runtime"] != identity:
+                raise RuntimeError("Completed arm marker identity differs")
+            results[name] = complete
             continue
         results[name] = run_arm(arm_config, path, source, identity)
     if source_identity(source) != identity:
