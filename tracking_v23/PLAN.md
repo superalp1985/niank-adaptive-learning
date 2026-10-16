@@ -71,5 +71,7 @@ canonicalize unpersisted physics solver caches in both arms.
 ## Progress
 
 - Design and budget: complete.
-- Implementation and behavior tests: in progress.
-- New practice, observation, audit, upload: pending.
+- Implementation, behavior tests and independent review: complete.
+- Baseline extended practice and planned frozen observations: complete.
+- Active extended practice and observations: in progress.
+- Final analysis, audit, full-result upload and verified cleanup: pending.

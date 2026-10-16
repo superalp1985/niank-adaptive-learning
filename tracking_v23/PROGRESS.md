@@ -51,8 +51,25 @@ updates and 3 settled future-credit choices per arm. New active records are
 matches, and the source database hash stayed unchanged. Mean attention change
 was nonzero but near uniform; this is integration evidence, not useful behavior.
 
-Full paired practice is now starting with the frozen implementation above.
-No full new-practice results yet.
+Full paired practice is running with the frozen implementation above.
+
+Baseline completed all 32768 new training steps/body plus 64 settling steps.
+Equal 8192-step practice intervals recorded 26/30/34/27 contacts and
+20/23/32/20 safe contacts. Collision frame fractions were
+0.049469/0.034531/0.039825/0.039413; impact events were 139/137/135/155.
+The common-scene frozen probes had 0/0/1 contacts. The final independent
+scene seed had 3 contacts, 2 safe, 0.018677 collision fraction and 14 impacts.
+It has no initial-model result on that final seed, so 3 contacts alone do not
+establish improvement there.
+
+Active practice follows baseline in the same run. Initial common-scene
+physical metrics match baseline exactly, including progress and collision.
+Early observation at 2621 new steps (5248 decision/body samples) measured
+mean attention entropy 4.155634 versus uniform 4.158883, mean consecutive
+attention L1 change 0.010675 and head-limit occupancy 0.269817.
+These are interim activity measures, not evidence of useful active vision.
+The predictor has 101954 parameters in baseline and 184942 in active,
+excluding additional state/spike mechanisms.
 
 ## Additional observation decision during training
 
@@ -68,3 +85,16 @@ found no blocking issue. No predictor/state/spike/meta updates are permitted.
 Added process analysis separates each 8192-step interval and individual
 bodies. Attention/head charts exclude final settling steps and use a minimum
 multiplier color range of 0.9 to 1.1 so tiny changes are not visually exaggerated.
+
+Active practice completed its first three 8192-step intervals: contacts
+37/35/32, safe contacts 28/25/25, collision fractions
+0.072449/0.040588/0.062057 and impacts 141/141/129.
+The third interval settled 128 learning decisions: 72 pause, 31 recent and
+25 recall. Its 56 learning trials retained all 23 negative-gain attempts;
+193 predictor updates were credited. More experience is not automatically
+more optimization, and these outcomes do not show monotonic improvement.
+
+Attention analysis now distinguishes pre-action sampled motion from a new
+outward command at a head limit, and includes all eight bodies.
+`ACTIVE_VISION_RESEARCH_ZH.md` records primary-paper references and candidate
+longer-horizon observation credit. It is not a change to the running algorithm.

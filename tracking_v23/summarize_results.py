@@ -42,6 +42,20 @@ def practice_intervals(path, origin, steps, bodies):
                     target["frames"] += 1
             tally["collision_fraction"] = tally["collision_frames"]/max(tally["frames"], 1)
             tally["contacts_per_body_minute"] = tally["contact"]/max(tally["frames"]*.01/60, 1e-9)
+            choices = [json.loads(raw) for raw, in connection.execute(
+                "SELECT outcome FROM choices WHERE step>? AND step<=?",
+                (origin+lower, origin+upper))]
+            attempts = [choice for choice in choices if choice["attempted_updates"]]
+            tally["learning_process"] = dict(
+                settled_decisions=len(choices),
+                mode_counts=[sum(choice["mode"] == mode for choice in choices)
+                             for mode in range(3)],
+                learning_trials=len(attempts),
+                negative_trials_retained=sum(choice["gain"] < 0 for choice in attempts),
+                retained_predictor_updates=sum(choice["retained_updates"] for choice in choices),
+                prediction_gain_mean=(float(np.mean([choice["gain"] for choice in attempts]))
+                                      if attempts else None),
+                scope="Grouped by credit settlement step; prediction gain is not task utility.")
             intervals.append(tally)
     finally:
         connection.close()
@@ -67,9 +81,13 @@ def summarize(root):
             new_training_body_seconds=train["new_steps"]*.01*train["bodies"],
             new_training=fresh, vision=train["vision"],
             stage_probes=stage,
+            stage_probe_scenes={key: value["scenes"]
+                                for key, value in complete["stages"].items()},
             independent_final_probe=metrics(final["frozen"]),
             independent_final_scenes=final["scenes"],
             diagnostics=diagnostics,
+            diagnostic_scenes={key: value["scenes"]
+                               for key, value in complete["diagnostics"].items()},
             attention_input_dependence=final["input_dependence"],
             frozen_checks_all_passed=all(item["learned_parameters_unchanged"] for item in
                 list(complete["stages"].values())+[final]+list(complete["diagnostics"].values())),
@@ -85,6 +103,7 @@ def summarize(root):
                 learned_parameters_unchanged=observed["learned_parameters_unchanged"],
                 identity=observed["identity"],
                 note="Added after the baseline midpoint; supplements the planned greedy probes.")
+            result[arm]["frozen_checks_all_passed"] &= observed["learned_parameters_unchanged"]
         result[arm]["final_probe_vision"] = final["frozen"]["vision"]
         result[arm]["diagnostic_vision"] = {
             key: value["frozen"]["vision"] for key, value in complete["diagnostics"].items()}
