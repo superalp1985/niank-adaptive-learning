@@ -32,5 +32,24 @@
 
 ## Current status
 
-Implementation and behavior tests are underway. No new practice results yet.
-An independent implementation review will precede the long paired run.
+Core implementation committed as `884a08f`. Twenty-four focused tests passed
+in 20.651 seconds. A real-source smoke check continued both arms for 16 frames
+and checked exact V23 checkpoint continuation, 248 migrated pending windows,
+and unchanged source bytes. A native active sensor image was visually inspected.
+
+Independent review found core requirements met, with two recovery issues:
+non-atomic JSON completion/manifest writes, and a partially written first
+database backup potentially blocking resume. Both are being fixed before
+long practice. Fix commit `cdfbd7d` uses atomic JSON publication, validates
+completion markers, validates temporary database backups before publication,
+and preserves interrupted evidence. Sixteen persistence/runtime tests passed
+in 23.890 seconds. The focused fix review passed, with no new blocking issue.
+
+Real-source learning smoke: 256 new steps per body per arm, 12 new predictor
+updates and 3 settled future-credit choices per arm. New active records are
+964-dimensional, all three head-output groups changed, exact resumed state
+matches, and the source database hash stayed unchanged. Mean attention change
+was nonzero but near uniform; this is integration evidence, not useful behavior.
+
+Full paired practice is now starting with the frozen implementation above.
+No full new-practice results yet.
