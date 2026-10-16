@@ -1,0 +1,57 @@
+{
+  "physical_events_checked": 66048,
+  "consequence_windows_matched": 65800,
+  "settled_choices": 128,
+  "completed_learning_trials": 110,
+  "negative_trials_retained": 32,
+  "learning_rate_changes_reproduced": 14,
+  "final_learning_rate": 0.003,
+  "preference_counts_reproduced": [
+    18,
+    81,
+    29
+  ],
+  "preference_returns_reproduced": [
+    0.0,
+    0.06971327219164847,
+    -0.01887109003961369
+  ],
+  "feedback_replays": [
+    {
+      "decision_step": 2048,
+      "mode": 1,
+      "recorded_gain": -0.007274363189935684,
+      "replay_gain": -0.007269606459885836,
+      "float16_replay_error": 4.7567300498485565e-06,
+      "counterfactual_gain": -0.021759677678346634,
+      "selection_score_max_difference": 0.003299671318382033,
+      "actual_selected_mode": 1,
+      "counterfactual_selected_mode": 1
+    },
+    {
+      "decision_step": 4096,
+      "mode": 1,
+      "recorded_gain": -0.1591006964445114,
+      "replay_gain": -0.15910135209560394,
+      "float16_replay_error": 6.556510925292969e-07,
+      "counterfactual_gain": -0.03312623128294945,
+      "selection_score_max_difference": 0.02723931185901165,
+      "actual_selected_mode": 2,
+      "counterfactual_selected_mode": 2
+    },
+    {
+      "decision_step": 6144,
+      "mode": 1,
+      "recorded_gain": 0.10747971385717392,
+      "replay_gain": 0.10747706145048141,
+      "float16_replay_error": 2.652406692504883e-06,
+      "counterfactual_gain": 0.005110211204737425,
+      "selection_score_max_difference": 0.02529966928996144,
+      "actual_selected_mode": 1,
+      "counterfactual_selected_mode": 1
+    }
+  ],
+  "limitation": "Offline mechanism sensitivity, not an improvement or generalization claim. Changing scores need not change the winning action in every context.",
+  "training_database_sha256": "9f6b104c938d15907c154fed2150e39055f7d3f722df0cb1ccf1f261f4e67ce7",
+  "training_database_unchanged": true
+}
