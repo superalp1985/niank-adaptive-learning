@@ -1,0 +1,16 @@
+{
+  "variant": "verified",
+  "seed": 22016,
+  "world_seed": 221600,
+  "bodies": 8,
+  "steps": 8192,
+  "block": 64,
+  "horizon": 32,
+  "action_every": 4,
+  "checkpoint_every": 512,
+  "probe_steps": 1024,
+  "prior_gain": 1.0,
+  "recent_epochs": 3,
+  "recall_epochs": 4,
+  "active_capacity": 8
+}

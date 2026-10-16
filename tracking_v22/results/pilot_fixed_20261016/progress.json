@@ -1,0 +1,34 @@
+{
+  "step": 1536,
+  "block": 23,
+  "simulation_seconds": 122.88,
+  "elapsed_seconds": 227.23592700000154,
+  "prequential_loss": 0.02899116277694702,
+  "updates": 24,
+  "choices": [
+    0,
+    24,
+    0
+  ],
+  "recalls": 0,
+  "cold_recalls": 0,
+  "parameter_l2_change": 2.5259849835599586,
+  "state_norm": 1.0704827308654785,
+  "spike_rate_hz": 73.57126871744792,
+  "meta_credit": {
+    "mode": 1,
+    "gain": 0.0008360757492482662,
+    "score": -0.003163924440741539,
+    "future_loss": 0.02899116277694702,
+    "old_future_loss": 0.029015421867370605,
+    "cost": 0.004
+  },
+  "contact": 8,
+  "safe_contact": 8,
+  "collision": 2182,
+  "impact": 27,
+  "spawned": 57,
+  "frames": 12288,
+  "deaths": 1,
+  "progress": 27.276418896845883
+}

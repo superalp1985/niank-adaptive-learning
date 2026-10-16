@@ -1,0 +1,47 @@
+{
+  "step": 1600,
+  "block": 24,
+  "simulation_seconds": 128.0,
+  "elapsed_seconds": 251.7010045999923,
+  "prequential_loss": 0.014291037805378437,
+  "updates": 29,
+  "choices": [
+    5,
+    9,
+    10
+  ],
+  "recalls": 10,
+  "cold_recalls": 1,
+  "parameter_l2_change": 2.963942073240483,
+  "state_parameter_l2_change": 0.19593487679958344,
+  "spike_parameter_l2_change": 0.012833486311137676,
+  "action_decisions": 3200,
+  "state_updates": 29,
+  "meta_updates": 24,
+  "local_updates": 29,
+  "training_losses": {
+    "loss": 0.0,
+    "state_loss": 0.0
+  },
+  "state_norm": 1.1921567916870117,
+  "spike_rate_hz": 73.708251953125,
+  "meta_credit": {
+    "mode": 0,
+    "gain": 0.0,
+    "score": 0.0,
+    "future_loss": 0.011671898886561394,
+    "old_future_loss": 0.011671898886561394,
+    "cost": 0.0,
+    "validation_samples": 264,
+    "decision_step": 1536,
+    "validation_min_start": 1536
+  },
+  "contact": 7,
+  "safe_contact": 7,
+  "collision": 2128,
+  "impact": 26,
+  "spawned": 60,
+  "frames": 12800,
+  "deaths": 1,
+  "progress": 26.96777359016584
+}

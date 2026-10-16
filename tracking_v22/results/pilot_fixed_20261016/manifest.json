@@ -1,0 +1,36 @@
+{
+  "config": {
+    "variant": "fixed",
+    "seed": 22016,
+    "world_seed": 221600,
+    "bodies": 8,
+    "steps": 1536,
+    "block": 64,
+    "horizon": 32,
+    "action_every": 4,
+    "checkpoint_every": 512,
+    "probe_steps": 512,
+    "prior_gain": 1.0
+  },
+  "sources": {
+    "tracking_v22/audit_learning.py": "db4aacd202630462a400039deb2531950ca840108fa03e4fd153709bd9a646ee",
+    "tracking_v22/neural.py": "c048ddb6b286bf276bd5cd23d0814a425d2d3270d05410c99bc0899cc0140693",
+    "tracking_v22/run.py": "fafa4d86c902d5ac222828ab5fd58c7d306206e85935344de87844e1e145c1de",
+    "tracking_v22/sensory_audit.py": "1c00d918b2b5d383a4b485f3970a0927fb6e9b1fa2940ea67a810e9dd3d2c3f8",
+    "tracking_v22/test_neural.py": "4154a880287b058c2d3e8d6c297961c315beea71c77ddd797d895eeb5a9844fa",
+    "tracking_v22/test_runtime.py": "2b47067bdd80cc1ac8dc8d5deedaf315f5016a64b15d9e4025f5c5b6f742708c",
+    "tracking_v22/test_world.py": "7756d9e852d3d2db698fa410edc5ecba357ce96348007f25ede200e034e54e93",
+    "tracking_v22/world.py": "51cc948108763a08dac27942f537730837a4d5a17c37dd0d12ed9b5ff2f88408",
+    "tracking_v22/__init__.py": "9f2e543c9890c34016b9b427ac2cdfc2698667c1d784acf72ae1ba4465f772db",
+    "tracking_v22/PLAN.md": "70272c0e0e602d60a5c51f2ede27cfd2b048fd5aa1d49b4657765d3126b6a344",
+    "tracking_v22/PROGRESS.md": "08e3ea2839f659e39c5d8a56ebcfc09c9915f50be067b4945e83d123929f6b8a",
+    "tracking_v17/world.py": "b1ba1fdb18473d7ebb1dfffba5e6113fe8d489c0f825162a89b96fad5f71d949",
+    "SUBJECTIVE_STATE_DESIGN_NOTES_ZH.md": "8b6bf16dda327fa968e89f3f123609adeefcfca2f11e2d95f0c91319ae230fc5"
+  },
+  "torch": "2.7.1+cu128",
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "sensory": "native_1024x512_100Hz",
+  "neural_dt": 0.0001,
+  "physics_dt": 0.001,
+  "state_checkpoint": "explicit_solver_cache_canonicalization"
+}

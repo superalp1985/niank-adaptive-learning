@@ -1,0 +1,27 @@
+{
+  "step": 512,
+  "block": 7,
+  "simulation_seconds": 40.96,
+  "elapsed_seconds": 74.86488259999896,
+  "prequential_loss": 0.05226108804345131,
+  "updates": 24,
+  "choices": [
+    0,
+    0,
+    0
+  ],
+  "recalls": 0,
+  "cold_recalls": 0,
+  "parameter_l2_change": 2.5259849835599586,
+  "state_norm": 1.067467451095581,
+  "spike_rate_hz": 72.38082885742188,
+  "meta_credit": {},
+  "contact": 2,
+  "safe_contact": 2,
+  "collision": 1446,
+  "impact": 5,
+  "spawned": 12,
+  "frames": 4096,
+  "deaths": 0,
+  "progress": 11.842176758174816
+}

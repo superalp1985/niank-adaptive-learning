@@ -1,0 +1,221 @@
+{
+  "near_target_and_pattern_distractors": {
+    "target_pixels": 1892,
+    "marker_pixels": 740,
+    "threat_pixels": 0,
+    "smallest_threat_pixels": 0,
+    "projectile_pixels": [],
+    "timestamp": 0.0,
+    "frames": 1,
+    "proprio": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0
+    ]
+  },
+  "far_target_smallest_threat": {
+    "target_pixels": 88,
+    "marker_pixels": 28,
+    "threat_pixels": 16,
+    "smallest_threat_pixels": 16,
+    "projectile_pixels": [
+      16
+    ],
+    "timestamp": 0.0,
+    "frames": 1,
+    "proprio": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0
+    ]
+  },
+  "forward_seam": {
+    "target_pixels": 1892,
+    "marker_pixels": 740,
+    "threat_pixels": 0,
+    "smallest_threat_pixels": 0,
+    "projectile_pixels": [],
+    "timestamp": 0.0,
+    "frames": 1,
+    "proprio": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0
+    ]
+  },
+  "fully_occluded": {
+    "target_pixels": 0,
+    "marker_pixels": 0,
+    "threat_pixels": 0,
+    "smallest_threat_pixels": 0,
+    "projectile_pixels": [],
+    "timestamp": 0.0,
+    "frames": 1,
+    "proprio": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0
+    ]
+  },
+  "partial_occlusion": {
+    "target_pixels": 800,
+    "marker_pixels": 244,
+    "threat_pixels": 0,
+    "smallest_threat_pixels": 0,
+    "projectile_pixels": [],
+    "timestamp": 0.0,
+    "frames": 1,
+    "proprio": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0
+    ]
+  },
+  "reappeared": {
+    "target_pixels": 1892,
+    "marker_pixels": 740,
+    "threat_pixels": 0,
+    "smallest_threat_pixels": 0,
+    "projectile_pixels": [],
+    "timestamp": 0.0,
+    "frames": 1,
+    "proprio": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0
+    ]
+  },
+  "constant_motion_00": {
+    "target_pixels": 1892,
+    "marker_pixels": 740,
+    "threat_pixels": 890,
+    "smallest_threat_pixels": 890,
+    "projectile_pixels": [
+      890
+    ],
+    "timestamp": 0.0,
+    "frames": 1,
+    "proprio": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0
+    ]
+  },
+  "constant_motion_01": {
+    "target_pixels": 1894,
+    "marker_pixels": 718,
+    "threat_pixels": 1014,
+    "smallest_threat_pixels": 1014,
+    "projectile_pixels": [
+      1014
+    ],
+    "timestamp": 0.05,
+    "frames": 6,
+    "proprio": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.9995999932289124,
+      1.0,
+      0.0
+    ]
+  },
+  "constant_motion_02": {
+    "target_pixels": 1890,
+    "marker_pixels": 736,
+    "threat_pixels": 1106,
+    "smallest_threat_pixels": 1106,
+    "projectile_pixels": [
+      1106
+    ],
+    "timestamp": 0.09999999999999999,
+    "frames": 11,
+    "proprio": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.9991999864578247,
+      1.0,
+      0.0
+    ]
+  },
+  "constant_motion_03": {
+    "target_pixels": 1554,
+    "marker_pixels": 628,
+    "threat_pixels": 1182,
+    "smallest_threat_pixels": 1182,
+    "projectile_pixels": [
+      1182
+    ],
+    "timestamp": 0.15,
+    "frames": 16,
+    "proprio": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.9987999796867371,
+      1.0,
+      0.0
+    ]
+  },
+  "timing": {
+    "observation_dt": 0.01,
+    "physics_dt": 0.001,
+    "benchmark_frames": 100,
+    "mean_frame_ms": 11.28596199938329,
+    "median_frame_ms": 11.243450004258193,
+    "canonical_checkpoint_continuation_identical": true,
+    "checkpoint_numerics": "live and resumed worlds both load identical saved bytes; unsaved contact solver caches reset at checkpoint"
+  },
+  "geometry": {
+    "width": 1024,
+    "height": 512,
+    "horizontal_degrees": 360,
+    "vertical_degrees": 180,
+    "native_ray_pixels": true,
+    "azimuth": "(u+.5)*2pi/1024; body forward at seam; body left at u=256",
+    "elevation": "pi/2-(v+.5)*pi/512; top up",
+    "limitation": "2.5D planar collisions; spheres and cylinders rendered in 3D; finite pixels can miss tiny distant markers"
+  }
+}
