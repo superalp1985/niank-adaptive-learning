@@ -1,0 +1,3065 @@
+{
+  "format": 1,
+  "repository": "superalp1985/niank-adaptive-learning",
+  "tag": "research-v23-extended-practice-20261017",
+  "scope": "tracking_v23",
+  "created_utc": "2026-10-16T20:59:53.773001+00:00",
+  "source_commit": "d73b4a2fd86932ce367fde6a3f1bed006253e156",
+  "files": [
+    {
+      "path": "tracking_v23/.gitignore",
+      "bytes": 100,
+      "sha256": "ace205df91e4e64f996fd91c70c8ad3802ca7956aeffa7b9d1a75ae6dd8ab894"
+    },
+    {
+      "path": "tracking_v23/__init__.py",
+      "bytes": 86,
+      "sha256": "ca6a8afed8babb02f3d8863165001f9667f902bc3759c90007d46b58dd7cbd7e"
+    },
+    {
+      "path": "tracking_v23/ACTIVE_VISION_RESEARCH_ZH.md",
+      "bytes": 4245,
+      "sha256": "abac4e23f8d384e137fd4df447ffe1298b3bdcf137104bc7476ae418afdef085"
+    },
+    {
+      "path": "tracking_v23/audit_results.py",
+      "bytes": 9216,
+      "sha256": "b2c636ededa0665073203e6111a6c925b627f41ab92c64a0f8732d5adba29895"
+    },
+    {
+      "path": "tracking_v23/evaluate.py",
+      "bytes": 8182,
+      "sha256": "19aefb00edf12211c78c379c295084c1225f1d7cf96be77a51e329c57806b753"
+    },
+    {
+      "path": "tracking_v23/EXPERIMENT_ZH.md",
+      "bytes": 2672,
+      "sha256": "0f5bb9a7a871b28371626941e5c03624fe3ff2ad475a6575f0cf2d1c73f7826c"
+    },
+    {
+      "path": "tracking_v23/exploration_probe.py",
+      "bytes": 4758,
+      "sha256": "4e2920d320493b921d71b48901494eba23dff508a349ceb1e994aa45a2b69d7a"
+    },
+    {
+      "path": "tracking_v23/extended_practice.json",
+      "bytes": 542,
+      "sha256": "c540844ee06a770c64f39a7d7c66ab02dca5c7a2fe3819ebeeebe3d6b7ef7100"
+    },
+    {
+      "path": "tracking_v23/IMPLEMENTATION.md",
+      "bytes": 9454,
+      "sha256": "f90bcbbf2aebbaa0412120558a5f95c9ca6f892840d878144a56864ca40ba27e"
+    },
+    {
+      "path": "tracking_v23/inspect_attention.py",
+      "bytes": 5880,
+      "sha256": "617c94673fb21178fd8b609c148cd185775ba2e2f32995efc947bee1dea25cbf"
+    },
+    {
+      "path": "tracking_v23/neural.py",
+      "bytes": 7070,
+      "sha256": "71f1abecd6bb9e3d9b53a83a0292359e9d60d2eedd3422874ebb329595b696a4"
+    },
+    {
+      "path": "tracking_v23/persistence.py",
+      "bytes": 3747,
+      "sha256": "b292e256234c369693b9b2bca3de077f6c37895556b50bc0df1dde38c66ffbe4"
+    },
+    {
+      "path": "tracking_v23/PLAN.md",
+      "bytes": 4498,
+      "sha256": "d0b441edebee73a4d4396412deeb8dd0987ef99e001e0b3f8ba157abfc597227"
+    },
+    {
+      "path": "tracking_v23/PROGRESS.md",
+      "bytes": 7365,
+      "sha256": "eea7ec03d73bd5740413bbe66e84b518d997d5692eb07c28932a8545fd8d0a7a"
+    },
+    {
+      "path": "tracking_v23/REPORT_V23_ZH.md",
+      "bytes": 11727,
+      "sha256": "ff067e2bfb1715fd52613d6302aa82abb71f236035a8d09cbe68d588550ebd75"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/actual_input_0.png",
+      "bytes": 7899,
+      "sha256": "4a84f47db55da9a10e179e19f638c64109c906eeff4f8f1ed187087269db0ee5"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/actual_input_1.png",
+      "bytes": 7373,
+      "sha256": "e17c318478540693b951acae8052b21d4a52ef60ba885b4ae6d50f576f3ae78d"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/actual_input_2.png",
+      "bytes": 11523,
+      "sha256": "6bde167b0f55aeb73d885383d87c468c57fe038670a6ca31e22cee15341b6ccf"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/actual_input_3.png",
+      "bytes": 11663,
+      "sha256": "1fee17778374bd83aaeaab4fdaabac06c5e2e81f221f02bb4b75528e9ed2cbf8"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/actual_sensor.gif",
+      "bytes": 103357,
+      "sha256": "2812b47413566718d4365230229dda6eeea6b1d93614b7d781ce3cb8b173fbdb"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/attention_head_process.png",
+      "bytes": 526037,
+      "sha256": "51aa0b493dd7a11bcb96cdb42d702fed1658fa0cea107b41b3469b02e06b0afe"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/attention_measurements.json",
+      "bytes": 7587,
+      "sha256": "dd2459e032ff8f03047fed471c293f27c2505ea32b876c05379b84a125e51943"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/COMPLETE.json",
+      "bytes": 1583134,
+      "sha256": "031c6bc84c0cd70f219bfc78e2cfd44514184e8cef3e2664bc2cda9a46bcbb18"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/actual_input_0.png",
+      "bytes": 5085,
+      "sha256": "fe2ed63b4f25c89744b4317d691a301216623b2d101cf6368f2b201fb7e4fab0"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/actual_input_1.png",
+      "bytes": 9708,
+      "sha256": "eaa1ae22876a72526f530ffa2a476be307cb91f553c5f8762d9b361b5230609e"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/actual_input_2.png",
+      "bytes": 5321,
+      "sha256": "241bae2011df8842fe019ba2adb57cbd8b5f655c46b377e7fd58f054e7ecba10"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/actual_input_3.png",
+      "bytes": 9354,
+      "sha256": "5e0ee9f727df5902b9f093898302e4ecee915d4870fc7ec273206bfab7661938"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/actual_sensor.gif",
+      "bytes": 107014,
+      "sha256": "0e086d1502fe220297cf5ff45fb72d1c457c47c312df4bf2fae3ea99e2738035"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/COMPLETE.json",
+      "bytes": 31144,
+      "sha256": "a663340e0f62e7446602fcda76b86dec353d79fcd1c4202ae2fa14075df016f0"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/events.sqlite",
+      "bytes": 37187584,
+      "sha256": "7ca9d2b8e362fb776be973ae7466b2e0a2d302fc718a6138abfe17276c258cda"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/identity.json",
+      "bytes": 208,
+      "sha256": "811083654fce73224a65f89c86bdad70e245a9c3ffc0b2f017015ea1955acd11"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/progress.json",
+      "bytes": 1110,
+      "sha256": "af9fb1c851f4d08b43be78f3c1a87685be9ea90c5df120e63b6a0cca0eb99a81"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/sensor_frames/sensor_000000.png",
+      "bytes": 5140,
+      "sha256": "56ccec0f85b5f1a4e9b9a7763f7032f73790824e40d47f51a975abf4d2b8f322"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/sensor_frames/sensor_000042.png",
+      "bytes": 5316,
+      "sha256": "7bace46196d1489814515a60c87a5bb738197d9cd8fbb18ebc82dd79bf69ed90"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/sensor_frames/sensor_000084.png",
+      "bytes": 5131,
+      "sha256": "bc1279ccf378edb397be1946f5f5e6436fcfa7d7bd2bc787c95c5d5f7c549f05"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/sensor_frames/sensor_000126.png",
+      "bytes": 5209,
+      "sha256": "f65e7144bbca2ad447a4f139c008f6789cef3c66e71814cae0312350f0b6b93b"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/sensor_frames/sensor_000168.png",
+      "bytes": 5050,
+      "sha256": "d0ff50820fe46da2cdf92f95078c85adc6528bc8ba4f452e1d33dbb57cb6b411"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/sensor_frames/sensor_000210.png",
+      "bytes": 5397,
+      "sha256": "5929cc25432c72e3f2e0cd305345a370b862220623e4576120f5a714632aa748"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/sensor_frames/sensor_000252.png",
+      "bytes": 5428,
+      "sha256": "e9e7e2c0b3cf56b0209ca37285abe01b9bcc2360c5373c78d773395ce627de86"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/sensor_frames/sensor_000294.png",
+      "bytes": 5566,
+      "sha256": "b82cf03d8af7e05a32acac840bfa68ea414be184c61abb98add1e92f8d0408f2"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/sensor_frames/sensor_000336.png",
+      "bytes": 6147,
+      "sha256": "dbd7e105f839e34f4856a7099730605fe3722a878d6a0e642a24717854848067"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/sensor_frames/sensor_000378.png",
+      "bytes": 7989,
+      "sha256": "06fed59299e0685f7341dd28071a87009b6502f419e2983f919048d02d93371f"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/sensor_frames/sensor_000420.png",
+      "bytes": 7267,
+      "sha256": "a160c31dd427f308d96f46670de70e730705c66ee9ad64250fa54acc727536f5"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/sensor_frames/sensor_000462.png",
+      "bytes": 6751,
+      "sha256": "9038266e988901e94e1f16e35e270f045d421f929bec7c623f0c3531b5382636"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/sensor_frames/sensor_000504.png",
+      "bytes": 7010,
+      "sha256": "c0ccb3e6391f3a568024043df5a8c52e767c5d2a4d739dab243166b8f6e8f3dc"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/sensor_frames/sensor_000546.png",
+      "bytes": 7067,
+      "sha256": "aaae8cc86c90ab037aa2529944517deb5d40edc9efcc36c4679af3db30c07a96"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/sensor_frames/sensor_000588.png",
+      "bytes": 7053,
+      "sha256": "ea75821ff824132651d55e4f1f77cf2a03ad59bc6b362b519dbb94f9fa0460cb"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/sensor_frames/sensor_000630.png",
+      "bytes": 6961,
+      "sha256": "b01fea92d3dcb11f5f74758f7dcb839811cf6d51952c5433ec836a862e178609"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/sensor_frames/sensor_000672.png",
+      "bytes": 7022,
+      "sha256": "7e625113dcccbee738b7480eccb1e27362fa3682998d7a0b575854fc39bae874"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/sensor_frames/sensor_000714.png",
+      "bytes": 7103,
+      "sha256": "0c868b3646f8d72791257dc011aa85180cc32d308a762702c052d0f7a830b782"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/sensor_frames/sensor_000756.png",
+      "bytes": 6917,
+      "sha256": "1081e99fdf441a98bc1e003ac3dbd1ec53ed2ed80c24dfa2be111c05e1d47aef"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/sensor_frames/sensor_000798.png",
+      "bytes": 6884,
+      "sha256": "a020d57d79eccf9820fec2b0a1e583581158dbb033f5b754c77ec96f79b33d8f"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/sensor_frames/sensor_000840.png",
+      "bytes": 7425,
+      "sha256": "8496838475fbbab8f99b2c8b6753170d2fcbc4742fee532ec889290e1901cd71"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/sensor_frames/sensor_000882.png",
+      "bytes": 7032,
+      "sha256": "989f7567810c342ebe059322a8a6f6850c294b761d192ba382f0ba1d02891740"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/sensor_frames/sensor_000924.png",
+      "bytes": 6959,
+      "sha256": "73368e78e40c0551b1ec719074dcd86ab8ee412cf0848b097f69b5f6a9fbe68d"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/sensor_frames/sensor_000966.png",
+      "bytes": 7712,
+      "sha256": "bc356a8d151a896ef4e098cf99edd2a0e7bbfff46fcb7887963e73bf2aa7dbc5"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/sensor_frames/sensor_001008.png",
+      "bytes": 7092,
+      "sha256": "fb4bc1e9bc9bc5947618ff431bfe3313536c232bd511093f71a51cc6279e4d55"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/head_hold/summary.json",
+      "bytes": 26219,
+      "sha256": "33a02e1ce5fce56933d130d6f4dc1ccc0f63652ff834e34dd624d24f7e0e30b2"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/actual_input_0.png",
+      "bytes": 5085,
+      "sha256": "fe2ed63b4f25c89744b4317d691a301216623b2d101cf6368f2b201fb7e4fab0"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/actual_input_1.png",
+      "bytes": 9708,
+      "sha256": "eaa1ae22876a72526f530ffa2a476be307cb91f553c5f8762d9b361b5230609e"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/actual_input_2.png",
+      "bytes": 5321,
+      "sha256": "241bae2011df8842fe019ba2adb57cbd8b5f655c46b377e7fd58f054e7ecba10"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/actual_input_3.png",
+      "bytes": 9354,
+      "sha256": "5e0ee9f727df5902b9f093898302e4ecee915d4870fc7ec273206bfab7661938"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/actual_sensor.gif",
+      "bytes": 159963,
+      "sha256": "865fd3b3046bf69c034295616a0b5f1c927d57f92f6c9eb03aa3c4ad51cf70d6"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/COMPLETE.json",
+      "bytes": 30916,
+      "sha256": "fc1469f1753dc35002aa28057b33f9fdb39eaca32bae14fbe9790c80a8c0c30b"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/events.sqlite",
+      "bytes": 37793792,
+      "sha256": "e0e657e28d2110af70ad83a1fb0de1a01bd8493393cff9aaf00dbc99096cc121"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/identity.json",
+      "bytes": 206,
+      "sha256": "f76eaf6ad29355f77653c391743e104fd98da65603279934d13e52d50054e7e9"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/progress.json",
+      "bytes": 1090,
+      "sha256": "2d75af939f8c978f10e2aeae17219f2488eded837f7ac2b0e76af68baea3e8f1"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/sensor_frames/sensor_000000.png",
+      "bytes": 5140,
+      "sha256": "56ccec0f85b5f1a4e9b9a7763f7032f73790824e40d47f51a975abf4d2b8f322"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/sensor_frames/sensor_000042.png",
+      "bytes": 5316,
+      "sha256": "7bace46196d1489814515a60c87a5bb738197d9cd8fbb18ebc82dd79bf69ed90"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/sensor_frames/sensor_000084.png",
+      "bytes": 5131,
+      "sha256": "bc1279ccf378edb397be1946f5f5e6436fcfa7d7bd2bc787c95c5d5f7c549f05"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/sensor_frames/sensor_000126.png",
+      "bytes": 5012,
+      "sha256": "eab57d6350625350899862dc404038e4119f19abf89d9b03d6a9f1d656970165"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/sensor_frames/sensor_000168.png",
+      "bytes": 4905,
+      "sha256": "8de44bb53dae18b8d9f236fd1528a118adfd0d30a7daa2f276ac74e25d82243f"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/sensor_frames/sensor_000210.png",
+      "bytes": 4703,
+      "sha256": "2d19fefb9a96d900c68ec86fe60dc477b2ba027155868e58d6a3c35889764053"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/sensor_frames/sensor_000252.png",
+      "bytes": 4543,
+      "sha256": "10fd16cde987860b79f63385fd7e8135a64e9d588ea3c476e22913b64f21932a"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/sensor_frames/sensor_000294.png",
+      "bytes": 4940,
+      "sha256": "e34703c3832149e220c46fc57816bcac2f917a38c4951c4b11e8e3c15e5896d3"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/sensor_frames/sensor_000336.png",
+      "bytes": 5273,
+      "sha256": "e95f710bbc0c2a5d40a103dfccf6cd042fbc2b1b3c3b50607e682db3582489da"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/sensor_frames/sensor_000378.png",
+      "bytes": 6037,
+      "sha256": "a93cf06adf746063d1be49781ece77257240883dd53eefe1a3093d0a56fb7516"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/sensor_frames/sensor_000420.png",
+      "bytes": 3987,
+      "sha256": "680a593066dfb1460ccc052d3ff5894ce2d7f09f42018bc3b4a23cf5569ba07f"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/sensor_frames/sensor_000462.png",
+      "bytes": 4181,
+      "sha256": "519a4d5ae3ef43c072f5a6e5e7fdaa61bab7a21ad592c57853886bf2d770a15c"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/sensor_frames/sensor_000504.png",
+      "bytes": 5035,
+      "sha256": "958c7108150c1f061b64ffac86df66b02330060d16785c765f42bcbd539239ac"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/sensor_frames/sensor_000546.png",
+      "bytes": 7438,
+      "sha256": "bb6803d72faf909b2177849f05a1d8af9fc90b58e1874741c06287cf738501c4"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/sensor_frames/sensor_000588.png",
+      "bytes": 15675,
+      "sha256": "2ab68f1843a90923f271f0e1bc5da2d237a634e704b0faf329fd0f778708ea84"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/sensor_frames/sensor_000630.png",
+      "bytes": 15365,
+      "sha256": "f725e064e00a502f0d4367eca428ee9f7211737852f31118943643734d044e6f"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/sensor_frames/sensor_000672.png",
+      "bytes": 11240,
+      "sha256": "d39db10f9776291f6056346e477922abe74e1e29a56c5be8a71dd7645ffb3799"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/sensor_frames/sensor_000714.png",
+      "bytes": 13119,
+      "sha256": "9b978db1d58f041b29c9cdaccb6e4e432ff788888368de49bc25d998b00c48ac"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/sensor_frames/sensor_000756.png",
+      "bytes": 13387,
+      "sha256": "bc800e8650f2c68d0ff2323fcc1292bc37ece40320cd413257cde0844994ce5b"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/sensor_frames/sensor_000798.png",
+      "bytes": 12822,
+      "sha256": "58f2a28b5b386d4d44f592d3c8b611f3b2ecec4c136460ca019568f2a0818490"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/sensor_frames/sensor_000840.png",
+      "bytes": 12892,
+      "sha256": "910cc66d4503713ee577a9e107979b65c82c81ec48839eaccebe11e992956172"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/sensor_frames/sensor_000882.png",
+      "bytes": 13050,
+      "sha256": "303c534f49bfd787b10d2a35d82020f81978b092af8d02c84ac67dd5796cabbe"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/sensor_frames/sensor_000924.png",
+      "bytes": 13036,
+      "sha256": "371d7a7030566555d4008b3bdd604ed8446dc45c2ed368cdae7a631e46b5c0dd"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/sensor_frames/sensor_000966.png",
+      "bytes": 11069,
+      "sha256": "b0d4b976c989e294ecc97942e147232b5b44b272befa32eb87196b3643ed9773"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/sensor_frames/sensor_001008.png",
+      "bytes": 12645,
+      "sha256": "5117c8036ed73f0bad520fb3cf687b2ca5b1c96d302ca5dcdc6f3832735eed84"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/diagnostics/uniform/summary.json",
+      "bytes": 25931,
+      "sha256": "f8981dbef155f234bdb2a3850a7c31fb2496c57f9c8eb9949084526ee049b82b"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/events.sqlite",
+      "bytes": 519880704,
+      "sha256": "22341d95502d47382f63a276d33aa2a21c12da09b22842a3e1900215335642fe"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/events.sqlite-shm",
+      "bytes": 32768,
+      "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/events.sqlite-wal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/actual_input_0.png",
+      "bytes": 5085,
+      "sha256": "fe2ed63b4f25c89744b4317d691a301216623b2d101cf6368f2b201fb7e4fab0"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/actual_input_1.png",
+      "bytes": 9708,
+      "sha256": "eaa1ae22876a72526f530ffa2a476be307cb91f553c5f8762d9b361b5230609e"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/actual_input_2.png",
+      "bytes": 5321,
+      "sha256": "241bae2011df8842fe019ba2adb57cbd8b5f655c46b377e7fd58f054e7ecba10"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/actual_input_3.png",
+      "bytes": 9354,
+      "sha256": "5e0ee9f727df5902b9f093898302e4ecee915d4870fc7ec273206bfab7661938"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/actual_sensor.gif",
+      "bytes": 106459,
+      "sha256": "010f260ad2d9a568895e093aeda2e17c0c705467b55cea3883381cfe862922c6"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/COMPLETE.json",
+      "bytes": 31170,
+      "sha256": "507f3b10900392e242f37648a61d519a1c1eb8d93ba5a642c1202c72872abe71"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/events.sqlite",
+      "bytes": 38436864,
+      "sha256": "55d106472fe9c179abbd96b06dab60578f101f3e8ff863cd5137597d7f4d593a"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/identity.json",
+      "bytes": 323,
+      "sha256": "a465b061268cf78da3ed1d402f4b570c6243cbab5d2a977e6d43e347fbed761e"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/progress.json",
+      "bytes": 1111,
+      "sha256": "be224ecddcada88c7abf03717886c7317db4126b3df7dd3bd4d76191e52c8a52"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/sensor_frames/sensor_000000.png",
+      "bytes": 5140,
+      "sha256": "56ccec0f85b5f1a4e9b9a7763f7032f73790824e40d47f51a975abf4d2b8f322"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/sensor_frames/sensor_000042.png",
+      "bytes": 5316,
+      "sha256": "7bace46196d1489814515a60c87a5bb738197d9cd8fbb18ebc82dd79bf69ed90"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/sensor_frames/sensor_000084.png",
+      "bytes": 5131,
+      "sha256": "bc1279ccf378edb397be1946f5f5e6436fcfa7d7bd2bc787c95c5d5f7c549f05"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/sensor_frames/sensor_000126.png",
+      "bytes": 5045,
+      "sha256": "14231b021115afcc2e0a3650bde1ed847c6cfeb2e590945cd4023e4f36b0568e"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/sensor_frames/sensor_000168.png",
+      "bytes": 4919,
+      "sha256": "161944e9c8ded8d4dd5baba7e8455d6cb0ed7b23fe69de61178ef6e833eff1f5"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/sensor_frames/sensor_000210.png",
+      "bytes": 5050,
+      "sha256": "bdd2c6e348e4da2857600ea847b1280bdf6b9af7674a15c828bfb1b7841c8664"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/sensor_frames/sensor_000252.png",
+      "bytes": 5121,
+      "sha256": "6e695d54c7506854fceb4a3dbca1d06c283f6366ae503647367aab7de3ecc862"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/sensor_frames/sensor_000294.png",
+      "bytes": 5478,
+      "sha256": "c34bdb978378030b13402a863acef0140e0affc1ac205da034550fbcfab7016a"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/sensor_frames/sensor_000336.png",
+      "bytes": 5910,
+      "sha256": "c4f21134644022e39623a26480c0f979f2a8429aacc44b7da70917a79096db08"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/sensor_frames/sensor_000378.png",
+      "bytes": 6915,
+      "sha256": "014f763b468e94869c0739e807c2cfff56950e78d3ef4cf235d4bfa9a0788cd1"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/sensor_frames/sensor_000420.png",
+      "bytes": 7016,
+      "sha256": "5b2a6382ccb33aaced55016b7bf63ba93c0c954b01ef9e217acbc543032ebbf6"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/sensor_frames/sensor_000462.png",
+      "bytes": 7940,
+      "sha256": "ff84657a07ee23cb1ffbeb6133e52e4469c141d2891fe620631ca6a7e2107343"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/sensor_frames/sensor_000504.png",
+      "bytes": 6911,
+      "sha256": "5fbd2306f36005e60e722cdf6dfbc83a94ca0305b88bca18ecaa2cac1073ff54"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/sensor_frames/sensor_000546.png",
+      "bytes": 6605,
+      "sha256": "df2f826a1d626f2f210fd461e352787e586a0f2b2bfd298781b725a3c8012ca4"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/sensor_frames/sensor_000588.png",
+      "bytes": 7038,
+      "sha256": "24aa04b2cb651fbb8cda949b0e7e1954c4322094d1f9f757034bee7e97ce31cf"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/sensor_frames/sensor_000630.png",
+      "bytes": 7037,
+      "sha256": "c80e840b3293ea9809c18f7a3782b1522983b30d6370d2676a155fd54e1d7fa1"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/sensor_frames/sensor_000672.png",
+      "bytes": 6814,
+      "sha256": "a06637901f1794410a3d8c45864c2c8717e8f83fa50411e5d422aa9e6f45307e"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/sensor_frames/sensor_000714.png",
+      "bytes": 7067,
+      "sha256": "313330ff5c5cc1370e1d97fcae1916e65e1d31f67bda7ad33b164d8fe180bda1"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/sensor_frames/sensor_000756.png",
+      "bytes": 7018,
+      "sha256": "8cab79939c86cbf18478b917dedc578266c425b0b1ae57512ac63204aae291a8"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/sensor_frames/sensor_000798.png",
+      "bytes": 7011,
+      "sha256": "8b0b83c9a8e34af6e638fc75ccb4b1b45ed6d24187f2254e9b29184a39246d71"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/sensor_frames/sensor_000840.png",
+      "bytes": 7321,
+      "sha256": "112258eb2a860d46041ec698d4fa7b8b4631d754d53e4d298ad9423e156d2e4e"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/sensor_frames/sensor_000882.png",
+      "bytes": 7037,
+      "sha256": "735dc09c51802b3b1aebf029cc05f40a055d82b4d25962ae0e88468549642798"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/sensor_frames/sensor_000924.png",
+      "bytes": 6914,
+      "sha256": "f4e368119e06025bf25624975f85be3523c2051f0accb0508e4740bc7458f1a1"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/sensor_frames/sensor_000966.png",
+      "bytes": 6895,
+      "sha256": "a8fbe8ad1f5ed9ef8edbb5da8efe7a10ae17e741300e0248898b02da579babdd"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/exploring_frozen_probe/sensor_frames/sensor_001008.png",
+      "bytes": 6828,
+      "sha256": "1460f3d8ada3729760d32aff80446094365541b6c72c6ac646389ac6710b9b72"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/actual_input_0.png",
+      "bytes": 5085,
+      "sha256": "fe2ed63b4f25c89744b4317d691a301216623b2d101cf6368f2b201fb7e4fab0"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/actual_input_1.png",
+      "bytes": 9708,
+      "sha256": "eaa1ae22876a72526f530ffa2a476be307cb91f553c5f8762d9b361b5230609e"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/actual_input_2.png",
+      "bytes": 5321,
+      "sha256": "241bae2011df8842fe019ba2adb57cbd8b5f655c46b377e7fd58f054e7ecba10"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/actual_input_3.png",
+      "bytes": 9354,
+      "sha256": "5e0ee9f727df5902b9f093898302e4ecee915d4870fc7ec273206bfab7661938"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/actual_sensor.gif",
+      "bytes": 105559,
+      "sha256": "47f8c3e8751957ab80e57531a4f5750c591196009657d8d7ab5046928e48e2c7"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/COMPLETE.json",
+      "bytes": 31304,
+      "sha256": "a9636e9e16bca6ad6e6168f8c43090fa331429f9526d7f198d5417e3a825a226"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/events.sqlite",
+      "bytes": 38117376,
+      "sha256": "d46407f801b6ce48ee85df2afb6ec78e1f6450ab6248947b745a125fdaf6d759"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/identity.json",
+      "bytes": 205,
+      "sha256": "99ed6fa6b2e7959ae8b341591eb113592999fc622d22baf93b9bb899a2f7a62a"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/progress.json",
+      "bytes": 1111,
+      "sha256": "ad598faa8c1980531cab400532ee779594fef3313f227f86b818af7193ef1011"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/sensor_frames/sensor_000000.png",
+      "bytes": 5140,
+      "sha256": "56ccec0f85b5f1a4e9b9a7763f7032f73790824e40d47f51a975abf4d2b8f322"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/sensor_frames/sensor_000042.png",
+      "bytes": 5316,
+      "sha256": "7bace46196d1489814515a60c87a5bb738197d9cd8fbb18ebc82dd79bf69ed90"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/sensor_frames/sensor_000084.png",
+      "bytes": 5131,
+      "sha256": "bc1279ccf378edb397be1946f5f5e6436fcfa7d7bd2bc787c95c5d5f7c549f05"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/sensor_frames/sensor_000126.png",
+      "bytes": 4952,
+      "sha256": "a6ec28ca5fc49df3e51f29513e2801b06abe92272c6d5c264ebee7b7005e4ba8"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/sensor_frames/sensor_000168.png",
+      "bytes": 4823,
+      "sha256": "660314e69304b5dfa46a12a9c24f78c6aed30d1a40d62eabaf07985cfe79d390"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/sensor_frames/sensor_000210.png",
+      "bytes": 5182,
+      "sha256": "73df7e20f1ee29fc14406805816c41ecdde680c553df5f6dfc762bb6ce8a5b80"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/sensor_frames/sensor_000252.png",
+      "bytes": 5278,
+      "sha256": "de6fe7f0b88d5b3203d6cace5e7675fca7b991a7754c26b50f129a56938578ce"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/sensor_frames/sensor_000294.png",
+      "bytes": 5498,
+      "sha256": "7279ffb0a286685a0e5810a8ea3dcec4d9030550b47fb5fc85c2023d037a9a92"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/sensor_frames/sensor_000336.png",
+      "bytes": 5857,
+      "sha256": "48ce9f260e96158cf528dfe752a86550ed33e9aa94f06875c83f3fcac245ef4a"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/sensor_frames/sensor_000378.png",
+      "bytes": 7980,
+      "sha256": "550dafe5f9e0f5f0dce2689b7ac5fd733924ded9066b11896177d88e60ff884a"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/sensor_frames/sensor_000420.png",
+      "bytes": 7183,
+      "sha256": "f482fd6c413231e33a47a59a39380859b7734bf7b47f1bf8a47400bab3d0044a"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/sensor_frames/sensor_000462.png",
+      "bytes": 6838,
+      "sha256": "e4c0df152319848d2191f8f9f5c318b307b977fff8dda7ef056d7227e6a730f0"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/sensor_frames/sensor_000504.png",
+      "bytes": 6917,
+      "sha256": "8d90719c876c7b73a904504a10b575582ff9689c171428fe3cb8ff72e6584c22"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/sensor_frames/sensor_000546.png",
+      "bytes": 6929,
+      "sha256": "a258f8682a4449a8c6b3fefa96d5bb9c622082b5da7304a6f652025589a3a7ad"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/sensor_frames/sensor_000588.png",
+      "bytes": 6958,
+      "sha256": "5b046109f9abd4d8636e20698bb875cb102539838ae34d01f4fcb762108d955d"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/sensor_frames/sensor_000630.png",
+      "bytes": 7281,
+      "sha256": "77803aa9aac1288a46e32a51c26d26794ff2aaf9a645bc98ba8112227a85f848"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/sensor_frames/sensor_000672.png",
+      "bytes": 7245,
+      "sha256": "84391dd8ec7f32a6385e3b65616a007469dfb5c451061e10633c0c746e408528"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/sensor_frames/sensor_000714.png",
+      "bytes": 6914,
+      "sha256": "4c489f2e46643631602ec094de601268c7e40117a427a9ae18b21b30ef87fc5c"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/sensor_frames/sensor_000756.png",
+      "bytes": 6965,
+      "sha256": "02538ba57d3ccb4350386c7e6af470a6d73fc8234bd4ae4b88762751377ab831"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/sensor_frames/sensor_000798.png",
+      "bytes": 6941,
+      "sha256": "83860201d6b128a08d75b169079de33167ea39c1bab1914860273de4523d72c1"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/sensor_frames/sensor_000840.png",
+      "bytes": 6869,
+      "sha256": "560559f0c2e577e0b74e2908750714092d7e75d43071ff96a958351b28bc5561"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/sensor_frames/sensor_000882.png",
+      "bytes": 7069,
+      "sha256": "e71fc02e8fae6956e276a437bb5a08771e32abc4d0858f72d38e2e9dc30da569"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/sensor_frames/sensor_000924.png",
+      "bytes": 6696,
+      "sha256": "b20f3b71995860798e3ce3eb1da40edb4ec505972b149bfaae1926ec6f5f61b6"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/sensor_frames/sensor_000966.png",
+      "bytes": 6888,
+      "sha256": "6546634a9eccdea0d58f412a50f32b5440c379fc2f9b1c498d2c7811d012a6d6"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/sensor_frames/sensor_001008.png",
+      "bytes": 6999,
+      "sha256": "b5acfee986fe3fb046cd0fb5c3bc104866e4906f528124c7e0c4a4505633db24"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/final_probe/summary.json",
+      "bytes": 26262,
+      "sha256": "be33bdf7764adcfb4563de750c5b3a606005bff7552f77387f84d39645259c1a"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/learner.pt",
+      "bytes": 3049437,
+      "sha256": "a7d8fd5212cd15ece4a5a5fde9418e375cf67177435dab63aaa37a8fe2d1d742"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/learner_step_00000.pt",
+      "bytes": 3029501,
+      "sha256": "35188e8ec5f5df1da115b9fde99b1563c995f27caa88f8a50da0d989c0939605"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/learner_step_08192.pt",
+      "bytes": 3795777,
+      "sha256": "1a065651c390b1ae8dbedd7dc5830ceca5a0aefaeadc6de1185c44ccec77cd3e"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/learner_step_16384.pt",
+      "bytes": 3795777,
+      "sha256": "5eae0bbd9d55e188e43a4b373335c0294ef450a82efb171aab9aa2539bca3261"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/learner_step_24576.pt",
+      "bytes": 3795905,
+      "sha256": "eea05045a21a152283181c50ab98215edb976a563892472dd2cad39feb5490ac"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/learner_step_32768.pt",
+      "bytes": 3795969,
+      "sha256": "8941221e7ca1d804e527fb8d8501491f3168dc1d736df3b5e6dd55ba108fafc1"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/manifest.json",
+      "bytes": 2923,
+      "sha256": "530e247078ddb0690c06570ba1fd64f586666b44e3e8b3cf7c667890b28634fb"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/progress.json",
+      "bytes": 1811,
+      "sha256": "2800e3c9a82b87ec89e9b5873f612662ff26d3801430755a790a0e3fec897ad0"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/sensor_frames/sensor_000000.png",
+      "bytes": 9317,
+      "sha256": "b1418390acaf46b4c024188bda25e7a8e981f4b3ce88faa7ebbbbf8ed580b6b2"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/sensor_frames/sensor_002048.png",
+      "bytes": 4343,
+      "sha256": "574e5a86a360968efbb2c490e7b128c3b3e0a2bdcf736a3291c4a9c0eeb2850e"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/sensor_frames/sensor_004096.png",
+      "bytes": 7168,
+      "sha256": "601bbddaebbe6af442236c52f3c706e53d0d79d41126dd24f029cfd9a2b91cfe"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/sensor_frames/sensor_006144.png",
+      "bytes": 6289,
+      "sha256": "ccd9f691da74954fb6adffa4bc5b6c4410383e7a2ade9f38a77f130cf0817230"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/sensor_frames/sensor_008192.png",
+      "bytes": 6830,
+      "sha256": "3f82843c2bb0828935b22555bf42d884b22805b760b8e4a5bdd7fb9b7540b73e"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/sensor_frames/sensor_010240.png",
+      "bytes": 13224,
+      "sha256": "a40598a2cd753f7b3e0cb88ff9615ed1ecc93d1a713f24ce5abe9fa56f8a0934"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/sensor_frames/sensor_012288.png",
+      "bytes": 6536,
+      "sha256": "91dd22cbd0b30f539115ccebc16c8e11f7f7014a03ac0217d7600eec3f3056eb"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/sensor_frames/sensor_014336.png",
+      "bytes": 15158,
+      "sha256": "46c01574ec263db455cd65c0b8112d5f2cfaa57563675606c6f2a3249fbc866b"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/sensor_frames/sensor_016384.png",
+      "bytes": 7658,
+      "sha256": "50bdc3cb69f4f5d29f3f5442de8661f062f57b7c264a0695b74ddcf5f7ef92a7"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/sensor_frames/sensor_018432.png",
+      "bytes": 10461,
+      "sha256": "e68f6be773da06ea78cba473ea1581a6ce76b6e533080a2eab60662b23f284cd"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/sensor_frames/sensor_020480.png",
+      "bytes": 13591,
+      "sha256": "8b3992bd6963f917fda4c40ae3068a7919554de9474d0099669378075ffe2feb"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/sensor_frames/sensor_022528.png",
+      "bytes": 6334,
+      "sha256": "2f549bbb3278ad6a61acc513231bce43c8cfbe6c71057fdfd6ea64b5f14f2d2d"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/sensor_frames/sensor_024576.png",
+      "bytes": 12413,
+      "sha256": "3e014f6eca9d1fb55dc71a8d7c2828be95cb572591685c3b2721d63796bbd466"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/sensor_frames/sensor_026624.png",
+      "bytes": 10175,
+      "sha256": "22c7a33be1a73f069ada33f8097610caee879ab0e54155d1c17d536bebc01afe"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/sensor_frames/sensor_028672.png",
+      "bytes": 5830,
+      "sha256": "3a28bead941da0fda676623cc996bc9d2bf75234d3b648397a5411b68f709a85"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/sensor_frames/sensor_030720.png",
+      "bytes": 7730,
+      "sha256": "5c1ff300cff83fce7a78ca71d9b409150d48b67f5517cfe1d94f1052b96bcbc5"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/sensor_frames/sensor_032768.png",
+      "bytes": 8950,
+      "sha256": "50f4f22c1c4fb67c8c514bd2051b4bfb4c514036c4c65d58d01f0c29e26eb0e9"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/source/tracking_v17/world.py",
+      "bytes": 12959,
+      "sha256": "b1ba1fdb18473d7ebb1dfffba5e6113fe8d489c0f825162a89b96fad5f71d949"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/source/tracking_v22/__init__.py",
+      "bytes": 72,
+      "sha256": "9f2e543c9890c34016b9b427ac2cdfc2698667c1d784acf72ae1ba4465f772db"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/source/tracking_v22/evaluate_stages.py",
+      "bytes": 4179,
+      "sha256": "1bb47d51102b55ec6bb096b7d5afb377f86e0a1e508e4f02706413e4d10a914a"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/source/tracking_v22/neural.py",
+      "bytes": 17244,
+      "sha256": "04a78276c325a5c592c791a854c54c206b01227b8aa4521331a469fe0aabd3b0"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/source/tracking_v22/run.py",
+      "bytes": 26742,
+      "sha256": "fde23e7d89853ff54b5cccfccb0fcf29340e4159e3cdfc6d300fe05636cb9b8d"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/source/tracking_v22/verified.py",
+      "bytes": 6498,
+      "sha256": "8f6fd3f3de293f702605d2d16ef5e55603b9b1bdf08aea8922322829b3b31927"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/source/tracking_v22/world.py",
+      "bytes": 18139,
+      "sha256": "51cc948108763a08dac27942f537730837a4d5a17c37dd0d12ed9b5ff2f88408"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/source/tracking_v23/__init__.py",
+      "bytes": 86,
+      "sha256": "ca6a8afed8babb02f3d8863165001f9667f902bc3759c90007d46b58dd7cbd7e"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/source/tracking_v23/audit_results.py",
+      "bytes": 9216,
+      "sha256": "b2c636ededa0665073203e6111a6c925b627f41ab92c64a0f8732d5adba29895"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/source/tracking_v23/evaluate.py",
+      "bytes": 8182,
+      "sha256": "19aefb00edf12211c78c379c295084c1225f1d7cf96be77a51e329c57806b753"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/source/tracking_v23/EXPERIMENT_ZH.md",
+      "bytes": 2672,
+      "sha256": "0f5bb9a7a871b28371626941e5c03624fe3ff2ad475a6575f0cf2d1c73f7826c"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/source/tracking_v23/extended_practice.json",
+      "bytes": 542,
+      "sha256": "c540844ee06a770c64f39a7d7c66ab02dca5c7a2fe3819ebeeebe3d6b7ef7100"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/source/tracking_v23/IMPLEMENTATION.md",
+      "bytes": 9150,
+      "sha256": "78b562fd0d17a7681cb3e62ad7cfcec88e23cfa4eb2c2a48cb15885edf581b09"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/source/tracking_v23/neural.py",
+      "bytes": 7070,
+      "sha256": "71f1abecd6bb9e3d9b53a83a0292359e9d60d2eedd3422874ebb329595b696a4"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/source/tracking_v23/persistence.py",
+      "bytes": 3747,
+      "sha256": "b292e256234c369693b9b2bca3de077f6c37895556b50bc0df1dde38c66ffbe4"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/source/tracking_v23/PLAN.md",
+      "bytes": 4122,
+      "sha256": "c5d8c824e6ce69b3cb2dd215f8af49839583525f0c58385c68c4501a62652a45"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/source/tracking_v23/PROGRESS.md",
+      "bytes": 3950,
+      "sha256": "7268b4b3d133c77efa1b3c80f62cd65754d74e1621ed63ab5b7c68f82bbd6303"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/source/tracking_v23/run.py",
+      "bytes": 12988,
+      "sha256": "00690a94b649e6334f869f9cfa6755d5c9e5c6e531b6ea77a27d663e8a73fce3"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/source/tracking_v23/session.py",
+      "bytes": 15830,
+      "sha256": "a45ba8d85f0c36f276a1ea6a7e45b02d8f9ec91fbbe440a293e53288622b0900"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/source/tracking_v23/test_exploration_probe.py",
+      "bytes": 2499,
+      "sha256": "97ec960ed0979fb0ea007eb3b7c8589ad0365703d3db5af47fea0bd91b561ce6"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/source/tracking_v23/test_neural.py",
+      "bytes": 6036,
+      "sha256": "439c6757b1aeda39f5c0040051d231ec4daec309ec5aca9ee21c674c548b44a8"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/source/tracking_v23/test_persistence.py",
+      "bytes": 5116,
+      "sha256": "be6e1e5268bd62d7f8ed3e1086471aedfde1fe6ea399ac2fabb302c884cd67e2"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/source/tracking_v23/test_runtime.py",
+      "bytes": 17490,
+      "sha256": "983899e48958dcb2acea1b4bcaae0357f6a4c649bbe36624d40d7ab30d8434de"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/source/tracking_v23/test_vision.py",
+      "bytes": 5035,
+      "sha256": "2f93dbf452754cad5adc6caad8ce37659e2e16e54961842079cd3220a8609363"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/source/tracking_v23/vision.py",
+      "bytes": 4029,
+      "sha256": "cefcac0ff46b81d38a213317591b0ae918d2d8359c8a7772ce0d5ef25e51ac43"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/actual_input_0.png",
+      "bytes": 5423,
+      "sha256": "4911f0d6f782743ebf653ffc1f92f64d361c61645880d9f0f18414f1ee0a1a4b"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/actual_input_1.png",
+      "bytes": 8435,
+      "sha256": "b0f4a6ab4349f9c82ddd9836f2370019e93098458fe82c03cd2fd12531939cb8"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/actual_input_2.png",
+      "bytes": 6464,
+      "sha256": "89015e3482bfcad880c67c5b5a7273b455cfe87f0d8f246e1aeb400a22fb83d0"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/actual_input_3.png",
+      "bytes": 9817,
+      "sha256": "ae33eb1a912393a62bfe8cac6e3c6224b25b5663cf34c0222fa79de070bfe77f"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/actual_sensor.gif",
+      "bytes": 106514,
+      "sha256": "9ec24dc686afd59db484ba9b4da41c4dfd1805b5a1945b8f5dd252aa0d6a38a0"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/COMPLETE.json",
+      "bytes": 18238,
+      "sha256": "704bc731b9de71bfe9849b3efcf685d244a4c190a78bec37012d5a525480d59c"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/events.sqlite",
+      "bytes": 31752192,
+      "sha256": "fd405f8810f5fe766cb9c1bfd09e4842c65e047ec0674469d9ef87856168633f"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/identity.json",
+      "bytes": 203,
+      "sha256": "b910999106ddb012e81ce49a94e855e1dbbc505eb193fff97c307639dad96472"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/progress.json",
+      "bytes": 1111,
+      "sha256": "db59a18220ed45f652503ca106e5d32f0ed836f25744c495e508d4026661a130"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/sensor_frames/sensor_000000.png",
+      "bytes": 9067,
+      "sha256": "19367eba75ec952777cd658445cc660a24c923eb58ca08ab2f235d84d805c949"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/sensor_frames/sensor_000021.png",
+      "bytes": 10227,
+      "sha256": "b60c99cd7890bbc54c2b91a80794b31f9aa24863609c9de46e9830837b1125ea"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/sensor_frames/sensor_000042.png",
+      "bytes": 8307,
+      "sha256": "af5c3937a67a47168537d9f7d77f11c4f4e5a7e8a6082a603a10f34747a29e65"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/sensor_frames/sensor_000063.png",
+      "bytes": 7083,
+      "sha256": "cbe277dda9ca4e1b86b13880a2576a0d7c621db1048cb4eac6ebc1feae506fdf"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/sensor_frames/sensor_000084.png",
+      "bytes": 6659,
+      "sha256": "2c22affb83f240415b07333d21197dc77fe30489be1184380c546fedd3dec8e8"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/sensor_frames/sensor_000105.png",
+      "bytes": 6250,
+      "sha256": "bfc69c0bb47b8fb03da09510fdf47dea2f7f8baf7448c21f114f23b2d3f2eee5"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/sensor_frames/sensor_000126.png",
+      "bytes": 6196,
+      "sha256": "7dea47dbbeb5bcc83de2ee5342c96a2b7bf5d930c7f0358b1d16b652c2c740c2"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/sensor_frames/sensor_000147.png",
+      "bytes": 6099,
+      "sha256": "927efe2e8eef8f45a0071ac803c5c7ef0e40b22281348835471f6b6e19eb6956"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/sensor_frames/sensor_000168.png",
+      "bytes": 6151,
+      "sha256": "8648dd74c5758ec8ffacb1b05c4fb8530188e32ad69a66a609dfc7708ca5fc76"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/sensor_frames/sensor_000189.png",
+      "bytes": 5745,
+      "sha256": "303199b45fdce84bcb39d0f91d31e554883bbbf14f069ceee86e3e158b8cc330"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/sensor_frames/sensor_000210.png",
+      "bytes": 5493,
+      "sha256": "9a9d4aebefc9f30870c34dbb626a994b83ba4f020c5e037e63e708ef3133d9bc"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/sensor_frames/sensor_000231.png",
+      "bytes": 5391,
+      "sha256": "378820f1653327c477cde7708413b2ff07e6dc2fb06904c1e43e254c10e52e91"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/sensor_frames/sensor_000252.png",
+      "bytes": 5507,
+      "sha256": "aac07c58a35b7a7e10ccc01cc21ed7db5dce0603eb05622663a5f370b43cb85d"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/sensor_frames/sensor_000273.png",
+      "bytes": 5415,
+      "sha256": "3babb068fda9ed56e0ed34c73aa090330a310ae2cdbbb73a17d9d70ad8317e29"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/sensor_frames/sensor_000294.png",
+      "bytes": 5872,
+      "sha256": "67d26359574a560d2f8276720e81cc3140e639ab4f55bad23b18b32b161a0363"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/sensor_frames/sensor_000315.png",
+      "bytes": 6005,
+      "sha256": "7c752fba6e6bf29b10cf42d900a0c71d8dccd8a14d38a5265ebe824096c38b67"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/sensor_frames/sensor_000336.png",
+      "bytes": 5749,
+      "sha256": "beef4d8e1052b7104311ebeac1968b382a42bde01435962c52816c6fc54e18d7"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/sensor_frames/sensor_000357.png",
+      "bytes": 5587,
+      "sha256": "1d006afb1ecd4edb017a66a3284079e2a0e50e3f50e9ba9d5f4c308e47bed8d1"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/sensor_frames/sensor_000378.png",
+      "bytes": 5414,
+      "sha256": "b66add12cd92a5e6870d98de952fc2db5832c20033a6078e97cf996523b3cf7f"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/sensor_frames/sensor_000399.png",
+      "bytes": 5738,
+      "sha256": "24ab86a1f2fdca65a6afca608e4f0532cf235d89093b927f348d71ea32303a8b"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/sensor_frames/sensor_000420.png",
+      "bytes": 5809,
+      "sha256": "4f95390f9f994c1f788ee5ef61c302110752fc5925467e4ae64d9c3a7acb9eb2"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/sensor_frames/sensor_000441.png",
+      "bytes": 6086,
+      "sha256": "34ac698ff57d263790161976f59d58e4f9edf20cc71df871e59ed30e72e88075"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/sensor_frames/sensor_000462.png",
+      "bytes": 6147,
+      "sha256": "ecf0398809d939d39002de4902056b1ebca1bbc90ca846bb2698965a895fa59e"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/sensor_frames/sensor_000483.png",
+      "bytes": 5816,
+      "sha256": "2ddd186e06a796a26c0a5131e6729e204b55b62b45db334239ec5ee7200d2276"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/sensor_frames/sensor_000504.png",
+      "bytes": 5894,
+      "sha256": "c2582a5fdf73f8ad5031011312f79bba00fb072d46db12c054eebb3f17971211"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_00000/summary.json",
+      "bytes": 14247,
+      "sha256": "bd1e3f0cc385e54f651046ae4ec0e4bd549bede615073fec49a83c0ed9d9d3c7"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/actual_input_0.png",
+      "bytes": 5423,
+      "sha256": "4911f0d6f782743ebf653ffc1f92f64d361c61645880d9f0f18414f1ee0a1a4b"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/actual_input_1.png",
+      "bytes": 8435,
+      "sha256": "b0f4a6ab4349f9c82ddd9836f2370019e93098458fe82c03cd2fd12531939cb8"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/actual_input_2.png",
+      "bytes": 6464,
+      "sha256": "89015e3482bfcad880c67c5b5a7273b455cfe87f0d8f246e1aeb400a22fb83d0"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/actual_input_3.png",
+      "bytes": 9817,
+      "sha256": "ae33eb1a912393a62bfe8cac6e3c6224b25b5663cf34c0222fa79de070bfe77f"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/actual_sensor.gif",
+      "bytes": 135172,
+      "sha256": "57f4f47a2423cc29de1e866939ed6945edb5c4f290a4154576089dc218dce305"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/COMPLETE.json",
+      "bytes": 19733,
+      "sha256": "81555391c4257841fea68d8327f76c3ba730873c09a7d565298311564df4770c"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/events.sqlite",
+      "bytes": 32481280,
+      "sha256": "74956d597e36729778c2f8fa975e876a9f39f2d7c03669f8c4a30597f92fa1a0"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/identity.json",
+      "bytes": 203,
+      "sha256": "dc5527001c9ea4c40297efbfcdde32fcf5195a0b9aa83c6e8df25fb7e8f2684f"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/progress.json",
+      "bytes": 1103,
+      "sha256": "b1caa29bf295aa7f9a9f4364eec492e195333fbc070b8c2955fec472e686eb47"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/sensor_frames/sensor_000000.png",
+      "bytes": 9067,
+      "sha256": "19367eba75ec952777cd658445cc660a24c923eb58ca08ab2f235d84d805c949"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/sensor_frames/sensor_000021.png",
+      "bytes": 10963,
+      "sha256": "1633c9b0b9d4dd13d8f6e5f7ec565ba17965ca288fd46fad0f372358c0439413"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/sensor_frames/sensor_000042.png",
+      "bytes": 8941,
+      "sha256": "26957a8e09cdc38c47580f1c2edb3fb2bd301d7e466ea5e85723d1b8dd9e861a"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/sensor_frames/sensor_000063.png",
+      "bytes": 7571,
+      "sha256": "bf56c2a909590630b2b54f077c5e4326678763f32feff5a9261531a195f2f06b"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/sensor_frames/sensor_000084.png",
+      "bytes": 6747,
+      "sha256": "067c5f68afa17f5a4067756b2a9cd117bd754fc3a431e0e58ec4b844bb3de46a"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/sensor_frames/sensor_000105.png",
+      "bytes": 6651,
+      "sha256": "966dd21a528615c84d4ca2707c6c8bbefb742cf70e576f7343280c16e5c9aad8"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/sensor_frames/sensor_000126.png",
+      "bytes": 7182,
+      "sha256": "546afcdd168790e1b7a3f49af9adb35b804296d6304905fea19a5d8304ed1e74"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/sensor_frames/sensor_000147.png",
+      "bytes": 7346,
+      "sha256": "1822e81d8425bb4ec2d62f92f0e3359e38646fc1c56813c42535ead50cd78b8c"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/sensor_frames/sensor_000168.png",
+      "bytes": 8616,
+      "sha256": "944570c94f675a258c297b0ca6a7f0ce5cac70c0bb3d7226a145a9fbb5cf2f32"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/sensor_frames/sensor_000189.png",
+      "bytes": 4385,
+      "sha256": "dfd50ec1cd5c6e2ed16ebdaaacc5e89c59a1e29c3731069910032db4179f2997"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/sensor_frames/sensor_000210.png",
+      "bytes": 4830,
+      "sha256": "3dfe5373180f8b4095d1bc159ee15fe1abaaaf4e6afafceff22f1e22d1180161"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/sensor_frames/sensor_000231.png",
+      "bytes": 4912,
+      "sha256": "1d8dfe8689185465b81c10fd997d766a06d123598bd2c478980d3e90ff67904d"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/sensor_frames/sensor_000252.png",
+      "bytes": 5442,
+      "sha256": "7d6b4071cad07ec8f2549c0c9398d953be51bf5db7302c7a8184f4948e2e4522"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/sensor_frames/sensor_000273.png",
+      "bytes": 6394,
+      "sha256": "ae3293151a0269e2bd5000f226463afca7ef11f7db74592f6d9c2d2612d757a3"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/sensor_frames/sensor_000294.png",
+      "bytes": 8423,
+      "sha256": "227ae59dfc1dfbc52fca0a318cf952996af4328408441dadd669b1297a610457"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/sensor_frames/sensor_000315.png",
+      "bytes": 11053,
+      "sha256": "30c123878340987c4a8508d035056c7fa842a6e3cb05f0f35c995d7eeaef1beb"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/sensor_frames/sensor_000336.png",
+      "bytes": 10364,
+      "sha256": "27044d7b2e533ddb4c14ecf8435e127f9a0ffb0733a22aa8c55f4e2dcadc4578"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/sensor_frames/sensor_000357.png",
+      "bytes": 8572,
+      "sha256": "bf2bb2e5feb24aba5f0f5e14a462423045369cb4b37f793ee6524d285d189363"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/sensor_frames/sensor_000378.png",
+      "bytes": 7397,
+      "sha256": "b7fc63483ef3f103bf9310b2530417b098288c75130f1a3c4445e347f0bdc21f"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/sensor_frames/sensor_000399.png",
+      "bytes": 6977,
+      "sha256": "8e68e56990ba99451499ccda3fcfdcb118619998b39054ae08cf2abd47612b0e"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/sensor_frames/sensor_000420.png",
+      "bytes": 6750,
+      "sha256": "dca1e25fc32567787306f6c9d04420ca274aa26af71394457faa526e82951298"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/sensor_frames/sensor_000441.png",
+      "bytes": 7408,
+      "sha256": "cc5060581a58583e5b760b93f8b25ee1063f5a15c426c51d33039058f4822cdf"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/sensor_frames/sensor_000462.png",
+      "bytes": 8452,
+      "sha256": "c0c0f59411772ace345403f6755fb665addd6922167af1315cbf7584a2c07a0f"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/sensor_frames/sensor_000483.png",
+      "bytes": 13454,
+      "sha256": "c86aa23b16029bda857c02a2e376cc74ecb40d41dd2afd298b371a054b3255c7"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/sensor_frames/sensor_000504.png",
+      "bytes": 14669,
+      "sha256": "2403c4b03ff7969c3ea916328478f6ffe47ee2c423835596d0c30d16eab8e6e9"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_16384/summary.json",
+      "bytes": 15452,
+      "sha256": "92fceab87ff84671603ccfd165ab8145df2457ea6dd3d36024456f48701769c9"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/actual_input_0.png",
+      "bytes": 5423,
+      "sha256": "4911f0d6f782743ebf653ffc1f92f64d361c61645880d9f0f18414f1ee0a1a4b"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/actual_input_1.png",
+      "bytes": 8435,
+      "sha256": "b0f4a6ab4349f9c82ddd9836f2370019e93098458fe82c03cd2fd12531939cb8"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/actual_input_2.png",
+      "bytes": 6464,
+      "sha256": "89015e3482bfcad880c67c5b5a7273b455cfe87f0d8f246e1aeb400a22fb83d0"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/actual_input_3.png",
+      "bytes": 9817,
+      "sha256": "ae33eb1a912393a62bfe8cac6e3c6224b25b5663cf34c0222fa79de070bfe77f"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/actual_sensor.gif",
+      "bytes": 132017,
+      "sha256": "9c52eb454ab0db4622b8068345b8d78e1af7e6dc8d86d03c7def3cbf0c68c976"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/COMPLETE.json",
+      "bytes": 20216,
+      "sha256": "17f80f5dc38ba826459efbaa278bd51dd4bcf5526d34e14dd014a83832e232b6"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/events.sqlite",
+      "bytes": 32108544,
+      "sha256": "faaaaaa459a6836e3a75a4ac9ffddb7e26c6a3f8a243bb6484d6eb387ce003fd"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/identity.json",
+      "bytes": 203,
+      "sha256": "07596adf1233ee50bcf6396d0e2a23b39f7c281cd9578b8fa1eb35592f5bf35c"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/progress.json",
+      "bytes": 1108,
+      "sha256": "e1b7d4eba0de50953baeeceb4dec47dc9253635fdef0bd314ea2b87471085856"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/sensor_frames/sensor_000000.png",
+      "bytes": 9067,
+      "sha256": "19367eba75ec952777cd658445cc660a24c923eb58ca08ab2f235d84d805c949"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/sensor_frames/sensor_000021.png",
+      "bytes": 10924,
+      "sha256": "555aef091ac771e4e358735c0c17d4e36de6629a7692f2adee2d56b529183da6"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/sensor_frames/sensor_000042.png",
+      "bytes": 8907,
+      "sha256": "3089861f614e8f1e74e51523738a40e2d53da3da384e4732f31f7b70dae2a09a"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/sensor_frames/sensor_000063.png",
+      "bytes": 7525,
+      "sha256": "557cad7fc7b225c7c7d8b363a0f220e67649273bdb4a3d33671e8de8354e3aa1"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/sensor_frames/sensor_000084.png",
+      "bytes": 6578,
+      "sha256": "58ad1cd64ce207b64a1cc122fd74cea74fbe4b154daa6b60091fbb3046e6aa9a"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/sensor_frames/sensor_000105.png",
+      "bytes": 6788,
+      "sha256": "58ddd3a77f1b8deae1586da21718f3a5ad2c5e750fbd3cd573d71fad058c78f5"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/sensor_frames/sensor_000126.png",
+      "bytes": 7100,
+      "sha256": "1b48d8b34228ef16fea646ae22376bf2c344f28d4443f87aef665e1bac86ec8f"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/sensor_frames/sensor_000147.png",
+      "bytes": 8491,
+      "sha256": "07469211c9cb5096ace70aa7e3278e3e0076e42ba6cc4981630107f4f5fe6136"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/sensor_frames/sensor_000168.png",
+      "bytes": 4498,
+      "sha256": "20f30145d8e4d26e6c34d7853999c7297a72b14b06184cee3ed8115bf006d392"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/sensor_frames/sensor_000189.png",
+      "bytes": 4552,
+      "sha256": "5f882fcb997c10d486d1d53b3a3e0cdc02d669678b78813d0d7715ae212a8295"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/sensor_frames/sensor_000210.png",
+      "bytes": 4761,
+      "sha256": "d7b38cb8a3076b9d7ecd1ef26cf4b396006eb008eb0c17be3ef9235c44bec8cd"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/sensor_frames/sensor_000231.png",
+      "bytes": 5154,
+      "sha256": "b167bc46da64bc01a02a4ceab0b5adc806ff81795051e9ab3cab08e9e958ae8e"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/sensor_frames/sensor_000252.png",
+      "bytes": 6192,
+      "sha256": "78038302f0f91040e010e10c20128fc1d4efecd254b56a2faa3de13ed55753d5"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/sensor_frames/sensor_000273.png",
+      "bytes": 8103,
+      "sha256": "0f2052efb6227d97b34472e157cbb193b1e19342c3dab02991fbac33dfb57035"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/sensor_frames/sensor_000294.png",
+      "bytes": 9368,
+      "sha256": "c31c092a9e42fabb0e93a0b62c71db45268ec6d08323a97845439cb8bf5714ca"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/sensor_frames/sensor_000315.png",
+      "bytes": 16527,
+      "sha256": "1b68f6d5e87ea3fbf405e9bb0704be10da33f050d93733bff78cd1f3417e9d6e"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/sensor_frames/sensor_000336.png",
+      "bytes": 10394,
+      "sha256": "d0e687ba6901228340d23a088d55b6d352579f507ad7a5932f80afb67e4c7b9c"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/sensor_frames/sensor_000357.png",
+      "bytes": 8701,
+      "sha256": "15144be48c719a02000b62f604340ee34c7ebcff04a2334709d76c4894a8d289"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/sensor_frames/sensor_000378.png",
+      "bytes": 7570,
+      "sha256": "bd8116b09c481f918df990f0dcdc6840ea5080ccdb2e07fbe348f27004251d09"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/sensor_frames/sensor_000399.png",
+      "bytes": 6890,
+      "sha256": "6e7ac0d3b5a406416e1605be7080e6f1e03b04efd8dc9327d32dbb7a442cd343"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/sensor_frames/sensor_000420.png",
+      "bytes": 6690,
+      "sha256": "b69ecc494023e09bd3ba86940c6743ec70d6422c9db3653c9e27506306c2ece7"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/sensor_frames/sensor_000441.png",
+      "bytes": 7391,
+      "sha256": "bc9ea530754f00af5200b52ebf99dade0773e0c9d0cc74c21eb5dcd438b6461b"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/sensor_frames/sensor_000462.png",
+      "bytes": 8305,
+      "sha256": "55de6828f35f8c439b27b0441408d9ab8e582d16908a4203b599dd4d0be70fb9"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/sensor_frames/sensor_000483.png",
+      "bytes": 9263,
+      "sha256": "749c7af6ab14588939d692b0b2967f633e2d5c2a7dea109c5b0566f6e87944f9"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/sensor_frames/sensor_000504.png",
+      "bytes": 9454,
+      "sha256": "b29b0e9a44a94aca2bf36bf8de6ba47c2a22e7dde3f5781a4de61389d49dfeab"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/stage_probes/stage_32768/summary.json",
+      "bytes": 15906,
+      "sha256": "eee3ff97bbbd726f7922eab9fcdcccb09872231526eca5d1079358ae3aea61e8"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/summary.json",
+      "bytes": 1326192,
+      "sha256": "cb64dd22d74c06b0151ea72357aad15261aa73b1f8eccfc4d91434fee3bed291"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/training_only_summary.json",
+      "bytes": 1324111,
+      "sha256": "592fae6396a37e156f9d0dc3609c4791e2a3ce60e2a8ac3f682a45de988fea8e"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/actual_input_0.png",
+      "bytes": 7899,
+      "sha256": "4a84f47db55da9a10e179e19f638c64109c906eeff4f8f1ed187087269db0ee5"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/actual_input_1.png",
+      "bytes": 7373,
+      "sha256": "e17c318478540693b951acae8052b21d4a52ef60ba885b4ae6d50f576f3ae78d"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/actual_input_2.png",
+      "bytes": 11523,
+      "sha256": "6bde167b0f55aeb73d885383d87c468c57fe038670a6ca31e22cee15341b6ccf"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/actual_input_3.png",
+      "bytes": 11663,
+      "sha256": "1fee17778374bd83aaeaab4fdaabac06c5e2e81f221f02bb4b75528e9ed2cbf8"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/actual_sensor.gif",
+      "bytes": 113393,
+      "sha256": "c2c4538ab05f65ffa6a57c2be4d37a2622fa81405efac7344a17a43e41ac7696"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/COMPLETE.json",
+      "bytes": 1506857,
+      "sha256": "074302454fb5d0a47833bf194f4782b633520db773fc062ab9819700fc21b03b"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/events.sqlite",
+      "bytes": 395829248,
+      "sha256": "6ba1687bd18074fe78de87966f95d583c8f61a383c1f88301a4a2cffcc97a844"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/events.sqlite-shm",
+      "bytes": 32768,
+      "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/events.sqlite-wal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/actual_input_0.png",
+      "bytes": 5085,
+      "sha256": "fe2ed63b4f25c89744b4317d691a301216623b2d101cf6368f2b201fb7e4fab0"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/actual_input_1.png",
+      "bytes": 9708,
+      "sha256": "eaa1ae22876a72526f530ffa2a476be307cb91f553c5f8762d9b361b5230609e"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/actual_input_2.png",
+      "bytes": 5321,
+      "sha256": "241bae2011df8842fe019ba2adb57cbd8b5f655c46b377e7fd58f054e7ecba10"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/actual_input_3.png",
+      "bytes": 9354,
+      "sha256": "5e0ee9f727df5902b9f093898302e4ecee915d4870fc7ec273206bfab7661938"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/actual_sensor.gif",
+      "bytes": 107161,
+      "sha256": "8a5b5d2e1bee5a8d2c2bc600f5d2d8fc41339df3178d7ef462940639a9f4fd3d"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/COMPLETE.json",
+      "bytes": 29210,
+      "sha256": "66eef4c467d316fbff92616490da44bd40af40887f5dd2cd6d0929a164a7e745"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/events.sqlite",
+      "bytes": 31182848,
+      "sha256": "0a942d222765f1c0a6487f9147fa89019f777567189b2ae6aa6fb5a80fc2b2ec"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/identity.json",
+      "bytes": 325,
+      "sha256": "5c67b4a7ae5f13b549030af542b7b1426fecb62e549a5aa20ea09bfb0c85367f"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/progress.json",
+      "bytes": 1110,
+      "sha256": "d9341b33c73a8462b8055af5c97f73187423f48fa337d0ca7cfe94ded71c2231"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/sensor_frames/sensor_000000.png",
+      "bytes": 5140,
+      "sha256": "56ccec0f85b5f1a4e9b9a7763f7032f73790824e40d47f51a975abf4d2b8f322"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/sensor_frames/sensor_000042.png",
+      "bytes": 5138,
+      "sha256": "d679a8c1fe48204c6bf8a4f3b177a0c3696335366d733e3516f5de8113f82170"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/sensor_frames/sensor_000084.png",
+      "bytes": 5088,
+      "sha256": "b1b077148678a4704c4dfa739fd45b08b34da823ec0ebd4fa43ad6720c2c6d34"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/sensor_frames/sensor_000126.png",
+      "bytes": 4878,
+      "sha256": "5cb03709776329e4fc9e5d78a35d0603dad30d186736073554919b4a51724818"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/sensor_frames/sensor_000168.png",
+      "bytes": 5370,
+      "sha256": "716e006c7b6a257e5b48c4ce95b6a39a01ea2f1da98658c40d0cc452fd6bedf5"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/sensor_frames/sensor_000210.png",
+      "bytes": 6959,
+      "sha256": "89b86a158ea4d3e2ab25f4406decb2c29921e8987ac1a13f57691c0db4cf490f"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/sensor_frames/sensor_000252.png",
+      "bytes": 8304,
+      "sha256": "567ea75e81d48a2353d92c8abb96fdbb63fbb0838fa31fb660b077d9ebb1c5fd"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/sensor_frames/sensor_000294.png",
+      "bytes": 7475,
+      "sha256": "18417aea554e14d1f4e2119076ba09c5a1342a00a627e7e4bfb0a80275a5e9a2"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/sensor_frames/sensor_000336.png",
+      "bytes": 6510,
+      "sha256": "8b1883f9f7f544cab2acf8e58e585433bebea6c47924ad41872019cee402376d"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/sensor_frames/sensor_000378.png",
+      "bytes": 6884,
+      "sha256": "36b62c1649333a11a64d19d93931db32f84f6fa4fd8e7e428c7765bb39888e99"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/sensor_frames/sensor_000420.png",
+      "bytes": 6593,
+      "sha256": "c965061f5ec2670376417c2f4fda21588b155843fe585282d7fe569d98ba3f2a"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/sensor_frames/sensor_000462.png",
+      "bytes": 6185,
+      "sha256": "962b0141e50ac5b2becdb25dfaee07ff0558e16ade88865284cf6e585d03edc6"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/sensor_frames/sensor_000504.png",
+      "bytes": 6349,
+      "sha256": "3dc9e1e6d2d575eae7978933f79dc0754fc929246ba619c88c25ed4598f219cd"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/sensor_frames/sensor_000546.png",
+      "bytes": 6925,
+      "sha256": "f48365eba18cae8084efc1d1fa5e9f438da7212584d32ec8a4a26988714d13aa"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/sensor_frames/sensor_000588.png",
+      "bytes": 7160,
+      "sha256": "7f9eaad939f3fc1bd15be3b9ac5c19fbb7a372b5871cc74e8dd5f9280e7b6123"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/sensor_frames/sensor_000630.png",
+      "bytes": 6911,
+      "sha256": "f32dda369bb4a7953273891d4a698f95f6bb99598e42ce93ffb3e59f6111a9da"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/sensor_frames/sensor_000672.png",
+      "bytes": 7070,
+      "sha256": "094202f5aaf1a0d904999cdad3556466d08f049076b6302bb5d6c380cb0a33d2"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/sensor_frames/sensor_000714.png",
+      "bytes": 7290,
+      "sha256": "75cd418d46ad7c531a26f92d1070f59b7b747dc9da8108fd6e49aa5220ff7056"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/sensor_frames/sensor_000756.png",
+      "bytes": 6921,
+      "sha256": "edc67a54c2f91ed23f8256c9979666a5dc99817cd9358ecb56f3b9e45ac452fe"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/sensor_frames/sensor_000798.png",
+      "bytes": 6839,
+      "sha256": "a82bcda72fee7a8edaed78c66e9f13ad2b0acf44fe15aef8c8022ddabf6b6547"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/sensor_frames/sensor_000840.png",
+      "bytes": 7218,
+      "sha256": "236111ce6eeffe95e55f3016775166f6e984094443aaab2ecb88a8e11a306763"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/sensor_frames/sensor_000882.png",
+      "bytes": 7011,
+      "sha256": "a43d954f27089564059410bc14933acee43f07dddbcc4c3b16b878d1e4fc5ace"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/sensor_frames/sensor_000924.png",
+      "bytes": 7124,
+      "sha256": "2af0007c8c70f3c7ab182a15ccc924c18be936ea590c33de288e4ee2c02726a9"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/sensor_frames/sensor_000966.png",
+      "bytes": 7848,
+      "sha256": "c555e67b367c0de05c8f345d954c1180e976c21b42872872cb0270a0974211e2"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/exploring_frozen_probe/sensor_frames/sensor_001008.png",
+      "bytes": 4048,
+      "sha256": "63b6bd264462a57a3a7bba749b9f2c6061e4092671262a9969acd91b94dbd169"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/actual_input_0.png",
+      "bytes": 5085,
+      "sha256": "fe2ed63b4f25c89744b4317d691a301216623b2d101cf6368f2b201fb7e4fab0"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/actual_input_1.png",
+      "bytes": 9708,
+      "sha256": "eaa1ae22876a72526f530ffa2a476be307cb91f553c5f8762d9b361b5230609e"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/actual_input_2.png",
+      "bytes": 5321,
+      "sha256": "241bae2011df8842fe019ba2adb57cbd8b5f655c46b377e7fd58f054e7ecba10"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/actual_input_3.png",
+      "bytes": 9354,
+      "sha256": "5e0ee9f727df5902b9f093898302e4ecee915d4870fc7ec273206bfab7661938"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/actual_sensor.gif",
+      "bytes": 106063,
+      "sha256": "f01a12673a6f0c4e1aad1a143c16334b105d7faa1fd498f7839f92ec8a560088"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/COMPLETE.json",
+      "bytes": 29156,
+      "sha256": "b48a0bd995e781c1c1a335f52ac9c69d869122abe56a5407aefcebdf20c8d067"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/events.sqlite",
+      "bytes": 31150080,
+      "sha256": "5bfcfac826dfa5280fc381990ee2060b439bb605061a763abf7b6d8136645d67"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/identity.json",
+      "bytes": 207,
+      "sha256": "23f8719976f97b242e1051e5977f42f0481290c851fd36dc41518fd3638de53f"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/progress.json",
+      "bytes": 1111,
+      "sha256": "045adce824d044b196a42e5e43725abcfeede7e372e6622d3f65b63711809423"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/sensor_frames/sensor_000000.png",
+      "bytes": 5140,
+      "sha256": "56ccec0f85b5f1a4e9b9a7763f7032f73790824e40d47f51a975abf4d2b8f322"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/sensor_frames/sensor_000042.png",
+      "bytes": 5262,
+      "sha256": "e5c603c54655a2e31777389962fcd09b4f875370a6077b6bc46dfcd9483001e5"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/sensor_frames/sensor_000084.png",
+      "bytes": 5043,
+      "sha256": "84862f3bb0626dd46e0e50d0e7f59a06b456bfb8b638d0f86705471349da6132"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/sensor_frames/sensor_000126.png",
+      "bytes": 5127,
+      "sha256": "bab0a4073e9905a0a912e5380f4e40707ee77309c9087a9a062b45a4e3c6fd5d"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/sensor_frames/sensor_000168.png",
+      "bytes": 5416,
+      "sha256": "44df23eb6bdbc6604475ec13c9f39ee5223e17793a214f576c5b602863744091"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/sensor_frames/sensor_000210.png",
+      "bytes": 6120,
+      "sha256": "cc1b727595a482fb6612c1cb6d0c79c4e8cf6fc2272a7e9e74f0b3100e0512a8"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/sensor_frames/sensor_000252.png",
+      "bytes": 7113,
+      "sha256": "006ee876bbdcf0f6e92238453919a29884d8c6f0ab144d22f968491cf3b384d6"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/sensor_frames/sensor_000294.png",
+      "bytes": 6954,
+      "sha256": "223d78fdf1f668a1f6df31e4f60bb28a828a7dc189b141b4acdc07f339e36635"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/sensor_frames/sensor_000336.png",
+      "bytes": 7112,
+      "sha256": "71094f5111295a05b303e010f306002cae2e6705aabaec8d2c6dd60903c30338"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/sensor_frames/sensor_000378.png",
+      "bytes": 6951,
+      "sha256": "2ff6717112d87c083102d530b521b91f092af3f9589d63779d0dc2bd1535f7bb"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/sensor_frames/sensor_000420.png",
+      "bytes": 6641,
+      "sha256": "5f31de3ce4e8773e7ee12fcca721e686c82ee4e9819797537a5e01596adde223"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/sensor_frames/sensor_000462.png",
+      "bytes": 6733,
+      "sha256": "c1e0942ea14e5cb92103ebfd791f71af3d4536d3642b5e3f12f68a9632e0277c"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/sensor_frames/sensor_000504.png",
+      "bytes": 6638,
+      "sha256": "86a95166bf7b85ef0cbb694cf62922f386e84a2d63388d8b8ad65b854609212c"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/sensor_frames/sensor_000546.png",
+      "bytes": 7134,
+      "sha256": "2082d78c18519224d8a0ee1aff45858e6f0cff425924658405a9e25c6123acd7"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/sensor_frames/sensor_000588.png",
+      "bytes": 6603,
+      "sha256": "b682d65cb1af0b7c8f82765ccbeedb4fd4191b9c010062163b59b589384ba92b"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/sensor_frames/sensor_000630.png",
+      "bytes": 6570,
+      "sha256": "90d2c75fc345c00168771f0b165b2210864cb53ab4c511382bccde7f24334540"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/sensor_frames/sensor_000672.png",
+      "bytes": 6503,
+      "sha256": "672c88629785106fe53f17cabcd61b61ba550ddc548eccd0217d3bf9b036197a"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/sensor_frames/sensor_000714.png",
+      "bytes": 6908,
+      "sha256": "b80c47b9915ae86d63d089d911f7b62a677799af5a81864e65371856e1af22f6"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/sensor_frames/sensor_000756.png",
+      "bytes": 6699,
+      "sha256": "8dfb47dea89b66a5022172345f34caf625e01fbb2a7c70a1b14a7460e011b463"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/sensor_frames/sensor_000798.png",
+      "bytes": 6749,
+      "sha256": "59a29ec007df667459d68a7cbcbf97b4ebc1a392d3370816ff5ecb52290c0f27"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/sensor_frames/sensor_000840.png",
+      "bytes": 6972,
+      "sha256": "ac957df4651ceeaab664d3bb548606383621de8730a9f2886916a3026d7e6386"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/sensor_frames/sensor_000882.png",
+      "bytes": 6777,
+      "sha256": "50c2393087735da60ccd7831d7d97c9de3854a28246483076ba69e4ea3a21b28"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/sensor_frames/sensor_000924.png",
+      "bytes": 6976,
+      "sha256": "512d8af0f8ec0efc694c8fabf58b6b59ddfb755f72bb852f093ce09e895bb776"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/sensor_frames/sensor_000966.png",
+      "bytes": 6715,
+      "sha256": "a9a8be43d70c79e668a0e6e5ff68b5bf3514c69005d698ee7264f503ef37932e"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/sensor_frames/sensor_001008.png",
+      "bytes": 7034,
+      "sha256": "9e30d316510321b40fd9b04b9db09e64125a8037424a00da43c74ac28fd96b03"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/final_probe/summary.json",
+      "bytes": 24553,
+      "sha256": "7aaaf5126e1ffbb7612901af52e065cdaacfdd0ec8aff0fbd030487932e0d299"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/learner.pt",
+      "bytes": 1712219,
+      "sha256": "a6340c8e29ec839ba385cacf73ee3621d667ba5731fa683849ecd503ceef3017"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/learner_step_00000.pt",
+      "bytes": 1712219,
+      "sha256": "e067797bf156f5036d6a389d25ffeb4aa694196e6611e2dd28c6cb6691609e2e"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/learner_step_08192.pt",
+      "bytes": 2124800,
+      "sha256": "b1b781cae6330d85d28fb511d084ddf9f27015237762022757708bbad430e937"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/learner_step_16384.pt",
+      "bytes": 2124736,
+      "sha256": "1e0e1c92efbded4dbad18e9a46c38270a3ebca7e7bb0f696c731fd9063b1ccda"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/learner_step_24576.pt",
+      "bytes": 2124736,
+      "sha256": "4b57479c4358d39a634552c2b729195f3643c48886719fe9eb75ee66295d2304"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/learner_step_32768.pt",
+      "bytes": 2124736,
+      "sha256": "8d19ca4dfc2ddae6609f4a8a1ef7089470318ebd7bb0a2239baf5c2dbc2baabe"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/manifest.json",
+      "bytes": 2925,
+      "sha256": "1b9f9867dad0fb93fed549922ba505a60c2185b9e7aa62d566d56416fae107c3"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/progress.json",
+      "bytes": 1742,
+      "sha256": "deb06c0d49a6ae3797b854bae1cced925d72d3a249d0f0fe70cb58ae9fe31dee"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/sensor_frames/sensor_000000.png",
+      "bytes": 9317,
+      "sha256": "b1418390acaf46b4c024188bda25e7a8e981f4b3ce88faa7ebbbbf8ed580b6b2"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/sensor_frames/sensor_002048.png",
+      "bytes": 9992,
+      "sha256": "ed5a6ccdf64c9d5335c186ee79289fa34d94784ea50fd073f3ef0a716201eec4"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/sensor_frames/sensor_004096.png",
+      "bytes": 14107,
+      "sha256": "a4f253290803748e8b2f350e8b06d9b9ed5a83c29c39ac86cc406fe556847adc"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/sensor_frames/sensor_006144.png",
+      "bytes": 14033,
+      "sha256": "8e41ac706e10742cd3be3cbb4ea1c165c30d4d5ee20d757d1039d91137fc044b"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/sensor_frames/sensor_008192.png",
+      "bytes": 15388,
+      "sha256": "716b206e6298e36c9a11693a8895bae09bb92510ce0f8c72a456d2b73d59e836"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/sensor_frames/sensor_010240.png",
+      "bytes": 11113,
+      "sha256": "f267fbcf002fa85f036ce340439b17acd38a4fb62d4a184abdaabbe924c91493"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/sensor_frames/sensor_012288.png",
+      "bytes": 4817,
+      "sha256": "8bf0aa9871a87af669916751844a5e3dea1a38104dfef4355260f9bd6a5cc5d6"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/sensor_frames/sensor_014336.png",
+      "bytes": 5840,
+      "sha256": "3146c9c6948862952aa8c749f3608b99d7f9b5f7e8bb20117b4de8e84e7a316f"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/sensor_frames/sensor_016384.png",
+      "bytes": 5366,
+      "sha256": "fffdecd099722aedc1aed2b4a64c63974524cfce0ba1644441f2f30af6bb2b8a"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/sensor_frames/sensor_018432.png",
+      "bytes": 5556,
+      "sha256": "17dd8c368c0c29afaa49400190f61173ffd2900af397a4090fb4407ea17f7999"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/sensor_frames/sensor_020480.png",
+      "bytes": 9374,
+      "sha256": "98f505c711560658b55cf3bc675e1b11287c6af8cf5bf8569950e1998e118b04"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/sensor_frames/sensor_022528.png",
+      "bytes": 9856,
+      "sha256": "44088e8ae74e9f882112fa43a1521e693299f8cdbb5375b1963ae117e2ee2290"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/sensor_frames/sensor_024576.png",
+      "bytes": 7027,
+      "sha256": "6a28555eb28f3d7259bece3fcbf61ecd75b1cd803be622b16e3ddf59e76fea60"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/sensor_frames/sensor_026624.png",
+      "bytes": 10602,
+      "sha256": "58d6f779fb95af98e6b86f715ad3dc8b15bd5832d3cd7297cb0dfc618144db90"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/sensor_frames/sensor_028672.png",
+      "bytes": 4056,
+      "sha256": "8be9ddd30ce51b2ddcafc6fb9a1d18669a60e11bbebaaf90bbb6fe68f5cf3001"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/sensor_frames/sensor_030720.png",
+      "bytes": 14213,
+      "sha256": "e96337cf458c2bceef17a3889c05c4fabb0e040592e908fc7b908484cbf73911"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/sensor_frames/sensor_032768.png",
+      "bytes": 5459,
+      "sha256": "7a612d98432db76c8b9bc580209d8881d33ae0cae26a50172cc7f26ac6d75435"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/source/tracking_v17/world.py",
+      "bytes": 12959,
+      "sha256": "b1ba1fdb18473d7ebb1dfffba5e6113fe8d489c0f825162a89b96fad5f71d949"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/source/tracking_v22/__init__.py",
+      "bytes": 72,
+      "sha256": "9f2e543c9890c34016b9b427ac2cdfc2698667c1d784acf72ae1ba4465f772db"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/source/tracking_v22/evaluate_stages.py",
+      "bytes": 4179,
+      "sha256": "1bb47d51102b55ec6bb096b7d5afb377f86e0a1e508e4f02706413e4d10a914a"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/source/tracking_v22/neural.py",
+      "bytes": 17244,
+      "sha256": "04a78276c325a5c592c791a854c54c206b01227b8aa4521331a469fe0aabd3b0"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/source/tracking_v22/run.py",
+      "bytes": 26742,
+      "sha256": "fde23e7d89853ff54b5cccfccb0fcf29340e4159e3cdfc6d300fe05636cb9b8d"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/source/tracking_v22/verified.py",
+      "bytes": 6498,
+      "sha256": "8f6fd3f3de293f702605d2d16ef5e55603b9b1bdf08aea8922322829b3b31927"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/source/tracking_v22/world.py",
+      "bytes": 18139,
+      "sha256": "51cc948108763a08dac27942f537730837a4d5a17c37dd0d12ed9b5ff2f88408"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/source/tracking_v23/__init__.py",
+      "bytes": 86,
+      "sha256": "ca6a8afed8babb02f3d8863165001f9667f902bc3759c90007d46b58dd7cbd7e"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/source/tracking_v23/audit_results.py",
+      "bytes": 9216,
+      "sha256": "b2c636ededa0665073203e6111a6c925b627f41ab92c64a0f8732d5adba29895"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/source/tracking_v23/evaluate.py",
+      "bytes": 8182,
+      "sha256": "19aefb00edf12211c78c379c295084c1225f1d7cf96be77a51e329c57806b753"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/source/tracking_v23/EXPERIMENT_ZH.md",
+      "bytes": 2672,
+      "sha256": "0f5bb9a7a871b28371626941e5c03624fe3ff2ad475a6575f0cf2d1c73f7826c"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/source/tracking_v23/extended_practice.json",
+      "bytes": 542,
+      "sha256": "c540844ee06a770c64f39a7d7c66ab02dca5c7a2fe3819ebeeebe3d6b7ef7100"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/source/tracking_v23/IMPLEMENTATION.md",
+      "bytes": 9150,
+      "sha256": "78b562fd0d17a7681cb3e62ad7cfcec88e23cfa4eb2c2a48cb15885edf581b09"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/source/tracking_v23/neural.py",
+      "bytes": 7070,
+      "sha256": "71f1abecd6bb9e3d9b53a83a0292359e9d60d2eedd3422874ebb329595b696a4"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/source/tracking_v23/persistence.py",
+      "bytes": 3747,
+      "sha256": "b292e256234c369693b9b2bca3de077f6c37895556b50bc0df1dde38c66ffbe4"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/source/tracking_v23/PLAN.md",
+      "bytes": 4122,
+      "sha256": "c5d8c824e6ce69b3cb2dd215f8af49839583525f0c58385c68c4501a62652a45"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/source/tracking_v23/PROGRESS.md",
+      "bytes": 3057,
+      "sha256": "9bfe3b7b3426c7eeeface4dfaef11efc1945e244a2d9ea14c91f78897d65fb41"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/source/tracking_v23/run.py",
+      "bytes": 12988,
+      "sha256": "00690a94b649e6334f869f9cfa6755d5c9e5c6e531b6ea77a27d663e8a73fce3"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/source/tracking_v23/session.py",
+      "bytes": 15830,
+      "sha256": "a45ba8d85f0c36f276a1ea6a7e45b02d8f9ec91fbbe440a293e53288622b0900"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/source/tracking_v23/test_neural.py",
+      "bytes": 6036,
+      "sha256": "439c6757b1aeda39f5c0040051d231ec4daec309ec5aca9ee21c674c548b44a8"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/source/tracking_v23/test_persistence.py",
+      "bytes": 5116,
+      "sha256": "be6e1e5268bd62d7f8ed3e1086471aedfde1fe6ea399ac2fabb302c884cd67e2"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/source/tracking_v23/test_runtime.py",
+      "bytes": 17490,
+      "sha256": "983899e48958dcb2acea1b4bcaae0357f6a4c649bbe36624d40d7ab30d8434de"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/source/tracking_v23/test_vision.py",
+      "bytes": 5035,
+      "sha256": "2f93dbf452754cad5adc6caad8ce37659e2e16e54961842079cd3220a8609363"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/source/tracking_v23/vision.py",
+      "bytes": 4029,
+      "sha256": "cefcac0ff46b81d38a213317591b0ae918d2d8359c8a7772ce0d5ef25e51ac43"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/actual_input_0.png",
+      "bytes": 5423,
+      "sha256": "4911f0d6f782743ebf653ffc1f92f64d361c61645880d9f0f18414f1ee0a1a4b"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/actual_input_1.png",
+      "bytes": 8435,
+      "sha256": "b0f4a6ab4349f9c82ddd9836f2370019e93098458fe82c03cd2fd12531939cb8"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/actual_input_2.png",
+      "bytes": 6464,
+      "sha256": "89015e3482bfcad880c67c5b5a7273b455cfe87f0d8f246e1aeb400a22fb83d0"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/actual_input_3.png",
+      "bytes": 9817,
+      "sha256": "ae33eb1a912393a62bfe8cac6e3c6224b25b5663cf34c0222fa79de070bfe77f"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/actual_sensor.gif",
+      "bytes": 106514,
+      "sha256": "9ec24dc686afd59db484ba9b4da41c4dfd1805b5a1945b8f5dd252aa0d6a38a0"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/COMPLETE.json",
+      "bytes": 18063,
+      "sha256": "fb27cfd3cb70a4a9270e3a97d24c4b25792239fb2d7fe403916e80d2b1b2dc0e"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/events.sqlite",
+      "bytes": 27058176,
+      "sha256": "322ab896f55120fb8a7962d95946906f69325d89f1a1bf887a054a0570499ea4"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/identity.json",
+      "bytes": 205,
+      "sha256": "9fd6b87c21c76d35e682fa7e87a0b1a38d90d54aebdb7746f6d25493faf0b171"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/progress.json",
+      "bytes": 1110,
+      "sha256": "f41675fb8cee5f9821330e59ae950dede74909b730ccedbe6c27f6403b5f2661"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/sensor_frames/sensor_000000.png",
+      "bytes": 9067,
+      "sha256": "19367eba75ec952777cd658445cc660a24c923eb58ca08ab2f235d84d805c949"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/sensor_frames/sensor_000021.png",
+      "bytes": 10227,
+      "sha256": "b60c99cd7890bbc54c2b91a80794b31f9aa24863609c9de46e9830837b1125ea"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/sensor_frames/sensor_000042.png",
+      "bytes": 8307,
+      "sha256": "af5c3937a67a47168537d9f7d77f11c4f4e5a7e8a6082a603a10f34747a29e65"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/sensor_frames/sensor_000063.png",
+      "bytes": 7083,
+      "sha256": "cbe277dda9ca4e1b86b13880a2576a0d7c621db1048cb4eac6ebc1feae506fdf"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/sensor_frames/sensor_000084.png",
+      "bytes": 6659,
+      "sha256": "2c22affb83f240415b07333d21197dc77fe30489be1184380c546fedd3dec8e8"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/sensor_frames/sensor_000105.png",
+      "bytes": 6250,
+      "sha256": "bfc69c0bb47b8fb03da09510fdf47dea2f7f8baf7448c21f114f23b2d3f2eee5"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/sensor_frames/sensor_000126.png",
+      "bytes": 6196,
+      "sha256": "7dea47dbbeb5bcc83de2ee5342c96a2b7bf5d930c7f0358b1d16b652c2c740c2"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/sensor_frames/sensor_000147.png",
+      "bytes": 6099,
+      "sha256": "927efe2e8eef8f45a0071ac803c5c7ef0e40b22281348835471f6b6e19eb6956"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/sensor_frames/sensor_000168.png",
+      "bytes": 6151,
+      "sha256": "8648dd74c5758ec8ffacb1b05c4fb8530188e32ad69a66a609dfc7708ca5fc76"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/sensor_frames/sensor_000189.png",
+      "bytes": 5745,
+      "sha256": "303199b45fdce84bcb39d0f91d31e554883bbbf14f069ceee86e3e158b8cc330"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/sensor_frames/sensor_000210.png",
+      "bytes": 5493,
+      "sha256": "9a9d4aebefc9f30870c34dbb626a994b83ba4f020c5e037e63e708ef3133d9bc"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/sensor_frames/sensor_000231.png",
+      "bytes": 5391,
+      "sha256": "378820f1653327c477cde7708413b2ff07e6dc2fb06904c1e43e254c10e52e91"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/sensor_frames/sensor_000252.png",
+      "bytes": 5507,
+      "sha256": "aac07c58a35b7a7e10ccc01cc21ed7db5dce0603eb05622663a5f370b43cb85d"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/sensor_frames/sensor_000273.png",
+      "bytes": 5415,
+      "sha256": "3babb068fda9ed56e0ed34c73aa090330a310ae2cdbbb73a17d9d70ad8317e29"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/sensor_frames/sensor_000294.png",
+      "bytes": 5872,
+      "sha256": "67d26359574a560d2f8276720e81cc3140e639ab4f55bad23b18b32b161a0363"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/sensor_frames/sensor_000315.png",
+      "bytes": 6005,
+      "sha256": "7c752fba6e6bf29b10cf42d900a0c71d8dccd8a14d38a5265ebe824096c38b67"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/sensor_frames/sensor_000336.png",
+      "bytes": 5749,
+      "sha256": "beef4d8e1052b7104311ebeac1968b382a42bde01435962c52816c6fc54e18d7"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/sensor_frames/sensor_000357.png",
+      "bytes": 5587,
+      "sha256": "1d006afb1ecd4edb017a66a3284079e2a0e50e3f50e9ba9d5f4c308e47bed8d1"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/sensor_frames/sensor_000378.png",
+      "bytes": 5414,
+      "sha256": "b66add12cd92a5e6870d98de952fc2db5832c20033a6078e97cf996523b3cf7f"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/sensor_frames/sensor_000399.png",
+      "bytes": 5738,
+      "sha256": "24ab86a1f2fdca65a6afca608e4f0532cf235d89093b927f348d71ea32303a8b"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/sensor_frames/sensor_000420.png",
+      "bytes": 5809,
+      "sha256": "4f95390f9f994c1f788ee5ef61c302110752fc5925467e4ae64d9c3a7acb9eb2"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/sensor_frames/sensor_000441.png",
+      "bytes": 6086,
+      "sha256": "34ac698ff57d263790161976f59d58e4f9edf20cc71df871e59ed30e72e88075"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/sensor_frames/sensor_000462.png",
+      "bytes": 6147,
+      "sha256": "ecf0398809d939d39002de4902056b1ebca1bbc90ca846bb2698965a895fa59e"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/sensor_frames/sensor_000483.png",
+      "bytes": 5816,
+      "sha256": "2ddd186e06a796a26c0a5131e6729e204b55b62b45db334239ec5ee7200d2276"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/sensor_frames/sensor_000504.png",
+      "bytes": 5894,
+      "sha256": "c2582a5fdf73f8ad5031011312f79bba00fb072d46db12c054eebb3f17971211"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_00000/summary.json",
+      "bytes": 14212,
+      "sha256": "5a98a0f8986ab7f58d76faaff2f428e4836c3fbdded799748c2fc1c6d4e329ce"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/actual_input_0.png",
+      "bytes": 5423,
+      "sha256": "4911f0d6f782743ebf653ffc1f92f64d361c61645880d9f0f18414f1ee0a1a4b"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/actual_input_1.png",
+      "bytes": 8435,
+      "sha256": "b0f4a6ab4349f9c82ddd9836f2370019e93098458fe82c03cd2fd12531939cb8"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/actual_input_2.png",
+      "bytes": 6464,
+      "sha256": "89015e3482bfcad880c67c5b5a7273b455cfe87f0d8f246e1aeb400a22fb83d0"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/actual_input_3.png",
+      "bytes": 9817,
+      "sha256": "ae33eb1a912393a62bfe8cac6e3c6224b25b5663cf34c0222fa79de070bfe77f"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/actual_sensor.gif",
+      "bytes": 133607,
+      "sha256": "ebff371b68dda447de58771fd12c98f6ec2704750defb3a2c92d85c5e67eb56d"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/COMPLETE.json",
+      "bytes": 18024,
+      "sha256": "8567aacee8f9aa465d8ca94f005d9cb09035011dddfc831ea320246e2110b7c1"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/events.sqlite",
+      "bytes": 26759168,
+      "sha256": "5480d56809b284d205351604f0c45162617173e472b3ef47a69b46b22e59bedf"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/identity.json",
+      "bytes": 205,
+      "sha256": "14d8fef257d4c2b4ca0132532c441538de37b701f9ae2857980af1fadf98b367"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/progress.json",
+      "bytes": 1105,
+      "sha256": "5cd019d0e2d5c5ee19f403fbcfa35f9ded9547de5db8c2e4dfda42ff7567acae"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/sensor_frames/sensor_000000.png",
+      "bytes": 9067,
+      "sha256": "19367eba75ec952777cd658445cc660a24c923eb58ca08ab2f235d84d805c949"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/sensor_frames/sensor_000021.png",
+      "bytes": 10924,
+      "sha256": "555aef091ac771e4e358735c0c17d4e36de6629a7692f2adee2d56b529183da6"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/sensor_frames/sensor_000042.png",
+      "bytes": 8907,
+      "sha256": "3089861f614e8f1e74e51523738a40e2d53da3da384e4732f31f7b70dae2a09a"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/sensor_frames/sensor_000063.png",
+      "bytes": 7525,
+      "sha256": "557cad7fc7b225c7c7d8b363a0f220e67649273bdb4a3d33671e8de8354e3aa1"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/sensor_frames/sensor_000084.png",
+      "bytes": 6578,
+      "sha256": "58ad1cd64ce207b64a1cc122fd74cea74fbe4b154daa6b60091fbb3046e6aa9a"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/sensor_frames/sensor_000105.png",
+      "bytes": 6788,
+      "sha256": "58ddd3a77f1b8deae1586da21718f3a5ad2c5e750fbd3cd573d71fad058c78f5"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/sensor_frames/sensor_000126.png",
+      "bytes": 7365,
+      "sha256": "d245e84318d98c13bfbfc40bafb8e269c9d06be1eb07b15c1c597cefa04c97ec"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/sensor_frames/sensor_000147.png",
+      "bytes": 8302,
+      "sha256": "bdb81988e4975b7f479ebd4123ae73b690942cf34a1472d23c1c6e2c1ff50f8f"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/sensor_frames/sensor_000168.png",
+      "bytes": 9026,
+      "sha256": "5f70b4f870822988b1458d5f004f23044b720a3254dca7d218b54270dafa650c"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/sensor_frames/sensor_000189.png",
+      "bytes": 7939,
+      "sha256": "295073038918b85837b20cc9cd86107ff312ac6d80fd6b8384a792f7a386f7c9"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/sensor_frames/sensor_000210.png",
+      "bytes": 7332,
+      "sha256": "97e1379a2f0409abf14bc3cf75a5f5be9b811110ac3815e21d00a6e2bd0081ac"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/sensor_frames/sensor_000231.png",
+      "bytes": 7666,
+      "sha256": "6a192a87aef361ae8a133b9a4edbbcd596679bde223a12e31ff5cf5dadad5029"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/sensor_frames/sensor_000252.png",
+      "bytes": 7333,
+      "sha256": "5ca83760cb48b3ae6e7026d25881251ad87634ce659c0f2b2d0549408bd7c73e"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/sensor_frames/sensor_000273.png",
+      "bytes": 8237,
+      "sha256": "fa7e17c1fdb9df68284a506ac2fc8d21c1f568c0158e053cab42f029373d92ba"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/sensor_frames/sensor_000294.png",
+      "bytes": 8771,
+      "sha256": "a871a0e3b523e572d68b23d0f20bebca7ed915323afeb0b1859e3e11bf7234da"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/sensor_frames/sensor_000315.png",
+      "bytes": 8806,
+      "sha256": "f381bb04ec306d506041df63865ae996176e3a6024313d5490c75a1ba5e954bc"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/sensor_frames/sensor_000336.png",
+      "bytes": 8536,
+      "sha256": "8630e16e7112a351934c9faaf6c427c5acc4c69362567100e392c004ab8a4073"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/sensor_frames/sensor_000357.png",
+      "bytes": 7951,
+      "sha256": "04b3015b2bb708358316553f1284821e15a919523ab3f3841e7d24988a7d1384"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/sensor_frames/sensor_000378.png",
+      "bytes": 8003,
+      "sha256": "bef13c53c3316689f49cbe7369dbb5bb8f2aed99f1618543766fb4ff968d3e63"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/sensor_frames/sensor_000399.png",
+      "bytes": 7979,
+      "sha256": "dde85f334093cf606d49202282d1a6005f8e09a3fab15108510b64ef55dfaaa0"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/sensor_frames/sensor_000420.png",
+      "bytes": 8314,
+      "sha256": "e94e483d3b0c98f81222e00676fc83285261445b7a5edb9c11faafd895b5efd1"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/sensor_frames/sensor_000441.png",
+      "bytes": 7921,
+      "sha256": "bac0b3e29211fda0fa02b92e669c2ce1a454bd98f2447a8357280b694ddd3eb0"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/sensor_frames/sensor_000462.png",
+      "bytes": 8381,
+      "sha256": "f0ac0736f0a917ec7f00d11af32c069279e63384ea0c7ad35dfd7c59869c5efd"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/sensor_frames/sensor_000483.png",
+      "bytes": 9549,
+      "sha256": "25bce20cfc2693ae4547685db1e6c70a1853fdf5b31d6016869c94c2ba650648"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/sensor_frames/sensor_000504.png",
+      "bytes": 10049,
+      "sha256": "2ab53cd92217b003bd9339d5096d5995f0de1c9d0b5c2654d485e25f8914bcaa"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_16384/summary.json",
+      "bytes": 14205,
+      "sha256": "05f85eabfdac8cce1437c357c20bcb8a1f8f0a41c3e3485f7060402fa6e7a803"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/actual_input_0.png",
+      "bytes": 5423,
+      "sha256": "4911f0d6f782743ebf653ffc1f92f64d361c61645880d9f0f18414f1ee0a1a4b"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/actual_input_1.png",
+      "bytes": 8435,
+      "sha256": "b0f4a6ab4349f9c82ddd9836f2370019e93098458fe82c03cd2fd12531939cb8"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/actual_input_2.png",
+      "bytes": 6464,
+      "sha256": "89015e3482bfcad880c67c5b5a7273b455cfe87f0d8f246e1aeb400a22fb83d0"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/actual_input_3.png",
+      "bytes": 9817,
+      "sha256": "ae33eb1a912393a62bfe8cac6e3c6224b25b5663cf34c0222fa79de070bfe77f"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/actual_sensor.gif",
+      "bytes": 95889,
+      "sha256": "cf0e62866cd0a5df1ab161f42a75a3f3fa9e2d0dbcc4b9d6ee50a96ded2e47b1"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/COMPLETE.json",
+      "bytes": 18065,
+      "sha256": "f520158e6148c4916b69bc72cea2d8ea3f64bc4674181cd22edf9b5d9de2aa64"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/events.sqlite",
+      "bytes": 27058176,
+      "sha256": "61b1d247cee0ae394006c3405451d002b853ae91db3d47157c99e673dc60f603"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/identity.json",
+      "bytes": 205,
+      "sha256": "35e9af8449c84f6129fd92317f817c90decce3b79b96005b2b11cef96e289800"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/progress.json",
+      "bytes": 1107,
+      "sha256": "7b0f6a696b2ed00d7268506a266442a007577e0718dcae52fffe31f0824b4ca5"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/sensor_frames/sensor_000000.png",
+      "bytes": 9067,
+      "sha256": "19367eba75ec952777cd658445cc660a24c923eb58ca08ab2f235d84d805c949"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/sensor_frames/sensor_000021.png",
+      "bytes": 10924,
+      "sha256": "555aef091ac771e4e358735c0c17d4e36de6629a7692f2adee2d56b529183da6"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/sensor_frames/sensor_000042.png",
+      "bytes": 8907,
+      "sha256": "3089861f614e8f1e74e51523738a40e2d53da3da384e4732f31f7b70dae2a09a"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/sensor_frames/sensor_000063.png",
+      "bytes": 7523,
+      "sha256": "409608e7f7f63ecf8d932d4e4f07997482d26692a9b59b462e2356e32b78ef03"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/sensor_frames/sensor_000084.png",
+      "bytes": 6713,
+      "sha256": "4f21913b4c0e7f6d14ee5c8ba8293edb431f3af609d2425a53de7d7ea2c1ca29"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/sensor_frames/sensor_000105.png",
+      "bytes": 6826,
+      "sha256": "eafcdd17b3a7cab31f1c872c19ddd9007cb5fe6d872c84a40ff290672da8579c"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/sensor_frames/sensor_000126.png",
+      "bytes": 7019,
+      "sha256": "b7e479556581ffb02d7bc961d4409399c1cd75ad5a993b0a276b9d1da5108c60"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/sensor_frames/sensor_000147.png",
+      "bytes": 8208,
+      "sha256": "35a1da35aeaeb77f1ead67b39b1b374feba03bf946baef1858331dc19dd7b6af"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/sensor_frames/sensor_000168.png",
+      "bytes": 4433,
+      "sha256": "be2fdd0a403941b6cef7d4ed8e1f454106a14e37bd689349686131a81be41824"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/sensor_frames/sensor_000189.png",
+      "bytes": 4443,
+      "sha256": "4be0ce89817c45380502a02cce8da3b9484934cec0d12116d129762f612eaf97"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/sensor_frames/sensor_000210.png",
+      "bytes": 4703,
+      "sha256": "8c1c2ff487f0029c83f54ef05feece2b0f5cd4234b1e999b5a2acc704f0254a8"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/sensor_frames/sensor_000231.png",
+      "bytes": 4658,
+      "sha256": "04b55d94498f2f748045c51c2799cce74499cca22a1b341bf02e3b2f79660384"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/sensor_frames/sensor_000252.png",
+      "bytes": 4681,
+      "sha256": "d050b9e64e619361141e06b8882dcf6dd8e342a0a903654173610865370c7ae6"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/sensor_frames/sensor_000273.png",
+      "bytes": 4750,
+      "sha256": "9e2daf0c4588acbccf4ae9debed4c8517dbcc8aeb08f0d21de711b415854e2b3"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/sensor_frames/sensor_000294.png",
+      "bytes": 4815,
+      "sha256": "0b3d225b74fc3f7b1f12a7f65b0cfc34dbc662b86a256408c034d0863198b4cb"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/sensor_frames/sensor_000315.png",
+      "bytes": 4948,
+      "sha256": "db1198974b16e6df8b1096e7e2c820c4b7512fb2a28a1344415e9daf80ac43e3"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/sensor_frames/sensor_000336.png",
+      "bytes": 4735,
+      "sha256": "cbeb51d24d2acee617775f56698a7f311bf61be84b636364000a9b810de39fd4"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/sensor_frames/sensor_000357.png",
+      "bytes": 4687,
+      "sha256": "a6c12e7a3f901210b8f540833d13008afc13c49b0fb51500ce519067b627b36e"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/sensor_frames/sensor_000378.png",
+      "bytes": 4854,
+      "sha256": "ebd143c9ecf1e7d4fcb7f3c2a3641500e67ab6a38089b6c684338bf26fbfe5c9"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/sensor_frames/sensor_000399.png",
+      "bytes": 4859,
+      "sha256": "c9da7a753554f5dd55d6c30dd0f044ae328ab691e7f6c41aea391b4aa9a87134"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/sensor_frames/sensor_000420.png",
+      "bytes": 4937,
+      "sha256": "fc9e096ffa0cfa6d974491e53abec23c94172464d0913bcdd79bff5f06c24855"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/sensor_frames/sensor_000441.png",
+      "bytes": 5267,
+      "sha256": "4eced96f4383870cc3f9396d78519e5b8dca48e7296e78e4000183e7ab89dd1d"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/sensor_frames/sensor_000462.png",
+      "bytes": 5463,
+      "sha256": "6afd698bf9e8e65bea433de03affb34dbf6c68b799dc437807de0236742c4887"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/sensor_frames/sensor_000483.png",
+      "bytes": 5501,
+      "sha256": "434b28c1629b088afa7d046f75e277dd37feac18565183b9c38374a16e800833"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/sensor_frames/sensor_000504.png",
+      "bytes": 6092,
+      "sha256": "6bc8f63342b1079d643182038dcb634e5e564acfb87f428edb4783cb2bb4dfd8"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/stage_probes/stage_32768/summary.json",
+      "bytes": 14215,
+      "sha256": "195b1fa0d238fd37d6b3366fb31a917cb86cdb24ecde5478752154859b41767a"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/summary.json",
+      "bytes": 1327643,
+      "sha256": "60b1208bc2baab431de8b8dc039342c90d68faa619c4912f0abc0d5c666f1dfa"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/training_only_summary.json",
+      "bytes": 1325629,
+      "sha256": "c4cca91413330858148520046f52f472ccb7e326795b03775f1f61b9c1639a7a"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/COMPLETE.json",
+      "bytes": 1449,
+      "sha256": "a21d778beef38dad717bf6aa4c2563b9010a00aff5ed360562b6e190e8b9a42f"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/completion_audit.json",
+      "bytes": 2826,
+      "sha256": "3ff9fcd307ed7abad9369bc447f94af1aa957199802bf0d56b7fe53ba2742140"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/learning_process.png",
+      "bytes": 311998,
+      "sha256": "9d36f51c2e7e7e255f7863148d28b9d17492ad6a12d93000b032ce2e5b1f1020"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/measurements.json",
+      "bytes": 50160,
+      "sha256": "1c48f1bb444078ed3c101869467c33215da07179605475ebe61f67cec3527af4"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/provenance_check.json",
+      "bytes": 662,
+      "sha256": "0f207231921febfafde8a0a293b96045a3441df1e864a1eb7eeb29e6f37b2f9c"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/run.log",
+      "bytes": 437018,
+      "sha256": "46f2dd398bf5227b6c23436d09b6d8d33da52473cd9184a15b9e4cfac3d5b063"
+    },
+    {
+      "path": "tracking_v23/run.py",
+      "bytes": 12988,
+      "sha256": "00690a94b649e6334f869f9cfa6755d5c9e5c6e531b6ea77a27d663e8a73fce3"
+    },
+    {
+      "path": "tracking_v23/session.py",
+      "bytes": 15830,
+      "sha256": "a45ba8d85f0c36f276a1ea6a7e45b02d8f9ec91fbbe440a293e53288622b0900"
+    },
+    {
+      "path": "tracking_v23/smoke_source.py",
+      "bytes": 5486,
+      "sha256": "640ea85ffecaf4a090ae891f4634312dd9657d3959c58f76408a1eb6ea07e88f"
+    },
+    {
+      "path": "tracking_v23/STATUS.md",
+      "bytes": 1021,
+      "sha256": "a461e8ac370b480117113fdc571896e241bbbd5fd3206734b5d25b283add63c2"
+    },
+    {
+      "path": "tracking_v23/summarize_results.py",
+      "bytes": 8088,
+      "sha256": "b36a55d327f8fbbdd4d158ca5d8c415d93fdb960303ad4db1c544c62e5f99573"
+    },
+    {
+      "path": "tracking_v23/test_exploration_probe.py",
+      "bytes": 2499,
+      "sha256": "97ec960ed0979fb0ea007eb3b7c8589ad0365703d3db5af47fea0bd91b561ce6"
+    },
+    {
+      "path": "tracking_v23/test_neural.py",
+      "bytes": 6036,
+      "sha256": "439c6757b1aeda39f5c0040051d231ec4daec309ec5aca9ee21c674c548b44a8"
+    },
+    {
+      "path": "tracking_v23/test_persistence.py",
+      "bytes": 5116,
+      "sha256": "be6e1e5268bd62d7f8ed3e1086471aedfde1fe6ea399ac2fabb302c884cd67e2"
+    },
+    {
+      "path": "tracking_v23/test_runtime.py",
+      "bytes": 17490,
+      "sha256": "983899e48958dcb2acea1b4bcaae0357f6a4c649bbe36624d40d7ab30d8434de"
+    },
+    {
+      "path": "tracking_v23/test_vision.py",
+      "bytes": 5035,
+      "sha256": "2f93dbf452754cad5adc6caad8ce37659e2e16e54961842079cd3220a8609363"
+    },
+    {
+      "path": "tracking_v23/validation/actual_source_20261017/active/actual_input_0.png",
+      "bytes": 7899,
+      "sha256": "4a84f47db55da9a10e179e19f638c64109c906eeff4f8f1ed187087269db0ee5"
+    },
+    {
+      "path": "tracking_v23/validation/actual_source_20261017/active/actual_input_1.png",
+      "bytes": 7373,
+      "sha256": "e17c318478540693b951acae8052b21d4a52ef60ba885b4ae6d50f576f3ae78d"
+    },
+    {
+      "path": "tracking_v23/validation/actual_source_20261017/active/actual_input_2.png",
+      "bytes": 11523,
+      "sha256": "6bde167b0f55aeb73d885383d87c468c57fe038670a6ca31e22cee15341b6ccf"
+    },
+    {
+      "path": "tracking_v23/validation/actual_source_20261017/active/actual_input_3.png",
+      "bytes": 11663,
+      "sha256": "1fee17778374bd83aaeaab4fdaabac06c5e2e81f221f02bb4b75528e9ed2cbf8"
+    },
+    {
+      "path": "tracking_v23/validation/actual_source_20261017/active/actual_sensor.gif",
+      "bytes": 51109,
+      "sha256": "d1a393e97beaadbd0fe5ad06b5ed4b6faadebc87664a7b359682dc8888c63772"
+    },
+    {
+      "path": "tracking_v23/validation/actual_source_20261017/baseline/actual_input_0.png",
+      "bytes": 7899,
+      "sha256": "4a84f47db55da9a10e179e19f638c64109c906eeff4f8f1ed187087269db0ee5"
+    },
+    {
+      "path": "tracking_v23/validation/actual_source_20261017/baseline/actual_input_1.png",
+      "bytes": 7373,
+      "sha256": "e17c318478540693b951acae8052b21d4a52ef60ba885b4ae6d50f576f3ae78d"
+    },
+    {
+      "path": "tracking_v23/validation/actual_source_20261017/baseline/actual_input_2.png",
+      "bytes": 11523,
+      "sha256": "6bde167b0f55aeb73d885383d87c468c57fe038670a6ca31e22cee15341b6ccf"
+    },
+    {
+      "path": "tracking_v23/validation/actual_source_20261017/baseline/actual_input_3.png",
+      "bytes": 11663,
+      "sha256": "1fee17778374bd83aaeaab4fdaabac06c5e2e81f221f02bb4b75528e9ed2cbf8"
+    },
+    {
+      "path": "tracking_v23/validation/actual_source_20261017/baseline/actual_sensor.gif",
+      "bytes": 49863,
+      "sha256": "5274ce9297bf1089609ad6fef76022442da62baa856a334cba7dc50f53a94f58"
+    },
+    {
+      "path": "tracking_v23/validation/actual_source_20261017/CHECKS.json",
+      "bytes": 2058,
+      "sha256": "7ae8c6a1710678fc3bd5ddfaea239f95e60b44aa11bfb1d199bf39b04c106cd0"
+    },
+    {
+      "path": "tracking_v23/validation/actual_source_learning_20261017/active/actual_input_0.png",
+      "bytes": 7899,
+      "sha256": "4a84f47db55da9a10e179e19f638c64109c906eeff4f8f1ed187087269db0ee5"
+    },
+    {
+      "path": "tracking_v23/validation/actual_source_learning_20261017/active/actual_input_1.png",
+      "bytes": 7373,
+      "sha256": "e17c318478540693b951acae8052b21d4a52ef60ba885b4ae6d50f576f3ae78d"
+    },
+    {
+      "path": "tracking_v23/validation/actual_source_learning_20261017/active/actual_input_2.png",
+      "bytes": 11523,
+      "sha256": "6bde167b0f55aeb73d885383d87c468c57fe038670a6ca31e22cee15341b6ccf"
+    },
+    {
+      "path": "tracking_v23/validation/actual_source_learning_20261017/active/actual_input_3.png",
+      "bytes": 11663,
+      "sha256": "1fee17778374bd83aaeaab4fdaabac06c5e2e81f221f02bb4b75528e9ed2cbf8"
+    },
+    {
+      "path": "tracking_v23/validation/actual_source_learning_20261017/active/actual_sensor.gif",
+      "bytes": 224968,
+      "sha256": "709e195dd3dec2b19a14e982619631ffba49abeda9134ebd3f31147c04fcd78c"
+    },
+    {
+      "path": "tracking_v23/validation/actual_source_learning_20261017/baseline/actual_input_0.png",
+      "bytes": 7899,
+      "sha256": "4a84f47db55da9a10e179e19f638c64109c906eeff4f8f1ed187087269db0ee5"
+    },
+    {
+      "path": "tracking_v23/validation/actual_source_learning_20261017/baseline/actual_input_1.png",
+      "bytes": 7373,
+      "sha256": "e17c318478540693b951acae8052b21d4a52ef60ba885b4ae6d50f576f3ae78d"
+    },
+    {
+      "path": "tracking_v23/validation/actual_source_learning_20261017/baseline/actual_input_2.png",
+      "bytes": 11523,
+      "sha256": "6bde167b0f55aeb73d885383d87c468c57fe038670a6ca31e22cee15341b6ccf"
+    },
+    {
+      "path": "tracking_v23/validation/actual_source_learning_20261017/baseline/actual_input_3.png",
+      "bytes": 11663,
+      "sha256": "1fee17778374bd83aaeaab4fdaabac06c5e2e81f221f02bb4b75528e9ed2cbf8"
+    },
+    {
+      "path": "tracking_v23/validation/actual_source_learning_20261017/baseline/actual_sensor.gif",
+      "bytes": 198841,
+      "sha256": "d1aabb83e7c518240b3379e9a89e6142ffa312c947943363b9bb2c5d85f03023"
+    },
+    {
+      "path": "tracking_v23/validation/actual_source_learning_20261017/CHECKS.json",
+      "bytes": 7360,
+      "sha256": "4e39444569fc41c73a28bbf504e5cf730306257ceca94c26deff280450f007f8"
+    },
+    {
+      "path": "tracking_v23/vision.py",
+      "bytes": 4029,
+      "sha256": "cefcac0ff46b81d38a213317591b0ae918d2d8359c8a7772ce0d5ef25e51ac43"
+    }
+  ],
+  "source_bytes": 1356003316,
+  "zip_bytes": 599596803,
+  "zip_sha256": "d94aa5ddd76a93ba8e12bfa73947a248af47b975c82ec7b310048cb53fc24192",
+  "parts": [
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part001",
+      "bytes": 41943040,
+      "sha256": "6251790a914f60d5951b7e5c9c7e9d1c5bde4783cc5088336f7c2bbf1580cf45"
+    },
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part002",
+      "bytes": 41943040,
+      "sha256": "d85d0fb9c20e3d2efd955dccc0aa867c9b65a1338ede731259302e91dc0f5480"
+    },
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part003",
+      "bytes": 41943040,
+      "sha256": "e62bde1c82f9424ee64fc1976de0ce37f5de67e78f2964459c4379569dfee413"
+    },
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part004",
+      "bytes": 41943040,
+      "sha256": "c9231151c3d2b2f842e50fcd88c4663b1e9ade4bd0c1d87ee51284d1b17ce365"
+    },
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part005",
+      "bytes": 41943040,
+      "sha256": "74b3c6be8fdcb63d41579d7324828219b7b36c167490d11bd88137a0edeb560f"
+    },
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part006",
+      "bytes": 41943040,
+      "sha256": "b69d810a0d3222f87fd720196521fadb6402296ae1e6298d2cf85e122c441fcd"
+    },
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part007",
+      "bytes": 41943040,
+      "sha256": "0a194c04dacb92dced0f036d6cd4c0a5c1accfe2e990a29e0e1c5ef4905d363f"
+    },
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part008",
+      "bytes": 41943040,
+      "sha256": "7860ded6c9a541983c576e4b203b2a8dfeb0ce2e61b8adb15700a54c8c4dbb1f"
+    },
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part009",
+      "bytes": 41943040,
+      "sha256": "999d3bccc534b54325c1d3e4489f4126a755b1821ad0b22e06164713df8b3106"
+    },
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part010",
+      "bytes": 41943040,
+      "sha256": "a9565917118204669c3e71cbd2199a9e2a1a2e36ebf6cc6d493daabef354da76"
+    },
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part011",
+      "bytes": 41943040,
+      "sha256": "e208733ba207a59e4b9c19d33331ed9ee5c440b3c818a8cc2c5ae29b4a910237"
+    },
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part012",
+      "bytes": 41943040,
+      "sha256": "7fef1347bc7518a23ced34495108b3d249df94af72050e97311ffb8e78660090"
+    },
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part013",
+      "bytes": 41943040,
+      "sha256": "06053904695878e4d65cc8c3cdb2a95db71d32d3e8498390576397f8a18a4b60"
+    },
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part014",
+      "bytes": 41943040,
+      "sha256": "f17b7f1150e0dc0ad2e58f242c8ea986e06d1295a1e1642f4c6986833b8a0894"
+    },
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part015",
+      "bytes": 12394243,
+      "sha256": "791e84e196aa2dd0b810ffe453ddec11498f1bbe3a50c18981de93ed2a6fd251"
+    }
+  ]
+}

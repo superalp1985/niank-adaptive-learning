@@ -1,0 +1,84 @@
+{
+  "repository": "superalp1985/niank-adaptive-learning",
+  "tag": "research-v23-extended-practice-20261017",
+  "manifest_sha256": "9d127e9000c8f774d2f3b8a14873da2158a4921ac57a67457073d514b34a076d",
+  "remote_manifest_sha256": "9d127e9000c8f774d2f3b8a14873da2158a4921ac57a67457073d514b34a076d",
+  "verified_utc": "2026-10-16T21:08:04.110495+00:00",
+  "parts": [
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part001",
+      "bytes": 41943040,
+      "sha256": "6251790a914f60d5951b7e5c9c7e9d1c5bde4783cc5088336f7c2bbf1580cf45"
+    },
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part002",
+      "bytes": 41943040,
+      "sha256": "d85d0fb9c20e3d2efd955dccc0aa867c9b65a1338ede731259302e91dc0f5480"
+    },
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part003",
+      "bytes": 41943040,
+      "sha256": "e62bde1c82f9424ee64fc1976de0ce37f5de67e78f2964459c4379569dfee413"
+    },
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part004",
+      "bytes": 41943040,
+      "sha256": "c9231151c3d2b2f842e50fcd88c4663b1e9ade4bd0c1d87ee51284d1b17ce365"
+    },
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part005",
+      "bytes": 41943040,
+      "sha256": "74b3c6be8fdcb63d41579d7324828219b7b36c167490d11bd88137a0edeb560f"
+    },
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part006",
+      "bytes": 41943040,
+      "sha256": "b69d810a0d3222f87fd720196521fadb6402296ae1e6298d2cf85e122c441fcd"
+    },
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part007",
+      "bytes": 41943040,
+      "sha256": "0a194c04dacb92dced0f036d6cd4c0a5c1accfe2e990a29e0e1c5ef4905d363f"
+    },
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part008",
+      "bytes": 41943040,
+      "sha256": "7860ded6c9a541983c576e4b203b2a8dfeb0ce2e61b8adb15700a54c8c4dbb1f"
+    },
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part009",
+      "bytes": 41943040,
+      "sha256": "999d3bccc534b54325c1d3e4489f4126a755b1821ad0b22e06164713df8b3106"
+    },
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part010",
+      "bytes": 41943040,
+      "sha256": "a9565917118204669c3e71cbd2199a9e2a1a2e36ebf6cc6d493daabef354da76"
+    },
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part011",
+      "bytes": 41943040,
+      "sha256": "e208733ba207a59e4b9c19d33331ed9ee5c440b3c818a8cc2c5ae29b4a910237"
+    },
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part012",
+      "bytes": 41943040,
+      "sha256": "7fef1347bc7518a23ced34495108b3d249df94af72050e97311ffb8e78660090"
+    },
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part013",
+      "bytes": 41943040,
+      "sha256": "06053904695878e4d65cc8c3cdb2a95db71d32d3e8498390576397f8a18a4b60"
+    },
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part014",
+      "bytes": 41943040,
+      "sha256": "f17b7f1150e0dc0ad2e58f242c8ea986e06d1295a1e1642f4c6986833b8a0894"
+    },
+    {
+      "name": "research-v23-extended-practice-20261017.zip.part015",
+      "bytes": 12394243,
+      "sha256": "791e84e196aa2dd0b810ffe453ddec11498f1bbe3a50c18981de93ed2a6fd251"
+    }
+  ]
+}

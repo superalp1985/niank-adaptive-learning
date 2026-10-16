@@ -9,10 +9,30 @@
 结果、阶段过程与限制见 [REPORT_V23_ZH.md](REPORT_V23_ZH.md)。
 
 完整归档标签为 `research-v23-extended-practice-20261017`。
-当前正在准备完整快照；上传和远端完整读回核验尚未完成。
-在核验完成前不删除任何原始数据。
+2026-10-17 已发布、完成全部远端读回核验和选择性清理。
+源码与报告提交为 `d73b4a2fd86932ce367fde6a3f1bed006253e156`。
 
-核验后仅清理本轮 `stage_probes/`、`final_probe/`、`diagnostics/`、
-`exploring_frozen_probe/` 中的观察数据库及上传暂存。
-保留两臂主训练数据库、全部 12 份阶段／最终权重和 V22 续接工作集。
+快照共 595 个文件、1,356,003,316 原始字节；
+ZIP 为 599,596,803 字节、15 个分片，SHA-256 为
+`d94aa5ddd76a93ba8e12bfa73947a248af47b975c82ec7b310048cb53fc24192`。
+GitHub 工作流 `38966723767` 成功，上传 HEAD 为
+`455a49617065f523cd221f5bc7d4726e44305764`。
+Release `415378631` 的 16 个资产名称、大小和 SHA-256 元数据匹配；
+15 个分片随后全部完整流式读回，长度和 SHA-256 均通过。
+没有在 C 盘保存下载副本。
+
+清理仅删除本轮 `stage_probes/`、`final_probe/`、`diagnostics/`、
+`exploring_frozen_probe/` 中的 12 个观察数据库，释放 391,086,080 字节。
+另删除 31 个已核验上传暂存文件，释放 1,795,400,186 字节；
+合计释放 2,186,486,266 字节，约 2.19 GB，包含临时重复副本。
+
+两臂主训练数据库、全部 12 份阶段／最终权重和 V22 续接工作集保留。
+清理后、更新本发布状态前，全部 583 个保留文件哈希与快照一致，
+V22 源数据库仍未改变。没有清理其他版本、共享环境或缓存。
+临时远端上传分支已删除，Release 长期保留。
+
+完整清单与收据见
+[归档目录](../archives/research-v23-extended-practice-20261017/)：
+`manifest.json`、`release.json`、`verified.json`、`cleanup.json`、
+`staging-cleanup.json`、`retained-check.json` 和 `PUBLISH_NOTES.md`。
 发布后状态更新与收据保存在 main，完整快照保持不变。

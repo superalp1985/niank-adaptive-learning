@@ -1,0 +1,84 @@
+{
+  "tag": "research-v23-extended-practice-20261017",
+  "verified_utc": "2026-10-16T21:09:27.955766+00:00",
+  "manifest_sha256": "9d127e9000c8f774d2f3b8a14873da2158a4921ac57a67457073d514b34a076d",
+  "retained_files_checked": 583,
+  "removed_observation_databases": 12,
+  "all_retained_hashes_match": true,
+  "main_databases": [
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/events.sqlite",
+      "bytes": 519880704,
+      "sha256": "22341d95502d47382f63a276d33aa2a21c12da09b22842a3e1900215335642fe"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/events.sqlite",
+      "bytes": 395829248,
+      "sha256": "6ba1687bd18074fe78de87966f95d583c8f61a383c1f88301a4a2cffcc97a844"
+    }
+  ],
+  "weights": [
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/learner.pt",
+      "bytes": 3049437,
+      "sha256": "a7d8fd5212cd15ece4a5a5fde9418e375cf67177435dab63aaa37a8fe2d1d742"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/learner_step_00000.pt",
+      "bytes": 3029501,
+      "sha256": "35188e8ec5f5df1da115b9fde99b1563c995f27caa88f8a50da0d989c0939605"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/learner_step_08192.pt",
+      "bytes": 3795777,
+      "sha256": "1a065651c390b1ae8dbedd7dc5830ceca5a0aefaeadc6de1185c44ccec77cd3e"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/learner_step_16384.pt",
+      "bytes": 3795777,
+      "sha256": "5eae0bbd9d55e188e43a4b373335c0294ef450a82efb171aab9aa2539bca3261"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/learner_step_24576.pt",
+      "bytes": 3795905,
+      "sha256": "eea05045a21a152283181c50ab98215edb976a563892472dd2cad39feb5490ac"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/active/learner_step_32768.pt",
+      "bytes": 3795969,
+      "sha256": "8941221e7ca1d804e527fb8d8501491f3168dc1d736df3b5e6dd55ba108fafc1"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/learner.pt",
+      "bytes": 1712219,
+      "sha256": "a6340c8e29ec839ba385cacf73ee3621d667ba5731fa683849ecd503ceef3017"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/learner_step_00000.pt",
+      "bytes": 1712219,
+      "sha256": "e067797bf156f5036d6a389d25ffeb4aa694196e6611e2dd28c6cb6691609e2e"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/learner_step_08192.pt",
+      "bytes": 2124800,
+      "sha256": "b1b781cae6330d85d28fb511d084ddf9f27015237762022757708bbad430e937"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/learner_step_16384.pt",
+      "bytes": 2124736,
+      "sha256": "1e0e1c92efbded4dbad18e9a46c38270a3ebca7e7bb0f696c731fd9063b1ccda"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/learner_step_24576.pt",
+      "bytes": 2124736,
+      "sha256": "4b57479c4358d39a634552c2b729195f3643c48886719fe9eb75ee66295d2304"
+    },
+    {
+      "path": "tracking_v23/results/extended_practice_20261017/baseline/learner_step_32768.pt",
+      "bytes": 2124736,
+      "sha256": "8d19ca4dfc2ddae6609f4a8a1ef7089470318ebd7bb0a2239baf5c2dbc2baabe"
+    }
+  ],
+  "source_database_sha256": "9f6b104c938d15907c154fed2150e39055f7d3f722df0cb1ccf1f261f4e67ce7",
+  "note": "Checked after cleanup and before publication-status document updates; immutable snapshot is unchanged."
+}

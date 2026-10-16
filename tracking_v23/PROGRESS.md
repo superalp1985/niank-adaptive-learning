@@ -125,3 +125,14 @@ the 14 runtime source hashes per arm matched and the V22 source was unchanged.
 The Chinese report and compact measurements are complete. Archive and
 selective cleanup receipts are tracked in STATUS.md; no running algorithm
 source was changed during analysis.
+
+## Publication complete
+
+The immutable snapshot contains 595 files and 15 ZIP parts. GitHub workflow
+38966723767 succeeded; all Release asset metadata matched and every part was
+read back in full with matching size and SHA-256. Selective cleanup removed
+12 observation databases and verified upload staging, freeing 2186486266
+bytes including duplicates. Both main databases, all 12 weights and the V22
+continuation source remain. All 583 retained snapshot files matched before
+these publication-status updates. The temporary upload branch was deleted;
+Release data and all receipts remain available. See STATUS.md.

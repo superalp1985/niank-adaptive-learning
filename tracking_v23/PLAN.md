@@ -76,5 +76,6 @@ canonicalize unpersisted physics solver caches in both arms.
 - Active extended practice and planned observations: complete.
 - Full training-record audit and source-preservation checks: complete.
 - Supplemental frozen exploration and final report: complete.
-- Complete archive and remote readback: pending; see STATUS.md.
-- Verified cleanup: pending; keep both main databases and all model milestones.
+- Complete archive and remote readback: complete; all 15 parts verified.
+- Verified selective cleanup: complete; both main databases and all 12 model
+  milestones retained. Publication and preservation receipts are in STATUS.md.
