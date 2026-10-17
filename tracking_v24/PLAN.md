@@ -65,6 +65,6 @@ Files: `tracking_v24/analyze.py`, `tracking_v24/REPORT_V24_ZH.md`,
 `tracking_v24/STATUS.md`, versioned archive receipts.
 
 - [x] Report quarter-by-quarter and frozen behavior, mechanisms and limits.
-- [ ] Commit/push code and report, prepare and publish complete archive.
-- [ ] Verify remote parts, clean only selected verified duplicates, retain
+- [x] Commit/push code and report, prepare and publish complete archive.
+- [x] Verify remote parts, clean only selected verified duplicates, retain
   source/continuation runtimes and milestone weights.

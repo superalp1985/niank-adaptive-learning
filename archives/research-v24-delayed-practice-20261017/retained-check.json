@@ -1,0 +1,15 @@
+{
+  "tag": "research-v24-delayed-practice-20261017",
+  "retained_files_checked": 528,
+  "retained_bytes": 2039753251,
+  "missing": [],
+  "changed": [],
+  "deleted_files": 11,
+  "main_training_databases_retained": [
+    true,
+    true
+  ],
+  "model_files_retained": 12,
+  "source_database_sha256": "22341d95502d47382f63a276d33aa2a21c12da09b22842a3e1900215335642fe",
+  "source_database_unchanged": true
+}
