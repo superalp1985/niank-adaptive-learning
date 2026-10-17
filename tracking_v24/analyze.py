@@ -149,8 +149,8 @@ def delayed_process(db, origin, steps, width):
     if not rows:
         return dict(updates=0, samples=0, horizons={}, intervals=[])
     statistics, zero_loss_sum, scalar_count = {}, 0., 0
-    for horizon, start, end, raw in db.execute(
-            "SELECT horizon,start,end,target FROM delayed_outcomes ORDER BY end"):
+    for horizon, start, end, action, raw in db.execute(
+            "SELECT horizon,start,end,action,target FROM delayed_outcomes ORDER BY end"):
         target = np.frombuffer(raw, np.float32).astype(np.float64)
         absolute = np.abs(target)
         loss = np.where(absolute < 1, .5*absolute**2, absolute-.5)
@@ -158,13 +158,14 @@ def delayed_process(db, origin, steps, width):
         scalar_count += len(target)
         item = statistics.setdefault(horizon, dict(
             targets=0, truncated=0, duration_sum=0., sums=np.zeros(7),
-            positives=np.zeros(7), zero_loss_sum=0.))
+            positives=np.zeros(7), zero_loss_sum=0., action_counts=np.zeros(27, np.int64)))
         item["targets"] += 1
         item["truncated"] += end-start < horizon
         item["duration_sum"] += (end-start)*.01
         item["sums"] += target
         item["positives"] += target > 0
         item["zero_loss_sum"] += float(loss.sum())
+        item["action_counts"][action] += 1
     horizons = {}
     for horizon, item in statistics.items():
         count = item["targets"]
@@ -173,6 +174,7 @@ def delayed_process(db, origin, steps, width):
             mean_realized_seconds=item["duration_sum"]/count,
             mean_target=(item["sums"]/count).tolist(),
             positive_target_fraction=(item["positives"]/count).tolist(),
+            joint_action_counts=item["action_counts"].tolist(),
             zero_predictor_smooth_l1=item["zero_loss_sum"]/(count*7))
     intervals = []
     for low in range(0, steps+width, width):
